@@ -20,4 +20,8 @@
 
 
 # 6
+# Prompt the user for a string that contains letters and numbers. Print only the number digits. Hint: use isnumeric. Look up how that function works, then ask for help as needed.
+
+
+# 7
 # Prompt the user for a word, then display it reversed. (For a challenge, don’t use the built-in function for reversing things.)
