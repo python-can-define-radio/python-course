@@ -1,3 +1,15 @@
+# Change your current directory
+cd newLocation
+
+# List what's in this directory
+ls
+
+# Write "Hello world" to a file, overwriting whatever is there
+echo "Hello World" > myfile.txt
+
+# Write "Hello world" to the end of a file
+echo "Hello World" >> myfile.txt
+
 # Copy file
 cp original.txt new.txt
 
