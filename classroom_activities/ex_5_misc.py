@@ -17,3 +17,7 @@
 
 # 5
 # Modify the previous question so that it converts the given number from MHz to GHz.
+
+
+# 6
+# Prompt the user for a word, then display it reversed. (For a challenge, don’t use the built-in function for reversing things.)
