@@ -25,6 +25,9 @@ cat myfile.txt
 # Display multiple files, concatenated  (this is the origin of the name cat)
 cat somefile.txt anotherfile.txt
 
+# Display contents in a tree
+tree
+
 # Display file with ability to scroll using arrow keys.
 # Press q to quit
 less myfile.txt
