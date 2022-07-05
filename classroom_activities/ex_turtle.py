@@ -43,10 +43,10 @@ turtle.forward(30)
 # Try this.
 
 def drawAShape():
-  turtle.forward(100)
-  turtle.left(140)
-  turtle.forward(50)
-  turtle.right(140)
+    turtle.forward(100)
+    turtle.left(140)
+    turtle.forward(50)
+    turtle.right(140)
 
 drawAShape()
 turtle.penup()
