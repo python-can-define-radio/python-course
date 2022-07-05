@@ -140,7 +140,7 @@ print(f"One more would be {onemore}.")
 
 
 ## 22
-## Ask the user for a number of questions on a test,
+## Ask the user for the number of questions on a test,
 ## and ask "how many did you get right?"
 ## Then, display "You got ___% right". (You'll need to calculate the percent.)
 
