@@ -67,10 +67,18 @@ drawAShape()
 # Copy and modify the previous example so that it draws three separate squares.
 
 # 10
-# Try this.
+# Try this. Press the up and left keys on your keyboard.
 
-def dosomething():
+def mvfwd():
     turtle.forward(100)
 
-turtle.onkeypress(dosomething, "Up")
+def turnleft():
+    turtle.left(90)
+
+
+turtle.onkeypress(mvfwd, "Up")
+turtle.onkeypress(turnleft, "Left")
 turtle.listen()
+
+something = input("Press enter to exit")
+
