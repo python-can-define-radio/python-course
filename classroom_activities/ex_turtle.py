@@ -39,6 +39,52 @@ turtle.forward(30)
 # Draw three separate lines.
 
 
+# 6b
+# Draw three separate squares.
+
+
+# 6c
+# Draw three separate triangles.
+
+
+# 6d
+# Try this.
+
+def drawAShape():
+    turtle.forward(100)
+    turtle.left(140)
+    turtle.forward(50)
+    turtle.right(140)
+    
+drawAShape()
+turtle.penup()
+turtle.forward(10)
+turtle.pendown()
+drawAShape()
+
+
+# 6e
+# Try this.
+
+def drawZ():
+    turtle.forward(100)
+    turtle.right(140)
+    turtle.forward(100)
+    turtle.left(140)
+    turtle.forward(100)
+    
+drawZ()
+turtle.penup()
+turtle.forward(10)
+turtle.pendown()
+drawZ()
+
+
+# 6f
+# Copy and modify the previous example so that it draws two C's
+# instead of two Z's.
+
+
 # 7
 # Try this.
 
