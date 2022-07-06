@@ -132,8 +132,121 @@ something = input("Press enter to exit")
 # 11
 # Define a function to draw a square.
 
+
 # 12
 # Make it so if you press "s" on your keyboard, the turtle will draw a square.
 
 
+# 13
+# Try this.
+linelength = 100
+turtle.forward(linelength)
 
+
+# 14
+# Modify the previous example to ask the user what length of line to draw.
+
+
+# 15
+# Try this.
+def drawTwoSides(thelen):
+    turtle.forward(thelen)
+    turtle.left(90)
+    turtle.forward(thelen)
+
+drawTwoSides(100)
+
+
+# 16
+# Try this.
+def drawTwoSides(thelen):
+    turtle.forward(thelen)
+    turtle.left(90)
+    turtle.forward(thelen)
+
+lee = 100
+drawTwoSides(lee)
+
+
+# Some notes on terminology:
+# In the previous example, `thelen` is a parameter of the function `drawTwoSides`.
+# (The word "argument" is sometimes used instead of "parameter".)
+# The functions that we defined before this did not have any parameters.
+# You've already seen functions that use parameters, such as print() and turtle.forward().
+
+
+# 17
+# Modify the previous example so that `lee` comes from user input.
+# For the sake of the exercise, don't change the inside of the function.
+# (Ask if you don't know what that means.)
+
+
+# 18
+# Define a drawSquare function in the same style as drawTwoSides.
+# In other words, the function should have one parameter called thelen.
+# After defining the function, run drawSquare with length 100.
+# Also, run drawSquare with length 200.
+# Your code should look like this:
+
+def drawSquare(thelen):
+    you_write_code_here
+
+drawSquare(100)
+drawSquare(200)
+
+# 19
+# Try this. You'll need your drawSquare function from the previous question.
+
+lee = int(input("How big should the square be?"))
+drawSquare(lee)
+
+# 20
+# Modify the previous example like so:
+# If the user picks a size that is negative, then let the user know that the side length must be positive.
+# If the user picks a size that is too big, then let the user know that the side length is too big.
+#  ("too big" is up to you to decide.)
+# Otherwise, draw a square with the specified length.
+
+
+# 21
+# Try this:
+
+keepGoing = "yes"
+while keepGoing == "yes":
+    print("Hello")
+    keepGoing = input("Do you want the program to continue? Type 'yes' to continue.")
+
+print("We're done. Go take a break to stretch.")
+
+
+# 22
+# Modify the previous example so that every time the user types "yes",
+# the turtle moves forward 10 units and turns left 45 degrees.
+
+
+# 23
+# Modify the previous example so that every time the user types "yes",
+# it asks the user "How far do you want the turtle to move?".
+# Then move the turtle forward the amount that the user specifies.
+
+
+# 24
+# Modify the previous example so that every time the user types "yes",
+# it asks the user "What size square would you like to draw?".
+# Then draw a square (using drawSquare) with the length that the user specifies.
+
+
+# 25
+# Try this.
+lengths = [100, 50, 20, 200]
+for leng in lengths:
+    print(leng)
+
+# 26
+# Modify the previous example so that after it prints the length,
+# it moves the turtle forward that far.
+# (In other words, the first time that the loop runs, it should move forward 100 units,
+#  the second time, it should move 50 units, etc)
+
+# 27
+# Modify the previous example so that it turns 90 degrees after each forward movement.
