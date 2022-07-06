@@ -1,12 +1,13 @@
 # 1
 # Try this.
 import turtle
+import time
 
 turtle.forward(100)
 turtle.left(90)
 turtle.forward(100)
-something = input("Press enter to exit.")
 
+time.sleep(99999)
 
 
 # 2
@@ -15,7 +16,8 @@ something = input("Press enter to exit.")
 turtle.forward(100)
 turtle.right(90)
 turtle.forward(100)
-something = input("Press enter to exit.")
+
+time.sleep(99999)
 
 
 # 3
@@ -126,8 +128,7 @@ turtle.onkeypress(mvfwd, "Up")
 turtle.onkeypress(turnleft, "Left")
 turtle.listen()
 
-something = input("Press enter to exit")
-
+time.sleep(99999)
 
 # 11
 # Define a function to draw a square.
