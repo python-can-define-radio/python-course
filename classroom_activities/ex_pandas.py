@@ -24,7 +24,8 @@ print(fakeSmokerData[fakeSmokerData["age_started_smoking"] < 20])
 below20 = fakeSmokerData[fakeSmokerData["age_started_smoking"] < 20]
 print(len(below20))
 
-
+## 5
+## Print the rows of people who are currently older than 50.
 
 
 
