@@ -26,7 +26,7 @@ print(f"My name is {firstn} {lastn}")
 
 
 ## 5
-## Try this.
+## Try this. When you run it, it will ask you to type something.
 firstn = input("What is your first name?")
 lastn = "Smith"
 print(f"Your name is {firstn} {lastn}.")
