@@ -128,3 +128,12 @@ turtle.listen()
 
 something = input("Press enter to exit")
 
+
+# 11
+# Define a function to draw a square.
+
+# 12
+# Make it so if you press "s" on your keyboard, the turtle will draw a square.
+
+
+
