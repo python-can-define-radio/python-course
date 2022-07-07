@@ -100,6 +100,7 @@ print("Ok, stopping.")
 ## 14
 ## Copy and modify the previous example like so:
 ## If the user types anything other than "no", then keep going.
+## (So the user could type "yes", "hi", etc.)
 
 
 ## 15
@@ -145,4 +146,90 @@ while num != -1:
 ## 20
 ## Copy and modify the previous example so that it does not display
 ## the doubled number if the user enters -1.
+
+
+## 21
+## Try this.
+## As a reminder, use Ctrl + C to exit a program.
+while 2 + 2 == 4:
+    print("Hi")
+print("Done")
+    
+    
+## 22
+## Try this.
+while 2 + 2 == 5:
+    print("Hi")
+print("Done")
+
+
+## 23
+## Try this.
+while 3 > 2:
+    print("Hi")
+print("Done")
+
+
+## 24
+## Try this.
+while 2 == 2:
+    print("Hi")
+print("Done")
+
+
+## 25
+## Try this.
+while True == True:
+    print("Hi")
+print("Done")
+
+
+## 25
+## Try this. It's a little less obvious.
+while True:
+    print("Hi")
+print("Done")
+
+
+## 26
+## Make a loop that displays a message of your choice
+## repeatedly forever.
+
+
+## 27
+## Try this.
+while 1 == 1:
+    color = input("What is your favorite color?")
+    print(f"Ok, {color} is a nice color.")
+
+
+## 25
+## Copy and modify the previous example so that in
+## every iteration of the loop, it asks the user for the name of an animal,
+## and then it displays "The ____ says 'meow'."
+
+
+## 26
+## Copy and modify the previous example so that
+## it asks for both the name of the animal and what the animal says,
+## and then displays "The ___ says '___'."
+
+
+## 27
+## Copy and modify the previous example so that
+## if the animal is "cat" and the sound is "meow",
+## it exits the loop.
+## The command for exiting the loop is `break`.
+## An example of how to use `break` is below.
+
+
+## 28
+## Try this.
+print("Welcome to another version of the number doubler.")
+while True:
+    num = int(input("Type a number, or type -1 to quit: "))
+    if num == -1:
+        break
+    print(f"Double your num is {num * 2}.")
+
 
