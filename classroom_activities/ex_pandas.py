@@ -1,5 +1,8 @@
 ## Preliminaries:
-## - Install pandas using pip. (Don't use conda.) Ask the instructor how, or see pandas.pydata.org
+## - Install pandas using pip:
+##   In the terminal, type
+##     pip install pandas
+##
 ## - Download the fake smoker data csv file from our classroom_activities folder.
 ##   (Sidenote for those who are interested: the code I used to generate the fake smoker data is at the bottom of this file.)
 
