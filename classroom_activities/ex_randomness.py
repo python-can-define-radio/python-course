@@ -38,5 +38,14 @@ print(oneNum)
 
 ## 7
 ## Try this.
+## Does the randomly chosen number include the endpoint?
+## (In other words, is it similar to range?)
 num = random.randint(3, 6)
 print(num)
+
+
+## 8
+## Make a random score generator using randint.
+## Give the user a randomly chosen score: display "You got a ___ on the test".
+## (It's up to you how high or low you want your random grades to be.)
+
