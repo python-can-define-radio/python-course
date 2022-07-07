@@ -1,0 +1,8 @@
+- Making a web server 
+- Making games using turtle
+- Processing Excel docs
+
+
+
+
+- Batch editing images (such as cropping all images to a certain size)
