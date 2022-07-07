@@ -1,10 +1,42 @@
-# Before starting the exercise, type this at the top of your file:
+## Before starting the exercise, type this at the top of your file:
 import random
 
 
-# Once you've added that, try these exercises.
+## Once you've added that, try these exercises.
 
-# 1
-# Try this.
+## 1
+## Try this.
 things = ["dinosaur", "dog", "cat"]
 print(random.choice(things))
+
+
+## 2
+## Make a list of five words of your choice. Print a randomly chosen word.
+
+
+## 3
+## Make a list of five phrases (instead of single words). Print a randomly chosen phrase.
+
+
+## 4
+## Try this.
+nums = [28, 99, 7]
+oneNum = random.choice(nums)
+print(oneNum)
+
+
+## 5
+## Make a list of five numbers.  Print "I randomly picked a number, and I got ____".
+
+
+## 6
+## Copy and modify the previous example.
+## After displaying the number you picked,
+## if the randomly picked number was more than 40, print "It was a big number."
+## Otherwise, print "It was not a very big number."
+
+
+## 7
+## Try this.
+num = random.randint(3, 6)
+print(num)
