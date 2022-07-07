@@ -37,6 +37,11 @@ print(f"Your name is {firstn} {lastn}.")
 ## instead of assuming the last name is Smith.
 
 
+## 6b
+## Ask the user for their first name, middle name, and last name.
+## Print "Your name is __ __ __" (filling in their first name, middle name, and last name).
+
+
 ## 7
 ## Ask the user for a color, and then say
 ## "___ is a pretty color."
