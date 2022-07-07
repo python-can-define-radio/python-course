@@ -16,26 +16,40 @@ f.close()
 import pandas as pd
 fakeSmokerData = pd.read_csv("fake_smoker_data.csv")
 
+
 ## 3
 ## Try this:
 print(fakeSmokerData)
+
 
 ## 4
 ## This is just the index of those who started smoking before age 20.
 print(fakeSmokerData["age_started_smoking"] < 20)
 
+
 ## 5
 ## If we want to see the rest of the data for those rows, we do this.
 print(fakeSmokerData[fakeSmokerData["age_started_smoking"] < 20])
+
 
 ## 6
 ## We can see how many people strted smoking before 20:
 below20 = fakeSmokerData[fakeSmokerData["age_started_smoking"] < 20]
 print(len(below20))
 
+
 ## 7
 ## Print the rows of people who are currently older than 50.
 
+
+## 8
+## Try this:
+print(fakeSmokerData.sort_values("current_age"))
+
+
+## 9
+## Try this:
+print(fakeSmokerData.sort_values("age_started_smoking"))
 
 
 
