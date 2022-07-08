@@ -51,3 +51,7 @@
 -  Web server using Django:
    (This one is a bit steeper of a learning curve than the Flask one)
    https://djangoproject.com/
+
+
+-  Practice problems:
+   https://codingbat.com/python
