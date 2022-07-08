@@ -1,7 +1,10 @@
 -  A great, organized set of resources that explains the basics of python and how to use the `arcade` library to make games:
    https://learn.arcade.academy/
-   RealPython also has their own Arcade tutorial which some may prefer. ( https://realpython.com/arcade-python-game-framework/ )
-
+   They have an explanations of all of the foundational topics, such as...
+   - if statements: https://learn.arcade.academy/en/latest/chapters/10_if_statements/if_statements.html
+   - for loops: https://learn.arcade.academy/en/latest/chapters/11_for_loops/for_loops.html
+   - functions: https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html
+   
 
 -  Dictionaries: A very useful data structure.
    Basics: https://realpython.com/python-dicts/
@@ -16,7 +19,7 @@
 -  Text-based adventure games:
    https://adventurelib.readthedocs.io/en/stable/
    
-   
+
 -  Basics of turtle:
    Basics: https://realpython.com/beginners-guide-python-turtle/
    
