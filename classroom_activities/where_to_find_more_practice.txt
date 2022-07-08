@@ -55,3 +55,7 @@
 
 -  Practice problems:
    https://codingbat.com/python
+
+
+-  Videos:
+   https://www.youtube.com/c/programmingwithmosh
