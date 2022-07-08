@@ -1,0 +1,20 @@
+-  Dictionaries: A very useful data structure.
+   Basics: https://realpython.com/python-dicts/
+   
+-  Reading CSV Files: Very practical, because Excel sheets can be saved as CSV.
+   Recommended prerequisite: Dictionaries
+   Basics: https://realpython.com/python-csv/
+   More advanced: https://realpython.com/python-interview-problem-parsing-csv-files/
+   
+-  Text-based adventure games:
+   https://adventurelib.readthedocs.io/en/stable/
+   
+-  Basics of turtle:
+   Basics: https://realpython.com/beginners-guide-python-turtle/
+   
+-  Games made using turtle and the freegames module.
+   These are simple enough to be able to make small changes and grasp how some parts of the code work.
+   Recommended prerequisite: Basics of turtle
+   https://grantjenks.com/docs/freegames/
+
+-  
