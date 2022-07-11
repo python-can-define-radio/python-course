@@ -181,3 +181,20 @@ elif name == "lacy":
 else:
     print("I don't know you.")
 print("Done.")
+
+          
+# 30
+# Try this. How is it different from the previous example?
+name = input("What is your name? (type it lowercase please.)")
+print("Ok, let me look up that name...")
+if name == "bob":
+    print("That name used to be common, I think.")
+if name == "sue":
+    print("Your name also refers to a legal action.")
+if name == "rob":
+    print("Another abbreviation for robert, correct?")
+if name == "lacy":
+    print("Does the origin of your name relate to clothing with lace?")
+else:
+    print("I don't know you.")
+print("Done.")
