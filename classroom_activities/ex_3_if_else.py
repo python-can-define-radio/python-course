@@ -16,16 +16,16 @@ else:
      
 
 # 3
-# Copy and modify the above example so that if the name is “dell”, it will print “That’s a computer brand.” 
+# Copy and modify the above example so that if the name is "dell", it will print "That’s a computer brand." 
      
 
 # 4
 # Try this.
 age = 5
 if age < 21: 
-    print(“You can't drink alcohol in the US yet.”) 
+    print("You can't drink alcohol in the US yet.") 
 else: 
-    print(“You are legally allowed to drink. Drink responsibly 😊 ”) 
+    print("You are legally allowed to drink. Drink responsibly 😊 ") 
      
 
 # 5
@@ -43,7 +43,7 @@ else:
 
  
 # 7
-# Modify the above example so that if the name is “cobb”, it will say “That’s a Ft Gordon building!” 
+# Modify the above example so that if the name is "cobb", it will say "That’s a Ft Gordon building!" 
 
  
 # 8 
@@ -69,7 +69,7 @@ print(ageNextYear)
 # 11
 # Copy and modify the previous example to do the following: 
 # - Ask the user for age 
-# - Say “You will be 65 years old in 11 years", but put the correct number instead of 11. 
+# - Say "You will be 65 years old in 11 years", but put the correct number instead of 11. 
      
 
 # 12
@@ -91,18 +91,18 @@ else:
  
 
 # 15
-# Write a program that takes a name from the user. If the name is the letter “A”, say “Your name is just the letter A? That’s kinda cool”.  Otherwise, say “Ok, your name is ___”. 
+# Write a program that takes a name from the user. If the name is the letter "A", say "Your name is just the letter A? That’s kinda cool".  Otherwise, say "Ok, your name is ___". 
      
 
 # 16
 # Try this: 
 birthyear = 1998 
 if birthyear < 2000: 
-    print(“You were born before 2000.”) 
+    print("You were born before 2000.") 
 elif birthyear == 2000: 
-    print(“You were born in 2000.”) 
+    print("You were born in 2000.") 
 else: 
-    print(“You were born after 2000.”) 
+    print("You were born after 2000.") 
 
  
 
@@ -111,7 +111,7 @@ else:
 
  
 # 18
-# Ask the user how many French fries they want. Display different responses depending on how many they request. (Examples: “That’s way too many!”, etc.) 
+# Ask the user how many French fries they want. Display different responses depending on how many they request. (Examples: "That’s way too many!", etc.) 
 
  
 # 19
@@ -139,7 +139,7 @@ print("C")
 
 
 # 22
-# Write a program that takes a number from the user. Display the number doubled. Then do a sequence of creative if statements of your choice. Some examples: if the number is greater than 30, display “that’s pretty big.” If the number is negative, display “Really? Negative? Interesting”.  
+# Write a program that takes a number from the user. Display the number doubled. Then do a sequence of creative if statements of your choice. Some examples: if the number is greater than 30, display "that’s pretty big." If the number is negative, display "Really? Negative? Interesting".  
 
  
 # 23
