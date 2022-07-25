@@ -91,7 +91,7 @@ print("Ok, stopping.")
 ## 13
 ## Copy and modify the previous example like so:
 ## Continue looping if the user types any of these: "hey", "woo", or "yes".
-## Note: I recommend trying the two exercises in the file ex_common_condition_mistake.py
+## Note: I recommend trying the two exercises in the file ex_3b_if_else_common_condition_mistake.py
 ##       to avoid a common subtle mistake.
 
 
