@@ -1,23 +1,57 @@
-# 1
-# Try this.
+## 1
+## Try this. Run it more than once.
+import random
+randomNumber = random.randint(5, 8)
+print(f"Here's a random integer: {randomNumber}")
+
+
+## 1b
+## Copy and modify the above example so that the computer will 
+## pick numbers between 1 and 4 instead.
+
+
+## 1c
+## Try this. Run it a few times.
+import random
+randomNumber = random.randint(5, 8)
+print(f"Here's a random integer: {randomNumber}")
+if randomNumber == 7:
+    print("I think some people say this number is lucky.")
+
+
+## 1d
+## Copy and modify the previous example so that the computer
+## will pick numbers between 7 and 10 instead.
+
+
+## 1e
+## Copy and modify the previous example so that if the randomly
+## chosen number is 10, it will say "Wow, a two digit number!"
 
 
 ## 2
 ## Try this.
-name = "bob"
+import random
+name = random.choice(["bob", "susan", "joe", "anna"])
+print(f"Hey {name}.") 
 if name == "joe":
     print("Your name rhymes with low.") 
-else: 
-    print(f"Hey {name}.") 
      
 
 ## 3
-## Copy and modify the above example so that if the name is "dell", it will print "That’s a computer brand." 
+## Copy and modify the above example so that "dell" is one of the names
+## that can be randomly chosen.
+
+## 3b
+## Copy and modify the above example so that 
+## if the name is "dell", it will print "That’s a computer brand." 
      
 
 ## 4
 ## Try this.
-age = 5
+import random
+age = random.randint(18, 24)
+print(f"Pretend that you are {age} years old.")
 if age < 21: 
     print("You can't drink alcohol in the US yet.") 
 else: 
@@ -27,11 +61,23 @@ else:
 ## 5
 ## Copy and modify the above example so that the legal drinking age is 40. (Just to be funny.) 
 
- 
 
 ## 6
+## Try this.
+thename = input("What is your name? ")
+if thename == "george":
+    print("Are you named after the first US President?")
+else:
+    print("Hello.")
+
+
+## 6b
+## Change the previous example so that if the user types "bob", it will reply "Are you the painter?"
+
+
+## 6c
 ## Try this. Notice that it will ask for input. 
-name = input("What is your name?") 
+name = input("What is your name? ") 
 if name == "joe": 
     print("Your name rhymes with low.") 
 else: 
@@ -61,17 +107,20 @@ print(ageNextYear)
 age = int(input("How old are you?")) 
 ageNextYear = age + 1 
 print(ageNextYear) 
-     
+
+
 ## 11
 ## Copy and modify the previous example to do the following: 
 ## - Ask the user for age 
-## - Say "You will be 65 years old in 11 years", but put the correct number instead of 11. 
-     
+## - Say "I see you are __ years old. You will be 65 years old in __ years."
+##   For example, if the user typed 45, then it would display
+##      "I see you are 45 years old. You will be 65 years old in 20 years."
+
 
 ## 12
 ## Try this. Note: you will get an error. 
 age = input("How old are you?") 
-if age < 21 : 
+if age < 21: 
     print("You can't drink alcohol in the US yet.") 
 else: 
     print("You are legally allowed to drink. Drink responsibly 😊 ") 
@@ -84,7 +133,6 @@ else:
 ## 14
 ## Copy and modify the above example so that it shows how many years remain until you can drink (but only display that if you’re under the drinking age). 
 
- 
 
 ## 15
 ## Write a program that takes a name from the user. If the name is the letter "A", say "Your name is just the letter A? That’s kinda cool".  Otherwise, say "Ok, your name is ___". 
@@ -112,7 +160,7 @@ else:
  
 ## 19
 ## Try this. Did it print what you expected?
-x = 44 
+x = int(input("Enter a number: ")) 
 if x < 20: 
     print("A") 
     print("B") 
@@ -181,6 +229,7 @@ print("Done.")
           
 ## 30
 ## Try this. How is it different from the previous example?
+## (The difference is subtle, so ask if you are unsure.)
 name = input("What is your name? (type it lowercase please.)")
 print("Ok, let me look up that name...")
 if name == "bob":
