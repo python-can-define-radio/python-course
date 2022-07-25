@@ -9,11 +9,12 @@ Background: CSV files may include multiple data records with each data record lo
 """
 
 #1: Manually create a CSV file
-# Using a text editor or MS Visual Studio Code, type or copy the data shown below and save it with the file name "ex_7b_data1.csv":
+# Using a text editor or MS Visual Studio Code, type or copy the data shown below and 
+#    save it with the file name:  "ex_7b_data1.csv":
 # NOTE: Remove the pound sign (#) and any leading space from each line of data.  
 # The first is a header line, which describes the prescribed data sequence.  Include it.
 #
-# last name,first name,department,years_employed
+# name_last,name_first,department,years_employed
 # Grantham,Bob,shipping,5
 # Oligarch,Chris,management,13
 # Smith,Sarah,customer service,12
