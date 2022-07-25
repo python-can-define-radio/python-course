@@ -37,6 +37,11 @@ print(f"Your name is {firstn} {lastn}.")
 ## instead of assuming the last name is Smith.
 
 
+## 6b
+## Ask the user for their first name, middle name, and last name.
+## Print "Your name is __ __ __" (filling in their first name, middle name, and last name).
+
+
 ## 7
 ## Ask the user for a color, and then say
 ## "___ is a pretty color."
@@ -145,4 +150,34 @@ print(f"One more would be {onemore}.")
 ## Then, display "You got ___% right". (You'll need to calculate the percent.)
 
 
+##### You may wonder why you must use the int() function.
+##### After all, shouldn't the computer know what a number looks like?
+##### Here's an example of when you WOULDN'T want the number to be treated as an integer.
 
+########################################
+# Right way:
+beg = "800"
+mid = "555"
+end = input("Can you give me some random last four digits please? ")
+
+fullPhoneNum = beg + mid + end
+print(fullPhoneNum)
+
+
+########################################
+# Wrong way:
+beg = 800
+mid = 555
+end = int(input("Can you give me some random last four digits please? "))
+
+fullPhoneNum = beg + mid + end
+print(fullPhoneNum)
+
+########################################
+# Another wrong way:
+beg = 800
+mid = 555
+end = input("Can you give me some random last four digits please? ")
+
+fullPhoneNum = beg + mid + end
+print(fullPhoneNum)
