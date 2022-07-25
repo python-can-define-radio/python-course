@@ -13,14 +13,14 @@ Background: CSV files may include multiple data records with each data record lo
 # NOTE: Remove the pound sign (#) and any leading space from each line of data.  
 # The first is a header line, which describes the prescribed data sequence.  Include it.
 #
-# last name,first name,department,age
-# Grantham,Bob,shipping,25
-# Oligarch,Chris,management,31
-# Smith,Sarah,customer service,45
-# LeBlu,Samatha,shipping,28
-# Salad,Leslie,customer service,32
-# Lasiter,ben,customer service,27
-# Wolfslayer,Kyle,shipping,19
+# last name,first name,department,years_employed
+# Grantham,Bob,shipping,5
+# Oligarch,Chris,management,13
+# Smith,Sarah,customer service,12
+# LeBlu,Samatha,shipping,7
+# Salad,Leslie,customer service,8
+# Lasiter,ben,customer service,10
+# Wolfslayer,Kyle,shipping,3
 
 #2 - Goal:  Write data to a CSV file.  This will create a new file or will over-write an existing file.
 # Try this:
