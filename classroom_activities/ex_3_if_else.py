@@ -1,9 +1,5 @@
 # 1
 # Try this.
-# You'll get an error having to do with the quotation marks.
-# Why do you think that is?
-name = “bob”
-print(name)
 
 
 # 2
