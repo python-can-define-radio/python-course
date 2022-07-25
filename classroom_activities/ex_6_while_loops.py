@@ -36,7 +36,6 @@ print("Reached zero. Proof:")
 print(count)
 
 
-
 ## 5
 ## Modify the previous example to let the user pick where to start the count.
 
@@ -48,10 +47,10 @@ print(count)
 ## "Launch in 1"
 ## "Liftoff!"
 
+
 ## 7
 ## Try this:
 import time
-
 print("Start...")
 time.sleep(1)
 print("Done.")
@@ -68,7 +67,6 @@ print("Done.")
 
 ## 10
 ## Try this.
-
 keepGoing = "yes"
 while keepGoing == "yes":
     print("Since the variable keepGoing is still 'yes', I am going to keep going.")
@@ -105,7 +103,6 @@ print("Ok, stopping.")
 
 ## 15
 ## Try this.
-
 print("Welcome to the word guesser!")
 guess = ""
 secretWord = "water"
@@ -129,8 +126,6 @@ print("You got it!")
 ## Try this.
 ## Note: we must set `num` to something before the loop starts,
 ##       so I arbitrarily picked 0.
-
-
 print("Welcome to the number doubler.")
 num = 0
 while num != -1:

@@ -73,7 +73,6 @@ for num in range(1,5):
 
 # 12
 # Try this:
-
 print("Hello"*3)
 
 
@@ -91,9 +90,7 @@ print("Hello"*3)
 
 # 15
 # Given this list,
-
 temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
-
 # Display each temperature.
 
 
@@ -161,7 +158,6 @@ temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 # Your spectrum analyzer is logging which frequencies have shown activity.
 # It makes a note of the center frequency of each burst of activity.
 # Here’s what it has recorded (units are MHz):
-
 freqs = [2403.6, 101.3, 90.1, 5.2, 2410.2, 3.7]
 
 # 24
