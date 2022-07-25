@@ -2,7 +2,6 @@
 # Try this. 
 # It won't display anything to the screen -- rather, it creates a file.
 # Try to find the file it created.
-
 f = open("something_very_unique_file.txt", "w")
 f.write("Here are some words.\n")
 f.write("More words.")
