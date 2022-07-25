@@ -9,7 +9,7 @@ Background: CSV files may include multiple data records with each data record lo
 """
 
 #1: Manually create a CSV file
-# Using a text editor or MS Visual Studio Code, type or copy the data shown below and 
+# Using MS Visual Studio Code or a text editor, type or copy the data shown below and 
 #    save it with the file name:  "ex_7b_data1.csv":
 # NOTE: Remove the pound sign (#) and any leading space from each line of data.  
 # The first is a header line, which describes the prescribed data sequence.  Include it.
@@ -18,10 +18,25 @@ Background: CSV files may include multiple data records with each data record lo
 # Grantham,Bob,shipping,5
 # Oligarch,Chris,management,13
 # Smith,Sarah,customer service,12
-# LeBlu,Samatha,shipping,7
+# Lasiter,Samatha,shipping,7
 # Salad,Leslie,customer service,8
-# Lasiter,ben,customer service,10
+# LeBlu,ben,customer service,10
 # Wolfslayer,Kyle,shipping,3
 
-#2 - Goal:  Write data to a CSV file.  This will create a new file or will over-write an existing file.
+#3 --  Read data from a CSV file.
+# Try this:
+# ref: https://realpython.com/lessons/reading-csvs-pythons-csv-module/, accessed July 25, 2022
+import csv
+with open('ex_7b_data1.csv') as csv_file:
+    csv_reader = csv.DictReader(csv_file, delimiter=',')
+    line_count = 0
+    print()
+    for row in csv_reader:
+        line_count += 1
+        print(f'\t{line_count}) {row["name_first"]} {row["name_last"]} works in the {row["department"]} ', end='')
+        print(f'department, and has been employed with our company for {row["years_employed"]} years.')
+
+# 3 
+
+# __#?__ --  Write data to a CSV file.  This will create a new file or will over-write an existing file.
 # Try this:
