@@ -19,12 +19,13 @@ Background: CSV files may include multiple data records with each data record lo
 # Oligarch,Chris,management,13
 # Smith,Sarah,customer service,12
 # Lasiter,Samatha,shipping,7
+# Zepher,bob,shipping,4
 # Salad,Leslie,customer service,8
 # LeBlu,ben,customer service,10
 # Wolfslayer,Kyle,shipping,3
 
-#3 --  Read data from a CSV file.
-# Try this:
+#2 --  Read data from a CSV file.
+# [Try this:]
 # ref: https://realpython.com/lessons/reading-csvs-pythons-csv-module/, accessed July 25, 2022
 import csv
 with open('ex_7b_data1.csv') as csv_file:
@@ -36,7 +37,8 @@ with open('ex_7b_data1.csv') as csv_file:
         print(f'\t{line_count}) {row["name_first"]} {row["name_last"]} works in the {row["department"]} ', end='')
         print(f'department, and has been employed with our company for {row["years_employed"]} years.')
 
-# 3 
+#3 -- Select the records having a first name of "Bob", irrespective of the capitalization in the data.
+# To improve: use only one criteria when testing the name.
 
 # __#?__ --  Write data to a CSV file.  This will create a new file or will over-write an existing file.
 # Try this:
