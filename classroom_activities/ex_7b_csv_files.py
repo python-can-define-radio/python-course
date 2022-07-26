@@ -7,7 +7,7 @@ Background: CSV files may include multiple data records with each data record lo
    with the file extension ".csv"
 In this lesson, we will start by manually creating a csv file using a text editor or MS Visual Studio 
    Code, as examples.  Subsequently, we will create a simple Python program to read and evaluate data from the CSV file.
-Each task is numbered.
+Each task is numbered.  Additional tutorials are available at: https://realpython.com/python-csv/ .
 """
 
 #1: Manually create a CSV file
