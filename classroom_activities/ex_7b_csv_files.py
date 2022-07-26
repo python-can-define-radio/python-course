@@ -27,8 +27,8 @@ Each task is numbered.  Additional tutorials are available at: https://realpytho
 # Wolfslayer,Kyle,shipping,3
 
 #2: Read data from a CSV file and report all data from each record/row using a sentence.
-#   [Try this:]
 #   ref: https://realpython.com/lessons/reading-csvs-pythons-csv-module/, accessed July 25, 2022
+#   [Try this:]
 import csv
 with open('ex_7b_data1.csv') as csv_file:
     csv_reader = csv.DictReader(csv_file, delimiter=',')
@@ -40,11 +40,11 @@ with open('ex_7b_data1.csv') as csv_file:
         print(f'department, and has been employed with our company for {row["years_employed"]} years.')
 
 #3: Select the records having a first name of "Bob", irrespective of the capitalization in the data.
-#   To improve: use only one criteria when testing the name.
+#   Enhancement: use only one criteria when testing the name.
 
 #4: Select & display only the records for which the name starts with “b”. 
 
-#5:  Select & display only the records for which the employee has work at company for 10 years or more.
+#5: Select & display only the records for which the employee has work at company for 10 years or more.
 
 #6: Report a one-time bonus for each employee based on number of years employed by the company.
 #   For less than 5 years of service $200, for 5 years but less than 10 years $500, for ten or more years $800
