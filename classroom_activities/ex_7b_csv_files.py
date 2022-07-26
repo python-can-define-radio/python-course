@@ -10,7 +10,7 @@ In this lesson, we will start by manually creating a csv file using a text edito
 Each task is numbered.  Additional tutorials are available at: https://realpython.com/python-csv/ .
 """
 
-#1: Manually create a CSV file
+#1: Manually create a CSV file.
 # Using MS Visual Studio Code or a text editor, type or copy the data shown below and 
 #    save it with the file name:  "ex_7b_data1.csv":
 # NOTE: Remove the pound sign (#) and any leading space from each line of data.  
@@ -26,9 +26,9 @@ Each task is numbered.  Additional tutorials are available at: https://realpytho
 # LeBlu,ben,customer service,10
 # Wolfslayer,Kyle,shipping,3
 
-#2 --  Read data from a CSV file.
-# [Try this:]
-# ref: https://realpython.com/lessons/reading-csvs-pythons-csv-module/, accessed July 25, 2022
+#2: Read data from a CSV file and report all data from each record/row using a sentence.
+#   [Try this:]
+#   ref: https://realpython.com/lessons/reading-csvs-pythons-csv-module/, accessed July 25, 2022
 import csv
 with open('ex_7b_data1.csv') as csv_file:
     csv_reader = csv.DictReader(csv_file, delimiter=',')
@@ -36,11 +36,16 @@ with open('ex_7b_data1.csv') as csv_file:
     print()
     for row in csv_reader:
         line_count += 1
-        print(f'\t{line_count}) {row["name_first"]} {row["name_last"]} works in the {row["department"]} ', end='')
+        print(f'{line_count}) {row["name_first"]} {row["name_last"]} works in the {row["department"]} ', end='')
         print(f'department, and has been employed with our company for {row["years_employed"]} years.')
 
-#3 -- Select the records having a first name of "Bob", irrespective of the capitalization in the data.
-# To improve: use only one criteria when testing the name.
+#3: Select the records having a first name of "Bob", irrespective of the capitalization in the data.
+#   To improve: use only one criteria when testing the name.
 
-# __#?__ --  Write data to a CSV file.  This will create a new file or will over-write an existing file.
-# Try this:
+#4: Select & display only the records for which the name starts with “b”. 
+
+#5:  Select & display only the records for which the employee has work at company for 10 years or more.
+
+#6: Report a one-time bonus for each employee based on number of years employed by the company.
+#   For less than 5 years of service $200, for 5 years but less than 10 years $500, for ten or more years $800
+#   Enhancement: define a function to print the result.
