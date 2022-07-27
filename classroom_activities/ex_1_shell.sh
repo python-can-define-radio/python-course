@@ -41,6 +41,11 @@ cat a.txt
 cat b.txt
 
 
+## 3b
+## You can display everything in that directory that ends with txt:
+cat *.txt
+
+
 ## 4
 ## And now we'll create another file, and this time, we'll write to it:
 echo "Words are going in this file" > c.txt
@@ -50,11 +55,52 @@ echo "Words are going in this file" > c.txt
 ## Verify that the previous command created a file with words in it.
 
 
+## 5b
+## Let's dissect the previous command a little.
+## Try this:
+echo "Hello"
+## You'll see that it simply displays what you wrote on the screen.
+## echo is primarily useful in scripting, but in this class, we'll be
+## using it to write to files.
+## When you write this...
+##    echo "something" > somefile.txt
+## ... It's doing what's called output redirection.
+## That means the "something" which normally gets displayed on the screen
+## is being redirected into a file.
+## You can do that with other commands.
+## For example, this would make a file called combinedstuff that contains
+## the contents of all of the txt files in a directory.
+##    cat *.txt > combinedstuff
+## 
+
+
 ## 6
 ## Using the terminal:
 ## 6a: Create a file called d.txt, with the (non-empty) content of your choice.
 ## 6b: Create two more files with names of your choice (no spaces), and with the content of your choice.
 
+
+## 6b
+## Try this.
+mkdir foods
+mkdir drinks
+
+
+## 6c
+## Use cd to go inside the foods directory that you just created.
+## Make a file called sandwich.txt. Inside the file should be a description of a sandwich.
+
+## 6d
+## Now we want to get out of the foods directory.
+## There's a special name for "one directory higher than where I am":
+cd ..
+
+## 6e
+## Use cd to go inside the drinks directory.
+## Make a file called herbalTea.txt. Inside the file should be what you think about herbal tea.
+
+## 6f
+## Make another directory. Put two files in it with the names and contents of your choice.
 
 ## 7
 ## Here's how you append to a file. When might that be useful?
@@ -68,6 +114,7 @@ cd tmp
 mkdir otherstuff
 cd otherstuff
 
+
 ## 9
 ## Keep your terminal open.
 ## Also, open the GUI file browser, and navigate to the same location.
@@ -76,6 +123,7 @@ cd otherstuff
 ## - Hold "Alt" on the keyboard, and press the Up arrow multiple times
 ## - Go inside the "tmp" directory
 ## - Go inside the "otherstuff" directory
+
 
 ## 10
 ## Inside of the otherstuff directory,
@@ -91,5 +139,3 @@ cd otherstuff
 ##         ├── chair.txt
 ##         ├── table.txt
 ##         └── desk.txt
-
-
