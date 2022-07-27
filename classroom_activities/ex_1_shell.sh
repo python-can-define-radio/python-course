@@ -68,8 +68,18 @@ cd tmp
 mkdir otherstuff
 cd otherstuff
 
+## 9
+## Keep your terminal open.
+## Also, open the GUI file browser, and navigate to the same location.
+## One way to do this:
+## - Open the GUI file browser:
+## - Hold "Alt" on the keyboard, and press the Up arrow multiple times
+## - Go inside the "tmp" directory
+## - Go inside the "otherstuff" directory
+
+## 10
 ## Inside of the otherstuff directory,
-## make the following folder structure.
+## make the following folder structure using the terminal.
 ## Put the words of your choice inside of the txt files.
 ## .
 ## └── house
@@ -80,6 +90,6 @@ cd otherstuff
 ##     └── furniture
 ##         ├── chair.txt
 ##         ├── table.txt
-##         └── desk.xtx
+##         └── desk.txt
 
 
