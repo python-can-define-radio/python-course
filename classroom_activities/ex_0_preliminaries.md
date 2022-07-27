@@ -1,2 +1,2 @@
 - Change the `TMOUT` variable in `.bash_rc`. Ask the instructor how.
-- Turn off python auto-import completions in VSCode. Ask the instructor how.
+- Turn off python auto import completions in VSCode. Ask the instructor how.
