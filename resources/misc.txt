@@ -1,25 +1,29 @@
-## How to disable middle click
-## In the terminal,
+## How to disable middle click function within the Linux operating system.  
+## This is useful when your mouse pointing device has a scroll wheel that performs as a middle button.
+## In the terminal program,
 xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10"
+[NOTE: Throughout this document, after each command line (e.g. "xmodmap....10", above), press the {Enter} key.]
 
 ###############################
 
 ## If you want to make a script for easy running:
-
-## Go to the desktop
+## In the terminal, go to the desktop:
 cd ~/Desktop
 
-## Write the command into a file
+## Write the command into a file:
 echo 'xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10"' > disable-middle-click.sh
 
-## Make it executable
+## Make that file executable:
 chmod +x disable-mid-click.sh
+
+# Now, you may run the file:
+disable-middle-click.sh
 
 ################################
 
 ## To re-enable middle click:
 xmodmap -e "pointer = 1 2 3 4 5 6 7 8 9 10"
 
-
+When the computer is rebooted, most likely it will revert to a state in which the middle click function of the scroll wheel/middle button is enabled.
 
 
