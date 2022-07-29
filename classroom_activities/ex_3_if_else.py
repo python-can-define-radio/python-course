@@ -168,7 +168,14 @@ print("C")
 
 
 ## 20
-## Modify the value of x in the previous example. Does it print what you expected? 
+## Copy and modify the previous example so that C is only printed if the number is not less than 20.
+## Use the `else` keyword.
+
+## 20b
+## Copy and modify the previous example so that it acts like this:
+## if x is less than 20, then print A.
+## Otherwise, print C.
+## After all of that is done, print Goodbye (regardless of what x was.)
 
 
 ## 21
