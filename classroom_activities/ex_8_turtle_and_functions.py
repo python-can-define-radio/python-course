@@ -260,7 +260,7 @@ turtle.onkeypress(mvfwd, "Up")
 turtle.onkeypress(turnleft, "Left")
 turtle.listen()
 
-time.sleep(99999)
+turtle.mainloop()
 
 
 # 29
