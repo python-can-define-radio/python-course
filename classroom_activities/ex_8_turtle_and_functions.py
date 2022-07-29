@@ -1,13 +1,12 @@
 # 1
 # Try this.
 import turtle
-import time
 
 turtle.forward(100)
 turtle.left(90)
 turtle.forward(100)
 
-time.sleep(99999)
+turtle.mainloop()
 
 
 # 2
@@ -17,7 +16,19 @@ turtle.forward(100)
 turtle.right(90)
 turtle.forward(100)
 
-time.sleep(99999)
+turtle.mainloop()
+
+# 2b
+# Try this. You'll notice that it closes immediately.
+# The way to fix that is to put the mainloop part at the end.
+turtle.forward(100)
+
+
+# 2c
+# Make the turtle move forward 50 units,
+# then turn left 45 degrees,
+# then move forward 30 units.
+# Remember to put turtle.mainloop() at the end.
 
 
 # 3
@@ -111,31 +122,12 @@ drawAShape()
 # Copy and modify the previous example so that it draws a different shape.
 
 
-# 9
+# 10
 # Copy and modify the previous example so that it draws three separate squares.
 
-# 10
-# Try this. Press the up and left keys on your keyboard.
-
-def mvfwd():
-    turtle.forward(100)
-
-def turnleft():
-    turtle.left(90)
-
-
-turtle.onkeypress(mvfwd, "Up")
-turtle.onkeypress(turnleft, "Left")
-turtle.listen()
-
-time.sleep(99999)
 
 # 11
 # Define a function to draw a square.
-
-
-# 12
-# Make it so if you press "s" on your keyboard, the turtle will draw a square.
 
 
 # 13
@@ -165,8 +157,8 @@ def drawTwoSides(thelen):
     turtle.left(90)
     turtle.forward(thelen)
 
-leng = 100
-drawTwoSides(leng)
+lee = 100
+drawTwoSides(lee)
 
 
 # Some notes on terminology:
@@ -177,7 +169,7 @@ drawTwoSides(leng)
 
 
 # 17
-# Modify the previous example so that `leng` comes from user input.
+# Modify the previous example so that `lee` comes from user input.
 # For the sake of the exercise, don't change the inside of the function.
 # (Ask if you don't know what that means.)
 
@@ -198,8 +190,8 @@ drawSquare(200)
 # 19
 # Try this. You'll need your drawSquare function from the previous question.
 
-leng = int(input("How big should the square be?"))
-drawSquare(leng)
+lee = int(input("How big should the square be?"))
+drawSquare(lee)
 
 # 20
 # Modify the previous example like so:
@@ -249,5 +241,27 @@ for leng in lengths:
 # (In other words, the first time that the loop runs, it should move forward 100 units,
 #  the second time, it should move 50 units, etc)
 
+
 # 27
 # Modify the previous example so that it turns 90 degrees after each forward movement.
+
+
+# 28
+# Try this. Press the up and left keys on your keyboard.
+
+def mvfwd():
+    turtle.forward(100)
+
+def turnleft():
+    turtle.left(90)
+
+
+turtle.onkeypress(mvfwd, "Up")
+turtle.onkeypress(turnleft, "Left")
+turtle.listen()
+
+time.sleep(99999)
+
+
+# 29
+# Make it so if you press "Up" on your keyboard, the turtle will draw a square.
