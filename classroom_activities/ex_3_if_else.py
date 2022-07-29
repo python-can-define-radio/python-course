@@ -87,7 +87,16 @@ else:
 ## 7
 ## Modify the above example so that if the name is "cobb", it will say "That’s a Ft Gordon building!" 
 
- 
+
+## 7b
+## You'll notice that the user must type joe lowercase. Here's how to make it so any capitalization works:
+name = input("What is your name? ").lower()
+if name == "joe": 
+    print("Your name rhymes with low.") 
+else: 
+    print(f"Hey {name}.") 
+
+    
 ## 8 
 ## Try this. 
 age = 10 
@@ -198,7 +207,9 @@ x = float(input("Type a number between 0 and 1, for example, 0.3, 0.25, etc... "
 print("One more would be {x + 1}.")
 
 ## As you can see, you can use `float` instead of `int` when dealing with non-whole numbers.
-## NOTE: Using floats can cause weird rounding errors. For example:
+## Sidenote: 
+## (this sidenote is outside the scope of the class, but good to know)
+## Using floats can cause weird rounding errors. For example:
 print(1.03 - .42)
 ## This will print 0.6100000000000001.
 ## That's quite important when doing comparisons:
@@ -206,12 +217,10 @@ if .1 + .1 + .1 == .3:
     print("This will not print.")
 else:
     print("This will print... what is math??")
-    
 ## The reason is because the numbers are converted to binary behind the scenes.
-
 ## For more info, see https://docs.python.org/3/tutorial/floatingpoint.html
 ## If you plan to eventually do any "real-life" programming, then it's definitely worth reading.
-
+## (end of sidenote)
 
 ## 23b
 ## Ask the user for the cost of a single item and the quantity purchased. Print the total cost. 
