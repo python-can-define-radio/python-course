@@ -165,8 +165,8 @@ def drawTwoSides(thelen):
     turtle.left(90)
     turtle.forward(thelen)
 
-lee = 100
-drawTwoSides(lee)
+leng = 100
+drawTwoSides(leng)
 
 
 # Some notes on terminology:
@@ -177,7 +177,7 @@ drawTwoSides(lee)
 
 
 # 17
-# Modify the previous example so that `lee` comes from user input.
+# Modify the previous example so that `leng` comes from user input.
 # For the sake of the exercise, don't change the inside of the function.
 # (Ask if you don't know what that means.)
 
@@ -198,8 +198,8 @@ drawSquare(200)
 # 19
 # Try this. You'll need your drawSquare function from the previous question.
 
-lee = int(input("How big should the square be?"))
-drawSquare(lee)
+leng = int(input("How big should the square be?"))
+drawSquare(leng)
 
 # 20
 # Modify the previous example like so:
