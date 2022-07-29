@@ -12,7 +12,11 @@
 
 
 # 4
-# Prompt the user for a number with MHz. (example input: 2463 MHz.) Print the numerical part. You may assume the user formats the input correctly, but you cannot assume the length of the number.
+# Prompt the user for a number with MHz. (example input: 2463 MHz.) Print the numerical part.
+# You can use split or string indexing. Here's how split works:  
+# x, y = "hello world".split() 
+# print(x)
+# print(y)
 
 
 # 5
@@ -24,4 +28,23 @@
 
 
 # 7
-# Prompt the user for a word, then display it reversed. (For a challenge, don’t use the built-in function for reversing things.)
+# Prompt the user for a word, then display it reversed. (There's a built-in Python function for reversing things.)
+
+
+# 8
+# Try this:
+x = input("Type some words, and type extra space at the beginning or end.").strip()
+print(f"I have removed the extra space. You typed... {x}")
+
+
+# 9
+# Using .strip() and .lower(), ask the user for a name, and check if the name is in a list of allowed usernames.
+
+
+# 10
+# As an exercise, make the Wordle game: https://www.nytimes.com/games/wordle/index.html
+# (Note: this is only an educational exercise; please do not infringe on their rights.)
+
+# You'll most likely want to use the `in` keyword:
+if "e" in "hello":
+    print("The letter e is in the word hello.")
