@@ -195,7 +195,8 @@ print("C")
  
 ## 23
 ## Ask the user for the cost of a single item and the quantity purchased. Print the total cost. 
-
+## Make sure this works for non-integer costs. For example, try a cost of 2.30 and quantity of 2.
+## Hint: You'll use float instead of int.
  
 ## 24
 ## Modify the previous example so that the shop gives a discount of 10% if you buy at least 20 of an item.  
