@@ -10,6 +10,10 @@ print("Here we go!")
 print(“bob”)
 
 
+## 2b
+## Try this.
+print("If you want \n separate lines, you \n can do it \n like this.")
+
 ## 3
 ## Try this.
 firstn = "Bob"
@@ -25,17 +29,36 @@ lastn = "Smith"
 print(f"My name is {firstn} {lastn}")
 
 
-## 5
+## 4b
 ## Try this. When you run it, it will ask you to type something.
+print("Hello!")
+cartype = input("Say the name of a car, then press enter: ")
+print(f"The car you named is {cartype}. That was a good choice.")
+
+
+## 4c
+## Copy and modify the previous example so that it asks the user for the name of a car,
+## and then prints "The car you named is ____. Do you have one?"
+## In the blank, you should say the car that the user named.
+
+
+## 4d
+## Copy and modify the previous example so that it asks the user for the name of an animal,
+## and then prints "The animal you named is ____. I think that it would make a nice pet."
+
+
+## 5
+## Try this.
 firstn = input("What is your first name?")
 lastn = "Smith"
 print(f"Your name is {firstn} {lastn}.")
 
 
 ## 6
-## Copy and modify the previous example so that it asks the user for his/her last name,
-## instead of assuming the last name is Smith.
-
+## Copy and modify the previous example to do the following:
+##  - Ask the user for his/her first name.
+##  - Ask the user for his/her last name.
+##  - Print "Your name is ___  ___."
 
 ## 6b
 ## Ask the user for their first name, middle name, and last name.
@@ -150,6 +173,7 @@ print(f"One more would be {onemore}.")
 ## Then, display "You got ___% right". (You'll need to calculate the percent.)
 
 
+## 23
 ##### You may wonder why you must use the int() function.
 ##### After all, shouldn't the computer know what a number looks like?
 ##### Here's an example of when you WOULDN'T want the number to be treated as an integer.
