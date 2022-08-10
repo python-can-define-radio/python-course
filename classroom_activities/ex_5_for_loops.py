@@ -81,6 +81,7 @@ print("Hello"*3)
 
 
 # 14
+## (challenge question; can skip)
 # Construct the following pattern using a `for` loop. Let the user specify how many rows to print.
 # A
 # AA
@@ -89,9 +90,19 @@ print("Hello"*3)
 
 
 # 15
-# Given this list,
-temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
-# Display each temperature.
+# Try this.
+temps_in_F = [90, 47, 16, 82, 68, 100, 30, 25, 40]
+for temp in temps_in_F:
+    print(f"A temperature: {temp}")
+
+    
+# 15b
+# Try this.
+temps_in_F = [90, 47, 16, 82, 68, 100, 30, 25, 40]
+for temp in temps_in_F:
+    print(f"A temperature: {temp}")
+    if temp > 90:
+        print("That's hot.")
 
 
 # 16
