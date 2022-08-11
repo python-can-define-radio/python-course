@@ -4,7 +4,6 @@
    - if statements: https://learn.arcade.academy/en/latest/chapters/10_if_statements/if_statements.html
    - for loops: https://learn.arcade.academy/en/latest/chapters/11_for_loops/for_loops.html
    - functions: https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html
-   
 
 -  Dictionaries: A very useful data structure.
    Basics: https://realpython.com/python-dicts/
@@ -59,3 +58,6 @@
 
 -  Videos:
    https://www.youtube.com/c/programmingwithmosh
+
+
+-  [Python for Everybody (PY4E)](https://www.py4e.com/lessons): Another set of lessons covering all of the basics, and some more advanced topics (fetching data over a network, etc)
