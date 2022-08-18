@@ -2,19 +2,21 @@
 In this lesson will we will use the Python programming language to work with "comma-separated-value" or "CSV" files, 
    which are only one of several types of spreadsheet files.
 Background: CSV files may include multiple data records with each data record located on its own line.  Each data 
-   record (i.e., each line in the file) may include multiple pieces of data separated by commas.  
-   On each line, the pieces of data are always stored in the same sequence.  When saved, the file name should end 
-   with the file extension ".csv"
+   record (i.e., each line in the file) may include multiple pieces of data separated by commas OR another character used as a "delimiter".  
+   On each line, the pieces of data are always stored in the same sequence.  By convention, the file name should end 
+   with the extension ".csv"
 In this lesson, we will start by manually creating a csv file using a text editor or MS Visual Studio 
    Code, as examples.  Subsequently, we will create a simple Python program to read and evaluate data from the CSV file.
-Each task is numbered.  Additional tutorials are available at: https://realpython.com/python-csv/ .
+Each task is numbered.  
+Additional tutorials may be available at: https://realpython.com/python-csv/ . The suitability of all portions this website has not been verified.
 """
 
 #1: Manually create a CSV file.
 # Using MS Visual Studio Code or a text editor, type or copy the data shown below and 
-#    save it with the file name:  "ex_7b_data1.csv":
-# NOTE: Remove the pound sign (#) and any leading space from each line of data.  
-# The first is a header line, which describes the prescribed data sequence.  Include it.
+#    save it with the file name:  "ex_7b_data1.csv". 
+# NOTEs: a. Remove the pound sign (#) and any leading space from each line of data.
+# b. The first is a header line, which describes the prescribed data sequence.  Include it.
+# c. Some names are intentionally not capitalized.
 #
 # name_last,name_first,department,years_employed
 # Grantham,Bob,shipping,5
@@ -26,10 +28,10 @@ Each task is numbered.  Additional tutorials are available at: https://realpytho
 # LeBlu,ben,customer service,10
 # Wolfslayer,Kyle,shipping,3
 
-#2: Read data from a CSV file and report all data from each record/row using a sentence.
+#2: Create a Python program to read data from a CSV file and report all data from each record/row using a sentence.
 #   ref: https://realpython.com/lessons/reading-csvs-pythons-csv-module/, accessed July 25, 2022
 #   [Try this:]
-import csv
+import csv    # ("csv" is a built-in module of Python.)
 with open('ex_7b_data1.csv') as csv_file:
     csv_reader = csv.DictReader(csv_file, delimiter=',')
     line_count = 0
