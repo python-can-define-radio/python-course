@@ -1,0 +1,10 @@
+## This is the pylint configuration file. Copy it, and feel free to modify.
+
+
+[MESSAGES CONTROL]
+
+disable=missing-module-docstring,
+        missing-function-docstring,
+        trailing-newlines,
+        missing-final-newline,
+        invalid-name
