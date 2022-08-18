@@ -33,10 +33,10 @@ Additional tutorials may be available at: https://realpython.com/python-csv/ . T
 #   [Try this:]
 import csv    # ("csv" is a built-in module of Python.)
 with open('ex_7b_data1.csv') as csv_file:
-    csv_reader = csv.DictReader(csv_file, delimiter=',')
+    csv_data = csv.DictReader(csv_file, delimiter=',')
     line_count = 0
     print()
-    for row in csv_reader:
+    for row in csv_data:
         line_count += 1
         print(f'{line_count}) {row["name_first"]} {row["name_last"]} works in the {row["department"]} ', end='')
         print(f'department, and has been employed with our company for {row["years_employed"]} years.')
