@@ -41,8 +41,8 @@ with open('ex_7b_data1.csv') as csv_file:
         print(f'{line_count}) {row["name_first"]} {row["name_last"]} works in the {row["department"]} ', end='')
         print(f'department, and has been employed with our company for {row["years_employed"]} years.')
 
-#3: Select the records having a first name of "Bob", irrespective of the capitalization in the data.
-#   Enhancement: use only one criteria when testing the name.
+#3: Select & display the records having a first name of "Bob", irrespective of the capitalization in the data.
+#   Enhancement: Use only one criteria when testing the name.
 
 #4: Select & display only the records for which the name starts with “b”. 
 
