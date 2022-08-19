@@ -1,36 +1,68 @@
 # 1
 # Try this:
 elements = ["water", "earth", "fire", "air"]
-for el in elements:
-    print(el)
+for element in elements:
+    print(element)
 
+    
+# 1b
+# Try this:
+colors = ["red", "orange", "yellow"]
+for color in colors:
+    print(color)
+    
+    
 # 2
 # Write a `for` loop that prints every item in this list.
-thelist = ["water", "chair", "mug", "mouse"]
+household_items = ["water", "chair", "mug", "mouse"]
 
 
-# 3
-# Given this list,
-thelist = ["Sam", "Lisa", "Micha", "Dave"]
-# Write a `for` loop that outputs
-# Hello Sam
-# Hello Lisa
-# etc.
+# 3 
+# Try this:
+names = ["Sam", "Lisa", "Micah", "Dave"]
+for name in names:
+    print(f"Hello {name}. Welcome to the Python course.")
+
+    
+# 3b
+# Copy and modify the previous example like so:
+# for each name, display "Have a good day, ____. I hope you enjoyed experimenting with python."
+# (Fill in the blank with the name.)
 
 
 # 4
 # Try this:
-word = "Hello world"
-for letter in word:
-    print(f"The letter is {letter}")
+ages = [26, 37, 55, 10, 5]
+for age in ages:
+    print(f"One of the people in my list is {age} years old.")
+    print(f"In two years, that person will be {age + 2} years old.")
+
+
+# 4b
+# Copy and modify the previous example so that for each age,
+# it displays "5 years ago, that person was ___ years old."
 
 
 # 5
-# Modify the previous example so it asks the user for a string (rather than only using “Hello world”).
+# For each of the following numbers, display “Half of __ is ___”. For example, “Half of 21 is 10.5”
+numbers = [21, 40, 32, 10, 8, 3]
 
 
 # 6
-# Modify the previous example so it outputs each letter from the user input followed by “!”. For example:
+# As you've seen, you can use a `for` loop with lists.
+# You can also use a `for` loop with a string.
+# For example, try this:
+phrase = "Hello world"
+for letter in phrase:
+    print(f"The letter is {letter}")
+
+
+# 7
+# Copy and modify the previous example so it asks the user for a string (rather than only using "Hello world").
+
+
+# 7b
+# Copy and modify the previous example so it outputs each letter from the user input followed by "!". For example:
 # H!
 # e!
 # l!
@@ -38,21 +70,16 @@ for letter in word:
 # o!
 
 
-# 7
-# For each of the following numbers, display “Half of __ is ___”. For example, “Half of 21 is 10.5”
-numbers = [21, 40, 32, 10, 8, 3]
-
 
 # 8
+# You can also use a `for` loop with a range.
 # Try this:
 for num in range(1,5):
     print(num)
 
 
-
 # 9
 # Modify the previous example to print the numbers 1 to 6.
-
 
 
 # 10
@@ -93,14 +120,14 @@ print("Hello"*3)
 # Try this.
 temps_in_F = [90, 47, 16, 82, 68, 100, 30, 25, 40]
 for temp in temps_in_F:
-    print(f"A temperature: {temp}")
+    print(f"The temperature was {temp}")
 
     
 # 15b
 # Try this.
 temps_in_F = [90, 47, 16, 82, 68, 100, 30, 25, 40]
 for temp in temps_in_F:
-    print(f"A temperature: {temp}")
+    print(f"The temperature was {temp}")
     if temp > 90:
         print("That's hot.")
 
