@@ -91,3 +91,5 @@ print(f"Data writing to file '{csv_extrn2}' is completed.")
 # Append data from the 1st data file to the 2nd data file created in Task 7. Where:
 #     "ex_7b_data1.csv"  # Source of more data
 #     "ex_7b_data2.csv"  # Destination
+# SUGGESTION: This can be done using two, nested "with open()" commands.  The first opens the writing file, and 
+#             the 2nd may be nested in the first and opens the data file.
