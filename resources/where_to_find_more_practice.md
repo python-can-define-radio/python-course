@@ -61,3 +61,5 @@
 
 
 -  [Python for Everybody (PY4E)](https://www.py4e.com/lessons): Another set of lessons covering all of the basics, and some more advanced topics (fetching data over a network, etc)
+
+-  [Python to edit images](https://realpython.com/image-processing-with-the-python-pillow-library/) (could be useful for batch editing images, such as cropping all images to a certain size)
