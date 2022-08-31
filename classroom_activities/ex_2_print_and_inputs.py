@@ -1,3 +1,26 @@
+#########################
+### These exercises take the approach of providing fodder for experimentation.
+###
+### Here's a good resource for explanations:
+###   https://learn.arcade.academy 
+###   Start on Chapter 4.
+### 
+### Some notes about that site:
+### - It mentions "Installing the Python programming language". That's already done in our classroom.
+### - It mentions "An integrated development environment (IDE) called PyCharm". We primarily use VSCode as our IDE.
+### - It mentions the "Version control system" git. Git is not required for this class, but interested readers are encouraged to explore it.
+### - Sections 4.2 and 4.3 show how to work in PyCharm. We will "translate" these steps to VSCode together as a class.
+#########################
+
+## Setup:
+## - Create a file called ex_2.py
+## - Type the first exercise in that file
+## - Press run
+## - Comment (disable) that exercise
+## - Try the next exercise
+##
+## Ask if you have any questions.
+
 ## 1 
 ## Try this.
 print("Here we go!")
