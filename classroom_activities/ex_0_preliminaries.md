@@ -5,6 +5,7 @@
 - Disable middle-click if desired. Ask the instructor how.
 - Create a folder for yourself with your name (and no spaces) on the Desktop.
 - In VSCode, open the folder that you created.
+- You'll most likely want to install the arcade library. In a terminal, run `pip3 install arcade`
 
 ## Things to know:
 
