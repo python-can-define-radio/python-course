@@ -1,3 +1,0 @@
-from playsound import playsound
-
-playsound("/put/the/path/to/your/file.mp3")
