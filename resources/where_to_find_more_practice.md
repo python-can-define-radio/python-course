@@ -54,6 +54,10 @@
 
 -  Practice problems:
    https://codingbat.com/python
+   
+   
+-  GUI programming: Tic Tac Toe using `tkinter`  
+   https://linuxhint.com/tic-tac-toe-using-gui-in-python/
 
 
 -  Videos:
