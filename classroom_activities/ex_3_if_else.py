@@ -199,7 +199,12 @@ print("C")
 
 
 ## 22
-## Write a program that takes a number from the user. Display the number doubled. Then do a sequence of creative if statements of your choice. Some examples: if the number is greater than 30, display "that’s pretty big." If the number is negative, display "Really? Negative? Interesting".  
+## Write a program that takes a number from the user.
+## Display the number doubled.
+## Then do a sequence of creative if statements of your choice.
+##   Some examples: if the number is greater than 30, display "that’s pretty big."
+##   If the number is negative, display "Really? Negative? Interesting".  
+
 
 ## 23
 ## Try this.
