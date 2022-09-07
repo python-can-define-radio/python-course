@@ -29,8 +29,10 @@
    https://grantjenks.com/docs/freegames/
 
 
--  Web scraping using BeautifulSoup:
-   https://www.dataquest.io/blog/web-scraping-python-using-beautiful-soup/
+-  Web scraping using BeautifulSoup:  
+   https://www.dataquest.io/blog/web-scraping-python-using-beautiful-soup/  
+   or  
+   https://realpython.com/beautiful-soup-web-scraper-python/
 
 
 -  Data processing using pandas: 
