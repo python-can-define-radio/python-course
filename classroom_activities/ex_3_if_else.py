@@ -96,6 +96,20 @@ if name == "joe":
 else: 
     print(f"Hey {name}.") 
 
+
+## 7c
+## Try this. What do you think the != operator means?
+name = input("What is your name? ").lower()
+if name != "jay": 
+    print("Your name is not Jay.") 
+print("Greetings.")
+
+    
+## 7d
+## Copy and modify the previous example like so:
+## - Ask the user for a name
+## - If the name is anything other than bob, then display "I don't think I know you. I only know Bob."
+
     
 ## 8 
 ## Try this. 
