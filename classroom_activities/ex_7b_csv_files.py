@@ -8,7 +8,7 @@ Background: CSV files may include multiple data records with each data record lo
 In this lesson, we will start by manually creating a csv file using a text editor or MS Visual Studio 
    Code, as examples.  Subsequently, we will create a simple Python program to read and evaluate data from the CSV file.
 Each task is numbered.  
-ref:    csv module: https://docs.python.org/3/library/csv.htm, 
+ref:    csv module: https://docs.python.org/3/library/csv.html, 
         examples: https://realpython.com/lessons/reading-csvs-pythons-csv-module/
 Additional tutorials may be available at: https://realpython.com/python-csv/ . The suitability of all portions this website has not been verified.
 """
