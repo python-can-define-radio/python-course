@@ -103,6 +103,7 @@ print("Ok, stopping.")
 
 ## 15
 ## Try this.
+## Reminder: the != operator means "Not equal".
 print("Welcome to the word guesser!")
 guess = ""
 secretWord = "water"
