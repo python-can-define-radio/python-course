@@ -76,6 +76,14 @@ for letter in phrase:
 # Try this:
 for num in range(1,5):
     print(num)
+# Note: You'll notice it always omits the final number.
+# It may seem odd, but it was an intentional decision in the design of Python (and other languages).
+# Why? The short explanation  is that it helps avoid off-by-one errors.
+# Ask an instructor if you're curious.
+# Here are some further explanations:
+#   https://howdoesinternetwork.com/2015/numbers
+#   https://howdoesinternetwork.com/wp-content/uploads/E.W.-Dijkstra-Archive-Why-numbering-should-start-at-zero-EWD-831-transcript.html
+#   https://stackoverflow.com/questions/4504662/why-does-rangestart-end-not-include-end
 
 
 # 9
