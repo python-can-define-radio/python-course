@@ -265,3 +265,7 @@ turtle.mainloop()
 
 # 29
 # Make it so if you press "Up" on your keyboard, the turtle will draw a square.
+
+
+## Cool examples:
+## https://gist.github.com/jkings454/b619cb0dc12901e8359393cad1b81c28
