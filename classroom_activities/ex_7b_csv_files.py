@@ -5,21 +5,23 @@ Background: CSV files may include multiple data records with each data record lo
    record (i.e., each line in the file) may include multiple pieces of data separated by commas OR another character used as a "delimiter".  
    On each line, the pieces of data are always stored in the same sequence.  By convention, the file name should end 
    with the extension ".csv"
-In this lesson, we will start by manually creating a csv file using a text editor or MS Visual Studio 
-   Code, as examples.  Subsequently, we will create a simple Python program to read and evaluate data from the CSV file.
+In this lesson, we will start by manually creating a csv file using a text editor, such as MS Visual Studio 
+   Code.  Subsequently, we will create simple Python programs to read and evaluate data from the CSV file.  
+   Finally, we will create simple Python programs to write data to a CSV file.
 Each task is numbered.  
 ref:    csv module: https://docs.python.org/3/library/csv.html, 
         examples: https://realpython.com/lessons/reading-csvs-pythons-csv-module/
 Additional tutorials may be available at: https://realpython.com/python-csv/ . The suitability of all portions this website has not been verified.
+Python3, version 3.9 or later was used while developing this lesson.
 """
 
 #1: Manually create a CSV file.
 # Using MS Visual Studio Code or a text editor, type or copy the data shown below and 
 #    save it with the file name:  "ex_7b_data1.csv". 
 # NOTEs: a. Remove the pound sign (#) and the leading space from each line of data.
-# b. The first ;line is a header line, which describes the prescribed data sequence.
+# b. The first line is a header line, which describes the prescribed data sequence.
 #    Because there is a header line, we will use the "csv.DictReader" command to retrieve 
-#    the data.  This will generate a dictionary data structure for the data.
+#    the data.  This will generate a dictionary data structure for the data within the python program we will write in a later task, below.
 # c. Some names in the list are intentionally not capitalized.
 #
 # name_last,name_first,department,years_employed
