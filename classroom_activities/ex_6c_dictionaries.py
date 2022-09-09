@@ -9,7 +9,7 @@ print("use this.")
 ## Try this.
 mypersondata = {
   "firstname": "Bob",
-  "lastname": "Smith,
+  "lastname": "Smith",
   "age": 23
 }
 print(mypersondata["firstname"])
