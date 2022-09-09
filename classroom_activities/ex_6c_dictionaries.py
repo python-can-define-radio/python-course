@@ -23,7 +23,7 @@ print(mypersondata["firstname"])
 ## Try this.
 mypersondata = {
   "firstname": "Bob",
-  "lastname": "Smith,
+  "lastname": "Smith",
   "age": 23
 }
 print(f"Do you know {mypersondata["firstname"]} ...?")
