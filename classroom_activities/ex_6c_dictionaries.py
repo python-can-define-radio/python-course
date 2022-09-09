@@ -26,7 +26,8 @@ mypersondata = {
   "lastname": "Smith",
   "age": 23
 }
-print(f"Do you know {mypersondata["firstname"]} ...?")
+print(f'Do you know {mypersondata["firstname"]} ...?')
+# NOTE: on previous line, we must use diferent types of quotation marks for the f-string vs. the dictionary address.
 
 
 ## 5
