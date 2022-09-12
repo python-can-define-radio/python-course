@@ -27,8 +27,10 @@
 # Prompt the user for a string that contains letters and numbers. Print only the number digits. Hint: use isnumeric. Look up how that function works, then ask for help as needed.
 
 
-# 7
-# Prompt the user for a word, then display it reversed. (There's a built-in Python function for reversing things.)
+# 7  (challenge question)
+# Prompt the user for a word, then display it reversed.
+# (There's a built-in Python function for reversing things calld `reversed`, 
+#  but you must use `join` with it.)
 
 
 # 8
