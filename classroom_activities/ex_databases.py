@@ -1,4 +1,5 @@
-#Databases are everywhere, from your little HackRF to massive companies like Facebook. Think of them like servers with lots of spreadsheets.
+#Databases are everywhere, from a file on your iPhone that stores contacts to massive servers at Facebook containing every 
+#detail they can get about you. Think of them like servers with lots of spreadsheets.
 #Many people and applications access them at a time, make changes, and relate data in the tables to each other for efficiency.
 #Here you'll take some API data and store it in a local database table, similar to a CSV.
 
