@@ -28,6 +28,22 @@ I recommend that everyone use a password manager. One option is Keeweb. Details 
 6. 
 
 
+### Using pylint
+
+If you want to try using pylint, ask an instructor for help, or see [here](https://stackoverflow.com/questions/62473201/how-do-i-enable-pylint-in-vscode).
+
+Here's a pylint configuration file. Copy it, name it `pylintrc`. Feel free to modify.
+
+```
+[MESSAGES CONTROL]
+
+disable=missing-module-docstring,
+        missing-function-docstring,
+        trailing-newlines,
+        missing-final-newline,
+        invalid-name
+```
+
 ### Unrelated Cool Stuff
 
 Fractals:
