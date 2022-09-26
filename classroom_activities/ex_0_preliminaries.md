@@ -18,6 +18,7 @@
 - `End`: Cursor to end of line
 - `Shift arrowkey`: Highlight forward/backward/up/down
 - `Ctrl arrowkey`: move cursor by words
+- `Ctrl D`: select multiple instances (_powerful but advanced feature -- instructor will demo how to use_)
 
 Notes about `Delete`:
 - In the "Terminal" program, the cursor is a box.  The `Delete` key deletes the character inside the cursor box and pulls text from the RIGHT.
