@@ -12,7 +12,10 @@ print(f"Rounded would be {item_number:.2f} with two decimal places.")
 ## This website gives some great practical examples. Recommended to start here.
 ## https://www.linisnil.com/articles/practical-guide-to-python-string-format-specifiers/
 
-## This website gives detailed documentation.
+## Another good site:
+## https://www.pythonmorsels.com/string-formatting/
+
+## This website gives detailed documentation; somewhat more difficult to read.
 ## https://docs.python.org/3/library/string.html#format-specification-mini-language
 
 
