@@ -1,3 +1,8 @@
+Dictionaries are a somewhat more advanced (but very useful) data structure.
+
+These exercises show the basics. For more practice, see https://realpython.com/python-dicts/
+
+```python3
 ## 1
 ## Try this.
 print("If you want to put everything", end="")
@@ -34,3 +39,4 @@ print(f'Do you know {mypersondata["firstname"]} ...?')
 ## Copy and modify the previous example so that it displays this:
 ##   'Did you know that ___   ___ is ___ years old?'
 ##   (Fill in the first name, last name, and age appropriately.)
+```
