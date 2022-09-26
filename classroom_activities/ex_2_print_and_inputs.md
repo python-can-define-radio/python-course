@@ -1,19 +1,19 @@
 # Ex 2: Print and inputs
 
-Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start Python.
+Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
 
-We'll be primarily VSCode as our editor for the Python code that we write. Here's how to get set up:
+We'll be primarily using Visual Studio Code (VS Code) as our editor for the Python code that we write. Here's how to get set-up:
 
-- Open VSCode
+- Open VS Code
 - Open your folder using `File -> Open Folder`
 - Create a file called `ex_2.py`
 - Now that you have that file open, type this in that file:
      ```python3
      print("Here we go!")
      ```
-- Press the "run" button. It's a triangle in the top-right corner.
+- Press the "run" button. It's a triangle in the top-right corner. (If you do not see a "run" button, then maybe the Python extension is not installed in VS Code, or maybe the extension of your file name is not precisely '.py'.)
 - It should display "Here we go!" at the bottom of the screen.
-- If it ran successfully, then Comment (disable) that exercise using `Ctrl /`, and try the next exercise.
+- If it ran successfully, then Comment (disable) that exercise using `Ctrl /` while your cursor is placed on that line of code, and try the next exercise.
 - Ask if you have any questions.
 
 <details><summary>Sidenote (click to expand)</summary>
