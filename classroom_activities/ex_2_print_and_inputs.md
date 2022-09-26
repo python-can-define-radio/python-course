@@ -1,3 +1,4 @@
+```python3
 #########################
 ### These exercises take the approach of providing fodder for experimentation.
 ###
@@ -228,3 +229,4 @@ end = input("Can you give me some random last four digits please? ")
 
 fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
+```
