@@ -17,7 +17,7 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 - Ask if you have any questions.
 
 <details><summary>Sidenote (click to expand)</summary>
-<p>
+
 
 ------
   
@@ -28,7 +28,7 @@ A great supplemental resource is https://learn.arcade.academy . They start talki
 - It mentions a "Version control system" called git. Git is not required for this class, but interested readers are encouraged to explore it.
 - Sections 4.2 and 4.3 are PyCharm-specific. You can skip them.
 ------
-</p>
+
 </details>
 
 
