@@ -1,4 +1,5 @@
-# Ex 2: Print and inputs
+# Ex 2: Print and Input Statements
+(This page: https://github.com/python-can-define-radio/python-course/edit/main/classroom_activities/ex_2_print_and_inputs.md)
 
 Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
 
@@ -16,32 +17,32 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 - If it ran successfully, then Comment (disable) that exercise using `Ctrl /` while your cursor is placed on that line of code, and try the next exercise.
 - Ask if you have any questions.
 
-<details><summary>Sidenote (click to expand)</summary>
+> __Note__
+<details><summary> /Click here to expand the Note./ </summary>
 
-
-------
-  
-A great supplemental resource is https://learn.arcade.academy . They start talking about `print` on Chapter 4. Some notes before you head over to that site:
-
-- It mentions "Installing the Python programming language". That's already done in our classroom.
-- It mentions "An integrated development environment (IDE) called PyCharm". We primarily use VSCode (not PyCharm) as our IDE.
-- It mentions a "Version control system" called git. Git is not required for this class, but interested readers are encouraged to explore it.
-- Sections 4.2 and 4.3 are PyCharm-specific. You can skip them.
-------
+> ------
+>  
+> A great supplemental resource is https://learn.arcade.academy . They start talking about `print` on Chapter 4. Some notes before you head over to that site:
+> 
+> - It mentions "Installing the Python programming language". That's already done in our classroom.
+> - It mentions "An integrated development environment (IDE) called PyCharm". We primarily use VSCode (not PyCharm) as our IDE.
+> - It mentions a "Version control system" called git. Git is not required for this class, but interested readers are encouraged to explore it.
+> - Sections 4.2 and 4.3 are PyCharm-specific. You can skip them.
+>------
 
 </details>
-
-
 
 ------
 
 Before we get to the rest of the exercises, here's a little info about what we're doing. This quoted from https://learn.arcade.academy/en/latest/chapters/04_print_statement/print_statement.html .
 
-> In this chapter we’ll write our first programs using the most fundamental of all tools in the programmer’s toolbox, the **print** function. This function does exactly what you’d expect–it prints to the screen.  
+> "In this chapter we’ll write our first programs using the most fundamental of all tools in the programmer’s toolbox, the **print** function. This function does exactly what you’d expect––it prints to the screen.  
 >   
-> While a lot of programs are graphics-based, text-only programs are still quite common with people that manage computers, or who do data analytics. Even for the graphics-based games we develop in this book, the **print** function will be a vital aid in understanding and debugging our games.
+> "While a lot of programs are graphics-based, text-only programs are still quite common with people that manage computers, or who do data analytics. Even for the graphics-based games we develop in this book, the **print** function will be a vital aid in understanding and debugging our games."
 
 
+## Exercises
+### Using Simple Print Statements
 
 ```python3
 ## 1 
@@ -65,7 +66,7 @@ print("If you want \n separate lines, you \n can do it \n like this.")
 print("This thing inside quotes is called a \"string\". If you want to put quotes inside, this is how.")
 ```
 
-## Variables
+### Using Variables
 
 So now, you've displayed some text on the screen. We may also want to store data. To do that, you use a **variable**.
 
@@ -91,7 +92,7 @@ lastn = "Smith"
 print(f"My name is {firstn} {lastn}")
 ```
 
-## Input
+### Using Input Statements
 
 Now that we've seen some basic examples, let's ask the user to give us some info.
 
@@ -164,7 +165,7 @@ print(f"Your name is {firstn} {lastn}.")
 ## but fill in the blanks with the animal and the plant.
 ```
 
-## Strings and Integers
+### Using Strings and Integers
 
 ```python3
 ## 9
