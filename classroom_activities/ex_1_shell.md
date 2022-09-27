@@ -1,10 +1,14 @@
 
+This exercise is developed for a Linux operating system (OS).  More specifically, it is developed based on the Ubunto Linux OS. The OS includes several pre-install programs or applications, commonly called "Aps".  One such program is the "Terminal", which is a text-based user interface for interacting with the OS itself, storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and the internet.
+
+The Terminal program may also be called a "command-prompt", a "shell", a "console" (not meaning the physical piece of equipment by the same name). 
+
 Some useful resources:
 - Background info about "Why the terminal": 
   - ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
   - askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
 - Tutorials:
-  - The one we'll be using: ubuntu.com/tutorials/command-line-for-beginners
+  - ubuntu.com/tutorials/command-line-for-beginners : This is the source of some concepts presented here. 
   - Another: linuxsurvival.com
 
 
