@@ -53,22 +53,36 @@ Before we get to the rest of the exercises, here's a little info about what we'r
 ## 1 
 ## Try this.
 print("Here we go!")
-     
+
 ## 2
 ## Try this.
-## You'll get an error having to do with the quotation marks.
-## Why do you think that is? How do you fix it?
-print(“bob”)
+print("If you want \n separate lines, you \n can do it \n like this.")
+```
 
+Once you have run both of those exercises, you can "comment them out", that is, disable them. 
 
+Example:
+```python3
+# print("This line won't run because it is 'commented out'. ")
+# print("Any line preceded by a '#' will not run.")
+```
+
+You can manually add the `#` characters if you want, but there's an easier way in VS Code:
+
+- Highlight any portion of the lines
+- Press `Ctrl /`
+
+Disabling the exercises as you go is a great idea because it allows you to keep them for reference, but not see the output every time you press run.
+
+```python3
 ## 2b
 ## Try this.
-print("If you want \n separate lines, you \n can do it \n like this.")
-
+print("This thing inside quotes is called a \"string\". If you want to put quotes inside, this is how.")
 
 ## 2c
 ## Try this.
-print("This thing inside quotes is called a \"string\". If you want to put quotes inside, this is how.")
+print("You have now seen two escape sequences: \n for newline, and \" for a quotation mark. Another useful sequence is two backslashes, which is used to type a single backslash.")
+print("Example:  \\  ")
 ```
 
 ### Using Variables
