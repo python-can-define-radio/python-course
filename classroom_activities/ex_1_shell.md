@@ -1,18 +1,20 @@
-#### Some useful resources:
-### Background info about "Why the terminal": 
-###  - ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
-###  - askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
-### Tutorials:
-###  - The one we'll be using: ubuntu.com/tutorials/command-line-for-beginners
-###  - Another: linuxsurvival.com
+
+Some useful resources:
+- Background info about "Why the terminal": 
+  - ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
+  - askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
+- Tutorials:
+  - The one we'll be using: ubuntu.com/tutorials/command-line-for-beginners
+  - Another: linuxsurvival.com
 
 
-### Preliminaries:
-### Make a directory on the Desktop with your name. No spaces :-)
-### Inside, create and open a file called notes.txt.
-### Use it to make notes about what the commands do.
+Preliminaries:
+- Make a directory on the Desktop with your name. No spaces :-)
+- Inside, create and open a file called notes.txt.
+- Use it to make notes about what the commands do.
 
 
+```sh
 ## 1
 ## First, run these. (Together as a class)
 cd ~
@@ -141,3 +143,4 @@ cd otherstuff
 ##         ├── chair.txt
 ##         ├── table.txt
 ##         └── desk.txt
+```
