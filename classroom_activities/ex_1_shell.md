@@ -1,7 +1,5 @@
 
-This exercise is developed for a Linux operating system (OS).  More specifically, it is developed based on the Ubunto Linux OS. The OS includes several pre-install programs or applications, commonly called "Aps".  One such program is the "Terminal", which is a text-based user interface for interacting with the OS itself, storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and the internet.
-
-The Terminal program may also be called a "command-prompt", a "shell", a "console" (not meaning the physical piece of equipment by the same name). 
+This exercise is developed for a Linux operating system (OS).  More specifically, it is developed based on the Ubunto Linux OS. The OS includes several pre-installed programs or applications, commonly called "Aps".  One such pre-installed program is the "Terminal", which is a text-based user interface for interacting with the OS itself, storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and the internet.  The Terminal program is also called the "command-prompt", the "shell", and the "console" (not meaning the physical piece of equipment by the same name). The exercises of the current lesson are focused on familiarizing the student with the Terminal of Linux.
 
 Some useful resources:
 - Background info about "Why the terminal": 
