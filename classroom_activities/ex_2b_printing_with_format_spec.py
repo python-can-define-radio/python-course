@@ -1,3 +1,7 @@
+"""Example 2b Printing with Format Specifiers
+   webpage for this lesson: "https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2b_printing_with_format_spec.py"
+"""
+
 ## Sometimes, you want to print with some specific format.
 ## For example:
 ##  - Rounding a number to two decimal places
