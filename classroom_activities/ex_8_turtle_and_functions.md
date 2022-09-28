@@ -74,7 +74,38 @@ turtle.forward(50)
 # Make the turtle draw a triangle with a different color for each side.
 ```
 
-At this point, you have 
+At this point, you may have noticed that the code for fairly simple tasks can be pretty long.
+
+The solution? Functions.
+
+There's a great [chapter in Arcade Academy about functions](https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html). I recommend reading it. After you have read the intro and section 8.1, try this:
+
+```python3
+## 4b
+def drawTriangle():
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+
+turtle.pensize(15)
+turtle.speed(1)
+turtle.pencolor("red")
+drawTriangle()
+turtle.pencolor("blue")
+drawTriangle()
+turtle.pencolor("green")
+drawTriangle()
+
+
+## 4c
+## Copy and modify the previous example.
+## In this version, have the turtle move forward a little bit after each triangle so that you can see each triangle separately.
+```
+
+You can also pick up the pen.
 
 ```python3
 # 5
