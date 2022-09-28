@@ -1,3 +1,6 @@
+# Turtle
+
+```python3
 # 1
 # Try this.
 import turtle
@@ -11,12 +14,12 @@ turtle.mainloop()
 
 # 2
 # Try this.
-
 turtle.forward(100)
 turtle.right(90)
 turtle.forward(100)
 
 turtle.mainloop()
+
 
 # 2b
 # Try this. You'll notice that it closes immediately.
@@ -32,11 +35,11 @@ turtle.forward(100)
 
 
 # 3
-# Try making the turtle draw a square.
+# Make the turtle draw a square.
 
 
 # 4
-# Try making the turtle draw a triangle.
+# Making the turtle draw a triangle.
 
 
 # 5
@@ -269,3 +272,4 @@ turtle.mainloop()
 
 ## Cool examples:
 ## https://gist.github.com/jkings454/b619cb0dc12901e8359393cad1b81c28
+```
