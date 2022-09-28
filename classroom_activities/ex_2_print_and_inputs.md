@@ -82,7 +82,7 @@ print("This thing inside quotes is called a \"string\". If you want to put quote
 ## 2c
 ## Try this.
 print("You have now seen two escape sequences: \n for newline, and \" for a quotation mark. Another useful sequence is two backslashes, which is used to type a single backslash.")
-print("Example:  \\  ")
+print("Example:  \\  will only display one backslash.")
 ```
 
 ### Using Variables
@@ -96,11 +96,15 @@ If you'd like to read more about variables, go to section 7.1 on this page: http
 ## 3
 ## Try this.
 ## firstn and lastn are the two variables in this example.
+## When you run this, you won't see Smith. Why not?
 
 firstn = "Bob"
 lastn = "Smith"
 print(firstn)
-print(lastn)
+
+
+## 3b
+## Copy and modify the previous example so that it prints firstn, and then prints lastn.
 
 
 ## 4
