@@ -1,13 +1,15 @@
 
-This exercise is developed for a Linux operating system (OS).  More specifically, it is developed based on the Ubunto Linux OS. The OS includes several pre-installed programs or applications, commonly called "Aps".  One such pre-installed program is the "Terminal", which is a text-based user interface for interacting with the OS itself, storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and the internet.  The Terminal program is also called the "command-prompt", the "shell", and the "console" (not meaning the physical piece of equipment by the same name). The exercises of the current lesson are focused on familiarizing the student with the Terminal of Linux.
+This exercise is developed for a Linux operating system (OS).  More specifically, it is developed based on the Ubuntu Linux OS. The OS includes several pre-installed programs or applications, commonly called "Apps".  One such pre-installed program is the "Terminal", which is a text-based user interface for interacting with the OS itself, storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and the internet.  The Terminal program is also called the "command-prompt", the "shell", and the "console" (not meaning the physical piece of equipment by the same name). The exercises of the current lesson are focused on familiarizing the student with the Terminal of Linux.
 
 Some useful resources:
+
+(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new tab".)
 - Background info about "Why the terminal": 
-  - ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
-  - askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
+  - https://ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
+  - https://askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
 - Tutorials:
-  - ubuntu.com/tutorials/command-line-for-beginners : This is the source of some concepts presented here. 
-  - Another: linuxsurvival.com
+  - https://ubuntu.com/tutorials/command-line-for-beginners : This is the source of some concepts presented here. 
+  - Another: https://linuxsurvival.com
 
 
 Preliminaries:
@@ -15,6 +17,7 @@ Preliminaries:
 - Inside, create and open a file called notes.txt.
 - Use it to make notes about what the commands do.
 
+- [ ] Ready?  Let's get started.
 
 ```sh
 ## 1
