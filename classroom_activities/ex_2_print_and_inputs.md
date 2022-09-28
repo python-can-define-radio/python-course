@@ -139,7 +139,10 @@ Try it out:
 
 ```python3
 ## 4b
-## Try this. When you run it, it will ask you to type something.
+## Try this.
+## When you run it, it will ask you to type something.
+## You will need to click inside the terminal on the bottom half of the screen
+##   so that it has "focus" (that is, you want the words you type to be entered in the terminal).
 print("Hello!")
 cartype = input("Say the name of a car, then press enter: ")
 print(f"The car you named is {cartype}. That was a good choice.")
