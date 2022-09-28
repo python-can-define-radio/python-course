@@ -1,9 +1,12 @@
 
-This exercise is developed for a Linux operating system (OS).  More specifically, it is developed based on the Ubuntu Linux OS. The OS includes several pre-installed programs or applications, commonly called "Apps".  One such pre-installed program is the "Terminal", which is a text-based user interface for interacting with the OS itself, storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and the internet.  The Terminal program is also called the "command-prompt", the "shell", and the "console" (not meaning the physical piece of equipment by the same name). The exercises of the current lesson are focused on familiarizing the student with the Terminal of Linux.
+The goal of the current lesson is to familiarize new students with the "Terminal" program of the Linux operating system (OS).
 
-Some useful resources:
+### Background Information:
+This exercise is developed based on the Ubuntu distribution of the Linux OS, but should be applicable for other distributions as well. Linex includes several pre-installed programs or applications, commonly called "Apps".  One such pre-installed program is the Terminal, which is a text-based user interface for interacting with the OS itself, with storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and with the internet.  The Terminal program is also called the "command-prompt", the "shell", and the "console".  (Further details: for older Unix computer systems, the terms "terminal" and "console" referred to a physical piece of equipment.  Within the Linux OS, they refer to software providing similar functionality). 
 
-(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new tab".)
+
+### Some useful resources:
+`(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new window".)`
 - Background info about "Why the terminal": 
   - https://ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
   - https://askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
@@ -11,13 +14,11 @@ Some useful resources:
   - https://ubuntu.com/tutorials/command-line-for-beginners : This is the source of some concepts presented here. 
   - Another: https://linuxsurvival.com
 
-
-Preliminaries:
+### Expercises
+Preliminary Tasks:  (Instructions follow)
 - Make a directory on the Desktop with your name. No spaces :-)
 - Inside, create and open a file called notes.txt.
 - Use it to make notes about what the commands do.
-
-- [ ] Ready?  Let's get started.
 
 ```sh
 ## 1
@@ -34,8 +35,10 @@ touch a.txt
 ls
 touch b.txt
 ls
+```
 
-
+Now Try These:
+```sh
 ## 2 
 ## After running those commands,
 ##  - Use the GUI file browser to look at the files you just created.
