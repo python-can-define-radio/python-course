@@ -194,6 +194,8 @@ print(f"Your name is {firstn} {lastn}.")
 
 ### Using Strings and Integers
 
+What does `+` mean? We all know that `2 + 3` is `5`. But what is `"Hello" + "Goodbye"`? 
+
 ```python3
 ## 9
 ## Try this.
@@ -201,18 +203,27 @@ a = "Hello"
 b = "Goodbye"
 c = a + b
 print(c)
+```
 
+As you can see, it displayed `HelloGoodbye`. The fancy name for this is _concatenate_, which simply means putting the two strings next to each other.
 
+You can also let the user enter the words to be concatenated.
+
+```python3
 ## 10
 ## Try this.
 a = input("First word? ")
 b = input("Second word? ")
 c = a + b
 print(c)
+```
 
+Now, how does the computer know whether you want to do math addition or string concatenation?
 
+Try these:
+
+```python3
 ## 11
-## Try this.
 a = 5
 b = 3
 c = a + b
@@ -220,13 +231,19 @@ print(c)
 
 
 ## 12
-## Try this.
 a = "5"
 b = "3"
 c = a + b
 print(c)
+```
 
+As you can see, if you add two strings (the things insides quotation marks), it will concatenate: `"5" + "3"` is `"53"`.
 
+On the other hand, if you add two integers, it will do math addition: `5 + 3` is `8`.
+
+Let's look at how to handle inputs.
+
+```python3
 ## 13 
 ## Try this.
 a = int("5")
@@ -237,32 +254,36 @@ print(c)
 
 ## 14
 ## Try this.
-a = input("Type an integer.")
-b = input("Type another integer.")
+a = input("Type an integer: ")
+b = input("Type another integer: ")
 c = a + b
 print(c)
 
 
 ## 15
 ## Try this.
-a = int(input("Type an integer."))
-b = int(input("Type another integer."))
+a = int(input("Type an integer: "))
+b = int(input("Type another integer: "))
 c = a + b
 print(c)
+```
 
+Notice that the `int` function tells Python to convert the numbers to integers. If you use `input` without `int`, then the variables are strings, so the `+` symbol does concatenation instead of math addition.
 
+```python3
 ## 16
 ## Try this. You will get an error. How do you fix it?
-a = input("Type an integer.")
-b = int(input("Type another integer."))
+a = input("Type an integer: ")
+b = int(input("Type another integer: "))
 c = a + b
 print(c)
+
 
 ## 17
 ## Try this. You will get an error. How do you fix it?
 favnum = input("What is your favorite number?")
 onemore = favnum + 1
-print(f"One more would be {onemore}.")
+print(f"One more would be {onemore}")
 
 
 ## 18
