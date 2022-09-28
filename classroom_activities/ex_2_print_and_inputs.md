@@ -183,7 +183,7 @@ print(f"Your name is {firstn} {lastn}.")
 ## 7
 ## Ask the user for a color, and then say
 ## "___ is a pretty color."
-## (Fill in the blank with the actual color.)
+## (Fill in the blank with the color that the user said.)
 
 
 ## 8
