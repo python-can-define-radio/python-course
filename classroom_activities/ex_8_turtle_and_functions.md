@@ -14,38 +14,69 @@ turtle.left(90)
 turtle.forward(100)
 
 turtle.mainloop()
+```
 
+In this first example, you'll see that the "turtle" (the little triangle on the screen) moved forward, turned left, and moved forward again.
 
+Now, let's make it turn right:
+
+```python3
 # 2
-# Try this.
+# Try this. Don't forget to import turtle.
 turtle.forward(100)
 turtle.right(90)
 turtle.forward(100)
 
 turtle.mainloop()
+```
 
+To avoid the window closing immediately, always put `turtle.mainloop()` at the end.
 
+```python3
 # 2b
 # Try this. You'll notice that it closes immediately.
 # The way to fix that is to put the mainloop part at the end.
 turtle.forward(100)
+```
 
+Let's make it colorful!
 
+```python3
 # 2c
-# Make the turtle move forward 50 units,
-# then turn left 45 degrees,
-# then move forward 30 units.
-# Remember to put turtle.mainloop() at the end.
+# Try this.
+turtle.pencolor("black")
+turtle.pensize(10)
+turtle.forward(100)
 
+turtle.pencolor("red")
+turtle.forward(200)
 
+turtle.pencolor("green")
+turtle.pensize(20)
+turtle.forward(50)
+```
+
+```python3
 # 3
-# Make the turtle draw a square.
+# Set the pen size to 20.
+# Set the pen color to orange.
+# Move forward 50 units.
+# Turn left 45 degrees.
+# Set the pen color to purple.
+# Move forward 100 units.
+
+
+# 3b
+# Make the turtle draw a square with a different color for each side.
 
 
 # 4
-# Making the turtle draw a triangle.
+# Make the turtle draw a triangle with a different color for each side.
+```
 
+At this point, you have 
 
+```python3
 # 5
 # Try this.
 turtle.forward(50)
