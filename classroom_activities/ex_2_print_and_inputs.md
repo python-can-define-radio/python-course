@@ -109,7 +109,8 @@ print(firstn)
 
 ## 4
 ## Try this.
-## This example uses a formatted string, which is called an f string for short. 
+## This example uses an f string. The f stands for "format".
+## f strings are used to insert variables inside of a string.
 firstn = "Bob"
 lastn = "Smith"
 print(f"My name is {firstn} {lastn}")
