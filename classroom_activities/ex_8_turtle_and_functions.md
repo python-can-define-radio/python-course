@@ -147,7 +147,7 @@ drawTriangle()
 turtle.mainloop()
 ```
 
-That should draw three triangles. They draw stacked, so if you aren't quick, you may only see the green one.
+That should draw three triangles (red, blue, green). They draw stacked, so if you aren't quick, you may only see the green one.
 
 Make sure you get that part working before moving on.
 
