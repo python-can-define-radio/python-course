@@ -106,6 +106,7 @@ There's a great [chapter in Arcade Academy about functions](https://learn.arcade
 ```python3
 ## 5
 ## This defines how to draw a triangle.
+## However, it doesn't actually draw the triangle. Read below to see why.
 def drawTriangle():
     turtle.forward(200)
     turtle.left(120)
@@ -114,8 +115,18 @@ def drawTriangle():
     turtle.forward(200)
     turtle.left(120)
     # Don't put the mainloop here.
-    # Make sure to include the code below. It's all part of the same example.
+```
 
+As described in the [chapter in Arcade Academy about functions](https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html):
+
+> "Defining a function doesn’t cause the computer to _do_ anything. It is like giving a recipe to the computer. Give someone a recipe for banana bread and they know how to make it. They haven’t actually made it yet, they just know how. You have to _tell_ them to make banana bread. That is, after we **define** the function we must **call** the function before the code in it runs. To call a function, type the function name and follow it by parenthesis. Do not use **def**, that is only used when we define what the function does, not when we tell the computer to run it."
+
+So, let's call the function that we defined.
+
+It's important to NOT indent the following lines.
+
+```python3
+## Make sure you have your drawTriangle definition UNCOMMENTED when you run this part.
 turtle.pensize(15)
 turtle.speed(1)
 turtle.pencolor("red")
@@ -124,9 +135,11 @@ turtle.pencolor("blue")
 drawTriangle()
 turtle.pencolor("green")
 drawTriangle()
-# put the mainloop here at the very end.
+```
 
+Make sure you get that part working before moving on.
 
+```python3
 ## 5b
 ## Copy and modify the previous example.
 ## In this version, have the turtle move forward a little bit after each triangle so that you can see each triangle separately.
@@ -142,22 +155,6 @@ drawTriangle()
 ##  draw a triangle
 ```
 
-So, what happens if you define a function, but don't use it?
-
-```python3
-## Run this. You'll see that it doesn't do anything.
-def drawTriangle():
-    turtle.forward(200)
-    turtle.left(120)
-    turtle.forward(200)
-    turtle.left(120)
-    turtle.forward(200)
-    turtle.left(120)
-```
-
-As described in the [chapter in Arcade Academy about functions](https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html):
-
-> "Defining a function doesn’t cause the computer to _do_ anything. It is like giving a recipe to the computer. Give someone a recipe for banana bread and they know how to make it. They haven’t actually made it yet, they just know how. You have to _tell_ them to make banana bread. That is, after we **define** the function we must **call** the function before the code in it runs. To call a function, type the function name and follow it by parenthesis. Do not use **def**, that is only used when we define what the function does, not when we tell the computer to run it."
 
 --------
 
