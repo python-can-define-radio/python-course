@@ -48,14 +48,15 @@ turtle.speed(1)
 
 turtle.pencolor("black")
 turtle.pensize(10)
-turtle.forward(100)
+turtle.forward(20)
 
 turtle.pencolor("red")
-turtle.forward(200)
+turtle.pensize(2)
+turtle.forward(50)
 
 turtle.pencolor("green")
 turtle.pensize(20)
-turtle.forward(50)
+turtle.forward(200)
 ```
 
 ```python3
