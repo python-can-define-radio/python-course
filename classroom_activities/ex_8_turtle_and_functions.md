@@ -39,11 +39,13 @@ To avoid the window closing immediately, always put `turtle.mainloop()` at the e
 turtle.forward(100)
 ```
 
-Let's make it colorful!
+Let's make it colorful! And let's slow it down too.
 
 ```python3
 # 2c
 # Try this.
+turtle.speed(1)
+
 turtle.pencolor("black")
 turtle.pensize(10)
 turtle.forward(100)
