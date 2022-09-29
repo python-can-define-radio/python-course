@@ -137,6 +137,8 @@ turtle.pencolor("green")
 drawTriangle()
 ```
 
+That should draw three triangles. They draw stacked, so if you aren't quick, you may only see the green one.
+
 Make sure you get that part working before moving on.
 
 ```python3
