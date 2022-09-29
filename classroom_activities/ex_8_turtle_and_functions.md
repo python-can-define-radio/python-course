@@ -123,10 +123,19 @@ As described in the [chapter in Arcade Academy about functions](https://learn.ar
 
 So, let's call the function that we defined.
 
-It's important to NOT indent the following lines.
-
 ```python3
-## Make sure you have your drawTriangle definition UNCOMMENTED when you run this part.
+## 5 continued
+## This is the same definition as before.
+def drawTriangle():
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+    # Don't put the mainloop here.
+
+## It's important to NOT indent the following lines.
 turtle.pensize(15)
 turtle.speed(1)
 turtle.pencolor("red")
