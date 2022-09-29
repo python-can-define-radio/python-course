@@ -321,7 +321,7 @@ print(f"One more would be {onemore}")
 # Right way:
 beg = "800"
 mid = "555"
-end = input("Can you give me some random last four digits please? ")
+end = input("Give me a 4 digit number: ")
 
 fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
@@ -331,7 +331,7 @@ print(fullPhoneNum)
 # Wrong way:
 beg = 800
 mid = 555
-end = int(input("Can you give me some random last four digits please? "))
+end = int(input("Give me a 4 digit number: "))
 
 fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
@@ -340,7 +340,7 @@ print(fullPhoneNum)
 # Another wrong way:
 beg = 800
 mid = 555
-end = input("Can you give me some random last four digits please? ")
+end = input("Give me a 4 digit number: ")
 
 fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
