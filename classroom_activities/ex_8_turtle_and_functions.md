@@ -64,6 +64,22 @@ turtle.pensize(20)
 turtle.forward(200)
 ```
 
+You can also pick up the pen, which means "stop drawing". (Conversely, `pendown` means "start drawing".)
+
+```python3
+# 2d
+# Try this.
+turtle.forward(50)
+turtle.penup()
+turtle.forward(10)
+turtle.pendown()
+turtle.forward(30)
+
+
+# 2e
+# Draw three separate lines.
+```
+
 ```python3
 # 3
 # Set the pen size to 20.
@@ -113,21 +129,8 @@ drawTriangle()
 ## In this version, have the turtle move forward a little bit after each triangle so that you can see each triangle separately.
 ```
 
-You can also pick up the pen.
 
 ```python3
-# 5
-# Try this.
-turtle.forward(50)
-turtle.penup()
-turtle.forward(10)
-turtle.pendown()
-turtle.forward(30)
-
-
-# 6
-# Draw three separate lines.
-
 
 # 6b
 # Draw three separate squares.
