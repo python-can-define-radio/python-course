@@ -313,9 +313,10 @@ print(f"One more would be {onemore}")
 
 
 ## 23
-##### You may wonder why you must use the int() function.
-##### After all, shouldn't the computer know what a number looks like?
-##### Here's an example of when you WOULDN'T want the number to be treated as an integer.
+## (Optional)
+## You may wonder why you must use the int() function.
+## After all, shouldn't the computer know what a number looks like?
+## Here's an example of when you WOULDN'T want the number to be treated as an integer.
 
 ########################################
 # Right way:
