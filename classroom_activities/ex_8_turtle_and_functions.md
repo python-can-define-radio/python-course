@@ -144,6 +144,7 @@ turtle.pencolor("blue")
 drawTriangle()
 turtle.pencolor("green")
 drawTriangle()
+turtle.mainloop()
 ```
 
 That should draw three triangles. They draw stacked, so if you aren't quick, you may only see the green one.
