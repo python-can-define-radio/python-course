@@ -78,9 +78,8 @@ turtle.forward(30)
 
 # 2e
 # Draw three separate lines.
-```
 
-```python3
+
 # 3
 # Set the pen size to 20.
 # Set the pen color to orange.
@@ -105,7 +104,8 @@ The solution? Functions.
 There's a great [chapter in Arcade Academy about functions](https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html). I recommend reading it. After you have read the intro and section 8.1, try this:
 
 ```python3
-## 4b
+## 5
+## This defines how to draw a triangle.
 def drawTriangle():
     turtle.forward(200)
     turtle.left(120)
@@ -113,31 +113,77 @@ def drawTriangle():
     turtle.left(120)
     turtle.forward(200)
     turtle.left(120)
+    # Don't put the mainloop here.
+    # Make sure to include the code below. It's all part of the same example.
 
 turtle.pensize(15)
 turtle.speed(1)
 turtle.pencolor("red")
-drawTriangle()
+drawTriangle()    # This command runs drawTriangle. You could also say we are "calling" (running) drawTriangle.
 turtle.pencolor("blue")
 drawTriangle()
 turtle.pencolor("green")
 drawTriangle()
+# put the mainloop here at the very end.
 
 
-## 4c
+## 5b
 ## Copy and modify the previous example.
 ## In this version, have the turtle move forward a little bit after each triangle so that you can see each triangle separately.
+
+
+## 5c
+## Copy and modify the previous example.
+## In this version, do this:
+##  draw a triangle
+##  stop drawing (pick up the pen)
+##  move forward 400 units
+##  start drawing (put down the pen)
+##  draw a triangle
 ```
 
+So, what happens if you define a function, but don't use it?
 
 ```python3
+## Run this. You'll see that it doesn't do anything.
+def drawTriangle():
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+```
 
-# 6b
-# Draw three separate squares.
+As described in the [chapter in Arcade Academy about functions](https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html):
+
+> "Defining a function doesn’t cause the computer to _do_ anything. It is like giving a recipe to the computer. Give someone a recipe for banana bread and they know how to make it. They haven’t actually made it yet, they just know how. You have to _tell_ them to make banana bread. That is, after we **define** the function we must **call** the function before the code in it runs. To call a function, type the function name and follow it by parenthesis. Do not use **def**, that is only used when we define what the function does, not when we tell the computer to run it."
+
+--------
+
+```python3
+## Try this. How does it differ from our original drawTriangle function?
+def drawTriangle_pd():
+    turtle.pendown()
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.forward(200)
+    turtle.left(120)
+    turtle.penup()
+
+drawTriangle_pd()
+turtle.forward(300)
+drawTriangle_pd()
 
 
 # 6c
-# Draw three separate triangles.
+# Using drawTriangle_pd, draw three separate triangles of different colors.
+
+
+# 6b
+# Make a drawSquare function. Using that function, draw five separate squares. (This should only require about 10 to 25 lines of code. If you have more than that, look back at how drawTriangle helped to avoid repeated code.)
 
 
 # 6d
