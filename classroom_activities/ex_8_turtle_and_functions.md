@@ -154,7 +154,8 @@ Make sure you get that part working before moving on.
 ```python3
 ## 5b
 ## Copy and modify the previous example.
-## In this version, have the turtle move forward a little bit after each triangle so that you can see each triangle separately.
+## In this version, just after each pencolor command, add a forward command.
+## The goal here is to make the turtle move forward a little bit after each triangle so that you can see each triangle separately.
 
 
 ## 5c
