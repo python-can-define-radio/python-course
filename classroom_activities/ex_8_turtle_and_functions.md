@@ -154,7 +154,34 @@ Make sure you get that part working before moving on.
 ```python3
 ## 5b
 ## Copy and modify the previous example.
-## In this version, just after each pencolor command, add a forward command.
+## In this version, draw a fourth triangle, using purple as the color.
+## You should only need to add two lines of code:
+##   set the pen color to purple
+##   draw the triangle
+## Make sure to add those two lines **before** the mainloop.
+
+
+## 5c
+## Copy and modify the previous example.
+## In this version, we still keep the purple triangle, but just before drawing the purple triangle, we're going to make the pen size smaller using 
+##     turtle.pensize(10)
+## The goal is to be able to see two overlapping triangles.
+
+
+## 5d
+## Copy and modify the previous example.
+## In this version, before each of the four triangles, set the pensize.
+## Set the pensize to 40 before the first triangle,
+## 30 before the second triangle,
+## 20 before the third,
+## 10 before the fourth.
+
+
+## 5e
+## (UNFINISHED; SKIP FOR NOW)
+## Copy and modify the previous example.
+## In addition to setting the pensize for each triangle,
+## just after each pencolor command, add a forward command.
 ## The goal here is to make the turtle move forward a little bit after each triangle so that you can see each triangle separately.
 
 
