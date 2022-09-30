@@ -108,30 +108,29 @@ There's a great [chapter in Arcade Academy about functions](https://learn.arcade
 ## This defines how to draw a triangle.
 ## However, it doesn't actually draw the triangle. Read below to see why.
 def drawTriangle():
-    turtle.forward(200)
+    turtle.forward(100)
     turtle.left(120)
-    turtle.forward(200)
+    turtle.forward(100)
     turtle.left(120)
-    turtle.forward(200)
+    turtle.forward(100)
     turtle.left(120)
-    # Don't put the mainloop here.
 ```
 
 As described in the [chapter in Arcade Academy about functions](https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html):
 
 > "Defining a function doesn’t cause the computer to _do_ anything. It is like giving a recipe to the computer. Give someone a recipe for banana bread and they know how to make it. They haven’t actually made it yet, they just know how. You have to _tell_ them to make banana bread. That is, after we **define** the function we must **call** the function before the code in it runs. To call a function, type the function name and follow it by parenthesis. Do not use **def**, that is only used when we define what the function does, not when we tell the computer to run it."
 
-So, let's call the function that we defined.
+So, let's call (run) the function that we defined.
 
 ```python3
 ## 5 continued
 ## This is the same definition as before.
 def drawTriangle():
-    turtle.forward(200)
+    turtle.forward(100)
     turtle.left(120)
-    turtle.forward(200)
+    turtle.forward(100)
     turtle.left(120)
-    turtle.forward(200)
+    turtle.forward(100)
     turtle.left(120)
     # Don't put the mainloop here.
 
@@ -139,7 +138,7 @@ def drawTriangle():
 turtle.pensize(15)
 turtle.speed(1)
 turtle.pencolor("red")
-drawTriangle()    # This command runs drawTriangle. You could also say we are "calling" (running) drawTriangle.
+drawTriangle()    # This command calls (runs) drawTriangle.
 turtle.pencolor("blue")
 drawTriangle()
 turtle.pencolor("green")
@@ -153,54 +152,78 @@ Make sure you get that part working before moving on.
 
 ```python3
 ## 5b
-## Copy and modify the previous example.
-## In this version, draw a fourth triangle, using purple as the color.
-## You should only need to add two lines of code:
-##   set the pen color to purple
-##   draw the triangle
-## Make sure to add those two lines **before** the mainloop.
+## Try this.
+## It uses the drawTriangle function that we defined before.
+## You can either copy/paste the drawTriangle definition,
+## or simply leave that portion uncommented in the previous example.
+turtle.speed(1)
+drawTriangle()
+turtle.left(5)
+drawTriangle()
+turtle.left(5)
+drawTriangle()
 
 
 ## 5c
 ## Copy and modify the previous example.
-## In this version, we still keep the purple triangle, but just before drawing the purple triangle, we're going to make the pen size smaller using 
-##     turtle.pensize(10)
-## The goal is to be able to see two overlapping triangles.
+## In this version, draw a fourth triangle, using orange as the color.
+## You should only need to add three lines of code:
+##   turn left 5 degrees
+##   set the pen color to orange
+##   draw the triangle
+## Make sure to add those two lines **before** the mainloop.
 
 
 ## 5d
+## Copy and modify the previous example.
+## In this version, we still keep the orange triangle, but just before drawing 
+## the orange triangle, we're going to change the pen size using 
+##     turtle.pensize(10)
+
+
+## 5e
+## Copy and modify the previous example.
+## In this version, just before drawing each triangle, pick a different pencolor.
+
+
+## 5f
 ## Copy and modify the previous example.
 ## In this version, before each of the four triangles, set the pensize.
 ## Set the pensize to 40 before the first triangle,
 ## 30 before the second triangle,
 ## 20 before the third,
 ## 10 before the fourth.
+```
 
+Let's try drawing two separate triangles.
 
-## 5e
-## (UNFINISHED; SKIP FOR NOW)
-## Copy and modify the previous example.
-## In addition to setting the pensize for each triangle,
-## just after each pencolor command, add a forward command.
-## The goal here is to make the turtle move forward a little bit after each triangle so that you can see each triangle separately.
+```python3
+## 6
+## Try this.
+drawTriangle()
+turtle.forward(300)
+drawTriangle()
+```
 
+You'll see that the two triangles are attached by a connecting line. Let's fix it:
 
-## 5c
+```python3
+## 6b
 ## Copy and modify the previous example.
 ## In this version, do this:
 ##  draw a triangle
 ##  stop drawing (pick up the pen)
-##  move forward 400 units
+##  move forward 300 units
 ##  start drawing (put down the pen)
 ##  draw a triangle
 ```
 
-
---------
+Idea: What if we put the pendown and penup commands inside of the triangle drawing function?
 
 ```python3
+## 7
 ## Try this. How does it differ from our original drawTriangle function?
-def drawTriangle_pd():
+def drawTrianglePen():
     turtle.pendown()
     turtle.forward(200)
     turtle.left(120)
@@ -210,97 +233,96 @@ def drawTriangle_pd():
     turtle.left(120)
     turtle.penup()
 
-drawTriangle_pd()
+drawTrianglePen()
 turtle.forward(300)
-drawTriangle_pd()
+drawTrianglePen()
 
 
-# 6c
-# Using drawTriangle_pd, draw three separate triangles of different colors.
+# 7b
+# Using drawTrianglePen, draw three separate triangles.
+# For extra fun, make them different colors.
 
 
-# 6b
-# Make a drawSquare function. Using that function, draw five separate squares. (This should only require about 10 to 25 lines of code. If you have more than that, look back at how drawTriangle helped to avoid repeated code.)
-
-
-# 6d
-# Try this.
-
-def drawAShape():
-    turtle.forward(100)
-    turtle.left(140)
-    turtle.forward(50)
-    turtle.right(140)
-    
-drawAShape()
-turtle.penup()
-turtle.forward(10)
-turtle.pendown()
-drawAShape()
-
-
-# 6e
-# Try this.
-
-def drawZ():
-    turtle.forward(100)
-    turtle.right(140)
-    turtle.forward(100)
-    turtle.left(140)
-    turtle.forward(100)
-    
-drawZ()
-turtle.penup()
-turtle.forward(10)
-turtle.pendown()
-drawZ()
-
-
-# 6f
-# Copy and modify the previous example so that it draws two C's
-# instead of two Z's.
-
-
-# 7
-# Try this.
-
-def drawAShape():
-    turtle.forward(100)
-    turtle.left(140)
-    turtle.forward(50)
-    turtle.right(140)
-
-drawAShape()
-turtle.penup()
-turtle.forward(10)
-turtle.pendown()
-drawAShape()
-turtle.penup()
-turtle.forward(10)
-turtle.pendown()
-drawAShape()
+# 7c
+# Make a drawSquare function. Using that function, draw five separate squares.
+# (This should only require about 10 to 25 lines of code. If you have more than
+# that, look back at how drawTrianglePen helped to avoid repeated code.)
 
 
 # 8
-# Copy and modify the previous example so that it draws a different shape.
+# (optional extra practice)
+# Try this.
+def drawAShape():
+    turtle.forward(100)
+    turtle.left(140)
+    turtle.forward(50)
+    turtle.right(140)
+    
+drawAShape()
+turtle.penup()
+turtle.forward(10)
+turtle.pendown()
+drawAShape()
+
+
+# 9
+# Try this.
+def drawC():
+    turtle.setheading(180)
+    turtle.forward(70)
+    turtle.left(90)
+    turtle.forward(100)
+    turtle.left(90)
+    turtle.forward(70)
+    
+drawC()
+turtle.penup()
+turtle.forward(200)
+turtle.pendown()
+drawC()
+
+
+# 9b
+# Copy and modify the previous example so that it draws two Z's
+# instead of two C's.
 
 
 # 10
-# Copy and modify the previous example so that it draws three separate squares.
+# (optional extra practice)
+# Try this.
 
+def drawAShape():
+    turtle.forward(100)
+    turtle.left(140)
+    turtle.forward(50)
+    turtle.right(140)
 
+drawAShape()
+turtle.penup()
+turtle.forward(10)
+turtle.pendown()
+drawAShape()
+turtle.penup()
+turtle.forward(10)
+turtle.pendown()
+drawAShape()
+```
+
+Now, let's incorporate `input` to let the user pick the size of the shape.
+
+```python3
 # 11
-# Define a function to draw a square.
-
-
-# 13
 # Try this.
 linelength = 100
 turtle.forward(linelength)
 
 
-# 14
+# 11b
 # Modify the previous example to ask the user what length of line to draw.
+
+
+# 12
+# TODO
 
 
 # 15
