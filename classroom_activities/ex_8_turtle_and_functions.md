@@ -228,11 +228,11 @@ Idea: What if we put the pendown and penup commands inside of the triangle drawi
 ## Try this. How does it differ from our original drawTriangle function?
 def drawTrianglePen():
     turtle.pendown()
-    turtle.forward(200)
+    turtle.forward(100)
     turtle.left(120)
-    turtle.forward(200)
+    turtle.forward(100)
     turtle.left(120)
-    turtle.forward(200)
+    turtle.forward(100)
     turtle.left(120)
     turtle.penup()
 
