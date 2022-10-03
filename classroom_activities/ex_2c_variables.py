@@ -23,6 +23,8 @@ References for naming rules/conventions for variables in Python:
   https://www.w3schools.com/python/gloss_python_variable_names.asp
 """ 
 
+
+## EXERCISES ------------------------------------------------------------------------
 ## Valid variable names -- These are examples of valid variable assignment statements:
 mynumber = 7
 temp_in_f = 8.3
