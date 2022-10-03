@@ -158,9 +158,9 @@ Make sure you get that part working before moving on.
 ## or simply leave that portion uncommented in the previous example.
 turtle.speed(1)
 drawTriangle()
-turtle.left(5)
+turtle.left(20)
 drawTriangle()
-turtle.left(5)
+turtle.left(20)
 drawTriangle()
 
 
