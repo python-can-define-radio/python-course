@@ -168,7 +168,7 @@ drawTriangle()
 ## Copy and modify the previous example.
 ## In this version, draw a fourth triangle, using orange as the color.
 ## You should only need to add three lines of code:
-##   turn left 5 degrees
+##   turn left 20 degrees
 ##   set the pen color to orange
 ##   draw the triangle
 ## Make sure to add those two lines **before** the mainloop.
