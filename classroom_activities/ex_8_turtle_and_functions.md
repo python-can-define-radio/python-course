@@ -74,8 +74,11 @@ turtle.penup()
 turtle.forward(10)
 turtle.pendown()
 turtle.forward(30)
+```
 
+Exercises:
 
+```python3
 # 2e
 # Draw three separate lines.
 
@@ -250,22 +253,6 @@ drawTrianglePen()
 
 
 # 8
-# (optional extra practice)
-# Try this.
-def drawAShape():
-    turtle.forward(100)
-    turtle.left(140)
-    turtle.forward(50)
-    turtle.right(140)
-    
-drawAShape()
-turtle.penup()
-turtle.forward(10)
-turtle.pendown()
-drawAShape()
-
-
-# 9
 # Try this.
 def drawC():
     turtle.setheading(180)
@@ -282,47 +269,60 @@ turtle.pendown()
 drawC()
 
 
-# 9b
+# 8b
 # Copy and modify the previous example so that it draws two Z's
 # instead of two C's.
+```
+
+Our drawTriangle function works well, but what if we wanted to be able to draw different size triangles?
+
+We could define `drawBigTriangle` and `drawSmallTriangle`, but that would be a lot of redundant code.
+
+The better way is to use **arguments**, also called **parameters**. (_Those two terms are not perfectly synonymous, but they are often used interchangeably._)
+
+Example:
+
+```python3
+def drawTriangleLength(thelength):
+    turtle.forward(thelength)
+    turtle.left(120)
+    turtle.forward(thelength)
+    turtle.left(120)
+    turtle.forward(thelength)
+    turtle.left(120)
+
+turtle.pensize(10)
+turtle.color("red")
+drawTriangleLength(50)
+turtle.color("green")
+drawTriangleLength(100)
+```
+
+Exercises:
+
+```python3
+# 11
+# Copy and modify the previous example.
+# After the red and green triangles, draw a blue triangle with a side length of 150.
+# This should only require adding two lines of code.
 
 
-# 10
-# (optional extra practice)
-# Try this.
-
-def drawAShape():
-    turtle.forward(100)
-    turtle.left(140)
-    turtle.forward(50)
-    turtle.right(140)
-
-drawAShape()
-turtle.penup()
-turtle.forward(10)
-turtle.pendown()
-drawAShape()
-turtle.penup()
-turtle.forward(10)
-turtle.pendown()
-drawAShape()
+# 11b
+# Copy your earlier drawSquare function.
+# Change it so that you can specify the length, just like in drawTriangleLength.
 ```
 
 Now, let's incorporate `input` to let the user pick the size of the shape.
 
 ```python3
-# 11
+# 14
 # Try this.
 linelength = 100
 turtle.forward(linelength)
 
 
-# 11b
+# 14b
 # Modify the previous example to ask the user what length of line to draw.
-
-
-# 12
-# TODO
 
 
 # 15
