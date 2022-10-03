@@ -292,11 +292,13 @@ def drawTriangleLength(thelength):
     turtle.left(120)
 
 turtle.pensize(10)
-turtle.color("red")
+turtle.pencolor("red")
 drawTriangleLength(50)
-turtle.color("green")
+turtle.pencolor("green")
 drawTriangleLength(100)
 ```
+
+In that example, `thelength` is a **parameter**.
 
 Exercises:
 
@@ -309,7 +311,15 @@ Exercises:
 
 # 11b
 # Copy your earlier drawSquare function.
+# Name the new version drawSquareLength.
 # Change it so that you can specify the length, just like in drawTriangleLength.
+# Then,
+# Once you've defined drawSquareLength, 
+# try this. It should draw three squares of different sizes.
+# NOTE: You'll get an error if you haven't yet defined drawSquareLength.
+drawSquareLength(50)
+drawSquareLength(100)
+drawSquareLength(150)
 ```
 
 Now, let's incorporate `input` to let the user pick the size of the shape.
@@ -326,58 +336,73 @@ turtle.forward(linelength)
 
 
 # 15
-# Try this.
-def drawTwoSides(thelen):
-    turtle.forward(thelen)
-    turtle.left(90)
-    turtle.forward(thelen)
+# Try this. You'll need the drawTriangleLength function from earlier.
+triLength = int(input("How big do you want the triangle to be?"))
+drawTriangleLength(triLength)
 
-drawTwoSides(100)
+
+# 15b
+# Ask the user for three lengths.
+# Draw a red   triangle with the first  user-specified length.
+# Draw a green triangle with the second user-specified length.
+# Draw a blue  triangle with the third  user-specified length.
 
 
 # 16
-# Try this.
-def drawTwoSides(thelen):
-    turtle.forward(thelen)
-    turtle.left(90)
-    turtle.forward(thelen)
-
-lee = 100
-drawTwoSides(lee)
+# Try this. You'll need your drawSquareLength function from earlier.
+mylength = int(input("How big should the square be?"))
+drawSquareLength(mylength)
 
 
-# Some notes on terminology:
-# In the previous example, `thelen` is a parameter of the function `drawTwoSides`.
-# (The word "argument" is sometimes used instead of "parameter".)
-# The functions that we defined before this did not have any parameters.
-# You've already seen functions that use parameters, such as print() and turtle.forward().
+# 16b
+# Repeat the three-triangles exercise, but with squares.
+# (ask for three lengths; draw red, green, blue)
+```
+
+Functions can have multiple parameters:
+
+```python3
+def drawTriangleLength(thelength, thecolor):
+    turtle.pencolor(thecolor)
+    turtle.forward(thelength)
+    turtle.left(120)
+    turtle.forward(thelength)
+    turtle.left(120)
+    turtle.forward(thelength)
+    turtle.left(120)
+
+drawTriangleLength(100, "red")
+drawTriangleLength(50, "purple")
+drawTriangleLength(200, "cyan")
+```
 
 
-# 17
-# Modify the previous example so that `lee` comes from user input.
-# For the sake of the exercise, don't change the inside of the function.
-# (Ask if you don't know what that means.)
 
-
-# 18
-# Define a drawSquare function in the same style as drawTwoSides.
-# In other words, the function should have one parameter called thelen.
-# After defining the function, run drawSquare with length 100.
-# Also, run drawSquare with length 200.
-# Your code should look like this:
-
-def drawSquare(thelen):
-    you_write_code_here
-
-drawSquare(100)
-drawSquare(200)
-
+```python3
 # 19
-# Try this. You'll need your drawSquare function from the previous question.
+# Try this. Press the up and left keys on your keyboard.
 
-lee = int(input("How big should the square be?"))
-drawSquare(lee)
+def mvfwd():
+    turtle.forward(100)
 
+def turnleft():
+    turtle.left(90)
+
+
+turtle.onkeypress(mvfwd, "Up")
+turtle.onkeypress(turnleft, "Left")
+turtle.listen()
+
+turtle.mainloop()
+
+
+# 19b
+# Make it so if you press "Up" on your keyboard, the turtle will draw a square.
+```
+
+Before continuing to the following exercises, do a few of the `if`, `for`, and `while` exercises.
+
+```python3
 # 20
 # Modify the previous example like so:
 # If the user picks a size that is negative, then let the user know that the side length must be positive.
@@ -429,27 +454,6 @@ for leng in lengths:
 
 # 27
 # Modify the previous example so that it turns 90 degrees after each forward movement.
-
-
-# 28
-# Try this. Press the up and left keys on your keyboard.
-
-def mvfwd():
-    turtle.forward(100)
-
-def turnleft():
-    turtle.left(90)
-
-
-turtle.onkeypress(mvfwd, "Up")
-turtle.onkeypress(turnleft, "Left")
-turtle.listen()
-
-turtle.mainloop()
-
-
-# 29
-# Make it so if you press "Up" on your keyboard, the turtle will draw a square.
 
 
 ## Cool examples:
