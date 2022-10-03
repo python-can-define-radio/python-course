@@ -14,7 +14,7 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
   - https://ubuntu.com/tutorials/command-line-for-beginners : This is the source of some concepts presented here. 
   - Another: https://linuxsurvival.com
 
-### Expercises
+### Exercises
 Preliminary Tasks:  (Instructions follow)
 - Make a directory on the Desktop with your name. No spaces :-)
 - Inside, create and open a file called notes.txt.
