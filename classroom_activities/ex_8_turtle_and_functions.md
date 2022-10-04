@@ -362,7 +362,7 @@ drawSquareLength(mylength)
 Functions can have multiple parameters:
 
 ```python3
-def drawTriangleLength(thelength, thecolor):
+def drawTriangle3(thelength, thecolor):
     turtle.pencolor(thecolor)
     turtle.forward(thelength)
     turtle.left(120)
@@ -371,11 +371,23 @@ def drawTriangleLength(thelength, thecolor):
     turtle.forward(thelength)
     turtle.left(120)
 
-drawTriangleLength(100, "red")
-drawTriangleLength(50, "purple")
-drawTriangleLength(200, "cyan")
-```
+drawTriangle3(100, "red")
+drawTriangle3(50, "purple")
+drawTriangle3(200, "cyan")
 
+
+# 17
+# Make a drawTriangle4 function.
+# It should be identical to drawTriangle3,
+# but should have the penup and pendown commands that we used earlier
+# so that each triangle is separate.
+# Test it with this code:
+drawTriangle4(100, "red")
+turtle.forward(200)
+drawTriangle4(50, "purple")
+turtle.forward(200)
+drawTriangle4(200, "cyan")
+```
 
 
 ```python3
