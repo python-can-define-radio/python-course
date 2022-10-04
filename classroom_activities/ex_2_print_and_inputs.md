@@ -19,25 +19,23 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 
 
 
-<details><summary>
+<details><summary> :information_source: Note <i>(Click here to expand)</i></summary>
 
-> __Note__ _(Click here to expand)_
-
-</summary>
-
-> ------
+> ```
+> A great supplemental resource is https://learn.arcade.academy .
+> They start talking about `print` on Chapter 4.
+> Some notes before you head over to that site:
 >  
-> A great supplemental resource is https://learn.arcade.academy . They start talking about `print` on Chapter 4. Some notes before you head over to that site:
-> 
 > - It mentions "Installing the Python programming language". That's already done in our classroom.
-> - It mentions "An integrated development environment (IDE) called PyCharm". We primarily use VSCode (not PyCharm) as our IDE.
-> - It mentions a "Version control system" called git. Git is not required for this class, but interested readers are encouraged to explore it.
+> - It mentions "An integrated development environment (IDE) called PyCharm". We 
+>      primarily use VSCode (not PyCharm) as our IDE.
+> - It mentions a "Version control system" called git. Git is not required for
+>      this class, but interested readers are encouraged to explore it.
 > - Sections 4.2 and 4.3 are PyCharm-specific. You can skip them.
->------
-
+> ```
 </details>
 
-------
+## Some header
 
 Before we get to the rest of the exercises, here's a little info about what we're doing. This quoted from https://learn.arcade.academy/en/latest/chapters/04_print_statement/print_statement.html .
 
