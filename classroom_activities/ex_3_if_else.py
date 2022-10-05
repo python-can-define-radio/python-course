@@ -171,7 +171,41 @@ elif birthyear == 2000:
 else: 
     print("You were born after 2000.") 
 
- 
+    
+## 16b
+## Try this:
+name = input("What is your name? (type it lowercase please.)")
+print("Ok, let me look up that name...")
+if name == "bob":
+    print("That name used to be common, I think.")
+elif name == "sue":
+    print("Your name also refers to a legal action.")
+elif name == "rob":
+    print("Another abbreviation for robert, correct?")
+elif name == "lacy":
+    print("Does the origin of your name relate to clothing with lace?")
+else:
+    print("I don't know you.")
+print("Done.")
+
+          
+## 16c
+## Try this. How is it different from the previous example?
+## (The difference is subtle, so ask if you are unsure.)
+name = input("What is your name? (type it lowercase please.)")
+print("Ok, let me look up that name...")
+if name == "bob":
+    print("That name used to be common, I think.")
+if name == "sue":
+    print("Your name also refers to a legal action.")
+if name == "rob":
+    print("Another abbreviation for robert, correct?")
+if name == "lacy":
+    print("Does the origin of your name relate to clothing with lace?")
+else:
+    print("I don't know you.")
+print("Done.")
+    
 
 ## 17
 ## Modify the previous example to ask the user for year of birth (using input). 
@@ -266,36 +300,4 @@ else:
 ## 28
 ## Combine the two previous examples: ask the user for a number and which way to convert. 
           
-## 29
-## Try this:
-name = input("What is your name? (type it lowercase please.)")
-print("Ok, let me look up that name...")
-if name == "bob":
-    print("That name used to be common, I think.")
-elif name == "sue":
-    print("Your name also refers to a legal action.")
-elif name == "rob":
-    print("Another abbreviation for robert, correct?")
-elif name == "lacy":
-    print("Does the origin of your name relate to clothing with lace?")
-else:
-    print("I don't know you.")
-print("Done.")
 
-          
-## 30
-## Try this. How is it different from the previous example?
-## (The difference is subtle, so ask if you are unsure.)
-name = input("What is your name? (type it lowercase please.)")
-print("Ok, let me look up that name...")
-if name == "bob":
-    print("That name used to be common, I think.")
-if name == "sue":
-    print("Your name also refers to a legal action.")
-if name == "rob":
-    print("Another abbreviation for robert, correct?")
-if name == "lacy":
-    print("Does the origin of your name relate to clothing with lace?")
-else:
-    print("I don't know you.")
-print("Done.")
