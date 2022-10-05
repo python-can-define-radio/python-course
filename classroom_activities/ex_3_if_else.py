@@ -163,7 +163,7 @@ else:
 
 ## 16
 ## Try this: 
-birthyear = 1998 
+birthyear = int(input("Type a year: ")) 
 if birthyear < 2000: 
     print("You were born before 2000.") 
 elif birthyear == 2000: 
