@@ -207,7 +207,7 @@ else:
 print("Done.")
 
 
-## 16d
+## 17
 ## Here's an example of using separate if statements (instead of using elif):
 name = input("What is your name? (type it lowercase please.)").lower()
 print("Ok, let me look up that name...")
