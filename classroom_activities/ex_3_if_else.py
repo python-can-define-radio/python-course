@@ -208,7 +208,7 @@ print("Done.")
 
 
 ## 16d
-## Here's an example of using separate if statements:
+## Here's an example of using separate if statements (instead of using elif):
 name = input("What is your name? (type it lowercase please.)").lower()
 print("Ok, let me look up that name...")
 if name.startswith("z"):
@@ -219,10 +219,6 @@ if len(name) > 9:
     print("Your name is more than 9 characters long.")
 if name == "":
     print("Your name is empty!")
-
-
-## 17
-## Modify the previous example to ask the user for year of birth (using input). 
 
  
 ## 18
@@ -241,6 +237,7 @@ print("C")
 ## 20
 ## Copy and modify the previous example so that C is only printed if the number is not less than 20.
 ## Use the `else` keyword.
+
 
 ## 20b
 ## Copy and modify the previous example so that it acts like this:
