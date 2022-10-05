@@ -205,7 +205,21 @@ if name == "lacy":
 else:
     print("I don't know you.")
 print("Done.")
-    
+
+
+## 16d
+## Here's an example of using separate if statements:
+name = input("What is your name? (type it lowercase please.)").lower()
+print("Ok, let me look up that name...")
+if name.startswith("z"):
+    print("Your name starts with a Z. That is somewhat uncommon in English.")
+if len(name) < 3:
+    print("Your name is less than 3 characters long.")
+if len(name) > 9:
+    print("Your name is more than 9 characters long.")
+if name == "":
+    print("Your name is empty!")
+
 
 ## 17
 ## Modify the previous example to ask the user for year of birth (using input). 
