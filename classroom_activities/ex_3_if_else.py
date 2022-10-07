@@ -1,9 +1,31 @@
+""" Example 2 If-Else Statements -- Python Practice 
+    webpage for this lesson:
+Copyright 2022 by the writers of "python-can-define-radio".  Permision to copy is granted for individual persons to copy and use the content herein to further the individual's education.  Instructors may direct students to the source web page.
+
+## INTRODUCTION
+So far we have been instructing a computer through Python programing to execute a series of commands without any decisions being made as the program runs.  But, computers and the Python language can do so much more.
+
+In a basic definition, a computer is a machine that can make decisions.  In contrast, a pure calculator evaluates mathemeatical functions 
+but cannot make decisions.   So, if a computer is useful for making decitions, how do we progam it to do so?  I'm glad you asked.
+
+First, let's consider: How do we make a decision?  Wait, take one step back.  WHY do we make decisions?  As we live, work, or play, we make decisions when confonted with multiple options of what to do next.  For example, while riding a bicycle you may come to a fork in the road.  You cannot travel both directions simutaneously.  Which way will you (should you) choose. --Now we are discussing "HOW to make a decision".--  Maybe you have mental instructions based on past history,  maybe a friend has advised you to go left or right, maybe you have a map, or maybe you notice one path is well worn from frequent use while the other path appears much less traveled. So, you consider the options based on your knowledge or preference, make a decision, and direct the bicycle down the chosen path.
+
+Back to computers, [ADD MORE] 
+
+I chose the path less traveled, and it has made all the difference.
+
+
+
+
+ref:
+https://techdifferences.com/difference-between-calculator-and-computer.html
+
+## EXERCISES ------------------------------------------------------------------------
 ## 1
 ## Try this. Run it more than once.
 import random
 randomNumber = random.randint(5, 8)
 print(f"Here's a random integer: {randomNumber}")
-
 
 ## 1b
 ## Copy and modify the above example so that the computer will 
@@ -16,7 +38,7 @@ import random
 randomNumber = random.randint(5, 8)
 print(f"Here's a random integer: {randomNumber}")
 if randomNumber == 7:
-    print("I think some people say this number is lucky.")
+    print("I think some people say that number is lucky.")
 
 
 ## 1d
