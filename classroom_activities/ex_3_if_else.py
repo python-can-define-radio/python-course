@@ -285,6 +285,17 @@ print("C")
 ##   For example, if the number is negative, display "Really? Negative? Interesting".
 
 
+## 22b
+## Try this.
+firstcost = int(input("How much is the first thing you bought? "))
+secondcost = int(input("How much is the second thing you bought? "))
+total = firstcost + secondcost
+discounted = total * 0.9
+print(f"The total cost would be {total}.")
+print("However, we're doing a special sale today, so you get a 10% discount.")
+print(f"That means you actually pay {discounted}")
+
+
 ## 23
 ## Try this.
 x = float(input("Type a number between 0 and 1, for example, 0.3, 0.25, etc... "))
@@ -306,6 +317,7 @@ else:
 ## If you plan to eventually do any "real-life" programming, then it's definitely worth reading.
 ## (end of sidenote)
 
+
 ## 23b
 ## Ask the user for the cost of a single item and the quantity purchased. Print the total cost. 
 ## Make sure this works for non-integer costs. For example, try a cost of 2.30 and quantity of 2.
@@ -314,7 +326,8 @@ else:
 ## What is the cost for an item? 2.30
 ## How many did you buy? 2
 ## The total cost would be $4.60.
- 
+
+
 ## 24
 ## Modify the previous example so that the shop gives a discount of 10% if you buy at least 20 of an item.  
 ## For example, if one item costs $5, and you’re buying 20, total cost would be $90. 
