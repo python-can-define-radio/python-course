@@ -7,12 +7,15 @@ So far we have been instructing a computer through Python programing to execute 
 
 In a basic definition, a computer is a machine that can make decisions.  In contrast, a pure calculator evaluates mathematical functions but cannot make decisions (1).  So, if a computer is useful for making decitions, how do we progam it to do so?  ...I'm glad you asked.
 
-First, let's consider: How do we make a decision?  Wait, take one step back.  WHY do we make decisions?  As we live, work, or play, we make decisions when confonted with multiple options of what to do next.  For example, while riding a bicycle you may come to a fork in the road.  You cannot travel both directions simutaneously.  Which way will you (should you) choose. --Now we are discussing "HOW to make a decision".--  Maybe you have mental instructions based on past experience,  maybe a friend has advised you to go left or right, maybe you have a map, or maybe you notice one path is well worn from frequent use while the other path appears much less traveled. So, you consider the options based on your knowledge, your preference, or pre-established rules.  You then make a decision and direct the bicycle down the chosen path.  
+First, let's consider: How do we make a decision?  Wait, take one step back.  WHY do we make decisions?  As we live, work, or play, we make decisions when confonted with multiple options of what to do next.  For example, while riding a bicycle you may come to a fork in the road.  You cannot travel both directions simutaneously.  Which way will you (should you) choose? --Now we are discussing "HOW to make a decision".--  Maybe you have mental instructions based on past experience,  maybe a friend has advised you to go left or right, maybe you have a map, or maybe you notice one path is well worn from frequent use while the other path appears much less traveled. So, you consider the options based on your knowledge, your preference, or pre-established rules.  You then make a decision and direct the bicycle down the chosen path.  
 
-To reminice for just a momement, I recall coming to a fork in the road several years back.  Initially unsure which way to go, I ultimately chose the path less traveled, and it has made all the difference (2).
+To reminice for just a momement, I recall coming to a fork in the road several years back.  Initially unsure which way to go, I ultimately chose the path less-traveled, and it has made all the difference (2).
 
-Back to computers, [ADD MORE] 
+Back to computers.  One way to make decisions in a programming language such as Python is by using if-statments. We can use if-statements to compare a recently obtained value against a known value or range of values.  Based on the result of comparison, the if-statment chooses whether to perform another operation or to skip it.  
+* When an else-statement follows an if-statement, the computer can choose between performing a first operation or a second operation.  For example, the first operation may be a calculation, and the second operation may be to print a message.  
+* In addition, one or more elif-statements can be positioned between an if-statement and an e-else statement to choose between more than two options or operations.
 
+The exercises below will allow you to understand how to use if-statements, and ideally, how to appreciate them.
 
 References & Footnotes:
    (1) https://techdifferences.com/difference-between-calculator-and-computer.html
