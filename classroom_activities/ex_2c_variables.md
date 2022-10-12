@@ -12,9 +12,9 @@ file, as examples.
 
 1. In general, the programer may select characters from any of these four groups: A-Z, a-z, 0-9, 
    and underscore (_).  However, these additional rules should be remembered:
-2. Start the variable name with a letter or an underscore character.
-3. Either lower case or capital letters may be used, in combination, but you'll 
-   need to be consistent when you use the variable later in your program.
+2. Start the variable name with a letter or an underscore character, not a number.
+3. Both lower case or capital letters may be used, but you'll need to be consistent
+   when you use the variable later in your program.
 4. After the first letter, numbers may also be used.  
 5. Do not use a "keyword" defined by Python, e.g. "in", "if", "not", "and", "while", etc.
 6. Do not use the name of built-in function of Python, e.g., "print", "input", etc.  The Python 
