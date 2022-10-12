@@ -13,8 +13,6 @@ First, let's consider: How do we make a decision?  Wait, take one step back.  WH
 To reminisce for just a moment, I recall coming to a fork in the road several years back.  Initially unsure which way to go, I ultimately chose the path less-traveled, and it has made all the difference (2).
 
 Back to computers.  One way to make decisions in a programming language such as Python is by using if-statments. We can use if-statements to compare a recently obtained value against a known value or range of values.  Based on the result of comparison, the if-statment chooses whether to perform another operation or to skip it.  
-* When an else-statement follows an if-statement, the computer can choose between performing a first operation or a second operation.  For example, the first operation may be a calculation, and the second operation may be to print a message.  
-* In addition, one or more elif-statements can be positioned between an if-statement and an e-else statement to choose between more than two options or operations.
 
 The exercises below will allow you to understand how to use if-statements, and ideally, how to appreciate them.
 
@@ -29,6 +27,7 @@ References & Footnotes:
 import random
 randomNumber = random.randint(5, 8)
 print(f"Here's a random integer: {randomNumber}")
+
 
 ## 1b
 ## Copy and modify the above example so that the computer will 
@@ -67,11 +66,15 @@ if name == "joe":
 ## Copy and modify the above example so that "dell" is one of the names
 ## that can be randomly chosen.
 
+
 ## 3b
 ## Copy and modify the above example so that 
 ## if the name is "dell", it will print "That’s a computer brand." 
-     
+```
 
+When an else-statement follows an if-statement, the computer can choose between performing a first operation or a second operation.
+
+```python3
 ## 4
 ## Try this.
 import random
@@ -184,8 +187,11 @@ else:
 
 ## 15
 ## Write a program that takes a name from the user. If the name is the letter "A", say "Your name is just the letter A? That’s kinda cool".  Otherwise, say "Ok, your name is ___". 
-     
+```  
 
+One or more elif-statements can be positioned between an if-statement and an else-statement to choose between more than two options or operations.
+
+```python3
 ## 16
 ## Try this: 
 birthyear = int(input("Type a year: ")) 
