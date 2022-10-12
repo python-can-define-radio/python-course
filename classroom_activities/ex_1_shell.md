@@ -2,7 +2,7 @@
 The goal of the current lesson is to familiarize new students with the "Terminal" program of the Linux operating system (OS).
 
 ### Background Information:
-This exercise is developed based on the Ubuntu distribution of the Linux OS, but should be applicable for other distributions as well. Linex includes several pre-installed programs or applications, commonly called "Apps".  One such pre-installed program is the Terminal, which is a text-based user interface for interacting with the OS itself, with storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and with the internet.  The Terminal program is also called the "command-prompt", the "shell", and the "console".  (Further details: for older Unix computer systems, the terms "terminal" and "console" referred to a physical piece of equipment.  Within the Linux OS, they refer to software providing similar functionality). 
+This exercise is developed based on the Ubuntu distribution of the Linux OS, but should be applicable for other distributions as well. Linux includes several pre-installed programs or applications, commonly called "Apps".  One such pre-installed program is the Terminal, which is a text-based user interface for interacting with the OS itself, with storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and with the internet.  The Terminal program is also called the "command-prompt", the "shell", and the "console".  (Further details: for older Unix computer systems, the terms "terminal" and "console" referred to a physical piece of equipment.  Within the Linux OS, they refer to software providing similar functionality). 
 
 
 ### Some useful resources:
