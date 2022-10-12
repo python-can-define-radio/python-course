@@ -15,7 +15,7 @@ file, as examples.
 2. Start the variable name with a letter or an underscore character, not a number.
 3. Both lower case or capital letters may be used, but you'll need to be consistent
    when you use the variable later in your program.
-4. After the first letter, numbers may also be used.  
+4. After the first character in the variable's name, numbers may also be used.  
 5. Do not use a "keyword" defined by Python, e.g. "in", "if", "not", "and", "while", etc.
 6. Do not use the name of built-in function of Python, e.g., "print", "input", etc.  The Python 
    interpreter program will not prevent you from using them, but the orginal function will cease to work.
