@@ -1,5 +1,5 @@
-""" Example 2c Variables -- Python Practice 
-    webpage for this lesson: "https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2b_printing_with_format_spec.py"https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2c_variables.py"
+# Example 2c Variables -- Python Practice 
+webpage for this lesson: "https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2b_printing_with_format_spec.py"https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2c_variables.py"
 
 In programming languagues, variables are allocations of computer memory assigned to store data 
 for later use in the program. The programer chooses a name for the variable and sets it equal 
@@ -8,21 +8,21 @@ variable (i.e., its name) can be used again later in the program to perform a ca
 set a parameter for a function, or to print a result to the user on a display screen or in a data
 file, as examples.
 
-Basic Rules for naming variables in Python3:
+<details> <summary> Basic Rules for naming variables in Python3: (Click to expand.) </summary>
     1. In general, the programer may select characters from any of these four groups: A-Z, a-z, 0-9, 
        and underscore (_).  However, these additional rules should be remembered:
     2. Start the variable name with a letter or an underscore character.
     3. Either lower case or capital letters may be used, in combination, but you'll 
-       need to be consistent when you call-on the varible later in your program.
+       need to be consistent when you use the variable later in your program.
     4. After the first letter, numbers may also be used.  
-    5. Do not use a "keyword" defined by Python, e.g. "in", "if", "not", "and", etc.
-    6. Do not use the name of built-in function of Pyton, e.g., "print", "input", "while", etc.
+    5. Do not use a "keyword" defined by Python, e.g. "in", "if", "not", "and", "while", etc.
+    6. Do not use the name of built-in function of Python, e.g., "print", "input", etc.  The Python 
+       interpreter program will not prevent you from using them, but the orginal function will cease to work.
 
 References for naming rules/conventions for variables in Python:
   https://pythonguides.com/python-naming-conventions/
   https://www.w3schools.com/python/gloss_python_variable_names.asp
-""" 
-
+ </details>
 
 ## EXERCISES ------------------------------------------------------------------------
 ## Valid variable names -- These are examples of valid variable assignment statements:
