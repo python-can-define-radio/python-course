@@ -1,15 +1,16 @@
-""" Example 2 If-Else Statements -- Python Practice 
-    source webpage for this lesson: "https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_3_if_else.py"
+# Example 2 If-Else Statements -- Python Practice 
+
+Source webpage for this lesson: "https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_3_if_else.py"  
 (Copyright 2022 by the writers of "python-can-define-radio".  Permision is granted for individual persons to copy the content from the source web page and use the content herein to further the individual's education.  Instructors and friends may direct interested people to the source web page.  The same copyright terms are true of all content in github.com/python-can-define-radio.)
 
 ## INTRODUCTION
 So far we have been instructing a computer through Python programing to execute a series of commands without any decisions being made as the program runs.  But, computers and the Python language can do so much more.
 
-In a basic definition, a computer is a machine that can make decisions.  In contrast, a pure calculator evaluates mathematical functions but cannot make decisions (1).  So, if a computer is useful for making decitions, how do we progam it to do so?  ...I'm glad you asked.
+In a basic definition, a computer is a machine that can make decisions.  In contrast, a pure calculator evaluates mathematical functions but cannot make decisions (1).  So, if a computer is useful for making decisions, how do we progam it to do so?  ...I'm glad you asked.
 
-First, let's consider: How do we make a decision?  Wait, take one step back.  WHY do we make decisions?  As we live, work, or play, we make decisions when confonted with multiple options of what to do next.  For example, while riding a bicycle you may come to a fork in the road.  You cannot travel both directions simutaneously.  Which way will you (should you) choose? --Now we are discussing "HOW to make a decision".--  Maybe you have mental instructions based on past experience,  maybe a friend has advised you to go left or right, maybe you have a map, or maybe you notice one path is well worn from frequent use while the other path appears much less traveled. So, you consider the options based on your knowledge, your preference, or pre-established rules.  You then make a decision and direct the bicycle down the chosen path.  
+First, let's consider: How do we make a decision?  Wait, take one step back.  WHY do we make decisions?  As we live, work, or play, we make decisions when confronted with multiple options of what to do next.  For example, while riding a bicycle you may come to a fork in the road.  You cannot travel both directions simutaneously.  Which way will you (should you) choose? --Now we are discussing "HOW to make a decision".--  Maybe you have mental instructions based on past experience,  maybe a friend has advised you to go left or right, maybe you have a map, or maybe you notice one path is well worn from frequent use while the other path appears much less traveled. So, you consider the options based on your knowledge, your preference, or pre-established rules.  You then make a decision and direct the bicycle down the chosen path.  
 
-To reminice for just a momement, I recall coming to a fork in the road several years back.  Initially unsure which way to go, I ultimately chose the path less-traveled, and it has made all the difference (2).
+To reminisce for just a moment, I recall coming to a fork in the road several years back.  Initially unsure which way to go, I ultimately chose the path less-traveled, and it has made all the difference (2).
 
 Back to computers.  One way to make decisions in a programming language such as Python is by using if-statments. We can use if-statements to compare a recently obtained value against a known value or range of values.  Based on the result of comparison, the if-statment chooses whether to perform another operation or to skip it.  
 * When an else-statement follows an if-statement, the computer can choose between performing a first operation or a second operation.  For example, the first operation may be a calculation, and the second operation may be to print a message.  
@@ -20,8 +21,8 @@ The exercises below will allow you to understand how to use if-statements, and i
 References & Footnotes:
    (1) https://techdifferences.com/difference-between-calculator-and-computer.html
    (2) So said the poet Robert Frost.
-"""
 
+```python3
 ## EXERCISES ------------------------------------------------------------------------
 ## 1
 ## Try this. Run it more than once.
@@ -350,3 +351,4 @@ else:
 
 ## 28
 ## Combine the two previous examples: ask the user for a number and which way to convert. 
+```
