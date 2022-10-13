@@ -4,6 +4,8 @@ The `turtle` module is a fun way to draw pictures and make games using Python.
 
 It's also a great way to gain familiarity with Python concepts and syntax.
 
+Note: Make sure to close the turtle window after each run.
+
 ```python3
 # 1
 # Try this.
