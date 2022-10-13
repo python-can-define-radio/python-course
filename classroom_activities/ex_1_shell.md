@@ -139,7 +139,8 @@ cd otherstuff
 ## Inside of the otherstuff directory,
 ## make the following folder structure using the terminal.
 ## Put the words of your choice inside of the txt files.
-## An easy way to verify this is by running the "tree" command.
+## An easy way to verify this is by running the "tree" command,
+##  which displays all of the contents including subdirectories. (Try it out!)
 ## 
 ## .
 ## └── house
