@@ -5,7 +5,12 @@
 ## You may also want the floor division operator.
 
 
-## 2 Calculating an exponent
+## 2: Calculating an exponent
 ## Ask the user for two numbers.
 ## Display "If you computed ___ to the power of ___, then you would get ___."
 ## (Hint: What is the operator for exponent in Python? It may not be what you think.)
+
+
+## 3: Operators that may not do what you expect
+## Based on question #1, does % calculate a percentage? (Answer: No)
+## Based on question #2, does ^ calculate an exponent? (Answer: No)
