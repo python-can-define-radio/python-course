@@ -20,11 +20,14 @@ turtle.mainloop()
 
 In this first example, you'll see that the "turtle" (the little triangle on the screen) moved forward, turned left, and moved forward again.
 
-Now, let's make it turn right:
+Now, let's make it turn right. Also, we can set the shape to be an actual turtle (optional, just for fun):
 
 ```python3
 # 2
 # Try this. Don't forget to import turtle.
+
+turtle.shape("turtle")
+
 turtle.forward(100)
 turtle.right(90)
 turtle.forward(200)
@@ -470,6 +473,16 @@ for leng in lengths:
 # Modify the previous example so that it turns 90 degrees after each forward movement.
 
 
+## 30
 ## Cool examples:
+
+howFarToMove = 20
+
+while True:
+    turtle.forward(howFarToMove)
+    turtle.left(91)
+    howFarToMove += 1
+
+## More cool examples:
 ## https://gist.github.com/jkings454/b619cb0dc12901e8359393cad1b81c28
 ```
