@@ -112,6 +112,11 @@ print(firstn)
 firstn = "Bob"
 lastn = "Smith"
 print(f"My name is {firstn} {lastn}")
+
+
+## You can also use commas, but only in functions that support it, such as print.
+## (Later, when we get to file writing, the comma approach doesn't work, but f strings do work.)
+print("My name is", firstn, lastn)
 ```
 
 ### Using Input Statements
