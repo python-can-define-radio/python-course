@@ -152,4 +152,10 @@ cd otherstuff
 ##         ├── chair.txt
 ##         ├── table.txt
 ##         └── desk.txt
+
+
+## 11
+## Misc examples:
+echo "Right now the date and time is $(date)" >> myfile.txt 
+
 ```
