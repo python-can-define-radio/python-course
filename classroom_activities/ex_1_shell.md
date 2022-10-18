@@ -158,4 +158,9 @@ cd otherstuff
 ## Misc examples:
 echo "Right now the date and time is $(date)" >> myfile.txt 
 
+cd ~
+cd Desktop
+# same as this:
+cd ~/Desktop
+
 ```
