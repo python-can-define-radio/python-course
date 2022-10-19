@@ -39,4 +39,38 @@ print(f'Do you know {mypersondata["firstname"]} ...?')
 ## Copy and modify the previous example so that it displays this:
 ##   'Did you know that ___   ___ is ___ years old?'
 ##   (Fill in the first name, last name, and age appropriately.)
+
+
+## 6
+## Try this.
+namelocation = {
+  "Sophia": "Greece",
+  "Mario": "Italy",
+  "Jaques": "France"
+}
+
+for name in namelocation:
+    print(name)
+    print("is from")
+    print(namelocation[name])
+    print()
+    
+
+## 7
+## Try this.
+namelocation = {
+  "Sophia": "Greece",
+  "Mario": "Italy",
+  "Jaques": "France"
+}
+
+print("These people are from Greece:")
+for name in namelocation:
+    if namelocation[name] == "Greece":
+        print(name)
+    
+## Alternate approach:
+for name, loc in namelocation.items():
+    if loc == "Greece":
+        print(name)
 ```
