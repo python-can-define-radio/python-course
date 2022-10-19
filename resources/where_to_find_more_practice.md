@@ -13,11 +13,7 @@
    Recommended prerequisite: Dictionaries
    Basics: https://realpython.com/python-csv/
    More advanced: https://realpython.com/python-interview-problem-parsing-csv-files/
-   
-   
--  Text-based adventure games:
-   https://adventurelib.readthedocs.io/en/stable/
-   
+
 
 -  Basics of turtle:
    Basics: https://realpython.com/beginners-guide-python-turtle/
