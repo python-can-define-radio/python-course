@@ -168,6 +168,7 @@ for fr in fruits:
 print("I've finished counting the fruits.")
 print(f"There were {count} that ended with berry.")
 
+
 # 20
 # Using `startswith` (which works quite similarly to endswith),
 # count how many of the fruits start with 'm'.
@@ -249,6 +250,7 @@ freqs = [2403.6, 101.3, 90.1, 5.2, 2410.2, 3.7]
 # Note 1: the following exercise provides a useful hint.
 # Note 2: You can assume the user enters valid data, or, for a challenge, check for data validity.
 
+
 # 30
 # Try this:
 userdata = input("Enter two numbers, separated by a space.")
@@ -257,7 +259,8 @@ print(f"First number: {a} and second number: {b}")
 
 
 # 31
-# Try this:
-
-# Hint: The following five exercises provide stepping stones toward this goal. Also,
-# this exercise doesn't require a loop.
+# In some cases, you can use the filter function instead of a `for` loop.
+# Example:
+temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
+warm_temps = list(filter(lambda x: x > 81, temps_in_F))
+print(warm_temps)
