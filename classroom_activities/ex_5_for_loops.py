@@ -188,7 +188,9 @@ temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 
 
 # 23
-# Modify the earlier example so it outputs the indices of the letters before the letters.
+# Now, let's experiment with counting.
+# Modify the earlier example (the one that printed "Hello" with "!" after each letter) so it outputs the 
+#  indices of the letters before the letters.
 # Hint: One way to do this is using enumerate -- look up examples of the enumerate function in python.
 
 # Example output:
