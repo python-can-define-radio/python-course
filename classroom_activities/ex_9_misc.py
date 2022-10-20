@@ -44,6 +44,20 @@ print(f"I have removed the extra space. You typed... {x}")
 
 
 # 10
+# Make a Caesar Cipher.
+
+
+# 11
+# Make Tic Tac Toe.
+
+
+# 12
+# Do the Matplotlib tutorial.
+# https://matplotlib.org/stable/tutorials/introductory/pyplot.html
+
+
+
+# 20
 # As an exercise, make the Wordle game: https://www.nytimes.com/games/wordle/index.html
 # (Note: this is only an educational exercise; please do not infringe on their rights.)
 
