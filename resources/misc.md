@@ -50,3 +50,7 @@ Fractals:
 
 - https://mathigon.org/course/fractals/mandelbrot
 - https://www.leshylabs.com/apps/fractalExplorer/
+
+Other:
+
+- https://gravitysimulator.org
