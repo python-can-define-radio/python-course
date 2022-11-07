@@ -1,10 +1,10 @@
 ## Configuration
 
-- Change the `TMOUT` variable in `.bash_rc`. Ask the instructor how.
-- Turn off python auto import completions in VSCode. Ask the instructor how.
-- Disable middle-click if desired. Ask the instructor how.
 - Create a folder for yourself with your name (and no spaces) on the Desktop.
-- In VSCode, open the folder that you created.
+- In VSCode, open the folder that you created, and create a python file to trigger the installation of the Python extension.
+- Turn off python auto import completions in VSCode. Ask the instructor how.
+- Change the `TMOUT` variable in `.bash_rc`. Ask the instructor how.
+- Disable middle-click if desired. Ask the instructor how.
 
 ## Things to know:
 
