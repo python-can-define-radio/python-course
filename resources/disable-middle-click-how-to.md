@@ -21,7 +21,7 @@ We want to put that command in the `.bashrc` file, because that runs on login.
 3. Confirm backup worked:  
        `diff .bashrc .bashrc_backup` 
 4. Append:  
-       `echo -e '\n\nxmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10"'
+       `echo -e '\n\nxmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10"'`
 5. Confirm change worked:  
        `diff .bashrc .bashrc_backup` 
 
