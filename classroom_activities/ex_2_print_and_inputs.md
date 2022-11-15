@@ -315,6 +315,11 @@ print(f"One more would be {onemore}")
 ## Then, display "You got ___% right". (You'll need to calculate the percent.)
 
 
+## 22b
+## Ask the user for name and age.
+## Display "Guess what, ___, in two years you'll be ___."
+## (The user-provided name goes in the first blank, and the age two years from now in the second blank.)
+
 ## 23
 ## (Optional)
 ## You may wonder why you must use the int() function.
