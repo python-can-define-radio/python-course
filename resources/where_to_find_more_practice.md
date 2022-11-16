@@ -5,6 +5,10 @@
    - for loops: https://learn.arcade.academy/en/latest/chapters/11_for_loops/for_loops.html
    - functions: https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html
 
+
+-  Python games: https://copyassignment.com/python-games-code-copy-and-paste/
+
+
 -  Dictionaries: A very useful data structure.
    Basics: https://realpython.com/python-dicts/
    
