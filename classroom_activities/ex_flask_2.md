@@ -37,13 +37,13 @@ if __name__ == "__main__":
 3. Make an image on the home page following [this source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML).
 
 4. Change the imports at the top of your program to this:  
-       ```
+       ```python3
        from flask import Flask, request
        from markupsafe import escape
        ```  
    Then,  
    add these:  
-        ```
+        ```python3
         @app.route("/coolform")
         def coolform():
             return """
