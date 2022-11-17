@@ -41,6 +41,8 @@ if __name__ == "__main__":
 ```python3
 from flask import Flask, request
 from markupsafe import escape
+
+app = Flask(__name__)
 ```  
        
 Then, add these:  
