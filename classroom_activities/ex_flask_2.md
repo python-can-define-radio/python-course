@@ -37,31 +37,34 @@ if __name__ == "__main__":
 3. Make an image on the home page following [this source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML).
 
 4. Change the imports at the top of your program to this:  
-       ```python3
-       from flask import Flask, request
-       from markupsafe import escape
-       ```  
-   Then,  
-   add these:  
-        ```python3
-        @app.route("/coolform")
-        def coolform():
-            return """
-            <form action="/submit" method="post">
-              Name: 
-              <input type="text" id="user_name" name="user_name" />
-              Animal you would pick as a pet:
-              <input type="text" id="animal" name="animal" />
-            </form>
-            """
+
+```python3
+from flask import Flask, request
+from markupsafe import escape
+```  
+       
+Then, add these:  
+   
+```python3
+@app.route("/coolform")
+def coolform():
+    return """
+    <form action="/submit" method="post">
+      Name: 
+      <input type="text" id="user_name" name="user_name" />
+      Animal you would pick as a pet:
+      <input type="text" id="animal" name="animal" />
+    </form>
+    """
+
+@app.route("/submit")
+def submit():
+    user_name = request.args["user_name"]
+    animal = request.args["animal"]
+    safe_user_name = escape(user_name)
+    safe_animal = escape(animal)
+    return f"""
+    You submitted the form with this data: {safe_user_name} {safe_animal}
+    """
+```
         
-        @app.route("/submit")
-        def submit():
-            user_name = request.args["user_name"]
-            animal = request.args["animal"]
-            safe_user_name = escape(user_name)
-            safe_animal = escape(animal)
-            return f"""
-            You submitted the form with this data: {safe_user_name} {safe_animal}
-            """
-        ```
