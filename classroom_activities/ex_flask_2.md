@@ -54,17 +54,19 @@ def coolform():
       <input type="text" id="user_name" name="user_name" />
       Animal you would pick as a pet:
       <input type="text" id="animal" name="animal" />
+      <input type="submit" value="submit" />
     </form>
     """
 
-@app.route("/submit")
+@app.route("/submit", methods=["POST"])
 def submit():
-    user_name = request.args["user_name"]
-    animal = request.args["animal"]
+    user_name = request.form["user_name"]
+    animal = request.form["animal"]
     safe_user_name = escape(user_name)
     safe_animal = escape(animal)
     return f"""
     You submitted the form with this data: {safe_user_name} {safe_animal}
     """
+
 ```
         
