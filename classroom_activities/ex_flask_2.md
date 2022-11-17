@@ -34,4 +34,24 @@ if __name__ == "__main__":
 
 2. Make a link to go home on the "space" page and on the other page you created. Hint: the `href` should be `"/"`.
 
-3. Make an image on the home page using [this source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML).
+3. Make an image on the home page following [this source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML).
+
+4. Add these pages:
+        ```
+        @app.route("/coolform")
+        def coolform():
+            return """
+            <form action="/submit" method="post">
+              Name: 
+              <input type="text" id="user_name" name="user_name" />
+              Animal you would pick as a pet:
+              <input type="text" id="animal" name="animal" />
+            </form>
+            """
+        
+        @app.route("/submit")
+        def submit():
+            return """
+            Should probably do something with this data.
+            """
+        ```
