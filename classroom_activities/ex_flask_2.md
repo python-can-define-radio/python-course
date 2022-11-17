@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
 2. Make a link to go home on the "space" page and on the other page you created. Hint: the `href` should be `"/"`.
 
-3. Make an image on the home page following [this source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML).
+3. Make an image on the home page following [this source](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Images_in_HTML). Note: for this classroom activity, I recommend setting the `src` to an external website, or look up how Flask handles static files (it's not obvious).
 
 4. Change the imports at the top of your program to this:  
 
