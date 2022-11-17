@@ -70,3 +70,4 @@ def submit():
 
 ```
         
+5. Change the `submit` function so that it opens a file called "my_submit_record.txt" for appending, and writes the name and animal.
