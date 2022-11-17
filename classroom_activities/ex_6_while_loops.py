@@ -229,3 +229,31 @@ while True:
     print(f"Double your num is {num * 2}.")
 
 
+## 29
+## Make a word guesser:
+##  - When the program starts, display "Welcome to the word guesser!"
+##  - Ask the user to guess the secret word.
+##  - If the user guesses the word correctly, display "You got it!" and exit the loop.
+##  - If the user guesses incorrectly, then randomly display one of these replies:
+##        "Not yet, try again."
+##        "I bet you'll get it, keep trying!"
+##        "That's not it."
+##        "I appreciate your patience, but you haven't guessed it yet."
+##  - The program must loop to allow the user to continue guessing until he/she correctly guesses the secret word.
+
+
+## 30
+## {Do this exercise after you've learned to write files.}
+## Display "This is a grade tracking helper."
+## Open a file named "physics_grades.csv" for writing.
+## Write to the file: "StudentName,StudentGrade"
+## Ask the user: "What is the total number of questions for this assignment? "
+## In a loop:
+##    Ask the user: "What is the student name? (Press enter with no name to exit.) "
+##    If the user entered nothing, then close the file, display "Exiting..." and exit the loop.
+##    If the user entered a name:
+##      Ask the user: "How many questions did that student answer correctly? "
+##      Compute the percent score for that student.
+##      Display the percent, rounded to 2 decimal places.
+##      Write to the file: "Bob,92.36%" (but with the actual name and percent instead).
+## NOTE: After you have tested your program, try opening the physics_grades.csv file in a spreadsheet program such as Libreoffice Calc.
