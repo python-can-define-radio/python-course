@@ -6,6 +6,10 @@
    - functions: https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html
 
 
+-  Chess in Python, with explanation: https://levelup.gitconnected.com/chess-python-ca4532c7f5a4
+   (You may need to provide your own image files)
+
+
 -  Python games: https://copyassignment.com/python-games-code-copy-and-paste/
 
 
