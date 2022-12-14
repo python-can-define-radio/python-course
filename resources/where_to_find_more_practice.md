@@ -5,6 +5,7 @@
    - for loops: https://learn.arcade.academy/en/latest/chapters/11_for_loops/for_loops.html
    - functions: https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html
 
+-  Arcade also has some great tutorials, like [solitaire](https://api.arcade.academy/en/latest/tutorials/card_game/).
 
 -  Chess in Python, with explanation: https://levelup.gitconnected.com/chess-python-ca4532c7f5a4
    (You may need to provide your own image files)
