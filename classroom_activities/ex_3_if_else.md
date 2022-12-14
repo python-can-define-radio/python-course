@@ -309,7 +309,7 @@ print(f"That means you actually pay {discounted}")
 ## 23
 ## Try this.
 x = float(input("Type a number between 0 and 1, for example, 0.3, 0.25, etc... "))
-print("One more would be {x + 1}.")
+print(f"One more would be {x + 1}.")
 
 ## As you can see, you can use `float` instead of `int` when dealing with non-whole numbers.
 ## Sidenote: 
