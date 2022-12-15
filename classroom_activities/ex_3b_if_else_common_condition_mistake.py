@@ -19,3 +19,34 @@ else:
 ## 3
 ## Ask an instructor if you are unclear about the purpose
 ## of those two exercises.
+
+
+#############################################################
+
+## 4
+## What's wrong with this code?
+input("What is your name? ")
+if "Bob":
+    print("Hello Robert.")
+
+    
+## 5
+## What's wrong with this code?
+name = input("What is your name? ")
+if "Bob":
+    print("Hello Robert.")
+    
+
+## 6
+## What's wrong with this code?
+input("What is your name? ")
+if input == "Bob":
+    print("Hello Robert.")
+
+    
+## 7 
+## What's wrong with this code?
+name = print(input("What is your name? "))
+if name == "Bob":
+    print("Hello Robert.")
+    
