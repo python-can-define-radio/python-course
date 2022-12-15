@@ -50,3 +50,13 @@ name = print(input("What is your name? "))
 if name == "Bob":
     print("Hello Robert.")
     
+## 8
+## What's wrong with this code?
+print("In this imaginary world, you can only")
+print("retire at exactly 65 years old.")
+age = input("How old are you? ")
+if age == 65:
+    print("You can retire.")
+else:
+    print("You cannot retire, as you are either")
+    print("too old or too young.")
