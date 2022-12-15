@@ -52,6 +52,12 @@ if name == "Bob":
     
 ## 8
 ## What's wrong with this code?
+name = input(print("What is your name? "))
+if name == "Bob":
+    print("Hello Robert.")
+    
+## 9
+## What's wrong with this code?
 print("In this imaginary world, you can only")
 print("retire at exactly 65 years old.")
 age = input("How old are you? ")
