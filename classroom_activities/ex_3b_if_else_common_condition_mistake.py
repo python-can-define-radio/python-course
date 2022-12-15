@@ -50,13 +50,39 @@ name = print(input("What is your name? "))
 if name == "Bob":
     print("Hello Robert.")
     
+    
 ## 8
 ## What's wrong with this code?
 name = input(print("What is your name? "))
 if name == "Bob":
     print("Hello Robert.")
-    
+
+
 ## 9
+## What's wrong with this code?
+first = int(input("Give me a number. "))
+operation = input("Do you want to double the number or half it? Say either 'double' or 'half'.")
+double = first * 2
+half = first / 2
+if double:
+    print(f"Ok, double your number is {double}.")
+if half:
+    print(f"Ok, half your number is {half}.")
+    
+    
+## 10
+## What's wrong with this code?
+first = int(input("Give me a number. "))
+operation = input("Do you want to double the number or half it? Say either 'double' or 'half'.")
+double = first * 2
+half = first / 2
+if operation == double:
+    print(f"Ok, double your number is {double}.")
+if operation == half:
+    print(f"Ok, half your number is {half}.")
+
+
+## 11
 ## What's wrong with this code?
 print("In this imaginary world, you can only")
 print("retire at exactly 65 years old.")
@@ -66,3 +92,5 @@ if age == 65:
 else:
     print("You cannot retire, as you are either")
     print("too old or too young.")
+
+    
