@@ -79,4 +79,7 @@
 -  [Python to edit images](https://realpython.com/image-processing-with-the-python-pillow-library/) (could be useful for batch editing images, such as cropping all images to a certain size)
 
 
-- Learning ethical hacking: https://picoctf.org/
+-  Learning ethical hacking: https://picoctf.org/
+
+
+-  [Yahoo Finance graph using Python](https://gist.github.com/SajidLhessani/69515feb77849ce1456867a924dc74e2#file-yahoo_fin_graph-py)
