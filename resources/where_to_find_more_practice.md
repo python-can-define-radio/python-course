@@ -82,4 +82,4 @@
 -  Learning ethical hacking: https://picoctf.org/
 
 
--  [Yahoo Finance graph using Python](https://gist.github.com/SajidLhessani/69515feb77849ce1456867a924dc74e2#file-yahoo_fin_graph-py)
+-  [Yahoo Finance graph using Python](https://gist.github.com/SajidLhessani/69515feb77849ce1456867a924dc74e2#file-yahoo_fin_graph-py): Pulled from the following article which showcases pulling data via the Yahoo! Finance API for stock prices, and graphs them. https://towardsdatascience.com/python-how-to-get-live-market-data-less-than-0-1-second-lag-c85ee280ed93
