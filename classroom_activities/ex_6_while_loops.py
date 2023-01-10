@@ -240,6 +240,8 @@ while True:
 ##        "That's not it."
 ##        "I appreciate your patience, but you haven't guessed it yet."
 ##  - The program must loop to allow the user to continue guessing until he/she correctly guesses the secret word.
+##  - The program must allow the user to guess the word regardless of capitalization.
+##      Recommended: refer back to the exercise that used .lower() .
 
 
 ## 30
