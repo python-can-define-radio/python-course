@@ -69,9 +69,38 @@ print(name[0])
 names = ["Sarah", "Tom", "Harry", "Susan", "Becky"]
 print(names[4][3])
 
+
 # 17
 # Modify the previous example to print the last letter of Sarah’s name (using string indexing).
 
+
 # 18
 # Modify the previous example to print the last letter of the last name in the list. Use negative indexing.
+
+
+# 19
+# Try this.
+names = ["Sarah", "Tom", "Harry", "Susan", "Becky"]
+sentence = "Hello to " + names[1] + " and everyone else."
+print(sentence)
+
+
+# 20
+# Try this.
+names = ["Sarah", "Tom", "Harry", "Susan", "Becky"]
+print(f"Hello to {names[1]} and everyone else.")
+
+
+# 21
+# Try this.
+names = ["Sarah", "Tom", "Harry", "Susan", "Becky"]
+id_num = 4
+print(f"ID: {id_num} Name: {names[id_num]}")
+
+
+# 22
+# Copy and modify the previous example to
+# ask the user for a student id, and then
+# displays "The student with id number ___ is named ___".
+
 
