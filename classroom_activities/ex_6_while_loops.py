@@ -245,6 +245,20 @@ while True:
 
 
 ## 30
+## Make a remainder study tool:
+## Have Python pick a random number between 20 and 100.
+## Ask the user: "If you divided {the_randomly_chosen_number} by 12, what would be the remainder?"
+## Allow the user to guess repeatedly until the user correctly guesses the remainder.
+## Example run:
+## If you divided 27 by 12, what would be the remainder?
+## Guess: 5
+## Guess: 2
+## Guess: 3
+## You got it!
+
+
+## 31
+## (challenge question)
 ## {Do this exercise after you've learned to write files.}
 ## Display "This is a grade tracking helper."
 ## Open a file named "physics_grades.csv" for writing.
