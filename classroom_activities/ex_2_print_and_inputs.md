@@ -206,6 +206,16 @@ a = "Hello"
 b = "Goodbye"
 c = a + b
 print(c)
+
+
+## 9b
+mysentence = "Hello" + "everyone"
+print(mysentence)
+
+
+## 9c
+## Copy and modify the previous example so that 
+## it displays a space: "Hello everyone" rather than "Helloeveryone".
 ```
 
 As you can see, it displayed `HelloGoodbye`. The fancy name for this is _concatenate_, which simply means putting the two strings next to each other.
