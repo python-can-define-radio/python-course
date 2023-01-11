@@ -1,3 +1,11 @@
+### Lists are zero-indexed. That means...
+thelist = ["water", "chair", "mug", "mouse"]
+           # 0      1        2      3 
+### Example:
+print(thelist[0])    # This will print water
+print(thelist[2])    # What will this print?
+
+
 # 1
 # Try this. Do you expect it to print “water” or “chair”?
 thelist = ["water", "chair", "mug", "mouse"]
