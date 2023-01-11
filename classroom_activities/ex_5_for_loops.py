@@ -97,13 +97,38 @@ for num in range(1,5):
 
 
 # 11
-# Modify the previous example to allow the user to specify the highest number rather than stopping at 5.
+# Copy and modify the previous example to allow the user to specify the highest number rather than stopping at 5.
 # Ex:
 # Highest number?  (user types 4)
 # 1
 # 4
 # 9
 # 16
+
+
+# 11b
+# (Challenge question)
+# Using a nested for-loop, display multiplication facts from 1 to 5:
+# 1 * 1 = 1
+# 1 * 2 = 2
+# ...
+# 3 * 4 = 12
+# ...
+# 5 * 5 = 25
+
+
+# 11c
+# Reminder the operator that does remainder in Python?
+# Use a for-loop to display the following:
+#  1 divided by 4 would have a remainder of ____.
+#  2 divided by 4 would have a remainder of ____.
+# ...
+# 10 divided by 4 would have a remainder of ____.
+# 11 divided by 4 would have a remainder of ____.
+# 12 divided by 4 would have a remainder of ____.
+# Here's a hint. You'll most likely change the a, b, and c.
+for a in range(b, c):
+    print(f"___ divided by 4 would have a remainder of ___")
 
 
 # 12
