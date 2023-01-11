@@ -325,16 +325,79 @@ print(f"One more would be {onemore}")
 ## Then, display "You got ___% right". (You'll need to calculate the percent.)
 
 
-## 22b
+## 23
 ## Ask the user for name and age.
 ## Display "Guess what, ___, in two years you'll be ___."
 ## (The user-provided name goes in the first blank, and the age two years from now in the second blank.)
 
-## 23
-## (Optional)
+
+## 24
+## Try this.
+print("Hello"*3)
+
+
+## 25
+## Copy and modify the previous example to ask the user for a string.
+## Display whatever string the user enters three times (using *3, as in the previous example).
+
+
+## 26
+## Copy and modify the previous example to ask the user for both the
+## string to be multiplied and the number of repetitions.
+
+
+## 27
+## Try this.
+## Notice: The type of x is integer, and the type of y is string.
+## The type of 3 is integer.
+## What happens when you multiply and integer times an integer?
+## What about a string times an integer?
+x = 111
+y = "111"
+print(x*3)
+print(y*3)
+
+
+## 28
+## Try this.
+## x and y are both variables, but notice the types: 
+## Which is an integer, and which is a string?
+x = input("Enter a word.")
+y = int(input("Enter a number."))
+print(f"The type of x is {type(x)}, which is another way to say string.")
+print(f"The type of y is {type(y)}, which is another way to say integer.")
+print(x*y)
+
+
+## 29
+## Try this. You will get an error. Why?
+x = "hello"
+y = "goodbye"
+print(x*y)
+
+
+## 30
+## Try this. You will get an error. Why?
+x = "3"
+y = "5"
+print(x*y)
+
+
+## 31
+## Try this.
+## Is x an integer or a string? How about y?
+## How can you get Python to answer the question for you? (Hint: use the type() function.)
+x = input("Enter a number.")
+y = int(input("Enter a number."))
+print(x*y)
+
+
+
+## 32
 ## You may wonder why you must use the int() function.
 ## After all, shouldn't the computer know what a number looks like?
-## Here's an example of when you WOULDN'T want the number to be treated as an integer.
+## Here's an example of when you WOULDN'T want the number to be an integer.
+## (In other words, you want the number to be a string.)
 
 ########################################
 # Right way:
@@ -342,25 +405,32 @@ beg = "800"
 mid = "555"
 end = input("Give me a 4 digit number: ")
 
+print("Here's an example phone number using the digits you gave me:")
 fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 
 
 ########################################
-# Wrong way:
+# This version runs, but the output is wrong.
+# What's wrong with the output?
 beg = 800
 mid = 555
 end = int(input("Give me a 4 digit number: "))
 
+print("Here's an example phone number using the digits you gave me:")
 fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 
 ########################################
 # Another wrong way:
+# Why does this fail to run? 
+# Changing the input(...) to int(input(...)) is NOT the solution. Why not?
 beg = 800
 mid = 555
 end = input("Give me a 4 digit number: ")
 
+print("Here's an example phone number using the digits you gave me:")
 fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 ```
+
