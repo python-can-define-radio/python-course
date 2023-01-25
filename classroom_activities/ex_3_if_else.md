@@ -250,8 +250,9 @@ print("Done.")
 
 
 ## 17
-## Here's an example of using separate if statements (instead of using elif):
-name = input("What is your name? (type it lowercase please.)").lower()
+## Here's an example of using separate if statements,
+## that is, a case where you would NOT want to use elif:
+name = input("What is your name? (type it lowercase please.)")
 print("Ok, let me look up that name...")
 if name.startswith("z"):
     print("Your name starts with a Z. That is somewhat uncommon in English.")
