@@ -91,7 +91,7 @@ else:
 
 
 ## 6
-## Try this.
+## Try this. Notice that it will ask for input. 
 thename = input("What is your name? ")
 if thename == "george":
     print("Are you named after the first US President?")
@@ -104,13 +104,13 @@ else:
 
 
 ## 6c
-## Try this. Notice that it will ask for input. 
+## Try this.
 name = input("What is your name? ") 
 if name == "joe": 
     print("Your name rhymes with low.") 
 else: 
     print(f"Hey {name}.") 
-
+    
  
 ## 7
 ## Modify the above example so that if the name is "cobb", it will say "That’s a Ft Gordon building!" 
@@ -118,8 +118,8 @@ else:
 
 ## 7b
 ## You'll notice that the user must type joe lowercase. Here's how to make it so any capitalization works:
-name = input("What is your name? ").lower()
-if name == "joe": 
+name = input("What is your name? ")
+if name.lower() == "joe": 
     print("Your name rhymes with low.") 
 else: 
     print(f"Hey {name}.") 
@@ -127,8 +127,8 @@ else:
 
 ## 7c
 ## Try this. What do you think the != operator means?
-name = input("What is your name? ").lower()
-if name != "jay": 
+name = input("What is your name? ")
+if name.lower() != "jay": 
     print("Your name is not Jay.") 
 print("Greetings.")
 
@@ -138,7 +138,18 @@ print("Greetings.")
 ## - Ask the user for a name
 ## - If the name is anything other than bob, then display "I don't think I know you. I only know Bob."
 
-    
+
+## 7e
+## Copy and modify the previous example like so:
+## - Ask the user for a name
+## - If the name is empty, say "You didn't type anything!"
+## - Otherwise, say "Hi ___."
+## Hint: an empty name would be quotes with nothing inside, so
+##     you might use something similar to this piece of code:
+##     if whatTheUserTyped == "":
+##           print("Something would go here.")
+
+
 ## 8 
 ## Try this. 
 age = 10 
