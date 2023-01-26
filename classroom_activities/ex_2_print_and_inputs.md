@@ -6,7 +6,7 @@ Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now
 We'll be primarily using Visual Studio Code (VS Code) as our editor for the Python code that we write. Here's how to get set-up:
 
 - Open VS Code
-- Open your folder using `File -> Open Folder`
+- Open your folder using `File -> Open Folder` (If needed, first create a folder using the Terminal or the file managment program.)
 - Create a file called `ex_2.py`
 - Now that you have that file open, type this in that file:
      ```python3
