@@ -22,7 +22,7 @@ Preliminary Tasks:  (Instructions follow)
 
 ```sh
 ## 1
-## First, run these. (Together as a class)
+## First, run these.
 cd ~
 ls
 cd Desktop
