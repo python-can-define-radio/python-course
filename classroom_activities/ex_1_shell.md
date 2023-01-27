@@ -10,9 +10,7 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
 - Background info about "Why the terminal": 
   - https://ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
   - https://askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
-- Tutorials:
-  - https://ubuntu.com/tutorials/command-line-for-beginners : This is the source of some concepts presented here. 
-  - Another: https://linuxsurvival.com
+
 
 ### Exercises
 Preliminary Tasks:  (Instructions follow)
@@ -100,17 +98,21 @@ mkdir drinks
 ## Use cd to go inside the foods directory that you just created.
 ## Make a file called sandwich.txt. Inside the file should be a description of a sandwich.
 
+
 ## 6d
 ## Now we want to get out of the foods directory.
 ## There's a special name for "one directory higher than where I am":
 cd ..
 
+
 ## 6e
 ## Use cd to go inside the drinks directory.
 ## Make a file called herbalTea.txt. Inside the file should be what you think about herbal tea.
 
+
 ## 6f
 ## Make another directory. Put two files in it with the names and contents of your choice.
+
 
 ## 7
 ## Here's how you append to a file. When might that be useful?
@@ -155,12 +157,24 @@ cd otherstuff
 
 
 ## 11
-## Misc examples:
+## You can evaluate a command within another command:
 echo "Right now the date and time is $(date)" >> myfile.txt 
 
+
+## 12
+## When doing cd, you can do multiple steps like this:
+
+## Long way:
 cd ~
 cd Desktop
-# same as this:
-cd ~/Desktop
+cd mystuff
+
+## Short way:
+cd ~/Desktop/mystuff
 
 ```
+
+At this point, if you finish before the rest of the class, or if you'd like more practice with the terminal, start working on one of these tutorials:
+
+  - https://ubuntu.com/tutorials/command-line-for-beginners
+  - https://linuxsurvival.com
