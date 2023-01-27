@@ -114,6 +114,16 @@ cd ..
 ## Make another directory. Put two files in it with the names and contents of your choice.
 
 
+## 6g
+## You can view the structure of your files and directories like this:
+tree
+## Notice how the output changes depending on your current working directory:
+cd ..
+tree
+cd ..
+tree
+
+
 ## 7
 ## Here's how you append to a file. When might that be useful?
 echo "This is a new bit of text" >> a.txt
@@ -141,8 +151,7 @@ cd otherstuff
 ## Inside of the otherstuff directory,
 ## make the following folder structure using the terminal.
 ## Put the words of your choice inside of the txt files.
-## An easy way to verify this is by running the "tree" command,
-##  which displays all of the contents including subdirectories. (Try it out!)
+## An easy way to verify this is by running the `tree` command that you just learned.
 ## 
 ## .
 ## └── house
