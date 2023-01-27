@@ -221,7 +221,7 @@ grep view *
 ## grep can also search within subdirectories using the -R flag.
 ## Try this:
 cd /tmp/otherstuff/
-grep -R view *
+grep -R explore *
 
 
 ## 20
