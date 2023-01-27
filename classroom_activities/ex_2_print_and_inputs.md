@@ -318,6 +318,14 @@ print(f"One more would be {onemore}")
 ## Display "Half of that number is ___".
 
 
+## 21b
+## What's wrong with this code?
+## How do you fix it?
+num = input("Give me a number. ")
+print("I'm going to try to multiply that number by 5, but something strange is going to happen:")
+print(num*5)
+
+
 ## 22
 ## Ask the user for the number of questions on a test,
 ## and ask "how many did you get right?"
