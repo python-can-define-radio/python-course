@@ -172,6 +172,61 @@ cd mystuff
 ## Short way:
 cd ~/Desktop/mystuff
 
+
+## 13
+## Try this. It displays the path of the "working directory", that is, the one where your terminal is focused.
+pwd
+
+
+## 14
+## Use output redirection, that is, the > character, to write the current working directory to a file.
+
+
+## 15
+## Here's how to copy a file, and then display it using cat:
+cp pencil.txt writing_tool.txt
+cat writing_tool.txt
+
+
+## 16
+## Here's how to remove a file. Be very careful, as it removes it skips the trash can, and does not confirmation before removing! 
+## How to be careful: 
+##  - Avoid wildcards (the * character) with rm
+##  - Use cat to view the file before removing it
+rm writing_tool.txt
+
+
+## 17
+## Try this. You can see that grep displays all occurences of the word "view".
+cd /tmp/otherstuff/house/smallstuff
+echo "used for viewing items that are either too far or too close." > eyeglasses.txt 
+grep view *
+
+
+## 18
+## Make a few example text files for yourself. Be sure to include the word "explore" in some of the files.
+## Then, use grep to find occurences of the word "explore" in these files.
+
+
+## 19
+## grep can also search within subdirectories using the -R flag.
+## Try this:
+cd /tmp/otherstuff/
+grep -R view *
+
+
+## 20
+## Use grep to search for the letter "a" in all files in all subdirectories in /tmp/otherstuff.
+
+
+## 21
+## Copy and modify the previous example so that it uses output redirection to write grep's output to a file.
+
+
+## 22
+## To look back on what commands you've used, you can run this:
+history
+
 ```
 
 At this point, if you finish before the rest of the class, or if you'd like more practice with the terminal, start working on one of these tutorials:
