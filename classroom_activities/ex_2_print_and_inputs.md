@@ -272,10 +272,10 @@ Now, compare to this one:
 
 ```python3
 ## 15
-## Try this.
+## Try this.  It will perform proper arithmetic.
 print("Welcome to the number adder that works well!")
-a = input("What's a number you like? ")
-b = input("Can you give me another number you like? ")
+a = int(input("What's a number you like? "))
+b = int(input("Can you give me another number you like? "))
 c = a + b
 print(c)
 ```
