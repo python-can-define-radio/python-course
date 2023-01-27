@@ -285,32 +285,32 @@ Notice that the `int` function tells Python to convert the numbers to integers. 
 ```python3
 ## 16
 ## Try this. You will get an error. How do you fix it?
-a = input("Type an integer: ")
-b = int(input("Type another integer: "))
+a = input("What is a number you like? ")
+b = int(input("Can you give me another number you like? "))
 c = a + b
 print(c)
 
 
 ## 17
 ## Try this. You will get an error. How do you fix it?
-favnum = input("What is your favorite number?")
+favnum = input("What is your favorite number? ")
 onemore = favnum + 1
 print(f"One more would be {onemore}")
 
 
 ## 18
-## Ask the user for two integers.
-## Display "The sum of your two numbers is ___".
+## Ask the user for an integer.
+## Display "That number plus 2 is ___".
 
 
 ## 19
 ## Ask the user for two integers.
-## Display "The first number minus the second number is ___".
+## Display "The sum of your two numbers is ___".
 
 
 ## 20
-## Ask the user for an integer.
-## Display "That number plus 2 is ___".
+## Ask the user for two integers.
+## Display "The first number minus the second number is ___".
 
 
 ## 21
