@@ -11,11 +11,57 @@ print("Hello {}".format(thename))
 print("Hello" + thename)     # This works if thename is a string
 print("Hello %s" % thename)  # This approach was more common in Python 2
 
-# Add
+# Common operators
 x = 5
 y = 3
 added = x + y
 print(added)
+subtr = x - y
+print(subtr)
+mult = x * y
+print(mult)
+divi = x / y
+print(divi)
+
+floor_div = x // y
+print(floor_div)
+
+## Note that the caret symbol (meaning the ^) is NOT used for exponents in Python.
+exponentiated = x ** y
+print(exponentiated)
+
+## This one is also known as modulus.
+## Note that it has nothing to do with percentages!
+remainder = x % y
+print(remainder)
+
+## The next six are most often used in the context of an if statement or while statement.
+are_same = x == y
+print(are_same)
+
+are_different = x != y
+print(are_different)
+
+greater_than = x > y
+print(greater_than)
+
+greater_than_or_equal_to = x >= y
+print(greater_than_or_equal_to)
+
+less_than = x < y
+print(less_than)
+
+less_than_or_equal_to = x <= y
+print(less_than_or_equal_to)
+
+someNumber = 10
+## After running this, someNumber will contain the number 12.
+someNumber += 2
+
+## You can do the same for many other operators:
+someNumber -= 3
+someNumber *= 3
+someNumber /= 3
 
 # When working with strings, the + sign is used for concatenating
 a = "You say..."
