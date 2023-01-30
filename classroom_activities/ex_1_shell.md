@@ -208,7 +208,8 @@ rm writing_tool.txt
 ## 17
 ## Try this. You can see that grep displays all occurences of the word "view".
 cd /tmp/otherstuff/house/smallstuff
-echo "used for viewing items that are either too far or too close." > eyeglasses.txt 
+echo "used for viewing items." > eyeglasses.txt 
+echo "a beautiful view, I would say." > mountains.txt 
 grep view *
 
 
