@@ -90,6 +90,18 @@ print("""If you put three quote marks,
 you can easily enter a
 multi-line
 string.""")
+
+
+## 2e
+## You can also use triple quotes similarly to how you use comments:
+"""If I wanted to write a long explanation,
+I could write it like this
+instead of using the '#' if I wanted to."""
+
+
+## 2f
+## Try this.
+print('In Python, the single quote can be used instead of the double quote.')
 ```
 
 ### Using Variables
