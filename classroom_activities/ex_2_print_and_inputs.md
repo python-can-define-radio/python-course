@@ -230,7 +230,9 @@ print(f"Your name is {firstn} {lastn}.")
 
 ### Using Strings and Integers
 
-What does `+` mean? We all know that `2 + 3` is `5`. But what is `"Hello" + "Goodbye"`? 
+The word "string" simply means a sequence of characters. "Bob" is a string; "I am at the store" is a string.
+
+Programming languages treat numbers differently from strings. For example, we all know that `2 + 3` is `5`. But what is `"Hello" + "Goodbye"`? 
 
 ```python3
 ## 9
@@ -251,7 +253,7 @@ print(mysentence)
 ## it displays a space: "Hello everyone" rather than "Helloeveryone".
 ```
 
-As you can see, it displayed `HelloGoodbye`. The fancy name for this is _concatenate_, which simply means putting the two strings next to each other.
+As you can see, `a + b` was `"HelloGoodbye"`. The fancy name to say "add strings" is _concatenate_, which simply means putting the two strings next to each other, as shown above.
 
 You can also let the user enter the words to be concatenated.
 
@@ -313,7 +315,7 @@ c = a + b
 print(c)
 ```
 
-Notice that the `int` function tells Python to convert the numbers to integers. If you use `input` without `int`, then the variables are strings, so the `+` symbol does concatenation instead of math addition.
+Notice that the `int` function tells Python to convert the numbers to integers. If you use `input` without `int`, then the variables are strings (not integers), so the `+` symbol does concatenation instead of math addition.
 
 ```python3
 ## 16
