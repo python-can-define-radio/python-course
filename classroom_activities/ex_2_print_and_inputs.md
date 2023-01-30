@@ -135,6 +135,7 @@ lastn = "Smith"
 print(f"My name is {firstn} {lastn}")
 
 
+## 4b
 ## You can also use commas, but only in functions that support it, such as print.
 ## (Later, when we get to file writing, the comma approach doesn't work, but f strings do work.)
 print("My name is", firstn, lastn)
@@ -162,7 +163,7 @@ However, instead of a blank, it will show the name of the car that the user type
 Try it out:
 
 ```python3
-## 4b
+## 4c
 ## Try this.
 ## When you run it, it will ask you to type something.
 ## You will need to click inside the terminal on the bottom half of the screen
@@ -175,13 +176,13 @@ print(f"The car you named is {cartype}. That was a good choice.")
 Here's some practice:
 
 ```python3
-## 4c
+## 4d
 ## Copy and modify the previous example so that it asks the user for the name of a car,
 ## and then prints "The car you named is ____. Do you have one?"
 ## In the blank, you should say the car that the user named.
 
 
-## 4d
+## 4e
 ## Copy and modify the previous example so that it asks the user for the name of an animal,
 ## and then prints "The animal you named is ____. I think that it would make a nice pet."
 
