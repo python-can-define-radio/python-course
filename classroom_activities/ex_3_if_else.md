@@ -263,6 +263,24 @@ if len(name) > 9:
 if name == "":
     print("Your name is empty!")
 
+
+## 17b
+## Here's another example of the usefulness of elif.
+heightInInches = float(input("Give me a number: "))
+if heightInInches < 0:
+    print("You can't have a negative height!")
+elif heightInInches <= 55:
+    print("That's relatively short.")
+elif heightInInches <= 72:
+    print("That's around average.")
+else:
+    print("That's pretty tall.")
+
+
+## 17c
+## Copy and modify the previous example so that each `elif` is
+## simply `if`. How does it act differently? 
+
  
 ## 18
 ## Ask the user how many French fries they want. Display different responses depending on how many they request. (Examples: "That’s way too many!", etc.) 
