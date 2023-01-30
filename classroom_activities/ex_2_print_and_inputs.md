@@ -57,7 +57,7 @@ print("Here we go!")
 print("If you want \n separate lines, you \n can do it \n like this.")
 ```
 
-Once you have run both of those exercises, you can "comment them out", that is, disable them. 
+Once you have run both of those exercises, you can "comment out the lines", that is, disable them.
 
 Example:
 ```python3
@@ -65,12 +65,23 @@ Example:
 # print("Any line preceded by a '#' will not run.")
 ```
 
+We speak of commenting frequently, so here are some example sentences to show how the phrase is used:
+
+- "Comment out those lines"
+- "Disable those lines"
+- "Those lines are commented out"
+- "Comment them out"
+- "Rem those out" (_The verb "rem" comes from "remark", which is a synonym for comment._)
+- "Rem them out"
+
 You can manually add the `#` characters if you want, but there's an easier way in VS Code:
 
 - Highlight any portion of the lines
 - Press `Ctrl /`
 
-Disabling the exercises as you go is a great idea because it allows you to keep them for reference, but not see the output every time you press run.
+Commenting out the exercises as you go is a great idea because it allows you to keep them for reference, but not see the output every time you press run.
+
+Speaking of comments, you'll see that we've numbered our exercises. We highly recommend that you number them on your computer as you work through them, as it makes them easier to find later.
 
 ```python3
 ## 2b
