@@ -150,6 +150,7 @@ cd otherstuff
 ## 10
 ## Inside of the otherstuff directory,
 ## make the following folder structure using the terminal.
+## Everything that ends in .txt should be a file, NOT a directory.
 ## Put the words of your choice inside of the txt files.
 ## An easy way to verify this is by running the `tree` command that you just learned.
 ## 
@@ -171,6 +172,11 @@ echo "Right now the date and time is $(date)" >> myfile.txt
 
 
 ## 12
+## Try this. It displays the path of the "working directory", that is, the one where your terminal is focused.
+pwd
+
+
+## 13
 ## When doing cd, you can do multiple steps like this:
 
 ## Long way:
@@ -182,9 +188,8 @@ cd mystuff
 cd ~/Desktop/mystuff
 
 
-## 13
-## Try this. It displays the path of the "working directory", that is, the one where your terminal is focused.
-pwd
+## 13b
+## Use cd to change your directory back to /tmp/otherstuff .
 
 
 ## 14
@@ -192,13 +197,14 @@ pwd
 
 
 ## 15
-## Here's how to copy a file, and then display it using cat:
+## Here's how to copy a file, and then display it using cat.
+## Note that this will only work if you start by chanding your directory (cd) to where pencil.txt is located.
 cp pencil.txt writing_tool.txt
 cat writing_tool.txt
 
 
 ## 16
-## Here's how to remove a file. Be very careful, as it removes it skips the trash can, and does not confirmation before removing! 
+## Here's how to remove a file. Be very careful, as it skips the trash can, and does not confirm before removing! 
 ## How to be careful: 
 ##  - Avoid wildcards (the * character) with rm
 ##  - Use cat to view the file before removing it
@@ -212,6 +218,27 @@ cd /tmp/otherstuff/house/smallstuff
 echo "used for viewing items." > eyeglasses.txt 
 echo "a beautiful view, I would say." > mountains.txt 
 grep view *
+
+
+## 17b
+## To move something, use mv:
+cd /tmp/otherstuff/house
+echo "A comfortable place to sit." > couch.txt
+mv couch.txt furniture
+
+
+## 17c
+## You can also use the special two dots that we saw when we were using cd:
+cd /tmp/otherstuff/house/smallstuff
+ls
+mv mountains.txt ..
+ls
+cd ..
+ls
+
+
+## 17d
+## Make a directory called "scenery", and move mountains.txt into it.
 
 
 ## 18
