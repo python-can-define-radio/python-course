@@ -369,4 +369,11 @@ else:
 
 ## 28
 ## Combine the two previous examples: ask the user for a number and which way to convert. 
+
+
+## 29
+## Ask the user for a number.
+## Using the % operator, display "The remainder of your number divided by 5 is ___."
+## if the remainder that you calculated is 0, display "That number is evenly divisible by 5."
+
 ```
