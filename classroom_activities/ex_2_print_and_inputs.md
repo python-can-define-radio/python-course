@@ -77,10 +77,19 @@ Disabling the exercises as you go is a great idea because it allows you to keep 
 ## Try this.
 print("This thing inside quotes is called a \"string\". If you want to put quotes inside, this is how.")
 
+
 ## 2c
 ## Try this.
 print("You have now seen two escape sequences: \n for newline, and \" for a quotation mark. Another useful sequence is two backslashes, which is used to type a single backslash.")
 print("Example:  \\  will only display one backslash.")
+
+
+## 2d
+## Try this.
+print("""If you put three quote marks, 
+you can easily enter a
+multi-line
+string.""")
 ```
 
 ### Using Variables
