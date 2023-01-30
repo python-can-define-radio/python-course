@@ -207,6 +207,7 @@ rm writing_tool.txt
 
 ## 17
 ## Try this. You can see that grep displays all occurences of the word "view".
+## Don't forget the asterisk in the grep command. The asterisk means "everything in my current directory".
 cd /tmp/otherstuff/house/smallstuff
 echo "used for viewing items." > eyeglasses.txt 
 echo "a beautiful view, I would say." > mountains.txt 
@@ -219,10 +220,10 @@ grep view *
 
 
 ## 19
-## grep can also search within subdirectories using the -R flag.
+## grep can also search within subdirectories using the -r flag.
 ## Try this:
 cd /tmp/otherstuff/
-grep -R explore *
+grep -r explore *
 
 
 ## 20
