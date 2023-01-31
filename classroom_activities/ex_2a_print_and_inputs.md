@@ -413,6 +413,7 @@ print(x*y)
 
 ## 29
 ## Try this. You will get an error. Why?
+## (Note: This isn't fixable. It's a purely educational question.)
 x = "hello"
 y = "goodbye"
 print(x*y)
@@ -420,6 +421,7 @@ print(x*y)
 
 ## 30
 ## Try this. You will get an error. Why?
+## (Note: no need to try to fix this. It is also purely educational.)
 x = "3"
 y = "5"
 print(x*y)
