@@ -22,7 +22,7 @@ x = 3
 print("Currently, x is...")
 print(x)
 x = 4
-print("Now, x is"...)
+print("Now, x is...")
 print(x)
 
 
@@ -33,7 +33,7 @@ print("Currently, x is...")
 print(x)
 ## You should read the line below as "Set x to 5 more than what x used to be."
 x = x + 5
-print("Now, x is"...)
+print("Now, x is...")
 print(x)
 
 
@@ -43,5 +43,5 @@ x = 3
 print("Currently, x is...")
 print(x)
 x += 5
-print("Now, x is"...)
+print("Now, x is...")
 print(x)
