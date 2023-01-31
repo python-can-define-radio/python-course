@@ -411,6 +411,16 @@ print(f"The type of y is {type(y)}, which is another way to say integer.")
 print(x*y)
 
 
+
+## 28b
+## Try this.
+## Is a an integer or a string? How about b?
+## How can you get Python to tell you what the types of these 
+##   variables are? (Hint: use the type() function.)
+a = input("Enter a number.")
+b = int(input("Enter a number."))
+
+
 ## 29
 ## Try this. You will get an error. Why?
 ## (Note: This isn't fixable. It's a purely educational question.)
@@ -421,20 +431,10 @@ print(x*y)
 
 ## 30
 ## Try this. You will get an error. Why?
-## (Note: no need to try to fix this. It is also purely educational.)
+## (Note: no need to try to fix this. It is purely educational.)
 x = "3"
 y = "5"
 print(x*y)
-
-
-## 31
-## Try this.
-## Is x an integer or a string? How about y?
-## How can you get Python to answer the question for you? (Hint: use the type() function.)
-x = input("Enter a number.")
-y = int(input("Enter a number."))
-print(x*y)
-
 
 
 ## 32
