@@ -266,7 +266,7 @@ if name == "":
 
 ## 17b
 ## Here's another example of the usefulness of elif.
-heightInInches = float(input("Give me a number: "))
+heightInInches = int(input("Give me a number: "))
 if heightInInches < 0:
     print("You can't have a negative height!")
 elif heightInInches <= 55:
@@ -326,9 +326,9 @@ print("C")
 
 
 ## 22b
-## Try this.
-firstcost = int(input("How much is the first thing you bought? "))
-secondcost = int(input("How much is the second thing you bought? "))
+## Try this. Why do we use float instead of int here?
+firstcost = float(input("How much is the first thing you bought? "))
+secondcost = float(input("How much is the second thing you bought? "))
 total = firstcost + secondcost
 discounted = total * 0.9
 print(f"The total cost would be {total}.")
@@ -340,21 +340,22 @@ print(f"That means you actually pay {discounted}")
 ## Try this.
 x = float(input("Type a number between 0 and 1, for example, 0.3, 0.25, etc... "))
 print(f"One more would be {x + 1}.")
-
 ## As you can see, you can use `float` instead of `int` when dealing with non-whole numbers.
 ## Sidenote: 
-## (this sidenote is outside the scope of the class, but good to know)
-## Using floats can cause weird rounding errors. For example:
+##   (this sidenote is outside the scope of the class, but good to know)
+##   Using floats can cause weird rounding errors. For example:
 print(1.03 - .42)
-## This will print 0.6100000000000001.
-## That's quite important when doing comparisons:
+##   This will print 0.6100000000000001.
+##   That's quite important when doing comparisons:
 if .1 + .1 + .1 == .3:
     print("This will not print.")
 else:
     print("This will print... what is math??")
-## The reason is because the numbers are converted to binary behind the scenes.
-## For more info, see https://docs.python.org/3/tutorial/floatingpoint.html
-## If you plan to eventually do any "real-life" programming, then it's definitely worth reading.
+##   The reason is because the numbers are converted to binary behind the scenes,
+##   and just as you can't express "one third" exactly in decimal (0.33333 is not EXACTLY one third)
+##   you can't express "one tenth" exactly in binary.
+##   For more info, see https://docs.python.org/3/tutorial/floatingpoint.html
+##   If you plan to eventually do any "real-life" programming, then it's definitely worth reading.
 ## (end of sidenote)
 
 
@@ -374,11 +375,13 @@ else:
      
 
 ## 25
-## Ask the user for a number. Print the absolute value of the number without using the abs function. 
+## Ask the user for a number (make sure to allow for non-whole numbers).
+## Print the absolute value of the number without using the abs function. 
 
 
 ## 26
 ## Ask the user for a temperature in Celsius, and display the temperature in Fahrenheit. 
+## Make sure to allow for non-whole numbers.
 
 
 ## 27
@@ -392,6 +395,6 @@ else:
 ## 29
 ## Ask the user for a number.
 ## Using the % operator, display "The remainder of your number divided by 5 is ___."
-## if the remainder that you calculated is 0, display "That number is evenly divisible by 5."
+## Also, if the remainder that you calculated is 0, display "That number is evenly divisible by 5."
 
 ```
