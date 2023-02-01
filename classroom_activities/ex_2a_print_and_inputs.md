@@ -412,23 +412,22 @@ print(x*y)
 
 
 ## 28b
-## Try this.
-## Is `a` an integer, a string, or something else? How about `b`, `c`, `d`, and `e`?
-## How can you ask Python to tell you what the types of these 
-##   variables are? (Hint: use the type() function.)
-a = input("Enter a number.")
-b = int(input("Enter a number."))
-c = 6
-d = "Hello"
-somethingInteresting = 3.1
+## Determine the type of each of these variables (integer, string, or something else).
+## Hint: Python can tell you the types using the type() function.
+mystery = 6
+another = "Hello"
+something = input("Enter a number.")
+whatIsThis = int(input("Enter a number."))
+thisIsSomething = 3.1
+```
 
+In the previous question, you discovered that the type of `thisIsSomething` was "float", not "integer".
 
-## 28c
-## In the previous question, you discovered that the type of `somethingInteresting` was 
-## "float", not "integer".
-## The "float" type (which means floating point, referring to the decimal point) is able 
-## to hold numbers that are not whole numbers.
+The "float" type (which means floating point, referring to the decimal point) is able to hold numbers that are not whole numbers.
+
+```python3
 ## Try this. It will give an error. If it doesn't, please ask an instructor.
+## 28c
 somenum = int(input("Try typing a non-whole number, such as an approximate value for pi. You'll see that it doesn't work: "))
 print(f"You typed {somenum}")
 
@@ -451,13 +450,18 @@ print(f"You typed {somenum}")
 ## Example run:
 ##    Can you give me a number? 3.4
 ##    Twice that number is 6.8
+```
 
+You may wonder -- why not always use `float()`? There are at least two reasons:
 
+1. There are cases in which you don't want to allow for non-whole values. For example, `numberOfPeople = float(input("How many people attended the event? "))` would not make much sense!
+2. Math with integers is faster than math with floats. This is significant, for example, when you're processing millions of data points every second (such as when doing real-time signal processing).
+3. There are certain cases in which you must use an int; for example, `print("Hello"*3.5)` will give an error.
+
+```python3
 ## 28g
 ## For extra practice with floats, copy and modify some of your previous exercises
 ##   so they use float instead of int.
-## You'll notice there are certain cases in which you must use an int;
-##   for example, print("Hello"*3.5) will give an error.
 
 
 ## 29
