@@ -394,16 +394,15 @@ print("Hello"*3)
 ## The type of 3 is integer.
 ## What happens when you multiply and integer times an integer?
 ## What about a string times an integer?
-x = 111
-y = "111"
+x = 123
+y = "123"
 print(x*3)
 print(y*3)
 
 
 ## 28
-## Try this.
-## x and y are both variables, but notice the types: 
-## Which is an integer, and which is a string?
+## Try this. It shows how to use the type() function.
+## `x` and `y` are both variables, are they integers or strings?
 x = input("Enter a word.")
 y = int(input("Enter a number."))
 print(f"The type of x is {type(x)}, which is another way to say string.")
@@ -414,8 +413,8 @@ print(x*y)
 
 ## 28b
 ## Try this.
-## Is a an integer or a string? How about b?
-## How can you get Python to tell you what the types of these 
+## Is `a` an integer or a string? How about `b`?
+## How can you ask Python to tell you what the types of these 
 ##   variables are? (Hint: use the type() function.)
 a = input("Enter a number.")
 b = int(input("Enter a number."))
