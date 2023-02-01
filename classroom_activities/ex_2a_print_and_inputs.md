@@ -440,6 +440,12 @@ print(f"You typed {somenum}")
 
 
 ## 28e
+## Ask the user for two numbers.
+## Use float() in the places where you would use int().
+## Display "The sum of your two numbers is ___".
+
+
+## 28f
 ## Ask the user for a number, making sure that you allow for non-whole numbers.
 ## Display "Twice that number is ___".
 ## Example run:
