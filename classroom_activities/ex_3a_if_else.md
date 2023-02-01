@@ -193,11 +193,13 @@ else:
 
  
 ## 14
-## Copy and modify the above example so that it shows how many years remain until you can drink (but only display that if you’re under the drinking age). 
+## Copy and modify the above example so that it shows how many years remain until you can
+## drink (but only display that if you’re under the drinking age). 
 
 
 ## 15
-## Write a program that takes a name from the user. If the name is the letter "A", say "Your name is just the letter A? That’s kinda cool".  Otherwise, say "Ok, your name is ___". 
+## Write a program that takes a name from the user. If the name is the letter "A", say
+## "Your name is just the letter A? That’s kinda cool".  Otherwise, say "Ok, your name is ___". 
 ```  
 
 One or more elif-statements can be positioned between an if-statement and an else-statement to choose between more than two options or operations.
@@ -283,7 +285,9 @@ else:
 
  
 ## 18
-## Ask the user how many French fries they want. Display different responses depending on how many they request. (Examples: "That’s way too many!", etc.) 
+## Ask the user how many French fries they want.
+## Display different responses depending on how many they
+## request. (Examples: "That’s way too many!", etc.) 
 
  
 ## 19
