@@ -390,7 +390,7 @@ print(num*5)
 
 ## 27
 ## Try this.
-## Notice: The type of x is integer, and the type of y is string.
+## Notice: The type of `x` is integer, and the type of `y` is string.
 ## The type of 3 is integer.
 ## What happens when you multiply and integer times an integer?
 ## What about a string times an integer?
@@ -420,13 +420,14 @@ a = input("Enter a number.")
 b = int(input("Enter a number."))
 c = 6
 d = "Hello"
-e = 3.1
+somethingInteresting = 3.1
 
 
 ## 28c
-## In the previous question, you discovered that the type of e was "float", not "integer".
-## The float type (which means floating point, referring to the decimal point) is able to hold
-## types that are not whole numbers.
+## In the previous question, you discovered that the type of `somethingInteresting` was 
+## "float", not "integer".
+## The "float" type (which means floating point, referring to the decimal point) is able 
+## to hold numbers that are not whole numbers.
 ## Try this. It will give an error. If it doesn't, please ask an instructor.
 somenum = int(input("Try typing a non-whole number, such as an approximate value for pi. You'll see that it doesn't work: "))
 print(f"You typed {somenum}")
@@ -450,7 +451,7 @@ print(f"You typed {somenum}")
 ## For extra practice with floats, copy and modify some of your previous exercises
 ##   so they use float instead of int.
 ## You'll notice there are certain cases in which you must use an int;
-##   for example, "Hello"*3.5 will give an error.
+##   for example, print("Hello"*3.5) will give an error.
 
 
 ## 29
