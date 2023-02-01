@@ -354,8 +354,13 @@ print(f"One more would be {onemore}")
 
 
 ## 21b
-## What's wrong with this code?
-## How do you fix it?
+## Try this.
+print("Hello"*3)
+
+
+## 21c
+## Does this example do what you expect?
+## If not, how do you fix it?
 num = input("Give me a number. ")
 print("I'm going to try to multiply that number by 5, but something strange is going to happen:")
 print(num*5)
@@ -371,11 +376,6 @@ print(num*5)
 ## Ask the user for name and age.
 ## Display "Guess what, ___, in two years you'll be ___."
 ## (The user-provided name goes in the first blank, and the age two years from now in the second blank.)
-
-
-## 24
-## Try this.
-print("Hello"*3)
 
 
 ## 25
@@ -413,11 +413,44 @@ print(x*y)
 
 ## 28b
 ## Try this.
-## Is `a` an integer or a string? How about `b`?
+## Is `a` an integer, a string, or something else? How about `b`, `c`, `d`, and `e`?
 ## How can you ask Python to tell you what the types of these 
 ##   variables are? (Hint: use the type() function.)
 a = input("Enter a number.")
 b = int(input("Enter a number."))
+c = 6
+d = "Hello"
+e = 3.1
+
+
+## 28c
+## In the previous question, you discovered that the type of e was "float", not "integer".
+## The float type (which means floating point, referring to the decimal point) is able to hold
+## types that are not whole numbers.
+## Try this. It will give an error. If it doesn't, please ask an instructor.
+somenum = int(input("Try typing a non-whole number, such as an approximate value for pi. You'll see that it doesn't work: "))
+print(f"You typed {somenum}")
+
+
+## 28d
+## Try this. You'll see that it allows for non-whole numbers.
+somenum = float(input("Try typing another non-whole number: "))
+print(f"You typed {somenum}")
+
+
+## 28e
+## Ask the user for a number, making sure that you allow for non-whole numbers.
+## Display "Twice that number is ___".
+## Example run:
+##    Can you give me a number? 3.4
+##    Twice that number is 6.8
+
+
+## 28g
+## For extra practice with floats, copy and modify some of your previous exercises
+##   so they use float instead of int.
+## You'll notice there are certain cases in which you must use an int;
+##   for example, "Hello"*3.5 will give an error.
 
 
 ## 29
@@ -430,7 +463,7 @@ print(x*y)
 
 ## 30
 ## Try this. You will get an error. Why?
-## (Note: no need to try to fix this. It is purely educational.)
+## (Note: no need to try to fix this. It's a purely educational question.)
 x = "3"
 y = "5"
 print(x*y)
@@ -444,7 +477,7 @@ print(x*y)
 ## (In other words, you want the number to be a string.)
 
 ########################################
-# Right way:
+# This is the right way:
 beg = "800"
 mid = "555"
 end = input("Give me a 4 digit number: ")
@@ -455,7 +488,7 @@ print(fullPhoneNum)
 
 
 ########################################
-# This version runs, but the output is wrong.
+# The following version runs, but the output is wrong.
 # What's wrong with the output?
 beg = 800
 mid = 555
