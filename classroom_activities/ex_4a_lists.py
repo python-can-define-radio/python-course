@@ -11,12 +11,15 @@ print(thelist[2])    # What will this print?
 thelist = ["water", "chair", "mug", "mouse"]
 print(thelist[1])
 
+
 # 2
 # Modify the previous example to print the fourth element of the list (“mouse”).
+
 
 # 3
 # Try this. Do you expect an error?
 print(thelist[-1])
+
 
 # 4
 # Add a few elements to thelist. Then do this again:
@@ -28,7 +31,9 @@ print(thelist[-1])
 
 
 # 6
-# Try this. It’s a little counterintuitive.
+# Try this. Which items does it display? 
+# Does it include all of the items you expected? 
+# (It’s a little counterintuitive.)
 print(thelist[0:3])
 
 
@@ -40,9 +45,11 @@ print(thelist[1:3])
 # 8
 # Modify the previous example to print elements 0,1,2,3. (Hint: it’s not going to be [0:3], but it’s close to that.)
 
+
 # 9
 # Try this.
 print(thelist[1:])
+
 
 # 10
 # Modify the previous example to print all but the first two items.
@@ -50,17 +57,18 @@ print(thelist[1:])
 
 
 # 11
-# Try this.
+# You can change an item in the list using the following approach.
+# How could you verify that the list was changed?
 letters = ["a", "b", "c", "d", "e"]
 letters[0] = "ROCKET"
 
 
 # 12
-# Modify the previous example to replace “b” with “ROCKET” instead of replacing “a”.
+# Modify the previous example to replace "d" with "WAVE".
 
 
 # 13
-# Modify the previous example to replace the second-to-last element with “ROCKET”.
+# Modify the previous example to use negative indexing.
 
 
 # 14
@@ -110,5 +118,33 @@ print(f"ID: {id_num} Name: {names[id_num]}")
 # Copy and modify the previous example to
 # ask the user for a student id, and then
 # displays "The student with id number ___ is named ___".
+
+
+# 23
+# You can add an item to the end of a list using append:
+names = ["Sarah", "Tom", "Harry", "Susan", "Becky"]
+print(names)
+names.append("Bob")
+print(names)
+
+
+# 24
+# Copy and modify the previous example so that it asks the user
+# for a new name that you want to add to the end of the list.
+
+
+# 25
+# You can remove items using del:
+names = ["Sarah", "Tom", "Harry", "Susan", "Becky"]
+print(names)
+del names[0]
+print(names)
+
+
+# 26
+# Copy and modify the previous example so that it asks the user
+# for a position (that is, the index) in the list. Remove that item
+# from the list using del, and then display the changed list.
+
 
 
