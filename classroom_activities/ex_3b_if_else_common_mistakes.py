@@ -58,6 +58,18 @@ if name == "Bob":
     print("Hello Robert.")
 
 
+## 8b
+## This isn't wrong, but it is certainly confusing.
+## You shouldn't do this in real code.
+## However, it may help you understand what's wrong with the next few examples.
+name = input("What is your name? ")
+George = "Bob"
+if name == George:
+    print("This will print if they typed Bob.")
+else:
+    print("This will print for any other name, including the one that starts with a G and ends with eorge.")
+
+
 ## 9
 ## What's wrong with this code?
 first = int(input("Give me a number. "))
@@ -84,13 +96,11 @@ if operation == half:
 
 ## 11
 ## What's wrong with this code?
-print("In this imaginary world, you can only")
-print("retire at exactly 65 years old.")
+print("You win the game if your age is exactly 99.")
 age = input("How old are you? ")
-if age == 65:
-    print("You can retire.")
+if age == 99:
+    print("You win!")
 else:
-    print("You cannot retire, as you are either")
-    print("too old or too young.")
+    print("You lose.")
 
     
