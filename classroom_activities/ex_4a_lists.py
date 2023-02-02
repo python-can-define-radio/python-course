@@ -146,5 +146,19 @@ print(names)
 # for a position (that is, the index) in the list. Remove that item
 # from the list using del, and then display the changed list.
 
+# 27 
+# A list can be generated using the range() function.
+# Try this:
+start = 1
+stop = 10+1
+step = 2
+L = list(range(start, stop, step))  
+  # range parameters: start #, stop#+1, incriment (i.e., the "count by" value)
+  # Note: Range always omits the final number, so a "+1" has been added 
+  # to shown what the actual stopping number will be.  In this example the stop will occur at 10.
+print(L)
 
-
+# 28
+# Modify the previous example to create a list that includes all numbers  
+# between 0 and 30 that are divisible by 3.  
+# Note: 0, 1, 2, 4, etc. are not divisible by 3.  Do not include them.
