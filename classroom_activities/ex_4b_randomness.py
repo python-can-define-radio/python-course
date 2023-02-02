@@ -33,16 +33,6 @@ print(oneNum)
 ## Copy and modify the previous example.
 ## After displaying the number you picked,
 ## if the randomly picked number was more than 40, print "It was a big number."
-
-## 7 Random Floating Point Number
-## Try this.
-x = random.random()  #Generates a radom floating point number from 0.0 to 1.0
-print(x)
-
-## 8 Random Floating Point Number of Arbitrary Size
-## Using the previous example (i.e., x = random.random() ), 
-## how could you generate ## a random floating point number of any size?
-## Prove your theory in Python.
 ## Otherwise, print "It was not a very big number."
 
 
@@ -59,3 +49,13 @@ print(num)
 ## Give the user a randomly chosen score: display "You got a ___ on the test".
 ## (It's up to you how high or low you want your random grades to be.)
 
+
+## 9 Random Floating Point Number
+## Try this.
+x = random.random()  #Generates a radom floating point number from 0.0 to 1.0
+print(x)
+
+## 10 Random Floating Point Number of Any Size
+## Using the previous example (i.e., x = random.random() ), 
+## how could you generate ## a random floating point number of any size?
+## Prove your theory in Python.
