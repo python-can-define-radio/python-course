@@ -85,4 +85,10 @@
 -  https://pythongeeks.org/python-projects/
 
 
+-  [A Real Time Strategy game](https://github.com/RyanKruse/Python-RTS)
+
+
+-  [Handwriting Recognition using Scikit-Learn](https://scikit-learn.org/stable/auto_examples/classification/plot_digits_classification.html), make sure to install the [correct package](https://pypi.org/project/scikit-learn/) using pip (it's not called "sklearn")
+
+
 -  [Yahoo Finance graph using Python](https://gist.github.com/SajidLhessani/69515feb77849ce1456867a924dc74e2#file-yahoo_fin_graph-py): Pulled from the following article which showcases pulling data via the Yahoo! Finance API for stock prices, and graphs them. https://towardsdatascience.com/python-how-to-get-live-market-data-less-than-0-1-second-lag-c85ee280ed93
