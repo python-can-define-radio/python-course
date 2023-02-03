@@ -30,3 +30,17 @@ print(f"An arbitrary number in octal without a prefix: {17:o}")
 print(f"An arbitrary number in hexadecimal: {hex(17)}")
 print(f"An arbitrary number in hexadecimal without a prefix: {17:x}")
 ```
+
+---------------
+
+Note that functions work alone, but the format specifiers don't:
+
+```python3
+## This works:
+exampleVar = bin(6)
+print(f"The value is {exampleVar}.")
+
+## This won't work:
+exampleVar = {6:b}
+print(f"The value is {exampleVar}.")
+```
