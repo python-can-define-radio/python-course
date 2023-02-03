@@ -8,8 +8,9 @@
 
 3. Use Python to do the following:
    1. start a new "*.py" file or use an existing one.
-   2. Open the data file
-   3. For each name (i.e.: each row of data):  
+   2. Open the data file (see exercise 7a regarding how to do this)
+   3. use `.splitlines()` if needed (see online examples on how to do this)
+   4. For each name (i.e.: each row of data):  
         1. If the name contains a space:
            1. Try using `.split()`.  (What does it do?)
            2. Construct an username like so: Bob Smith would be "bsmith" or "smith_b", etc.
