@@ -13,9 +13,6 @@
    (You may need to provide your own image files)
 
 
--  Python games: https://copyassignment.com/python-games-code-copy-and-paste/
-
-
 -  Dictionaries: A very useful data structure.
    Basics: https://realpython.com/python-dicts/
    
@@ -24,6 +21,9 @@
    Recommended prerequisite: Dictionaries
    Basics: https://realpython.com/python-csv/
    More advanced: https://realpython.com/python-interview-problem-parsing-csv-files/
+
+
+-  [Pymunk](http://www.pymunk.org/en/latest/installation.html): Python physics simulator; comes with examples
 
 
 -  Basics of turtle:
@@ -92,3 +92,6 @@
 
 
 -  [Yahoo Finance graph using Python](https://gist.github.com/SajidLhessani/69515feb77849ce1456867a924dc74e2#file-yahoo_fin_graph-py): Pulled from the following article which showcases pulling data via the Yahoo! Finance API for stock prices, and graphs them. https://towardsdatascience.com/python-how-to-get-live-market-data-less-than-0-1-second-lag-c85ee280ed93
+
+
+-  Python games, but a fair amount of them don't seem to work: https://copyassignment.com/python-games-code-copy-and-paste/
