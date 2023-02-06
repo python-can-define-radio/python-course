@@ -402,3 +402,43 @@ else:
 ## Also, if the remainder that you calculated is 0, display "That number is evenly divisible by 5."
 
 ```
+
+What if there's more than one choice that leads to the same outcome? Here are four ways to handle that.
+
+```python3
+## 30
+## Try this.
+color = input("What color is water? ")
+if color == "blue" or color == "transparent":
+    print("Yes, I agree.")
+else:
+    print("I'm not sure about that.")
+
+
+## 31
+## Try this.
+color = input("What color is water? ")
+if color in ["blue", "transparent"]:
+    print("Yes, I agree.")
+else:
+    print("I'm not sure about that.")
+
+
+## 32
+## Try this.
+color = input("What color is water? ")
+if color != "blue" and color != "transparent":
+    print("I'm not sure about that.")
+else:
+    print("Yes, I agree.")
+
+
+## 33
+## Try this.
+color = input("What color is water? ")
+if color not in ["blue", "transparent"]:
+    print("I'm not sure about that.")
+else:
+    print("Yes, I agree.")
+
+```
