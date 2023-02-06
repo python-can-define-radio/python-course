@@ -103,4 +103,60 @@ if age == 99:
 else:
     print("You lose.")
 
+
+## 12
+## What's wrong with this code?
+opinion = input("Do you like celery? ")
+if opinion == "yes" and opinion == "Yes":
+    print("Glad you like it.")
+else:
+    print("You don't like it? You should try it again some time.")
+
+
+## 13
+## What's wrong with this code? Why does it always assume that
+## the user typed 'yes' even if the user types 'no'?
+response = input("Do you eat? ")
+if response != "no" or response != "No":
+    print("You didn't say no, so I'm assuming that's a yes. I'm glad to hear that you eat.")
+else:
+    print("It looks like you said no. I'm available if you want to talk about your aversion to food.")
     
+
+## 13b
+## What's wrong with this code?
+name = input("What is your name? ")
+if name.lower == "bob":
+    print("Hey Bobby!")
+else:
+    print("Hello, good to meet you.")
+
+
+    
+## 14
+## What's wrong with this code?
+opinion = input("Do you like celery? ")
+like = ["yes", "Yes", "YES"]
+if like:
+    print("Glad you like it.")
+else:
+    print("You don't like it? You should try it again some time.")
+
+
+## 15
+## What's wrong with this code?
+opinion = input("Do you like celery? ")
+like = ["yes", "Yes", "YES"]
+if opinion == like:
+    print("Glad you like it.")
+else:
+    print("You don't like it? You should try it again some time.")
+
+
+## 16
+## What's wrong with this code?
+opinion = input("Do you like celery? ")
+if opinion == ["yes", "Yes", "YES"]:
+    print("Glad you like it.")
+else:
+    print("You don't like it? You should try it again some time.")
