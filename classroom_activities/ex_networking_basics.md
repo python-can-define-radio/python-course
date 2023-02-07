@@ -5,11 +5,6 @@ We'll start by setting up a basic client and server:
 - The server will wait to receive a message, and then will display it
 - The client will transmit a message.
 
-The server must be run first. If you've been using the VS Code "Run" button, 
-I recommend that you instead use the terminal to run the programs directly, since
-the run button works strangely for cases when you're running two programs 
-simultaneously.
-
 Name this "basic_net_server.py":
 
 ```python3
@@ -40,3 +35,12 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
     s.sendall('Hello, world'.encode("UTF"))
     print("Message sent.")
 ```
+
+The server must be run first. You may be accustomed to using the VS Code "Run" button, which works well when running a single Python program, but is not as helpful when running multiple Python programs.
+
+Instead, I recommend that you use the following method:
+
+1. Open two terminals
+2. cd into the directory that has the python files
+3. Run `python3 basic_net_server.py` in one terminal
+4. Run `python3 basic_net_client.py` in the other terminal
