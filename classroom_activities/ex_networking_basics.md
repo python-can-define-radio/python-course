@@ -5,7 +5,7 @@ We'll start by setting up a basic client and server:
 - The server will wait to receive a message, and then will display it
 - The client will transmit a message.
 
-## Step 1: local test
+## Step 1: Local test
 
 Name this "basic_net_server.py":
 
@@ -48,7 +48,7 @@ Instead, I recommend that you use the following method:
 3. In one terminal: `python3 basic_net_server.py`
 4. In the other terminal: `python3 basic_net_client.py`
 
-## Step 2: across the network
+## Step 2: To someone else's computer
 
 Find out your ip address by running `ip a` in the terminal.
 
@@ -61,3 +61,45 @@ Example:
 ```python3
 HOST = '192.168.3.4'
 ```
+
+## Step 3: Using `input` and making the communication bidirectional
+
+Updated server:
+
+```python3
+import socket
+
+print("Ready to receive a client connection.")
+HOST = ''                 # Symbolic name meaning all available interfaces
+PORT = 50007              # Arbitrary non-privileged port
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    s.bind((HOST, PORT))
+    s.listen(1)
+    conn, addr = s.accept()
+    print('Connected by', addr, 'and waiting for a message')
+    while True:
+        data = conn.recv(1024)
+        print(data.decode())
+        mymessage = input("What say? ")
+        conn.sendall(mymessage.encode("UTF"))
+        ## Notice that we do need to run `conn.close()` at some point.
+```
+
+Updated client:
+
+```python3
+import socket
+
+HOST = 'localhost'
+PORT = 50007              # The same port as used by the server
+print("About to connect...")
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    s.connect((HOST, PORT))
+    while True:
+        mymessage = input("What say? ")
+        s.sendall(mymessage.encode("UTF"))
+        print("Message sent. Awaiting reply:")
+        data = s.recv(1024)
+        print(data.decode())
+```
+
