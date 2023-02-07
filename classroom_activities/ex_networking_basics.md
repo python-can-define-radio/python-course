@@ -54,4 +54,10 @@ Find out your ip address by running `ip a` in the terminal.
 
 It will look like this: `192.168.xxx.xxx`
 
-Change the "localhost" on the client to be the ip address of someone else, and test it again.
+Change the "localhost" on the **client** to be the ip address of someone else, and test it again.
+
+Example:
+
+```python3
+HOST = '192.168.3.4'
+```
