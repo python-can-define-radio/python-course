@@ -5,6 +5,8 @@ We'll start by setting up a basic client and server:
 - The server will wait to receive a message, and then will display it
 - The client will transmit a message.
 
+## Step 1: local test
+
 Name this "basic_net_server.py":
 
 ```python3
@@ -43,5 +45,13 @@ Instead, I recommend that you use the following method:
 
 1. Open two terminals
 2. cd into the directory that has the python files
-3. Run `python3 basic_net_server.py` in one terminal
-4. Run `python3 basic_net_client.py` in the other terminal
+3. In one terminal: `python3 basic_net_server.py`
+4. In the other terminal: `python3 basic_net_client.py`
+
+## Step 2: across the network
+
+Find out your ip address by running `ip a` in the terminal.
+
+It will look like this: `192.168.xxx.xxx`
+
+Change the "localhost" on the client to be the ip address of someone else, and test it again.
