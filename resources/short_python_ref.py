@@ -26,7 +26,7 @@ print(divi)
 floor_div = x // y
 print(floor_div)
 
-## Note that the caret symbol (meaning the ^) is NOT used for exponents in Python.
+## Note that the caret symbol (meaning the ^) is NOT used for calculating an exponent in Python.
 exponentiated = x ** y
 print(exponentiated)
 
