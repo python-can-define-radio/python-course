@@ -30,12 +30,15 @@ print(floor_div)
 exponentiated = x ** y
 print(exponentiated)
 
-## This one is also known as modulus.
+## This one, the remainder operator, is also known as modulus.
 ## Note that it has nothing to do with percentages!
 remainder = x % y
 print(remainder)
 
-## The next six are most often used in the context of an if statement or while statement.
+## The next six are "boolean operators".
+## They are most often used in the context of an if statement or while statement.
+## Some say that booleans are used "to represent truth", but
+## I think a better description is to say they are values that can only be True or False.
 are_same = x == y
 print(are_same)
 
