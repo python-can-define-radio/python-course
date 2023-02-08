@@ -42,7 +42,8 @@ print(f"The number {another_num}, expressed in octal, is {another_num:#o}.")
 print(f"The number {another_num}, expressed in hexadecimal, is {another_num:#x}.")
 
 ## Note that the format specifiers for other number systems don't work for floats:
-print(f"This will give an error: {item_number:b}.")
+item_number = 27.283
+print(f"This will give an error, because item_number is a float: {item_number:b}.")
 
 
 ## For more information:
