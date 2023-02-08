@@ -19,7 +19,7 @@ c = "hello"
 d = 3
 e = 3.1
 f = 3.0
-print(f"The types of those variables are...")
+print("The types of those variables are...")
 print(type(b))
 print(type(c))
 print(type(d))
@@ -56,8 +56,8 @@ As you can see, it shows either `True` or `False`. Those might look like strings
 ```python3
 temp_in_degrees_f = 101.2
 isHigherThanNormal = (temp_in_degrees_f > 98.6)
-print("The type of isHigherThanNormal is {type(isHigherThanNormal)}")
-print("The type of True (the value, not the string) is {type(True)}")
+print(f"The type of isHigherThanNormal is {type(isHigherThanNormal)}")
+print(f"The type of True (the value, not the string) is {type(True)}")
 ```
 
 Python calls them 'bool', which is short for 'boolean'.
