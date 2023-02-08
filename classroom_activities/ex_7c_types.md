@@ -76,6 +76,7 @@ if shirtStatus.lower() == "yes" and shoesStatus.lower() == "yes" and temp < 100.
 ## Second example:
 shirtStatus = input("Are you wearing a shirt? ")
 shoesStatus = input("Are you wearing shoes? ")
+temp = float(input("What is your temperature? ")
 hasShirt = (shirtStatus.lower() == "yes")
 hasShoes = (shoesStatus.lower() == "yes")
 safeTemp = (temp < 100.3)
