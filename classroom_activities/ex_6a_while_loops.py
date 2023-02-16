@@ -1,3 +1,6 @@
+"""Excercises 6a while-loops
+"""
+
 ## 1
 ## Try this.
 count = 10
@@ -114,7 +117,7 @@ print("You got it!")
 
 ## 16
 ## Copy and modify the previous example so that each iteration
-## of the loop displays "Let me check if that's right."
+## of the loop displays "Let me check to determine whether that's right."
 
 
 ## 17
@@ -180,38 +183,38 @@ while True == True:
 print("Done")
 
 
-## 25
+## 26
 ## Try this. It's a little less obvious.
 while True:
     print("Hi")
 print("Done")
 
 
-## 26
+## 27
 ## Make a loop that displays a message of your choice
 ## repeatedly forever.
 
 
-## 27
+## 28
 ## Try this.
 while 1 == 1:
     color = input("What is your favorite color?")
     print(f"Ok, {color} is a nice color.")
 
 
-## 25
+## 29
 ## Copy and modify the previous example so that in
 ## every iteration of the loop, it asks the user for the name of an animal,
 ## and then it displays "The ____ says 'meow'."
 
 
-## 26
+## 30
 ## Copy and modify the previous example so that
 ## it asks for both the name of the animal and what the animal says,
 ## and then displays "The ___ says '___'."
 
 
-## 27
+## 31
 ## Copy and modify the previous example so that
 ## if the animal is "cat" and the sound is "meow",
 ## it exits the loop.
@@ -219,7 +222,7 @@ while 1 == 1:
 ## An example of how to use `break` is below.
 
 
-## 28
+## 32
 ## Try this.
 print("Welcome to another version of the number doubler.")
 while True:
@@ -229,7 +232,7 @@ while True:
     print(f"Double your num is {num * 2}.")
 
 
-## 29
+## 33
 ## Make a word guesser:
 ##  - When the program starts, display "Welcome to the word guesser!"
 ##  - Ask the user to guess the secret word.
@@ -244,7 +247,7 @@ while True:
 ##      Recommended: refer back to the exercise that used .lower() .
 
 
-## 30
+## 34
 ## Make a remainder study tool:
 ## Have Python pick a random number between 20 and 100.
 ## Ask the user: "If you divided {the_randomly_chosen_number} by 12, what would be the remainder?"
@@ -257,7 +260,7 @@ while True:
 ## You got it!
 
 
-## 31
+## 35
 ## (challenge question)
 ## {Do this exercise after you've learned to write files.}
 ## Display "This is a grade tracking helper."
