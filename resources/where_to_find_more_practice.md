@@ -94,4 +94,7 @@
 -  [Yahoo Finance graph using Python](https://gist.github.com/SajidLhessani/69515feb77849ce1456867a924dc74e2#file-yahoo_fin_graph-py): Pulled from the following article which showcases pulling data via the Yahoo! Finance API for stock prices, and graphs them. https://towardsdatascience.com/python-how-to-get-live-market-data-less-than-0-1-second-lag-c85ee280ed93
 
 
+- [MIT OpenCourseWare: "A Gentle Introduction to Programming Using Python"](https://ocw.mit.edu/courses/6-189-a-gentle-introduction-to-programming-using-python-january-iap-2008/pages/syllabus/)
+
+
 -  Python games, but a fair amount of them don't seem to work: https://copyassignment.com/python-games-code-copy-and-paste/
