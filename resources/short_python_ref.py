@@ -14,18 +14,24 @@ print("Hello %s" % thename)  # This approach was more common in Python 2
 # Common operators
 x = 5
 y = 3
-added = x + y
+# Add, sum
+added = x + y   
 print(added)
+# subtraction, subtract, minus
 subtr = x - y
 print(subtr)
+# multiply, multiplication, product
 mult = x * y
 print(mult)
+# divide, division, quotient
 divi = x / y
 print(divi)
 
+# floor division, round-down division
 floor_div = x // y
 print(floor_div)
 
+## exponent, exponentiation
 ## Note that the caret symbol (meaning the ^) is NOT used for calculating an exponent in Python.
 exponentiated = x ** y
 print(exponentiated)
