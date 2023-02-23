@@ -8,13 +8,13 @@ import time
 
 
 
-def forwardAndMoveSelectedEmailInOutlookWebApp():
+def forwardAndMoveSelectedEmailInOutlookWebApp(addressToSendTo, folderToMoveTo):
     ## 'Forward' 
     pyautogui.hotkey('ctrl', 'shift', 'f')
     time.sleep(4)
 
     ## 'To' is active. Type address.
-    pyautogui.write("jdoe@example.com", interval=0.05)
+    pyautogui.write(addressToSendTo, interval=0.05)
     time.sleep(2)
 
     ## Press Enter to pick the address
@@ -37,16 +37,18 @@ def forwardAndMoveSelectedEmailInOutlookWebApp():
     pyautogui.press('v')
     time.sleep(2)
 
-    pyautogui.write("autoforwarded", interval=0.05)
+    pyautogui.write(folderToMoveTo, interval=0.05)
     time.sleep(1)
     pyautogui.press('enter')
     time.sleep(5)
 
 
-
+print("NOTE: SORT OLDEST FIRST! HAVE THE FIRST EMAIL SELECTED!")
+delay = 10
+print(f"Giving you {delay} seconds to open the window before starting...")
 ## Give time to open the window
-time.sleep(5)
+time.sleep(delay)
 
 for count in range(3):
-    forwardAndMoveSelectedEmailInOutlookWebApp()
+    forwardAndMoveSelectedEmail("jdoe@example.com", "folderToMoveTo")
 ```
