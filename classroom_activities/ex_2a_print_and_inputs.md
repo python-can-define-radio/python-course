@@ -12,8 +12,9 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
      ```python3
      print("Here we go!")
      ```
-- Press the "run" button. It's a triangle in the top-right corner. (If you do not see a "run" button, then maybe the Python extension is not installed in VS Code, or maybe the extension of your file name is not precisely '.py'.)
-- It should display "Here we go!" at the bottom of the screen.
+- Open the VS Code terminal by pressing `View -> Terminal`, or using the keyboard shortcut <code>Ctrl `</code>.
+- Type `python3 ex_2.py` and press enter.
+- It should display "Here we go!" in the terminal.
 - If it ran successfully, then Comment (disable) that exercise using `Ctrl /` while your cursor is placed on that line of code, and try the next exercise.
 - Ask if you have any questions.
 
