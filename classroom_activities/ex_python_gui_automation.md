@@ -43,12 +43,25 @@ def forwardAndMoveSelectedEmailInOutlookWebApp(addressToSendTo, folderToMoveTo):
     time.sleep(5)
 
 
-print("NOTE: SORT OLDEST FIRST! HAVE THE FIRST EMAIL SELECTED!")
+print("""
+NOTES:
+- SORT OLDEST FIRST!
+- HAVE THE FIRST EMAIL SELECTED!
+""")
+saidSomething = input("Continue? (y|N)...").lower()
+if saidSomething != "y":
+    import sys
+    sys.exit()
+    
 delay = 10
-print(f"Giving you {delay} seconds to open the window before starting...")
-## Give time to open the window
-time.sleep(delay)
+print()
+print(f"Giving you {delay} seconds to open the window before starting.")
+print("If you aren't ready, Ctrl+C to exit now.")
+for i in range(delay, 0, -1):
+    print(i)
+    time.sleep(1)
 
-for count in range(3):
-    forwardAndMoveSelectedEmail("jdoe@example.com", "folderToMoveTo")
+## You can loop this if you want
+## for count in range(3):
+forwardAndMoveSelectedEmailInOutlookWebApp("jdoe@example.com", "folderToMoveTo")
 ```
