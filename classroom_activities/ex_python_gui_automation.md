@@ -47,6 +47,7 @@ print("""
 NOTES:
 - SORT OLDEST FIRST!
 - HAVE THE FIRST EMAIL SELECTED!
+- Consider disabling "thread" or "conversation" view -- try both ways and see which you prefer.
 """)
 saidSomething = input("Continue? (y|N)...").lower()
 if saidSomething != "y":
