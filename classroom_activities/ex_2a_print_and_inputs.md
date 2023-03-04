@@ -87,12 +87,15 @@ Speaking of comments, you'll see that we've numbered our exercises. We highly re
 ```python3
 ## 2b
 ## Try this.
-print("This thing inside quotes is called a \"string\". If you want to put quotes inside, this is how.")
+print("This thing inside quotes is called a \"string\". If you want")
+print("to put quotes inside, this is how.")
 
 
 ## 2c
 ## Try this.
-print("You have now seen two escape sequences: \n for newline, and \" for a quotation mark. Another useful sequence is two backslashes, which is used to type a single backslash.")
+print("You have now seen two escape sequences: \n for newline, and \" for a quotation mark.")
+print("Another useful sequence is two backslashes,")
+print("which is used to type a single backslash.")
 print("Example:  \\  will only display one backslash.")
 
 
@@ -135,21 +138,24 @@ print(firstn)
 
 
 ## 3b
-## Copy and modify the previous example so that it prints firstn, and then prints lastn.
+## Copy and modify the previous example so that it
+## prints firstn, and then prints lastn.
 
 
 ## 4
 ## Try this.
-## This example uses an f string. The f stands for "format".
-## f strings are used to insert variables inside of a string.
+## This example uses an f-string. The f stands for "format".
+## f-strings are used to insert variables inside of a string.
 firstn = "Bob"
 lastn = "Smith"
 print(f"My name is {firstn} {lastn}")
 
 
 ## 4b
-## You can also use commas, but only in functions that support it, such as print.
-## (Later, when we get to file writing, the comma approach doesn't work, but f strings do work.)
+## You can also use commas, but only in functions that
+## support it, such as print.
+## (Later, when we get to file writing, the 
+## comma approach doesn't work, but f-strings do work.)
 print("My name is", firstn, lastn)
 ```
 
@@ -179,7 +185,8 @@ Try it out:
 ## Try this.
 ## When you run it, it will ask you to type something.
 ## You will need to click inside the terminal on the bottom half of the screen
-##   so that it has "focus" (that is, you want the words you type to be entered in the terminal).
+##   so that it has "focus" (that is, you want the words you type
+##   to be entered in the terminal).
 print("Hello!")
 cartype = input("Say the name of a car, then press enter: ")
 print(f"The car you named is {cartype}. That was a good choice.")
@@ -212,9 +219,11 @@ print(f"Your name is {firstn} {lastn}.")
 ##  - Ask the user for his/her last name.
 ##  - Print "Your name is ___  ___."
 
+
 ## 6b
 ## Ask the user for their first name, middle name, and last name.
-## Print "Your name is __ __ __" (filling in their first name, middle name, and last name).
+## Print "Your name is __ __ __" (filling in their first name,
+##                                 middle name, and last name).
 
 
 ## 7
@@ -363,7 +372,8 @@ print("Hello"*3)
 ## Does this example do what you expect?
 ## If not, how do you fix it?
 num = input("Give me a number. ")
-print("I'm going to try to multiply that number by 5, but something strange is going to happen:")
+print("I'm going to try to multiply that number by 5,")
+print("but something strange is going to happen:")
 print(num*5)
 
 
@@ -376,12 +386,14 @@ print(num*5)
 ## 23
 ## Ask the user for name and age.
 ## Display "Guess what, ___, in two years you'll be ___."
-## (The user-provided name goes in the first blank, and the age two years from now in the second blank.)
+## (The user-provided name goes in the first blank, and the
+##   age two years from now in the second blank.)
 
 
 ## 25
 ## Copy and modify the previous example to ask the user for a string.
-## Display whatever string the user enters three times (using *3, as in the previous example).
+## Display whatever string the user enters three times 
+##  (using *3, as in the previous example).
 
 
 ## 26
