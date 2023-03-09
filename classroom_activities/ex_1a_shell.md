@@ -165,10 +165,10 @@ cd otherstuff
 ##         ├── table.txt
 ##         └── desk.txt
 ##
-## Consider: (a) After you create the directory structure and files show above (the 'tree'), from what 
-##    directory location should you run the 'tree' command to see the entire tree.
-##    Alterenatively, how can you use use the tree command to see that specific tree structure (no more, no less) if 
-##    your current directory (shown in your command prompt) is different than in (a).  I.e., Run tree without using the cd command beforehand.
+## Consider: After you create the directory structure and files show above (the 'tree'), from what 
+##    directory location can you run the 'tree' command to see the entire tree.
+## Try this: Change to the home directory (cd ~).  Using 'home' as your current directory, how can you modify and use use the tree command to see the 
+##    same tree structure shown above (no more, no less)?   I.e., Run tree without using the cd command a second time.
 
 ## 11
 ## You can evaluate a command within another command:
