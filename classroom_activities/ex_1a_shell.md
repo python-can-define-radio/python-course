@@ -6,7 +6,7 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
 
 
 ### Some useful resources:
-`(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new window".)`
+`(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new tab" or new window and then go to that tab/window.)`
 - Background info about "Why the terminal": 
   - https://ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
   - https://askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
@@ -164,7 +164,11 @@ cd otherstuff
 ##         ├── chair.txt
 ##         ├── table.txt
 ##         └── desk.txt
-
+##
+## Consider: (a) After you create the directory structure and files show above (the 'tree'), from what 
+##    directory location should you run the 'tree' command to see the entire tree.
+##    Alterenatively, how can you use use the tree command to see that specific tree structure (no more, no less) if 
+##    your current directory (shown in your command prompt) is different than in (a).  I.e., Run tree without using the cd command beforehand.
 
 ## 11
 ## You can evaluate a command within another command:
