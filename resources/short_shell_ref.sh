@@ -1,3 +1,16 @@
+# Some Useful Commands for the Linux Terminal
+# NOTE: Some of these examples assume a particular directory or, equivalently, folder structures already exists on the hardrive or other memory device where you are working.
+
+# List what's in your current directory or, equivalently, folder (The location on the hardrive or other memory device.)
+# I.e., list the directory's contents.
+ls
+
+# Change from your current directory to another
+# Example:
+cd newLocation 
+# NOTE: In place of "newLocation" use a directory name that exists
+
+# Example of cd command and its result:
 # Change your current directory
 # Example:
 cd newLocation
@@ -8,9 +21,6 @@ cd newLocation
 # Example of using the special directory, .., which means "one directory higher than where I am"
 #    ~/Desktop/mystuff/food$ cd ..
 #    ~/Desktop/mystuff$
-
-# List what's in this directory (the directory contents)
-ls
 
 # Write "Hello world" to a file, overwriting whatever is there
 echo "Hello World" > myfile.txt
@@ -43,10 +53,10 @@ mv original.txt new.txt
 # Display file
 cat myfile.txt
 
-# Display multiple files, concatenated  (this is the origin of the name cat)
+# Display multiple files, concatenated  (This word is the origin of the cat command.)
 cat somefile.txt anotherfile.txt
 
-# Display contents in a tree
+# Display contents in a tree-structured format
 tree
 
 # Display file with ability to scroll using arrow keys.
@@ -54,7 +64,7 @@ tree
 less myfile.txt
 
 # ------------------------------------
-# below is a semi-overlapping list that I plan to de-dupe
+# Below is a semi-overlapping list that we plan to de-dupe.
 
 # Terminal commands
 
