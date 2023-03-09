@@ -1,5 +1,6 @@
 # Some Useful Commands for the Linux Terminal
-# NOTE: Some of these examples assume a particular directory or, equivalently, folder structures already exists on the hardrive or other memory device where you are working.
+# NOTE: Some of these examples assume a particular directory or, equivalently, folder structure already exists on the hard drive or 
+#       other memory device where you are working while using the Terminal program.
 
 # List what's in your current directory or, equivalently, folder (The location on the hardrive or other memory device.)
 # I.e., list the directory's contents.
