@@ -1,3 +1,6 @@
+
+```python3
+
 # 1
 # Try this:
 elements = ["water", "earth", "fire", "air"]
@@ -291,3 +294,4 @@ print(f"First number: {a} and second number: {b}")
 temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 warm_temps = list(filter(lambda x: x > 81, temps_in_F))
 print(warm_temps)
+```

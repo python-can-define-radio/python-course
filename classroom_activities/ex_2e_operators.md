@@ -1,3 +1,5 @@
+
+```python3
 ## 1
 ## Ask the user for two numbers.
 ## Display "If you divided ___ by ___, then you would get ____ with a remainder of ___".
@@ -45,3 +47,5 @@ print(x)
 x += 5
 print("Now, x is...")
 print(x)
+
+```

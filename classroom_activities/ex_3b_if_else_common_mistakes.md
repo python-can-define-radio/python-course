@@ -1,3 +1,5 @@
+
+```python3
 ## 1
 ## Try this.
 guess = input("Guess one of my words: ")
@@ -160,3 +162,5 @@ if opinion == ["yes", "Yes", "YES"]:
     print("Glad you like it.")
 else:
     print("You don't like it? You should try it again some time.")
+
+```

@@ -1,3 +1,5 @@
+
+```python3
 ### Lists are zero-indexed. That means...
 thelist = ["water", "chair", "mug", "mouse"]
            # 0      1        2      3 
@@ -164,3 +166,4 @@ print(num_list)
 # Modify the previous example to create a list that includes all numbers  
 # between 0 and 30 that are divisible by 3.  
 # Note: 0, 1, 2, 4, etc. are not divisible by 3.  Do not include them.
+```

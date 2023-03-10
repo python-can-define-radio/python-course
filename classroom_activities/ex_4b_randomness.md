@@ -1,3 +1,6 @@
+
+```python3
+
 ## Before starting the exercise, type this at the top of your file:
 import random
 
@@ -59,3 +62,4 @@ print(x)
 ## Using the previous example (i.e., x = random.random() ), 
 ## how could you generate ## a random floating point number of any size?
 ## Prove your theory in Python.
+```
