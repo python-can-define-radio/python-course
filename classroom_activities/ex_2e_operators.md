@@ -1,3 +1,7 @@
+Most people are familiar with these four operators: +, -, *, /
+
+In this exercise, you'll learn some other useful operators.
+
 
 ```python3
 ## 1
@@ -17,6 +21,11 @@
 ## Based on question #1, does % calculate a percentage? (Answer: No)
 ## Based on question #2, does ^ calculate an exponent? (Answer: No)
 
+```
+
+Let's also explore some more advanced uses of the assignment operator, that is, the equals sign:
+
+```python3
 
 ## 4
 ## Try this. As you can see, it's possible to reassign variables.
