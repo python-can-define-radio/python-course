@@ -1,28 +1,29 @@
+## Example 2b Printing with Format Specifiers
+
+webpage for this lesson: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2b_printing_with_format_spec.py
+
+Sometimes, you want to print with some specific format.
+For example:
+ - Rounding a number to two decimal places
+ - Padding a number with spaces so that it aligns with other numbers in a list
+ - Displaying a number in another number system
+
+Here are some examples of how to specify the formatting when printing.
 
 ```python3
-
-"""Example 2b Printing with Format Specifiers
-   webpage for this lesson: "https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2b_printing_with_format_spec.py"
-"""
-
-## Sometimes, you want to print with some specific format.
-## For example:
-##  - Rounding a number to two decimal places
-##  - Padding a number with spaces so that it aligns with other numbers in a list
-##  - Displaying in another number system
-
-## For example:
 item_number = 27.283
 print(f"My item num is {item_number}.")
-print(f"My item num is {item_number:10} and I put some space with it.")
-print(f"Rounded would be {item_number:.2f} with two decimal places.")
+print(f"My item num is {item_number:10}. Notice that it is padded with spaces.")
+print(f"My item num is {item_number:.2f}, rounded to two decimal places.")
 
 ## Note:
 ## The "f" that preceeds the string, that is, f"hello", means "format".
 ## The "f" inside the curly braces, that is, {item_number:.2f}, means "floating point number".
 
-print(f"Rounded AND with some space would be {item_number:9.2f}; do you see?")
-print(f"If the extra space is small, it may not change how the number is printed: {item_number:3.2f} as you see.")
+print(f"This one is both rounded and has extra space: {item_number:9.2f}. Do you see?")
+print(f"If the extra space is small, it may not change how the number is printed, such as in this case: {item_number:3.2f}.")
+
+####################
 
 print("You can also center the value within the available space.")
 print("I'll add some letters before and after to make it clear:")
