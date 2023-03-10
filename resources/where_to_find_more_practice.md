@@ -5,9 +5,15 @@
    - for loops: https://learn.arcade.academy/en/latest/chapters/11_for_loops/for_loops.html
    - functions: https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html
 
--  [Egg catcher game](https://github.com/SmallLion/Python-Projects/blob/main/egg_catcher.py). Very easy to reconfigure.
 
 -  Arcade also has some great tutorials, like [solitaire](https://api.arcade.academy/en/latest/tutorials/card_game/).
+
+
+-  You can make Graphical User Interfaces in Python using [guizero](https://lawsie.github.io/guizero/start/).
+
+
+-  [Egg catcher game](https://github.com/SmallLion/Python-Projects/blob/main/egg_catcher.py). Very easy to reconfigure.
+
 
 -  Chess in Python, with explanation: https://levelup.gitconnected.com/chess-python-ca4532c7f5a4
    (You may need to provide your own image files)
@@ -15,8 +21,8 @@
 
 -  Dictionaries: A very useful data structure.
    Basics: https://realpython.com/python-dicts/
-   
-   
+  
+  
 -  Reading CSV Files: Very practical, because Excel sheets can be saved as CSV for use with python.
    Recommended prerequisite: Dictionaries
    Basics: https://realpython.com/python-csv/
