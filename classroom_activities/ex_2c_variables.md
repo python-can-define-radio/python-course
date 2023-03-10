@@ -1,9 +1,9 @@
 # Example 2c Variables -- Python Practice 
-webpage for this lesson: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2b_printing_with_format_spec.py
+webpage for this lesson: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2c_variables.md
 
 In programming languagues, variables are allocations of computer memory assigned to store data 
 for later use in the program. The programer chooses a name for the variable and sets it equal 
-to a fixed values, a calculated value, or --to get input from a user-- an input statement.  The
+to a fixed value, a calculated value, or the result of a function (such as `input()`). The
 variable (i.e., its name) can be used again later in the program to perform a calculation, to 
 set a parameter for a function, or to print a result to the user on a display screen or in a data
 file, as examples.
