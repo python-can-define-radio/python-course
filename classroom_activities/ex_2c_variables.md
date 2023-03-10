@@ -58,7 +58,7 @@ $d = 6
 ## Using variables: 
 ## These statements reference/use the variables defined in the "Valid variable names" section, above.
 print(mynumber)
-print("The recorded temperature is", temp_in_f, "deg. F")
+print("The recorded temperature is", temp_in_f, "° F")
 print(f"The following message was received '{my2ndthing}'.")
 print(f"The result of multiplying {mynumber} and {_myStuff} is equal to {result}.")
 ```
