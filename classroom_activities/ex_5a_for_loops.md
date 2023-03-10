@@ -1,38 +1,36 @@
+One of the most powerful uses of programming is the ability to repeat an action, such as automatically sending text messsages to many recipients. One way to accomplish this is the `for` loop. 
 
 ```python3
-
 # 1
-# Try this:
-elements = ["water", "earth", "fire", "air"]
-for element in elements:
-    print(element)
-
-    
-# 1b
 # Try this:
 colors = ["red", "orange", "yellow"]
 for color in colors:
+    print("Here is a color that I know:")
     print(color)
-    
-    
+    print()
+```
+
+The line `for color in colors:` is the new part. It means "for each color in my list of colors, do the following actions."
+
+For example, we could greet each name in a list of names:
+
+```python3
 # 2
-# Write a `for` loop that prints every item in this list.
-household_items = ["water", "chair", "mug", "mouse"]
-
-
-# 3 
 # Try this:
 names = ["Sam", "Lisa", "Micah", "Dave"]
 for name in names:
     print(f"Hello {name}. Welcome to the Python course.")
 
     
-# 3b
+# 3
 # Copy and modify the previous example like so:
 # for each name, display "Have a good day, ____. I hope you enjoyed experimenting with python."
 # (Fill in the blank with the name.)
+```
 
+You can do any operation that you'd like inside of the loop. For example, we could do math on each item in the list:
 
+```python3
 # 4
 # Try this:
 ages = [26, 37, 55, 10, 5]
@@ -49,12 +47,15 @@ for age in ages:
 # 5
 # For each of the following numbers, display “Half of __ is ___”. For example, “Half of 21 is 10.5”
 numbers = [21, 40, 32, 10, 8, 3]
+```
 
+As you've seen, you can use a `for` loop with lists.  
+You can also use a `for` loop with a string.  
+For example:
 
+```
 # 6
-# As you've seen, you can use a `for` loop with lists.
-# You can also use a `for` loop with a string.
-# For example, try this:
+# Try this:
 phrase = "Hello world"
 for letter in phrase:
     print(f"The letter is {letter}")
@@ -71,24 +72,28 @@ for letter in phrase:
 # l!
 # l!
 # o!
+```
 
+You can also use a `for` loop with a range:
 
-
+```python3
 # 8
-# You can also use a `for` loop with a range.
 # Try this:
 for num in range(1,5):
     print(num)
-# Note: You'll notice it always omits the final number.
-# It may seem odd, but it was an intentional decision in the design of Python (and other languages).
-# Why? The short explanation  is that it helps avoid off-by-one errors.
-# Ask an instructor if you're curious.
-# Here are some further explanations:
-#   https://howdoesinternetwork.com/2015/numbers
-#   https://howdoesinternetwork.com/wp-content/uploads/E.W.-Dijkstra-Archive-Why-numbering-should-start-at-zero-EWD-831-transcript.html
-#   https://stackoverflow.com/questions/4504662/why-does-rangestart-end-not-include-end
+```
+
+You'll notice that `range()` always omits the final number. It may seem odd, but it was an intentional decision in the design of Python (and other languages).
+
+Why? The short explanation is that it helps avoid off-by-one errors.
+
+Here are some further explanations:
+- https://howdoesinternetwork.com/2015/numbers
+- https://howdoesinternetwork.com/wp-content/uploads/E.W.-Dijkstra-Archive-Why-numbering-should-start-at-zero-EWD-831-transcript.html
+- https://stackoverflow.com/questions/4504662/why-does-rangestart-end-not-include-end
 
 
+```python3
 # 9
 # Modify the previous example to print the numbers 1 to 6.
 
