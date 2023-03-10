@@ -49,11 +49,9 @@ for age in ages:
 numbers = [21, 40, 32, 10, 8, 3]
 ```
 
-As you've seen, you can use a `for` loop with lists.  
-You can also use a `for` loop with a string.  
-For example:
+As you've seen, you can use a `for` loop with lists. You can also use a `for` loop with a string. For example:
 
-```
+```python3
 # 6
 # Try this:
 phrase = "Hello world"
