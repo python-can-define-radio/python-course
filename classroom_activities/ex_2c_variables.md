@@ -56,7 +56,7 @@ my var = 3
 $d = 6
 
 ## Using variables: 
-## These statements reference/use the vaiables defined in the "Valid variable names" section, above.
+## These statements reference/use the variables defined in the "Valid variable names" section, above.
 print(mynumber)
 print("The recorded temperature is", temp_in_f, "deg. F")
 print(f"The following message was received '{my2ndthing}'.")
