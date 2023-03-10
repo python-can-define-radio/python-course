@@ -28,7 +28,7 @@ for name in names:
 # (Fill in the blank with the name.)
 ```
 
-You can do any operation that you'd like inside of the loop. For example, we could do math on each item in the list:
+You can do any operation that you'd like inside of the loop. For example, we could do math on each item in a list:
 
 ```python3
 # 4
