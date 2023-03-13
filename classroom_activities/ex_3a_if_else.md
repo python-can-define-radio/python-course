@@ -1,4 +1,4 @@
-# Example 2 If-Else Statements -- Python Practice 
+# Example 3 If-Else Statements -- Python Practice 
 
 Source webpage for this lesson: "https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_3_if_else.py"  
 (Copyright 2022 by the writers of "python-can-define-radio".  Permision is granted for individual persons to copy the content from the source web page and use the content herein to further the individual's education.  Instructors and friends may direct interested people to the source web page.  The same copyright terms are true of all content in github.com/python-can-define-radio.)
