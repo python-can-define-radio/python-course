@@ -363,12 +363,23 @@ print(f"One more would be {onemore}")
 ## Display "Half of that number is ___".
 
 
-## 21b
+## 22
 ## Try this.
 print("Hello"*3)
 
 
-## 21c
+## 22b
+## Copy and modify the previous example to ask the user for a string.
+## Display whatever string the user enters three times 
+##  (using *3, as in the previous example).
+
+
+## 22c
+## Copy and modify the previous example to ask the user for both the
+## string to be multiplied and the number of repetitions.
+
+
+## 24
 ## Does this example do what you expect?
 ## If not, how do you fix it?
 num = input("Give me a number. ")
@@ -377,28 +388,17 @@ print("but something strange is going to happen:")
 print(num*5)
 
 
-## 22
+## 25
 ## Ask the user for the number of questions on a test,
 ## and ask "how many did you get right?"
 ## Then, display "You got ___% right". (You'll need to calculate the percent.)
 
 
-## 23
+## 26
 ## Ask the user for name and age.
 ## Display "Guess what, ___, in two years you'll be ___."
 ## (The user-provided name goes in the first blank, and the
 ##   age two years from now in the second blank.)
-
-
-## 25
-## Copy and modify the previous example to ask the user for a string.
-## Display whatever string the user enters three times 
-##  (using *3, as in the previous example).
-
-
-## 26
-## Copy and modify the previous example to ask the user for both the
-## string to be multiplied and the number of repetitions.
 
 
 ## 27
