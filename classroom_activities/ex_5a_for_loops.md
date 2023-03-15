@@ -218,11 +218,18 @@ temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 # temperatures are above freezing and how many are below freezing.
 
 
+# 22b
+# Try this.
+names = ["Sam", "Lisa", "Micah", "Dave"]
+for indx, elem in enumerate(names):
+    print(f"The index is {indx} and the element is {elem}")
+
+
 # 23
 # Now, let's experiment with counting.
 # Modify the earlier example (the one that printed "Hello" with "!" after each letter) so it outputs the 
 #  indices of the letters before the letters.
-# Hint: One way to do this is using enumerate -- look up examples of the enumerate function in python.
+# Hint: One way to do this is using enumerate.
 
 # Example output:
 
