@@ -12,6 +12,9 @@
 -  You can make Graphical User Interfaces in Python using [guizero](https://lawsie.github.io/guizero/start/).
 
 
+- Text User Interfaces (cool, but fairly advanced): https://textual.textualize.io/tutorial/
+
+
 -  [Egg catcher game](https://github.com/SmallLion/Python-Projects/blob/main/egg_catcher.py). Very easy to reconfigure.
 
 
