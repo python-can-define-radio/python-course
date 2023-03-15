@@ -15,6 +15,11 @@
 - Text User Interfaces (cool, but fairly advanced): https://textual.textualize.io/tutorial/
 
 
+-  Python in browser:
+  - https://pyscript.net/
+  - https://brython.info/
+
+
 -  [Egg catcher game](https://github.com/SmallLion/Python-Projects/blob/main/egg_catcher.py). Very easy to reconfigure.
 
 
