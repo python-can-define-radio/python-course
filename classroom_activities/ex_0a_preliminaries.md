@@ -13,6 +13,17 @@
 - `echo -e '\n\nexport TMOUT=30000' >> ~/.bashrc` (this appends `export TMOUT=30000` at the end of the .bashrc file)
 - Close all terminals so it'll take effect.
 
+### Alternate approach to change TMOUT:
+
+Run this Python:
+
+```python3
+f = open("/home/PUT_YOUR_USERNAME_HERE/.bashrc", "a")
+f.write("\n\n")
+f.write("export TMOUT=300000")
+f.close()
+```
+
 ### On the keyboard:
 
 - `Ctrl /`: toggle comment / uncomment  (while lines are selected)
