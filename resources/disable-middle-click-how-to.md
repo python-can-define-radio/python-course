@@ -8,59 +8,40 @@ In the terminal program, type and press enter:
 xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10"
 ```
 
+_NOTE: Throughout this document, after each command (e.g. "xmodmap....10", above), press the {Enter} key._
+
 This will disable the middle click until you log out.
 
 # How to make the change persistent
 
-We want to put that command in the `.bashrc` file, because that runs on login.
+We want to put that command in an executable file, and then set it to run on login.
 
-1. Confirm that it isn't already in the file:  
-       `grep xmodmap .bashrc`      
-2. Make a backup:  
-       `cp .bashrc .bashrc_backup` 
-3. Confirm backup worked:  
-       `diff .bashrc .bashrc_backup` 
-4. Append:  
-       `echo -e '\n\nxmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10"' >> .bashrc`
-5. Confirm change worked:  
-       `diff .bashrc .bashrc_backup` 
-
-## To make a script for easy running on multiple occasions:
-
-In the terminal, go to the Desktop:
+1. In the terminal, go to the Desktop, and make a file containing the commmand:  
 
 ```
 cd ~/Desktop
+fileContents='xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10"'
+echo $fileContents > disable_middle_click.sh
 ```
 
-_NOTE: Throughout this document, after each command (e.g. "xmodmap....10", above), press the {Enter} key._
+2. Set the file mode for that file to exectuable:  
 
-Write the command into a file:
+`chmod +x disable_middle_click.sh`
 
-```
-echo 'xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10"' > disable-middle-click.sh
-```
+3. Open Startup by searching for Startup in Applications
 
-Make that file executable:
+4. Click "Add"
 
-```
-chmod +x disable-middle-click.sh
-```
+6. Enter these:
+   - Name: Disable Middle Click
+   - Command: _Click Browse, and navigate to the file on the Desktop_
 
-Now, you may run the file:
-
-```
-./disable-middle-click.sh
-```
+7. Log out and log in to verify that it works.
 
 ---------------
 
-## To re-enable middle click:
+## If you wish to re-enable middle click:
 
 ```
 xmodmap -e "pointer = 1 2 3 4 5 6 7 8 9 10"
 ```
-
-When the computer is rebooted, most likely it will revert to a state in which the middle click function of the scroll wheel/middle button is enabled.
-
-
