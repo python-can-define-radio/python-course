@@ -216,8 +216,11 @@ temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 # 22
 # Copy and modify the previous example to show the user how many
 # temperatures are above freezing and how many are below freezing.
+```
 
+Now that you've seen the basics of `for` loops, we recommend that you move on to `while` loops. When you've finished the `while` loops exercises, return here to continue working on `for` loops.
 
+```python3
 # 22b
 # Try this.
 names = ["Sam", "Lisa", "Micah", "Dave"]
