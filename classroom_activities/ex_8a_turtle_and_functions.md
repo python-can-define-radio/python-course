@@ -394,9 +394,45 @@ turtle.forward(200)
 drawTriangle4(200, "cyan")
 ```
 
+### Return values
+
+We've seen how to pass data **into** a function. What if you want to get data **out** of a function?
+
+We'll demonstrate this by rebuilding the `distance` function. Let's start with an example:
 
 ```python3
-# 19
+x_now, y_now = turtle.pos()
+print(f"The turtle's current position: x: {x_now}   y: {y_now}")
+
+x_compare = 300
+y_compare = 400
+d = turtle.distance(x_compare, y_compare)
+print(f"The distance from that position to another point: {d}")
+```
+
+Now, let's imagine we have access to `pos()` but not `distance()`. We can make it ourselves like so:
+
+```python3
+import math
+
+
+def distance_from_point(x_compare, y_compare):
+    x_now, y_now = turtle.pos()
+    x_diff = x_compare - x_now
+    y_diff = y_compare - y_now
+    dist = math.sqrt(x_diff**2 + y_diff**2)
+    return dist
+
+d = distance_from_point(300, 400)
+print(f"The distance from that position to another point: {d}")
+```
+
+For more practice with `return` statements, see an article such as [this one](https://realpython.com/python-return-statement/).
+
+## Keypresses
+
+```python3
+# 39
 # Try this. Press the up and left keys on your keyboard.
 
 def mvfwd():
@@ -413,14 +449,16 @@ turtle.listen()
 turtle.mainloop()
 
 
-# 19b
+# 39b
 # Make it so if you press "Up" on your keyboard, the turtle will draw a square.
 ```
+
+## Misc practice
 
 Before continuing to the following exercises, do a few of the `if`, `for`, and `while` exercises.
 
 ```python3
-# 20
+# 40
 # Modify the previous example like so:
 # If the user picks a size that is negative, then let the user know that the side length must be positive.
 # If the user picks a size that is too big, then let the user know that the side length is too big.
@@ -428,7 +466,7 @@ Before continuing to the following exercises, do a few of the `if`, `for`, and `
 # Otherwise, draw a square with the specified length.
 
 
-# 21
+# 41
 # Try this:
 
 keepGoing = "yes"
@@ -439,41 +477,41 @@ while keepGoing == "yes":
 print("We're done. Go take a break to stretch.")
 
 
-# 22
+# 42
 # Modify the previous example so that every time the user types "yes",
 # the turtle moves forward 10 units and turns left 45 degrees.
 
 
-# 23
+# 43
 # Modify the previous example so that every time the user types "yes",
 # it asks the user "How far do you want the turtle to move?".
 # Then move the turtle forward the amount that the user specifies.
 
 
-# 24
+# 44
 # Modify the previous example so that every time the user types "yes",
 # it asks the user "What size square would you like to draw?".
 # Then draw a square (using drawSquare) with the length that the user specifies.
 
 
-# 25
+# 45
 # Try this.
 lengths = [100, 50, 20, 200]
 for leng in lengths:
     print(leng)
 
-# 26
+# 46
 # Modify the previous example so that after it prints the length,
 # it moves the turtle forward that far.
 # (In other words, the first time that the loop runs, it should move forward 100 units,
 #  the second time, it should move 50 units, etc)
 
 
-# 27
+# 47
 # Modify the previous example so that it turns 90 degrees after each forward movement.
 
 
-## 30
+## 50
 ## Cool examples:
 
 howFarToMove = 20
