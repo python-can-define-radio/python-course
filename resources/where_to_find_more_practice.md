@@ -15,7 +15,7 @@
 - Text User Interfaces (cool, but fairly advanced): https://textual.textualize.io/tutorial/
 
 
--  Python in browser:
+- Python in browser:
   - https://pyscript.net/
   - https://brython.info/
 
