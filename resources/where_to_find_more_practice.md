@@ -40,8 +40,9 @@
 -  [Pymunk](http://www.pymunk.org/en/latest/installation.html): Python physics simulator; comes with examples
 
 
--  Basics of turtle:
-   Basics: https://realpython.com/beginners-guide-python-turtle/
+-  turtle module:
+   - Basics: https://realpython.com/beginners-guide-python-turtle/
+   - Example: make the turtle follow the mouse: https://stackoverflow.com/questions/47598953/how-to-make-the-turtle-follow-the-mouse-in-python-3-6
    
    
 -  Games made using turtle and the freegames module.
