@@ -77,7 +77,8 @@
 
 
 -  Practice problems:
-   https://codingbat.com/python
+  - https://codingbat.com/python
+  - https://pythonprinciples.com/challenges/
    
    
 -  GUI programming: Tic Tac Toe using `tkinter`  
