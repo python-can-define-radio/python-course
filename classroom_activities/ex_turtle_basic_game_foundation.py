@@ -2,19 +2,18 @@
 
 import turtle
 import random
- 
- 
- 
+
+
+
 WIDTH = 500
 HEIGHT = 600
 turtle.setup(WIDTH + 50, HEIGHT + 50)
-turtle.screensize(100, 3000, "lightblue")
+turtle.bgcolor("lightblue")
  
 playerState = {
     "health": 3
 }
- 
- 
+  
 def touching(t1, t2):
     # type: (turtle.Turtle, turtle.Turtle) -> bool
     return t1.distance(t2) < 5
@@ -63,6 +62,7 @@ for count in range(30):
     block = turtle.Turtle()
     block.shape("square")
     block.color("black", "brown")
+    block.speed(0)
     block.penup()
     x = random.randrange(-160, 160+20, 20)
     y = random.randrange(-160, 160+20, 20)
