@@ -10,6 +10,8 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
 - Background info about "Why the terminal": 
   - https://ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
   - https://askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
+- A list of several Terminal commands: https://www.digitalocean.com/community/tutorials/linux-commands
+- (See also links to tutorials at bottom of this page.)
 
 
 ### Exercises
