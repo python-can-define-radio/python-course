@@ -76,7 +76,7 @@
    https://djangoproject.com/
 
 
--  Practice problems:
+- Practice problems:
   - https://codingbat.com/python
   - https://pythonprinciples.com/challenges/
    
