@@ -95,7 +95,9 @@
 -  [Python to edit images](https://realpython.com/image-processing-with-the-python-pillow-library/) (could be useful for batch editing images, such as cropping all images to a certain size)
 
 
--  Learning ethical hacking: https://picoctf.org/
+- Learning ethical hacking:
+  - https://tryhackme.com/
+  - https://picoctf.org/
 
 
 -  https://pythongeeks.org/python-projects/
