@@ -7,12 +7,16 @@
 
 
 -  Arcade also has some great tutorials, like [solitaire](https://api.arcade.academy/en/latest/tutorials/card_game/).
+-  Lastly, Arcade has some great pre-written modifyable [game examples](https://api.arcade.academy/en/latest/examples/).
 
 
 -  You can make Graphical User Interfaces in Python using [guizero](https://lawsie.github.io/guizero/start/).
 
 
 - Text User Interfaces (cool, but fairly advanced): https://textual.textualize.io/tutorial/
+
+
+-  Hide data in images: https://www.thepythoncode.com/article/hide-secret-data-in-images-using-steganography-python
 
 
 - Python in browser:
