@@ -12,6 +12,7 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
      ```python3
      print("Here we go!")
      ```
+- Save the file to your local drive by press the key combination {Ctrl}{S} or by using the "File/Save" menu command.
 - Open the VS Code terminal by pressing `View -> Terminal`, or using the keyboard shortcut <code>Ctrl `</code>.
 - Type `python3 ex_2.py` and press enter.
 - It should display "Here we go!" in the terminal.
