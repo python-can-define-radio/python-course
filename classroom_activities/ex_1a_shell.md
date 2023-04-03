@@ -21,7 +21,7 @@ Preliminary Tasks:  (Instructions follow)
 - Use it to make notes about what the commands do.
 
 Notes: 
-- In the text below, a pair of pound symbols (##) introduce instructions or a comment for you the student.
+- In the text below, a pair of pound symbols (##) introduces instructions or a comment for you the student.
 - Commands to be entred in Linux Terminal window are written without any such prefix.
 - Press the {enter} key after each command line. 
   
