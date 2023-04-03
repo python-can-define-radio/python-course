@@ -20,6 +20,11 @@ Preliminary Tasks:  (Instructions follow)
 - Inside, create and open a file called notes.txt.
 - Use it to make notes about what the commands do.
 
+Notes: 
+- In the text below, a pair of pound symbols (##) introduce instructions or a comment for you the student.
+- Commands to be entred in Linux Terminal window are written without any such prefix.
+- Press the {enter} key after each command line. 
+  
 ```sh
 ## 1
 ## First, run these.
@@ -41,7 +46,7 @@ Now Try These:
 ```sh
 ## 2 
 ## After running those commands,
-##  - Use the GUI file browser to look at the files you just created.
+##  - Use the Graphical User Interface (GUI) file browser to look at the files you just created.
 ##  - Open the two text documents and add some content. Save the files.
 
 
@@ -58,12 +63,12 @@ cat *.txt
 
 ## 4
 ## And now we'll create another file, and this time, we'll write to it:
-echo "Words are going in this file" > c.txt
+echo "These words are going into this file" > c.txt
 
 
 ## 5
 ## Verify that the previous command created a file with words in it.
-
+## (What command allows you to view the contents of a file? Look above.)
 
 ## 5b
 ## Let's dissect the previous command a little.
