@@ -1,3 +1,9 @@
+- Practice problems:
+  - https://codingbat.com/python
+  - https://pythonprinciples.com/challenges/
+  - https://leetcode.com/   
+
+
 -  A great, organized set of resources that explains the basics of python and how to use the `arcade` library to make games:
    https://learn.arcade.academy/
    They have an explanations of all of the foundational topics, such as...
@@ -79,11 +85,6 @@
    (This one is a bit steeper of a learning curve than the Flask one)
    https://djangoproject.com/
 
-
-- Practice problems:
-  - https://codingbat.com/python
-  - https://pythonprinciples.com/challenges/
-   
    
 -  GUI programming: Tic Tac Toe using `tkinter`  
    https://linuxhint.com/tic-tac-toe-using-gui-in-python/
