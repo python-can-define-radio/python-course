@@ -348,10 +348,10 @@ print(f"One more would be {x + 1}.")
 ## Sidenote: 
 ##   (this sidenote is outside the scope of the class, but good to know)
 ##   Using floats can cause weird rounding errors. For example:
-print(1.03 - .42)
+print(1.03 - 0.42)
 ##   This will print 0.6100000000000001.
 ##   That's quite important when doing comparisons:
-if .1 + .1 + .1 == .3:
+if 0.1 + 0.1 + 0.1 == 0.3:
     print("This will not print.")
 else:
     print("This will print... what is math??")
