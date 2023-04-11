@@ -23,7 +23,7 @@ We want to put that command in an executable file, and then set it to run on log
    fileContents='xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10"'
    echo $fileContents > disable_middle_click.sh
    ```
-NOTE: In the previous commands, be sure to have no spacing in: fileContents=
+   NOTE: In the previous commands, be sure to have no spacing in: fileContents=
 
 2. Set the file mode for that file to exectuable:  
 
@@ -33,7 +33,7 @@ NOTE: In the previous commands, be sure to have no spacing in: fileContents=
      - Press the "Show Applications" button at lower left corner of OS window.
      - Search for "Startup Applications Preferences".  
        (You can do this by simply typing "startup..." and looking through the results that appear.)
-     - Click "Add"
+     - Click "Add".  A small window will pop-up.
      - Enter these:
          - Name: Disable Middle Click
          - Command: _Click Browse, and navigate to the file on the Desktop_
