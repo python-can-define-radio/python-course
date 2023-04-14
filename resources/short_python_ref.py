@@ -45,9 +45,12 @@ print(remainder)
 ## They are most often used in the context of an if statement or while statement.
 ## Some say that booleans are used "to represent truth", but
 ## I think a better description is to say they are values that can only be True or False.
+
+## The double equals is used to check if two values are equal (that is, to check if they are the same).
 are_same = x == y
 print(are_same)
 
+## The exclaimation-point-equals is used to check if two values are not equal (that is, to check if they are different).
 are_different = x != y
 print(are_different)
 
