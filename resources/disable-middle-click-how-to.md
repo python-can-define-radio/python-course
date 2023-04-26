@@ -16,7 +16,7 @@ This will disable the middle click until you log out.
 
 We want to put that command in an executable file, and then set it to run on login.
 
-1. In the terminal, go to the Desktop, and make a file containing the commmand:  
+1. In the terminal, run these.
 
    ```
    cd ~/Desktop
@@ -25,7 +25,7 @@ We want to put that command in an executable file, and then set it to run on log
    ```
    NOTE: In the previous commands, be sure to have no spacing in: fileContents=
 
-2. Set the file mode for that file to exectuable:  
+2. Run this command, which sets the file mode for that file to exectuable:  
 
    `chmod +x disable_middle_click.sh`
 
