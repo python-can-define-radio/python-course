@@ -16,6 +16,9 @@
 -  Lastly, Arcade has some great pre-written modifyable [game examples](https://api.arcade.academy/en/latest/examples/).
 
 
+-  Basic chatbot in Python: https://www.youtube.com/watch?v=CkkjXTER2KE
+
+
 -  You can make Graphical User Interfaces in Python using [guizero](https://lawsie.github.io/guizero/start/).
 
 
