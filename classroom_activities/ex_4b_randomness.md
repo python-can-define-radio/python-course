@@ -55,11 +55,12 @@ print(num)
 
 ## 9 Random Floating Point Number
 ## Try this.
-x = random.random()  #Generates a radom floating point number from 0.0 to 1.0
+x = random.random()  #Generates a random floating point number from 0.0 to 1.0
 print(x)
 
-## 10 Random Floating Point Number of Any Size
+## 10 Random Floating Point Number of an Arbitrary Size
 ## Using the previous example (i.e., x = random.random() ), 
-## how could you generate ## a random floating point number of any size?
+## how could you generate a random floating point number up to an arbitrary upper limit?
+## For example, how could you generate numbers between 0 and 5, or 0 and 100?
 ## Prove your theory in Python.
 ```
