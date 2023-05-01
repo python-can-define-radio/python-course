@@ -311,6 +311,20 @@ print("C")
 ## After all of that is done, print Goodbye (regardless of what x was.)
 
 
+## 20c
+## Try this.
+x = int(input("Type a number: "))
+if x > 3 and x < 10:
+    print("x is more than 3 and less than 10.")
+
+
+## 20d
+## Here's a shorter way to write the same example:
+x = int(input("Type a number: "))
+if 3 < x < 10:
+    print("x is more than 3 and less than 10.")
+    
+
 ## 21
 ## Ask the user for a number.
 ## If the user gives a number more than 50, 
