@@ -1,3 +1,52 @@
+At this point, you've seen multiple examples of correct ways to use `input` and `if`. Now, we'll explore some common mistakes.
+
+Let's start with a simple example:
+
+```python3
+## prac1
+name1 = "Bob"
+name2 = "Joe"
+if name1 == name2:
+    print("Something happened.")
+```
+
+What would happen if we changed it to this?
+
+```python3
+## prac1b
+name1 = "Bob"
+if name1:
+    print("Something happened.")
+```
+
+What does `if name1` mean? It turns out that that's equivalent to this:
+
+```python3
+## prac1c
+name1 = "Bob"
+if name1 != "":
+    print("Something happened.")
+```
+
+What if you're working with a number?
+
+```python3
+## prac1d
+somenumber = 2
+if somenumber:
+    print("Something happened.")
+```
+
+That's equivalent to this:
+
+```python3
+## prac1e
+somenumber = 2
+if somenumber != 0:
+    print("Something happened.")
+```
+
+Given these somewhat confusing behaviors, we generally recommend that beginner-level students avoid this way of using an if statement. Ask if this is unclear.
 
 ```python3
 ## 1
