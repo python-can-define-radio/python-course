@@ -111,8 +111,9 @@ Here are some further explanations:
 # 9
 # 16
 
+# 11b has been moved to 32a, below.
 
-# 11b
+# 11c
 # Reminder the operator that does remainder in Python?
 # Use a for-loop to display the following:
 #  1 divided by 4 would have a remainder of ____.
@@ -136,7 +137,6 @@ print("Hello"*3)
 
 
 # 14
-## (challenge question; can skip)
 # Construct the following pattern using a `for` loop. Let the user specify how many rows to print.
 # A
 # AA
@@ -207,7 +207,9 @@ temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 # temperatures are above freezing and how many are below freezing.
 ```
 
-Now that you've seen the basics of `for` loops, we recommend that you move on to `while` loops. When you've finished the `while` loops exercises, return here to continue working on `for` loops.
+Now that you've seen the basics of `for` loops, we recommend that you move on to `while` loops
+if you are limited in time, or you are working with others who are ahead of you.
+When you've finished the `while` loops exercises, return here to continue.
 
 ```python3
 # 22b
@@ -296,11 +298,14 @@ print(f"First number: {a} and second number: {b}")
 temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 warm_temps = list(filter(lambda x: x > 81, temps_in_F))
 print(warm_temps)
+```
 
+## Challenge Questions
+If you are limited in time or most students are ahead of you, postpone or skip this section.
 
-# 32a nested for-loops 
-# (Challenge question)
-# Using a nested for-loop, display multiplication facts from 1 to 5:
+```python3
+# 32a nested for-loops  (previously numbered as 11b)
+# Display multiplication facts from 1 to 5:
 # 1 * 1 = 1
 # 1 * 2 = 2
 # ...
@@ -312,10 +317,8 @@ print(warm_temps)
 # ...
 # 5 * 5 = 25
 
-
 # 32b nested for-loops -- Multiplication table 
-# (Challenge question.  If most students are ahead of you, skip this.)
-# Using the nested for-loops you created to display multiplication facts from 1 to 5 (above),...
+# Using the nested for-loops you created to display multiplication facts from 1 to 5 (above),
 # display the results in a table:
 #
 #    | 1   2   3   4   5
@@ -325,7 +328,7 @@ print(warm_temps)
 #  etc.
 # 
 # Hint, to print multiple results on same line try this:
-#   `print(f"{result}", end=' ')`  
+print(f"{result}", end=' ') 
 # Where "result" is the multiplication you want to display)
 # The "end = ' ' " string causes the automatic carrange return to be overted
 # Add an empty print() statement to add a carrange return to move down to the next line.
