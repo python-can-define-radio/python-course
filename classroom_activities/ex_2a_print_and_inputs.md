@@ -1,5 +1,5 @@
 # Ex 2: Print and Input Statements
-(This page: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2_print_and_inputs.md)
+(This page: https://github.com/python-can-define-radio/python-course/edit/main/classroom_activities/ex_2a_print_and_inputs.md)
 
 Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
 
@@ -7,14 +7,14 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 
 - Open VS Code
 - Open your folder using `File -> Open Folder` (If needed, first create a folder using the Terminal or the file managment program.)
-- Create a file called `ex_2.py`
+- Create a file called `ex_2a_print_inputs.py`
 - Now that you have that file open, type this in that file:
      ```python3
      print("Here we go!")
      ```
 - Save the file to your local drive by press the key combination {Ctrl}{S} or by using the "File/Save" menu command.
 - Open the VS Code terminal by pressing `View -> Terminal`, or using the keyboard shortcut <code>Ctrl `</code>.
-- Type `python3 ex_2.py` and press enter.
+- Type `python3 ex_2a_print_inputs.py` and press enter.
 - It should display "Here we go!" in the terminal.
 - If it ran successfully, then Comment (disable) that exercise using `Ctrl /` while your cursor is placed on that line of code, and try the next exercise.
 - Ask if you have any questions.
