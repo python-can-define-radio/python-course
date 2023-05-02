@@ -225,6 +225,23 @@ while 1 == 1:
 ## An example of how to use `break` is below.
 
 
+## 31b:
+## Try this. Feel free to customize it for fun.
+peoplelist = ["Charlie",
+              "Bob",
+              "Jake",
+              "Bilee",
+              "Hanner",
+              "Jaqura"]
+while 1 == 1:
+    person = random.choice(peoplelist)
+    print(person)
+    if person == "Jake" or person == "Bilee":
+        print("Woo!")
+        break
+    time.sleep(0.5)
+
+
 ## 32
 ## Try this.
 print("Welcome to another version of the number doubler.")
