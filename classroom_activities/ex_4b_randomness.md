@@ -58,9 +58,17 @@ print(num)
 x = random.random()  #Generates a random floating point number from 0.0 to 1.0
 print(x)
 
-## 10 Random Floating Point Number of an Arbitrary Size
-## Using the previous example (i.e., x = random.random() ), 
-## how could you generate a random floating point number up to an arbitrary upper limit?
+## 10 Random Floating Point Number, modified
+## What does this do?  (I.e., What are the possible values of y?)
+for i in range(1, 12+1)
+  x = random.random()
+  y = x + 3
+  print(f"{y:0.5f}")
+
+## 11 Random Floating Point Number of an Arbitrary Size.
+## Using the previous example (i.e., x = random.random() ), instead of addition,
+## what operation could you perform so y is a random number between zero and 
+## a chosen maximum value?
 ## For example, how could you generate numbers between 0 and 5, or 0 and 100?
 ## Prove your theory in Python.
 ```
