@@ -113,17 +113,6 @@ Here are some further explanations:
 
 
 # 11b
-# (Challenge question)
-# Using a nested for-loop, display multiplication facts from 1 to 5:
-# 1 * 1 = 1
-# 1 * 2 = 2
-# ...
-# 3 * 4 = 12
-# ...
-# 5 * 5 = 25
-
-
-# 11c
 # Reminder the operator that does remainder in Python?
 # Use a for-loop to display the following:
 #  1 divided by 4 would have a remainder of ____.
@@ -307,4 +296,37 @@ print(f"First number: {a} and second number: {b}")
 temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 warm_temps = list(filter(lambda x: x > 81, temps_in_F))
 print(warm_temps)
+
+
+# 32a nested for-loops 
+# (Challenge question)
+# Using a nested for-loop, display multiplication facts from 1 to 5:
+# 1 * 1 = 1
+# 1 * 2 = 2
+# ...
+# 1 * 5 = 5
+# ...
+# 3 * 4 = 12
+# ...
+# 5 * 1 = 5
+# ...
+# 5 * 5 = 25
+
+
+# 32b nested for-loops -- Multiplication table 
+# (Challenge question.  If most students are ahead of you, skip this.)
+# Using the nested for-loops you created to display multiplication facts from 1 to 5 (above),...
+# display the results in a table:
+#
+#    | 1   2   3   4   5
+#  --|------------------
+#  1 | 1   2   3   4   5
+#  2 | 2   4   6   8  10
+#  etc.
+# 
+# Hint, to print multiple results on same line try this:
+#   `print(f"{result}", end=' ')`  
+# Where "result" is the multiplication you want to display)
+# The "end = ' ' " string causes the automatic carrange return to be overted
+# Add an empty print() statement to add a carrange return to move down to the next line.
 ```
