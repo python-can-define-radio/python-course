@@ -4,7 +4,7 @@
 # Try to find the file it created.
 f = open("something_very_unique_file.txt", "w")
 f.write("Here are some words.\n")
-f.write("More words.")
+f.write("More words.\n")
 f.close()
 
 # 2
@@ -62,3 +62,53 @@ contents = f.read()
 print(contents)
 f.close()
 
+
+# 7
+# If you want to be more cautious, you can use "x" instead of "w", 
+# which will give an error if the file already exists (rather than overwriting it).
+f = open("yay_new_file.txt", "x")
+f.write("Words to put in the file")
+f.close()
+
+
+# 8
+# If you want to write at the end of a file ("append"), you can use "a".
+f = open("yay_new_file.txt", "a")
+f.write("This will write at the end of an existing file.\n")
+f.close()
+
+
+#####################################
+## Advanced (optional) topics below this line.
+#####################################
+
+# 9
+# An example of dealing with large files.
+
+import random
+
+f = open("your_filename_here.txt", "w")
+for unusedCounter in range(10000000):
+    rnum = random.random() * 10
+    f.write(f"{rnum}\n")
+f.close()
+
+
+## RAM-Efficient way
+f = open("your_filename_here.txt", "r")
+for line in f:
+    # Alternatively, could use `if "3.14" in line:` to match anywhere in the line
+    # ...but we know in this context that it will be at the beginning of the line
+    if line.startswith("3.14"):
+        print(line)
+f.close()
+
+
+## RAM-Inefficient way
+# f = open("your_filename_here.txt", "r")
+# contents = f.read()
+# lines = contents.splitlines()
+# for line in lines:
+#     if line.startswith("3.14"):
+#         print(line)
+# f.close()
