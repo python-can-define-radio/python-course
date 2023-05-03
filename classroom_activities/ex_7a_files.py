@@ -31,5 +31,3 @@ f.close()
 
 # When opening a file in Python, if you don't specify a mode, Python will default to 'read' mode ('r'). 
 # The 'write' mode ('w') will create a new file if the specified file does not exist, or overwrite the contents of the file if it does exist.
-
-
