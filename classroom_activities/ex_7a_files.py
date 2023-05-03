@@ -7,7 +7,6 @@ f.write("Here are some words.\n")
 f.write("More words.")
 f.close()
 
-
 # 2
 # Using Python,
 # Open the file my_thoughts.txt.
@@ -30,5 +29,7 @@ contents = f.read()
 print(contents)
 f.close()
 
+# When opening a file in Python, if you don't specify a mode, Python will default to 'read' mode ('r'). 
+# The 'write' mode ('w') will create a new file if the specified file does not exist, or overwrite the contents of the file if it does exist.
 
 
