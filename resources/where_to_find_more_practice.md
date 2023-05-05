@@ -3,6 +3,8 @@
   - https://pythonprinciples.com/challenges/
   - https://leetcode.com/   
 
+- Free lessons and certificates:
+  - https://www.freecodecamp.org/
 
 -  A great, organized set of resources that explains the basics of python and how to use the `arcade` library to make games:
    https://learn.arcade.academy/
@@ -10,7 +12,6 @@
    - if statements: https://learn.arcade.academy/en/latest/chapters/10_if_statements/if_statements.html
    - for loops: https://learn.arcade.academy/en/latest/chapters/11_for_loops/for_loops.html
    - functions: https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html
-
 
 -  Arcade also has some great tutorials, like [solitaire](https://api.arcade.academy/en/latest/tutorials/card_game/).
 -  Lastly, Arcade has some great pre-written modifyable [game examples](https://api.arcade.academy/en/latest/examples/).
