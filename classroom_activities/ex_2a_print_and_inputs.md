@@ -536,3 +536,6 @@ fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 ```
 
+<details><summary>Note:</summary>
+If you press <kbd>Shift Enter</kbd>, you can cause issues. Ask the instructor to demonstrate (it's difficult to explain textually).
+</details>
