@@ -105,6 +105,7 @@
 
 
 - Learning ethical hacking:
+  - https://www.hackerone.com/hackers/hacker101
   - https://tryhackme.com/
   - https://picoctf.org/
 
