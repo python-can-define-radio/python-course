@@ -114,7 +114,7 @@ Here are some further explanations:
 # 11b has been moved to 32a, below.
 
 # 11c
-# Reminder the operator that does remainder in Python?
+# Do you remember the operator that does remainder in Python?
 # Use a for-loop to display the following:
 #  1 divided by 4 would have a remainder of ____.
 #  2 divided by 4 would have a remainder of ____.
@@ -136,8 +136,18 @@ print("Hello"*3)
 # Modify the previous example to ask the user how many "Hello"s to print.
 
 
-# 14
-# Construct the following pattern using a `for` loop. Let the user specify how many rows to print.
+# 14a
+# Construct the following pattern using a `for` loop.
+# Let the user specify how many rows to print.
+# AAAAA
+# AAAAA
+# AAAAA
+# AAAAA
+
+
+# 14b
+# Construct the following pattern using a `for` loop.
+# Let the user specify how many rows to print.
 # A
 # AA
 # AAA
