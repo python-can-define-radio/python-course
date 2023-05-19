@@ -1,16 +1,12 @@
 
+### The guizero module  
+
 The goal of the current lesson is to familiarize new students with the "guizero" module of python.
 
-### Some useful resources:
-`(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new tab" or new window and then go to that tab/window.)`
-- https://lawsie.github.io/guizero/start/
-
-Notes: 
-- In the text below, a pair of pound symbols (##) introduces instructions or a comment for you the student.
-- Commands to be entered in VS Code are written without any such prefix.
+### Notes: 
 - You may need to install guizero to begin.
   - pip install guizero (from the terminal) 
-- guizero builds from top to bottom.
+- guizero builds from top to bottom and spacing or padding is not built in you may have to get creative.
   - Specific placement is possible using (x,y) coordinates but is beyond the scope of this lesson.
 
 ### Exercises
@@ -121,7 +117,7 @@ app.display()
 
 ```
 
-<details><summary>For a more advanced example you can expand here and look at the following code which creates an IP Subnet Calculator app.</summary>
+<details><summary>For a more advanced example you can expand here and look at the following code which uses guizero and the IP address module to create an IP Subnet Calculator app.</summary>
   
 ```python3
 
@@ -214,8 +210,9 @@ app.display()
   </details>
 
   
-  
 
-At this point, if you finish before the rest of the class, or if you'd like more practice with guizero you can look at this tutorial:
+At this point, if you finish before the rest of the class, or if you'd like more practice with guizero you can look at the following tutorial:
 
-  - https://lawsie.github.io/guizero/start/
+### Some useful resources:
+`(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new tab" or new window and then go to that tab/window.)`
+- https://lawsie.github.io/guizero/start/
