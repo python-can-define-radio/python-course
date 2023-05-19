@@ -47,7 +47,7 @@ print(sales2022[sales2022["brand"] == "Subaru"][["grand_total", "brand"]])
 print(sales2022[sales2022["brand"].str.startswith("L", na=False)])
 
 # 7b
-# Filter on brands that end with the letter "i"
+# Try to filter on brands that end with the letter "i"
 # Remember Python is case-sensitive
 
 
