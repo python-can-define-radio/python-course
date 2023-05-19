@@ -46,6 +46,10 @@ print(sales2022[sales2022["brand"] == "Subaru"][["grand_total", "brand"]])
 
 print(sales2022[sales2022["brand"].str.startswith("L", na=False)])
 
+# If you want to use .lower() this is how you would do it
+
+print(sales2022[sales2022["brand"].str.lower().str.startswith("l", na=False)])
+
 # 7b
 # Try to filter on brands that end with the letter "i"
 # Remember Python is case-sensitive
