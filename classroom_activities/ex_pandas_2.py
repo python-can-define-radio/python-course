@@ -37,5 +37,17 @@ print(sales2022[sales2022["brand"]=="Subaru"])
 
 # 6b
 # You can also select specific columns if you don't want to see all of the data
+# You can add and remove as many columns as needed
 
 print(sales2022[sales2022["brand"] == "Subaru"][["grand_total", "brand"]])
+
+# 7a
+# This is how you can filter on a brand that starts with a specific letter
+
+print(sales2022[sales2022["brand"].str.startswith("L", na=False)])
+
+# 7b
+# Filter on brands that end with the letter "i"
+# Remember Python is case-sensitive
+
+
