@@ -15,6 +15,7 @@ Notes:
 
 ### Exercises
 
+Exercise #1:  
 First, run this.
 ```python3
 ## 1
@@ -26,7 +27,8 @@ app = App(title="My first GUIZERO app")
 app.display()
 ```
 
-Adding text:
+Exercise #2:  
+Adding text.
   - To add things to your app you will need to use widgets.
   - Use the Text widget to add a message to your app. 
 ```python3
@@ -42,7 +44,8 @@ Text(app, text="Welcome to my GUIZERO app!")
 app.display()
 ```
 
-Adding user input:
+Exercise #3:  
+Adding user input.
   - Use the Textbox widget to add user input to your app.
   - Sometimes you will make a widget as a variable if you want to use that information later as you see here with the "name" Textbox. 
 ```python3
@@ -60,7 +63,8 @@ name = TextBox(app)
 app.display()
 ```
 
-Adding parameters:
+Exercise #4:  
+Adding parameters.
   - You can add parameters to your app globally or individually to a variable like this.
 ```python3
 ## 4
@@ -85,7 +89,8 @@ name.text_color = "green"
 app.display()
 ```
 
-Adding a Pushbutton:
+Exercise #5:  
+Adding a Pushbutton.
   - Use the Pushbutton widget to make your app do something.
   - The Pushbutton widget uses pre-built functions assigned by the command parameter to make something happen if you are unfamiliar with functions refer back to exercise ex_8a_turtle_and_functions.md
 ```python3
@@ -115,7 +120,6 @@ button = PushButton(app, text="Press me", command=change_bg)
 app.display()
 
 ```
-
 
 <details><summary>For a more advanced example you can expand here and look at the following code which creates an IP Subnet Calculator app.</summary>
   
