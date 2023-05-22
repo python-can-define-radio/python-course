@@ -18,8 +18,8 @@ import time
 
 while True:
     print("moving now!")
-    pyautogui.moveRel(0.2, 0)
-    pyautogui.moveRel(-0.2, 0)
+    pyautogui.moveRel(1, 0)
+    pyautogui.moveRel(-1, 0)
     time.sleep(1)
 ```
 
