@@ -2,7 +2,6 @@
 
 - Create a folder for yourself with your name (and no spaces) on the Desktop.
 - In VSCode, open the folder that you created, and create a Python file to trigger the installation of the Python extension.
-- Turn off Python auto import completions in VSCode. Ask the instructor how.
 - Change the `TMOUT` variable in `.bashrc`. Details below.
 - Disable middle-click if desired. Details in the `resources` directory.
 
