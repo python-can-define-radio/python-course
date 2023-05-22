@@ -1,4 +1,12 @@
-""" "ex_7b_csv_files.py" --- Writing & Reading Spreadsheet Files, specifically CSV data files.
+<details><summary><i>Naming history (click to expand)</i></summary>
+<pre>
+2023 May 22: ex_files_csv.md
+2022 Jul 25: ex_7b_csv_files.py
+</pre>
+</details>
+
+```python3
+""" "ex_files_csv.py" --- Writing & Reading Spreadsheet Files, specifically CSV data files.
 In this lesson will we will use the Python programming language to work with "comma-separated-value" or "CSV" files, 
    which are only one of several types of spreadsheet files.
 Background: CSV files may include multiple data records with each data record located on its own line.  Each data 
@@ -15,7 +23,7 @@ Additional tutorials may be available at: https://realpython.com/python-csv/ . T
 Python3, version 3.9 or later was used while developing this lesson.
 """
 
-#1: Manually create a CSV file.
+# 1: Manually create a CSV file.
 # Using MS Visual Studio Code or a text editor, type or copy the data shown below and 
 #    save it with the file name:  "ex_7b_data1.csv". 
 # NOTEs: a. Remove the pound sign (#) and the leading space from each line of data.
@@ -95,3 +103,4 @@ print(f"Data writing to file '{csv_extrn2}' is completed.")
 #     "ex_7b_data2.csv"  # Destination
 # SUGGESTION: This can be done using two, nested "with open()" commands.  The first opens the writing file, and 
 #             the 2nd may be nested in the first and opens the data file.
+```
