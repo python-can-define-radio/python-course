@@ -369,20 +369,27 @@ print(f"One more would be {onemore}")
 print("Hello"*3)
 
 
-## 21bb  (previously #25)
+## 21bb
 ## Copy and modify the previous example to ask the user for a string.
 ## Display whatever string the user enters three times 
 ##  (using *3, as in the previous example).
 
 
-## 21bbb  (previously #26)
+## 21bba
+## Try this. It will give an error.
+print("Hello" * "3")
+
+
+## 21bbb
 ## Copy and modify the previous example to ask the user for both the
 ## string to be multiplied and the number of repetitions.
+## Hint: If you get an error, is it the same error as in the `print("Hello" * "3")` example? If so, why?
 
 
 ## 21c
 ## Does this example do what you expect?
-## If not, how do you fix it?
+## Why does it repeat the number five times rather than doing "real" math multiplication?
+## How do you make it do math?
 num = input("Give me a number. ")
 print("I'm going to try to multiply that number by 5,")
 print("but something strange is going to happen:")
