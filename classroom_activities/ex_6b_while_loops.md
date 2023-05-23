@@ -153,8 +153,10 @@ while num != -1:
 ## 21
 ## Try this.
 ## As a reminder, use Ctrl + C to exit a program.
+x = 0
 while 2 + 2 == 4:
-    print("Hi")
+    print(x)
+    x += 1
 print("Done")
     
     
