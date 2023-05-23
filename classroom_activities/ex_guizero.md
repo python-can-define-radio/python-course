@@ -7,7 +7,7 @@ The goal of the current lesson is to familiarize new students with the "guizero"
 - You may need to install guizero to begin.
   - pip install guizero (from the terminal) 
 - guizero builds from top to bottom and spacing or padding is not built in you may have to get creative.
-  - Specific placement is possible using (x,y) coordinates but is beyond the scope of this lesson.
+  - Specific placement is possible using (x,y) grid coordinates but is beyond the scope of this lesson.
 
 ### Exercises
 
