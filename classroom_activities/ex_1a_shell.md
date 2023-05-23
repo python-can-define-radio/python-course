@@ -223,12 +223,12 @@ rm writing_tool.txt
 
 
 ## 17
-## Try this. You can see that grep displays all occurences of the word "view".
+## Try this. You can see that the grep command displays all occurences of the word "to".
 ## Don't forget the asterisk in the grep command. The asterisk means "everything in my current directory".
 cd /tmp/otherstuff/house/smallstuff
-echo "used for viewing items." > eyeglasses.txt 
-echo "a beautiful view, I would say." > mountains.txt 
-grep view *
+echo "Makes it easier to focus your eyes." > eyeglasses.txt 
+echo "A great place to hike." > mountains.txt 
+grep to *
 
 
 ## 17b
