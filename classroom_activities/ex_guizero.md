@@ -11,7 +11,7 @@ The goal of the current lesson is to familiarize new students with the "guizero"
 
 ### Exercises
 
-Exercise #1:  
+<i>Exercise #1:</i>  
 First, run this.
 ```python3
 ## 1
@@ -23,11 +23,14 @@ app = App(title="My first GUIZERO app")
 app.display()
 ```
 
-Exercise #2:  
+<i>Exercise #2:</i>  
 Adding text.
   - To add things to your app you will need to use widgets.
   - Use the Text widget to add a message to your app. 
+<details><summary>Expand here for code.</summary>
+
 ```python3
+  
 ## 2
 
 from guizero import App, Text
@@ -38,13 +41,18 @@ app = App(title="My first GUIZERO app")
 Text(app, text="Welcome to my GUIZERO app!")
 
 app.display()
+  
 ```
+</details>
 
-Exercise #3:  
+<i>Exercise #3:</i>  
 Adding user input.
   - Use the Textbox widget to add user input to your app.
   - Sometimes you will make a widget as a variable if you want to use that information later as you see here with the "name" Textbox. 
+<details><summary>Expand here for code.</summary>
+  
 ```python3
+  
 ## 3
 
 from guizero import App, Text, TextBox
@@ -57,12 +65,17 @@ Text(app, text="Enter your name:")
 name = TextBox(app)
 
 app.display()
+  
 ```
+</details>
 
-Exercise #4:  
+<i>Exercise #4:</i>    
 Adding parameters.
   - You can add parameters to your app globally or individually to a variable like this.
+<details><summary>Expand here for code.</summary>  
+  
 ```python3
+
 ## 4
 
 from guizero import App, Text, TextBox
@@ -83,13 +96,18 @@ name = TextBox(app)
 name.text_color = "green"
 
 app.display()
-```
 
-Exercise #5:  
+```
+</details>  
+
+<i>Exercise #5:</i>    
 Adding a Pushbutton.
   - Use the Pushbutton widget to make your app do something.
   - The Pushbutton widget uses pre-built functions assigned by the command parameter to make something happen if you are unfamiliar with functions refer back to exercise ex_8a_turtle_and_functions.md
+<details><summary>Expand here for code.</summary>  
+
 ```python3
+
 ## 5
 
 from guizero import App, Text, TextBox, PushButton
@@ -116,6 +134,10 @@ button = PushButton(app, text="Press me", command=change_bg)
 app.display()
 
 ```
+</details>  
+
+### Examples  
+
 <details><summary>For more widget examples you can expand here and look at the following code which uses guizero and the IP address module to create an IP Subnet Calculator app.</summary>
 
 ```python3
