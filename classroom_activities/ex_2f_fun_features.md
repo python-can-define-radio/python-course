@@ -30,10 +30,12 @@ Then, in Python, run this:
 ```
 from termcolor import cprint
 
-cprint("Hello, World!", "green", "on_red")
+cprint("Hello, World!", "green", "on_white")
 ```
 
 For more examples, see the termcolor github page: https://github.com/termcolor/termcolor
+
+Note that the terminal in VS Code restricts the available colors to enforce readability. For example, `cprint("Hello, World!", "yellow", "on_light_red")` will display as a grey-black text color instead of yellow.
 
 ## Sounds
 
