@@ -113,7 +113,7 @@ else:
     
  
 ## 7
-## Modify the above example so that if the name is "cobb", it will say "That’s a Ft Gordon building!" 
+## Modify the above example so that if the name is "Pluto", it will say "Is it a planet or not?" 
 
 
 ## 7b
