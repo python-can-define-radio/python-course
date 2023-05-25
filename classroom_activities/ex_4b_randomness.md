@@ -1,4 +1,4 @@
-
+### Using Python's random module -- Making random selections from lists & Generating random numbers
 ```python3
 
 ## Before starting the exercise, type this at the top of your file:
@@ -60,7 +60,7 @@ print(x)
 
 ## 10 Random Floating Point Number, modified
 ## What does this do?  (I.e., What are the possible values of y?)
-for i in range(1, 12+1)
+for i in range(1, 12+1):
   x = random.random()
   y = x + 3
   print(f"{y:0.5f}")
