@@ -22,6 +22,7 @@
 
 -  You can make Graphical User Interfaces in Python using [guizero](https://lawsie.github.io/guizero/start/).
 
+-  Simple chat app: https://github.com/KetanSingh11/SimpleChatApp
 
 - Text User Interfaces (cool, but fairly advanced): https://textual.textualize.io/tutorial/
 
