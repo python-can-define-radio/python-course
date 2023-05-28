@@ -340,6 +340,6 @@ If you are limited in time or most students are ahead of you, postpone or skip t
 # Hint, to print multiple results on same line try this:
 print(f"{result}", end=' ') 
 # Where "result" is the multiplication you want to display)
-# The "end = ' ' " string causes the automatic carrange return to be overted
-# Add an empty print() statement to add a carrange return to move down to the next line.
+# The "end = ' ' " string causes the automatic carriage return to be overted
+# Add an empty print() statement to add a carriage return to move down to the next line.
 ```
