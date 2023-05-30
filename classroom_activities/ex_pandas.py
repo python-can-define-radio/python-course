@@ -36,7 +36,7 @@ print(fakeSmokerData[fakeSmokerData["age_started_smoking"] < 20])
 
 
 ## 6
-## We can see how many people strted smoking before 20:
+## We can see how many people started smoking before 20:
 below20 = fakeSmokerData[fakeSmokerData["age_started_smoking"] < 20]
 print(len(below20))
 
