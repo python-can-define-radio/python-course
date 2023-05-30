@@ -145,7 +145,27 @@ print("Hello"*3)
 # AAAAA
 
 
+# 14aa
+# Construct the following using a `for` loop.
+# Let the user specify how many rows to print.
+# 1 A
+# 2 A
+# 3 A
+# 4 A
+
+
+# 14aaa
+# (optional challenge question)
+# Construct the following using a `for` loop.
+# Let the user specify how many rows to print.
+# 1 times A is A
+# 2 times A is AA
+# 3 times A is AAA
+# 4 times A is AAAA
+
+
 # 14b
+# (optional challenge question)
 # Construct the following pattern using a `for` loop.
 # Let the user specify how many rows to print.
 # A
