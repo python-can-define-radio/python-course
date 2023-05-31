@@ -165,13 +165,12 @@ else:
 
 
 ## 13
-## What's wrong with this code? Why does it always assume that
-## the user typed 'yes' even if the user types 'no'?
-response = input("Do you eat? ")
-if response != "no" or response != "No":
-    print("You didn't say no, so I'm assuming that's a yes. I'm glad to hear that you eat.")
+## What's wrong with this code? The fix is to change the `or` to `and`, but why?
+response = input("There are two correct words you can guess. ")
+if response != "marker" or response != "board":
+    print("Not correct. Try again.")
 else:
-    print("It looks like you said no. I'm available if you want to talk about your aversion to food.")
+    print("You guessed it!")
     
 
 ## 13b
