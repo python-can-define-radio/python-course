@@ -42,7 +42,7 @@ f.close()
 # 6
 # The 'write' mode ('w') will create a new file if the specified file does not exist, or overwrite the contents of the file if it does exist.
 f = open("yay_new_file.txt", "w")
-f.write("Here are some words for you.")
+f.write("Here are some words for you.\n")
 f.close()
 
 # Now let's read the file
@@ -53,7 +53,7 @@ f.close()
 
 # Now write into the file again but with different text
 f = open("yay_new_file.txt", "w")
-f.write("I overwrote those words.")
+f.write("I overwrote those words.\n")
 f.close()
 
 # Now let's read the file again for proof that the original text was overwritten.
@@ -67,7 +67,7 @@ f.close()
 # If you want to be more cautious, you can use "x" instead of "w", 
 # which will give an error if the file already exists (rather than overwriting it).
 f = open("yay_new_file.txt", "x")
-f.write("Words to put in the file")
+f.write("Words to put in the file\n")
 f.close()
 
 
