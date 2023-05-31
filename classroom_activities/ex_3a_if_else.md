@@ -132,15 +132,20 @@ if name.lower() != "jay":
     print("Your name is not Jay.") 
 print("Greetings.")
 
-    
+
 ## 7d
-## Copy and modify the previous example like so:
 ## - Ask the user for a name
 ## - If the name is anything other than bob, then display "I don't think I know you. I only know Bob."
+## Hint: the != operator means "not equal".
 
+
+## 7dd
+## - Ask the user for a number
+## - If the number is not equal to 5, say "You should have picked 5." 
+## (Use the != operator)
+    
 
 ## 7e
-## Copy and modify the previous example like so:
 ## - Ask the user for a name
 ## - If the name is empty, say "You didn't type anything!"
 ## - Otherwise, say "Hi ___."
