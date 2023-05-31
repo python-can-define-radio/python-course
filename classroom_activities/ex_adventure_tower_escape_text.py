@@ -148,7 +148,7 @@ def towerAction(answer):
         if "rope" in state["inventory"]:
             delay_print(colored("Congratulations you have made it out of the tower.\n", "green"))
             delay_print(colored("Stay tuned for further text adventures.\n", "green"))
-            delay_print(colored("Text Adventures was made possible by Michael Hutchings and Jamie O'Meara.\n", "green"))
+            delay_print(colored("Text Adventures was made possible by Michael Hutchings.\n", "green"))
             sys.exit()
     if answer == "bunk":
         state["location"] = "under_the_bunk"
