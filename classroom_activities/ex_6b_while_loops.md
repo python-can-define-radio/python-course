@@ -94,22 +94,44 @@ while keepGoing == "yes" or keepGoing == "y":
 print("Ok, stopping.")
 
 
+## 12a
+## Here's another way to do it:
+keepGoing = "yes"
+while keepGoing in ["yes", "y"]:
+    print("Continuing.")
+    keepGoing = input("Do you want me to keep going? ")
+print("Ok, stopping.")
+
+
+## 12b
+## Here's the opposite:
+keepGoing = "yes"
+while keepGoing not in ["no", "no thanks"]:
+    print("Continuing.")
+    keepGoing = input("Do you want me to keep going? ")
+print("Ok, stopping.")   
+
+
 ## 13
 ## Copy and modify the previous example like so:
 ## Continue looping if the user types any of these: "hey", "woo", or "yes".
-## Note: I recommend trying the two exercises in the file ex_3b_if_else_common_condition_mistake.py
-##       to avoid a common subtle mistake.
 
 
 ## 14
 ## Copy and modify the previous example like so:
 ## If the user types anything other than "no", then keep going.
 ## (So the user could type "yes", "hi", etc.)
+## Reminder: The != operator means "not equal".
+
+
+## 14b
+## Copy and modify the previous example like so:
+## If the user types anything other than "no" or "no thanks", then keep going.
+## (So the user could type "yes", "hi", etc.)
 
 
 ## 15
 ## Try this.
-## Reminder: the != operator means "Not equal".
 print("Welcome to the word guesser!")
 guess = ""
 secretWord = "water"
