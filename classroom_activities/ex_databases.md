@@ -35,15 +35,16 @@ cur = con.cursor()  # In the database, create a cursor, which is an object that 
 #Create the table if it doesn't exist
 cur.execute(f"CREATE TABLE IF NOT EXISTS {tableName} (id, lowerBand, upperBand, bandDesc)")
 
-#Clear all data from table, columns will not be deleted. The cur.execute statements are SQL(Structured Query Langauge) commands.
+# Clear all data from the table, i.e. initialize table to receive data.  Columns will not be deleted.
 cur.execute("SELECT * FROM Spectrum")
 cur.execute("DELETE FROM Spectrum")
 
 #Acquire and transform the data, prepare variables for use in the for loop
 response = requests.get(f"http://data.fcc.gov/api/spectrum-view/services/advancedSearch/getSpectrumBands?frequencyFrom={startFreq}&frequencyTo={endFreq}&pageNum=1&sortColumn=lowerBand&sortOrder=asc&pageSize=1000&limit=100&format=json")
 content = response.text
+# Parse (divide) the data string to form a python dictionary:
 contentDict = json.loads(content)
-spectrumList = contentDict["SpectrumBands"]["SpectrumBand"]
+spectrumList = contentDict["SpectrumBands"]["SpectrumBand"] # access data from the dictionary.
 
 #For each frequency range, insert the values into the table
 for band in spectrumList:
