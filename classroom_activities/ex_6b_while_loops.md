@@ -126,8 +126,23 @@ print("Ok, stopping.")
 
 ## 14b
 ## Copy and modify the previous example like so:
-## If the user types anything other than "no" or "no thanks", then keep going.
-## (So the user could type "yes", "hi", etc.)
+## Keep going if the user types anything other than these: "done", "quit", "exit".
+## ALSO, make it case-insensitive (capitalization does not affect outcome).
+
+
+## 14c
+## Create a program that keeps track of a count.
+## Example run:
+##  The counter is currently 0.
+##  Would you like to add one, subtract one, or quit? add
+##  The counter is currently 1.
+##  Would you like to add one, subtract one, or quit? add
+##  The counter is currently 2.
+##  Would you like to add one, subtract one, or quit? subtract
+##  The counter is currently 1.
+##  Would you like to add one, subtract one, or quit? quit
+##  Your final tally is 1.
+##  Thanks for using my counter program!
 
 
 ## 15
