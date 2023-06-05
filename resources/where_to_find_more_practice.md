@@ -1,5 +1,4 @@
 - Practice problems:
-  - https://codingbat.com/python
   - https://pythonprinciples.com/challenges/
   - https://leetcode.com/   
 
@@ -23,6 +22,8 @@
 -  You can make Graphical User Interfaces in Python using [guizero](https://lawsie.github.io/guizero/start/).
 
 -  Simple chat app: https://github.com/KetanSingh11/SimpleChatApp
+
+-  More practice problems. This one requires knowledge of functions and return statements. Also, it is running an older verison of Python, so you can't use f-strings. https://codingbat.com/python
 
 - Text User Interfaces (cool, but fairly advanced): https://textual.textualize.io/tutorial/
 
