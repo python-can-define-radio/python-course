@@ -103,3 +103,31 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         print(data.decode())
 ```
 
+
+## Retrying a client connection:
+
+
+```python3
+import socket
+import time
+
+
+waitTime = 2
+HOST = "127.0.0.1"
+PORT = 5000
+ADDR = (HOST, PORT)
+sock = socket.socket(AF_INET, SOCK_STREAM)
+sock.settimeout(0)
+
+print("about to connect...")
+while True:
+    try:
+        sock.connect(ADDR)
+        break
+    except BlockingIOError:
+        print(f"connection failed. Trying again after {waitTime} seconds.")
+        time.sleep(waitTime)
+print("connected.")
+sock.close()
+print("closed.")
+```
