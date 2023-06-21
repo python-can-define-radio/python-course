@@ -205,18 +205,22 @@ print("That's all I have to say.")
 # 18
 # Modify the previous example so that if the user input ends with "day",
 # then the computer will display "I think that's a day of the week."
+```
 
+In some cases, you'll update a variable inside of a loop. In the example below, we loop through the strings in the `fruits` list, adding one to `berryCount` every time the variable `fr` ends with "berry".
 
+Notice that we must _initialize_ the variable to zero before we start counting. 
 
+```python3
 # 19
 # Try this:
 fruits = ["strawberry", "raspberry", "blueberry", "grape", "mango", "melon"]
-count = 0
+berryCount = 0
 for fr in fruits:
     if fr.endswith("berry"):
-        count += 1
+        berryCount += 1
 print("I've finished counting the fruits.")
-print(f"There were {count} that ended with berry.")
+print(f"There were {berryCount} that ended with berry.")
 
 
 # 20
@@ -237,9 +241,68 @@ temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 # temperatures are above freezing and how many are below freezing.
 ```
 
-Now that you've seen the basics of `for` loops, we recommend that you move on to `while` loops
-if you are limited in time, or you are working with others who are ahead of you.
-When you've finished the `while` loops exercises, return here to continue.
+Often, you may work with related sets of data. For example, imagine a list of instructors, their ages, and their years of experience. You may do a list of lists:
+
+```python3
+instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
+                  ["Joel", 28, 3], ["Tate", 67, 5]]
+```
+
+To work with this list, we may use a for loop:
+
+```python3
+# 23
+# Try this.
+print("Here is my instructor data:")
+for name, age, yearsExp in instructors:
+    print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
+```
+
+Let's do some math inside of the loop.
+
+```python3
+# 24
+# Copy and modify the previous example to display how old each person was when he/she started this job. For example, Maria started this job 7 years ago, so you would print this:
+#    The instructor Maria is 38 years old, and started working at age 31.
+
+
+# 25
+# Copy and modify the previous example to display each person's name and salary.
+# Compute the salary using this formula:
+#   For 0 to 4 years, the pay is $35000.
+#   For 5 to 9 years, the pay is $36000.
+#   For 10 to 14 years, the pay is $37000.
+#   etc.
+# Hint: use floor division (the // operator) to compute the salary.
+#       It will resemble this:  salary = base_pay + pay_adjustment * (years_of_exp // 5)
+# Example: 
+#     Maria: 7 years of experience, $36000 per year
+
+
+# 26
+# Copy and modify the previous example.
+# Ask the user for...
+#  - the base pay, and
+#  - the amount of pay adjustment per 5 years of experience.
+
+
+# 27
+# Copy and modify the previous example.
+# After the for loop, display
+#    "The total amount of work experience for this team is ___". 
+# Must compute the total inside the for loop.
+# Hint: the structure will resemble this:
+#   totalYearsExp = 0
+#   for ... in ...:
+#       ...
+#       totalYearsExp += yearsExp
+#       ...
+#   print(f"The total amount of work experience for this team is {totalYearsExp}")
+```
+
+## Optional exercises
+
+If you have time, we recommend doing the exercises below.
 
 ```python3
 # 22b
