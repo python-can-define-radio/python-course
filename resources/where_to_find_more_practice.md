@@ -5,6 +5,9 @@
 - Free lessons and certificates:
   - https://www.freecodecamp.org/
 
+- Lessons and certificates, some parts are free:
+  - https://edube.org/
+
 -  A great, organized set of resources that explains the basics of python and how to use the `arcade` library to make games:
    https://learn.arcade.academy/
    They have an explanations of all of the foundational topics, such as...
