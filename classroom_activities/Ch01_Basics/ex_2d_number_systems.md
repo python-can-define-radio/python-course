@@ -1,9 +1,21 @@
 Sometimes, you may wish to display a number using a different number system.
 
-For example, 17 in binary is `10001`. You can ask Python to tell you as much:
+Here's a table of a few examples:
+
+|Decimal number (base 10) | Binary number (base 2) | Octal number (base 8) | Hexadecimal number (base 16) |
+|--|--|--|--|
+|1|1|1|1|
+|2|10|2|2|
+|3|11|3|3|
+|25|11001|31|19|
+|120|1111000|170|78|
+
+
+You can ask Python to do this for you:
 
 ```python3
 print(bin(17))
+print(oct(17))
 ```
 
 you could also type
