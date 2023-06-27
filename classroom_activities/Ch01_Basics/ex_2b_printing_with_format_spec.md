@@ -2,6 +2,8 @@
 
 webpage for this lesson: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2b_printing_with_format_spec.py
 
+### Introduction
+
 Sometimes, you want to print with some specific format.
 For example:
  - Rounding a number to two decimal places
@@ -58,4 +60,15 @@ print(f"This will give an error, because item_number is a float: {item_number:b}
 ## -  This website gives detailed documentation; somewhat more difficult to read.
 ##    https://docs.python.org/3/library/string.html#format-specification-mini-language
 
+```
+
+## Exercises
+
+```python3
+# 1
+# Ask the user a number. Display the number rounded to 3 decimal places.
+
+
+# 2 
+# Ask the user for the current cost-per-gallon of gasoline. Display the cost per pint, rounded to the nearest cent.
 ```
