@@ -16,7 +16,6 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 - Open the VS Code terminal by pressing `View -> Terminal`, or using the keyboard shortcut <code>Ctrl `</code>.
 - Type `python3 ex_2a_print_inputs.py` and press enter.
 - It should display "Here we go!" in the terminal.
-- If it ran successfully, then Comment (disable) that exercise using `Ctrl /` while your cursor is placed on that line of code, and try the next exercise.
 - Ask if you have any questions.
 
 
@@ -59,7 +58,10 @@ print("Here we go!")
 print("If you want \n separate lines, you \n can do it \n like this.")
 ```
 
-Once you have run both of those exercises, you can "comment out the lines", that is, disable them.
+Once you have run both of those exercises, you can "comment out the lines", that is, disable them. Here's how:
+
+- In the editor part of VS Code, place your cursor on any part of the line (for example, the "n" of `print`).
+- Press `Ctrl /`. You'll see that the line is now preceded by a "#", and turns green. This indicates that it is "Commented" (disabled), that is, it will no longer run.
 
 Example:
 ```python3
