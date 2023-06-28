@@ -1,15 +1,19 @@
 ## Configuration
 
 - Create a folder for yourself with your name (and no spaces) on the Desktop.
-- In VSCode, open the folder that you created, and create a Python file to trigger the installation of the Python extension.
+- In VSCode, open the folder that you created.
+- Create a Python file to trigger the installation of the Python extension.
 - Change the `TMOUT` variable in `.bashrc`. Details below.
+- Change the OS screen timeout if desired. Details below.
 - Disable middle-click if desired. Details in the `resources` directory.
+
 
 ## Things to know:
 
-### How to change TMOUT:
+### How to change terminal timeout (TMOUT variable):
 
 - `echo -e '\n\nexport TMOUT=30000' >> ~/.bashrc` (this appends `export TMOUT=30000` at the end of the .bashrc file)
+- Verify that it changed the file using this command to view the file: `cat ~/.bashrc`
 - Close all terminals so it'll take effect.
 
 ### Alternate approach to change TMOUT:
@@ -22,6 +26,10 @@ f.write("\n\n")
 f.write("export TMOUT=300000")
 f.close()
 ```
+
+### How to change OS screen timeout on Ubuntu:
+
+In Settings, go to Power, and adjust the "Blank Screen" option. Recommended setting: 15 minutes.
 
 ### On the keyboard:
 
