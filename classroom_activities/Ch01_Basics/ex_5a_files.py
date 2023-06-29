@@ -112,3 +112,17 @@ f.close()
 #     if line.startswith("3.14"):
 #         print(line)
 # f.close()
+
+
+# 10
+# An example of reaching the maximum-number-of-open-files,
+# i.e., why you should close files after using them.
+# WARNING: you may have to reboot your computer after running this.
+# (No permanent damage as far as I am aware.)
+
+filehandlelist = []
+ 
+for count in range(0, 500000):
+    filename = f"file_num_{count}.txt"
+    f = open(filename, "w")
+    filehandlelist.append(f)
