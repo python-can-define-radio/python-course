@@ -275,7 +275,7 @@ Let's do some math inside of the loop.
 #    The instructor Maria is 38 years old, and started working at age 31.
 
 
-# 25
+# 25 (challenge question)
 # Copy and modify the previous example to display each person's name and salary.
 # Compute the salary using this formula:
 #   For 0 to 4 years, the pay is $35000.
@@ -308,6 +308,24 @@ Let's do some math inside of the loop.
 #       ...
 #   print(f"The total amount of work experience for this team is {totalYearsExp}")
 ```
+
+Here's some more practice with that concept:
+```
+# 27b
+### Given this data...
+runners = [
+    ["James", 5, 60],
+    ["Tom", 1, 7],
+    ["Steve", 2, 22],
+    ["Carson", 2, 12]
+]
+
+### ...Your task is to print the name and Minutes Per Mile for each runner.
+### structure:
+for name, miles_run, minutes in runners:
+    print("...")
+```
+
 
 ## Optional exercises
 
