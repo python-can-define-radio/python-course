@@ -37,6 +37,7 @@ ages = [26, 37, 55, 10, 5]
 for age in ages:
     print(f"One of the people in my list is {age} years old.")
     print(f"In two years, that person will be {age + 2} years old.")
+    print()
 
 
 # 4b
@@ -244,15 +245,23 @@ temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 Often, you may work with related sets of data. For example, imagine a list of instructors, their ages, and their years of experience. You may do a list of lists:
 
 ```python3
-instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
-                  ["Joel", 28, 3], ["Tate", 67, 5]]
+# 23a
+instructors = [
+    ["Maria", 38, 7],
+    ["Walton", 47, 22],
+    ["Martin", 52, 18],
+    ["Joel", 28, 3],
+    ["Tate", 67, 5]
+]
 ```
 
 To work with this list, we may use a for loop:
 
 ```python3
-# 23
+# 23b
 # Try this.
+instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
+                  ["Joel", 28, 3], ["Tate", 67, 5]]
 print("Here is my instructor data:")
 for name, age, yearsExp in instructors:
     print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
