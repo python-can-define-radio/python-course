@@ -6,6 +6,7 @@ thename = input("What is your name? ")
 print(f"Hello {thename}")
 
 # More ways to use a variable in a print statement
+# Reminder: a variable is used to store data.
 print("Hello", thename)
 print("Hello {}".format(thename))
 print("Hello" + thename)     # This works if thename is a string
