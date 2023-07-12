@@ -545,11 +545,12 @@ fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 ```
 
-<details><summary>Note:</summary>
-If you press <kbd>Shift Enter</kbd>, you can cause issues. Ask the instructor to demonstrate (it's difficult to explain textually).
+<details><summary>Notes:</summary>
+
+- If you press <kbd>Shift Enter</kbd>, you can cause issues. Ask the instructor to demonstrate (it's difficult to explain textually).
+- The instructor will demonstrate how to use VS Code's multi-file search.
+- 
 </details>
 
 
-(Not an exercise, just a note)
 
-The instructor will demonstrate how to use VS Code's multi-file search.
