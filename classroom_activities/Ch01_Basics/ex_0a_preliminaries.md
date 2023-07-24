@@ -1,4 +1,5 @@
 ## Configuration
+These instructions assume you are workin in a Linux operatiting system (OS).
 
 - Create a folder for yourself with your name (and no spaces) on the Desktop.
 - In VSCode, open the folder that you created.
@@ -12,7 +13,8 @@
 
 ### How to change terminal timeout (TMOUT variable):
 
-- `echo -e '\n\nexport TMOUT=30000' >> ~/.bashrc` (this appends `export TMOUT=30000` at the end of the .bashrc file)
+- Activate a Terminal program window in Linux OS.
+- Type and run: `echo -e '\n\nexport TMOUT=30000' >> ~/.bashrc` (this appends `export TMOUT=30000` to the end of the .bashrc file)
 - Verify that it changed the file using this command to view the file: `cat ~/.bashrc`
 - Close all terminals so it'll take effect.
 
