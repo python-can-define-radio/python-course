@@ -1,16 +1,16 @@
 ## Configuration
-These instructions assume you are workin in a Linux operatiting system (OS).
+These instructions assume you are working on a Linux operating system (OS).
 
 - Create a folder for yourself with your name (and no spaces) on the Desktop.
 - In VSCode, open the folder that you created.
 - Create a Python file to trigger the installation of the Python extension.
-- Change the terminal `TMOUT` variable in `.bashrc`. Details below.
-- Change the OS screen timeout if desired. Details below.
-- Change the screen blank timeout and screen lock timeout. Details below.
-- Disable middle-click if desired. Details in the `resources` directory.
-
-
-## Things to know:
+- Follow these directions to run a setup script:
+  - Right-click on this [student_config_script.sh](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/student_config_script.sh)  and select `Save Link As`.  
+  - For the save location, click on `Desktop` on the left, and then click `Save`.
+  - Minimize the browser window so that you can see the Desktop.
+  - Right-click on your Desktop and select `Open in Terminal`.
+  - Type `bash student_script.sh` and hit Enter.
+  - Let the instructor know if you see any error messages.
 
 <details><summary>Expand here for Manual instructions if the script does not work.</summary>
 
@@ -34,7 +34,12 @@ f.close()
 
 ### How to change OS screen timeout on Ubuntu:
 
-In Settings, go to Power, and adjust the "Blank Screen" option. Recommended setting: 15 minutes.
+In Settings, click the magnifying glass in the top left of the window and search `Screen Lock` and select it.
+- Adjust the "Blank Screen" option. Recommended setting: 15 minutes.
+- Adjust the "Automatic Screen Lock Delay". Recommended setting: 30 minutes.
+
+### For instructions on how to disable middle click go to:
+https://github.com/python-can-define-radio/python-course/blob/main/resources/disable-middle-click-how-to.md
 </details>
 
 
