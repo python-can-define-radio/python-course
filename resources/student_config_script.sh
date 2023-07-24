@@ -1,6 +1,6 @@
 #!/bin/bash -e
 
-# set screen blank timeout, lock timeout, and bash terminal timeout
+echo "- Setting screen blank timeout, lock timeout, and bash terminal timeout"
 gsettings set org.gnome.desktop.session idle-delay 900
 gsettings set org.gnome.desktop.screensaver lock-delay 1800
 echo "
@@ -9,7 +9,7 @@ echo "
 export TMOUT=30000'" >> ~/.bashrc
 
 
-# disable middle click to avoid accidental pasting
+echo "- Disabling middle click to avoid accidental pasting"
 # this works for a single session only (non-persistent).
 xmodmap -e "pointer = 1 25 3 4 5 6 7 8 9 10"
 
