@@ -9,7 +9,7 @@ These instructions assume you are working on a Linux operating system (OS).
   - For the save location, click on `Desktop` on the left, and then click `Save`.
   - Minimize the browser window so that you can see the Desktop.
   - Right-click on your Desktop and select `Open in Terminal`.
-  - Type `bash student_script.sh` and hit Enter.
+  - Type `bash student_config_script.sh` and hit Enter.
   - Let the instructor know if you see any error messages.
 
 <details><summary>Expand here for Manual instructions if the script does not work.</summary>
