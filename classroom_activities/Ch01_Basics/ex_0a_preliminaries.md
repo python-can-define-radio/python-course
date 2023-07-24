@@ -11,7 +11,9 @@ These instructions assume you are working on a Linux operating system (OS).
   - Right-click on your Desktop and select `Open in Terminal`.
   - Type `bash student_config_script.sh` and hit Enter.
   - Let the instructor know if you see any error messages.
-- We will be using Github for many of our Python and SDR lessons. If you want, you may [create a free GitHub account](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account). This will give you a repository in which you can save your work.
+- We will be using Github for many of our Python and SDR lessons. If you want, you may [create a free GitHub account](https://github.com). This will give you a repository in which you can save your work.  
+- For more information on Github Accounts:  
+https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
 
 <details><summary>Expand here for Manual instructions if the script does not work.</summary>
 
