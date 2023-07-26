@@ -28,3 +28,20 @@ Name=run_disable_middle_click_script
 X-GNOME-Autostart-enabled=true
 Exec=$HOME/$scriptFile
 " > ~/.config/autostart/disable_middle_click.desktop
+
+echo "- Customizing VS Code default setttings"
+echo "{
+    \"window.zoomLevel\": 4,
+    \"editor.tokenColorCustomizations\":
+      {  \"[*]\": 
+          {\"textMateRules\":
+            [   {   \"name\": \"Docstrings\",
+                    \"scope\": \"string.quoted.docstring\",
+                    \"settings\":
+                    {    \"foreground\": \"#CE9178\"
+                    }
+                }
+            ]
+          }
+      },
+}" > ~/.config/Code/User/settings.json
