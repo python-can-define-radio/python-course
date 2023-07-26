@@ -6,7 +6,7 @@ gsettings set org.gnome.desktop.screensaver lock-delay 1800
 echo "
 
 ## Make TMOUT variable arbitrarily large to avoid terminal auto-closing
-export TMOUT=30000'" >> ~/.bashrc
+export TMOUT=30000" >> ~/.bashrc
 
 
 echo "- Disabling middle click to avoid accidental pasting"
