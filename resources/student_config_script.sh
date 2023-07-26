@@ -52,6 +52,9 @@ cd ~/Desktop
 echo "Feel free to take notes in this file if you'd like." > mod_f_notes.txt
 mkdir term_example_files
 cd term_example_files
+
+echo "A kangaroo is an animal that can jump." > kangaroo.txt
+
 echo "Facts about the Ford Mustang include:
 The Mustang was Ford’s first model to be designed with ‘floating bumpers’.
 The Ford Mustang quickly became available to buy with an automatic three speed gearbox, or with two manual options of either three or five speed gearboxes.
