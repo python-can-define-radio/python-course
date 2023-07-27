@@ -17,17 +17,17 @@ z = 13 % 5
 print(z, "is the result of 13 % 5 sometimes called modulus or the remainder.")
 
 print(f"So 13 divided by 5 gives you {x}, using floor division (13 // 5) drops the remainder giving you {y}.")
-print(f"The modulus operator (%) gives you only the remainder of the operation ({z}), which is actually 3 fifths or 3/5 which equals {z/5}")
+print(f"The modulus operator (%) gives you only the remainder of the operation ({z}).)
+print(f"This represents 3 fifths or 3/5 which equals {z/5}")
 
 a = 2 ** 5
 print(a, "is the result of 2 ** 5 or 2 to the 5th power sometimes called exponentiation.")
 print("The (**) operator gives 2 to the power of 5 or 2*2*2*2*2")
 
 ## 2
+## Now let's incorporate some inputs.
 ## Ask the user for two numbers.
 ## Display "If you divided ___ by ___, then you would get ____ with a remainder of ___".
-## You'll want the modulus operator. Look up how to do remainder (or modulus) in Python.
-## You may also want the floor division operator.
 
 
 ## 3
