@@ -188,7 +188,9 @@ mv kangaroo.txt animals
 ##  (the "animals" directory or the "vehicles" directory).
 ```
 
-## Misc practice
+## Misc practice (Optional)
+
+### If you have reached this point, switch to `ex_2a_print_and_inputs`.
 
 ```sh
 ## 23
