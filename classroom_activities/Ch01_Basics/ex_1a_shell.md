@@ -64,7 +64,7 @@ Let's get some practice:
 
 ```sh
 ## 3
-## Try this. The third command will give an error.
+## Try this. The `cd animals` command will give an error.
 cd ~
 ls
 cd Desktop
