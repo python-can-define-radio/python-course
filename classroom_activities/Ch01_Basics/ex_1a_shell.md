@@ -35,24 +35,30 @@ Notes:
 ##       For example, you can type cd ani  (the first three letters of "animals"), and then press Tab, and
 ##       it will fill the last four letters. If this autofill feature is not working, let an instructor know.
 cd ~
+pwd
 ls
 cd Desktop
+pwd
 ls
 cd term_example_files
+pwd
 ls
 cd animals
+pwd
 ls
 ```
 
-You've now used two commands: `cd` and `ls`. The first, `cd`, stands for "change directory". 
-The second, `ls`, stands for "list". You'll see that whenever you type `ls`, the terminal displays a list of 
-files. The files that are displayed by `ls` vary according to your current "working directory".
+You've now used three commands: `cd`, `ls`, and `pwd`. The first command, `cd`, stands for "<b>c</b>hange <b>d</b>irectory". The second command, `ls`, stands for "<b>l</b>i<b>s</b>t". Whenever you type `ls`, the terminal displays a list of files. The files that are displayed by `ls` vary according to your current "working directory".
 
 A "working directory" is the directory (a.k.a. folder) that you are currently interacting with --
-any commands you run will be run in that directory. If you list files, it lists the files _in that directory_.
-If you create a file, it creates it _in that directory_. (There will be exceptions, but we'll handle those later.)
+any commands you run will be run in that directory. If you list files, it lists the files _in that directory_. If you create a file, it creates it _in that directory_. (There will be exceptions, but we'll handle those later.)
 
-Using `cd` changes your working directory.
+The third command, `pwd`, stands for "<b>p</b>rint <b>w</b>orking <b>d</b>irectory". Notice how it changed every time you changed your directory using `cd`:
+
+- After running `cd Desktop`, when you ran `pwd`, it displayed `/home/yourusername/Desktop`.
+- After running `cd term_example_files`, when you ran `pwd`, it displayed `/home/yourusername/Desktop/term_example_files`.
+
+You may wonder why `pwd` does not show `~/Desktop/term_example_files`. The reason: `~` is a GNU/Linux abbreviation for your home directory, which is normally `/home/yourusername`. So, if your user name is `bob.smith`, then `~` means `/home/bob.smith`.
 
 Let's get some practice:
 
