@@ -58,21 +58,22 @@ The third command, `pwd`, stands for "<b>p</b>rint <b>w</b>orking <b>d</b>irecto
 - After running `cd Desktop`, when you ran `pwd`, it displayed `/home/yourusername/Desktop`.
 - After running `cd term_example_files`, when you ran `pwd`, it displayed `/home/yourusername/Desktop/term_example_files`.
 
-You may wonder why `pwd` does not show `~/Desktop/term_example_files`. The reason: `~` is a GNU/Linux abbreviation for your home directory, which is normally `/home/yourusername`. So, if your user name is `bob.smith`, then `~` means `/home/bob.smith`.
+You may wonder why `pwd` does not show `~/Desktop/term_example_files`. The reason: `~` (the tilde character) is a GNU/Linux abbreviation for your home directory, which is normally `/home/yourusername`. So, if your user name is `bob.smith`, then `~` means `/home/bob.smith`.
 
 Let's get some practice:
 
 ```sh
 ## 3
-## Try this. The `cd animals` command will give an error.
+## Try this.
 cd ~
 ls
 cd Desktop
 ls
 cd animals
+## Note: the `cd animals` command will give an error.
 ```
 
-The command `cd ~` means "change directory to my home directory". The tilde (~) is an abbreviation for "my home directory".
+The command `cd ~` means "change directory (`cd`) to my home directory (`~`)".
 
 Notice that `cd animals` gave an error: `bash: cd: animals: No such file or directory`. Let's break this down:
 
@@ -90,6 +91,20 @@ Notice that `cd animals` gave an error: `bash: cd: animals: No such file or dire
 ## Change your current directory to the vehicles directory.
 ```
 
+You may have noticed that it's tedious to have use `cd ~` to go back to your home directory every time you want to go into another directory. There is a special location, `..`, that means "the parent directory of this directory".
+
+```sh
+## 4c
+## Try this. Notice what happens when you run `cd ..`.
+cd ~
+cd Desktop
+pwd
+cd term_example_files
+pwd
+cd ..
+pwd
+```
+
 You may wonder why `cd ~` works regardless of where you run it. Let's distinguish between two types of paths:
 
 - **Relative Paths** are called that because they are relative to your current working directory.
@@ -104,7 +119,8 @@ cd ~/Desktop/term_example_files/animals
 
 
 ## 6
-## Try this. Notice that `cd ~` uses an absolute path, but the other three `cd` commands use relative paths.
+## Try this. Notice that `cd ~` uses an absolute path, but
+## the other three `cd` commands use relative paths.
 ## 
 cd ~
 cd Desktop
@@ -150,20 +166,7 @@ Incidentally, this is the origin of the name `cat`.
 ## Then use `ls` to list the contents of that directory.
 ```
 
-You may have noticed that it's tedious to have use `cd ~` to go back to your home directory every time you want to go into another directory. There is a special location, "..", that means "the parent directory of this directory".
-
 ```sh
-## 12
-## Try this. Notice what happens when you run `cd ..`.
-cd ~
-cd Desktop
-ls
-cd term_example_files
-ls
-cd ..
-ls
-
-
 ## 13
 ## Do these steps:
 ## - change directory to the Desktop.
