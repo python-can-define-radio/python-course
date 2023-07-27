@@ -1,6 +1,6 @@
 Most people are familiar with these four operators: +, -, *, /
 
-In this exercise, you'll learn some other useful operators.
+In this exercise, you'll learn some other useful operators: //, %, **
 
 
 ```python3
@@ -8,7 +8,7 @@ In this exercise, you'll learn some other useful operators.
 ## Try this example
 
 x = 13 / 5
-print(x, "is the result of 13 / 5")
+print(x, "is the result of 13 / 5 using regular division.")
 
 y = 13 // 5
 print(y, "is the result of 13 // 5 sometimes called floor division.")
