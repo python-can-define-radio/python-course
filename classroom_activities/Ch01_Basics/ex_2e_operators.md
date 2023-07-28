@@ -17,7 +17,7 @@ z = 13 % 5
 print(z, "is the result of 13 % 5 sometimes called modulus or the remainder.")
 
 print(f"So 13 divided by 5 gives you {x}, using floor division (13 // 5) drops the remainder giving you {y}.")
-print(f"The modulus operator (%) gives you only the remainder of the operation ({z}).)
+print(f"The modulus operator (%) gives you only the remainder of the operation ({z}).")
 print(f"This represents 3 fifths or 3/5 which equals {z/5}")
 
 a = 2 ** 5
