@@ -119,10 +119,17 @@ else:
 ## 7b
 ## You'll notice that the user must type joe lowercase. Here's how to make it so any capitalization works:
 name = input("What is your name? ")
+print(f"The lowercase version of that is {name.lower()}.")
 if name.lower() == "joe": 
     print("Your name rhymes with low.") 
 else: 
-    print(f"Hey {name}.") 
+    print(f"Hey {name}.")
+
+
+## 7bb
+## Copy and modify the previous example so that if the name is "Ruby",
+## it displays "That name is also the name of a gem."
+## Make it work for any capitalization of Ruby.
 
 
 ## 7c
@@ -135,7 +142,7 @@ print("Greetings.")
 
 ## 7d
 ## - Ask the user for a name
-## - If the name is anything other than bob, then display "I don't think I know you. I only know Bob."
+## - If the name is anything other than Bob, then display "I don't think I know you. I only know Bob."
 ## Hint: the != operator means "not equal".
 
 
