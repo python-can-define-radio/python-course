@@ -182,6 +182,13 @@ else:
     print("Hello, good to meet you.")
 
 
+## 13c
+## What's wrong with this code?
+name = input("What is your name? ")
+if name.lower() == "Bob":
+    print("Hey Bobby!")
+else:
+    print("Hello, good to meet you.")
     
 ## 14
 ## What's wrong with this code?
