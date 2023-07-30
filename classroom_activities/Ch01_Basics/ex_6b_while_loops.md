@@ -1,4 +1,4 @@
-Reminder: use Ctrl + C to exit a program (useful for exiting infinite loops).
+ℹ️ Use Ctrl + C to exit a program (useful for exiting infinite loops).
 
 ```python3
 
