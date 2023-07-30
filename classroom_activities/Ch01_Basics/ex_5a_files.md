@@ -1,3 +1,6 @@
+## File Manipulation
+
+```python3 
 # 1
 # Try this. 
 # It won't display anything to the screen -- rather, it creates a file.
@@ -40,7 +43,8 @@ f.close()
 
 
 # 6
-# The 'write' mode ('w') will create a new file if the specified file does not exist, or overwrite the contents of the file if it does exist.
+# The 'write' mode ('w') will create a new file if the specified file does not exist,
+# or overwrite the contents of the file if it does exist.
 f = open("yay_new_file.txt", "w")
 f.write("Here are some words for you.\n")
 f.close()
@@ -126,3 +130,4 @@ for count in range(0, 500000):
     filename = f"file_num_{count}.txt"
     f = open(filename, "w")
     filehandlelist.append(f)
+```
