@@ -1,4 +1,6 @@
-## Configuration
+## Preliminaries
+
+## Computer Configuration
 These instructions assume you are working on a Linux operating system (OS).
 
 - Create a folder for yourself with your name (and no spaces) on the Desktop.
