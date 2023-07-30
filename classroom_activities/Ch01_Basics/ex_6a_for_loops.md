@@ -1,4 +1,8 @@
+## For loops
+
 One of the most powerful uses of programming is the ability to repeat an action, such as automatically sending text messsages to many recipients. One way to accomplish this is the `for` loop. 
+
+ℹ️ Use Ctrl + C to exit a program (useful for exiting infinite loops).
 
 ```python3
 # 1
