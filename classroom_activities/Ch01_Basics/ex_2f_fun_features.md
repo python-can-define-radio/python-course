@@ -1,3 +1,5 @@
+## Fun Features
+
 This is an optional exercise that demonstrates some fun features.
 
 ## Delay printing
