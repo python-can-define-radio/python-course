@@ -1,4 +1,4 @@
-# Ex 2: Print and Input Statements
+## Print and Input Statements
 (This page: https://github.com/python-can-define-radio/python-course/edit/main/classroom_activities/ex_2a_print_and_inputs.md)
 
 Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
