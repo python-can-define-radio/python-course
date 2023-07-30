@@ -1,4 +1,4 @@
-## IF-Else Common Mistakes
+## If-Else Common Mistakes
 
 At this point, you've seen multiple examples of correct ways to use `input` and `if`. Now, we'll explore some common mistakes.
 
