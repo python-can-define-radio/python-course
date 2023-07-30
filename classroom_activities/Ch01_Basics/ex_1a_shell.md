@@ -1,3 +1,5 @@
+## Shell/Bash/Terminal/Command Prompt
+
 The goal of the current lesson is to familiarize new students with the "Terminal" program of the Linux operating system (OS).
 
 ### Background Information:
