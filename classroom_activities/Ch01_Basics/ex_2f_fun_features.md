@@ -68,7 +68,23 @@ console.print(table)
     
 </details>
     
-For more examples, see the [docs](https://rich.readthedocs.io).
+For more examples, see the [rich docs](https://rich.readthedocs.io).
+
+## Dialog boxes in the terminal
+
+After running `pip3 install prompt_toolkit`, try this:
+
+```python3
+from prompt_toolkit.shortcuts import input_dialog
+
+text = input_dialog(
+    title='Input dialog example',
+    text='Please type your name:').run()
+
+print(f"You said {text}.")
+```
+
+More info in the [prompt-toolkit docs](https://python-prompt-toolkit.readthedocs.io).
 
 ## Sounds
 
