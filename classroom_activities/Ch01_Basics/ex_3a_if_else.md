@@ -69,7 +69,20 @@ if name == "joe":
 
 ## 3b
 ## Copy and modify the above example so that 
-## if the name is "dell", it will print "That’s a computer brand." 
+## if the name is "dell", it will print "That’s a computer brand."
+
+
+## 3c
+## Try this.
+## Notice that the "Have a good day" line prints regardless of the chosen name.
+## This is because it is not indented (it has no spaces before the line).
+import random
+name = random.choice(["bob", "susan", "joe", "anna"])
+print(f"Hey {name}.") 
+if name == "joe":
+    print("Hello Joe!")
+    print("Your name rhymes with low.")
+print("Have a good day.")
 ```
 
 When an else-statement follows an if-statement, the computer can choose between performing a first operation or a second operation.
