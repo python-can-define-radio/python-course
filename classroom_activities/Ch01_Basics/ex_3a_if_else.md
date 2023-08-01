@@ -480,4 +480,11 @@ if color not in ["blue", "transparent"]:
 else:
     print("Yes, I agree.")
 
+
+## 34
+## Ask the user what sound a dog makes.
+## If the user says any of "woof", "bark", or "ruff", then display "That's correct!"
+## otherwise, display "Not quite."
+## Make it work for any capitalization.
+
 ```
