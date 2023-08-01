@@ -179,4 +179,11 @@ print(num_list)
 # Modify the previous example to create a list that includes all numbers  
 # between 0 and 30 that are divisible by 3.  
 # Note: 0, 1, 2, 4, etc. are not divisible by 3.  Do not include them.
+
+# 29
+# Here are some other list-related functions:
+mynums = [23, 7, 8, 10]
+print(min(mynums))  # The minimum (smallest) value
+print(max(mynums))  # The maximum (largest) value
+print(len(mynums))  # The length (how many elements are in the list)
 ```
