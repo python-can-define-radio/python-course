@@ -5,7 +5,7 @@ Almost any non-trival program will involve working with a collection, such as a 
 ```python3
 ### Lists are zero-indexed. That means...
 thelist = ["water", "chair", "mug", "mouse"]
-           # 0      1        2      3 
+#             0        1       2       3 
 ### Example:
 print(thelist[0])    # This will print water
 print(thelist[2])    # What will this print?
@@ -22,28 +22,38 @@ print(thelist[1])
 
 
 # 3
-# Try this. Do you expect an error?
-print(thelist[-1])
+# The items in a list can be referred to using negative indexes.
+thelist = ["water", "chair", "mug", "mouse"]
+#            -4       -3      -2      -1
+# Try this:
+print(thelist[-1])  # This will print "mouse"
+print(thelist[-2])  # What will this print?
 
 
 # 4
-# Add a few elements to thelist. Then do this again:
-print(thelist[-1])
+# Let's try that with a longer list:
+foods = ["Potatoes", "Beef", "Broccoli", "Lemons", "Grapes"]
+#            0          1         2          3        4
+#           -5         -4        -3         -2       -1
+print(foods[1])  # This prints "Donuts"
+print(foods[-1])  # This prints "Pizza"
 
 
 # 5
-# Now make it print the second-to-last element of thelist.
+# Copy and modify the previous example to print the second-to-last element of `foods`.
 
 
 # 6
 # Try this. Which items does it display? 
 # Does it include all of the items you expected? 
-# (It’s a little counterintuitive.)
 print(thelist[0:3])
+# Counterintuitively, it always omits the last item, so 0:3 actually
+# means item 0, item 1, item 2 (not including 3).
 
 
 # 7
 # Try this.
+# Notice that it includes item 1 and item 2, but not item 3.
 print(thelist[1:3])
 
 
@@ -63,7 +73,7 @@ print(thelist[1:])
 
 # 11
 # You can change an item in the list using the following approach.
-# How could you verify that the list was changed?
+# How could you verify that the list was changed? (Hint: use print.)
 letters = ["a", "b", "c", "d", "e"]
 letters[0] = "ROCKET"
 
