@@ -16,6 +16,29 @@ for color in colors:
 
 The line `for color in colors:` is the new part. It means "for each color in my list of colors, do the following actions."
 
+You can think of it like this:
+
+```python3
+# 1b
+# This is a way to imagine how the code above works.
+colors = ["red", "orange", "yellow"]
+
+color = colors[0]
+print("Here is a color that I know:")
+print(color)
+print()
+
+color = colors[1]
+print("Here is a color that I know:")
+print(color)
+print()
+
+color = colors[2]
+print("Here is a color that I know:")
+print(color)
+print()
+```
+
 For example, we could greet each name in a list of names:
 
 ```python3
