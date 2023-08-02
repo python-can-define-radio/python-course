@@ -35,8 +35,8 @@ print(thelist[-2])  # What will this print?
 foods = ["Potatoes", "Beef", "Broccoli", "Lemons", "Grapes"]
 #            0          1         2          3        4
 #           -5         -4        -3         -2       -1
-print(foods[1])  # This prints "Donuts"
-print(foods[-1])  # This prints "Pizza"
+print(foods[1])  # This prints "Beef"
+print(foods[-1])  # This prints "Grapes"
 
 
 # 5
