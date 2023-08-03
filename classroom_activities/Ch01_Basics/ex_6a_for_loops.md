@@ -162,6 +162,18 @@ print("Hello"*3)
 
 # 13
 # Modify the previous example to ask the user how many "Hello"s to print.
+# Hint: There are two ways to do this.
+#
+#   One approach uses a `for` loop, and would resemble this:
+#   (Note that you should replace the "???" with actual code)
+#
+#       howmany = int(input("How many times would you like to print Hello? "))
+#       for i in range(???):
+#           print("Hello")
+#   
+#   The second approach is to simply multiply within the print function:
+#   howmany = ???
+#   print("Hello"*howmany)
 
 
 # 14a
@@ -171,6 +183,11 @@ print("Hello"*3)
 # AAAAA
 # AAAAA
 # AAAAA
+# 
+# Hint:
+#     howmany = int(input("How many rows would you like? "))
+#     for i in range(???):
+#         print("AAAAA")
 
 
 # 14aa
@@ -180,6 +197,11 @@ print("Hello"*3)
 # 2 A
 # 3 A
 # 4 A
+#
+# Hint:
+#     howmany = int(input("How many rows would you like? "))
+#     for i in range(???):
+#         print(f"{you_the_student_will_fill_this} A")
 
 
 # 14aaa
@@ -300,18 +322,31 @@ Let's do some math inside of the loop.
 # 24
 # Copy and modify the previous example to display how old each person was when he/she started this job. For example, Maria started this job 7 years ago, so you would print this:
 #    The instructor Maria is 38 years old, and started working at age 31.
+# 
+# Note: For this exercise, the following portion must remain unchanged:
+#     instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
+#                     ["Joel", 28, 3], ["Tate", 67, 5]]
+#
+# In other words, you cannot add the age that the each person started working
+# in the instructors list; rather, you must compute it within the `for` loop.
+# Ask an instructor if this is unclear.
 
 
-# 25 (challenge question)
+# 25
 # Copy and modify the previous example to display each person's name and salary.
 # Compute the salary using this formula:
 #   For 0 to 4 years, the pay is $35000.
 #   For 5 to 9 years, the pay is $36000.
 #   For 10 to 14 years, the pay is $37000.
 #   etc.
-# Hint: use floor division (the // operator) to compute the salary.
-#       It will resemble this:  salary = base_pay + pay_adjustment * (years_of_exp // 5)
-# Example: 
+# Hint:
+# base_pay = ???
+# pay_adjustment = ???
+# for name, age, yearsExp in instructors:
+#     pay_level = yearsExp // 5
+#     salary = base_pay + (pay_adjustment * pay_level)
+#     print(f"???")
+# Example output: 
 #     Maria: 7 years of experience, $36000 per year
 
 
@@ -320,6 +355,10 @@ Let's do some math inside of the loop.
 # Ask the user for...
 #  - the base pay, and
 #  - the amount of pay adjustment per 5 years of experience.
+# Example run:
+#     What is the base pay? 55000
+#     What is the pay adjustment per 5 years of experience? 2000 
+#     Maria: 7 years of experience, $57000 per year
 
 
 # 27
@@ -329,14 +368,13 @@ Let's do some math inside of the loop.
 # Must compute the total inside the for loop.
 # Hint: the structure will resemble this:
 #   totalYearsExp = 0
-#   for ... in ...:
-#       ...
+#   for ??? in ???:
 #       totalYearsExp += yearsExp
-#       ...
 #   print(f"The total amount of work experience for this team is {totalYearsExp}")
 ```
 
-Here's some more practice with that concept:
+Here's some more practice:
+
 ```
 # 27b
 ### Given this data...
@@ -350,7 +388,8 @@ runners = [
 ### ...Your task is to print the name and Minutes Per Mile for each runner.
 ### structure:
 for name, miles_run, minutes in runners:
-    print("...")
+    print(f"{name} ran {miles_run} in {minutes} minutes.")
+    print(f"That means {name} took an average of {???} minutes per mile.")
 ```
 
 
