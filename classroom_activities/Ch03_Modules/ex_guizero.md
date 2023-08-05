@@ -5,7 +5,7 @@ The goal of the current lesson is to familiarize new students with the "guizero"
 
 ### Notes: 
 - You may need to install guizero to begin.
-  - pip install guizero (from the terminal) 
+  - `pip install guizero` (from the terminal) 
 - guizero builds from top to bottom and spacing or padding is not built in you may have to get creative.
   - Specific placement is possible using (x,y) grid coordinates but is beyond the scope of this lesson.
 
@@ -344,3 +344,8 @@ At this point, if you finish before the rest of the class, or if you'd like more
 ### Some useful resources:
 `(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new tab" or new window and then go to that tab/window.)`
 - https://lawsie.github.io/guizero/start/
+
+### Other notes:
+
+- `xset r $PROPERSETTINGGOESHERE`
+- `when_key_*`
