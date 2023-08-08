@@ -42,10 +42,12 @@ print(exponentiated)
 remainder = x % y
 print(remainder)
 
-## The next six are "boolean operators".
+## The next six operators are "boolean operators".
 ## They are most often used in the context of an if statement or while statement.
-## Some say that booleans are used "to represent truth", but
-## I think a better description is to say they are values that can only be True or False.
+## Some say that booleans are used "to represent truth". (In fact, this is the 
+## "correct" definition for boolean on a certain test that we've seen.)
+## However, here's a better description, from the Mozilla Developer Network (MDN):
+## "A Boolean is a logical data type that can have only the values True or False."
 
 ## The double equals is used to check if two values are equal (that is, to check if they are the same).
 are_same = x == y
