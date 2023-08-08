@@ -64,3 +64,7 @@ https://github.com/python-can-define-radio/python-course/blob/main/resources/dis
 Notes about `Delete`:
 - In the "Terminal" program, the cursor is a box.  The `Delete` key deletes the character inside the cursor box and pulls text from the RIGHT.
 - For many other programs, the cursor is a line that sits between two characters.  In this case, the {Delete} key deletes the character on the RIGHT side of the cursor and pulls text from the right.
+
+### Misc
+
+- The instructor will demonstrate how to search within multiple files in VS Code.
