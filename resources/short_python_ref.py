@@ -81,3 +81,15 @@ a = "You say..."
 b = "Goodbye"
 together = a + b
 print(together)
+
+# Another common string operation is lowercasing:
+a = "Something With Capitalization"
+b = a.lower()
+
+# .lower() is often used in if statements.
+# Remember the parentheses! ()
+response = input("Say something: ")
+if response.lower() == "no":
+    print("You said no, or No, or...")
+else:
+    print("Ok")
