@@ -1,12 +1,15 @@
 #!/bin/bash -e
 
-echo "- Setting screen blank timeout, lock timeout, and bash terminal timeout"
+echo "- Setting screen blank timeout, lock timeout, and bash terminal timeout and bash prompt"
 gsettings set org.gnome.desktop.session idle-delay 900
 gsettings set org.gnome.desktop.screensaver lock-delay 1800
 echo "
 
 ## Make TMOUT variable arbitrarily large to avoid terminal auto-closing
 export TMOUT=30000" >> ~/.bashrc
+
+echo "## Modify prompt to put $ on the next line " >> ~/.bashrc
+echo PS1=\'\${debian_chroot:+(\$debian_chroot)}\\\[\\033\[01\;32m\\\]\\u@\\h\\\[\\033\[00m\\\]:\\\[\\033\[01\;34m\\\]\\w\\\[\\033\[00m\\\]\\n\\\$ \' >> ~/.bashrc
 
 echo "- Disabling middle click to avoid accidental pasting"
 # this works for a single session only (non-persistent).
