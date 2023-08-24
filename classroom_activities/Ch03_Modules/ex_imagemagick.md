@@ -51,6 +51,12 @@ Reformats, resizes, blurs, and crops all at once.
 `convert calculate.png -crop 564x83+23+135 -resize 50% -blur 1x2 calculate2.jpeg`  
 Notice I moved crop before resize because the resolution of the resized image would be different and we would be cropping the wrong part of the image.
 
+#### example of combine:
+Combined 2 or more images into a single image.  
+`convert Player.png Enemy.png +append combined.png`  
+This is useful in creating a spritesheet used by the arcade module. (images should be close to the same resolution)  
+Look [here](https://api.arcade.academy/en/stable/index.html) for more information on the python arcade library.  
+
 [imagemagick documentation](https://imagemagick.org/Usage/)
 
 Note on documentation: On our Ubuntu distribution you can drop the preceding `magick` command and use the commands directly.
