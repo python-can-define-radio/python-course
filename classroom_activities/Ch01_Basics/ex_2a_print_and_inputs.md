@@ -3,7 +3,8 @@
 
 Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
 
-We'll be primarily using Visual Studio Code (VS Code) as our editor for the Python code that we write. Here's how to get set-up:
+We'll be primarily using Visual Studio Code (VS Code) as our editor for the Python code that we write. Another editor option is called Thonny. However, its primary use for the purposes of this class will be debugging.
+<details><summary>Here's how to get set-up for VS Code:</summary>
 
 - Open VS Code
 - Open your folder using `File -> Open Folder` (If needed, first create a folder using the Terminal or the file managment program.)
@@ -17,23 +18,20 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 - Type `python3 ex_2a_print_inputs.py` and press enter.
 - It should display "Here we go!" in the terminal.
 - Ask if you have any questions.
+</details>
+<details><summary>Here's how to get set-up for Thonny:</summary>
 
-
-
-<details><summary> :information_source: Note <i>(Click here to expand)</i></summary>
-
-> ```
-> A great supplemental resource is https://learn.arcade.academy .
-> They start talking about `print` on Chapter 4.
-> Some notes before you head over to that site:
->  
-> - It mentions "Installing the Python programming language". That's already done in our classroom.
-> - It mentions "An integrated development environment (IDE) called PyCharm". We 
->      primarily use VSCode (not PyCharm) as our IDE.
-> - It mentions a "Version control system" called git. Git is not required for
->      this class, but interested readers are encouraged to explore it.
-> - Sections 4.2 and 4.3 are PyCharm-specific. You can skip them.
-> ```
+- Open a terminal window and type `thonny` and hit enter.
+- Once Thonny opens, click `View > Files` to see the complete file structure.
+    - You may also want to select Variables and/or Assistant to open their panes as well.
+- Navigate to your personal folder in the Files pane on the left.
+- Create a file called `ex_2a_print_inputs.py`
+- Now that you have that file open, type this in that file:
+     ```python3
+     print("Here we go!")
+     ```
+- Save the file to your local drive by press the key combination {Ctrl}{S} or by using the "File/Save" menu command.
+- Press F5 or the Play ▶️ at the top left of your screen to run the script.
 </details>
 
 ## Some header
@@ -549,8 +547,23 @@ print(fullPhoneNum)
 
 - If you press <kbd>Shift Enter</kbd>, you can cause issues. Ask the instructor to demonstrate (it's difficult to explain textually).
 - The instructor will demonstrate how to use VS Code's multi-file search.
-- 
+  
 </details>
 
+<details><summary> :information_source: For more information on Prints and Inputs <i>(Click here to expand)</i></summary>
+
+> ```
+> A great supplemental resource is https://learn.arcade.academy .
+> They start talking about `print` on Chapter 4.
+> Some notes before you head over to that site:
+>  
+> - It mentions "Installing the Python programming language". That's already done in our classroom.
+> - It mentions "An integrated development environment (IDE) called PyCharm". We 
+>      primarily use VSCode (not PyCharm) as our IDE.
+> - It mentions a "Version control system" called git. Git is not required for
+>      this class, but interested readers are encouraged to explore it.
+> - Sections 4.2 and 4.3 are PyCharm-specific. You can skip them.
+> ```
+</details>
 
 
