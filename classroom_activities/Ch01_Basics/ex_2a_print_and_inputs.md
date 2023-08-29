@@ -1,5 +1,5 @@
 ## Print and Input Statements
-(This page: https://github.com/python-can-define-radio/python-course/edit/main/classroom_activities/ex_2a_print_and_inputs.md)
+(This page: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2a_print_and_inputs.md)
 
 Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
 
@@ -61,10 +61,8 @@ print("more than one line.")
 
 Once you have run both of those exercises, you can "comment out the lines", that is, disable them. Here's how:
 
-- In the editor part of VS Code, place your cursor on any part of the line (for example, the "n" of `print`).
-- Press `Ctrl /`. You'll see that the line is now preceded by a "#", and turns green. This indicates that it is "Commented" (disabled), that is, it will no longer run.
-
-- TODO: explain how in Thonny
+- In the editor, place your cursor on any part of the line (for example, the "n" of `print`).
+- Press `Ctrl` + `/` in VS Code, or `Ctrl` + `3` in Thonny. You'll see that the line is now preceded by a "#", and turns a different color. This indicates that it is "Commented" (disabled), that is, it will no longer run.
 
 Example:
 ```python3
@@ -81,10 +79,7 @@ We speak of commenting frequently, so here are some example sentences to show ho
 - "Rem those out" (_The verb "rem" comes from "remark", which is a synonym for comment._)
 - "Rem them out"
 
-You can manually add the `#` characters if you want, but there's an easier way in VS Code:
-
-- Highlight any portion of the lines
-- Press `Ctrl /`
+You can manually add the `#` characters if you want, but we recommend using the aforementioned keyboard shortcuts (`Ctrl` + `/` in VS Code, or `Ctrl` + `3` in Thonny).
 
 Commenting out the exercises as you go is a great idea because it allows you to keep them for reference, but not see the output every time you press run.
 
