@@ -173,7 +173,7 @@ To debug in VS Code, place a breakpoint (a red dot; ask an instructor to demonst
 
 For more information on debugging in Thonny, see the [Thonny homepage](https://thonny.org/), or ask an instructor.
 
-For a short video on debugging with Thonny go [here](https://www.bing.com/videos/search?q=thonny+debugger+tutorial&docid=603540340752852285&mid=3D5DFB69D5CBD10A5E6C3D5DFB69D5CBD10A5E6C&view=detail&FORM=VIRE)
+For a short video on debugging with Thonny go [here](https://www.bing.com/videos/search?q=thonny+debugger+tutorial&docid=603540340752852285&mid=3D5DFB69D5CBD10A5E6C3D5DFB69D5CBD10A5E6C&view=detail&FORM=VIRE).
 
 ### Using Input Statements
 
