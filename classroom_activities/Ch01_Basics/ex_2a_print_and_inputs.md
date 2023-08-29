@@ -32,9 +32,11 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
      ```
 - Save the file to your local drive by press the key combination {Ctrl}{S} or by using the "File/Save" menu command.
 - Press F5 or the Play ▶️ at the top left of your screen to run the script.
+- It should display "Here we go!" in the terminal.
+- Ask if you have any questions.
 </details>
 
-## Some header
+## Background info
 
 Before we get to the rest of the exercises, here's a little info about what we're doing. This quoted from https://learn.arcade.academy/en/latest/chapters/04_print_statement/print_statement.html .
 
@@ -51,15 +53,18 @@ Before we get to the rest of the exercises, here's a little info about what we'r
 ## Try this.
 print("Here we go!")
 
-## 2
+## 1b
 ## Try this.
-print("If you want \n separate lines, you \n can do it \n like this.")
+print("I can print")
+print("more than one line.")
 ```
 
 Once you have run both of those exercises, you can "comment out the lines", that is, disable them. Here's how:
 
 - In the editor part of VS Code, place your cursor on any part of the line (for example, the "n" of `print`).
 - Press `Ctrl /`. You'll see that the line is now preceded by a "#", and turns green. This indicates that it is "Commented" (disabled), that is, it will no longer run.
+
+- TODO: explain how in Thonny
 
 Example:
 ```python3
@@ -83,23 +88,25 @@ You can manually add the `#` characters if you want, but there's an easier way i
 
 Commenting out the exercises as you go is a great idea because it allows you to keep them for reference, but not see the output every time you press run.
 
-Speaking of comments, you'll see that we've numbered our exercises. We highly recommend that you number them on your computer as you work through them, as it makes them easier to find later.
+Speaking of comments, you'll see that we've numbered our exercises. Number them accordingly on your computer as you work through them, as it makes them easier to find later. Also, we (the instructors) may refer to a specific exercise by number.
 
 ```python3
+## 2a
+## Try this.
+print("If you want \n separate lines, you \n can also do it \n like this.")
+
+
 ## 2b
 ## Try this.
 print("This thing inside quotes is called a \"string\". If you want")
-print("to put quotes inside, this is how.")
+print("to put quotes inside of quotes, you precede the quotes with a backslash.")
+```
 
+The backslash (`\`) is the character that always begins an 'escape sequence' in Python. An escape sequence can have one of two uses:
+- It allows you type special characters, such as newline (`\n`).
+- It allows you to type characters in a string that would normally have special meaning in Python, such as `"`.
 
-## 2c
-## Try this.
-print("You have now seen two escape sequences: \n for newline, and \" for a quotation mark.")
-print("Another useful sequence is two backslashes,")
-print("which is used to type a single backslash.")
-print("Example:  \\  will only display one backslash.")
-
-
+```python3
 ## 2d
 ## Try this.
 print("""If you put three quote marks, 
@@ -118,11 +125,13 @@ instead of using the '#' if I wanted to."""
 ## 2f
 ## Try this.
 print('In Python, the single quote can be used instead of the double quote.')
+print("You can put 'single quotes' inside of double quotes, or vice versa, without needing an escape sequence.")
+print('However, if you want single quotes inside of single quotes, you\'ll need to escape them.')
 ```
 
 ### Using Variables
 
-At this point, you've displayed some text on the screen. We may also want to store data, and give it a specific name. To do that, you use a **variable**.
+At this point, you've displayed some text on the screen. We may also want to store data, and give it a specific name. In programming, this storage is done using a **variable**.
 
 If you'd like to read more about variables, go to section 7.1 on this page: https://learn.arcade.academy/en/latest/chapters/07_expressions/expressions.html
 
