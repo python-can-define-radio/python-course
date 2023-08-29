@@ -9,7 +9,7 @@
 
 ## 1
 ## Verifying that the data is available:
-f = open("fake_smoker_data.csv")
+f = open("06c_pandas_fake_smoker_data.csv")
 print(f.readlines())
 f.close()
 
@@ -17,7 +17,7 @@ f.close()
 ## 2
 ## Setup
 import pandas as pd
-fakeSmokerData = pd.read_csv("fake_smoker_data.csv")
+fakeSmokerData = pd.read_csv("06c_pandas_fake_smoker_data.csv")
 
 
 ## 3

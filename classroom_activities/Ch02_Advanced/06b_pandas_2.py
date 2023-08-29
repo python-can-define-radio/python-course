@@ -1,11 +1,11 @@
 ## Do ex_pandas.py exercise before attempting this one
 
-## - Download the sales_data_2022.csv file from our classroom_activities folder.
+## - Download the 06d_pandas_sales_data_2022.csv file from our classroom_activities folder.
 
 ## 1
 
 import pandas as pd
-sales2022 = pd.read_csv("sales_data_2022.csv")
+sales2022 = pd.read_csv("06d_pandas_sales_data_2022.csv")
 print(sales2022)
 
 ## 2

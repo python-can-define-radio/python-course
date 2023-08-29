@@ -4,6 +4,8 @@
 
 Imagemagick is an incredibly powerful software resource preinstalled to our Linux OS which is used to convert between image formats, resize, blur, crop, or combine images.  It can do much more, but these are the basics that we will discuss.  Also, it does have a graphical user interface, but is not difficult to use via terminal commands, which is what we will demonstrate.
 
+All commands in this lesson are run in the terminal.
+
 To find out if your image format is supported, type `convert identify -list format`.
 
 To find out the specifics of your image, type identify + yourfilename, for example, `identify calculate.png`.

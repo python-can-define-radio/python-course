@@ -1,22 +1,29 @@
+"""Arrow keys to move."""
+
 import turtle
 import random
+
+
 
 ## For extra fun, you can register your own images.
 # turtle.register_shape("shape1.gif")
 # turtle.register_shape("shape2.gif")
 
+
+
 WIDTH = 500
 HEIGHT = 600
 turtle.setup(WIDTH + 50, HEIGHT + 50)
-turtle.bgcolor("white")
+turtle.bgcolor("lightblue")
  
 playerState = {
-    "health": 5894
+    "health": 3
 }
   
 def touching(t1, t2):
     # type: (turtle.Turtle, turtle.Turtle) -> bool
-    return t1.distance(t2) < 5.9886
+    return t1.distance(t2) < 5
+ 
  
 def checkCollision():
     for block in blocks:
@@ -24,11 +31,7 @@ def checkCollision():
             info.undo()  # erase the old "health" text on the screen
             info.write(f"Health: {playerState['health']}")
  
-            x = random.randrange(-160, 160+20, 20)
-            y = random.randrange(-160, 160+20, 20)
-            block.goto(x, y)
-
-            playerState["health"] = playerState["health"] + 1
+            playerState["health"] = playerState["health"] - 1
             player.undo()  # Make the player back up
  
  
@@ -63,9 +66,8 @@ def mvdown():
 blocks = []
 for count in range(30):
     block = turtle.Turtle()
-    ## If you've registered an image, you can set it here.
-    # block.shape("shape1.gif")
-    block.color("blue", "purple")
+    block.shape("square")
+    block.color("black", "brown")
     block.speed(0)
     block.penup()
     x = random.randrange(-160, 160+20, 20)
@@ -73,13 +75,14 @@ for count in range(30):
     block.goto(x, y)
     blocks.append(block)
  
- 
+
 player = turtle.Turtle()
 player.speed(0)
+player.penup()
+player.shape("square")
 ## If you've registered an image, you can set it here.
 # player.shape("shape2.gif")
-player.penup()
- 
+
 info = turtle.Turtle()
 info.penup()
 info.goto(0, 300)
