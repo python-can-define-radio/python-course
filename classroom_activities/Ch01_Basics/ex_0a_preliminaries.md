@@ -67,4 +67,4 @@ Notes about `Delete`:
 
 ### Misc
 
-- The instructor will demonstrate how to search within multiple files in VS Code.
+- Use the magnifying glass on the left hand side of VS Code to search within multiple files.
