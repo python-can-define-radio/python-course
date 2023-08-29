@@ -130,7 +130,6 @@ At this point, you've displayed some text on the screen. We may also want to sto
 
 If you'd like to read more about variables, go to section 7.1 on this page: https://learn.arcade.academy/en/latest/chapters/07_expressions/expressions.html
 
-
 ```python3
 ## 3
 ## Try this.
@@ -163,6 +162,16 @@ print(f"My name is {firstn} {lastn}")
 ## comma approach doesn't work, but f-strings do work.)
 print("My name is", firstn, lastn)
 ```
+
+### Using the Debugger
+
+The debugger is useful for watching your code as it runs. Thonny's debugger is particularly useful, as it evaluates individual steps within a line of code.
+
+To debug in Thonny, press `Ctrl` + `F5`.
+
+To debug in VS Code, place a breakpoint (a red dot; ask an instructor to demonstrate) on a the line of code on which you'd like to begin debugging (the first line if you aren't sure), and then press `F5`.
+
+For more information on debugging in Thonny, see the [Thonny homepage](https://thonny.org/), or ask an instructor.
 
 ### Using Input Statements
 
