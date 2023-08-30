@@ -6,7 +6,7 @@
 
 ### Import the module
 
-- We will use numpy to plot waves so it will need to be imported as well.
+- We will use numpy to create waves so it will need to be imported as well.
 
 ```python3
 import matplotlib.pyplot as plt
@@ -21,19 +21,20 @@ y = [1, 2, 2, 3, 4, 3, 2, 2, 1]
 plt.plot(y)
 plt.show()
 ```
-- This is the minimum required to plot anything (define the y-axis, plot the y-axis, and show the plot).
-- without defining `x` it will default to the index of the y-axis element (0,1,2 etc.) up to the length of the y-axis
+- This is the minimum required to plot anything (define the y-axis values, plot them, and show the plot).
+- If you don't specify any values for the x-axis, it will default to the index of the y-axis element. In this example, there are 9 y-axis elements, so there will be 9 x-axis values: `0, 1, 2 ... 7, 8`.
 
 ```python3
 ## 2
-## Now lets add a background grid and a title.
+## Now let's add a background grid and a title.
 y = [1, 2, 2, 3, 4, 3, 2, 2, 1]
 plt.plot(y)
 plt.grid()
 plt.title("First Plot")
 plt.show()
 ```
-- Now lets add the x-axis.
+
+- Now let's provide x-axis values.
 
 ```python3
 ## 3
@@ -67,7 +68,7 @@ plt.show()
 ```python3
 ## 5
 ## Try this.
-## feel free to experiment.
+## Feel free to experiment.
 amplitude = [1, 2, 2, 3, 4, 3, 2, 2, 1]
 time = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 plt.plot(time, amplitude, marker="*", markersize=10, color="red", linestyle="--")
@@ -77,15 +78,17 @@ plt.grid()
 plt.title("Second Plot")
 plt.show()
 
+
+## 6
 ## The plot function also accepts a short form which combines the marker, color, and linestyle arguments like this.
 ## Try replacing your plt.plot command with this one.
 plt.plot(time, amplitude, "*r--", markersize=10)
 ## The order of *, r, and -- do not matter.
 ```
 
+### Using `linspace` to generate x values
 
-
-### using subplots or multiple signals in a single plot and tight_layout
+### Using subplots or multiple signals in a single plot and `tight_layout`
 
 ### Adding text onto our plot
 
