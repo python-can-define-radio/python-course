@@ -135,19 +135,70 @@ Because python does not interpret the + as addition to each element of the times
 
 ### Using subplots or multiple signals in a single plot and `tight_layout`
 
+```python3
+## 11
+## Plot this.
+## It demonstrates multiple signals in a single plot.
+## I also seperated marker, color, and linestyle in order to use special characters for the marker.
+timestamps = np.linspace(0, 6.28, 15, endpoint=False)
+y = np.sin(timestamps)
+z = np.cos(timestamps)
+plt.plot(timestamps, y, marker="$S$", color="blue", linestyle= "-", markersize=10, linewidth=3, label="sine")
+plt.plot(timestamps, z, marker="$C$", color="red", linestyle= "-", markersize=10, linewidth=3, label="cosine")
+plt.legend(loc="upper right")
+plt.show()
+
+## 12
+## Plot this.
+## It shows the same 2 waves in seperate subplots.
+timestamps = np.linspace(0, 6.28, 15, endpoint=False)
+y = np.sin(timestamps)
+z = np.cos(timestamps)
+t = timestamps
+plt.subplot(211)
+plt.plot(timestamps, y, marker="$S$", color="blue", linestyle= "-", markersize=10, linewidth=3, label="sine")
+plt.legend(loc="upper right")
+plt.subplot(212)
+plt.plot(timestamps, z, marker="$C$", color="red", linestyle= "-", markersize=10, linewidth=3, label="cosine")
+plt.legend(loc="upper right")
+plt.subplot(2123)
+plt.plot(timestamps, t, marker="$T$", color="red", linestyle= "-", markersize=10, linewidth=3, label="Timestamps")
+plt.legend(loc="upper right")
+plt.show()
+
+## 13
+## We have added a third subplot.
+## Use plt.tight_layout() to prevent overlapping subplots.
+timestamps = np.linspace(0, 6.28, 15, endpoint=False)
+y = np.sin(timestamps)
+z = np.cos(timestamps)
+t = timestamps
+plt.subplot(311)
+plt.plot(timestamps, y, marker="$S$", color="blue", linestyle= "-", markersize=10, linewidth=3, label="sine")
+plt.legend(loc="upper right")
+plt.subplot(312)
+plt.plot(timestamps, z, marker="$C$", color="red", linestyle= "-", markersize=10, linewidth=3, label="cosine")
+plt.legend(loc="upper right")
+plt.subplot(313)
+plt.plot(timestamps, t, marker="$T$", color="green", linestyle= "-", markersize=10, linewidth=3, label="Timestamps")
+plt.legend(loc="upper right")
+plt.tight_layout()
+plt.show()
+
+```
 ### Adding text onto our plot
 
 ```python3
 
 amplitude = [1, 2, 2, 3, 4, 3, 2, 2, 1]
 time = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-plt.plot(time, amplitude, "Pr--")
+plt.plot(time, amplitude, "Pr-", linewidth=.2)
 plt.xlabel("Time")
 plt.ylabel("Amplitude")
 plt.text(0.2, 2.5, 'box with italic text at data coords: .2(x) and 2.5(y)', style='italic',
         bbox={'facecolor': 'red', 'alpha': 0.4, 'pad': 10})
 plt.grid()
-plt.title("Second Plot")
+plt.title("Eleventy seventh Plot")
 plt.show()
 ```
 
