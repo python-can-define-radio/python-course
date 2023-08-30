@@ -4,7 +4,7 @@
 `pip install matplotlib`  
 `pip install numpy`
 
-### Import the module
+### Import the modules
 
 - We will use numpy to create waves so it will need to be imported as well.
 
