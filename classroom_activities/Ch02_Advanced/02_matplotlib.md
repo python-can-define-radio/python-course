@@ -129,7 +129,7 @@ plt.show()
 ```
 <details><summary>Answer for # 7 above</summary>
   
-Because python does not interpret the + as addition to each element of the timestamps list
+Because python does not interpret the + as addition to each element of the timestamps list but a numpy array does.
 
 </details>
 
