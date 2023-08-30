@@ -55,7 +55,7 @@ plt.show()
 - You should have gotten an error similar to this:  
   `ValueError: x and y must have same first dimension, but have shapes (9,) and (8,).`
   
-- This means that the length of the lists `x` and `y` must be the same length.
+- This means that the length of the lists `x` and `y` must be the same.
 </details>
 
 ### Specifying markers, colors, linestyle, legends 
