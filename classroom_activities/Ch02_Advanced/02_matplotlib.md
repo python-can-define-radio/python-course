@@ -16,7 +16,7 @@ import numpy as np
 
 ```python3
 ## 1
-## Try this.
+## Plot this.
 y = [1, 2, 2, 3, 4, 3, 2, 2, 1]
 plt.plot(y)
 plt.show()
@@ -38,14 +38,13 @@ plt.show()
 
 ```python3
 ## 3
-## Try this.
+## Plot this.
 y = [1, 2, 2, 3, 4, 3, 2, 2, 1]
 x = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 plt.plot(x, y)
 plt.grid()
 plt.title("First Plot")
 plt.show()
-
 
 ## 4
 ## Copy and modify the previous example and remove a single point of either x or y.
@@ -61,32 +60,78 @@ plt.show()
 
 ### Specifying markers, colors, linestyle, legends 
 
-- [Here](https://matplotlib.org/stable/api/markers_api.html) is a list of available markers.
-- [Here](https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html) is a list of available linestyles.
-- [Here](https://matplotlib.org/stable/gallery/color/named_colors.html) is a list of available colors.
+- [Here](https://matplotlib.org/stable/api/markers_api.html) is a list of available matplotlib markers.
+- [Here](https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html) is a list of available matplotlib linestyles.
+- [Here](https://matplotlib.org/stable/gallery/color/named_colors.html) is a list of available matplotlib colors.
+- [Look Here](https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.legend.html) for information about legends in matplotlib.
 
 ```python3
 ## 5
-## Try this.
+## Plot this.
 ## Feel free to experiment.
 amplitude = [1, 2, 2, 3, 4, 3, 2, 2, 1]
 time = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
-plt.plot(time, amplitude, marker="*", markersize=10, color="red", linestyle="--")
+plt.plot(time, amplitude, marker="*", markersize=10, color="red", linestyle="--", label="test legend")
+plt.legend(loc="upper right")
 plt.xlabel("Time")
 plt.ylabel("Amplitude")
 plt.grid()
 plt.title("Second Plot")
 plt.show()
 
-
 ## 6
-## The plot function also accepts a short form which combines the marker, color, and linestyle arguments like this.
+## The plot function also accepts a short form which combines the
+## marker, color, and linestyle arguments.
 ## Try replacing your plt.plot command with this one.
 plt.plot(time, amplitude, "*r--", markersize=10)
 ## The order of *, r, and -- do not matter.
 ```
 
-### Using `linspace` to generate x values
+### Using functions `linspace` and `sin` to generate values
+
+- Now lets trying using numpy functions to generate our values.
+- We are going back to a basic plot without any of the `fancy` stuff
+
+```python3
+## 7
+## Try this,  it fails. Can you determine why?
+timestamps = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
+y = timestamps + 3
+plt.plot(timestamps, y, "*g--")
+plt.show()
+## See below for answer
+
+## 8
+## Plot this.
+## We have to use a numpy array instead of a list.
+timestamps = np.array([0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9])
+y = timestamps + 3
+plt.plot(timestamps, y, "*g--")
+plt.show()
+
+## 9
+## Plot this.
+## We can simplify by using np.linspace.
+## This will do the same thing as np.array above and now it doesn't matter how long our array is.
+timestamps = np.linspace(0, 1, 10, endpoint=False)
+y = timestamps + 3
+plt.plot(timestamps, y, "*g--")
+plt.show()
+
+## 10
+## Plot this.
+## We can also use more interesting functions
+## like the sine function to create a wave.
+timestamps = np.linspace(0, 5, 50, endpoint=False)
+y = np.sin(timestamps)
+plt.plot(timestamps, y, "*g--")
+plt.show()
+```
+<details><summary>Answer for # 7 above</summary>
+  
+Because python does not interpret the + as addition to each element of the timestamps list
+
+</details>
 
 ### Using subplots or multiple signals in a single plot and `tight_layout`
 
@@ -106,40 +151,6 @@ plt.title("Second Plot")
 plt.show()
 ```
 
-
-
-
-
-
-```python3
-import numpy as np
-from pcdr import ook_modulate, createTimestamps, makeComplexWave
-import matplotlib.pyplot as plt
-
-samp_rate = 50
-modded = ook_modulate(data=[1, 0, 1, 0, 1, 0, 1, 1], 
-                      bit_length=25)
-t = len(modded) / samp_rate
-timestamps = createTimestamps(seconds=t, num_samples=len(modded))
-wave = makeComplexWave(timestamps, freq=4)
-fully_modded = modded * wave
-fully_modded.tofile("additional_practice_signal.complex")
-retrieved = np.fromfile("additional_practice_signal.complex", dtype=np.complex64)
-plt.subplot(311)
-plt.plot(timestamps, modded, "o-", color="black", markersize=5, label="Modded")
-plt.plot(timestamps, wave.real, "<-", color="blue", markersize=5, label="Real")
-plt.plot(timestamps, wave.imag, ">-", color="red", markersize=5, label="Imag")
-plt.legend(loc="upper right")
-plt.subplot(312)
-plt.plot(timestamps, fully_modded.real, "<-", color="blue", markersize=5, label="Real")
-plt.plot(timestamps, fully_modded.imag, ">-", color="red", markersize=5, label="Imag")
-plt.legend(loc="upper right")
-plt.subplot(313)
-plt.plot(timestamps, retrieved.real, "P-", label="RetReal")
-plt.plot(timestamps, retrieved.imag, "p-", label="RetImag")
-plt.legend(loc="upper right")
-plt.show()
-```
 ### Links for further exploration
 
 [Link to matplotlib docs](https://matplotlib.org/stable/api/matplotlib_configuration_api.html#)  
