@@ -133,7 +133,7 @@ Because python does not interpret the + as addition to each element of the times
 
 </details>
 
-### Multiple signals in a single `plt.plot()`, seperating signals using `plt.subplot()`, and `plt.tight_layout()`
+### Multiple signals in a single `plot`, seperating signals using `plt.subplot()`, and `plt.tight_layout()`
 
 ```python3
 ## 11
