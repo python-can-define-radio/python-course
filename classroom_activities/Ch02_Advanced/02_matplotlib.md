@@ -58,7 +58,7 @@ plt.show()
 - This means that the length of the lists `x` and `y` must be the same.
 </details>
 
-### Specifying markers, colors, linestyle, legends 
+### Specifying markers, colors, linestyle, and legends 
 
 - [Here](https://matplotlib.org/stable/api/markers_api.html) is a list of available matplotlib markers.
 - [Here](https://matplotlib.org/stable/gallery/lines_bars_and_markers/linestyles.html) is a list of available matplotlib linestyles.
@@ -87,7 +87,7 @@ plt.plot(time, amplitude, "*r--", markersize=10)
 ## The order of *, r, and -- do not matter.
 ```
 
-### Using functions `linspace` and `sin` to generate values
+### Using numpy functions `np.linspace()` and `np.sin()` to generate values
 
 - Now lets trying using numpy functions to generate our values.
 - We are going back to a basic plot without any of the `fancy` stuff
@@ -133,7 +133,7 @@ Because python does not interpret the + as addition to each element of the times
 
 </details>
 
-### Using subplots or multiple signals in a single plot and `tight_layout`
+### Multiple signals in a single `plt.plot()`, seperating signals using `plt.subplot()`, and `plt.tight_layout()`
 
 ```python3
 ## 11
@@ -190,6 +190,8 @@ plt.show()
 
 ```python3
 
+## 14
+## Plot this.
 amplitude = [1, 2, 2, 3, 4, 3, 2, 2, 1]
 time = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9]
 plt.plot(time, amplitude, "Pr-", linewidth=.2)
