@@ -1,6 +1,8 @@
+# The numpy module
+
 https://numpy.org/doc/stable/user/absolute_beginners.html#numpy-the-absolute-basics-for-beginners
 
-## 1. create a numpy array from a list
+## 1. Create a numpy array from a list
 
 - Basic example.
 
@@ -12,7 +14,7 @@ print(y)
 
 ```
 
-## 2. linspace function (endpoint=True or False)`np.linspace`
+## 2. The linspace function (endpoint=True or False) `np.linspace`
 
 - np.linspace(start, stop, num=50, endpoint=True)  
     - Returns `num` evenly spaced samples, calculated over the interval `start, stop`. (defaults to 50 samples if not specified)
@@ -55,7 +57,7 @@ print(y)
 
 ```
 
-## 4. operations on an array (+,-,*,/) using a constant (addition, subtraction, division by a constant does not work on lists)
+## 4. Operations on an array (+,-,*,/) using a constant (addition, subtraction, division by a constant does not work on lists)
 
    - ### multiplying for a list
 ```python3 
@@ -144,7 +146,7 @@ print(z)
 ```
 z is now `np.array([3., 4., 5.])` divides elements in first array to its counterpart index in other array (produces float)
    
-## 6. concatenate arrays (np.concatenate) forces appending of the two arrays instead of adding each element
+## 6. Concatenate arrays (np.concatenate) forces appending of the two arrays instead of adding each element
 
 ```python3
 x =np.array([3, 9, 18])  
