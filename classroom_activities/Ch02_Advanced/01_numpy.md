@@ -7,8 +7,7 @@ Outline:
 
 ## 3. dtype=
 
-## 4. operations on an array (+,-,*,/) with a constant
-## addition, subtraction, division by a constant does not work on lists
+## 4. operations on an array (+,-,*,/) using a constant (addition, subtraction, division by a constant does not work on lists)
 
    ### multiplying for a list
    
@@ -40,7 +39,7 @@ Outline:
    z = x / 3  
    z is now `np.array[1., 3., 6.]` divides from each element by the constant (makes floats)
    
-## 5. Performing operations on lists or arrays (multiplication, subtraction, and division do not work for lists)
+## 5. Performing operations on lists or arrays (multiplication, subtraction, and division do not work on lists)
 
    ### adding for a list
    
