@@ -1,20 +1,59 @@
 https://numpy.org/doc/stable/user/absolute_beginners.html#numpy-the-absolute-basics-for-beginners
 
-Outline:
 ## 1. create a numpy array from a list
 
 - Basic example.
+
 ```python3
     import numpy as np
 
-
     y = np.array([1, 3, 5, 6, 12, 32])
     print(y)
+
 ```
 
 ## 2. linspace function (endpoint=True or False)`np.linspace`
 
+- np.linspace(start, stop, num=50, endpoint=True)  
+    - Returns `num` evenly spaced samples, calculated over the interval `start, stop`. (defaults to 50 samples if not specified)
+    - The endpoint of the interval can optionally be excluded `endpoint=False`.
+ 
+```python3
+
+    import numpy as np
+
+    y = np.linspace(0, 5, 10, endpoint=True)
+    print(y)
+
+```
+
+This will create an evenly spaced array of 10 data points between 0 and 5 including 5 as the last data point.  
+If endpoint=False was used it would give an array of 10 evenly spaced data points between 0 and 4.5 (not including the stop of 5).  
+An optional approach would be to use `np.arange` which is similar to linspace, but uses a step size (instead of the number of samples).
+
+```python3
+    ## To create the same array as the previous example with endpoint=False
+    import numpy as np
+
+    y = np.arange(0, 5, .5)
+    print(y)
+
+```
+
 ## 3. dtype=
+
+The type of the output array. If dtype is not given, the data type is inferred from start and stop.  
+The inferred dtype will never be an integer; float is chosen even if the arguments would produce an array of integers.  
+If we force the issue by using `dtype=int` when the result would produce floats it will still work but may create some unintended outcomes.
+
+```python3
+
+    import numpy as np
+
+    y = np.linspace(0, 5, 10, endpoint=False, dtype=int)
+    print(y)
+
+```
 
 ## 4. operations on an array (+,-,*,/) using a constant (addition, subtraction, division by a constant does not work on lists)
 
