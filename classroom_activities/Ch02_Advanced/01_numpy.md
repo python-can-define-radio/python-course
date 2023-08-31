@@ -28,7 +28,7 @@ print(y)
 ```
 
 This will create an evenly spaced array of 10 data points between 0 and 5 including 5 as the last data point.  
-If endpoint=False was used it would give an array of 10 evenly spaced data points between 0 and 4.5 (not including the stop of 5).  
+If `endpoint=False` was used it would give an array of 10 evenly spaced data points between 0 and 4.5 (not including the stop of 5).  
 An optional approach would be to use `np.arange` which is similar to linspace, but uses a step size (instead of the number of samples).
 
 ```python3
@@ -144,7 +144,8 @@ print(z)
 ```
 z is now `np.array([3., 4., 5.])` divides elements in first array to its counterpart index in other array (produces float)
    
-## 6. concatenate arrays (np.concatenate) forces appending arrays instead of adding each element
+## 6. concatenate arrays (np.concatenate) forces appending of the two arrays instead of adding each element
+
 ```python3
 x =np.array([3, 9, 18])  
 y =np.array([64, 7, 12])  
