@@ -79,7 +79,7 @@ print(y)
 
 ```
 
-- If we force the issue by using `dtype=int` when the result would produce floats it will still work but may create some unintended outcomes.
+- If we force the issue by using `dtype=int` when the result would normally produce floats it will still work but may create some unintended outcomes.
 
 ```python3
 
@@ -209,7 +209,8 @@ z is now `np.array([3., 4., 5.])` divides elements in first array to its counter
 
 </details>
 
-### Concatenate arrays (np.concatenate) forces appending of the two arrays instead of adding each element
+### Concatenate arrays 
+- `np.concatenate` forces appending of the two arrays instead of adding each element.
 
 ```python3
 ## 7
@@ -223,17 +224,19 @@ z is now `np.array([3, 9, 18, 64, 7, 12])`
    
 ### == with arrays
 
+- Try the examples below.
+
 ```python3
 import numpy as np
 
 ## 8
-a = 5
-b = 6
+x = 5
+y = 6
 print(a == b)
 
 ## 9
-a = 5
-b = 5
+x = 5
+y = 5
 print(a == b)
 
 ## 10
@@ -242,28 +245,33 @@ y = [1, 2, 4]
 print(x == y)
 
 ## 11
-xa = np.array([1, 2, 3])
-ya = np.array([1, 2, 4])
-print(xa == ya)
-areAllEqual = (xa == ya).all()
-print(areAllEqual)
-
-## 12
-xa = np.array([3, 2, 1])
-ya = np.array([5, 0, 4])
-print(xa > ya)
-
-## 13
-xa = np.array([4, 3, 1])
-print(xa > 2)
-
-## 14
-## this will give an error
-x =np.array([3, 9, 18])
-y =np.array([64, 7, 12])
+## this will give an error look at 12 below for correct way
+x = np.array([3, 9, 18])
+y = np.array([64, 7, 12])
 if x == y:
      print("same")
 else:
      print("different")
+
+## 12
+## This works
+x = np.array([1, 2, 3])
+y = np.array([1, 2, 4])
+print(x == y)
+areAllEqual = (x == y).all()
+print(areAllEqual)
+
+## 13
+## Using the > comparison
+x = np.array([3, 2, 1])
+y = np.array([5, 0, 4])
+print(x > y)
+
+## 14
+## Another example
+x = np.array([4, 3, 1])
+print(x > 2)
+
+
 
 ```
