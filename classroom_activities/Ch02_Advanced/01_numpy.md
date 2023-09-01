@@ -33,7 +33,9 @@ print(y.dtype)
 Notice that the dtype of `x` is `int64` (integers with 64 bit precision), and the dtype of `y` is `float64` (floating-point numbers with 64 bit precision).
 
 <details><summary>What that means: </summary>
+
 As per [this page](https://developers.google.com/discovery/v1/type-format#:~:text=string-,int64,string): "int64. A 64-bit signed integer. It has a minimum value of -9,223,372,036,854,775,808 and a maximum value of 9,223,372,036,854,775,807 (inclusive)."
+
 </details>
 
 Here's a [list of numpy types](https://numpy.org/doc/stable/reference/arrays.scalars.html#sized-aliases).
