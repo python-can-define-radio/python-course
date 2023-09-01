@@ -19,7 +19,7 @@ print(y)
 
 ### dtype=
 
-Each array has a data type:
+- Each array has a data type:
 
 ```python3
 
@@ -36,7 +36,7 @@ print(y)
 print(y.dtype)
 ```
 
-Notice that the dtype of `x` is `int64` (integers with 64 bit precision), and the dtype of `y` is `float64` (floating-point numbers with 64 bit precision).
+- Notice that the dtype of `x` is `int64` (integers with 64 bit precision), and the dtype of `y` is `float64` (floating-point numbers with 64 bit precision).
 
 <details><summary>What that means: </summary>
 
@@ -64,7 +64,7 @@ print(y)
 
 ```
 
-This will create an evenly spaced array of 10 data points between 0 and 5 including 5 as the last data point.  
+- This will create an evenly spaced array of 10 data points between 0 and 5 including 5 as the last data point.  
 If `endpoint=False` was used it would give an array of 10 evenly spaced data points between 0 and 4.5 (not including the stop of 5).  
 An optional approach would be to use `np.arange` which is similar to linspace, but uses a step size (instead of the number of samples). However, the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.arange.html) show that `np.arange` has numerical stability issues, so `np.linspace` is generally preferred.
 
@@ -79,7 +79,7 @@ print(y)
 
 ```
 
-If we force the issue by using `dtype=int` when the result would produce floats it will still work but may create some unintended outcomes.
+- If we force the issue by using `dtype=int` when the result would produce floats it will still work but may create some unintended outcomes.
 
 ```python3
 
@@ -110,7 +110,9 @@ As per the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.l
 > The type of the output array. If dtype is not given, the data type is inferred from start and stop.  
 > The inferred dtype will never be an integer; float is chosen even if the arguments would produce an array of integers.
 
-### Operations on an array (+,-,*,/) using a constant (addition, subtraction, division by a constant does not work on lists)
+### Operations on an array using a constant (+,-,*,/)
+- addition, subtraction, and division by a constant does not work on lists
+
 <details><summary> Expand for examples.</summary>
     
    - ### multiplying for a list
@@ -155,7 +157,9 @@ z is now `np.array[1., 3., 6.]` divides from each element by the constant (produ
 
 </details>
 
-### Performing operations on lists or arrays (multiplication, subtraction, and division do not work on lists)
+### Performing operations on multiple lists or arrays (+,-,*,/)
+- multiplication, subtraction, and division does not work on lists
+
 <details><summary> Expand for examples.</summary>
     
    - ### adding for a list
@@ -208,6 +212,8 @@ z is now `np.array([3., 4., 5.])` divides elements in first array to its counter
 ### Concatenate arrays (np.concatenate) forces appending of the two arrays instead of adding each element
 
 ```python3
+## 7
+## Try this.
 x =np.array([3, 9, 18])  
 y =np.array([64, 7, 12])  
 z = np.concatenate([x, y])
@@ -220,38 +226,38 @@ z is now `np.array([3, 9, 18, 64, 7, 12])`
 ```python3
 import numpy as np
 
-## 1
+## 8
 a = 5
 b = 6
 print(a == b)
 
-## 2
+## 9
 a = 5
 b = 5
 print(a == b)
 
-## 3
+## 10
 x = [1, 2, 3]
 y = [1, 2, 4]
 print(x == y)
 
-## 4
+## 11
 xa = np.array([1, 2, 3])
 ya = np.array([1, 2, 4])
 print(xa == ya)
 areAllEqual = (xa == ya).all()
 print(areAllEqual)
 
-## 5
+## 12
 xa = np.array([3, 2, 1])
 ya = np.array([5, 0, 4])
 print(xa > ya)
 
-## 6
+## 13
 xa = np.array([4, 3, 1])
 print(xa > 2)
 
-## 7
+## 14
 ## this will give an error
 x =np.array([3, 9, 18])
 y =np.array([64, 7, 12])
