@@ -2,11 +2,14 @@
 
 https://numpy.org/doc/stable/user/absolute_beginners.html#numpy-the-absolute-basics-for-beginners
 
-## 1. Create a numpy array from a list
+### Create a numpy array from a list
 
 - Basic example.
 
 ```python3
+
+## 1
+## Try this.
 import numpy as np
 
 y = np.array([1, 3, 5, 6, 12, 32])
@@ -14,11 +17,14 @@ print(y)
 
 ```
 
-## 2. dtype=
+### dtype=
 
 Each array has a data type:
 
 ```python3
+
+## 2
+## Try this.
 import numpy as np
 
 x = np.array([1, 3, 5, 6, 12, 32])
@@ -41,7 +47,7 @@ As per [this page](https://developers.google.com/discovery/v1/type-format#:~:tex
 Here's a [list of numpy types](https://numpy.org/doc/stable/reference/arrays.scalars.html#sized-aliases).
 
 
-## 3. Create a numpy array using the linspace function (endpoint=True or False)
+### Create a numpy array using the linspace function (endpoint=True or False)
 
 - np.linspace(start, stop, num=50, endpoint=True)  
     - Returns `num` evenly spaced samples, calculated over the interval `start, stop`. (defaults to 50 samples if not specified)
@@ -49,6 +55,8 @@ Here's a [list of numpy types](https://numpy.org/doc/stable/reference/arrays.sca
  
 ```python3
 
+## 3
+## Try this.
 import numpy as np
 
 y = np.linspace(0, 5, 10, endpoint=True)
@@ -61,7 +69,9 @@ If `endpoint=False` was used it would give an array of 10 evenly spaced data poi
 An optional approach would be to use `np.arange` which is similar to linspace, but uses a step size (instead of the number of samples). However, the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.arange.html) show that `np.arange` has numerical stability issues, so `np.linspace` is generally preferred.
 
 ```python3
-## To create the same array as the previous example with endpoint=False
+
+## 4
+## Try this to create the same array as the previous example with endpoint=False
 import numpy as np
 
 y = np.arange(0, 5, .5)
@@ -69,25 +79,12 @@ print(y)
 
 ```
 
-As per the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html):
-
-> The type of the output array. If dtype is not given, the data type is inferred from start and stop.  
-> The inferred dtype will never be an integer; float is chosen even if the arguments would produce an array of integers.
-
-```python3
-## 999
-## Try this.
-import numpy as np
-
-y = np.linspace(0, 5, 10, endpoint=False, dtype=np.complex64)
-print(y)
-```
-
 If we force the issue by using `dtype=int` when the result would produce floats it will still work but may create some unintended outcomes.
 
-
 ```python3
 
+## 5
+## Try this.
 import numpy as np
 
 y = np.linspace(0, 5, 10, endpoint=False, dtype=int)
@@ -95,10 +92,27 @@ print(y)
 
 ```
 
+### Possible new header here
 
+```python3
 
-## 4. Operations on an array (+,-,*,/) using a constant (addition, subtraction, division by a constant does not work on lists)
+## 6
+## Try this.
+import numpy as np
 
+y = np.linspace(0, 5, 10, endpoint=False, dtype=np.complex64)
+print(y)
+
+```
+
+As per the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html) for the `np.linspace` function:
+
+> The type of the output array. If dtype is not given, the data type is inferred from start and stop.  
+> The inferred dtype will never be an integer; float is chosen even if the arguments would produce an array of integers.
+
+### Operations on an array (+,-,*,/) using a constant (addition, subtraction, division by a constant does not work on lists)
+<details><summary> Expand for examples.</summary>
+    
    - ### multiplying for a list
 ```python3 
 y = [4, 5, 6]  
@@ -138,9 +152,12 @@ z = x / 3
 print(z)
 ```
 z is now `np.array[1., 3., 6.]` divides from each element by the constant (produces floats)
-   
-## 5. Performing operations on lists or arrays (multiplication, subtraction, and division do not work on lists)
 
+</details>
+
+### Performing operations on lists or arrays (multiplication, subtraction, and division do not work on lists)
+<details><summary> Expand for examples.</summary>
+    
    - ### adding for a list
 ```python3 
 x = [5, 6, 7]  
@@ -185,8 +202,10 @@ z = x / y
 print(z)
 ```
 z is now `np.array([3., 4., 5.])` divides elements in first array to its counterpart index in other array (produces float)
-   
-## 6. Concatenate arrays (np.concatenate) forces appending of the two arrays instead of adding each element
+
+</details>
+
+### Concatenate arrays (np.concatenate) forces appending of the two arrays instead of adding each element
 
 ```python3
 x =np.array([3, 9, 18])  
@@ -196,7 +215,7 @@ print(z)
 ``` 
 z is now `np.array([3, 9, 18, 64, 7, 12])`
    
-## 7. == with arrays
+### == with arrays
 
 ```python3
 import numpy as np
