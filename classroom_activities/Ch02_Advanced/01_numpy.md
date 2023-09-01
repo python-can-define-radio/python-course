@@ -44,7 +44,7 @@ As per [this page](https://developers.google.com/discovery/v1/type-format#:~:tex
 
 </details>
 
-Here's a [list of numpy types](https://numpy.org/doc/stable/reference/arrays.scalars.html#sized-aliases).
+Here's a [list of numpy data types](https://numpy.org/doc/stable/reference/arrays.scalars.html#sized-aliases).
 
 
 ### Create a numpy array using the linspace function (endpoint=True or False)
