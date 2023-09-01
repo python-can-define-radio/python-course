@@ -54,14 +54,12 @@ Here's a [list of numpy data types](https://numpy.org/doc/stable/reference/array
     - The endpoint of the interval can optionally be excluded `endpoint=False`. (default is True if not specified)
  
 ```python3
-
 ## 3
 ## Try this.
 import numpy as np
 
 y = np.linspace(0, 5, 10, endpoint=True)
 print(y)
-
 ```
 
 - This will create an evenly spaced array of 10 data points between 0 and 5 including 5 as the last data point.  
@@ -69,45 +67,40 @@ If `endpoint=False` was used it would give an array of 10 evenly spaced data poi
 An optional approach would be to use `np.arange` which is similar to linspace, but uses a step size (instead of the number of samples). However, the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.arange.html) show that `np.arange` has numerical stability issues, so `np.linspace` is generally preferred.
 
 ```python3
-
 ## 4
 ## Try this to create the same array as the previous example with endpoint=False
 import numpy as np
 
 y = np.arange(0, 5, .5)
 print(y)
-
 ```
 
-- If we force the issue by using `dtype=int` when the result would normally produce floats it will still work but may create some unintended outcomes.
+Like all numpy arrays, arrays generated using linspace have a `dtype`. As per the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html) for the `np.linspace` function:
+
+> If dtype is not given, the data type is inferred from start and stop.  
+> The inferred dtype will never be an integer; float is chosen even if the arguments would produce an array of integers.
+
+Examples:
 
 ```python3
-
 ## 5
+## Try this.
+import numpy as np
+
+y = np.linspace(0, 5, 10, endpoint=False)
+print(y)
+print(y.dtype)
+```
+
+- If we force the issue by using `dtype=int` when the result would normally produce floats, it will still work, but may create some unintended outcomes.
+
+```python3
+## 6
 ## Try this.
 import numpy as np
 
 y = np.linspace(0, 5, 10, endpoint=False, dtype=int)
 print(y)
-
-```
-
-As per the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html) for the `np.linspace` function:
-
-> The type of the output array. If dtype is not given, the data type is inferred from start and stop.  
-> The inferred dtype will never be an integer; float is chosen even if the arguments would produce an array of integers.
-
-### Possible new header here
-
-```python3
-
-## 6
-## Try this.
-import numpy as np
-
-y = np.linspace(0, 5, 10, endpoint=False, dtype=np.complex64)
-print(y)
-
 ```
 
 ### Operations on an array using a constant (+,-,*,/)
@@ -137,7 +130,7 @@ x =np.array([3, 8, 15])
 z = x + 3  
 print(z)
 ```
-z is now `np.array[6, 11, 18]` adds to each element by the constant
+z is now `np.array([6, 11, 18])` adds to each element by the constant
    
    - ### subtracting for an array (cannot be done with lists)
 ```python3
@@ -145,7 +138,7 @@ x =np.array([3, 8, 15])
 z = x - 3
 print(z)
 ```
-z is now `np.array[0, 5, 12]` subtracts from each element by the constant
+z is now `np.array([0, 5, 12])` subtracts from each element by the constant
    
    - ### dividing for an array (cannot be done with lists)
 ```python3 
@@ -153,7 +146,7 @@ x =np.array([3, 9, 18])
 z = x / 3
 print(z)
 ```
-z is now `np.array[1., 3., 6.]` divides from each element by the constant (produces floats)
+z is now `np.array([1., 3., 6.])` divides from each element by the constant (produces floats)
 
 </details>
 
@@ -200,8 +193,8 @@ z is now `np.array([40, 54, 70])` multiplies each element to its counterpart sam
     
    - ### dividing for an array (cannot be done with lists)
 ```python3
-x =np.array([3, 8, 15])  
-y =np.array([1, 2, 3])  
+x = np.array([3, 8, 15])  
+y = np.array([1, 2, 3])  
 z = x / y
 print(z)
 ```
@@ -210,13 +203,13 @@ z is now `np.array([3., 4., 5.])` divides elements in first array to its counter
 </details>
 
 ### Concatenate arrays 
-- `np.concatenate` forces appending of the two arrays instead of adding each element.
+- `np.concatenate` appends the second array to the first instead of adding each element.
 
 ```python3
 ## 7
 ## Try this.
-x =np.array([3, 9, 18])  
-y =np.array([64, 7, 12])  
+x = np.array([3, 9, 18])  
+y = np.array([64, 7, 12])  
 z = np.concatenate([x, y])
 print(z)
 ``` 
@@ -244,14 +237,16 @@ x = [1, 2, 3]
 y = [1, 2, 4]
 print(x == y)
 
+
 ## 11
-## this will give an error look at 12 below for correct way
+## this will give an error; look at #12 below for correct way
 x = np.array([3, 9, 18])
 y = np.array([64, 7, 12])
 if x == y:
      print("same")
 else:
      print("different")
+
 
 ## 12
 ## This works
@@ -261,11 +256,13 @@ print(x == y)
 areAllEqual = (x == y).all()
 print(areAllEqual)
 
+
 ## 13
-## Using the > comparison
+## Using the > comparison operator
 x = np.array([3, 2, 1])
 y = np.array([5, 0, 4])
 print(x > y)
+
 
 ## 14
 ## Another example
