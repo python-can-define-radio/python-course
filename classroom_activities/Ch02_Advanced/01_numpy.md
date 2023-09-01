@@ -51,7 +51,7 @@ Here's a [list of numpy types](https://numpy.org/doc/stable/reference/arrays.sca
 
 - np.linspace(start, stop, num=50, endpoint=True)  
     - Returns `num` evenly spaced samples, calculated over the interval `start, stop`. (defaults to 50 samples if not specified)
-    - The endpoint of the interval can optionally be excluded `endpoint=False`.
+    - The endpoint of the interval can optionally be excluded `endpoint=False`. (default is True)
  
 ```python3
 
