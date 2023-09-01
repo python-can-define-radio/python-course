@@ -47,7 +47,7 @@ As per [this page](https://developers.google.com/discovery/v1/type-format#:~:tex
 Here's a [list of numpy data types](https://numpy.org/doc/stable/reference/arrays.scalars.html#sized-aliases).
 
 
-### Create a numpy array using the linspace function (endpoint=True or False)
+### Create a numpy array using the linspace function
 
 - np.linspace(start, stop, num=50, endpoint=True)  
     - Returns `num` evenly spaced samples, calculated over the interval `start, stop`. (defaults to 50 samples if not specified)
