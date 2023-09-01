@@ -14,7 +14,32 @@ print(y)
 
 ```
 
-## 2. Create a numpy array using the linspace function (endpoint=True or False)
+## 2. dtype=
+
+Each array has a data type:
+
+```python3
+import numpy as np
+
+x = np.array([1, 3, 5, 6, 12, 32])
+print(x)
+print(x.dtype)
+
+y = np.array([1.26, 5.0, 1.1])
+print(y)
+print(y.dtype)
+```
+
+Notice that the dtype of `x` is `int64` (integers with 64 bit precision), and the dtype of `y` is `float64` (floating-point numbers with 64 bit precision).
+
+<details><summary>What that means: </summary>
+As per [this page](https://developers.google.com/discovery/v1/type-format#:~:text=string-,int64,string): "int64. A 64-bit signed integer. It has a minimum value of -9,223,372,036,854,775,808 and a maximum value of 9,223,372,036,854,775,807 (inclusive)."
+</details>
+
+Here's a [list of numpy types](https://numpy.org/doc/stable/reference/arrays.scalars.html#sized-aliases).
+
+
+## 3. Create a numpy array using the linspace function (endpoint=True or False)
 
 - np.linspace(start, stop, num=50, endpoint=True)  
     - Returns `num` evenly spaced samples, calculated over the interval `start, stop`. (defaults to 50 samples if not specified)
@@ -31,7 +56,7 @@ print(y)
 
 This will create an evenly spaced array of 10 data points between 0 and 5 including 5 as the last data point.  
 If `endpoint=False` was used it would give an array of 10 evenly spaced data points between 0 and 4.5 (not including the stop of 5).  
-An optional approach would be to use `np.arange` which is similar to linspace, but uses a step size (instead of the number of samples).
+An optional approach would be to use `np.arange` which is similar to linspace, but uses a step size (instead of the number of samples). However, the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.arange.html) show that `np.arange` has numerical stability issues, so `np.linspace` is generally preferred.
 
 ```python3
 ## To create the same array as the previous example with endpoint=False
@@ -42,11 +67,22 @@ print(y)
 
 ```
 
-## 3. dtype=
+As per the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html):
 
-The type of the output array. If dtype is not given, the data type is inferred from start and stop.  
-The inferred dtype will never be an integer; float is chosen even if the arguments would produce an array of integers.  
+> The type of the output array. If dtype is not given, the data type is inferred from start and stop.  
+> The inferred dtype will never be an integer; float is chosen even if the arguments would produce an array of integers.
+
+```python3
+## 999
+## Try this.
+import numpy as np
+
+y = np.linspace(0, 5, 10, endpoint=False, dtype=np.complex64)
+print(y)
+```
+
 If we force the issue by using `dtype=int` when the result would produce floats it will still work but may create some unintended outcomes.
+
 
 ```python3
 
@@ -56,6 +92,8 @@ y = np.linspace(0, 5, 10, endpoint=False, dtype=int)
 print(y)
 
 ```
+
+
 
 ## 4. Operations on an array (+,-,*,/) using a constant (addition, subtraction, division by a constant does not work on lists)
 
@@ -154,7 +192,7 @@ y =np.array([64, 7, 12])
 z = np.concatenate([x, y])
 print(z)
 ``` 
-z is now `np.array[3, 9, 18, 64, 7, 12]`
+z is now `np.array([3, 9, 18, 64, 7, 12])`
    
 ## 7. == with arrays
 
