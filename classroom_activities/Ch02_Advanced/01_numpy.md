@@ -92,6 +92,11 @@ print(y)
 
 ```
 
+As per the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html) for the `np.linspace` function:
+
+> The type of the output array. If dtype is not given, the data type is inferred from start and stop.  
+> The inferred dtype will never be an integer; float is chosen even if the arguments would produce an array of integers.
+
 ### Possible new header here
 
 ```python3
@@ -104,11 +109,6 @@ y = np.linspace(0, 5, 10, endpoint=False, dtype=np.complex64)
 print(y)
 
 ```
-
-As per the [numpy docs](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html) for the `np.linspace` function:
-
-> The type of the output array. If dtype is not given, the data type is inferred from start and stop.  
-> The inferred dtype will never be an integer; float is chosen even if the arguments would produce an array of integers.
 
 ### Operations on an array using a constant (+,-,*,/)
 - addition, subtraction, and division by a constant does not work on lists
