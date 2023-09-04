@@ -51,14 +51,6 @@ item_number = 27.283
 print(f"This will give an error, because item_number is a float: {item_number:b}.")
 ```
 
-### For more information:
-- This website gives some great practical examples. Recommended to start here.  
-  https://www.linisnil.com/articles/practical-guide-to-python-string-format-specifiers/  
-- Another good site.  
-  https://www.pythonmorsels.com/string-formatting/  
-- This website gives detailed documentation; somewhat more difficult to read.  
-  https://docs.python.org/3/library/string.html#format-specification-mini-language
-
 ### Exercises
 
 ```python3
@@ -69,3 +61,11 @@ print(f"This will give an error, because item_number is a float: {item_number:b}
 # 2 
 # Ask the user for the current cost-per-gallon of gasoline. Display the cost per pint, rounded to the nearest cent.
 ```
+
+### For more information:
+- This website gives some great practical examples. Recommended to start here.  
+  https://www.linisnil.com/articles/practical-guide-to-python-string-format-specifiers/  
+- Another good site.  
+  https://www.pythonmorsels.com/string-formatting/  
+- This website gives detailed documentation; somewhat more difficult to read.  
+  https://docs.python.org/3/library/string.html#format-specification-mini-language
