@@ -1,4 +1,4 @@
-## For loops
+# For loops
 
 One of the most powerful uses of programming is the ability to repeat an action, such as automatically sending text messsages to many recipients. One way to accomplish this is the `for` loop. 
 
@@ -320,7 +320,8 @@ Let's do some math inside of the loop.
 
 ```python3
 # 24
-# Copy and modify the previous example to display how old each person was when he/she started this job. For example, Maria started this job 7 years ago, so you would print this:
+# Copy and modify the previous example to display how old each person was when he/she started this job.
+# For example, Maria started this job 7 years ago, so you would print this:
 #    The instructor Maria is 38 years old, and started working at age 31.
 # 
 # Note: For this exercise, the following portion must remain unchanged:
@@ -393,7 +394,7 @@ for name, miles_run, minutes in runners:
 ```
 
 
-## Optional exercises
+### Optional exercises
 
 If you have time, we recommend doing the exercises below.
 
@@ -486,7 +487,7 @@ warm_temps = list(filter(lambda x: x > 81, temps_in_F))
 print(warm_temps)
 ```
 
-## Challenge Questions
+### Challenge Questions
 If you are limited in time or most students are ahead of you, postpone or skip this section.
 
 ```python3
