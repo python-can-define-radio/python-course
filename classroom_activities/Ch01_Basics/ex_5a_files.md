@@ -1,5 +1,7 @@
 # File Manipulation
 
+### Exercises
+
 ```python3 
 # 1
 # Try this. 
