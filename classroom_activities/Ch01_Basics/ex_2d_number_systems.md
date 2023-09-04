@@ -1,4 +1,4 @@
-## Number Systems
+# Number Systems
 
 Sometimes, you may wish to display a number using a different number system.
 
