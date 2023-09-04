@@ -6,7 +6,7 @@ It's also a great way to gain familiarity with Python concepts and syntax.
 
 Note: Make sure to close the turtle window after each run.
 
-### EXERCISES
+### Exercises
 
 ```python3
 # 1
