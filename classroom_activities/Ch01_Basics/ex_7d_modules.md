@@ -1,4 +1,4 @@
-## Modules
+# Modules
 
 When importing modules, there are a few approaches you can use:
 
