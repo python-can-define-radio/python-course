@@ -2,7 +2,7 @@
 
 This is an optional exercise that demonstrates some fun features.
 
-## Delay printing
+### Delay printing
 
 Source: https://stackoverflow.com/questions/9246076/how-to-print-one-character-at-a-time-on-one-line
 
@@ -18,9 +18,9 @@ def delay_print(s):
 delay_print("hello world")
 ```
 
-## Color output
+### Color output
 
-### Colors using `termcolor`
+#### Colors using `termcolor`
 
 First, **in a terminal window**, run this:
 
@@ -40,7 +40,7 @@ For more examples, see the termcolor github page: https://github.com/termcolor/t
 
 Note that the terminal in VS Code restricts the available colors to enforce readability. For example, `cprint("Hello, World!", "yellow", "on_light_red")` will display as a grey-black text color instead of yellow.
 
-### Colors using `rich`
+#### Colors using `rich`
 
 Another, more advanced library for formatting terminal output is `rich`. After running `pip install rich`, try this example (which was copied from https://rich.readthedocs.io/en/stable/tables.html):
 
@@ -70,7 +70,7 @@ console.print(table)
     
 For more examples, see the [rich docs](https://rich.readthedocs.io).
 
-## Dialog boxes in the terminal
+### Dialog boxes in the terminal
 
 After running `pip3 install prompt_toolkit`, try this:
 
@@ -86,7 +86,7 @@ print(f"You said {text}.")
 
 More info in the [prompt-toolkit docs](https://python-prompt-toolkit.readthedocs.io).
 
-## Sounds
+### Sounds
 
 First, in a terminal, run this:
 
