@@ -1,4 +1,4 @@
-## Preliminaries
+# Preliminaries
 
 ## Computer Configuration
 These instructions assume you are working on a Linux operating system (OS).
