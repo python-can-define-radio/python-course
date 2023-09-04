@@ -2,6 +2,8 @@
 
 At this point, you've seen multiple examples of correct ways to use `input` and `if`. Now, we'll explore some common mistakes.
 
+### Exercises
+
 Let's start with a simple example:
 
 ```python3
