@@ -1,4 +1,4 @@
-## Variables
+# Variables
 webpage for this lesson: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2c_variables.md
 
 In programming languagues, variables are allocations of computer memory assigned to store data 
