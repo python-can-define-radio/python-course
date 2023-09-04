@@ -320,7 +320,7 @@ cd otherstuff
 ##         └── desk.txt
 ##
 ## Consider: After you create the directory structure and files show above (the 'tree'), from what 
-##    directory location can you run the 'tree' command to see the entire tree.
+## directory location can you run the 'tree' command to see the entire tree.
 ## Try this: Change to the home directory (cd ~).
 ## Using 'home' as your current directory, how can you modify and use the tree command to see the 
 ## same tree structure shown above (no more, no less)?   I.e., Run tree without using the cd command a second time.
