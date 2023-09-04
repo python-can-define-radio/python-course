@@ -36,7 +36,7 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 - Ask if you have any questions.
 </details>
 
-## Background info
+### Background info
 
 Before we get to the rest of the exercises, here's a little info about what we're doing. This quoted from https://learn.arcade.academy/en/latest/chapters/04_print_statement/print_statement.html .
 
@@ -45,8 +45,9 @@ Before we get to the rest of the exercises, here's a little info about what we'r
 > "While a lot of programs are graphics-based, text-only programs are still quite common with people that manage computers, or who do data analytics. Even for the graphics-based games we develop in this book, the **print** function will be a vital aid in understanding and debugging our games."
 
 
-## Exercises
-### Using Simple Print Statements
+### Exercises
+
+#### Using Simple Print Statements
 
 ```python3
 ## 1 
@@ -124,7 +125,7 @@ print("You can put 'single quotes' inside of double quotes, or vice versa, witho
 print('However, if you want single quotes inside of single quotes, you\'ll need to escape them.')
 ```
 
-### Using Variables
+#### Using Variables
 
 At this point, you've displayed some text on the screen. We may also want to store data, and give it a specific name. In programming, this storage is done using a **variable**.
 
@@ -163,7 +164,7 @@ print(f"My name is {firstn} {lastn}")
 print("My name is", firstn, lastn)
 ```
 
-### Using the Debugger
+#### Using the Debugger
 
 The debugger is useful for watching your code as it runs. Thonny's debugger is particularly useful, as it evaluates individual steps within a line of code.
 
@@ -175,7 +176,7 @@ For more information on debugging in Thonny, see the [Thonny homepage](https://t
 
 For a short video on debugging with Thonny go [here](https://www.youtube.com/watch?v=QQAqQp06nXo).
 
-### Using Input Statements
+#### Using Input Statements
 
 Now that we've seen some basic examples, let's ask the user to give us some info.
 
@@ -254,7 +255,7 @@ print(f"Your name is {firstn} {lastn}.")
 ## but fill in the blanks with the animal and the plant.
 ```
 
-### Using Strings and Integers
+#### Using Strings and Integers
 
 The word "string" simply means a sequence of characters. "Bob" is a string; "I am at the store" is a string.
 
