@@ -1,8 +1,10 @@
-## Dictionaries
+# Dictionaries
 
 Dictionaries are a somewhat more advanced (but very useful) data structure.
 
 These exercises show the basics. For more practice, see https://realpython.com/python-dicts/
+
+### EXERCISES
 
 ```python3
 ## 1
