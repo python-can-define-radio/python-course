@@ -48,6 +48,9 @@ echo "{
       },
 }" > ~/.config/Code/User/settings.json
 
+echo "- Running command: pip3 install thonny"
+pip3 install thonny
+
 echo "- Creating example content in ~/Desktop/term_example_files"
 
 cd ~/Desktop
