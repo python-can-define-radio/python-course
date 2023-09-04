@@ -4,6 +4,8 @@ One of the most powerful uses of programming is the ability to repeat an action,
 
 ℹ️ Use Ctrl + C to exit a program (useful for exiting infinite loops).
 
+### Exercises
+
 ```python3
 # 1
 # Try this:
