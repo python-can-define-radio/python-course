@@ -1,4 +1,4 @@
-## Python arithmetic operators
+# Python arithmetic operators
 
 Most people are familiar with these four operators: +, -, *, /
 
