@@ -1,6 +1,7 @@
-## Randomness
+# Randomness
 
 ### Using Python's random module -- Making random selections from lists & Generating random numbers
+
 ```python3
 
 ## Before starting the exercise, type this at the top of your file:
