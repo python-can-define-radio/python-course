@@ -13,14 +13,13 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
 - A list of several Terminal commands: https://www.digitalocean.com/community/tutorials/linux-commands
 - (See also links to tutorials at bottom of this page.)
 
-
-### Exercises
-
-Notes: 
+### Notes: 
 - In the text below, a pair of pound symbols (##) introduces instructions or a comment for you, the student.
 - Commands to be entered in Linux Terminal window are written without any such prefix.
 - Press the {enter} key after each command line. 
 - If you would like to clear the terminal at any point, press `Ctrl L`.
+
+### Exercises
 
 ```sh
 ## 1 
@@ -130,7 +129,8 @@ cd term_example_files
 cd animals
 ```
 
-Absolute paths are useful because they work regardless of your current directory. Relative paths are useful because of their brevity and because they work even if the parent directories change.
+Absolute paths are useful because they work regardless of your current directory.  
+Relative paths are useful because of their brevity and because they work even if the parent directories change.
 
 Now that we know how to change directories, let's display the contents of some files.
 
@@ -321,8 +321,9 @@ cd otherstuff
 ##
 ## Consider: After you create the directory structure and files show above (the 'tree'), from what 
 ##    directory location can you run the 'tree' command to see the entire tree.
-## Try this: Change to the home directory (cd ~).  Using 'home' as your current directory, how can you modify and use use the tree command to see the 
-##    same tree structure shown above (no more, no less)?   I.e., Run tree without using the cd command a second time.
+## Try this: Change to the home directory (cd ~).
+## Using 'home' as your current directory, how can you modify and use use the tree command to see the 
+## same tree structure shown above (no more, no less)?   I.e., Run tree without using the cd command a second time.
 
 ## 31
 ## You can evaluate a command within another command:
