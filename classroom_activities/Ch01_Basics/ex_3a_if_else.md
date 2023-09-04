@@ -1,7 +1,7 @@
 # If-Else Statements
 
 Source webpage for this lesson: "https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_3_if_else.py"  
-(Copyright 2022 by the writers of "python-can-define-radio".  Permision is granted for individual persons to copy the content from the source web page and use the content herein to further the individual's education.  Instructors and friends may direct interested people to the source web page.  The same copyright terms are true of all content in github.com/python-can-define-radio.)
+(Copyright 2022 by the writers of "python-can-define-radio".  Permission is granted for individual persons to copy the content from the source web page and use the content herein to further the individual's education.  Instructors and friends may direct interested people to the source web page.  The same copyright terms are true of all content in github.com/python-can-define-radio.)
 
 ### Introduction
 So far we have been instructing a computer through Python programing to execute a series of commands without any decisions being made as the program runs.  But, computers and the Python language can do so much more.
