@@ -1,4 +1,4 @@
-## File Manipulation
+# File Manipulation
 
 ```python3 
 # 1
@@ -80,12 +80,13 @@ f.close()
 f = open("yay_new_file.txt", "a")
 f.write("This will write at the end of an existing file.\n")
 f.close()
+```
 
 
-#####################################
-## Advanced (optional) topics below this line.
-#####################################
+### Advanced (optional) topics below this line.
 
+
+```python3
 # 9
 # An example of dealing with large files.
 
