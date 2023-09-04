@@ -1,6 +1,7 @@
 # Randomness
 
-### Using Python's random module -- Making random selections from lists & Generating random numbers
+### Exercises
+Using Python's random module -- Making random selections from lists & Generating random numbers
 
 ```python3
 
