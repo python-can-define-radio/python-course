@@ -1,4 +1,4 @@
-## Types
+# Types
 
 We know that the type of `a` in this example is `int` (short for integer).
 
