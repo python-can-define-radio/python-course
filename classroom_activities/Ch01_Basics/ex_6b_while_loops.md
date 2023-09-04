@@ -284,7 +284,8 @@ print("Goose!")
 ##      Compute the percent score for that student.
 ##      Display the percent, rounded to 2 decimal places.
 ##      Write to the file: "Bob,92.36%" (but with the actual name and percent instead).
-## NOTE: After you have tested your program, try opening the physics_grades.csv file in a spreadsheet program such as Libreoffice Calc.
+## NOTE: After you have tested your program, try opening the physics_grades.csv file
+## in a spreadsheet program such as Libreoffice Calc.
 
 ```
 
