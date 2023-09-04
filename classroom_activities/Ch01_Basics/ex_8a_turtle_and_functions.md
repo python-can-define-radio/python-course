@@ -454,7 +454,7 @@ turtle.mainloop()
 
 ### Misc practice
 
-Before continuing to the following exercises, do a few of the `if`, `for`, and `while` exercises.
+Before continuing to the following exercises, you should have completed the `if`, `for`, and `while` exercises.
 
 ```python3
 # 40
