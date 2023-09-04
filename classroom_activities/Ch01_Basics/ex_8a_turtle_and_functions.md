@@ -1,10 +1,12 @@
-## Turtle
+# Turtle
 
 The `turtle` module is a fun way to draw pictures and make games using Python.
 
 It's also a great way to gain familiarity with Python concepts and syntax.
 
 Note: Make sure to close the turtle window after each run.
+
+### EXERCISES
 
 ```python3
 # 1
@@ -81,7 +83,6 @@ turtle.pendown()
 turtle.forward(30)
 ```
 
-Exercises:
 
 ```python3
 # 2e
@@ -305,8 +306,6 @@ drawTriangleLength(100)
 
 In that example, `thelength` is a **parameter**.
 
-Exercises:
-
 ```python3
 # 11
 # Copy and modify the previous example.
@@ -429,7 +428,7 @@ print(f"The distance from that position to another point: {d}")
 
 For more practice with `return` statements, see an article such as [this one](https://realpython.com/python-return-statement/).
 
-## Keypresses
+### Keypresses
 
 ```python3
 # 39
@@ -453,7 +452,7 @@ turtle.mainloop()
 # Make it so if you press "Up" on your keyboard, the turtle will draw a square.
 ```
 
-## Misc practice
+### Misc practice
 
 Before continuing to the following exercises, do a few of the `if`, `for`, and `while` exercises.
 
