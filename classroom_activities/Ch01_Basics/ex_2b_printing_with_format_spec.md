@@ -59,7 +59,7 @@ print(f"This will give an error, because item_number is a float: {item_number:b}
 ```
 
 ### Exercises
-
+- Hint: Each of the exercises below will require at least one `input` "ask the user" statement,  and one `print` "display" statement.
 ```python3
 # 1
 # Ask the user a number. Display the number rounded to 3 decimal places.
