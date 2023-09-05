@@ -1,5 +1,4 @@
 # Variables
-webpage for this lesson: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2c_variables.md
 
 In programming languagues, variables are allocations of computer memory assigned to store data 
 for later use in the program. The programer chooses a name for the variable and sets it equal 
@@ -63,3 +62,4 @@ print(f"The recorded temperature is {temp_in_f}°F")
 print(f"The following message was received '{my2ndthing}'.")
 print(f"The result of multiplying", mynumber, "and", _myStuff, "is equal to", result)
 ```
+webpage for this lesson: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2c_variables.md
