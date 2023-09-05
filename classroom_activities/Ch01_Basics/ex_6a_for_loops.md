@@ -132,7 +132,7 @@ Here are some further explanations:
 # (In other words, the lists [1, 2, 3, 4, 5] and [1, 4, 9, 16, 25] should not appear in your code.)
 
 
-# 11
+# 11a
 # Copy and modify the previous example to allow the user to specify the highest number rather than stopping at 5.
 # Ex:
 # Highest number?  (user types 4)
@@ -141,9 +141,8 @@ Here are some further explanations:
 # 9
 # 16
 
-# 11b has been moved to 32a, below.
 
-# 11c
+# 11b
 # Do you remember the operator that does remainder in Python?
 # Use a for-loop to display the following:
 #  1 divided by 4 would have a remainder of ____.
@@ -192,7 +191,7 @@ print("Hello"*3)
 #         print("AAAAA")
 
 
-# 14aa
+# 14b
 # Construct the following using a `for` loop.
 # Let the user specify how many rows to print.
 # 1 A
@@ -206,7 +205,7 @@ print("Hello"*3)
 #         print(f"{you_the_student_will_fill_this} A")
 
 
-# 14aaa
+# 14c
 # (optional challenge question)
 # Construct the following using a `for` loop.
 # Let the user specify how many rows to print.
@@ -216,7 +215,7 @@ print("Hello"*3)
 # 4 times A is AAAA
 
 
-# 14b
+# 14d
 # (optional challenge question)
 # Construct the following pattern using a `for` loop.
 # Let the user specify how many rows to print.
@@ -226,7 +225,7 @@ print("Hello"*3)
 # AAAA
 
 
-# 15
+# 15a
 # Try this.
 temps_in_F = [90, 47, 16, 82, 68, 100, 30, 25, 40]
 for temp in temps_in_F:
@@ -401,14 +400,14 @@ for name, miles_run, minutes in runners:
 If you have time, we recommend doing the exercises below.
 
 ```python3
-# 22b
+# 28
 # Try this.
 names = ["Sam", "Lisa", "Micah", "Dave"]
 for indx, elem in enumerate(names):
     print(f"The index is {indx} and the element is {elem}")
 
 
-# 23
+# 29
 # Now, let's experiment with counting.
 # Modify the earlier example (the one that printed "Hello" with "!" after each letter) so it outputs the 
 #  indices of the letters before the letters.
@@ -430,22 +429,22 @@ for indx, elem in enumerate(names):
 # Here’s what it has recorded (units are MHz):
 freqs = [2403.6, 101.3, 90.1, 5.2, 2410.2, 3.7]
 
-# 24
+# 30
 # Using a loop, print each frequency, and then print whether it is
 # in the Wi-Fi range, the FM Radio range, or Neither Wi-Fi nor FM.
 
 
-# 25
+# 31
 # Modify the previous example to count how many frequencies were in each category.
 # At the end of the program, print the count for each category.
 
 
-# 26
+# 32
 # A report is being produced which only shows detected Wi-Fi frequencies.
 # Make a copy of the previous program that only prints the Wi-Fi frequencies from the list.
 
 
-# 27
+# 33
 # After having read the report, someone wants to know where in the list that the Wi-Fi
 # frequencies occur. Make a program that prints both Wi-Fi frequencies and their indices.
 # You'll most likely want to use the enumerate function.
@@ -455,14 +454,14 @@ freqs = [2403.6, 101.3, 90.1, 5.2, 2410.2, 3.7]
 # 2410.2 MHz: index 4
 
 
-# 28
+# 34
 # Some of the audience of the report is unfamiliar with MHz.
 # Modify one (any one) of the above spectrum-related questions
 # to allow the user to choose if they want to see the results in MHz or GHz.
 # Then print the frequencies using the chosen unit.
 
 
-# 29
+# 35
 # Someone now wants a program to convert between MHz and GHz.
 # The person wants to be able to type everything in one prompt, for example,
 
@@ -474,14 +473,14 @@ freqs = [2403.6, 101.3, 90.1, 5.2, 2410.2, 3.7]
 # Note 2: You can assume the user enters valid data, or, for a challenge, check for data validity.
 
 
-# 30
+# 36
 # Try this:
 userdata = input("Enter two numbers, separated by a space.")
 a, b = userdata.split()
 print(f"First number: {a} and second number: {b}")
 
 
-# 31
+# 37
 # In some cases, you can use the filter function instead of a `for` loop.
 # Example:
 temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
@@ -493,7 +492,7 @@ print(warm_temps)
 If you are limited in time or most students are ahead of you, postpone or skip this section.
 
 ```python3
-# 32a nested for-loops  (previously numbered as 11b)
+# 38a nested for-loops
 # Display multiplication facts from 1 to 5:
 # 1 * 1 = 1
 # 1 * 2 = 2
@@ -506,7 +505,7 @@ If you are limited in time or most students are ahead of you, postpone or skip t
 # ...
 # 5 * 5 = 25
 
-# 32b nested for-loops -- Multiplication table 
+# 38b nested for-loops -- Multiplication table 
 # Using the nested for-loops you created to display multiplication facts from 1 to 5 (above),
 # display the results in a table:
 #
