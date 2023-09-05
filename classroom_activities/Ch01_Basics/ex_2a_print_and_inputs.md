@@ -30,7 +30,7 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
      ```python3
      print("Here we go!")
      ```
-- Save the file to your local drive by press the key combination {Ctrl}{S} or by using the "File/Save" menu command.
+- Save the file to your local drive by press the key combination {Ctrl}{S} or by using the "File>Save" menu command.
 - Press F5 or the Play ▶️ at the top left of your screen to run the script.
 - It should display "Here we go!" in the terminal.
 - Ask if you have any questions.
