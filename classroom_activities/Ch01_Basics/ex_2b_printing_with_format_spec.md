@@ -1,8 +1,5 @@
 # Printing with Format Specifiers
 
-webpage for this lesson:  
-https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_2b_printing_with_format_spec.py
-
 ### Introduction
 
 Sometimes, you want to print with some specific format.
@@ -79,3 +76,6 @@ print(f"This will give an error, because item_number is a float: {item_number:b}
   https://www.pythonmorsels.com/string-formatting/  
 - This website gives detailed documentation; somewhat more difficult to read.  
   https://docs.python.org/3/library/string.html#format-specification-mini-language
+
+webpage for this lesson:  
+https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2b_printing_with_format_spec.md
