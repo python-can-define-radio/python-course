@@ -103,7 +103,7 @@ The backslash (`\`) is the character that always begins an 'escape sequence' in 
 - It allows you to type characters in a string that would normally have special meaning in Python, such as `"`.
 
 ```python3
-## 2d
+## 2c
 ## Try this.
 print("""If you put three quote marks, 
 you can easily enter a
@@ -111,14 +111,14 @@ multi-line
 string.""")
 
 
-## 2e
+## 2d
 ## You can also use triple quotes similarly to how you use comments:
 """If I wanted to write a long explanation,
 I could write it like this
 instead of using the '#' if I wanted to."""
 
 
-## 2f
+## 2e
 ## Try this.
 print('In Python, the single quote can be used instead of the double quote.')
 print("You can put 'single quotes' inside of double quotes, or vice versa, without needing an escape sequence.")
@@ -132,7 +132,7 @@ At this point, you've displayed some text on the screen. We may also want to sto
 If you'd like to read more about variables, go to section 7.1 on this page: https://learn.arcade.academy/en/latest/chapters/07_expressions/expressions.html
 
 ```python3
-## 3
+## 3a
 ## Try this.
 ## firstn and lastn are the two variables in this example.
 ## When you run this, you won't see Smith. Why not?
@@ -147,7 +147,7 @@ print(firstn)
 ## prints firstn, and then prints lastn.
 
 
-## 4
+## 4a
 ## Try this.
 ## This example uses an f-string. The f stands for "format".
 ## f-strings are used to insert variables inside of a string.
@@ -230,7 +230,7 @@ lastn = "Smith"
 print(f"Your name is {firstn} {lastn}.")
 
 
-## 6
+## 6a
 ## Copy and modify the previous example to do the following:
 ##  - Ask the user for his/her first name.
 ##  - Ask the user for his/her last name.
@@ -262,7 +262,7 @@ The word "string" simply means a sequence of characters. "Bob" is a string; "I a
 Programming languages treat numbers differently from strings. For example, we all know that `2 + 3` is `5`. But what is `"Hello" + "Goodbye"`? 
 
 ```python3
-## 9
+## 9a
 ## Try this.
 a = "Hello"
 b = "Goodbye"
@@ -333,7 +333,7 @@ Try some easy numbers to check it. Does it do the right thing?
 Now, compare to this one:
 
 ```python3
-## 15
+## 14
 ## Try this.  It will perform proper arithmetic.
 print("Welcome to the number adder that works well!")
 a = int(input("What's a number you like? "))
@@ -345,7 +345,7 @@ print(c)
 Notice that the `int` function tells Python to convert the numbers to integers. If you use `input` without `int`, then the variables are strings (not integers), so the `+` symbol does concatenation instead of math addition.
 
 ```python3
-## 16
+## 15
 ## Try this. You will get an error. How do you fix it?
 a = input("What is a number you like? ")
 b = int(input("Can you give me another number you like? "))
@@ -353,56 +353,56 @@ c = a + b
 print(c)
 
 
-## 17
+## 16
 ## Try this. You will get an error. How do you fix it?
 favnum = input("What is your favorite number? ")
 onemore = favnum + 1
 print(f"One more would be {onemore}")
 
 
-## 18
+## 17
 ## Ask the user for an integer.
 ## Display "That number plus 2 is ___".
 
 
-## 19
+## 18
 ## Ask the user for two integers.
 ## Display "The sum of your two numbers is ___".
 
 
-## 20
+## 19
 ## Ask the user for two integers.
 ## Display "The first number minus the second number is ___".
 
 
-## 21
+## 20
 ## Ask the user for a number.
 ## Display "Half of that number is ___".
 
 
-## 21b
+## 21a
 ## Try this.
 print("Hello"*3)
 
 
-## 21bb
+## 21b
 ## Copy and modify the previous example to ask the user for a string.
 ## Display whatever string the user enters three times 
 ##  (using *3, as in the previous example).
 
 
-## 21bba
+## 22a
 ## Try this. It will give an error.
 print("Hello" * "3")
 
 
-## 21bbb
+## 22b
 ## Copy and modify the previous example to ask the user for both the
 ## string to be multiplied and the number of repetitions.
 ## Hint: If you get an error, is it the same error as in the `print("Hello" * "3")` example? If so, why?
 
 
-## 21c
+## 23
 ## Does this example do what you expect?
 ## Why does it repeat the number five times rather than doing "real" math multiplication?
 ## How do you make it do math?
@@ -412,20 +412,20 @@ print("but something strange is going to happen:")
 print(num*5)
 
 
-## 22
+## 24
 ## Ask the user for the number of questions on a test,
 ## and ask "how many did you get right?"
 ## Then, display "You got ___% right". (You'll need to calculate the percent.)
 
 
-## 23
+## 25
 ## Ask the user for name and age.
 ## Display "Guess what, ___, in two years you'll be ___."
 ## (The user-provided name goes in the first blank, and the
 ##   age two years from now in the second blank.)
 
 
-## 27
+## 26
 ## Try this.
 ## Notice: The type of `x` is integer, and the type of `y` is string.
 ## The type of 3 is integer.
@@ -437,7 +437,7 @@ print(x*3)
 print(y*3)
 
 
-## 28
+## 27
 ## Try this. It shows how to use the type() function.
 ## `x` and `y` are both variables, are they integers or strings?
 x = input("Enter a word.")
@@ -448,7 +448,7 @@ print(x*y)
 
 
 
-## 28b
+## 28a
 ## Determine the type of each of these variables (integer, string, or something else).
 ## Hint: Python can tell you the types using the type() function.
 mystery = 6
@@ -464,24 +464,24 @@ The "float" type (which means floating point, referring to the decimal point) is
 
 ```python3
 ## Try this. It will give an error. If it doesn't, please ask an instructor.
-## 28c
+## 28b
 somenum = int(input("Try typing a non-whole number, such as an approximate value for pi. You'll see that it doesn't work: "))
 print(f"You typed {somenum}")
 
 
-## 28d
+## 28c
 ## Try this. You'll see that it allows for non-whole numbers.
 somenum = float(input("Try typing another non-whole number: "))
 print(f"You typed {somenum}")
 
 
-## 28e
+## 28d
 ## Ask the user for two numbers.
 ## Use float() in the places where you would use int().
 ## Display "The sum of your two numbers is ___".
 
 
-## 28f
+## 28e
 ## Ask the user for a number, making sure that you allow for non-whole numbers.
 ## Display "Twice that number is ___".
 ## Example run:
@@ -496,7 +496,7 @@ You may wonder -- why not always use `float()`? There are at least two reasons:
 3. There are certain cases in which you must use an int; for example, `print("Hello"*3.5)` will give an error.
 
 ```python3
-## 28g
+## 28f
 ## For extra practice with floats, copy and modify some of your previous exercises
 ##   so they use float instead of int.
 
@@ -515,16 +515,16 @@ print(x*y)
 x = "3"
 y = "5"
 print(x*y)
+```
 
+### Optional exercises
 
-## 32
-## (Optional)
-## You may wonder why you must use the int() function.
-## After all, shouldn't the computer know what a number looks like?
-## Here's an example of when you WOULDN'T want the number to be an integer.
-## (In other words, you want the number to be a string.)
+You may wonder why you must use the int() function. After all, shouldn't the computer know what a number looks like?
 
-########################################
+Here's an example of when you WOULDN'T want the number to be an integer. (In other words, you want the number to be a string.)
+
+```python3
+## 31a
 # This is the right way:
 beg = "800"
 mid = "555"
@@ -535,7 +535,7 @@ fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 
 
-########################################
+# 31b
 # The following version runs, but the output is wrong.
 # What's wrong with the output?
 beg = 800
@@ -546,7 +546,8 @@ print("Here's an example phone number using the digits you gave me:")
 fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 
-########################################
+
+# 31c
 # Another wrong way:
 # Why does this fail to run? 
 # Changing the input(...) to int(input(...)) is NOT the solution. Why not?
