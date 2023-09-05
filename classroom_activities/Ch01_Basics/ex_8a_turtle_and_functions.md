@@ -1,6 +1,6 @@
 # Turtle and Functions
 
-Functions are a essential building block in almost any programming language. This lesson teaches functions using the `turtle` module, which is a fun way to draw pictures and make games using Python. Even if you don't plan to work with graphics in your future Python endeavors, you'll still benefit from the exposure to Python concepts and syntax.
+Functions are an essential building block in almost any programming language. This lesson teaches functions using the `turtle` module, which is a fun way to draw pictures and make games using Python. Even if you don't plan to work with graphics in your future Python endeavors, you'll still benefit from the exposure to Python concepts and syntax.
 
 *Note: Make sure to close the turtle window after each run.*
 
