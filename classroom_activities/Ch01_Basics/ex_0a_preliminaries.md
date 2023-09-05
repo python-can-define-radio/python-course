@@ -3,9 +3,6 @@
 ## Computer Configuration
 These instructions assume you are working on a Linux operating system (OS).
 
-- Create a folder for yourself with your name (and no spaces) on the Desktop.
-- In VSCode, open the folder that you created.
-- Create a Python file to trigger the installation of the Python extension.
 - Follow these directions to run a setup script:
   - Right-click on this [student_config_script.sh](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/student_config_script.sh)  and select `Save Link As`.  
   - For the save location, click on `Desktop` on the left, and then click `Save`.
@@ -13,6 +10,9 @@ These instructions assume you are working on a Linux operating system (OS).
   - Right-click on your Desktop and select `Open in Terminal`.
   - Type `bash student_config_script.sh` and hit Enter.
   - Let the instructor know if you see any error messages.
+- Create a folder for yourself with your name (and no spaces) on the Desktop.
+- In VSCode, open the folder that you created.
+- Create a Python file to trigger the installation of the Python extension.
 - We will be using Github for many of our Python and SDR lessons. If you want, you may [create a free GitHub account](https://github.com). This will give you a repository in which you can save your work.  
 - For more information on Github Accounts:  
 https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
