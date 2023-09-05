@@ -517,7 +517,6 @@ while True:
     turtle.forward(howFarToMove)
     turtle.left(91)
     howFarToMove += 1
-
-## More cool examples:
-## https://gist.github.com/jkings454/b619cb0dc12901e8359393cad1b81c28
 ```
+### More cool examples:
+https://gist.github.com/jkings454/b619cb0dc12901e8359393cad1b81c28
