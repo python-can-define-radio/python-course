@@ -1,5 +1,4 @@
 # Print and Input Statements
-(This page: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2a_print_and_inputs.md)
 
 Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
 
@@ -582,4 +581,4 @@ print(fullPhoneNum)
 > ```
 </details>
 
-
+(This page: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2a_print_and_inputs.md)
