@@ -16,10 +16,6 @@ Back to computers.  One way to make decisions in a programming language such as 
 
 The exercises below will allow you to understand how to use if-statements, and ideally, how to appreciate them.
 
-References & Footnotes:  
-&nbsp;&nbsp; (1) https://techdifferences.com/difference-between-calculator-and-computer.html  
-&nbsp;&nbsp; (2) So said the poet Robert Frost.
-
 ### Exercises
 
 ```python3
@@ -489,3 +485,7 @@ else:
 ## Make it work for any capitalization.
 
 ```
+
+References & Footnotes:  
+&nbsp;&nbsp; (1) https://techdifferences.com/difference-between-calculator-and-computer.html  
+&nbsp;&nbsp; (2) So said the poet Robert Frost.
