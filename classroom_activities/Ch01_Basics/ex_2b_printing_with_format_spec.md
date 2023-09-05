@@ -39,7 +39,7 @@ print(f"Here's how to left-align with some letters after for visual context: {it
 
 ```python3
 ## Example group 2
-## Try these.
+## Try these all at once.
 another_num = 17
 print("Here's how to display in binary, octal, hexadecimal:")
 print(f"The number {another_num}, expressed in binary, is {another_num:b}.")
@@ -50,10 +50,12 @@ print(f"The number {another_num}, expressed in hexadecimal, is {another_num:x}."
 print(f"The number {another_num}, expressed in decimal, is {another_num:d}.")
 
 ## You can also display the number with a prefix that indicates the number system:
-print(f"The number {another_num}, expressed in binary, is {another_num:#b}.")
-print(f"The number {another_num}, expressed in octal, is {another_num:#o}.")
-print(f"The number {another_num}, expressed in hexadecimal, is {another_num:#x}.")
+print(f"The number {another_num}, expressed in binary with a prefix, is {another_num:#b}.")
+print(f"The number {another_num}, expressed in octal with a prefix, is {another_num:#o}.")
+print(f"The number {another_num}, expressed in hexadecimal with a prefix, is {another_num:#x}.")
+```
 
+```python3
 ## Note that the format specifiers for other number systems don't work for floats:
 item_number = 27.283
 print(f"This will give an error, because item_number is a float: {item_number:b}.")
