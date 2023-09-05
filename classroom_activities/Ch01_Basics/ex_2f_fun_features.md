@@ -8,7 +8,6 @@ Source: https://stackoverflow.com/questions/9246076/how-to-print-one-character-a
 
 ```python
 import time
-import sys
 
 def delay_print(s):
     for c in s:
