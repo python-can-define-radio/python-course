@@ -19,7 +19,7 @@ Here are some examples of how to specify the formatting when printing.
 
 ```python3
 ## Example group 1
-## Try these.
+## Try these all at once.
 item_number = 27.283
 print()
 print(f"My item num is {item_number}.")
@@ -37,7 +37,9 @@ print("I'll add some letters before and after to make it clear:")
 print(f"letters{item_number:^11.2f}letters")
 print()
 print(f"Here's how to left-align: {item_number:<11.2f}")
+```
 
+```python3
 ## Example group 2
 ## Try these.
 another_num = 17
