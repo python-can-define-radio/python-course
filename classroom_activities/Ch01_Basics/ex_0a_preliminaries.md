@@ -3,6 +3,7 @@
 ## Computer Configuration
 These instructions assume you are working on a Linux operating system (OS).
 
+- Open VSCode, then close it.
 - Follow these directions to run a setup script:
   - Right-click on this [student_config_script.sh](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/student_config_script.sh)  and select `Save Link As`.  
   - For the save location, click on `Desktop` on the left, and then click `Save`.
