@@ -1,10 +1,8 @@
-# Turtle
+# Turtle and Functions
 
-The `turtle` module is a fun way to draw pictures and make games using Python.
+Functions are a essential building block in almost any programming language. This lesson teaches functions using the `turtle` module, which is a fun way to draw pictures and make games using Python. Even if you don't plan to work with graphics in your future Python endeavors, you'll still benefit from the exposure to Python concepts and syntax.
 
-It's also a great way to gain familiarity with Python concepts and syntax.
-
-Note: Make sure to close the turtle window after each run.
+*Note: Make sure to close the turtle window after each run.*
 
 ### Exercises
 
