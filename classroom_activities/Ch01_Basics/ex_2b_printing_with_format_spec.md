@@ -36,7 +36,7 @@ print("You can also center the value within the available space.")
 print("I'll add some letters before and after to make it clear:")
 print(f"letters{item_number:^11.2f}letters")
 print()
-print(f"Here's how to left-align: {item_number:<11.2f}")
+print(f"Here's how to left-align with some letters after for visual context: {item_number:<11.2f}letters")
 ```
 
 ```python3
