@@ -18,20 +18,28 @@ Here are some examples of how to specify the formatting when printing.
 - The "f" inside the curly braces, such as, {item_number:.2f}, means ***floating point number***.
 
 ```python3
+## Example group 1
+## Try these.
 item_number = 27.283
+print()
 print(f"My item num is {item_number}.")
-print(f"My item num is {item_number:10}. Notice that it is padded with spaces.")
+print()
+print(f"My item num is {item_number:10}. Notice that it is padded with spaces on the left.")
+print()
 print(f"My item num is {item_number:.2f}, rounded to two decimal places.")
-print(f"This one is both rounded and has extra space: {item_number:9.2f}. Do you see?")
+print()
+print(f"My item num is both rounded and has extra space: {item_number:9.2f}. Do you see?")
+print()
 print(f"If the extra space is small, it may not change how the number is printed, such as in this case: {item_number:3.2f}.")
-
-####################
-
+print()
 print("You can also center the value within the available space.")
 print("I'll add some letters before and after to make it clear:")
-print(f"words{item_number:^11.2f}words")
+print(f"letters{item_number:^11.2f}letters")
+print()
 print(f"Here's how to left-align: {item_number:<11.2f}")
 
+## Example group 2
+## Try these.
 another_num = 17
 print("Here's how to display in binary, octal, hexadecimal:")
 print(f"The number {another_num}, expressed in binary, is {another_num:b}.")
