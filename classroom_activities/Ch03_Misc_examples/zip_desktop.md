@@ -1,6 +1,6 @@
 This is a GNU/Linux script to zip your Desktop folder and serve it using the terminal.
 
-1. Look up your ip address using `ip a` in a terminal window and write it down or remember it
+1. Look up your ip address using `ip a` in a terminal window. Write it down or remember it.
 2. Run the script below (running one-line-at-a-time is a good idea for self-education)
 
 ```sh
