@@ -13,6 +13,8 @@ Here's a table of a few examples:
 |120|1111000|170|78|
 
 
+ℹ️ This material coincides with material from python slideshow B (?). 
+
 You can ask Python to do this for you:
 
 ```python3
