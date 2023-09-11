@@ -36,7 +36,7 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 - Ask if you have any questions.
 </details>
 
-This material coincides with material from python slideshow B (slides 1-11, 69). 
+This material coincides with material from python slideshow B (slides 1-11, 16, 69). 
 
 ### Background info
 
