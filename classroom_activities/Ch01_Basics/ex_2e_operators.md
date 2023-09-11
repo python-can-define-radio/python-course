@@ -4,6 +4,8 @@ Most people are familiar with these four operators: +, -, *, /
 
 In this exercise, you'll learn some other useful operators: //, %, **
 
+ℹ️ This material coincides with material from python slideshow B (26-32). 
+
 ### Exercises
 
 ```python3
