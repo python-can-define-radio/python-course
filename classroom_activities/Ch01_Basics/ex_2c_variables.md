@@ -24,6 +24,8 @@ References for naming rules/conventions for variables in Python:
 ~ https://www.w3schools.com/python/gloss_python_variable_names.asp
  </details>
 
+ℹ️ This material coincides with material from python slideshow B (slides 54-63). 
+
 ### Exercises
 
 ```python3
