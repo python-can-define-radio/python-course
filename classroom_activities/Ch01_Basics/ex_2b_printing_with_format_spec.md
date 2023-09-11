@@ -8,6 +8,8 @@ For example:
  - Padding a number with spaces so that it aligns with other numbers in a list
  - Displaying a number in another number system
 
+This material coincides with material from python slideshow B (slides 12-15, 64-68). 
+
 Here are some examples of how to specify the formatting when printing.
 
 ### Note:
