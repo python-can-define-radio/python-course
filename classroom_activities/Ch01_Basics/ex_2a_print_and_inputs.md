@@ -36,6 +36,8 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 - Ask if you have any questions.
 </details>
 
+This material coincides with material from python slideshow B (slides 1-11, 69). 
+
 ### Background info
 
 Before we get to the rest of the exercises, here's a little info about what we're doing. This quoted from https://learn.arcade.academy/en/latest/chapters/04_print_statement/print_statement.html .
