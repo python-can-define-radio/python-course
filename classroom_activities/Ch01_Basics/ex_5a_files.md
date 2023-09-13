@@ -1,5 +1,7 @@
 # File Manipulation
 
+ℹ️ This material coincides with material from python slideshow D (slides 31-37).
+
 ### Exercises
 
 ```python3 
