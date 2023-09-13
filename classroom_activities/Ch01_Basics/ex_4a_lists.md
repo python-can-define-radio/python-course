@@ -2,7 +2,7 @@
 
 Almost any non-trival program will involve working with a collection, such as a list or an array. This exercise set introduces basic list operations.
 
-ℹ️ This material coincides with material from python slideshow C (slides 4-13).
+ℹ️ This material coincides with material from python slideshow C (slides 4-21).
 
 ### Exercises
 
