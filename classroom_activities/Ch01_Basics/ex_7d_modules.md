@@ -1,5 +1,7 @@
 # Modules
 
+ℹ️ This material coincides with material from python slideshow D (slides 4-15).
+
 When importing modules, there are a few approaches you can use:
 
 Import the whole module:
