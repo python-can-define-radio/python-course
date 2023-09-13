@@ -4,6 +4,8 @@ The `while` loop is useful for situations in which you don't know how many repet
 
 ℹ️ Use Ctrl + C to exit a program (useful for exiting infinite loops).
 
+ℹ️ This material coincides with material from python slideshow C (slides 22-29).
+
 ### Exercises
 
 ```python3
