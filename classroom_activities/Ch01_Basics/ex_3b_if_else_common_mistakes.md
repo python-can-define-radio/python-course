@@ -2,6 +2,8 @@
 
 At this point, you've seen multiple examples of correct ways to use `input` and `if`. Now, we'll explore some common mistakes.
 
+ℹ️ This material coincides with material from python slideshow C (39-46).
+
 ### Exercises
 
 Let's start with a simple example:
