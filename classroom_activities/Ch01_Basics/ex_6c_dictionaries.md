@@ -4,6 +4,8 @@ Dictionaries are a somewhat more advanced (but very useful) data structure.
 
 These exercises show the basics. For more practice, see https://realpython.com/python-dicts/
 
+ℹ️ This material coincides with material from python slideshow C (slides 14-21).
+
 ### Exercises
 
 ```python3
