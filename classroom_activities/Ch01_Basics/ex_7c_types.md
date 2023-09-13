@@ -2,6 +2,8 @@
 
 We know that the type of `a` in this example is `int` (short for integer).
 
+ℹ️ This material coincides with material from python slideshow B (slides 21-22).
+
 ```python3
 a = int(input("How old are you? "))
 print(f"Next year, you'll be {a + 1} years old.")
