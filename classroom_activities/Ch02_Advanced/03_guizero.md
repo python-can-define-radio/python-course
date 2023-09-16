@@ -354,7 +354,6 @@ At this point, if you finish before the rest of the class, or if you'd like more
 `(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new tab" or new window and then go to that tab/window.)`
 - https://lawsie.github.io/guizero/start/
 
-### Other notes:
+### How to handle keypresses properly:
 
-- `xset r $PROPERSETTINGGOESHERE`
-- `when_key_*`
+On GNU/Linux systems, when using `when_key_pressed`, you may want to run `xset r off` or `xset r on`. Note that this changes the repeating behavior user-account-wide.
