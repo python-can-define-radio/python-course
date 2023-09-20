@@ -164,6 +164,8 @@ print(f"My name is {firstn} {lastn}")
 ## (Later, when we get to file writing, the 
 ## comma approach doesn't work, but f-strings do work.)
 print("My name is", firstn, lastn)
+
+## (Remember to define your variables.  Where should the variable definitions be placed to be effective?)
 ```
 
 #### Using the Debugger
