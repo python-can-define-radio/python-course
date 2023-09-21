@@ -188,7 +188,7 @@ Who is the user? Well, imagine that you write the code, run the program, and the
 
 ```
 Hello!
-Say the name of a car, then press enter: 
+Type the name of a car, then press enter: 
 ```
 
 Hopefully, your neighbor (the user) will type a car name. Regardless of what he/she types, the computer will reply like so:
@@ -209,7 +209,7 @@ Try it out:
 ##   so that it has "focus" (that is, you want the words you type
 ##   to be entered in the terminal).
 print("Hello!")
-cartype = input("Say the name of a car, then press enter: ")
+cartype = input("Type the name of a car, then press enter: ")
 print(f"The car you named is {cartype}. That was a good choice.")
 ```
 
@@ -219,7 +219,7 @@ Here's some practice:
 ## 4d
 ## Copy and modify the previous example so that it asks the user for the name of a car,
 ## and then prints "The car you named is ____. Do you have one?"
-## In the blank, you should say the car that the user named.
+## In the blank, you should include whatever car the user named.
 
 
 ## 4e
@@ -254,9 +254,9 @@ print(f"Maybe someone is named: {firstn} {lastn}.")
 
 
 ## 8
-## Ask the user for the name of an animal and a plant.
+## Ask the user for the name of an animal and of a plant.
 ## Then display "The ___ eats ___ every day",
-## but fill in the blanks with the animal and the plant.
+## but fill in the blanks with the animal and the plant the user entered.
 ```
 
 #### Using Strings and Integers
@@ -446,8 +446,8 @@ print(y*3)
 ## `x` and `y` are both variables, are they integers or strings?
 x = input("Enter a word.")
 y = int(input("Enter a number."))
-print(f"The type of x is {type(x)}, which is another way to say string.")
-print(f"The type of y is {type(y)}, which is another way to say integer.")
+print(f"The type of x is {type(x)}, which is another way to say 'string'.")
+print(f"The type of y is {type(y)}, which is another way to say 'integer'.")
 print(x*y)
 
 
