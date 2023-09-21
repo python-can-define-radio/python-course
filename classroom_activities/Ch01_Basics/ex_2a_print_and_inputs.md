@@ -229,9 +229,9 @@ Here's some practice:
 
 ## 5
 ## Try this.
-firstn = input("What is your first name?")
+firstn = input("Please enter a first name?")
 lastn = "Smith"
-print(f"Your name is {firstn} {lastn}.")
+print(f"Maybe someone is named: {firstn} {lastn}.")
 
 
 ## 6a
