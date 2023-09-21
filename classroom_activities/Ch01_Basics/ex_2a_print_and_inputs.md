@@ -229,7 +229,7 @@ Here's some practice:
 
 ## 5
 ## Try this.
-firstn = input("Please enter a first name?")
+firstn = input("Please enter a first name? ")
 lastn = "Smith"
 print(f"Maybe someone is named: {firstn} {lastn}.")
 
