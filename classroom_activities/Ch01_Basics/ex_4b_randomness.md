@@ -64,12 +64,12 @@ print(x)
 
 ## 10 Random Floating Point Number, modified
 ## What does this do?  (I.e., What are the possible values of y?)
-for i in range(1, 12+1):
-  x = random.random()
-  y = x + 3
-  print(f"{y:0.5f}")
+x = random.random()
+y = x + 3
+print(f"{y:0.5f}")
 
 ## 11 Random Floating Point Number of an Arbitrary Size.
+## (optional challenge question)
 ## Using the previous example (i.e., x = random.random() ), instead of addition,
 ## what operation could you perform so y is a random number between zero and 
 ## a chosen maximum value?
