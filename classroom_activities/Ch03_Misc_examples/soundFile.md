@@ -40,7 +40,7 @@ If your `.wav` file is mono (one channel), your data will only have one dimensio
   2.13623047e-04  4.57763672e-04]
 ```
 
-You can specify that `soundfile` should always return a two-dimensional array:
+You can specify that `soundfile` should always return a two-dimensional array. You'll only be able to see a difference if you are working with a mono (single channel) `.wav` file. If you are working with a stereo `.wav` file, `always_2d=True` has no effect.
 
 ```python3
 ## 2
