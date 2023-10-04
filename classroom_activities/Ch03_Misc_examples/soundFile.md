@@ -89,4 +89,4 @@ data, samplerate = sf.read('input_file.wav')
 sf.write('output_file.raw', data, samplerate, subtype='FLOAT', endian='LITTLE')
 ```
 
-
+You'll see this applied in the [SDR Angel lesson](https://github.com/python-can-define-radio/sdr-course/blob/main/classroom_activities/Ch06_Applications/060_SDRangel.md).
