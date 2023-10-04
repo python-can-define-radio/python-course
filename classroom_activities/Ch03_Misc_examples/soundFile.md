@@ -8,7 +8,33 @@
 
 ### Exercises
 
+### Create a `.wav` file
 
+```python3
+## 1
+## This creates a mono `.wav` file that plays three tones.
+import soundfile as sf
+import numpy as np
+
+
+samplerate = 24000
+maxtime = 0.5
+
+timestamps = np.linspace(0, maxtime, int(maxtime*samplerate), endpoint=False)
+tone1 = np.sin(250   * 2 * np.pi * timestamps)
+tone2 = np.sin(375   * 2 * np.pi * timestamps)
+tone3 = np.sin(312.5 * 2 * np.pi * timestamps)
+
+in_sequence = np.concatenate([tone1, tone2, tone3])
+
+sf.write('threetone.wav', in_sequence, samplerate)
+```
+
+```
+## 2
+## This creates a stereo `.wav` file. It plays different tones on each speaker.
+TODO
+```
 
 ### Read a `.wav` file
 
