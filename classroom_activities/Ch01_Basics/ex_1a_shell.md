@@ -201,6 +201,16 @@ mv kangaroo.txt animals
 ##  (the "animals" directory or the "vehicles" directory).
 ```
 
+You can use the aforementioned `..` in the `mv` command too:
+
+```sh
+## 16
+## Try this. Where is cactus.txt after running these commands?
+cd ~/Desktop/term_example_files
+cd animals
+mv cactus.txt ..
+```
+
 ## Misc practice (Optional)
 
 ### If you have reached this point, switch to `ex_2a_print_and_inputs`.
