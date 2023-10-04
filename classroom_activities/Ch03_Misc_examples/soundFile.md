@@ -2,6 +2,10 @@
 
 [SoundFile](https://pysoundfile.readthedocs.io) is a Python library for reading and writing sound files.
 
+### Notes: 
+- You may need to install `soundfile` to begin.
+  - `pip install soundfile` (from the terminal) 
+
 ### Exercises
 
 ### Example: read a `.wav` file
