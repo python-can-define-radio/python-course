@@ -65,10 +65,11 @@ Some programs need a certain file format. For example, the SDRangel [WFM Modulat
 
 ```python3
 ## 3
+import numpy as np
 import soundfile as sf
 data, samplerate = sf.read('input_file.wav', always_2d=True)
 channels_added = np.sum(data, axis=1)
-sf.write('output_file.raw', oneChannel, samplerate, subtype='FLOAT', endian='LITTLE')
+sf.write('output_file.raw', channels_added, samplerate, subtype='FLOAT', endian='LITTLE')
 ```
 
 The above code works for either mono or stereo input files. You could simplify if you know whether the source data is mono or stereo:
