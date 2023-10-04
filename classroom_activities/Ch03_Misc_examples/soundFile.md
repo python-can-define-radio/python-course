@@ -65,6 +65,7 @@ Some programs need a certain file format. For example, the SDRangel [WFM Modulat
 
 ```python3
 ## 3
+## This works for either stereo or mono files
 import numpy as np
 import soundfile as sf
 data, samplerate = sf.read('input_file.wav', always_2d=True)
