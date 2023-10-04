@@ -100,4 +100,4 @@ from playsound import playsound
 
 playsound("You_must_pick_a_filename.mp3")
 ```
-More info in the [soundFile lesson](https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch03_Misc_examples/soundFile.md)
+More info on audio processing in the [soundFile lesson](https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch03_Misc_examples/soundFile.md)
