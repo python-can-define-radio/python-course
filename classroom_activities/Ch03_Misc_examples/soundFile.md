@@ -1,4 +1,8 @@
+# Audio Processing
+
 [SoundFile](https://pysoundfile.readthedocs.io) is a Python library for reading and writing sound files.
+
+### Exercises
 
 ### Example: read a `.wav` file
 
