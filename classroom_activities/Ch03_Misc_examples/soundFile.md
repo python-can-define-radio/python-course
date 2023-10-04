@@ -8,7 +8,7 @@
 
 ### Exercises
 
-### Example: read a `.wav` file
+### Read a `.wav` file
 
 ```python3
 ## 1
@@ -59,7 +59,7 @@ print(data)
 
 We'll show the usefulness of the `always_2d` argument below.
 
-### Example: Read a file; write it as a different format
+### Read a file; write it as a different format
 
 Some programs need a certain file format. For example, the SDRangel [WFM Modulator plugin](https://github.com/f4exb/sdrangel/blob/master/plugins/channeltx/modwfm/readme.md) requires mono 48 kHz F32LE raw format. The example below converts a `.wav` file to the needed format.
 
