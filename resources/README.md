@@ -99,10 +99,10 @@
    https://linuxhint.com/tic-tac-toe-using-gui-in-python/
 
 
--  Videos:
+-  Videos:  
    https://www.youtube.com/c/programmingwithmosh
-   
-
+   https://www.youtube.com/watch?v=a-zX_qc2S-M
+   https://www.youtube.com/watch?v=AdzKzlp66sQ
 
 -  [Python for Everybody (PY4E)](https://www.py4e.com/lessons): Another set of lessons covering all of the basics, and some more advanced topics (fetching data over a network, etc)
 
