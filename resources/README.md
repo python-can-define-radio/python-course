@@ -101,6 +101,7 @@
 
 -  Videos:
    https://www.youtube.com/c/programmingwithmosh
+   
 
 
 -  [Python for Everybody (PY4E)](https://www.py4e.com/lessons): Another set of lessons covering all of the basics, and some more advanced topics (fetching data over a network, etc)
