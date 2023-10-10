@@ -105,7 +105,7 @@ Why? The short explanation is that it helps avoid off-by-one errors.
 
 ```python3
 # 9
-# Modify the previous example to print the numbers 1 to 6.
+# Copy and modify the previous example to print the numbers 1 to 6.
 ```
 
 Here are some examples of using other control structures inside of `for` loops.
@@ -128,9 +128,12 @@ for temp in temps_in_F:
 
 
 # 16
-# Modify the previous question to display the temperature and display whether it is above or below freezing.
+# Copy and modify the previous question to display the temperature and display whether it is above or below freezing.
+```
 
+There may be cases in which you want to count how many items in a list end with a certain string. Before we do that, here's how `endswith` works:
 
+```python3
 # 17
 # Try this:
 x = input("Say a word: ")
@@ -144,14 +147,14 @@ print("That's all I have to say.")
 # then the computer will display "I think that's a day of the week."
 ```
 
-In some cases, you'll update a variable inside of a loop. In the example below, we loop through the strings in the `fruits` list, adding one to `berryCount` every time the variable `fr` ends with "berry".
+Let's count. In the example below, we loop through the strings in the `fruits` list, adding one to `berryCount` every time the variable `fr` ends with "berry".
 
 Notice that we must _initialize_ the variable to zero before we start counting. 
 
 ```python3
 # 19
 # Try this:
-fruits = ["strawberry", "raspberry", "blueberry", "grape", "mango", "melon"]
+fruits = ["strawberry", "mango", "raspberry", "blueberry", "grape", "melon"]
 berryCount = 0
 for fr in fruits:
     if fr.endswith("berry"):
@@ -169,8 +172,7 @@ print(f"There were {berryCount} that ended with berry.")
 # 21
 # Given this list, count how many temperatures are above freezing.
 # Display the count.
-temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
-
+temps_in_F = [90, 30, 47, 82, 68, 100, 25, 40]
 
 
 # 22
@@ -178,7 +180,7 @@ temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
 # temperatures are above freezing and how many are below freezing.
 ```
 
-Often, you may work with related sets of data. For example, imagine a list of instructors, their ages, and their years of experience. One way to express this information is a list of lists:
+Often, you may work with related sets of data. For example, imagine a list of instructors that includes their names, ages, and years of experience. One way to express this data is a list of lists:
 
 ```python3
 # 23a
@@ -191,7 +193,7 @@ instructors = [
 ]
 ```
 
-To work with this list, we may use a for loop:
+To work with this list, we may use a `for` loop:
 
 ```python3
 # 23b
@@ -286,24 +288,23 @@ for name, age, yearsExp in instructors:
     print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
 ```
 
-</details>
-
-
-Let's do some math inside of the loop.
+Now that we've learned how unpacking works, let's do some math inside of the loop.
 
 ```python3
 # 24
-# Copy and modify the previous example to display how old each person was 
-# when he/she started this job.
+# Given this data,
+instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
+                  ["Joel", 28, 3], ["Tate", 67, 5]]
+# Display how old each person was when he/she started this job.
 # For example, Maria started this job 7 years ago, so you would print this:
 #    The instructor Maria is 38 years old, and started working at age 31.
 # 
-# Note: For this exercise, the following portion must remain unchanged:
-#     instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
-#                     ["Joel", 28, 3], ["Tate", 67, 5]]
-#
-# In other words, you cannot add the age that the each person started working
-# in the instructors list; rather, you must compute it within the `for` loop.
+# Note: For this exercise, the given code must remain unchanged.
+# In other words, you cannot do this:
+#    instructors = [["Maria", 38, 7, 31]...
+#                                    ^^ You cannot add this.
+# Why? The goal is to have Python compute the
+# started-working-age within the `for` loop.
 # Ask an instructor if this is unclear.
 
 
