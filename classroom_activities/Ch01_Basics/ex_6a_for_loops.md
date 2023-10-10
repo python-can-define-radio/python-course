@@ -389,11 +389,8 @@ for letter in phrase:
 # l!
 # l!
 # o!
-```
 
 
-
-```python3
 # 35
 # For each of the integers 1 to 5, print that number squared.
 # Use the range function.
@@ -434,7 +431,7 @@ print("Hello"*3)
 # Hint: There are two ways to do this.
 #
 #   One approach uses a `for` loop, and would resemble this:
-#   (Note that you should replace the "???" with actual code)
+#   (Note: you should replace the "???" with actual code)
 #
 #       howmany = int(input("How many times would you like to print Hello? "))
 #       for i in range(???):
@@ -474,7 +471,6 @@ print("Hello"*3)
 
 
 # 42
-# (optional challenge question)
 # Construct the following using a `for` loop.
 # Let the user specify how many rows to print.
 # 1 times A is A
@@ -484,19 +480,16 @@ print("Hello"*3)
 
 
 # 43
-# (optional challenge question)
 # Construct the following pattern using a `for` loop.
 # Let the user specify how many rows to print.
 # A
 # AA
 # AAA
 # AAAA
-```
 
 
-```python3
 # 44
-# Copy and modify the previous example to display each person's name and salary.
+# Copy and modify the earlier `instructors` example to display each person's name and salary.
 # Compute the salary using this formula:
 #   For 0 to 4 years, the pay is $35000.
 #   For 5 to 9 years, the pay is $36000.
@@ -522,12 +515,10 @@ print("Hello"*3)
 #     What is the base pay? 55000
 #     What is the pay adjustment per 5 years of experience? 2000 
 #     Maria: 7 years of experience, $57000 per year
-```
 
 
-```python3
 # 46
-# Try this.
+# Try this. It shows how to use `enumerate`.
 names = ["Sam", "Lisa", "Micah", "Dave"]
 for indx, elem in enumerate(names):
     print(f"The index is {indx} and the element is {elem}")
@@ -538,23 +529,25 @@ for indx, elem in enumerate(names):
 # Modify the earlier example (the one that printed "Hello" with "!" after each letter) so it outputs the 
 #  indices of the letters before the letters.
 # Hint: One way to do this is using enumerate.
-
 # Example output:
-
 # 0: H!
 # 1: e!
 # 2: l!
 # 3: l!
 # 4: o!
 # Etc.
+```
 
+Imagine this context for the next few questions:  
+_Your spectrum analyzer is logging which frequencies have shown activity. It makes a note of the center frequency of each burst of activity. Here’s what it has recorded (units are MHz):_
 
-# -- Introduction to the next few questions --
-# Your spectrum analyzer is logging which frequencies have shown activity.
-# It makes a note of the center frequency of each burst of activity.
-# Here’s what it has recorded (units are MHz):
+```python3
 freqs = [2403.6, 101.3, 90.1, 5.2, 2410.2, 3.7]
+```
 
+Given that list of frequencies, complete the following:
+
+```python3
 # 48
 # Using a loop, print each frequency, and then print whether it is
 # in the Wi-Fi range, the FM Radio range, or Neither Wi-Fi nor FM.
@@ -604,21 +597,15 @@ freqs = [2403.6, 101.3, 90.1, 5.2, 2410.2, 3.7]
 userdata = input("Enter two numbers, separated by a space.")
 a, b = userdata.split()
 print(f"First number: {a} and second number: {b}")
-
-
-# 55
-# In some cases, you can use the filter function instead of a `for` loop.
-# Example:
-temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
-warm_temps = list(filter(lambda x: x > 81, temps_in_F))
-print(warm_temps)
 ```
 
-### Challenge Questions
-If you are limited in time or most students are ahead of you, postpone or skip this section.
+### Nested for-loops
+
+These exercises can be done using a for loop inside another for loop.
 
 ```python3
-# 56 nested for-loops
+# 55: nested for-loops
+# (challenge question)
 # Display multiplication facts from 1 to 5:
 # 1 * 1 = 1
 # 1 * 2 = 2
@@ -631,7 +618,8 @@ If you are limited in time or most students are ahead of you, postpone or skip t
 # ...
 # 5 * 5 = 25
 
-# 57 nested for-loops -- Multiplication table 
+# 56: nested for-loops -- Multiplication table 
+# (challenge question)
 # Using the nested for-loops you created to display multiplication facts from 1 to 5 (above),
 # display the results in a table:
 #
