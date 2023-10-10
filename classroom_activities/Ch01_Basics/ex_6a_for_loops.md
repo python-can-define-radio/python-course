@@ -77,9 +77,295 @@ for age in ages:
 
 
 # 5
-# For each of the following numbers, display “Half of __ is ___”. For example, “Half of 21 is 10.5”
+# For each of the following numbers, display "Half of __ is ___". For example, "Half of 21 is 10.5"
 numbers = [21, 40, 32, 10, 8, 3]
 ```
+
+You can also use a `for` loop with a range:
+
+```python3
+# 8
+# Try this:
+for num in range(1,5):
+    print(num)
+```
+
+You'll notice that `range()` always omits the final number. It may seem odd, but it was an intentional decision in the design of Python (and other languages).
+
+Why? The short explanation is that it helps avoid off-by-one errors.
+
+<details><summary>Here are some further explanations (optional reading):</summary>
+
+- https://howdoesinternetwork.com/2015/numbers
+- https://howdoesinternetwork.com/wp-content/uploads/E.W.-Dijkstra-Archive-Why-numbering-should-start-at-zero-EWD-831-transcript.html
+- https://stackoverflow.com/questions/4504662/why-does-rangestart-end-not-include-end
+
+</details>
+
+
+```python3
+# 9
+# Modify the previous example to print the numbers 1 to 6.
+```
+
+Here are some examples of using other control structures inside of `for` loops.
+
+```python3
+# 15a
+# Try this.
+temps_in_F = [47, 100, 16, 82, 30, 68, 90, 25, 40]
+for temp in temps_in_F:
+    print(f"The temperature was {temp}")
+
+    
+# 15b
+# Try this.
+temps_in_F = [47, 100, 16, 82, 30, 68, 90, 25, 40]
+for temp in temps_in_F:
+    print(f"The temperature was {temp}")
+    if temp > 90:
+        print("That's hot.")
+
+
+# 16
+# Modify the previous question to display the temperature and display whether it is above or below freezing.
+
+
+# 17
+# Try this:
+x = input("Say a word: ")
+if x.endswith("s"):
+    print("That ends with an 's', so it might be plural.")
+print("That's all I have to say.")
+
+
+# 18
+# Modify the previous example so that if the user input ends with "day",
+# then the computer will display "I think that's a day of the week."
+```
+
+In some cases, you'll update a variable inside of a loop. In the example below, we loop through the strings in the `fruits` list, adding one to `berryCount` every time the variable `fr` ends with "berry".
+
+Notice that we must _initialize_ the variable to zero before we start counting. 
+
+```python3
+# 19
+# Try this:
+fruits = ["strawberry", "raspberry", "blueberry", "grape", "mango", "melon"]
+berryCount = 0
+for fr in fruits:
+    if fr.endswith("berry"):
+        berryCount += 1
+print("I've finished counting the fruits.")
+print(f"There were {berryCount} that ended with berry.")
+
+
+# 20
+# Using `startswith` (which works quite similarly to endswith),
+# count how many of the fruits start with 'm'.
+# Then display the count.
+
+
+# 21
+# Given this list, count how many temperatures are above freezing.
+# Display the count.
+temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
+
+
+
+# 22
+# Copy and modify the previous example to show the user how many
+# temperatures are above freezing and how many are below freezing.
+```
+
+Often, you may work with related sets of data. For example, imagine a list of instructors, their ages, and their years of experience. One way to express this information is a list of lists:
+
+```python3
+# 23a
+instructors = [
+    ["Maria", 38, 7],
+    ["Walton", 47, 22],
+    ["Martin", 52, 18],
+    ["Joel", 28, 3],
+    ["Tate", 67, 5]
+]
+```
+
+To work with this list, we may use a for loop:
+
+```python3
+# 23b
+# Try this.
+instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
+                  ["Joel", 28, 3], ["Tate", 67, 5]]
+print("Here is my instructor data:")
+for instructor in instructors:
+    name, age, yearsExp = instructor
+    print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
+```
+
+You may be surprised at the line `name, age, yearsExp = instructor`. We're using a special Python feature called **unpacking a list**. We'll unpack that concept (pun intended) in the next few exercises.
+
+```python3
+## 999
+## Try this.
+## Notice that each variable is assigned to the respective element of the list.
+name, color = ["Bob", "Green"]
+print(f"{name} likes the color {color}")
+
+
+## 999
+## This example shows the same concept using an additional variable.
+personinfo = ["Bob", "Green"]
+name, color = personinfo
+print(f"{name} likes the color {color}")
+
+
+## 999
+## Here's an example that needs to be fixed.
+## For the sake of the exercise, only change the labelled line.
+personinfo = ["Bob", "Green", 20]
+name, age, color = personinfo   #   <-- Only change this line.
+print(f"{name} is {age} years old, and likes the color {color}")
+```
+
+In the case of a list of lists, you could use a combination of indexing and unpacking, but a `for` loop is often better. Both approaches are shown below.
+
+First, the long (not recommended) way, just for comparison.
+
+```python3
+## 999
+## Remember, this is not recommended.
+instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
+                  ["Joel", 28, 3], ["Tate", 67, 5]]
+print("Here is my instructor data:")
+
+instructor = instructors[0]
+name, age, yearsExp = instructor
+print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
+
+instructor = instructors[1]
+name, age, yearsExp = instructor
+print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
+
+instructor = instructors[2]
+name, age, yearsExp = instructor
+print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
+
+instructor = instructors[3]
+name, age, yearsExp = instructor
+print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
+
+instructor = instructors[4]
+name, age, yearsExp = instructor
+print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
+```
+
+Now, the recommended way:
+
+```python3
+## 999
+## Try this.
+instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
+                  ["Joel", 28, 3], ["Tate", 67, 5]]
+print("Here is my instructor data:")
+for instructor in instructors:
+    name, age, yearsExp = instructor
+    print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
+```
+
+If you'd like, you can condense this even more:
+
+```python3
+## 999
+## This shows the even-more-condensed approach.
+instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
+                  ["Joel", 28, 3], ["Tate", 67, 5]]
+print("Here is my instructor data:")
+for name, age, yearsExp in instructors:
+    print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
+```
+
+</details>
+
+
+Let's do some math inside of the loop.
+
+```python3
+# 24
+# Copy and modify the previous example to display how old each person was 
+# when he/she started this job.
+# For example, Maria started this job 7 years ago, so you would print this:
+#    The instructor Maria is 38 years old, and started working at age 31.
+# 
+# Note: For this exercise, the following portion must remain unchanged:
+#     instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
+#                     ["Joel", 28, 3], ["Tate", 67, 5]]
+#
+# In other words, you cannot add the age that the each person started working
+# in the instructors list; rather, you must compute it within the `for` loop.
+# Ask an instructor if this is unclear.
+
+
+# 25
+# Copy and modify the previous example. In this version, for each instructor,
+# display the following:
+#     The instructor Maria has been working for 7 years, and will receive a $70 bonus this year.
+# 
+# The bonus must be $10 times the number of years of experience (5 years would be $50, etc).
+# As in the previous exercise, the list of instructors must remain unchanged.
+
+
+# 26
+# Copy and modify the previous example.
+# Ask the user for the extra bonus per year of experience. Compute appropriately.
+# Example run:
+#     What is the bonus per year of experience? 20
+#     The instructor Maria has been working for 7 years, and will receive a $140 bonus this year.
+#     The instructor Walton has been working for 22 years, and will receive a $440 bonus this year.
+#     ...etc...
+
+
+# 27
+# Copy and modify the previous example.
+# After the for loop, display
+#    "The total amount of work experience for this team is ___". 
+# Must compute the total inside the for loop.
+# Hint: the structure will resemble this:
+#   totalYearsExp = 0
+#   for ??? in ???:
+#       totalYearsExp += yearsExp
+#   print(f"The total amount of work experience for this team is {totalYearsExp}")
+```
+
+Here another example to practice the same concepts:
+
+```python3
+# 27b
+# The following data describes four runners.
+# Each sub-list contains, in this order,
+#  - the runner's name
+#  - the miles that that runner ran
+#  - the minutes it took to run that many miles
+
+runners = [
+    ["James", 5, 60],
+    ["Tom", 1, 7],
+    ["Steve", 2, 22],
+    ["Carson", 2, 12]
+]
+
+# Your task is to print the name and minutes-per-mile for each runner.
+# The structure will resemble this:
+for ??? in runners:
+    print(f"{???} ran {???} miles in {???} minutes.")
+    print(f"That means {???} took an average of {???} minutes to run each mile.")
+# Note that you may need to add more code than what is shown.
+```
+
+### Optional exercises
+
+If you have time, we recommend doing the exercises below.
 
 As you've seen, you can use a `for` loop with lists. You can also use a `for` loop with a string. For example:
 
@@ -104,30 +390,9 @@ for letter in phrase:
 # o!
 ```
 
-You can also use a `for` loop with a range:
-
-```python3
-# 8
-# Try this:
-for num in range(1,5):
-    print(num)
-```
-
-You'll notice that `range()` always omits the final number. It may seem odd, but it was an intentional decision in the design of Python (and other languages).
-
-Why? The short explanation is that it helps avoid off-by-one errors.
-
-Here are some further explanations:
-- https://howdoesinternetwork.com/2015/numbers
-- https://howdoesinternetwork.com/wp-content/uploads/E.W.-Dijkstra-Archive-Why-numbering-should-start-at-zero-EWD-831-transcript.html
-- https://stackoverflow.com/questions/4504662/why-does-rangestart-end-not-include-end
 
 
 ```python3
-# 9
-# Modify the previous example to print the numbers 1 to 6.
-
-
 # 10
 # For each of the integers 1 to 5, print that number squared.
 # Use the range function.
@@ -225,117 +490,10 @@ print("Hello"*3)
 # AA
 # AAA
 # AAAA
-
-
-# 15a
-# Try this.
-temps_in_F = [90, 47, 16, 82, 68, 100, 30, 25, 40]
-for temp in temps_in_F:
-    print(f"The temperature was {temp}")
-
-    
-# 15b
-# Try this.
-temps_in_F = [90, 47, 16, 82, 68, 100, 30, 25, 40]
-for temp in temps_in_F:
-    print(f"The temperature was {temp}")
-    if temp > 90:
-        print("That's hot.")
-
-
-# 16
-# Modify the previous question to display the temperature and display whether it is above or below freezing.
-
-
-# 17
-# Try this:
-x = input("Say a word: ")
-if x.endswith("s"):
-    print("That ends with an 's', so it might be plural.")
-print("That's all I have to say.")
-
-
-# 18
-# Modify the previous example so that if the user input ends with "day",
-# then the computer will display "I think that's a day of the week."
 ```
 
-In some cases, you'll update a variable inside of a loop. In the example below, we loop through the strings in the `fruits` list, adding one to `berryCount` every time the variable `fr` ends with "berry".
-
-Notice that we must _initialize_ the variable to zero before we start counting. 
 
 ```python3
-# 19
-# Try this:
-fruits = ["strawberry", "raspberry", "blueberry", "grape", "mango", "melon"]
-berryCount = 0
-for fr in fruits:
-    if fr.endswith("berry"):
-        berryCount += 1
-print("I've finished counting the fruits.")
-print(f"There were {berryCount} that ended with berry.")
-
-
-# 20
-# Using `startswith` (which works quite similarly to endswith),
-# count how many of the fruits start with 'm'.
-# Then display the count.
-
-
-# 21
-# Given this list, count how many temperatures are above freezing.
-# Display the count.
-temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
-
-
-
-# 22
-# Copy and modify the previous example to show the user how many
-# temperatures are above freezing and how many are below freezing.
-```
-
-Often, you may work with related sets of data. For example, imagine a list of instructors, their ages, and their years of experience. You may do a list of lists:
-
-```python3
-# 23a
-instructors = [
-    ["Maria", 38, 7],
-    ["Walton", 47, 22],
-    ["Martin", 52, 18],
-    ["Joel", 28, 3],
-    ["Tate", 67, 5]
-]
-```
-
-To work with this list, we may use a for loop:
-
-```python3
-# 23b
-# Try this.
-instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
-                  ["Joel", 28, 3], ["Tate", 67, 5]]
-print("Here is my instructor data:")
-for name, age, yearsExp in instructors:
-    print(f"The instructor {name} is {age} years old and has {yearsExp} years of experience.")
-```
-
-Let's do some math inside of the loop.
-
-```python3
-# 24
-# Copy and modify the previous example to display how old each person was when he/she started this job.
-# For example, Maria started this job 7 years ago, so you would print this:
-#    The instructor Maria is 38 years old, and started working at age 31.
-# 
-# Note: For this exercise, the following portion must remain unchanged:
-#     instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
-#                     ["Joel", 28, 3], ["Tate", 67, 5]]
-#
-# In other words, you cannot add the age that the each person started working
-# in the instructors list; rather, you must compute it within the `for` loop.
-# Ask an instructor if this is unclear.
-
-
 # 25
 # Copy and modify the previous example to display each person's name and salary.
 # Compute the salary using this formula:
@@ -363,43 +521,11 @@ Let's do some math inside of the loop.
 #     What is the base pay? 55000
 #     What is the pay adjustment per 5 years of experience? 2000 
 #     Maria: 7 years of experience, $57000 per year
-
-
-# 27
-# Copy and modify the previous example.
-# After the for loop, display
-#    "The total amount of work experience for this team is ___". 
-# Must compute the total inside the for loop.
-# Hint: the structure will resemble this:
-#   totalYearsExp = 0
-#   for ??? in ???:
-#       totalYearsExp += yearsExp
-#   print(f"The total amount of work experience for this team is {totalYearsExp}")
-```
-
-Here's some more practice:
-
-```
-# 27b
-### Given this data...
-runners = [
-    ["James", 5, 60],
-    ["Tom", 1, 7],
-    ["Steve", 2, 22],
-    ["Carson", 2, 12]
-]
-
-### ...Your task is to print the name and Minutes Per Mile for each runner.
-### structure:
-for name, miles_run, minutes in runners:
-    print(f"{name} ran {miles_run} in {minutes} minutes.")
-    print(f"That means {name} took an average of {???} minutes per mile.")
 ```
 
 
-### Optional exercises
 
-If you have time, we recommend doing the exercises below.
+
 
 ```python3
 # 28
