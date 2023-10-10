@@ -27,3 +27,10 @@
            3. Display " ____ 's username is ____ "
         2. If the name does not contain a space:
            1. Display " ____ 's username is ____ " (with the same name in both blanks).
+
+6. In some cases, you may wish to use the `filter` function.
+   ```python3
+   temps_in_F = [90, 47, 82, 68, 100, 30, 25, 40]
+   warm_temps = list(filter(lambda x: x > 81, temps_in_F))
+   print(warm_temps)
+   ```
