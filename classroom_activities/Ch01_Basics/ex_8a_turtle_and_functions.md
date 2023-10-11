@@ -397,7 +397,7 @@ drawTriangle4(200, "cyan")
 
 We've seen how to pass data **into** a function. What if you want to get data **out** of a function?
 
-We'll demonstrate this by rebuilding the `distance` function. Let's start with an example:
+We'll demonstrate this by rebuilding the `distance` function. Let's start with an example of how `distance` works:
 
 ```python3
 x_now, y_now = turtle.pos()
