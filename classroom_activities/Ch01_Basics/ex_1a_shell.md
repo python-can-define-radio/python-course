@@ -20,6 +20,7 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
 - Commands to be entered in Linux Terminal window are written without any such prefix.
 - Press the {enter} key after each command line. 
 - If you would like to clear the terminal at any point, press `Ctrl L`.
+- While in a command line such as Linux, and Ctrl + C is used to send a SIGINT (signal interrupt) signal, which cancels or terminates the currently-running program.
 
 ### Exercises
 
