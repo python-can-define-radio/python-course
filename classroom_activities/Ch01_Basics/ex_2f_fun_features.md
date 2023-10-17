@@ -17,6 +17,31 @@ def delay_print(s):
 delay_print("hello world")
 ```
 
+In fact, you can make everything delay printed if you'd like.
+
+<details><summary>Expand this to see how:</summary>
+
+```python3
+real_print = print
+real_input = input
+ 
+def print(s):
+    for c in s:
+        real_print(c, end="", flush=True)
+        time.sleep(0.02)
+    real_print("\n")
+ 
+def input(s):
+    for c in s:
+        real_print(c, end="", flush=True)
+        time.sleep(0.02)
+    return real_input()
+
+print("Notice that the normal print function has now been overridden.")
+x = input("You can use input too.")
+```
+</details>
+
 ### Color output
 
 #### Colors using `termcolor`
