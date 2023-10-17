@@ -217,6 +217,10 @@ mv cactus.txt ..
 ### If you have reached this point, switch to `ex_2a_print_and_inputs`.
 
 ```sh
+## 22
+## You can search for all files that have an "a" in their name:
+tree -f | grep a
+
 ## 23
 ## You can display everything in a directory that ends with txt:
 cat *.txt
