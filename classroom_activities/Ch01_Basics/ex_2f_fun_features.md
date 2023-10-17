@@ -22,6 +22,8 @@ In fact, you can make everything delay printed if you'd like.
 <details><summary>Expand this to see how:</summary>
 
 ```python3
+import time
+
 real_print = print
 real_input = input
  
