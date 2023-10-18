@@ -1,5 +1,4 @@
-
-### The guizero module  
+# The guizero module  
 
 The goal of the current lesson is to familiarize new students with the "guizero" module of python.
 
