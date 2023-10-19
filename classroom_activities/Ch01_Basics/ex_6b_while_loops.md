@@ -258,6 +258,26 @@ print("Goose!")
 ##      Recommended: refer back to the exercise that used .lower() .
 
 
+# 29b
+# Make a program that asks the user for names.
+# If the name starts with "c", append it to a list.
+# At the end, display only the names that start with c.
+# The structure will look like this:
+#   names_starting_with_c = []
+#   name = input("Enter a name, or q to quit: ")
+#   while ???:
+#       if ???:
+#           names_starting_with_c.append(???)
+#       name = input("Enter a name, or q to quit: ")
+#   print(f"These names start with the letter c: {names_starting_with_c}")
+# Example run:
+#   Enter a name: bob
+#   Enter a name: chris
+#   Enter a name: corey
+#   Enter a name: q
+#   These names start with the letter c: ['bob', 'chris', 'corey']
+
+
 ## 30
 ## Make a remainder study tool:
 ## Have Python pick a random number between 20 and 100.
