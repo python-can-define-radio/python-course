@@ -135,7 +135,7 @@ for temp in temps_in_F:
 # Copy and modify the previous question to display the temperature and display whether it is above or below freezing.
 ```
 
-As you've seen, the indentation controls whether a part of the code is repeated. To practice this concept, try this example below.
+As you've now seen, indentation controls whether or not a part of the code inside the for-loop.  If indented, it will be repeated.  Where the indentation ends, the for-loop no longer exists. To practice this concept, try this example below.
 
 ```python3
 # 12b
