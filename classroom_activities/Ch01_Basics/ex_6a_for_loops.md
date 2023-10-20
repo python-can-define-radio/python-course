@@ -6,6 +6,8 @@ One of the most powerful uses of programming is the ability to repeat an action,
 
 ℹ️ This material coincides with material from python slideshow C (slides 22-29).
 
+As you work these exercises, Ask yourself the questions, "What lines of code are inside the for-loop, and where does the for-loop end?"
+
 ### Exercises
 
 ```python3
@@ -16,7 +18,9 @@ for color in colors:
     print("Here is a color that I know:")
     print(color)
     print()
+print("\nThe for-loop has ended.")
 ```
+Can you answer the questions, "What items are inside the for-loop, and where does the for-loop end?"?  If not, try again after a few more examples.
 
 The line `for color in colors:` is the new part. It means "for each color in my list of colors, do the following actions."
 
