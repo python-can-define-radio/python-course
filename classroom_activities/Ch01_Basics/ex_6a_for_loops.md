@@ -135,6 +135,19 @@ for temp in temps_in_F:
 # Copy and modify the previous question to display the temperature and display whether it is above or below freezing.
 ```
 
+As you've seen, the indentation controls whether a part of the code is repeated. To practice this concept, try this example below.
+
+```python3
+# 12b
+# Try this to see the impact of indentation. How do you fix it?
+temps_in_F = [47, 100, 16, 82, 30, 68, 90, 25, 40]
+for temp in temps_in_F:
+    print("Looking at the temperatures.")
+print(f"One of the temperatures in the list is {temp}")
+if temp > 90:
+    print("That's hot.")
+```
+
 There may be cases in which you want to count how many items in a list end with a certain string. Before we do that, here's how `endswith` works:
 
 ```python3
