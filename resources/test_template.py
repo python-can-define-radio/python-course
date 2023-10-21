@@ -1,0 +1,59 @@
+## 1
+# ABCD
+
+## 2
+# ABCD
+
+## 3
+# ABCD
+
+## 4
+# ABCD
+
+## 5
+# ABCD
+
+## 6
+# ABCD
+
+## 7
+# ABCD
+
+## 8
+# ABCD
+
+## 9
+# ABCD
+
+## 10
+# ABCD
+
+## 11
+print("THIS STILL NEEDS TO BE ANSWERED")
+
+## 12
+print("THIS STILL NEEDS TO BE ANSWERED")
+
+## 13
+print("THIS STILL NEEDS TO BE ANSWERED")
+
+## 14
+print("THIS STILL NEEDS TO BE ANSWERED")
+
+## 15
+print("THIS STILL NEEDS TO BE ANSWERED")
+
+## 16
+print("THIS STILL NEEDS TO BE ANSWERED")
+
+## 17
+print("THIS STILL NEEDS TO BE ANSWERED")
+
+## 18
+print("THIS STILL NEEDS TO BE ANSWERED")
+
+## 19
+print("THIS STILL NEEDS TO BE ANSWERED")
+
+## 20
+print("THIS STILL NEEDS TO BE ANSWERED")
