@@ -152,6 +152,16 @@ if operation == half:
 
 ## 11
 ## What's wrong with this code?
+print("You win the game if your age is at least 90.")
+age = input("How old are you? ")
+if age >= 90:
+    print("You win!")
+else:
+    print("You lose.")
+
+
+## 11b
+## What's wrong with this code?
 print("You win the game if your age is exactly 99.")
 age = input("How old are you? ")
 if age == 99:
@@ -163,7 +173,7 @@ else:
 ## 12
 ## What's wrong with this code?
 opinion = input("Do you like celery? ")
-if opinion == "yes" and opinion == "Yes":
+if opinion == "yes" and opinion == "definitely":
     print("Glad you like it.")
 else:
     print("You don't like it? You should try it again some time.")
@@ -194,9 +204,11 @@ if name.lower() == "Bob":
     print("Hey Bobby!")
 else:
     print("Hello, good to meet you.")
-    
+
+
 ## 14
 ## What's wrong with this code?
+## For reference, see the "What color is water" examples in ex_3a_if_else. 
 opinion = input("Do you like celery? ")
 like = ["yes", "Yes", "YES"]
 if like:
