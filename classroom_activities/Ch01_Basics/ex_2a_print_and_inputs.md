@@ -20,7 +20,7 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 </details>
 <details><summary>Here's how to get set-up for Thonny:</summary>
 
-- Open a terminal window and type `source ~/.profile` and hit enter. (This allows you to launch thonny without rebooting the computer)
+- Open a terminal window and type `source ~/.profile` and hit enter. (This allows you to launch thonny without (a)logging-out & logging-in again OR (b) rebooting the computer. ...Although, those are valid options.)
 - Type `thonny` and hit enter.
 - Once Thonny opens, click `View > Files` to see the complete file structure.
     - You may also want to select Variables and/or Assistant to open their panes as well.
