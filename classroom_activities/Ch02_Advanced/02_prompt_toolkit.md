@@ -50,6 +50,69 @@ message_dialog(
     title=f"Calculator!!",
     text=f"This is a basic calculator that adds, subtracts, multiplies, and divides.",
     style=style).run()
-
-
 ```
+<details><summary>Expand here for a simple calculator program using prompt_toolkit.</summary>
+  
+```python3
+  
+## Convert the basic calculator practical exercise to use functions and prompt_toolkit
+
+from prompt_toolkit.shortcuts import button_dialog, input_dialog, message_dialog, yes_no_dialog
+from prompt_toolkit.styles import Style
+
+
+style=Style.from_dict({
+    'dialog':             'bg:#2c66d3',
+    'dialog frame.label': 'bg:#ffffff #000000',
+    'dialog.body':        'bg:#000000 #00ff00',
+    'dialog shadow':      'bg:#89827e',
+    })
+
+name = input_dialog(
+    title='Username',
+    text='Please type your name:', style=style).run()
+message_dialog(
+    title=f"{name}'s calculator!!",
+    text=f"Greetings, {name}\nThis is a basic calculator that adds, subtracts, multiplies, and divides.", style=style).run()
+dontstop = True
+
+while dontstop == True:  
+    firstnum = float(input_dialog(
+        title=f"{name}'s input",
+        text='Please type a number:', style=style).run())
+    secondnum = float(input_dialog(
+        title=f"{name}'s  second input",
+        text='Please type another number:', style=style).run())
+    operation = button_dialog(
+        title='Operation',
+        text=f'Choose an operation {name}?',
+        buttons=[
+            ('Add', 'sum'),
+            ('Subtract', 'difference'),
+            ('Multiply', 'product'),
+            ('Divide', 'quotient')
+        ], style=style
+    ).run()
+    if operation == 'sum':
+        result = firstnum + secondnum
+    elif operation == 'difference':
+        result = firstnum - secondnum
+    elif operation == 'product':
+        result = firstnum * secondnum
+    elif operation == 'quotient':
+        result = firstnum / secondnum
+    message_dialog(
+            title=f"{name}'s Result",
+            text=f"The {operation} is {result}", style=style).run()
+    result = yes_no_dialog(
+        title='Confirmation',
+        text=f'Would you like to perform another calculation {name}?', style=style).run()
+    if result == False:
+        message_dialog(
+            title='Exiting',
+            text=f'Thank you for playing {name}, Goodbye', style=style).run()
+        dontstop = False
+
+  
+```
+</details>
