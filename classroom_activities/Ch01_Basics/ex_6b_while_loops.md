@@ -255,7 +255,9 @@ print("Goose!")
 ##  - The program must loop to allow the user to continue guessing until 
 ##    he/she correctly guesses the secret word.
 ##  - The program must allow the user to guess the word regardless of capitalization.
-##      Recommended: refer back to the exercise that used .lower() .
+##      Recommendation: Refer back to the exercises that used .lower(), which
+##                      you can find by using the multi-file search feature of
+##                      VS Code. (Many other editors also have this feature.)
 
 
 # 29b
