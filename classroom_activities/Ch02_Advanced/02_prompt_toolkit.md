@@ -34,14 +34,48 @@ name = input_dialog(
 - Notice the `input_dialog` function this is one of many built-in functions for the prompt_toolkit module that provides you a title, a line of text, an input textbox, and ok and cancel buttons.
 - Find more types of input [here](https://python-prompt-toolkit.readthedocs.io/en/master/pages/dialogs.html).
 
+### Input validation
+
+Try this:
+
 ```python3
-## 2
+from prompt_toolkit.validation import Validator, ValidationError
+from prompt_toolkit import prompt
+
+
+class FunctionyValidator(Validator):
+    def __init__(self, valfunc):
+        self.valfunc = valfunc
+        
+    def validate(self, document):
+        text = document.text
+        valresult = self.valfunc(text)
+        if valresult != "":
+            raise ValidationError(message=valresult)
+
+def between_2_and_5(x: str) -> str:
+    try:
+        numx = int(x)
+    except:
+        return "That's not a num."
+    
+    if 2 <= numx <= 5:
+        return ""
+    else:
+        return "Must be between 2 and 5."
+
+number = int(prompt('Give a number: ', validator=FunctionyValidator(between_2_and_5)))
+print('You said: %i' % number)
+```
+
+```python3
+## 3
 ## Copy and modify the previous exercise.
 ## Change the colors of each area in the dictionary to create your own color scheme.
 ## Change the title and question to ask the user for something other than their name.
 
 
-## 3
+## 4
 ## Use the example below and make changes to add a second dialog box to your previous code to tell the user
 ## the purpose of your program.
 ## Hint: place it above the `input_dialog` if you want it to run first and don't forget to update your import.
