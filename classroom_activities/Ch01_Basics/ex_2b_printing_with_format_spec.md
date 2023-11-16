@@ -14,7 +14,7 @@ Here are some examples of how to specify the formatting when printing.
 
 ### Note:
 - The "f" that preceeds the string, such as, f"hello", means ***format***.
-- The "f" inside the curly braces, such as, {item_number:.2f}, means ***floating point number***.
+- The "f" inside the curly braces, such as, {item_number:.2f}, means ***fixed-point notation***. That is, the number of decimal places is fixed.
 
 ```python3
 ## Example group 1
