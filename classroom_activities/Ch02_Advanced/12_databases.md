@@ -6,6 +6,11 @@ Here you'll take some API data and store it in a local database table, similar t
   
 SQL is the main language used to communicate with databases. Most data breaches occur because of a SQL-based vulnerability like SQL injection/SQLi.
 
+### NOTICE OF NON-FUNCTIONALITY: Website with Data is not available.
+The program below calls this website: data.fcc.gov, but it is not available as of Nov 16, 2023.
+
+Therefore, the program below, in its current form, will not operate.
+
 ### INSTRUCTIONS:
  - a) If using MS VSCode, install the VSCode extension SQLite Viewer, 
  - b) type and run the python program (below), and   
