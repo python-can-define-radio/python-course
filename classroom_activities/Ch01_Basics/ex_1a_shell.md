@@ -16,28 +16,31 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
 - (See also links to tutorials at bottom of this page.)
 
 ### Notes: 
+- The examples below assume you have run the `student_config_script.sh` file as described in the [Preliminaries lesson](https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_0a_preliminaries.md)  That "script" program file adds several text files used in the current lesson and adds other features.
 - In the text below, a pair of pound symbols (##) introduces instructions or a comment for you, the student.
 - Commands to be entered in Linux Terminal window are written without any such prefix.
 - Press the {enter} key after each command line. 
-- If you would like to clear the terminal at any point, press `Ctrl L`.
-- While in a command line such as Linux, and Ctrl + C is used to send a SIGINT (signal interrupt) signal, which cancels or terminates the currently-running program.
+- If you would like to clear the terminal at any point, press `Ctrl + L` or type the `clear` command.
+- While in a command line such as Linux, and `Ctrl + C` is used to send a SIGINT (signal interrupt) signal, which cancels or terminates the currently-running program.
 
 ### Exercises
 
 ```sh
 ## 1 
-## - Using the Graphical User Interface (GUI) file browser, open the folder "term_example_files" on the Desktop.
-##   This folder should have been created by the initial setup script that you ran in Preliminaries.
+## - Using the Graphical User Interface (GUI) files browser, open the folder "term_example_files" on the Desktop.
+##   This folder should have been created by the initial setup script that you ran in the Preliminaries lesson.
 ## - Open the files and folders to see what is in them.
 
 
 ## 2
-## Now that we've explored the contents using the graphical interface that 
-## you are familiar with, we're going to explore using the CLI (Command Line Interface).
-## First, run these commands.
+## Now that we've explored the contents using the graphical interface with which 
+## you are familiar, we're going to explore the folder structure and files using the CLI (Command Line Interface), a.k.a., the Terminal.
+## First, open an instance of the Terminal by one of several methods:
+##     (a) In a GUI files browser, in the right window pane, right on white space and select "
 ## NOTE: As you type, you can save a lot of time by pressing the Tab key to fill the rest of a name.
 ##       For example, you can type cd ani  (the first three letters of "animals"), and then press Tab, and
 ##       it will fill the last four letters. If this autofill feature is not working, let an instructor know.
+##  Run these commands:
 cd ~
 pwd
 ls
