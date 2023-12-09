@@ -36,11 +36,16 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
 ## Now that we've explored the contents using the graphical interface with which 
 ## you are familiar, we're going to explore the folder structure and files using the CLI (Command Line Interface), a.k.a., the Terminal.
 ## First, open an instance of the Terminal by one of several methods:
-##     (a) In a GUI files browser, in the right window pane, right on white space and select "
-## NOTE: As you type, you can save a lot of time by pressing the Tab key to fill the rest of a name.
-##       For example, you can type cd ani  (the first three letters of "animals"), and then press Tab, and
-##       it will fill the last four letters. If this autofill feature is not working, let an instructor know.
-##  Run these commands:
+##     (a) In a GUI files browser, in the right window pane, right-click on white space and select "Open in Terminal".
+##     (b) On the computer's Desktop, right-click and select "Open in Terminal".
+##     (c) Press the "super" button and start typing the word "terminal".  When the appropriate icon appears, click on it.
+##        (NOTE:  The "super" button appears as a square built from 9 small squares, located  in the lower left corner of Ubuntu Desktop.
+##        On your keyboard, it may look like a flying window, or a flapping flag having 4 sections.) 
+## NOTE: As you type commands or names of folders or files in the CLI (the Terminal),
+##       you can SAVE TIME by pressing the Tab key to autofill the rest of a command or name.
+##       For example, you can type cd ~/Des (the first three letters of "Desktop") and then press Tab, and
+##       the OS will add the remainder of that folder name. If this autofill feature is not working, let an instructor know.
+## Now, run these commands:  (Remember, press the Enter key after each line.)
 cd ~
 pwd
 ls
