@@ -194,4 +194,44 @@ m = convertHoursToMinutes(h)
 print(f"That would be {m} minutes.")
 ```
 
-Here is some practice defining functions.
+### Writing test cases
+
+Another very useful feature of functions is the ability to make testable pieces of code.
+
+Using the `convertHoursToMinutes` example:
+
+```python3
+# 16
+# Try this.
+print(convertHoursToMinutes(2))
+```
+
+Given that we know that 2 hours is 120 minutes, we expect the above example to print `120`.
+
+We can actually state that in our code using an `assert` statement. Here's an example of an incorrect assertion:
+
+```python3
+# 17
+# Try this.
+assert convertHoursToMinutes(2) == 119
+```
+
+When you run that, it should say `AssertionError`. (If it shows anything else, ask an instructor.)
+
+To fix that test, we would write `assert convertHoursToMinutes(2) == 120`. If you fix it, you'll notice that it produces no output. That's to be expected.
+
+### Practice
+
+```python3
+# 18
+# Define a function that converts from feet to yards.
+# Use this structure:
+def convertFeetToYards(feet):
+    return _____
+
+print(convertFeetToYards(5))
+
+
+# 19
+# Write two `assert` statements to check that convertFeetToYards is working correctly.
+```
