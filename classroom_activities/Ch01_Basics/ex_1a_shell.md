@@ -362,18 +362,6 @@ pwd
 
 
 ## 33
-## When doing cd, you can do multiple steps like this:
-
-## Long way:
-cd ~
-cd Desktop
-cd mystuff
-
-## Short way:
-cd ~/Desktop/mystuff
-
-
-## 33b
 ## Use cd to change your directory back to /tmp/otherstuff .
 
 
