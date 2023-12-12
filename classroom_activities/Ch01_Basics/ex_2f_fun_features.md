@@ -110,6 +110,39 @@ text = input_dialog(
 print(f"You said {text}.")
 ```
 
+### Input validation
+
+This one also uses prompt_toolkit.
+
+```python3
+from prompt_toolkit.validation import Validator
+from prompt_toolkit import prompt
+ 
+ 
+def options_validator(choices):
+ 
+    def validate(text):    
+        return text in choices
+ 
+    validator = Validator.from_callable(
+        validate,
+        error_message=f"You may say: {choices}")
+ 
+    return validator
+ 
+ 
+ 
+def input_with_options(_prompt: str, options: list):
+    print(_prompt + "\n")
+    return prompt('> ', validator=options_validator(options))
+ 
+ 
+resp = input_with_options("Yes or no?", options=["y", "n"])
+print(f"You said {resp}")
+animal = input_with_options("Cats or dogs?", options=["cats", "dogs"])
+print(f"Ok, {animal}")
+```
+
 More info in the [prompt-toolkit docs](https://python-prompt-toolkit.readthedocs.io).
 
 ### Sounds
