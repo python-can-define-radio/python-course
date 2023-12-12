@@ -135,6 +135,67 @@ app.display()
 ```
 </details>  
 
+<i>Exercise #6:</i>    
+Adding a Slider and ButtonGroup.
+  - Use the slider or radio buttons to make your app do something.
+  - These widgets uses pre-built functions assigned by the command parameter to make something happen if you are unfamiliar with functions refer back to exercise ex_8a_turtle_and_functions.md
+<details><summary>Expand here for code.</summary>  
+
+```python3
+
+## 6
+
+from guizero import App, Slider, ButtonGroup, Box, Text
+
+
+
+def update_gui():
+
+    if float(choice.value) != state:
+        choice.value = state
+        message.value = "Frequency chosen by slider"
+    
+    if slider.value != state:
+        slider.value = state
+        message.value = "Frequency chosen by radio button"
+
+
+def when_buttongroup_activated():
+    global state
+    state = float(choice.value)    
+    update_gui()
+    
+
+
+def when_slider_moved():
+    global state
+    state = float(slider.value)
+    update_gui()
+    
+               
+state = 104.0
+app = App(title="Guizero updating slider")
+spacer = Box(app, height=140, width="fill")
+slider = Slider(app, start=88, end=108, width=400, height=25, command=when_slider_moved)
+slider.bg = "green"
+slider.text_color = "yellow"
+slider.text_size = 16
+slider.value = state
+spacer = Box(app, height=20, width="fill")
+box = Box(app, height=20, width=400, border=True)
+message = Text(box, "")
+message.text_color = "yellow"
+box.bg = "green"
+spacer = Box(app, height=20, width="fill")
+choice = ButtonGroup(app, options=[93.0, 103.0, 104.0, 105.0], command=when_buttongroup_activated, selected=state)
+
+
+app.display()
+
+
+```
+</details>
+
 ### Examples  
 
 <details><summary>For more widget examples you can expand here and look at the following code which uses guizero and the IP address module to create an IP Subnet Calculator app.</summary>
