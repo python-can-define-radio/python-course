@@ -102,7 +102,7 @@ app.display()
 <i>Exercise #5:</i>    
 Adding a Pushbutton.
   - Use the Pushbutton widget to make your app do something.
-  - The Pushbutton widget uses pre-built functions assigned by the command parameter to make something happen if you are unfamiliar with functions refer back to exercise ex_8a_turtle_and_functions.md
+  - The Pushbutton widget uses pre-built functions assigned by the `command` parameter to make something happen. If you are unfamiliar with functions, refer back to exercise ex_8a_turtle_and_functions.md
 <details><summary>Expand here for code.</summary>  
 
 ```python3
@@ -138,12 +138,45 @@ app.display()
 <i>Exercise #6:</i>    
 Adding a Slider and ButtonGroup.
   - Use the slider or radio buttons to make your app do something.
-  - These widgets uses pre-built functions assigned by the command parameter to make something happen if you are unfamiliar with functions refer back to exercise ex_8a_turtle_and_functions.md
+  - These widgets use pre-built functions assigned by the `command` parameter to make something happen. If you are unfamiliar with functions, refer back to exercise ex_8a_turtle_and_functions.md
 <details><summary>Expand here for code.</summary>  
+
+Simple version:
+
+```python3
+## 6a
+
+## 6
+
+from guizero import App, Slider, ButtonGroup, Box, Text
+
+
+def when_buttongroup_activated():
+    slider.value = float(bgroup.value)
+
+
+def when_slider_moved():
+    bgroup.value = float(slider.value)
+    
+               
+app = App(title="Guizero updating slider", height=170)
+slider = Slider(app, start=88, end=108, width=400, height=25, command=when_slider_moved)
+slider.bg = "green"
+slider.text_color = "yellow"
+slider.text_size = 16
+bgroup = ButtonGroup(app, options=["93.0", "103.0", "104.0", "105.0"], command=when_buttongroup_activated)
+
+## This will also set the bgroup value because it causes `when_slider_moved` to run
+slider.value = 104.0
+
+app.display()
+```
+
+Advanced version: updates text dynamically when value is changed
 
 ```python3
 
-## 6
+## 6b
 
 from guizero import App, Slider, ButtonGroup, Box, Text
 
