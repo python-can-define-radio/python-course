@@ -146,19 +146,22 @@ Simple version:
 ```python3
 ## 6a
 
-## 6
-
 from guizero import App, Slider, ButtonGroup, Box, Text
 
 
+def update_everything(latest_data):
+    slider.value = latest_data
+    bgroup.value = latest_data
+
+
 def when_buttongroup_activated():
-    slider.value = float(bgroup.value)
+    update_everything(float(bgroup.value))
 
 
 def when_slider_moved():
-    bgroup.value = float(slider.value)
-    
-               
+    update_everything(float(slider.value))    
+
+
 app = App(title="Guizero updating slider", height=170)
 slider = Slider(app, start=88, end=108, width=400, height=25, command=when_slider_moved)
 slider.bg = "green"
