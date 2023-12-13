@@ -149,12 +149,10 @@ from guizero import App, Slider, ButtonGroup, Box, Text
 
 
 
-def update_gui():
-
-    if float(choice.value) != state:
-        choice.value = state
+def propagate():
+    if float(bgroup.value) != state:
+        bgroup.value = state
         message.value = "Frequency chosen by slider"
-    
     if slider.value != state:
         slider.value = state
         message.value = "Frequency chosen by radio button"
@@ -162,15 +160,15 @@ def update_gui():
 
 def when_buttongroup_activated():
     global state
-    state = float(choice.value)    
-    update_gui()
+    state = float(bgroup.value)
+    propagate()
     
 
 
 def when_slider_moved():
     global state
     state = float(slider.value)
-    update_gui()
+    propagate()
     
                
 state = 104.0
@@ -187,11 +185,10 @@ message = Text(box, "")
 message.text_color = "yellow"
 box.bg = "green"
 spacer = Box(app, height=20, width="fill")
-choice = ButtonGroup(app, options=[93.0, 103.0, 104.0, 105.0], command=when_buttongroup_activated, selected=state)
+bgroup = ButtonGroup(app, options=["93.0", "103.0", "104.0", "105.0"], command=when_buttongroup_activated, selected=state)
 
 
 app.display()
-
 
 ```
 </details>
