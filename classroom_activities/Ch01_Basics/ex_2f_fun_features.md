@@ -62,9 +62,23 @@ from termcolor import cprint
 cprint("Hello, World!", "green", "on_white")
 ```
 
-For more examples, see the termcolor github page: https://github.com/termcolor/termcolor
+### Delay Printing combined with Color output
 
 Note that the terminal in VS Code restricts the available colors to enforce readability. For example, `cprint("Hello, World!", "yellow", "on_light_red")` will display as a grey-black text color instead of yellow.
+
+```python3
+import time
+from termcolor import colored
+
+def delay_print(s):
+    for c in s:
+        print(colored(c, "blue", "on_red"), end="", flush=True)
+        time.sleep(0.25)
+
+delay_print("hello world")
+
+```
+For more examples, see the termcolor github page: https://github.com/termcolor/termcolor
 
 #### Colors using `rich`
 
