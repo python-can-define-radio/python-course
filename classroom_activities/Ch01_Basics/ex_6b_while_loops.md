@@ -239,6 +239,7 @@ one_choice = random.choice(choices)
 while one_choice != "Goose":
     print(f"{one_choice}...")
     one_choice = random.choice(choices)
+    time.sleep(0.5)
 print("Goose!")  
 
 
