@@ -29,10 +29,10 @@ echo "Hello World" > myfile.txt
 # Write "Hello world" to the end of a file
 echo "Hello World" >> myfile.txt
 
-# Copy file
+# Copy a file
 cp original.txt new.txt
 
-# Make directory
+# Make a directory, a.k.a, a folder
 mkdir mydirectoryname
 
 # The touch command creates an empty file.
@@ -48,7 +48,7 @@ ls
 cd stuff
 ls
 
-# Here's an example of using mv to rename something:
+# Here's an example of using mv (the move command) to rename something:
 mv original.txt new.txt
 
 # Display file
