@@ -17,25 +17,25 @@
 "THIS STILL NEEDS TO BE ANSWERED"
 
 ## 7
-# ABCD
+# print("F: Given Description")
 
 ## 8
-# ABCD
+# print("F: Given Description")
 
 ## 9
-# ABCD
+# print("F: Given Description")
 
 ## 10
-# ABCD
+# print("F: Given Description")
 
 ## 11
-# ABCD
+# print("F: Given Description")
 
 ## 12
-# ABCD
+# print("F: Given Description")
 
 ## 13
-# ABCD
+# print("F: Given Description")
 
 ## 14
 "THIS STILL NEEDS TO BE ANSWERED"
