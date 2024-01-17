@@ -119,3 +119,27 @@ sf.write('output_file.raw', data, samplerate, subtype='FLOAT', endian='LITTLE')
 ```
 
 You'll see this applied in the [SDR Angel lesson](https://github.com/python-can-define-radio/sdr-course/blob/main/classroom_activities/Ch06_Applications/060_SDRangel.md).
+
+
+### Encryption proof-of-concept
+
+```python3
+import soundfile as sf
+import matplotlib.pyplot as plt
+import numpy as np
+
+
+
+key = [0.5, 0.1, 0.8, -0.2, 0.3, -0.5, -0.9, 0.3, -0.1, -0.2]
+position = 0
+data, samplerate = sf.read('Ouch-6.wav')
+encrypted = np.empty_like(data)
+for item in data:
+    cyc = position % 3
+    shift = key[cyc]
+    encrypted[position] = item + shift
+    position += 1
+plt.plot(data, "bo")
+plt.plot(encrypted, "ro")
+plt.show()
+```
