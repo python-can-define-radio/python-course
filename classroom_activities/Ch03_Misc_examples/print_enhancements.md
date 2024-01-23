@@ -1,17 +1,45 @@
+```python3
 """ Chp 03 Misc -- 'print_enhancements.py' 
     Sept 7, 2023
 Goals: 
-    1. To move the print location within a terminal window while running a Pyhton program. E.g., move the print location upwards to a line previoiusly printed and over-type existing text.
+    1. To move the print location within a terminal window while running a Python program. E.g., move the print location upwards to a line previoiusly printed and over-type existing text.
     2. To enhance the text appearance, e.g. change text color.
 
-Key py modules: blessed & termcolor
+Key py module: rich
 
-ref.: Documentation, ver. 1.20.0, https://blessed.readthedocs.io/en/1.20.0/location.html, accessed Sept 7, 2023
+Ref: https://rich.readthedocs.io/en/stable/reference/console.html
 
-# You man need to run "pip3 install blessed" in a Terminal window.
+# You man need to run "pip3 install rich" in a Terminal window.
 Note: As usual, pairs of single and pairs of double quotation marks can be used interchangably.
 """
 
+from rich.console import Console
+from rich.control import Control
+import time
+
+console = Console()
+console.clear()
+console.print("aaaaaaaa")
+time.sleep(0.5)
+console.print("bbbbbbbb")
+time.sleep(1)
+console.print("cccccccc")
+time.sleep(1)
+console.print("dddddddd")
+time.sleep(1)
+console.control(Control.move(0, -2))
+console.print("This is two lines higher")
+time.sleep(1)
+console.control(Control.move_to(0, 0))
+console.print("Notice that move_to moves to an absolute position, in this case, the top left corner")
+console.control(Control.move_to(10, 5))
+console.print("[blue on white]Done![/]")
+```
+
+
+
+<!--
+```python3
 import blessed
 import time 
 term = blessed.Terminal()
@@ -42,4 +70,7 @@ time.sleep(wait)
 # You man need to run "pip3 install termcolor" in a Terminal window.
 import termcolor as tc
 tc.cprint("\nUsing the 'termcolor' module --- \"Hello, to those who read this!\"", "green", "on_white")
-# For more examples, see: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2f_fun_features.md 
+# For more examples, see: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2f_fun_features.md
+```
+
+-->
