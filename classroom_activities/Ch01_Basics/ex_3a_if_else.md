@@ -141,6 +141,9 @@ else:
 ## Copy and modify the previous example so that if the name is "Ruby",
 ## it displays "That name is also the name of a gem."
 ## Make it work for any capitalization of Ruby.
+########################
+##  INSTRUCTOR-CHECK  ##
+########################
 
 
 ## 7c
@@ -431,6 +434,9 @@ else:
 
 ## 28
 ## Combine the two previous examples: ask the user for a number and which way to convert. 
+########################
+##  INSTRUCTOR-CHECK  ##
+########################
 
 
 ## 29
