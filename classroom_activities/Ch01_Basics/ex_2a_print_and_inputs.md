@@ -124,7 +124,7 @@ instead of using the '#' if I wanted to."""
 ## Try this.
 print('In Python, the single quote can be used instead of the double quote.')
 print("You can put 'single quotes' inside of double quotes, or vice versa, without needing an escape sequence.")
-print('However, if you want single quotes inside of single quotes, you\'ll need to escape them.')
+print('However, if you want single quotes inside of single quotes, you\'ll need to escape them using a backslash.')
 ```
 
 #### Using Variables
