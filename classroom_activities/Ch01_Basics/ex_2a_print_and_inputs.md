@@ -225,6 +225,11 @@ Here's some practice:
 ## 4e
 ## Copy and modify the previous example so that it asks the user for the name of an animal,
 ## and then prints "The animal you named is ____. I think that it would make a nice pet."
+########################
+##  INSTRUCTOR-CHECK  ##
+########################
+## (Questions marked as INSTRUCTOR-CHECK are ones for which you should
+##  show your answer to an instructor to verify that it fulfills the intent of the question.)
 
 
 ## 5
@@ -367,6 +372,9 @@ print(f"One more would be {onemore}")
 ## 17
 ## Ask the user for an integer.
 ## Display "That number plus 2 is ___".
+########################
+##  INSTRUCTOR-CHECK  ##
+########################
 
 
 ## 18
@@ -420,6 +428,9 @@ print(num*5)
 ## Ask the user for the number of questions on a test,
 ## and ask "how many did you get right?"
 ## Then, display "You got ___% right". (You'll need to calculate the percent.)
+########################
+##  INSTRUCTOR-CHECK  ##
+########################
 
 
 ## 25
