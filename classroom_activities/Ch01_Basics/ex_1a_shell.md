@@ -76,7 +76,7 @@ You may wonder why `pwd` does not show `~/Desktop/term_example_files`. The reaso
 Let's get some practice:
 
 ```sh
-## 3
+## 3a
 ## Try this.
 cd ~
 ls
@@ -95,19 +95,29 @@ Notice that `cd animals` gave an error: `bash: cd: animals: No such file or dire
 - `animals: No such file or directory`: Before trying to change your directory, `cd` checks if the desired destination exists. In this case, it looked for `animals` in your current working directory, which was the Desktop. However, `animals` is not on the Desktop; it's inside `term_example_files`.
 
 ```sh 
-## 4
+## 3b
 ## Change your current directory to the animals directory.
 ## You may wish to use the command `cd ~` first.
 
 
-## 4b
+## 3c
 ## Change your current directory to the vehicles directory.
+```
+
+You can also change multiple directory levels with a single `cd` command. Notice that, as before, the change is relative to your current location.
+
+```sh
+## 4a
+cd ~
+cd Desktop
+## Notice that the following line changes two levels using one command.
+cd term_example_files/animals
 ```
 
 You may have noticed that it's tedious to have use `cd ~` to go back to your home directory every time you want to go into another directory. There is a special location, `..`, that means "the parent directory of this directory".
 
 ```sh
-## 4c
+## 4b
 ## Try this. Notice what happens when you run `cd ..`.
 cd ~
 cd Desktop
@@ -121,9 +131,25 @@ pwd
 You may wonder why `cd ~` works regardless of where you run it. Let's distinguish between two types of paths:
 
 - **Relative Paths** are called that because they are relative to your current working directory.
+  - Examples:
+    - `cd animals`
+    - `cd ../vehicles`
+    - `cd term_example_files/plants`
+    - `cd Desktop/term_example_files/plants`
 - **Absolute Paths** do not depend on your current working directory. Any path that begins with a `~` or a `/` is an absolute path.
+  - Examples:
+    - `cd ~/Desktop/term_example_files/plants`
+    - `cd ~/Desktop/term_example_files/animals`
+    - `cd /home/someusername/Desktop/term_example_files/animals`  _(Note: This won't work unless you change "someusername" to your username.)_
 
-Some examples are below.
+Examples:
+
+| Relative | Absolute |
+|-----------|--------|
+| cd animals | cd ~/Desktop/term_example_files/animals |
+| cd animals | cd ~/Desktop/term_example_files/animals |
+
+Some further examples are below.
 
 ```sh
 ## 5
