@@ -1,5 +1,7 @@
 # Print and Input Statements
 
+[Rich Presentation](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/02a_02b_02c_prints_inputs_variables.py)
+
 Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
 
 We'll be primarily using Visual Studio Code (VS Code) as our editor for the Python code that we write. Another editor option is called Thonny. However, its primary use for the purposes of this class will be debugging.
