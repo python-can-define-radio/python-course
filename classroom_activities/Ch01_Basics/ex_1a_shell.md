@@ -192,6 +192,11 @@ Incidentally, this is the origin of the name `cat`.
 ## - change directory to vehicles.
 ## - change directory to engines.
 ## - Use `cat` to display the contents of the file "combustion_engines.txt".
+########################
+##  INSTRUCTOR-CHECK  ##
+########################
+## (Questions marked as INSTRUCTOR-CHECK are ones for which you should
+##  show your answer to an instructor to verify that it fulfills the intent of the question.)
 ```
 
 Now, let's move some files using the `mv` command.
@@ -207,8 +212,12 @@ mv kangaroo.txt animals
 ## 15
 ## Notice that in "term_example_files", there are two files related to Mustangs.
 ## Use `cat` to display the contents of each.
-## Decide based on the contents which directory each should be moved into
+## Based on the contents, decide which directory each should be moved into
 ##  (the "animals" directory or the "vehicles" directory).
+## Move each file appropriately.
+########################
+##  INSTRUCTOR-CHECK  ##
+########################
 ```
 
 You can use the aforementioned `..` in the `mv` command too:
