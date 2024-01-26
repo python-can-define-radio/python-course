@@ -96,3 +96,17 @@ print(x)
 
 ```
 
+### Special ways to type numbers
+
+You can type large or small numbers using an `e`:
+
+```python3
+x = 2e3
+print(x)  # This will print 2000.0, which is a float
+```
+
+You can insert underscores for readability:
+```python3
+y = 2_000
+print(x)  # This will print 2000, which is an integer
+```
