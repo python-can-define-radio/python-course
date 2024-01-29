@@ -1,6 +1,6 @@
 # If-Else Statements
 
-Source webpage for this lesson: "https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/ex_3_if_else.py"  
+[Rich Presentation for ex3a-3b](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/03a_if_else.py)
 
 ℹ️ This material coincides with material from python slideshow C (slides 39-46). 
 
