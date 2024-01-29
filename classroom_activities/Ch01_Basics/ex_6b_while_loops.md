@@ -1,5 +1,7 @@
 # While Loops
 
+[Rich Presentation for ex6b](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/06b_while_loops.py)
+
 The `while` loop is useful for situations in which you don't know how many repetitions will be needed. For example, if you make a word-guessing game, you don't know how many times the user will guess incorrectly, or how long the user will want to play. You also have no reason to continue prompting the user for guesses after the user has guessed correctly. The `while` loop allows you to loop "while the guess is not yet matching the secret word", or more generally, "while some condition is still being met (or not met)".
 
 ℹ️ Use Ctrl + C to exit a program (useful for exiting infinite loops).
