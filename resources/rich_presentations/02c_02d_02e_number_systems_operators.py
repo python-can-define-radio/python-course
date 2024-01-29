@@ -78,13 +78,19 @@ print(f"My item number is {{item_number:>10}}.") # right justified
 print(f"My item number is {{item_number:<10}}.") # left justified
 print(f"My item number is {{item_number:^10}}.") # centered
 
+"""))
+
+printwait(md(f"""
+```python3
 My item number is {item_number:>10}.            
-My item number is {item_number:<10}. 
+My item number is {item_number:<10}.  
 My item number is {item_number:^10}.           
 ```         
 
 """))
 
+console.clear()
+##########################################
 printwait(md(f"""
 ℹ️  We can also round any float to a specific number of digits.
 
@@ -224,9 +230,9 @@ printwait(md(f"""
 
 ℹ️  Format specifiers for other number systems don't work for floats:
 
+This will give an error, because item_number is a float:
 ```python3           
-item_number = 27.283
-This will give an error, because item_number is a float: 
+item_number = 27.283 
 print({{item_number:b}})
 ```
 
