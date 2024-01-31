@@ -3,6 +3,7 @@ from rich.panel import Panel
 from rich.console import Console
 from rich.live import Live
 from rich.markdown import Markdown
+from guizero import App, Picture, Text
 
 
 def md(*args, **kwargs):
@@ -17,6 +18,10 @@ console = Console()
 print = console.print
 input = console.input
 THEME = "zenburn"
+APP = App(title="File Reading/Writing", width=1290, height=750)
+picture = Picture(APP, image="practice/resources/graphics/filewriting.jpg")
+message = Text(APP, text="Close Window to go to the first example.")
+APP.display()
 layout = Layout()
 
 layout.split_row(

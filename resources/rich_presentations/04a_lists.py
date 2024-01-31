@@ -1,11 +1,16 @@
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.syntax import Syntax
+from guizero import App, Picture, Text
 
 console = Console()
 print = console.print
 input = console.input
 THEME = "zenburn"
+APP = App(title="Lists", width=950, height=590)
+picture = Picture(APP, image="practice/resources/graphics/lists.png")
+message = Text(APP, text="Close Window to go to the first example.")
+APP.display()
 
 
 def md(*args, **kwargs):
