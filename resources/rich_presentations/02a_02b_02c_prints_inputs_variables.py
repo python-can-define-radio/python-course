@@ -1,11 +1,18 @@
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.syntax import Syntax
+from guizero import App, Picture, Text
+
+
 
 console = Console()
 print = console.print
 input = console.input
 THEME = "zenburn"
+APP = App(title="Prints and Inputs", width=850, height=500)
+picture = Picture(APP, image="practice/resources/graphics/print_input.jpg")
+message = Text(APP, text="Close Window to go to the first example.")
+APP.display()
 
 
 def md(*args, **kwargs):
@@ -16,25 +23,27 @@ def printwait(*args, **kwargs):
     print(*args, **kwargs)
     input()
 
-# console.clear()
-# ##########################################
-# printwait(md("""
-# # Commonly used characters
-             
-# | Character | Common name |
-# |--|-----------|
-# |()| parenthesis |
-# |[]| brackets |
-# |{}| braces |
+console.clear()
+##########################################
+printwait(md("""
+# Commonly used
 
-# # Math operators (other than +,-,*,/)          
-# | Character | Common name |
-# |--|-----------|
-# |//| floor division |             
-# |%| modulus |
-# |**| exponentiation |
-                                                
-# """))  
+Syntax characters            
+| Character | Common name | Used for |
+|--|-----------|--------|
+|()| parenthesis | functions |
+|[]| brackets | lists |
+|{}| braces | formatted strings and dictionaries |
+|:| colon | list indexing and format specifiers |
+
+Data types            
+| Type | Common name | Used for |
+|--|-----------|--------|
+|str| string | text |
+|int| integer | whole numbers |
+|float| float | floating point (non_whole numbers) |
+
+"""))  
 
 console.clear()
 ##########################################

@@ -4,6 +4,8 @@ from rich.markdown import Markdown
 from rich.syntax import Syntax
 from guizero import App, Picture, Text
 
+
+
 console = Console()
 print = console.print
 input = console.input
@@ -12,6 +14,7 @@ APP = App(title="Randomness", width=1280, height=800)
 picture = Picture(APP, image="practice/resources/graphics/randomness.png")
 message = Text(APP, text="Close Window to go to the first example.")
 APP.display()
+
 
 def md(*args, **kwargs):
     return Markdown(*args, code_theme=THEME, inline_code_theme=THEME, inline_code_lexer="python3", **kwargs)

@@ -6,6 +6,7 @@ from rich.markdown import Markdown
 from guizero import App, Picture, Text
 
 
+
 def md(*args, **kwargs):
     return Markdown(*args, code_theme=THEME, inline_code_theme=THEME, inline_code_lexer="python3", **kwargs)
 

@@ -3,6 +3,8 @@ from rich.markdown import Markdown
 from rich.syntax import Syntax
 from guizero import App, Picture, Text
 
+
+
 console = Console()
 print = console.print
 input = console.input

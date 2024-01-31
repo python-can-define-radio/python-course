@@ -1,11 +1,18 @@
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.syntax import Syntax
+from guizero import App, Picture, Text
+
+
 
 console = Console()
 print = console.print
 input = console.input
 THEME = "zenburn"
+APP = App(title="Number systems and Operators", width=675, height=500)
+picture = Picture(APP, image="practice/resources/graphics/numbersystem.jpg")
+message = Text(APP, text="Close Window to go to the first example.")
+APP.display()
 
 
 def md(*args, **kwargs):
@@ -17,6 +24,28 @@ def printwait(*args, **kwargs):
     input()
 
 
+console.clear()
+##########################################
+printwait(md("""
+# Commonly used characters
+
+Math operators (other than +,-,*,/)          
+| Character | Common name | Used for |
+|--|-----------|--------|
+|//| floor division | drops the remainder |            
+|%| modulus | only gives the remainder |
+|**| exponentiation | multiplies x number n times usage: `x**n` |  
+
+Number Systems          
+| Function | format specifier |Common name | base |
+|--|--|--|--|                     
+|bin| b | binary | 2 |  
+|oct| o | octal | 8 |  
+|dec| d | decimal | 10 |  
+|hex| x | hexadecimal | 16 |
+                                                
+""")) 
+    
 console.clear()
 ##########################################
 item_number = 27.283

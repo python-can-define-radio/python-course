@@ -2,11 +2,18 @@ import time
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.syntax import Syntax
+from guizero import App, Picture, Text
+
+
 
 console = Console()
 print = console.print
 input = console.input
 THEME = "zenburn"
+APP = App(title="For Loops", width=1250, height=625)
+picture = Picture(APP, image="practice/resources/graphics/forloops.jpg")
+message = Text(APP, text="Close Window to go to the first example.")
+APP.display()
 
 
 def md(*args, **kwargs):

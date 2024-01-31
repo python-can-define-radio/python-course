@@ -2,6 +2,9 @@ from rich.console import Console
 from rich.markdown import Markdown
 from rich.syntax import Syntax
 from guizero import App, Picture, Text
+
+
+
 console = Console()
 print = console.print
 input = console.input
@@ -10,6 +13,7 @@ APP = App(title="IF-Else Decision", width=850, height=500)
 picture = Picture(APP, image="practice/resources/graphics/If-Statement-in-Python.png")
 message = Text(APP, text="Close Window to go to the first example.")
 APP.display()
+
 
 def md(*args, **kwargs):
     return Markdown(*args, code_theme=THEME, inline_code_theme=THEME, inline_code_lexer="python3", **kwargs)
@@ -142,7 +146,7 @@ print("[blue][bold on yellow]-1[/] to quit.[/]")
 x = int(input("""What number would you like to try?
 Enter any number.--> """))
 while x != -1:
-    if x >= 500:
+    if x > 500:
         print("So you like large numbers.\n")
     elif x <= 100:
         print("So you like small numbers.\n")

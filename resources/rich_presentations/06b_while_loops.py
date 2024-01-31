@@ -3,11 +3,18 @@ from rich.console import Console
 from rich.markdown import Markdown
 from rich.syntax import Syntax
 from termcolor import cprint
+from guizero import App, Picture, Text
+
+
 
 console = Console()
 print = console.print
 input = console.input
 THEME = "zenburn"
+APP = App(title="While Loops", width=1310, height=735)
+picture = Picture(APP, image="practice/resources/graphics/whileloops.jpg")
+message = Text(APP, text="Close Window to go to the first example.")
+APP.display()
 
 
 def md(*args, **kwargs):
