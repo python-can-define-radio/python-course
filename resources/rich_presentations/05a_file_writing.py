@@ -53,7 +53,7 @@ console.clear()
 with Live(layout):
     input()
 
-layout["right"].update(Panel("""\nHere are some words.
+layout["right"].update(Panel("""\n[green]05a_my_file.txt[/]\n\nHere are some words.
 More words.""", title="[blue]File contents[/]"))
 
 with Live(layout):
@@ -81,7 +81,7 @@ console.clear()
 with Live(layout):
     input()
 
-layout["right"].update(Panel("""\nHere are some words.
+layout["right"].update(Panel("""\n[green]05a_my_file.txt[/]\n\nHere are some words.
 More words.""", title="[blue]File contents[/]"))
 
 with Live(layout):
@@ -103,13 +103,13 @@ f.close()
 ```
 """), title="[blue]Python code[/]"))
 layout["lower"].update(Panel("", title="[blue]Commentary[/]"))
-layout["right"].update(Panel("""\nHere are some words.
+layout["right"].update(Panel("""\n[green]05a_my_file.txt[/]\n\nHere are some words.
 More words.""", title="[blue]File contents[/]"))
 
 with Live(layout):
     input()
 
-layout["right"].update(Panel("""\nHere are some words.
+layout["right"].update(Panel("""\n[green]05a_my_file.txt[/]\n\nHere are some words.
 More words.Yet more words.
 and more words.""", title="[blue]File contents[/]"))
 
@@ -123,7 +123,7 @@ with Live(layout):
 
 layout["lower"].update(Panel("The [red bold italic]a[/] stands for append from the filename in question. It will add to the data at the end.\n\nThis is why it is common practice to add a new line at the end of your last file write.", title="[blue]Commentary[/]"))
 
-layout["right"].update(Panel("""\nHere are some words.
+layout["right"].update(Panel("""\n[green]05a_my_file.txt[/]\n\nHere are some words.
 More words.
 Yet more words.
 and more words.""", title="[blue]File contents[/]"))
@@ -281,7 +281,7 @@ f.close()
 
 """), title="[blue]Python code[/]"))
 layout["lower"].update(Panel("", title="[blue]Commentary[/]"))
-layout["right"].update(Panel("""\nHere are some words.
+layout["right"].update(Panel("""\n[green]05a_my_file.txt[/]\n\nHere are some words.
 More words.
 Yet more words.
 and more words.""", title="[blue]File contents[/]"))
@@ -298,7 +298,7 @@ with Live(layout):
 
 layout["upper"].update(Panel(md("""
 ```python3  
-f = open(f"05a_my_unique_file_binary.txt", "wb")  
+f = open(f"05a_my_binary_file.txt", "wb")  
 mylist = [65, 66, 67, 68]  
 madebytes = bytes(mylist)  
 f.write(madebytes)  
@@ -311,7 +311,7 @@ layout["lower"].update(Panel("", title="[blue]Commentary[/]"))
 with Live(layout):
     input()
 
-layout["right"].update(Panel("""\nABCD""", title="[blue]File contents[/]"))
+layout["right"].update(Panel("""\n[green]05a_my_binary_file.txt[/]\n\nABCD""", title="[blue]File contents[/]"))
 
 with Live(layout):
     input()
@@ -332,7 +332,7 @@ print(convcontents)
 f.close()
 ```
 """), title="[blue]Python code[/]"))
-layout["right"].update(Panel("""\nABCD""", title="[blue]File contents[/]"))
+layout["right"].update(Panel("""\n[green]05a_my_binary_file.txt[/]\n\nABCD""", title="[blue]File contents[/]"))
 layout["lower"].update(Panel("", title="[blue]Commentary[/]"))
 
 with Live(layout):
