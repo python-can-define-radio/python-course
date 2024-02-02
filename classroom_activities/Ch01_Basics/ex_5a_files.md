@@ -15,6 +15,8 @@ f = open("something_very_unique_file.txt", "w")
 f.write("Here are some words.\n")
 f.write("More words.\n")
 f.close()
+# Memo: Within the 'open()' command, the "w" invokes the "write" mode, which creates a new file if the specified file does not exist,
+#       or overwrite the contents of the file if it does exist.
 
 # 2
 # Using Python,
@@ -49,8 +51,7 @@ f.close()
 
 
 # 6
-# The 'write' mode ('w') will create a new file if the specified file does not exist,
-# or overwrite the contents of the file if it does exist.
+# Another example of writing to a file.  If the file exists, it will be over-written.
 f = open("yay_new_file.txt", "w")
 f.write("Here are some words for you.\n")
 f.close()
