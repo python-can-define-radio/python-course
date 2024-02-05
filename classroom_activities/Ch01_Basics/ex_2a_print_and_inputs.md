@@ -450,6 +450,7 @@ print(num*5)
 ##    e.g., integer, floating-point number, string, list, etc.
 ##    As we shall see later, Python includes a "type()" command to
 ##    determine what kind of data is held in a variable or a value.
+### >> for more information, See "../../resources/data_types.md"
 
 ## 26 Duplicating/repeating a string
 ## Try this.

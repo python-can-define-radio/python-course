@@ -1,8 +1,24 @@
-# Types
+<details><summary><i>Naming history (click to expand)<i><summary>
+<pre>
+2024 Feb 05: resources/data_types.md     -- Make it a resource rather than a lesson.
+2023 Jun 06: classroom_activities/Ch01_Basics/ex_7c_types.md    -- Move & rename to organize the course files.
+<pre>
+<details>
 
-We know that the type of `a` in this example is `int` (short for integer).
-
+# Data Types
 ℹ️ This material coincides with material from python slideshow B (slides 21-22).
+
+Python variables can hold any of several types of data, e.g., an integer, a floating-point number, a string, a list, dictionary, etc.  Python can automatically detect and assign a "type" to a variable when the variable is defined, e.g.:
+  `x = 2.5`  Assigns/defines x be a varible of type "float", having the value shown.
+  `s = "1 GHz = 1 x 10^9 Hz"`  Assigns s to a string variable, having the value shown.
+
+Python has functions for changing the type of a variable, e.g.,
+  `x = int(x)` Reassigns x to be an integer, having the value: 2  (no decimal places).
+
+Python includes a "type()" command to determine what kind of data is held in a variable or a value.  Examples are given below.
+
+
+We know that the type of `a` in this first example is `int` (short for integer).
 
 ```python3
 a = int(input("How old are you? "))

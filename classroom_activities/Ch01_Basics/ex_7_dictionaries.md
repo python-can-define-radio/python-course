@@ -1,3 +1,10 @@
+<details><summary><i>Naming history (click to expand)</i></summary>
+<pre>
+2024 Feb 05: ex_7_dictionaries.md   -- Facilitate the reorganization of other lessons
+2023 Jun 06: ex_6c_dictionaries.md   -- Move & rename to organize the course files.
+</pre>
+</details>
+
 # Dictionaries
 
 Dictionaries are a somewhat more advanced (but very useful) data structure.
