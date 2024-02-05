@@ -444,14 +444,16 @@ print(num*5)
 ## Display "Guess what, ___, in two years you'll be ___."
 ## (The user-provided name goes in the first blank, and the
 ##   age two years from now in the second blank.)
+```
 
-## Notice:  Data "types"
-##    Variables can hold any of several types of data,
-##    e.g., integer, floating-point number, string, list, etc.
-##    As we shall see later, Python includes a "type()" command to
-##    determine what kind of data is held in a variable or a value.
-### >> for more information, See "../../resources/data_types.md"
+### Notice:  Data "types"
+Variables can hold any of several types of data,
+e.g., integer, floating-point number, string, list, etc.
+As we shall see later, Python includes a "type()" command to
+determine what kind of data is held in a variable or a value.  
+*For more information, See [../../resources/data_types.md](https://github.com/python-can-define-radio/python-course/blob/main/resources/data_types.md)*
 
+```python3
 ## 26 Duplicating/repeating a string
 ## Try this.
 ## In the current example, the data type of `x` is integer, and the type of `y` is string.
