@@ -79,7 +79,7 @@ sayCoolStuff()
 
 For the sake of keeping code organized, functions should usually be defined at the beginning of your code, just after any `import` statements you may have. For example:
 
-```
+```python3
 # 7
 # This is an example showing where to position function definitions.
 def sayWelcome():
