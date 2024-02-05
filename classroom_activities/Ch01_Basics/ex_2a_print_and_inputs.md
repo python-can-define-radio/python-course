@@ -445,12 +445,17 @@ print(num*5)
 ## (The user-provided name goes in the first blank, and the
 ##   age two years from now in the second blank.)
 
+## Notice:  Data "types"
+##    Variables can hold any of several types of data,
+##    e.g., integer, floating-point number, string, list, etc.
+##    As we shall see later, Python includes a "type()" command to
+##    determine what kind of data is held in a variable or a value.
 
-## 26
+## 26 Duplicating/repeating a string
 ## Try this.
-## Notice: The type of `x` is integer, and the type of `y` is string.
+## In the current example, the data type of `x` is integer, and the type of `y` is string.
 ## The type of 3 is integer.
-## What happens when you multiply and integer times an integer?
+## What happens when you multiply an integer times an integer?
 ## What about a string times an integer?
 x = 123
 y = "123"
