@@ -1,9 +1,9 @@
-<details><summary><i>Naming history (click to expand)<i><summary>
+<details><summary><i>Naming history (click to expand)</i></summary>
 <pre>
 2024 Feb 05: resources/data_types.md     -- Make it a resource rather than a lesson.
 2023 Jun 06: classroom_activities/Ch01_Basics/ex_7c_types.md    -- Move & rename to organize the course files.
-<pre>
-<details>
+</pre>
+</details>
 
 # Data Types
 ℹ️ This material coincides with material from python slideshow B (slides 21-22).
