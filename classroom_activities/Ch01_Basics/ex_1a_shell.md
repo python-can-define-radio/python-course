@@ -256,6 +256,16 @@ cd animals
 mv cactus.txt ..
 ```
 
+You can **c**o**p**y files using the `cp` command, which works just like `mv`, but keeps the original.
+
+```sh
+## 17
+## Try this. What does it do?
+cd ~/Desktop/term_example_files/plants
+cp general_info_plants.txt plant_info.txt
+```
+
+
 ## Misc practice (Optional)
 
 ### If you have reached this point, switch to `ex_2a_print_and_inputs`.
