@@ -199,7 +199,33 @@ temps_in_F = [90, 30, 47, 82, 68, 100, 25, 40]
 # temperatures are above freezing and how many are below freezing.
 ```
 
-Often, you may work with related sets of data. For example, imagine a list of instructors that includes their names, ages, and years of experience. One way to express this data is a list of lists:
+#### Using lists of objects
+
+Often, you may work with related sets of data. For example, imagine a list of instructors that includes their names, ages, and years of experience. One way to express this data is a list of objects:
+
+```python3
+# 19
+instructors = [
+    Instructor("Maria", 38, 7),
+    Instructor("Walton", 47, 22),
+    Instructor("Martin", 52, 18),
+    Instructor("Joel", 28, 3),
+    Instructor("Tate", 67, 5)
+]
+```
+
+You use this like so:
+
+...
+
+
+### Optional exercises
+
+_If you have time, we recommend doing the exercises below._
+
+#### Lists of lists:
+
+Another way to store related data is using a list of lists: For example, imagine a list of instructors that includes their names, ages, and years of experience. One way to express this data is a list of lists:
 
 ```python3
 # 19
@@ -383,9 +409,7 @@ for ??? in runners:
 # Note that you may need to add more code than what is shown.
 ```
 
-### Optional exercises
-
-If you have time, we recommend doing the exercises below.
+#### Other for-loop examples
 
 As you've seen, you can use a `for` loop with lists. You can also use a `for` loop with a string. For example:
 
