@@ -1,3 +1,11 @@
+<details><summary><i>Naming history (click to expand)</i></summary>
+<pre>
+2022 Aug 21: classroom_activities/ex_2a_print_and_inputs.md
+2023 Jan 30: classroom_activities/Ch01_Basics/ex_2a_print_and_inputs.md
+2024 Feb 14: classroom_activities/Ch01_Basics/ex_1a_print_and_inputs.md
+</pre>
+</details>
+
 # Print and Input Statements
 
 - prerequisites for Rich presentation for the first time.
