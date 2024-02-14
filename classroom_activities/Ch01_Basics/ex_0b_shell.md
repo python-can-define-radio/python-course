@@ -268,7 +268,7 @@ cp general_info_plants.txt plant_info.txt
 
 ## Misc practice (Optional)
 
-### If you have reached this point, switch to `ex_2a_print_and_inputs`.
+### If you have reached this point, switch to `ex_1a_print_and_inputs`.
 
 ```sh
 ## 22
