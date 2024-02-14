@@ -1,7 +1,8 @@
 <details><summary><i>Naming history (click to expand)</i></summary>
 <pre>
-2022 Aug 21: classroom_activities/ex_2a_print_and_inputs.md
-2023 Jan 30: classroom_activities/Ch01_Basics/ex_2a_print_and_inputs.md
+2022 Aug 21: classroom_activities/ex_2_print_and_inputs.md
+2023 Jan 30: classroom_activities/ex_2a_print_and_inputs.md
+2023 May 23: classroom_activities/Ch01_Basics/ex_2a_print_and_inputs.md
 2024 Feb 14: classroom_activities/Ch01_Basics/ex_1a_print_and_inputs.md
 </pre>
 </details>
