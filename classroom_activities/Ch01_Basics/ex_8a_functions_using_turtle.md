@@ -431,7 +431,7 @@ For more practice with `return` statements, see an article such as [this one](ht
 ### Keypresses
 
 ```python3
-# 39
+# 18
 # Try this. Press the up and left keys on your keyboard.
 
 def mvfwd():
@@ -448,7 +448,7 @@ turtle.listen()
 turtle.mainloop()
 
 
-# 39b
+# 19
 # Make it so if you press "Up" on your keyboard, the turtle will draw a square.
 ```
 
@@ -457,7 +457,7 @@ turtle.mainloop()
 Before continuing to the following exercises, you should have completed the `if`, `for`, and `while` exercises.
 
 ```python3
-# 40
+# 20
 # Modify the previous example like so:
 # If the user picks a size that is negative, then let the user know that the side length must be positive.
 # If the user picks a size that is too big, then let the user know that the side length is too big.
@@ -465,7 +465,7 @@ Before continuing to the following exercises, you should have completed the `if`
 # Otherwise, draw a square with the specified length.
 
 
-# 41
+# 21
 # Try this:
 
 keepGoing = "yes"
@@ -476,41 +476,41 @@ while keepGoing == "yes":
 print("We're done. Go take a break to stretch.")
 
 
-# 42
+# 22
 # Modify the previous example so that every time the user types "yes",
 # the turtle moves forward 10 units and turns left 45 degrees.
 
 
-# 43
+# 23
 # Modify the previous example so that every time the user types "yes",
 # it asks the user "How far do you want the turtle to move?".
 # Then move the turtle forward the amount that the user specifies.
 
 
-# 44
+# 24
 # Modify the previous example so that every time the user types "yes",
 # it asks the user "What size square would you like to draw?".
 # Then draw a square (using drawSquare) with the length that the user specifies.
 
 
-# 45
+# 25
 # Try this.
 lengths = [100, 50, 20, 200]
 for leng in lengths:
     print(leng)
 
-# 46
+# 26
 # Modify the previous example so that after it prints the length,
 # it moves the turtle forward that far.
 # (In other words, the first time that the loop runs, it should move forward 100 units,
 #  the second time, it should move 50 units, etc)
 
 
-# 47
+# 27
 # Modify the previous example so that it turns 90 degrees after each forward movement.
 
 
-## 50
+## 28
 ## Cool examples:
 
 howFarToMove = 20
