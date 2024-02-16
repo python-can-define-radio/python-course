@@ -201,10 +201,18 @@ temps_in_F = [90, 30, 47, 82, 68, 100, 25, 40]
 
 #### Using lists of objects
 
-Often, you may work with related sets of data. For example, imagine a list of instructors that includes their names, ages, and years of experience. One way to express this data is a list of objects:
+Often, you may work with related sets of data. For example, imagine a list of instructors that includes their names, ages, and years of experience. One way to express this data is a list of objects. In the example below, you'll see that we create a dataclass called `Instructor`, and we create a list of five `Instructor` objects. Each object is an "instance" of the class `Instructor`.
 
 ```python3
 # 19
+from dataclasses import dataclass
+
+@dataclass
+class Instructor:
+    name: str
+    age: int
+    yearsExp: int
+
 instructors = [
     Instructor("Maria", 38, 7),
     Instructor("Walton", 47, 22),
@@ -214,10 +222,67 @@ instructors = [
 ]
 ```
 
-You use this like so:
+You could use this in a `for` loop like so:
 
-...
+```python3
+print("Here is my instructor data:")
+for person in instructors:
+    print(f"The instructor {person.name} is {person.age} years old and has {person.yearsExp} years of experience.")
+```
 
+Let's do some math inside of the loop.
+
+```python3
+# 20
+# Given the instructors list defined above,
+# display how old each person was when he/she started this job.
+# For example, Maria started this job 7 years ago, so you would print this:
+#    The instructor Maria is 38 years old, and started working at age 31.
+#
+# Note: for this exercise, you cannot add any attributes to the dataclass.
+# In other words, this portion must remain unchanged:
+@dataclass
+class Instructor:
+    name: str
+    age: int
+    yearsExp: int
+# Why? The goal is to have Python compute the
+# started-working-age within the `for` loop.
+# Ask an instructor if this is unclear.  
+
+
+# 21
+# Copy and modify the previous example. In this version, for each instructor,
+# display the following:
+#     The instructor Maria has been working for 7 years, and will receive a $70 bonus this year.
+# 
+# The bonus must be $10 times the number of years of experience (5 years would be $50, etc).
+# As in the previous exercise, the dataclass must remain unchanged.
+
+
+# 22
+# Copy and modify the previous example.
+# Ask the user for the extra bonus per year of experience. Compute appropriately.
+# Example run:
+#     What is the bonus per year of experience? 20
+#     The instructor Maria has been working for 7 years, 
+#     and will receive a $140 bonus this year.
+#     The instructor Walton has been working for 22 years,
+#     and will receive a $440 bonus this year.
+#     ...etc...
+
+
+# 23
+# Copy and modify the previous example.
+# After the for loop, display
+#    "The total amount of work experience for this team is ___". 
+# Must compute the total inside the for loop.
+# Hint: the structure will resemble this:
+#   totalYearsExp = 0
+#   for ??? in ???:
+#       totalYearsExp += person.yearsExp
+#   print(f"The total amount of work experience for this team is {totalYearsExp}")
+```
 
 ### Optional exercises
 
@@ -228,7 +293,7 @@ _If you have time, we recommend doing the exercises below._
 Another way to store related data is using a list of lists: For example, imagine a list of instructors that includes their names, ages, and years of experience. One way to express this data is a list of lists:
 
 ```python3
-# 19
+# 24
 instructors = [
     ["Maria", 38, 7],
     ["Walton", 47, 22],
@@ -241,7 +306,7 @@ instructors = [
 To work with this list, we may use a `for` loop:
 
 ```python3
-# 20
+# 25
 # Try this.
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
@@ -254,21 +319,21 @@ for instructor in instructors:
 You may be surprised at the line `name, age, yearsExp = instructor`. We're using a special Python feature called **unpacking a list**. We'll unpack that concept (pun intended) in the next few exercises.
 
 ```python3
-## 21
+## 26a
 ## Try this.
 ## Notice that each variable is assigned to the respective element of the list.
 name, color = ["Bob", "Green"]
 print(f"{name} likes the color {color}")
 
 
-## 22
+## 26b
 ## This example shows the same concept using an additional variable.
 personinfo = ["Bob", "Green"]
 name, color = personinfo
 print(f"{name} likes the color {color}")
 
 
-## 23
+## 26c
 ## Here's an example that needs to be fixed.
 ## For the sake of the exercise, only change the labelled line.
 personinfo = ["Bob", "Green", 20]
@@ -281,7 +346,7 @@ In the case of a list of lists, you could use a combination of indexing and unpa
 First, the long (not recommended) way, just for comparison.
 
 ```python3
-## 24
+## 27a
 ## Remember, this is not recommended.
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
@@ -311,7 +376,7 @@ print(f"The instructor {name} is {age} years old and has {yearsExp} years of exp
 Now, the recommended way:
 
 ```python3
-## 25
+## 27b
 ## Try this.
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
@@ -324,7 +389,7 @@ for instructor in instructors:
 If you'd like, you can condense this even more:
 
 ```python3
-## 26
+## 27c
 ## This shows the even-more-condensed approach.
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
@@ -336,7 +401,7 @@ for name, age, yearsExp in instructors:
 Now that we've learned how unpacking works, let's do some math inside of the loop.
 
 ```python3
-# 27
+# 28
 # Given this data,
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
@@ -353,7 +418,7 @@ instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
 # Ask an instructor if this is unclear.
 
 
-# 28
+# 29
 # Copy and modify the previous example. In this version, for each instructor,
 # display the following:
 #     The instructor Maria has been working for 7 years, and will receive a $70 bonus this year.
@@ -362,7 +427,7 @@ instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
 # As in the previous exercise, the list of instructors must remain unchanged.
 
 
-# 29
+# 30
 # Copy and modify the previous example.
 # Ask the user for the extra bonus per year of experience. Compute appropriately.
 # Example run:
@@ -372,7 +437,7 @@ instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
 #     ...etc...
 
 
-# 30
+# 31
 # Copy and modify the previous example.
 # After the for loop, display
 #    "The total amount of work experience for this team is ___". 
@@ -387,7 +452,7 @@ instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
 Here another example to practice the same concepts:
 
 ```python3
-# 31
+# 32
 # The following data describes four runners.
 # Each sub-list contains, in this order,
 #  - the runner's name
@@ -414,14 +479,14 @@ for ??? in runners:
 As you've seen, you can use a `for` loop with lists. You can also use a `for` loop with a string. For example:
 
 ```python3
-# 32
+# 33a
 # Try this:
 phrase = "Hello world"
 for letter in phrase:
     print(f"The letter is {letter}")
 
 
-# 33
+# 33b
 # Copy and modify the previous example so it asks the user for a string (rather than only using "Hello world").
 
 
