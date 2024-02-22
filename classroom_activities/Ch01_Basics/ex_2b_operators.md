@@ -1,3 +1,13 @@
+<details><summary><i>Naming history (click to expand)</i></summary>
+<pre>
+2022 Aug 05: classroom_activities/ex_2b_operators.md
+2023 Jun 06: classroom_activities/ex_2e_operators.md
+2023 Mar 10: classroom_activities/Ch01_Basics/ex_2e_operators.md
+2024 Feb 14: classroom_activities/Ch01_Basics/ex_2b_operators.md
+</pre>
+</details>
+
+
 # Python arithmetic operators
 
 Most people are familiar with these four operators: +, -, *, /

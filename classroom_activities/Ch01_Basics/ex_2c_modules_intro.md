@@ -1,7 +1,8 @@
 <details><summary><i>Naming history (click to expand)</i></summary>
 <pre>
-2024 Feb 05: ex_2f_modules_intro.md -- Present it prior to using modules in other lesssons
 2023 Jun 06: ex_7d_modules.md       -- Move & rename to organize the course files.
+2024 Feb 05: ex_2f_modules_intro.md -- Present it prior to using modules in other lesssons
+2024 Feb 14: ex_2c_modules_intro.md
 </pre>
 </details>
 

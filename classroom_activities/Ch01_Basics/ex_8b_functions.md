@@ -100,7 +100,7 @@ print("This line of code is well positioned, because it comes after the function
 There are many cases in which it's helpful to reuse a piece of code with only small changes. **Parameters** help accomplish this.
 
 ```python3
-# 8
+# 8a
 # Try this.
 def sayHiTo(name):
     print(f"Hello {name}. Welcome to the Python course.")
@@ -117,7 +117,7 @@ When we write `def sayHiTo(name)`, the `name` is a **parameter**. Parameters tel
 You can have multiple parameters:
 
 ```python3
-# 8
+# 8b
 # Try this.
 def tellAbout(name, animal):
     print(f"Hello {name}. I've heard you have a pet {animal}.")

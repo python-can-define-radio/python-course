@@ -1,3 +1,78 @@
+<details><summary><i>Naming history (click to expand)</i></summary>
+<pre>
+2022 Oct 12: classroom_activities/ex_2c_variables.py
+2023 Dec 18: classroom_activities/Ch01_Basics/ex_2c_variables.md
+2024 Feb 14: classroom_activities/Ch01_Basics/ex_1b_variables_format_spec.md
+</pre>
+</details>
+
+# Variables
+
+In programming languagues, variables are allocations of computer memory assigned to store data 
+for later use in the program. The programer chooses a name for the variable and sets it equal 
+to a fixed value, a calculated value, or the result of a function (such as `input()`). The
+variable (i.e., its name) can be used again later in the program to perform a calculation, to 
+set a parameter for a function, or to print a result to the user on a display screen or in a data
+file, as examples.
+
+<details> <summary> Basic Rules for naming variables in Python3: (Click to expand.) </summary>
+
+1. In general, the programer may select characters from any of these four groups: A-Z, a-z, 0-9, 
+   and underscore (_).  However, these additional rules should be remembered:
+2. Start the variable name with a letter or an underscore character, not a number.
+3. Both lower case or capital letters may be used, but you'll need to be consistent
+   when you use the variable later in your program.
+4. After the first character in the variable's name, numbers may also be used.  
+5. Do not use a "keyword" defined by Python, e.g. "in", "if", "not", "and", "while", etc.
+6. Do not use the name of built-in function of Python, e.g., "print", "input", etc.  The Python 
+   interpreter program will not prevent you from using them, but the orginal function will cease to work.
+
+References for naming rules/conventions for variables in Python:  
+~ https://pythonguides.com/python-naming-conventions/  
+~ https://www.w3schools.com/python/gloss_python_variable_names.asp
+ </details>
+
+ℹ️ This material coincides with material from python slideshow B (slides 24, 54-63). 
+
+### Exercises
+
+```python3
+## Valid variable names -- These are examples of valid variable assignment statements:
+mynumber = 7
+temp_in_f = 8.3
+my2ndthing = "hi"
+x3 = "stuff"
+_myStuff = 7
+result = mynumber * _myStuff
+
+# This definition of a variable is valid, but please don't, because "input" will no longer be a function.
+input = 7
+
+#############
+# invalid:
+#############
+
+# Can't use keywords, as an example: 
+if = 6
+# (After trying the previous line, delete it, or convert it to a comment by proceeding it with a number/pound symbol (#).)
+
+# Can't start with number
+3rdthing = "hi"
+
+# Can't have spaces inside of the name
+my var = 3
+
+# Can't have special characters (only "_" is allowed inside a variable name)
+$d = 6
+
+## Using variables: 
+## These statements reference/use the variables defined in the "Valid variable names" section, above.
+print(mynumber)
+print(f"The recorded temperature is {temp_in_f}°F")
+print(f"The following message was received '{my2ndthing}'.")
+print(f"The result of multiplying", mynumber, "and", _myStuff, "is equal to", result)
+```
+
 # Printing with Format Specifiers
 
 ### Introduction
@@ -79,5 +154,3 @@ print(f"This will give an error, because item_number is a float: {item_number:b}
 - This website gives detailed documentation; somewhat more difficult to read.  
   https://docs.python.org/3/library/string.html#format-specification-mini-language
 
-webpage for this lesson:  
-https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2b_printing_with_format_spec.md

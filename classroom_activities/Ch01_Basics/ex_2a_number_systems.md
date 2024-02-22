@@ -1,6 +1,15 @@
+<details><summary><i>Naming history (click to expand)</i></summary>
+<pre>
+2023 Jun 06: classroom_activities/Ch01_Basics/ex_2d_number_systems.md
+2023 Dec 18: classroom_activities/Ch01_Basics/eex_2c_number_systems.md
+2024 Feb 14: classroom_activities/Ch01_Basics/ex_2a_number_systems.md
+</pre>
+</details>
+
+
 # Number Systems
 
-[Rich Presentation for ex2d-2e](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/02c_02d_02e_number_systems_operators.py)
+[Rich Presentation for ex_2a-2b](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/02c_02d_02e_number_systems_operators.py)
 
 Sometimes, you may wish to display a number using a different number system.
 

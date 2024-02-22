@@ -1,3 +1,11 @@
+<details><summary><i>Naming history (click to expand)</i></summary>
+<pre>
+?: ex_1_shell.md
+?: ex_1a_shell.md
+2024 Feb 14: ex_0b_shell.md
+</pre>
+</details>
+
 # Shell/Bash/Terminal/Command Prompt
 
 The goal of the current lesson is to familiarize new students with the "Terminal" program of the Linux operating system (OS).  
@@ -268,7 +276,7 @@ cp general_info_plants.txt plant_info.txt
 
 ## Misc practice (Optional)
 
-### If you have reached this point, switch to `ex_2a_print_and_inputs`.
+### If you have reached this point, switch to `ex_1a_print_and_inputs`.
 
 ```sh
 ## 22

@@ -1,10 +1,19 @@
+<details><summary><i>Naming history (click to expand)</i></summary>
+<pre>
+2022 Aug 21: classroom_activities/ex_2_print_and_inputs.md
+2023 Jan 30: classroom_activities/ex_2a_print_and_inputs.md
+2023 May 23: classroom_activities/Ch01_Basics/ex_2a_print_and_inputs.md
+2024 Feb 14: classroom_activities/Ch01_Basics/ex_1a_print_and_inputs.md
+</pre>
+</details>
+
 # Print and Input Statements
 
 - prerequisites for Rich presentation for the first time.
      - `pip install rich`
      - `pip install asciimatics`
 
-[Rich Presentation for ex2a-2c](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/02a_02b_02c_prints_inputs_variables.py)
+[Rich Presentation for ex1a-1b](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/02a_02b_02c_prints_inputs_variables.py)
 
 Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
 
