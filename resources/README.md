@@ -1,7 +1,7 @@
 # Resources
 
-[List of built-in python functions](https://docs.python.org/3/library/functions.html)
-[List of python keywords](https://realpython.com/python-keywords)
+[List of built-in python functions](https://docs.python.org/3/library/functions.html)  
+[List of python keywords](https://realpython.com/python-keywords)  
 [Python terminology]()
 
 ### Full curriculums
