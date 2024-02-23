@@ -4,7 +4,7 @@
 
 ### Where to start:
 
-Start with the [classroom_activities](https://github.com/python-can-define-radio/python-course/tree/main/classroom_activities).
+Start with the preliminaries lesson of Ch01_Basics in [classroom_activities](https://github.com/python-can-define-radio/python-course/tree/main/classroom_activities).
 
 ### Some background info:
 
