@@ -1,3 +1,10 @@
+<details><summary><i>Naming history (click to expand)</i></summary>
+<pre>
+2023 Oct 11: classroom_activities/Ch01_Basics/ex_8b_functions.md
+2024 Feb 23: classroom_activities/Ch01_Basics/ex_7b_functions.md
+</pre>
+</details>
+
 # Functions
 
 Functions are an essential building block in almost any programming language. They help to organize code into pieces of functionality, which reduces complexity. They also reduce the length of your code by allowing for code to be reused throughout your program without copy/pasting.
