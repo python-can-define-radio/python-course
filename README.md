@@ -1,5 +1,7 @@
 # Python Course
 
+[Daily Schedule of Events](https://github.com/python-can-define-radio/python-course/blob/main/resources/toc-python.md)
+
 ### Where to start:
 
 Start with the [classroom_activities](https://github.com/python-can-define-radio/python-course/tree/main/classroom_activities).
