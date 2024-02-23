@@ -2,7 +2,8 @@
 
 [Python built-in functions](https://docs.python.org/3/library/functions.html)  
 [Python keywords](https://realpython.com/python-keywords)  
-[Python terminology]()
+[Python data types](https://docs.python.org/3/library/stdtypes.html)  
+[Python terminology](https://docs.python.org/3/glossary.html)  
 
 ### Full curriculums
 - https://www.freecodecamp.org/ : Free lessons and certificates.
