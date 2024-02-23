@@ -1,5 +1,9 @@
 # Resources
 
+[List of built-in python functions](https://docs.python.org/3/library/functions.html)
+[List of python keywords](https://realpython.com/python-keywords)
+[Python terminology]()
+
 ### Full curriculums
 - https://www.freecodecamp.org/ : Free lessons and certificates.
 - https://edube.org/ : Lessons and certificates. Some parts are free.
