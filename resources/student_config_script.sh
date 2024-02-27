@@ -257,3 +257,73 @@ Ford: Founded in 1903 as Ford.
 Lincoln: Founded in 1917.
 Acquired by Ford Motor Company in 1922.
 (Source: Wikipedia (https://en.wikipedia.org/wiki/List_of_automobile_manufacturers_of_the_United_States))" > vehicle_manufacturers.txt
+
+cd ~/Desktop
+
+repo_url="https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/rich_presentations.zip"
+
+download_dir="richzip"
+
+mkdir -p "$download_dir"
+
+curl -L -o "$download_dir/rich_presentations.zip" "$repo_url"
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Download successful.\e[35m"
+else
+    echo "Download failed. Please check the URL and try again."
+fi
+
+unzip -q "$download_dir/rich_presentations.zip" -d "$download_dir"
+    
+    # Check if unzip was successful
+    if [ $? -eq 0 ]; then
+        echo -e "\e[32m- Unzip successful.\e[35m"
+    else
+        echo "Unzip failed."
+    fi
+  
+username=$(whoami) 
+    
+source_file="/home/$username/Desktop/richzip/rich_presentations/rich_presentation_launcher.desktop"
+destination_dir="/home/$username/.local/share/applications/"
+
+mv "$source_file" "$destination_dir"
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Successfully moved rich_presentation_launcher.desktop.\e[35m"
+else
+    echo "Move failed."
+fi   
+
+source_file_launcher="/home/$username/Desktop/richzip/rich_presentations/rich_presentation_launcher.py"
+destination_dir_launcher="/home/$username/Desktop/"
+      
+mv "$source_file_launcher" "$destination_dir_launcher"
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Successfully moved rich_presentation_launcher.py.\e[35m"
+else
+    echo "Move failed."
+fi   
+
+source_file_presentations="/home/$username/Desktop/richzip/rich_presentations/"
+destination_dir_presentations="/home/$username/Desktop/"
+      
+mv "$source_file_presentations" "$destination_dir_presentations"
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Successfully moved rich_presentation folder to the Desktop.\e[35m"
+else
+    echo "Move failed."
+fi 
+
+cd richzip
+rm rich_presentations.zip
+cd ..
+rmdir richzip
+
+gsettings set org.gnome.nautilus.preferences executable-text-activation 'ask'
+
+# You might need to restart Nautilus for changes to take effect
+nautilus -q
