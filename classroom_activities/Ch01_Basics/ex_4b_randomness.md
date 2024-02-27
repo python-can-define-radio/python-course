@@ -1,7 +1,5 @@
 # Randomness
 
-[Rich Presentation for ex4b](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/04b_random.py)
-
 ### Exercises
 Using Python's random module -- Making random selections from lists & Generating random numbers
 
