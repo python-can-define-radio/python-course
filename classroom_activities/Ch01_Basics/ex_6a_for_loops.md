@@ -1,7 +1,5 @@
 # For loops
 
-[Rich Presentation for ex6a](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/06a_for_loops.py)
-
 One of the most powerful uses of programming is the ability to repeat an action, such as automatically sending text messages to many recipients. One way to accomplish this is the `for` loop. 
 
 ℹ️ Use Ctrl + C to exit a program (useful for exiting infinite loops).
