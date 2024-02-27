@@ -1,7 +1,5 @@
 # If-Else Statements
 
-[Rich Presentation for ex3a-3b](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/03a_if_else.py)
-
 ℹ️ This material coincides with material from python slideshow C (slides 39-46). 
 
 ### Introduction
