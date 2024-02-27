@@ -9,8 +9,6 @@
 
 # Number Systems
 
-[Rich Presentation for ex_2a-2b](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/02c_02d_02e_number_systems_operators.py)
-
 Sometimes, you may wish to display a number using a different number system.
 
 Here's a table of a few examples:
