@@ -1,7 +1,5 @@
 # Dataclasses
 
-[Rich Presentation for ex5b]()
-
 ℹ️ This material coincides with material from python slideshow D (slides 16-30).
 
 ### Exercises
