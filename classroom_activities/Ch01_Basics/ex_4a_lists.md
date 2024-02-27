@@ -1,7 +1,5 @@
 # Lists
 
-[Rich Presentation for ex4a](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/04a_lists.py)
-
 Almost any non-trival program will involve working with a collection, such as a list or an array. This exercise set introduces basic list operations.
 
 ℹ️ This material coincides with material from python slideshow C (slides 4-21).
