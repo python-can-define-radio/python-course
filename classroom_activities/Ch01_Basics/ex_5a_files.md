@@ -1,7 +1,5 @@
 # File Manipulation
 
-[Rich Presentation for ex5a](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/05a_file_writing.py)
-
 ℹ️ This material coincides with material from python slideshow D (slides 31-37).
 
 ### Exercises
