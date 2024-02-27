@@ -11,9 +11,11 @@
 
 - prerequisites for Rich presentation for the first time.
      - `pip install rich`
+     - `pip install guizero`
      - `pip install asciimatics`
+     - `pip install pyautogui`
 
-[Rich Presentation for ex1a-1b](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/02a_02b_02c_prints_inputs_variables.py)
+
 
 Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
 
