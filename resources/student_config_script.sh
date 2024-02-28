@@ -34,6 +34,12 @@ X-GNOME-Autostart-enabled=true
 Exec=$HOME/$scriptFile
 " > ~/.config/autostart/disable_middle_click.desktop
 
+
+if ! [ -f ~/.config/Code/User/settings.json ]; then
+    echo "ERROR: You need to launch VS Code before running this script."
+    exit
+fi
+
 echo "- Customizing VS Code default setttings"
 echo "{
     \"window.zoomLevel\": 4,
