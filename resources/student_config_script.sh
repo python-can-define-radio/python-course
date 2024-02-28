@@ -1,8 +1,9 @@
 #!/bin/bash -e
 
-echo "- Setting screen blank timeout, lock timeout, and bash terminal timeout and bash prompt"
+echo "- Setting screen blank timeout, lock timeout, bash terminal timeout, bash prompt, and nautilus executable"
 gsettings set org.gnome.desktop.session idle-delay 900
 gsettings set org.gnome.desktop.screensaver lock-delay 1800
+gsettings set org.gnome.nautilus.preferences executable-text-activation 'ask'
 echo "
 
 ## Make TMOUT variable arbitrarily large to avoid terminal auto-closing
@@ -48,8 +49,8 @@ echo "{
       },
 }" > ~/.config/Code/User/settings.json
 
-echo "- Running command: pip3 install thonny"
-pip3 install thonny
+echo "- Running command to install commonly used packages: pip3 install thonny rich guizero pyautogui asciimatics"
+pip3 install thonny rich guizero pyautogui asciimatics
 
 echo "- Creating example content in ~/Desktop/term_example_files"
 
@@ -322,8 +323,6 @@ cd richzip
 rm rich_presentations.zip
 cd ..
 rmdir richzip
-
-gsettings set org.gnome.nautilus.preferences executable-text-activation 'ask'
 
 # You might need to restart Nautilus for changes to take effect
 nautilus -q
