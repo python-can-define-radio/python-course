@@ -35,7 +35,7 @@ Exec=$HOME/$scriptFile
 " > ~/.config/autostart/disable_middle_click.desktop
 
 
-if ! [ -f ~/.config/Code/User/settings.json ]; then
+if ! [ -d ~/.config/Code/User ]; then
     echo "ERROR: You need to launch VS Code before running this script."
     exit
 fi
@@ -340,7 +340,6 @@ fi
 
 echo "You need to exit the file browser (Nautilus) for changes to fully take effect."
 echo "Would you like to exit Nautilus now? (y|N)"
-echo "Would you like to remove any existing ssh keys in the .ssh folder? (y|N)"
 read exitnautilusnow
 if [ y == $exitnautilusnow ]
 then 
