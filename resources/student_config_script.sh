@@ -1,4 +1,6 @@
-#!/bin/bash -e
+#!/bin/bash
+
+set -e
 
 echo "- Setting screen blank timeout, lock timeout, bash terminal timeout, bash prompt, and nautilus executable"
 gsettings set org.gnome.desktop.session idle-delay 900
