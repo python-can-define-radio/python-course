@@ -7,7 +7,15 @@
   - guizero
   - pyautogui
   - asciimatics
+- Run the command `pip3 install "module name here"` if any are missing.
 - Double click on the `rich_presentation_launcher.py` from the desktop file browser.
   - NOTE: It doesn't work when launching from the `actual` desktop.
 - Select `run from terminal`.
-- Choose the presentation you want to view.
+  - If it does not prompt you with the `run from terminal` option.
+    - click the ☰ icon in the top right of the file browser.
+    - select `Preferences`.
+    - select `Behavior` tab.
+    - under `Executable Text Files` select `Ask what to do`.
+      - the `Run them` option does not work.
+    - close everything and try launching again.
+- Choose the presentation you want to view and click `ok`.
