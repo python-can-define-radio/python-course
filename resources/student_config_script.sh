@@ -57,6 +57,7 @@ echo "- Creating example content in ~/Desktop/term_example_files"
 cd ~/Desktop
 
 echo "Feel free to take notes in this file if you'd like." > mod_f_notes.txt
+
 mkdir term_example_files
 cd term_example_files
 
@@ -91,15 +92,13 @@ Beasts of burden (horses, camels, donkeys, etc.)
 (Source: Bing search)" > domestic_animals.txt
 
 echo "A monkey is a primate with a tail." > monkey.txt
-
 echo "A dog is one of the most common domestic animals in the world." > dog.txt
-
 echo "A cactus is a plant that grows in the desert." > cactus.txt
 
 cd ..
-
 mkdir plants
 cd plants
+
 echo "Plants are a major food group for most living organisms.
 Facts about  food plants include:
 There are about 380,000 known species of plants, of which the majority, some 260,000, produce seeds.
@@ -136,6 +135,7 @@ Trees help improve water quality, reduce noise, air and water pollution, and pro
 Dead wood is valuable for a forest, creating nitrogen and microhabitats for wildlife.
 A large oak tree can drop 10,000 acorns in one year.
 (Source: Bing search)" > general_info_trees.txt
+
 cd ..
 cd food_plants
 
@@ -164,6 +164,7 @@ roots of some plants like carrots, beetroot, and seeds like wheat, rice.
 
 cd ..
 cd weeds
+
 echo "Weeds are plants that are considered undesirable in a particular situation.
 They are opportunistic and aggressive, and genetically designed to germinate, grow, and propagate faster than most desirable plants.
 Weeds spread easily and their seeds are specially adapted to spread.
@@ -190,7 +191,6 @@ mkdir vehicles
 cd vehicles
 mkdir engines
 mkdir manufacturers
-
 cd engines
 
 echo "A combustion engine is a heat engine that converts the heat released from burning a fuel to mechanical energy.
@@ -219,7 +219,6 @@ Other engine sizes include 262-400, 396-454, LS1/LS6, 221-351W, 351C, 429-460, 3
 (Source: Bing search)" > engine_sizes.txt
 
 cd ..
-
 cd manufacturers
 
 echo "General Motors:-----Buick, Cadillac, Chevrolet, GMC
@@ -260,13 +259,9 @@ Acquired by Ford Motor Company in 1922.
 (Source: Wikipedia (https://en.wikipedia.org/wiki/List_of_automobile_manufacturers_of_the_United_States))" > vehicle_manufacturers.txt
 
 cd ~/Desktop
-
 repo_url="https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/rich_presentations/rich_presentations.zip"
-
 download_dir="richzip"
-
 mkdir -p "$download_dir"
-
 curl -L -o "$download_dir/rich_presentations.zip" "$repo_url"
 
 if [ $? -eq 0 ]; then
@@ -284,11 +279,9 @@ unzip -q "$download_dir/rich_presentations.zip" -d "$download_dir"
         echo "Unzip failed."
     fi
   
-username=$(whoami) 
-    
+username=$(whoami)   
 source_file="/home/$username/Desktop/richzip/rich_presentations/rich_presentation_launcher.desktop"
 destination_dir="/home/$username/.local/share/applications/"
-
 mv "$source_file" "$destination_dir"
 
 if [ $? -eq 0 ]; then
@@ -298,8 +291,7 @@ else
 fi   
 
 source_file_launcher="/home/$username/Desktop/richzip/rich_presentations/rich_presentation_launcher.py"
-destination_dir_launcher="/home/$username/Desktop/"
-      
+destination_dir_launcher="/home/$username/Desktop/"     
 mv "$source_file_launcher" "$destination_dir_launcher"
 
 if [ $? -eq 0 ]; then
@@ -309,8 +301,7 @@ else
 fi   
 
 source_file_presentations="/home/$username/Desktop/richzip/rich_presentations/"
-destination_dir_presentations="/home/$username/Desktop/"
-      
+destination_dir_presentations="/home/$username/Desktop/"     
 mv "$source_file_presentations" "$destination_dir_presentations"
 
 if [ $? -eq 0 ]; then
@@ -321,8 +312,21 @@ fi
 
 cd richzip
 rm rich_presentations.zip
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Successfully removed rich_presentation.zip.\e[35m"
+else
+    echo "Deletion failed."
+fi 
+
 cd ..
 rmdir richzip
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Successfully removed richzip folder.\e[35m"
+else
+    echo "Deletion failed."
+fi 
 
 # You might need to restart Nautilus for changes to take effect
 nautilus -q
