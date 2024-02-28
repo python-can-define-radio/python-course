@@ -2,7 +2,7 @@
 
 - Download and run the [student_config_script](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/student_config_script.sh) in a terminal window.
   - `bash student_config_script.sh`
-- Ensure you have the requisite modules installed by using the `pip freeze` command in the terminal.
+- Ensure you have the requisite modules installed by using the `pip freeze` or `pip list` command in the terminal.
   - rich
   - guizero
   - pyautogui
