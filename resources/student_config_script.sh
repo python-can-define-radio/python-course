@@ -377,8 +377,8 @@ echo "Would you like to delete the student_config_script.sh from the Desktop? (y
 read delsetupscript
 if [ y == $delsetupscript ]
 then 
-    echo "Deleting student_setup_script.sh."
-    rm student_setup_script.sh
+    echo "Deleting student_config_script.sh."
+    rm student_config_script.sh
     if [ $? -eq 0 ]; then
         echo -e "\e[32m- Successfully removed student_config_script.sh.\e[35m"
     else
