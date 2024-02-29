@@ -371,6 +371,22 @@ else
     echo "Move failed."
 fi   
 
+# Cleanup
+
+echo "Would you like to delete the student_config_script.sh from the Desktop? (y|N)"
+read delsetupscript
+if [ y == $delsetupscript ]
+then 
+    echo "Deleting student_setup_script.sh."
+    rm student_setup_script.sh
+    if [ $? -eq 0 ]; then
+        echo -e "\e[32m- Successfully removed student_config_script.sh.\e[35m"
+    else
+        echo "Deletion failed."
+    fi   
+else 
+    echo "Ok we won't delete it even though it is of no further use."
+fi
 
 # You might need to restart Nautilus for changes to take effect
 
