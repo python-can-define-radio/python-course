@@ -18,6 +18,8 @@ class Dog:
    
 d1 = Dog("Tucker", 4, "Cocker Spaniel")
 d2 = Dog("Henry", 8, "Bassett Hound")
+# You have the option of using named keyword arguments:
+d3 = Dog(name="Henry", age=8, breed="Bassett Hound")
 
 print(d1.name)
 ```
@@ -71,7 +73,13 @@ You'll see more examples of using lists with dataclasses in the next lesson.
 
 # Classes using `pydantic` module
 
-This section of the lesson shows how to use an external module to verify and enforce `types` in a class definition.
+This section of the lesson shows how to use an external module to verify and enforce **types** in a class definition.
+
+Prerequisite: 
+```sh
+## Run this in the terminal:
+pip install pydantic
+```
 
 ```python3
 ## 5
@@ -88,7 +96,12 @@ d2 = Dog(name="Henry", age=8, breed="Bassett Hound")
 
 print(d1.name)
 ```
-Notice we added an import and dropped the `@dataclass` decorator, also using the BaseModel for inheritance forces us to use keyword arguments when `instantiating` the class.
+
+The line `class Dog(BaseModel)` means that `Dog` will **inherit** the behavior of `BaseModel`.  
+`BaseModel` differs from the `@dataclass` decorator in a few ways:
+
+- It forces us to use keyword arguments when **instantiating** the class.
+- It enforces correct types.
 
 ```python3
 ## 6
@@ -97,12 +110,12 @@ Notice we added an import and dropped the `@dataclass` decorator, also using the
 ```
 This should have given you a useful error something like this:
 
-```python3
+```sh
 Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Tucker', input_type=str]
 ```
 or this:
 
-```python3
+```sh
 Input should be a valid string [type=string_type, input_value=4, input_type=int]
 ```
 
@@ -110,18 +123,21 @@ One useful feature of pydantic...
 
 ```python3
 ## 7
-## What is wrong with this code?
-## Try this.
-d3 = Dog(name="Fred", age="5", breed="Greyhound")
+## Try this. Do you expect this to run?
+d4 = Dog(name="Fred", age="5", breed="Greyhound")
 
-print(d3.age)
+print(d4.age)
+print(d4.age + 1)
 ```
-It will try to coerce (their word not mine) data to the correct type when appropriate.
+
+Notice that our string "5" is converted to an integer without ever writing `int()`.  
+This is Pydantic's [default behavior](https://docs.pydantic.dev/latest/concepts/models/#data-conversion) — when the data can be converted to the type specified in the class definition, it will be converted silently.
 
 ```python3
 ## 8
-## Make any class that has at least three attributes and enforces types.
+## Using pydantic's `BaseModel`, make any class that has at
+## least three attributes with various types.
 ## Make a list of at least three objects.
 ```
 
-For more information see the [pydantic docs](https://docs.pydantic.dev/latest/).
+For more information, see the [pydantic docs](https://docs.pydantic.dev/latest/).
