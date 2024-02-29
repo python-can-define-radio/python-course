@@ -4,17 +4,51 @@
 These instructions assume you are working on a Linux operating system (OS).
 
 - Open VSCode, then close it.
-- Follow these directions to run a setup script:
-  - Right-click on this [student_config_script.sh](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/student_config_script.sh)  and select `Save Link As`.  
-  - For the save location, click on `Desktop` on the left, and then click `Save`.
-  - Minimize the browser window so that you can see the Desktop.
-  - Right-click on your Desktop and select `Open in Terminal`.
-  - Type `bash student_config_script.sh` and hit Enter.
-  - Let the instructor know if you see any error messages.
+
+- <details><summary>Link to the student samba. (Expand for details)</summary>
+  
+  1) Open the file browser.  
+  
+  2) Click on `+ Other Locations` in the bottom left corner.
+  
+  3) At the bottom where it says `Enter server address`, type smb://`the ip address` (provided by the instructor) and hit Enter.
+  
+  4) Double-click on `studentsamba`.
+  
+  5) Select the `Registered User` radio button.
+  
+  6) Enter username and password (provided by the instructor).
+  
+  7) Select the `Forget password immediately` radio button.
+  
+  8) Click Connect.
+  
+  9) Close file browser. you are now linked to the studentsamba.
+</details>
+
+- <details><summary>Follow these directions to run the student setup script. (Expand for details)</summary>
+  
+  1) Right-click on this [student_config_script.sh](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/student_config_script.sh)  and select `Save Link As`.
+  
+  2) For the save location, click on `Desktop` on the left, and then click `Save`.
+  
+  3) Minimize the browser window so that you can see the Desktop.
+  
+  4) Right-click on your Desktop and select `Open in Terminal`.
+     
+  5) Type `bash student_config_script.sh` and hit Enter.
+     
+  10) Let the instructor know if you see any error messages.
+</details>  
+
 - Create a folder for yourself with your name (and no spaces) on the Desktop.
+  
 - In VSCode, open the folder that you created.
+  
 - Create a Python file to trigger the installation of the Python extension.
-- We will be using Github for many of our Python and SDR lessons. If you want, you may [create a free GitHub account](https://github.com). This will give you a repository in which you can save your work.  
+  
+- We will be using Github for many of our Python and SDR lessons. If you want, you may [create a free GitHub account](https://github.com). This will give you a repository in which you can save your work.
+  
 - For more information on Github Accounts:  
 https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
 
