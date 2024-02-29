@@ -336,19 +336,6 @@ else
     echo "Deletion failed."
 fi 
 
-# You might need to restart Nautilus for changes to take effect
-
-echo "You need to exit the file browser (Nautilus) for changes to fully take effect."
-echo "Would you like to exit Nautilus now? (y|N)"
-read exitnautilusnow
-if [ y == $exitnautilusnow ]
-then 
-    echo "Exiting nautilus."
-    nautilus -q
-else 
-    echo "Please restart the file browser when convenient."
-fi
-
 cd /run/user
 username=$(whoami)
 usernumber=$(ls)  
@@ -383,3 +370,18 @@ if [ $? -eq 0 ]; then
 else
     echo "Move failed."
 fi   
+
+
+# You might need to restart Nautilus for changes to take effect
+
+echo "You need to exit the file browser (Nautilus) for changes to fully take effect."
+echo "Would you like to exit Nautilus now? (y|N)"
+read exitnautilusnow
+if [ y == $exitnautilusnow ]
+then 
+    echo "Exiting nautilus."
+    nautilus -q
+else 
+    echo "Please restart the file browser when convenient."
+fi
+
