@@ -109,8 +109,12 @@ Input should be a valid string [type=string_type, input_value=4, input_type=int]
 One useful feature of pydantic...
 
 ```python3
+## 7
 ## What is wrong with this code?
+## Try this.
 d3 = Dog(name="Fred", age="5", breed="Greyhound")
+
+print(d3.age)
 ```
 It will try to coerce (their word not mine) data to the correct type when appropriate.
 
