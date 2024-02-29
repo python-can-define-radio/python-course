@@ -99,9 +99,8 @@ Speaking of comments, you'll see that we've numbered our exercises. Number them 
 
 ### ***ℹ️ To save yourself from unecessary work do not delete the exercises when you complete them.*** 
 ### ***Comment them out and keep them for reference.***  
-### ***These are your notes and can be used on the exam. ℹ️***
-
-If you are unsure what the recommended workflow should be, ask the instructor to demonstrate.
+### ***These are your notes and can be used on the exam.***
+### ***If you are unsure what the recommended workflow should be, ask the instructor to demonstrate. ℹ️***
 
 ```python3
 ## 2a
