@@ -9,14 +9,6 @@
 
 # Print and Input Statements
 
-- prerequisites for Rich presentation for the first time.
-     - `pip install rich`
-     - `pip install guizero`
-     - `pip install asciimatics`
-     - `pip install pyautogui`
-
-
-
 Up to this point, we've been doing terminal commands, such as `ls` and `cd`. Now, we're going to start programming in Python.
 
 We'll be primarily using Visual Studio Code (VS Code) as our editor for the Python code that we write. Another editor option is called Thonny. However, its primary use for the purposes of this class will be debugging.
@@ -104,6 +96,12 @@ You can manually add the `#` characters if you want, but we recommend using the 
 Commenting out the exercises as you go is a great idea because it allows you to keep them for reference, but not see the output every time you press run.
 
 Speaking of comments, you'll see that we've numbered our exercises. Number them accordingly on your computer as you work through them, as it makes them easier to find later. Also, we (the instructors) may refer to a specific exercise by number.
+
+### ***ℹ️ To save yourself from unecessary work do not delete the exercises when you complete them.*** 
+### ***Comment them out and keep them for reference.***  
+### ***These are your notes and can be used on the exam. ℹ️***
+
+If you are unsure what the recommended workflow should be, ask the instructor to demonstrate.
 
 ```python3
 ## 2a
