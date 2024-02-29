@@ -3,6 +3,10 @@
 ## Computer Configuration
 These instructions assume you are working on a Linux operating system (OS).
 
+- Introductions.
+
+- Create student login accounts if necessary.
+
 - Open VSCode, then close it.
 
 - <details><summary>Link to the student samba. (Expand for details)</summary>
