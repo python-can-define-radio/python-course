@@ -24,7 +24,7 @@ print(d1.name)
 
 In this example, `Dog` is a "class", which can be thought of as a template that describes what data we want to include every time we use the `Dog` class.
 
-The variables `d1` and `d2` are called "intances" of the class `Dog`. It's also possible to call them "objects".
+The variables `d1` and `d2` are called "instances" of the class `Dog`. It's also possible to call them "objects".
 
 So far, this doesn't provide any new features, but it allows you to organize data into named attributes. It also ensures that every `Dog` object that you create (or _instantiate_) has the required attributes: `name`, `age`, and `breed`.
 
@@ -69,10 +69,55 @@ You'll see more examples of using lists with dataclasses in the next lesson.
 ########################
 ```
 
-<!--
+# Classes using `pydantic` module
 
-## Note that you'll need the class defition from earlier.
+This section of the lesson shows how to use an external module to verify and enforce `types` in a class definition.
 
+```python3
+## 5
+## Try this.
+from pydantic import BaseModel
 
-## Copy and modify the previous example to 
--->
+class Dog(BaseModel):
+    name: str
+    age: int
+    breed: str
+   
+d1 = Dog(name="Tucker", age=4, breed="Cocker Spaniel")
+d2 = Dog(name="Henry", age=8, breed="Bassett Hound")
+
+print(d1.name)
+```
+Notice we added an import and dropped the `@dataclass` decorator, also using the BaseModel for inheritance forces us to use keyword arguments when `instantiating` the class.
+
+```python3
+## 6
+## Copy and modify the previous exercise to confirm that the `types` are being enforced.
+## Change one of the three defined parameters either `str` to `int` or `int` to `str` and run it.
+```
+This should have given you a useful error something like this:
+
+```python3
+Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='Tucker', input_type=str]
+```
+or this:
+
+```python3
+Input should be a valid string [type=string_type, input_value=4, input_type=int]
+```
+
+One useful feature of pydantic...
+
+```python3
+## What is wrong with this code?
+d3 = Dog(name="Fred", age="5", breed="Greyhound")
+```
+It will try to coerce (their word not mine) data to the correct type when appropriate.
+
+```python3
+## 8
+## Make any class that has at least three attributes and enforces types.
+## Make a list of at least three objects.
+```
+
+For more information see the [pydantic docs](https://docs.pydantic.dev/latest/).
