@@ -5,6 +5,8 @@ These instructions assume you are working on a Linux operating system (OS).
 
 - Introductions.
 
+- [Daily Schedule of Events](https://github.com/python-can-define-radio/python-course/blob/main/resources/toc-python.md)
+
 - Create student login accounts if necessary.
 
 - Open VSCode, then close it.
