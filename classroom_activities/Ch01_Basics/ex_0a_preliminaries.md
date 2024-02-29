@@ -1,6 +1,6 @@
 # Preliminaries
 
-## Computer Configuration
+## Day One Breakdown
 These instructions assume you are working on a Linux operating system (OS).
 
 - Introductions.
