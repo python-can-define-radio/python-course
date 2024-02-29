@@ -373,6 +373,7 @@ fi
 
 # Cleanup
 
+cd ~/Desktop/
 echo "Would you like to delete the student_config_script.sh from the Desktop? (y|N)"
 read delsetupscript
 if [ y == $delsetupscript ]
