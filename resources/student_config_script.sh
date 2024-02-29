@@ -348,3 +348,38 @@ then
 else 
     echo "Please restart the file browser when convenient."
 fi
+
+cd /run/user
+username=$(whoami)
+usernumber=$(ls)  
+source_file_python_slideshows="/run/user/$usernumber/gvfs/smb-share:server=10.50.28.152,share=studentsamba/python_resources/python_slideshows/"
+destination_dir_python_slideshows="/home/$username/Desktop/"  
+  
+cp -r "$source_file_python_slideshows" "$destination_dir_python_slideshows"
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Successfully moved python slideshows folder to the Desktop.\e[35m"
+else
+    echo "Move failed."
+fi 
+
+source_file_sdr_slideshows="/run/user/$usernumber/gvfs/smb-share:server=10.50.28.152,share=studentsamba/sdr_resources/sdr_slideshows/"
+destination_dir_sdr_slideshows="/home/$username/Desktop/"  
+
+cp -r "$source_file_sdr_slideshows" "$destination_dir_sdr_slideshows"
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Successfully moved sdr slideshows folder to the Desktop.\e[35m"
+else
+    echo "Move failed."
+fi 
+
+source_file="/home/$username/Desktop/disable_middle_click.sh"
+destination_dir="/home/$username/.local/share/applications/"
+mv "$source_file" "$destination_dir"
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Successfully moved disable_middle_click.sh.\e[35m"
+else
+    echo "Move failed."
+fi   
