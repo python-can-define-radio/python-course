@@ -11,7 +11,7 @@ These instructions assume you are working on a Linux operating system (OS).
 
 - Open VSCode, then close it.
 
-- <details><summary>Link to the student samba. (Expand for details)</summary>
+- <details><summary>Link your computer to the student samba. (Expand for details)</summary>
   
   1) Open the file browser.  
   
