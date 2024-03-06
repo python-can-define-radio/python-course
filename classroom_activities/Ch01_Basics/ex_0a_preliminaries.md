@@ -81,25 +81,13 @@ These instructions assume you are working on a Linux operating system (OS).
 
 - Create a folder for yourself with your name (and no spaces) on the Desktop.
   
-- In VSCode, open the folder that you created.
+- Reopen VSCode to the folder that you created.
   
 - Create a Python file to trigger the installation of the Python extension.
 
 - Demonstrate the keyboard commands below.
   
-- <details><summary>We will be using Github for many of our Python and SDR lessons. (Expand for details)</summary>
-
-  1) If you want, you may [create a free GitHub account](https://github.com).
-  
-  2) This will give you a repository in which you can save your work.
-  
-  3) For more information on Github Accounts:https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
-</details>
-
-
-
-
-### On the keyboard:
+### Common VS Code keyboard shortcuts:
 
 - `Ctrl /`: toggle comment / uncomment  (while lines are selected)
 - `Home`: Cursor to beginning of line
@@ -122,3 +110,14 @@ These instructions assume you are working on a Linux operating system (OS).
 - 🎛️ The source control icon allows you to keep your files up to date with a remote repository.
 - 🐛 The run and debug icon is used for troubleshooting.
 - 🪟 The extensions icon is used to install additional extensions to improve your VS Code experience.
+
+### Misc
+
+- <details><summary>We will be using Github for many of our Python and SDR lessons. (Expand for details)</summary>
+
+  1) If you want, you may [create a free GitHub account](https://github.com).
+  
+  2) This will give you a repository in which you can save your work.
+  
+  3) For more information on Github Accounts:https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
+</details>
