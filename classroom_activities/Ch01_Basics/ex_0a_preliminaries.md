@@ -17,7 +17,7 @@ These instructions assume you are working on a Linux operating system (OS).
   
   2) Click on `+ Other Locations` in the bottom left corner.
   
-  3) At the bottom where it says `Enter server address`, type smb://`the ip address` (provided by the instructor) and hit Enter.
+  3) At the bottom where it says `Enter server address`, type smb://`the url` (provided by the instructor) and hit Enter.
   
   4) Double-click on `studentsamba`.
   
