@@ -30,6 +30,8 @@ These instructions assume you are working on a Linux operating system (OS).
   8) Click Connect.
   
   9) Close file browser. you are now linked to the studentsamba.
+
+  10) Repeat as necessary if the `studentsamba` loses connection. 
 </details>
 
 - <details><summary>Follow these directions to run the student setup script. (Expand for details)</summary>
@@ -82,6 +84,8 @@ These instructions assume you are working on a Linux operating system (OS).
 - In VSCode, open the folder that you created.
   
 - Create a Python file to trigger the installation of the Python extension.
+
+- Demonstrate the keyboard commands below.
   
 - <details><summary>We will be using Github for many of our Python and SDR lessons. (Expand for details)</summary>
 
@@ -95,23 +99,26 @@ These instructions assume you are working on a Linux operating system (OS).
 
 
 
-
-
 ### On the keyboard:
 
 - `Ctrl /`: toggle comment / uncomment  (while lines are selected)
-- `Backspace`: erase to the left
-- `Delete`: erase to the right
 - `Home`: Cursor to beginning of line
 - `End`: Cursor to end of line
 - `Shift arrowkey`: Highlight forward/backward/up/down
 - `Ctrl arrowkey`: move cursor by words
-- `Ctrl D`: select multiple instances (_powerful but advanced feature -- instructor will demo how to use_)
+- `Ctrl D`: select multiple instances (powerful but advanced feature)
+- `Backspace`: erase to the left
+- `Delete`:<details><summary>erase to the right (Expand)</summary>
+  
+  Notes about `Delete`:
+  - In the "Terminal" program, the cursor is a box.  The `Delete` key deletes the character inside the cursor box and pulls text from the RIGHT.
+  - For many other programs, the cursor is a line that sits between two characters.  In this case, the {Delete} key deletes the character on the RIGHT side of the cursor and pulls text from the right.
+</details>
 
-Notes about `Delete`:
-- In the "Terminal" program, the cursor is a box.  The `Delete` key deletes the character inside the cursor box and pulls text from the RIGHT.
-- For many other programs, the cursor is a line that sits between two characters.  In this case, the {Delete} key deletes the character on the RIGHT side of the cursor and pulls text from the right.
+### VS Code Icons
 
-### Misc
-
-- Use the magnifying glass on the left hand side of VS Code to search within multiple files.
+- 📁 The file browser icon (`nuff said)
+- 🔍 Use the magnifying glass on the left hand side of VS Code to search within multiple files.
+- 🎛️ The source control icon allows you to keep your files up to date with a remote repository.
+- 🐛 The run and debug icon is used for troubleshooting.
+- 🪟 The extensions icon is used to install additional extensions to improve your VS Code experience.
