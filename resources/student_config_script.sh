@@ -338,8 +338,17 @@ fi
 
 cd /run/user
 username=$(whoami)
-usernumber=$(ls)  
-source_file_python_slideshows="/run/user/$usernumber/gvfs/smb-share:server=10.50.28.152,share=studentsamba/python_resources/python_slideshows/"
+directories=($(ls -d */))
+for dir in "${directories[@]}"; do
+    # Remove the trailing slash from the directory name
+    dir=${dir%/}
+    # Check if the directory name contains more than 5 digits
+    if [[ "$dir" =~ [0-9]{6,} ]]; then
+        usernumber=$dir
+        break
+    fi
+done 
+source_file_python_slideshows="/run/user/$usernumber/gvfs/smb-share:server=samba.17e.vta.,share=studentsamba/python_resources/python_slideshows/"
 destination_dir_python_slideshows="/home/$username/Desktop/"  
   
 cp -r "$source_file_python_slideshows" "$destination_dir_python_slideshows"
@@ -350,7 +359,7 @@ else
     echo "Move failed."
 fi 
 
-source_file_sdr_slideshows="/run/user/$usernumber/gvfs/smb-share:server=10.50.28.152,share=studentsamba/sdr_resources/sdr_slideshows/"
+source_file_sdr_slideshows="/run/user/$usernumber/gvfs/smb-share:server=samba.17e.vta.,share=studentsamba/sdr_resources/sdr_slideshows/"
 destination_dir_sdr_slideshows="/home/$username/Desktop/"  
 
 cp -r "$source_file_sdr_slideshows" "$destination_dir_sdr_slideshows"
@@ -401,4 +410,3 @@ then
 else 
     echo "Please restart the file browser when convenient."
 fi
-
