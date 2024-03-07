@@ -35,7 +35,7 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
 
 ```sh
 ## 1 
-## - Using the Graphical User Interface (GUI) files browser, open the folder "term_example_files" on the Desktop.
+## - Using the Graphical User Interface (GUI) file browser, open the folder "term_example_files" on the Desktop.
 ##   This folder should have been created by the initial setup script that you ran in the Preliminaries lesson.
 ## - Open the files and folders to see what is in them.
 
