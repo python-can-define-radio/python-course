@@ -375,16 +375,6 @@ else
     echo "Move failed."
 fi 
 
-source_file="/home/$username/Desktop/disable_middle_click.sh"
-destination_dir="/home/$username/.local/share/applications/"
-mv "$source_file" "$destination_dir"
-
-if [ $? -eq 0 ]; then
-    echo -e "\e[32m- Successfully moved disable_middle_click.sh.\e[35m"
-else
-    echo "Move failed."
-fi   
-
 # Cleanup
 
 cd ~/Desktop/
