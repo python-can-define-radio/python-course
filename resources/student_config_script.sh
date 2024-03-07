@@ -351,7 +351,8 @@ done
 
 cd $usernumber
 cd gvfs
-cd $(ls)  # Assume there is only one directory here
+studentdir=$(ls -lt | grep "^d" | grep "student" | head -n 1 | awk '{print $NF}')
+cd $studentdir # chooses just the student samba dir in the event the instructor is linked to both inst samba and stu samba
 samba_root=$(pwd)
 source_file_python_slideshows="$samba_root/python_resources/python_slideshows/"
 destination_dir_python_slideshows="/home/$username/Desktop/"  
