@@ -66,7 +66,7 @@ cd ~/Desktop
 
 echo "Feel free to take notes in this file if you'd like." > mod_f_notes.txt
 
-mkdir term_example_files
+mkdir -p term_example_files
 cd term_example_files
 
 echo "A kangaroo is an animal that can jump." > kangaroo.txt
@@ -91,7 +91,7 @@ There is a controversy over whether they are feral or truly wild.
 Mustangs can run up to 35 miles an hour.
 (Source: Bing search)" > mustang.txt
 
-mkdir animals
+mkdir -p animals
 cd animals
 
 echo "Pets (dogs, cats, ferrets, hamsters, etc.)
@@ -104,7 +104,7 @@ echo "A dog is one of the most common domestic animals in the world." > dog.txt
 echo "A cactus is a plant that grows in the desert." > cactus.txt
 
 cd ..
-mkdir plants
+mkdir -p plants
 cd plants
 
 echo "Plants are a major food group for most living organisms.
@@ -120,9 +120,9 @@ Plants make their own food by the process of photosynthesis.
 A lot of plant species are used for medicinal purposes.
 (Source: Bing search)" > general_info_plants.txt
 
-mkdir trees
-mkdir food_plants
-mkdir weeds
+mkdir -p trees
+mkdir -p food_plants
+mkdir -p weeds
 cd trees
 
 echo "There are many different types of trees.
@@ -195,10 +195,10 @@ Some common types of weeds include Asiatic Bittersweet, Bindweed, Dandelions, Gi
 cd ..
 cd ..
 
-mkdir vehicles
+mkdir -p vehicles
 cd vehicles
-mkdir engines
-mkdir manufacturers
+mkdir -p engines
+mkdir -p manufacturers
 cd engines
 
 echo "A combustion engine is a heat engine that converts the heat released from burning a fuel to mechanical energy.
@@ -278,6 +278,9 @@ else
     echo "Download failed. Please check the URL and try again."
 fi
 
+# cleanup from possible previous run
+rm -rf $download_dir/rich_presentations
+
 unzip -q "$download_dir/rich_presentations.zip" -d "$download_dir"
     
     # Check if unzip was successful
@@ -308,9 +311,11 @@ else
     echo "Move failed."
 fi   
 
+
 source_file_presentations="/home/$username/Desktop/richzip/rich_presentations/"
-destination_dir_presentations="/home/$username/Desktop/"     
-mv "$source_file_presentations" "$destination_dir_presentations"
+destination_dir_presentations="/home/$username/Desktop/rich_presentations/"     
+mkdir -p rich_presentations
+cp -r "$source_file_presentations" "$destination_dir_presentations"
 
 if [ $? -eq 0 ]; then
     echo -e "\e[32m- Successfully moved rich_presentation folder to the Desktop.\e[35m"
@@ -318,17 +323,7 @@ else
     echo "Move failed."
 fi 
 
-cd richzip
-rm rich_presentations.zip
-
-if [ $? -eq 0 ]; then
-    echo -e "\e[32m- Successfully removed rich_presentation.zip.\e[35m"
-else
-    echo "Deletion failed."
-fi 
-
-cd ..
-rmdir richzip
+rm -r richzip
 
 if [ $? -eq 0 ]; then
     echo -e "\e[32m- Successfully removed richzip folder.\e[35m"
@@ -351,8 +346,9 @@ done
 
 cd $usernumber
 cd gvfs
-studentdir=$(ls -lt | grep "^d" | grep "student" | head -n 1 | awk '{print $NF}')
-cd $studentdir # chooses just the student samba dir in the event the instructor is linked to both inst samba and stu samba
+studentdir=$(ls | grep student)
+# studentdir=$(ls -lt | grep "^d" | grep "student" | head -n 1 | awk '{print $NF}')
+cd $studentdir # chooses just the student samba dir in the event the instructor is linked to both inst samba and student samba
 samba_root=$(pwd)
 source_file_python_slideshows="$samba_root/python_resources/python_slideshows/"
 destination_dir_python_slideshows="/home/$username/Desktop/"  
