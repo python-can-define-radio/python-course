@@ -348,7 +348,12 @@ for dir in "${directories[@]}"; do
         break
     fi
 done 
-source_file_python_slideshows="/run/user/$usernumber/gvfs/smb-share:server=samba.17e.vta.,share=studentsamba/python_resources/python_slideshows/"
+
+cd $usernumber
+cd gvfs
+cd $(ls)  # Assume there is only one directory here
+samba_root=$(pwd)
+source_file_python_slideshows="$samba_root/python_resources/python_slideshows/"
 destination_dir_python_slideshows="/home/$username/Desktop/"  
   
 cp -r "$source_file_python_slideshows" "$destination_dir_python_slideshows"
@@ -359,7 +364,7 @@ else
     echo "Move failed."
 fi 
 
-source_file_sdr_slideshows="/run/user/$usernumber/gvfs/smb-share:server=samba.17e.vta.,share=studentsamba/sdr_resources/sdr_slideshows/"
+source_file_sdr_slideshows="$samba_root/sdr_resources/sdr_slideshows/"
 destination_dir_sdr_slideshows="/home/$username/Desktop/"  
 
 cp -r "$source_file_sdr_slideshows" "$destination_dir_sdr_slideshows"
