@@ -33,8 +33,9 @@ print(z, "is the result of 13 % 5 sometimes called modulus or the remainder.")
 
 print(f"So 13 divided by 5 gives you {x};")
 print(f"Using floor division (13 // 5) drops the remainder giving you {y}.")
-print(f"The modulus operator (%) gives you only the remainder of the operation ({z}).")
-print(f"This represents 3 fifths or 3/5 which equals {z/5}")
+print(f"The modulus operator (%) gives you only the remainder of")
+print(f"the operation ({z}).")
+print(f"This represents 3 fifths or 3/5, which equals {z/5}")
 
 a = 2 ** 5
 print(a, "is the result of 2 ** 5, or 2 to the 5th power.")
@@ -65,7 +66,8 @@ print(f"andthere would be {leftover} leftover.")
 ## Calculating an exponent
 ## Ask the user for two numbers.
 ## Display "If you computed ___ to the power of ___, then you would get ___."
-## (Hint: What is the operator for exponent in Python? It may not be what you think.)
+## (Hint: What is the operator for exponent in Python?
+##  It may not be what you think.)
 
 
 ## 4
