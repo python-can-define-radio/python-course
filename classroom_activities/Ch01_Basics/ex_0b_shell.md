@@ -13,15 +13,19 @@ The goal of the current lesson is to familiarize new students with the "Terminal
 ℹ️ This material coincides with material from python slideshow A (slides 1-20).  
 
 ### Background Information:
-This exercise is developed based on the Ubuntu distribution of the Linux OS, but should be applicable for other distributions as well. Linux includes several pre-installed programs or applications, commonly called "Apps".  One such pre-installed program is the Terminal, which is a text-based user interface for interacting with the OS itself, with storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and with the internet.  The Terminal program is also called the "command-prompt", the "shell", and the "console".  (Further details: for older Unix computer systems, the terms "terminal" and "console" referred to a physical piece of equipment.  Within the Linux OS, they refer to software providing similar functionality). 
+<details><summary>Expand here</summary>
+  This exercise is developed based on the Ubuntu distribution of the Linux OS, but should be applicable for other distributions as well. Linux includes several pre-installed programs or applications, commonly called "Apps".  One such pre-installed program is the Terminal, which is a text-based user interface for interacting with the OS itself, with storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and with the internet. The Terminal program is also called the "command-prompt", the "shell", and the "console".  (Further details: for older Unix computer systems, the terms "terminal" and "console" referred to a physical piece of equipment.  Within the Linux OS, they refer to software providing similar functionality).
+</details>
 
 ### Some useful resources:
+<details><summary>Expand here</summary>
 `(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new tab" or new window and then go to that tab/window.)`
 - Background info about "Why the terminal": 
   - https://ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
   - https://askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
 - A list of several Terminal commands: https://www.digitalocean.com/community/tutorials/linux-commands
 - (See also links to tutorials at bottom of this page.)
+</details>
 
 ### Notes: 
 - The examples below assume you have run the `student_config_script.sh` file as described in the [Preliminaries lesson](https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_0a_preliminaries.md)  That "script" program file adds several text files used in the current lesson and adds other features.
@@ -57,18 +61,26 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
 ## Now, run these commands:  (Remember, press the Enter key after each line.)
 cd ~
 pwd
-ls
+## What happened?
+## What does the tilde ~ represent?
+## Do this.
 cd Desktop
 pwd
-ls
 cd term_example_files
 pwd
-ls
 cd animals
 pwd
+## Notice the change in your location when you run pwd.
+## We can do these commands seperately like the example above or together like the example below.
+cd ~
+cd Desktop/term_example_files/animals/
+## Lets add another command
 ls
+## What happened?
+
 ```
 
+<details><summary>Expand here and read if you do not understand cd, ls, or pwd.</summary>
 You've now used three commands: `cd`, `ls`, and `pwd`. The first command, `cd`, stands for "<b>c</b>hange <b>d</b>irectory". The second command, `ls`, stands for "<b>l</b>i<b>s</b>t". Whenever you type `ls`, the terminal displays a list of files. The files that are displayed by `ls` vary according to your current "working directory".
 
 A "working directory" is the directory (a.k.a. folder) that you are currently interacting with --
@@ -80,6 +92,7 @@ The third command, `pwd`, stands for "<b>p</b>rint <b>w</b>orking <b>d</b>irecto
 - After running `cd term_example_files`, when you ran `pwd`, it displayed `/home/yourusername/Desktop/term_example_files`.
 
 You may wonder why `pwd` does not show `~/Desktop/term_example_files`. The reason: `~` (the tilde character) is a GNU/Linux abbreviation for your home directory, which is normally `/home/yourusername`. So, if your user name is `bob.smith`, then `~` means `/home/bob.smith`.
+</details>
 
 Let's get some practice:
 
@@ -90,17 +103,19 @@ cd ~
 ls
 cd Desktop
 ls
-cd animals
-## Note: the `cd animals` command will give an error.
+cd vehicles
+## Note: the `cd vehicles` command will give an error. Why?
 ```
 
+<details><summary>Expand here for the answer.</summary>
 The command `cd ~` means "change directory (`cd`) to my home directory (`~`)".
 
-Notice that `cd animals` gave an error: `bash: cd: animals: No such file or directory`. Let's break this down:
+When we used the command `cd vehicles` it gave this error: `bash: cd: vehicles: No such file or directory`. Let's break this down:
 
 - `bash`: We are using `bash` as our "shell". There are various available shells with different features, but in this class, we'll just use bash.
 - `cd`: The terminal is letting you know that `cd` is the command that failed.
-- `animals: No such file or directory`: Before trying to change your directory, `cd` checks if the desired destination exists. In this case, it looked for `animals` in your current working directory, which was the Desktop. However, `animals` is not on the Desktop; it's inside `term_example_files`.
+- `vehicles: No such file or directory`: Before trying to change your directory, `cd` checks if the desired destination exists. In this case, it looked for `vehicles` in your current working directory, which was the Desktop. However, `vehicles` does not exist on the Desktop; it's inside `term_example_files`.
+</details>
 
 ```sh 
 ## 3b
@@ -112,28 +127,23 @@ Notice that `cd animals` gave an error: `bash: cd: animals: No such file or dire
 ## Change your current directory to the vehicles directory.
 ```
 
-You can also change multiple directory levels with a single `cd` command. Notice that, as before, the change is relative to your current location.
-
-```sh
-## 4a
-cd ~
-cd Desktop
-## Notice that the following line changes two levels using one command.
-cd term_example_files/animals
-```
-
 You may have noticed that it's tedious to have use `cd ~` to go back to your home directory every time you want to go into another directory. There is a special location, `..`, that means "the parent directory of this directory".
 
 ```sh
-## 4b
+## 4
 ## Try this. Notice what happens when you run `cd ..`.
 cd ~
 cd Desktop
-pwd
 cd term_example_files
-pwd
 cd ..
+## What did the cd .. command do?
 pwd
+## You can also navigate multiple levels at once this way.
+cd animals
+pwd
+cd ../..
+pwd
+## See how it moved two levels up.
 ```
 
 You may wonder why `cd ~` works regardless of where you run it. Let's distinguish between two types of paths:
@@ -155,7 +165,7 @@ Examples:
 | Relative | Absolute |
 |-----------|--------|
 | cd animals | cd ~/Desktop/term_example_files/animals |
-| cd animals | cd ~/Desktop/term_example_files/animals |
+| cd vehicles | cd ~/Desktop/term_example_files/vehicles |
 
 Some further examples are below.
 
