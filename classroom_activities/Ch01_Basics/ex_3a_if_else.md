@@ -70,8 +70,9 @@ if name == "joe":
 
 ## 3c
 ## Try this.
-## Notice that the "Have a good day" line prints regardless of the chosen name.
-## This is because it is not indented (it has no spaces before the line).
+## Notice that the "Have a good day" line prints regardless of
+## the chosen name.  This is because it is
+## not indented (it has no spaces before the line).
 import random
 name = random.choice(["bob", "susan", "joe", "anna"])
 print(f"Hey {name}.") 
@@ -96,7 +97,8 @@ else:
      
 
 ## 5
-## Copy and modify the above example so that the legal drinking age is 40. (Just to be funny.) 
+## Copy and modify the above example so that the
+## legal drinking age is 40. (Just to be funny.) 
 
 
 ## 6
@@ -109,7 +111,8 @@ else:
 
 
 ## 6b
-## Change the previous example so that if the user types "bob", it will reply "Are you the painter?"
+## Change the previous example so that if the
+## user types "bob", it will reply "Are you the painter?"
 
 
 ## 6c
@@ -122,11 +125,14 @@ else:
     
  
 ## 7
-## Modify the above example so that if the name is "Pluto", it will say "Is it a planet or not?" 
+## Modify the above example so that if the name is
+## "Pluto", it will say "Is it a planet or not?" 
 
 
 ## 7b
-## You'll notice that the user must type joe lowercase. Here's how to make it so any capitalization works:
+## You'll notice that in the "joe" example, the user must
+## type "joe" lowercase. Here's how to make it so
+## any capitalization works ("Joe", "JOE", etc):
 name = input("What is your name? ")
 print(f"The lowercase version of that is {name.lower()}.")
 if name.lower() == "joe": 
@@ -136,8 +142,9 @@ else:
 
 
 ## 7bb
-## Copy and modify the previous example so that if the name is "Ruby",
-## it displays "That name is also the name of a gem."
+## Copy and modify the previous example so that
+## if the name is "Ruby", it displays
+## "That name is also the name of a gem."
 ## Make it work for any capitalization of Ruby.
 ########################
 ##  INSTRUCTOR-CHECK  ##
@@ -154,7 +161,8 @@ print("Greetings.")
 
 ## 7d
 ## - Ask the user for a name
-## - If the name is anything other than Bob, then display "I don't think I know you. I only know Bob."
+## - If the name is anything other than Bob, then
+##   display "I don't think I know you. I only know Bob."
 ## Hint: the != operator means "not equal".
 
 
@@ -198,9 +206,11 @@ print(ageNextYear)
 ## 11
 ## Copy and modify the previous example to do the following: 
 ## - Ask the user for age 
-## - Say "I see you are __ years old. You will be 65 years old in __ years."
+## - Say "I see you are __ years old.
+##        You will be 65 years old in __ years."
 ##   For example, if the user typed 45, then it would display
-##      "I see you are 45 years old. You will be 65 years old in 20 years."
+##      "I see you are 45 years old.
+##       You will be 65 years old in 20 years."
 ########################
 ##  INSTRUCTOR-CHECK  ##
 ########################
@@ -216,17 +226,22 @@ else:
      
 
 ## 13
-## Modify the above example so it works. You’ll use the `int` function. 
+## Modify the above example so it works.
+## You’ll use the `int` function. 
 
  
 ## 14
-## Copy and modify the above example so that it shows how many years remain until you can
-## drink (but only display that if you’re under the drinking age). 
+## Copy and modify the above example so that
+## it shows how many years remain until you can
+## drink (but only display that if you’re
+## under the drinking age). 
 
 
 ## 15
-## Write a program that takes a name from the user. If the name is the letter "A", say
-## "Your name is just the letter A? That’s kinda cool".  Otherwise, say "Ok, your name is ___". 
+## Write a program that takes a name from the user.
+## If the name is the letter "A", say
+## "Your name is just the letter A? That’s kinda cool".
+## Otherwise, say "Ok, your name is ___". 
 ```  
 
 One or more elif-statements can be positioned between an if-statement and an else-statement to choose between more than two options or operations.
@@ -254,7 +269,7 @@ elif name == "sue":
 elif name == "rob":
     print("Another abbreviation for robert, correct?")
 elif name == "lacy":
-    print("Does the origin of your name relate to clothing with lace?")
+    print("Does the origin of your name relate to lace?")
 else:
     print("I don't know you.")
 print("Done.")
@@ -272,7 +287,7 @@ if name == "sue":
 if name == "rob":
     print("Another abbreviation for robert, correct?")
 if name == "lacy":
-    print("Does the origin of your name relate to clothing with lace?")
+    print("Does the origin of your name relate to lace?")
 else:
     print("I don't know you.")
 print("Done.")
@@ -327,7 +342,8 @@ print("C")
 
 
 ## 20
-## Copy and modify the previous example so that C is only printed if the number is not less than 20.
+## Copy and modify the previous example so
+## that C is only printed if the number is not less than 20.
 ## Use the `else` keyword.
 
 
@@ -335,7 +351,8 @@ print("C")
 ## Copy and modify the previous example so that it acts like this:
 ## if x is less than 20, then print A.
 ## Otherwise, print C.
-## After all of that is done, print Goodbye (regardless of what x was.)
+## After all of that is done, print Goodbye
+## (regardless of what x was.)
 
 
 ## 20c
@@ -367,7 +384,8 @@ if 3 < x < 10:
 ## Write a program that takes a number from the user.
 ## Display the number doubled.
 ## Then do a sequence of creative if statements of your choice.
-##   For example, if the number is negative, display "Really? Negative? Interesting".
+##   For example, if the number is negative,
+##   display "Really? Negative? Interesting".
 
 
 ## 22b
@@ -376,16 +394,17 @@ firstcost = float(input("How much is the first thing you bought? "))
 secondcost = float(input("How much is the second thing you bought? "))
 total = firstcost + secondcost
 discounted = total * 0.9
-print(f"The total cost would be {total}.")
-print("However, we're doing a special sale today, so you get a 10% discount.")
-print(f"That means you actually pay {discounted}")
+print(f"""The total cost would be {total}.
+However, we're doing a special sale today, so you get a 10% discount.
+That means you actually pay {discounted}""")
 
 
 ## 23
 ## Try this.
-x = float(input("Type a number between 0 and 1, for example, 0.3, 0.25, etc... "))
+x = float(input("Type a non-whole number. "))
 print(f"One more would be {x + 1}.")
-## As you can see, you can use `float` instead of `int` when dealing with non-whole numbers.
+## As you can see, you can use `float` instead of
+##  `int` when dealing with non-whole numbers.
 ## Sidenote: 
 ##   (this sidenote is outside the scope of the class, but good to know)
 ##   Using floats can cause weird rounding errors. For example:
@@ -396,36 +415,46 @@ if 0.1 + 0.1 + 0.1 == 0.3:
     print("This will not print.")
 else:
     print("This will print... what is math??")
-##   The reason is because the numbers are converted to binary behind the scenes,
-##   and just as you can't express "one third" exactly in decimal (0.33333 is not EXACTLY one third)
+##   The reason is because the numbers are converted to
+##   binary behind the scenes,
+##   and just as you can't express "one third" exactly in decimal
+##   (0.33333 is not EXACTLY one third)
 ##   you can't express "one tenth" exactly in binary.
 ##   For more info, see https://docs.python.org/3/tutorial/floatingpoint.html
-##   If you plan to eventually do any "real-life" programming, then it's definitely worth reading.
+##   If you plan to eventually do any "real-life" programming,
+##   then it's definitely worth reading.
 ## (end of sidenote)
 
 
 ## 23b
-## Ask the user for the cost of a single item and the quantity purchased. Print the total cost. 
-## Make sure this works for non-integer costs. For example, try a cost of 2.30 and quantity of 2.
+## Ask the user for the cost of a single item
+## and the quantity purchased. Print the total cost. 
+## Make sure this works for non-integer costs.
+## For example, try a cost of 2.30 and quantity of 2.
 ## Hint: You'll use float instead of int.
 ## Example:
-## What is the cost for an item? 2.30
-## How many did you buy? 2
-## The total cost would be $4.60.
+##   What is the cost for an item? 2.30
+##   How many did you buy? 2
+##   The total cost would be $4.60.
 
 
 ## 24
-## Modify the previous example so that the shop gives a discount of 10% if you buy at least 20 of an item.  
-## For example, if one item costs $5, and you’re buying 20, total cost would be $90. 
+## Modify the previous example so that the shop gives
+## a discount of 10% if you buy at least 20 of an item.  
+## For example, if one item costs $5, and you’re buying 20,
+## the total cost would be $90. 
      
 
 ## 25
-## Ask the user for a number (make sure to allow for non-whole numbers).
-## Print the absolute value of the number without using the abs function. 
+## Ask the user for a number
+## (make sure to allow for non-whole numbers).
+## Print the absolute value of the
+## number without using the abs function. 
 
 
 ## 26
-## Ask the user for a temperature in Celsius, and display the temperature in Fahrenheit. 
+## Ask the user for a temperature in Celsius,
+## and display the temperature in Fahrenheit. 
 ## Make sure to allow for non-whole numbers.
 
 
@@ -434,7 +463,8 @@ else:
 
 
 ## 28
-## Combine the two previous examples: ask the user for a number and which way to convert. 
+## Combine the two previous examples: ask the user for
+## a number and which way to convert. 
 ########################
 ##  INSTRUCTOR-CHECK  ##
 ########################
@@ -442,8 +472,10 @@ else:
 
 ## 29
 ## Ask the user for a number.
-## Using the % operator, display "The remainder of your number divided by 5 is ___."
-## Also, if the remainder that you calculated is 0, display "That number is evenly divisible by 5."
+## Using the % operator, display "The remainder of
+## your number divided by 5 is ___."
+## Also, if the remainder that you calculated is 0,
+## display "That number is evenly divisible by 5."
 
 ```
 
@@ -488,7 +520,8 @@ else:
 
 ## 34
 ## Ask the user what sound a dog makes.
-## If the user says any of "woof", "bark", or "ruff", then display "That's correct!"
+## If the user says any of "woof", "bark", or "ruff",
+## then display "That's correct!"
 ## otherwise, display "Not quite."
 ## Make it work for any capitalization.
 
