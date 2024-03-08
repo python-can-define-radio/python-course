@@ -334,6 +334,10 @@ fi
 cd /run/user
 username=$(whoami)
 directories=($(ls -d */))
+if [ -z "$directories" ]; then
+    echo "Samba does not appear to be mounted. Specifically, didn't find any directories in $(pwd).";
+fi
+
 for dir in "${directories[@]}"; do
     # Remove the trailing slash from the directory name
     dir=${dir%/}
@@ -346,7 +350,18 @@ done
 
 cd $usernumber
 cd gvfs
-studentdir=$(ls | grep student)
+
+if [ -z "$(ls)" ]; then
+    echo "No samba shares appear to be mounted. Specifically, didn't find anything in $(pwd)";
+    exit
+fi
+
+studentdir="$(ls | grep student || true)"
+
+if [ -z "$studentdir" ]; then
+    echo "Student samba share does not appear to be mounted. Specifically, didn't find anything containing the word student in $(pwd)";
+    exit    
+fi
 # studentdir=$(ls -lt | grep "^d" | grep "student" | head -n 1 | awk '{print $NF}')
 cd $studentdir # chooses just the student samba dir in the event the instructor is linked to both inst samba and student samba
 samba_root=$(pwd)
