@@ -95,6 +95,8 @@ These instructions assume you are working on a Linux operating system (OS).
 - `Shift arrowkey`: Highlight forward/backward/up/down
 - `Ctrl arrowkey`: move cursor by words
 - `Ctrl D`: select multiple instances (powerful but advanced feature)
+- `Alt Z`: Toggles wordwrap
+- `Ctrl Shift Space`: Toggles Parameter hints
 - `Backspace`: erase to the left
 - `Delete`:<details><summary>erase to the right (Expand)</summary>
   
