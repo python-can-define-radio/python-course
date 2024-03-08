@@ -99,7 +99,7 @@ These instructions assume you are working on a Linux operating system (OS).
 - `Alt Z`: Toggles wordwrap
 - `Ctrl Shift Space`: Toggles Parameter hints
   - If shortcut does not work navigate to File>Preferences>Settings
-  - Type in parameter hints and uncheck `Editor › Parameter Hints: Enabled`
+  - Type in parameter hints and uncheck ☑️`Editor › Parameter Hints: Enabled`
 - Common to other text editors
   - `Ctrl S`: Saves current file
   - `Ctrl A`: Select all
