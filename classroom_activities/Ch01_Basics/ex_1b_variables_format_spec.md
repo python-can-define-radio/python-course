@@ -139,11 +139,14 @@ print(f"This will give an error, because item_number is a float: {item_number:b}
 - Hint: Each of these exercises require at least one `input` "ask the user" statement,  and one `print` "display" statement.
 ```python3
 # 1
-# Ask the user a number. Display the number rounded to 3 decimal places.
+# Ask the user a number.
+# Display the number rounded to 3 decimal places.
 
 
 # 2 
-# Ask the user for the current cost-per-gallon of gasoline. Display the cost per pint, rounded to the nearest cent.
+# Ask the user for the current cost-per-gallon of
+# gasoline. Display the cost per pint,
+# rounded to the nearest cent.
 ```
 
 ### For more information:
