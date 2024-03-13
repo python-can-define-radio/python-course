@@ -58,7 +58,7 @@ echo "{
 }" > ~/.config/Code/User/settings.json
 
 echo "- Running command to install commonly used packages: pip3 install thonny rich guizero pyautogui asciimatics prompt_toolkit"
-pip3 install thonny rich guizero pyautogui asciimatics
+pip3 install thonny rich guizero pyautogui asciimatics prompt_toolkit
 
 echo "- Creating example content in ~/Desktop/term_example_files"
 
