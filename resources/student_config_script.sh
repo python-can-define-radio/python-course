@@ -291,7 +291,7 @@ unzip -q "$download_dir/rich_presentations.zip" -d "$download_dir"
     fi
   
 username=$(whoami)   
-source_file="/home/$username/Desktop/richzip/rich_presentations/rich_presentation_launcher.desktop"
+source_file="/home/$username/Desktop/richzip/rich_presentation_launcher.desktop"
 destination_dir="/home/$username/.local/share/applications/"
 mv "$source_file" "$destination_dir"
 
@@ -301,7 +301,7 @@ else
     echo "Move failed."
 fi   
 
-source_file_launcher="/home/$username/Desktop/richzip/rich_presentations/rich_presentation_launcher.py"
+source_file_launcher="/home/$username/Desktop/richzip/rich_presentation_launcher.py"
 destination_dir_launcher="/home/$username/Desktop/"     
 mv "$source_file_launcher" "$destination_dir_launcher"
 
