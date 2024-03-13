@@ -311,24 +311,7 @@ else
     echo "Move failed."
 fi   
 
-
-source_file_presentations="/home/$username/Desktop/richzip/rich_presentations/"
-destination_dir_presentations="/home/$username/Desktop/"     
-cp -r "$source_file_presentations" "$destination_dir_presentations"
-
-if [ $? -eq 0 ]; then
-    echo -e "\e[32m- Successfully moved rich_presentation folder to the Desktop.\e[35m"
-else
-    echo "Move failed."
-fi 
-
-rm -r richzip
-
-if [ $? -eq 0 ]; then
-    echo -e "\e[32m- Successfully removed richzip folder.\e[35m"
-else
-    echo "Deletion failed."
-fi 
+mv richzip rich_presentations
 
 cd /run/user
 username=$(whoami)
