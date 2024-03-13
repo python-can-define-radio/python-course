@@ -313,8 +313,7 @@ fi
 
 
 source_file_presentations="/home/$username/Desktop/richzip/rich_presentations/"
-destination_dir_presentations="/home/$username/Desktop/rich_presentations/"     
-mkdir -p rich_presentations
+destination_dir_presentations="/home/$username/Desktop/"     
 cp -r "$source_file_presentations" "$destination_dir_presentations"
 
 if [ $? -eq 0 ]; then
