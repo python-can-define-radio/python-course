@@ -458,7 +458,7 @@ Before continuing to the following exercises, you should have completed the `if`
 
 ```python3
 # 20
-# Modify the previous example like so:
+# Make a square drawing tool.
 # If the user picks a size that is negative, then let the user know that the side length must be positive.
 # If the user picks a size that is too big, then let the user know that the side length is too big.
 #  ("too big" is up to you to decide.)
