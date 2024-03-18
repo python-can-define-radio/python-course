@@ -74,8 +74,13 @@ print("Done.")
 ## 9
 ## Modify the earlier "Liftoff" example to add a small delay to make it more fun.
 ## (It should wait a second after each number is displayed.)
+```
 
+Often in programming, [TIMTOWTDI](https://wiki.c2.com/?ThereIsMoreThanOneWayToDoIt) (There Is More Than One Way To Do It). In the context of `while` loops, you can choose to use the `break` statement to exit the loop before reaching the end of the current loop iteration. 
 
+Many of the examples that follow will show both approaches.
+
+```python3
 ## 10
 ## Try this.
 keepGoing = "yes"
@@ -117,8 +122,19 @@ while keepGoing not in ["no", "no thanks"]:
 print("Ok, stopping.")   
 
 
+## 14b
+## This example is functionally equivalent, but uses the `break` approach.
+## Notice that this avoids having to initialize a variable before the loop.
+while 2 + 2 == 4:
+    print("Continuing.")
+    keepGoing = input("Do you want me to keep going? ")
+    if keepGoing in ["no", "no thanks"]:
+        break
+print("Ok, stopping.")
+
+
 ## 15
-## Copy and modify the previous example like so:
+## Copy one of the previous two examples. Change it like so:
 ## Continue looping if the user types any of these: "hey", "woo", or "yes".
 
 
@@ -161,8 +177,19 @@ while guess != secretWord:
 print("You got it!")
 
 
+## 19b
+## Again, this is functionally equivalent to the previous example, but uses break.
+print("Welcome to the word guesser!")
+secretWord = "water"
+while 5 == 5:
+    guess = input("What is your guess? ")
+    if guess == secretWord:
+        break
+print("You got it!")
+
+
 ## 20
-## Copy and modify the previous example so that each iteration
+## Copy and modify one of the two previous examples so that each iteration
 ## of the loop displays "Let me check to determine whether that's right."
 
 
@@ -180,6 +207,19 @@ while guess != secretWord:
 print("You got it!")
 
 
+## 21b
+## This is an example that shows the advantage of using `break`:
+## it avoids having a duplicate input().
+print("Welcome to the word guesser!")
+secretWord = "water"
+while 1 < 2:
+    guess = input("What is your guess? ")
+    if guess == secretWord:
+        print("You got it!")
+        break
+    else:
+        print("No, try again.")
+
 ## 22
 ## Try this.
 ## Note: we must set `num` to something before the loop starts,
@@ -192,17 +232,29 @@ while num != -1:
 print("Exiting.")
 
 
+## 22b
+## Try this. Again, using `break` avoids...
+## - having to initialize a variable before the loop, and
+## - duplicate inputs
+print("Welcome to the number doubler.")
+while True:
+    num = int(input("Type a number, or type -1 to quit: "))
+    if num == -1:
+        print("Exiting.")
+        break
+    else:
+        print(f"Double your num is {num * 2}.")
+
+
 ## 23
-## Copy and modify the previous example so that instead of doubling numbers,
+## Copy and modify one of the two previous examples so
+## that instead of doubling numbers,
 ## it calculates the number squared.
 
 
 ## 24
 ## Copy and modify the previous example so that it does not display
 ## the doubled number if the user enters -1.
-## Hint: Try this structure:
-##   - Before the loop, ask the user for input, and save it in `num`.
-##   - Re-order the commands within the loop.
 
 
 ## 25
@@ -292,10 +344,12 @@ print("Goose!")
 ## Guess: 2
 ## Guess: 3
 ## You got it!
+```
 
+### Extra questions (If you've reached this point, feel free to move on to the next exercise set).
 
+```python3
 ## 31
-## (challenge question)
 ## {Do this exercise after you've learned to write files.}
 ## Display "This is a grade tracking helper."
 ## Open a file named "physics_grades.csv" for writing.
@@ -312,11 +366,7 @@ print("Goose!")
 ## NOTE: After you have tested your program, try opening the physics_grades.csv file
 ## in a spreadsheet program such as Libreoffice Calc.
 
-```
 
-### Extra questions (If you've reached this point, feel free to move on to the next exercise set).
-
-```python3
 ## 32
 ## Try this.
 ## As a reminder, use Ctrl + C to exit a program (useful for exiting infinite loops).
