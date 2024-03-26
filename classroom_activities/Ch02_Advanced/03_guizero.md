@@ -229,6 +229,29 @@ app.display()
 ```
 </details>
 
+------------
+
+Randomly resize and redraw a red box using `Drawing`:
+```python3
+from guizero import App, Drawing
+import time
+import random
+
+def updateDrawing():
+    global x
+    x += random.randint(-1, 1)
+    drawing.clear()
+    drawing.rectangle(0, 0, 200, x, color="red")
+    app.after(20, updateDrawing)
+
+x = 200
+app = App()
+drawing = Drawing(app, width=400, height=400)
+app.after(20, updateDrawing)
+app.display()
+```
+
+
 ### Examples  
 
 <details><summary>For more widget examples you can expand here and look at the following code which uses guizero and the IP address module to create an IP Subnet Calculator app.</summary>
