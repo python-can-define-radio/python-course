@@ -6,8 +6,8 @@ These instructions assume you are working on a Linux operating system (OS).
 - Create student login accounts if necessary.
 
 - Introductions.
-  - Who you are?
-  - Where your from?
+  - Name?
+  - Where you're from?
   - Any IT experience?
   - Anything interesting about yourself you would like to share?
   - What you expect from this course?
