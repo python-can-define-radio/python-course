@@ -42,7 +42,7 @@ fi
 
 echo "- Customizing VS Code default setttings"
 echo "{
-    \"window.zoomLevel\": 4,
+    \"window.zoomLevel\": 1,
     \"editor.tokenColorCustomizations\":
       {  \"[*]\": 
           {\"textMateRules\":
