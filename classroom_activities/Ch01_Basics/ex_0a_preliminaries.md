@@ -15,7 +15,7 @@ These instructions assume you are working on a Linux operating system (OS).
 
 - [Daily Schedule of Events](https://github.com/python-can-define-radio/python-course/blob/main/resources/toc-python.md)
 
-- Open VSCode, then close it.
+- Open VSCode, then close it. (Right-click and add to favorites if you want it on your bar.)
 
 - <details><summary>Link your computer to the student samba. (Expand for details)</summary>
   
