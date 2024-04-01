@@ -434,7 +434,7 @@ pwd
 
 ## 35
 ## Here's how to copy a file, and then display it using cat.
-## Note that this will only work if you start by chanding your directory (cd) to where pencil.txt is located.
+## Note that this will only work if you start by changing your directory (cd) to where pencil.txt is located.
 cp pencil.txt writing_tool.txt
 cat writing_tool.txt
 
