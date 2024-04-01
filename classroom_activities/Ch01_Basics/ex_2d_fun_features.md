@@ -10,6 +10,8 @@
 
 This is an optional exercise that demonstrates some fun features.
 
+**Note**: Many of these _do not work_ in Thonny. You can ask the instructor for help running them outside of Thonny.
+
 ### Delay printing
 
 Source: https://stackoverflow.com/questions/9246076/how-to-print-one-character-at-a-time-on-one-line
