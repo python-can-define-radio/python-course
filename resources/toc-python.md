@@ -26,7 +26,7 @@
 - [Modules][ex_2c_modules]
 
 ### Day 3
-🧠 <span style="color: green"><b>PE 1: Print and Inputs</b></span>
+🧠 <span style="color: green"><b>PE 1: Print and Inputs (and format specifiers)</b></span>
 
 <div style=float:left>👨‍🏫</div>  
 
