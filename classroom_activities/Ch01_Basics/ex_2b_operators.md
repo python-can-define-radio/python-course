@@ -59,7 +59,7 @@ leftover = pieces_of_candy % people
 print(f"If you had {pieces_of_candy} pieces of candy,")
 print(f"and you wanted to share it with {people} people,")
 print(f"each person would get {candy_per_person} pieces,")
-print(f"andthere would be {leftover} leftover.")
+print(f"and there would be {leftover} leftover.")
 
 
 ## 3
