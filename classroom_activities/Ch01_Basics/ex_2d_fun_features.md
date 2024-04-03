@@ -8,7 +8,7 @@
 
 # Fun Features
 
-This is an optional exercise that demonstrates some fun features.
+This is an _**optional**_ exercise set that demonstrates some fun features.
 
 **Note**: Many of these _do not work_ in Thonny. You can ask the instructor for help running them outside of Thonny.
 
