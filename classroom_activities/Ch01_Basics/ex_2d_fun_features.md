@@ -173,15 +173,16 @@ More info in the [prompt-toolkit docs](https://python-prompt-toolkit.readthedocs
 
 First, in a terminal, run this:
 
-```
+```sh
 pip3 install playsound
 ```
 
-Then, in Python, run this:
+Then, in Python, run this. You'll have to provide a `.wav` file. Examples [here](https://github.com/adafruit/Adafruit-Sound-Samples/tree/master/sonic-pi
+).
 
-```
+```python3
 from playsound import playsound
 
-playsound("You_must_pick_a_filename.mp3")
+playsound("You_must_pick_a_filename.wav")
 ```
 More info on audio processing in the [soundFile lesson](https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch03_Misc_examples/soundFile.md)
