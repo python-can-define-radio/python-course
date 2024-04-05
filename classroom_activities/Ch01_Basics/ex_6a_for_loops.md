@@ -184,8 +184,11 @@ print(f"There were {berryCount} that ended with berry.")
 # Using `startswith` (which works quite similarly to endswith),
 # count how many of the fruits start with 'm'.
 # Then display the count.
+```
 
+Use a count with your for loop to find how many of a certain item meet your criteria.
 
+```python3
 # 17
 # Given this list, count how many temperatures are above freezing.
 # Display the count.
