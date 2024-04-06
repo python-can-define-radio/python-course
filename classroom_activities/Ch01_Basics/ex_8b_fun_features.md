@@ -1,10 +1,3 @@
-<details><summary><i>Naming history (click to expand)</i></summary>
-<pre>
-2023 Jun 06: ex_2f_fun_fesatures.md -- Move & rename to organize the course.
-2024 Feb 05: ex_2g_fun_features.md -- Accomodate moving of "ex_2f_modules_intro.md
-2024 Feb 14: ex_2d_fun_features.md
-</pre>
-</details>
 
 # Fun Features
 
