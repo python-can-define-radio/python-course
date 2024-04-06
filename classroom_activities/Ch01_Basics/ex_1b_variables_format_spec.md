@@ -73,6 +73,46 @@ print(f"The following message was received '{my2ndthing}'.")
 print(f"The result of multiplying", mynumber, "and", _myStuff, "is equal to", result)
 ```
 
+# Modules
+
+ℹ️ This material coincides with material from python slideshow D (slides 4-15).
+
+In Python, modules are packets of code that enhance the operation of Python.
+Modules may include multiple Python functions, each giving a specific functionality.
+E.g., the "math" modules includes functions such as "sqrt()" and "cos()" 
+Using an "import" command, modules may be added to a program to make the module's functionality available to the program.
+
+When importing modules, there are a few approaches you can use:
+
+Import the whole module:
+
+```python3
+import math
+print(math.sqrt(5))
+```
+
+Import one function:
+
+```python3
+from math import sqrt
+print(sqrt(5))
+```
+
+Import the whole module, and give it another name ("alias"):
+
+```python3
+import math as m
+print(m.sqrt(5))
+```
+
+Import everything from the module:
+
+```python3
+from math import *
+print(sqrt(5))
+```
+
+
 # Printing with Format Specifiers
 
 ### Introduction
@@ -156,4 +196,5 @@ print(f"This will give an error, because item_number is a float: {item_number:b}
   https://www.pythonmorsels.com/string-formatting/  
 - This website gives detailed documentation; somewhat more difficult to read.  
   https://docs.python.org/3/library/string.html#format-specification-mini-language
+
 
