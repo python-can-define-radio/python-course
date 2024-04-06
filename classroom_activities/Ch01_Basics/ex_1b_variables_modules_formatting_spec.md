@@ -1,10 +1,3 @@
-<details><summary><i>Naming history (click to expand)</i></summary>
-<pre>
-2022 Oct 12: classroom_activities/ex_2c_variables.py
-2023 Dec 18: classroom_activities/Ch01_Basics/ex_2c_variables.md
-2024 Feb 14: classroom_activities/Ch01_Basics/ex_1b_variables_format_spec.md
-</pre>
-</details>
 
 # Variables
 
