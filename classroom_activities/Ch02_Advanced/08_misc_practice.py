@@ -54,6 +54,7 @@ print(f"I have removed the extra space. You typed... {x}")
 # 12
 # Do the Matplotlib tutorial.
 # https://matplotlib.org/stable/tutorials/introductory/pyplot.html
+# or try the matplotlib lesson [here](https://github.com/python-can-define-radio/sdr-course/blob/main/classroom_activities/Ch02_Basics/012_matplotlib.md).
 
 
 
