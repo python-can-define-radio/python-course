@@ -10,7 +10,8 @@
 In this lesson will we will use the Python programming language to work with "comma-separated-value" or "CSV" files, 
    which are only one of several types of spreadsheet files.
 Background: CSV files may include multiple data records with each data record located on its own line.  Each data 
-   record (i.e., each line in the file) may include multiple pieces of data separated by commas OR another character used as a "delimiter".  
+   record (i.e., each line in the file) may include multiple pieces of data separated by commas OR another character
+   used as a "delimiter".  
    On each line, the pieces of data are always stored in the same sequence.  By convention, the file name should end 
    with the extension ".csv"
 In this lesson, we will start by manually creating a csv file using a text editor, such as MS Visual Studio 
