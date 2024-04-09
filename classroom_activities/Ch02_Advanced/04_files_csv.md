@@ -29,7 +29,8 @@ Python3, version 3.9 or later was used while developing this lesson.
 # NOTEs: a. Remove the pound sign (#) and the leading space from each line of data.
 # b. The first line is a header line, which describes the prescribed data sequence.
 #    Because there is a header line, we will use the "csv.DictReader" command to retrieve 
-#    the data.  This will generate a dictionary data structure for the data within the python program we will write in a later task, below.
+#    the data.  This will generate a dictionary data structure for the data within the python program we
+#    will write in a later task, below.
 # c. Some names in the list are intentionally not capitalized.
 #
 # name_last,name_first,department,years_employed
