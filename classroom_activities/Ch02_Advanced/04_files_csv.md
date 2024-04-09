@@ -19,7 +19,8 @@ In this lesson, we will start by manually creating a csv file using a text edito
 Each task is numbered.  
 ref:    csv module: https://docs.python.org/3/library/csv.html, 
         examples: https://realpython.com/lessons/reading-csvs-pythons-csv-module/
-Additional tutorials may be available at: https://realpython.com/python-csv/ . The suitability of all portions this website has not been verified.
+Additional tutorials may be available at: https://realpython.com/python-csv/ .
+The suitability of all portions this website has not been verified.
 Python3, version 3.9 or later was used while developing this lesson.
 """
 
