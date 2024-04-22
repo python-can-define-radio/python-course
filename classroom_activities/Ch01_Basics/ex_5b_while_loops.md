@@ -1,6 +1,11 @@
 # While Loops
 
-The `while` loop is useful for situations in which you don't know how many repetitions will be needed. For example, if you make a word-guessing game, you don't know how many times the user will guess incorrectly, or how long the user will want to play. You also have no reason to continue prompting the user for guesses after the user has guessed correctly. The `while` loop allows you to loop "while the guess is not yet matching the secret word", or more generally, "while some condition is still being met (or not met)".
+The `while` loop is useful for situations in which you don't know how many repetitions will be needed. For example, if you make a word-guessing game, you don't know how many times the user will guess incorrectly, or how long the user will want to play. You also have no reason to continue prompting the user for guesses after the user has guessed correctly. The `while` loop allows you to loop "while the guess is not yet matching the secret word", or more generally, "while some condition is still being met".
+
+You may wonder how to know whether to use a `for` loop or a `while` loop. Generally...
+
+- A `for` loop is useful when you have a known collection to iterate through, such as a list of names.
+- A `while` loop is useful when the loop will continue for an unknown number of iterations.
 
 ℹ️ Use Ctrl + C to exit a program (useful for exiting infinite loops).
 

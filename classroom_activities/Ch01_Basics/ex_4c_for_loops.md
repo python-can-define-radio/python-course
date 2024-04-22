@@ -2,8 +2,6 @@
 
 One of the most powerful uses of programming is the ability to repeat an action, such as automatically sending text messages to many recipients. One way to accomplish this is the `for` loop. 
 
-ℹ️ Use Ctrl + C to exit a program (useful for exiting infinite loops).
-
 ℹ️ This material coincides with material from python slideshow C (slides 22-29).
 
 As you work these exercises, Ask yourself the questions, "What lines of code are inside the for-loop, and where does the for-loop end?"
@@ -18,9 +16,9 @@ for color in colors:
     print("Here is a color that I know:")
     print(color)
     print()
-print("\nThe for-loop has ended.")
+print("-----------------------")
+print("The for-loop has ended.")
 ```
-Can you answer the questions, "What items are inside the for-loop, and where does the for-loop end?"?  If not, try again after a few more examples.
 
 The line `for color in colors:` is the new part. It means "for each color in my list of colors, do the following actions."
 
@@ -45,6 +43,9 @@ color = colors[2]
 print("Here is a color that I know:")
 print(color)
 print()
+
+print("-----------------------")
+print("The for-loop has ended.")
 ```
 
 For example, we could greet each name in a list of names:
@@ -54,14 +55,20 @@ For example, we could greet each name in a list of names:
 # Try this:
 names = ["Sam", "Lisa", "Micah", "Dave"]
 for name in names:
-    print(f"Hello {name}. Welcome to the Python course.")
+    print(f"Hello {name}.")
+print("Welcome to the Python course.")
+```
 
-    
+Notice that everything indented is in the loop. In the example above, the "Welcome" message was only displayed once because it is not indented.
+
+```python3
+
 # 4
 # Copy and modify the previous example like so:
 # for each name, display "Have a good day, ____. I hope you enjoyed experimenting with python."
 # (Fill in the blank with the name.)
 ```
+
 
 You can do any operation that you'd like inside of the loop. For example, we could do math on each item in a list:
 
@@ -112,7 +119,7 @@ Why? The short explanation is that it helps avoid off-by-one errors.
 # Copy and modify the previous example to print the numbers 1 to 6.
 ```
 
-Here are some examples of using other control structures inside of `for` loops.
+Here are some examples of using an `if` inside of a `for` loop.
 
 ```python3
 # 10
@@ -135,7 +142,7 @@ for temp in temps_in_F:
 # Copy and modify the previous question to display the temperature and display whether it is above or below freezing.
 ```
 
-As you've now seen, indentation controls whether or not a part of the code inside the for-loop.  If indented, it will be repeated.  Where the indentation ends, the for-loop no longer exists. To practice this concept, try this example below.
+As you've now seen, indentation controls whether or not a part of the code is inside the for-loop.  If indented, it will be repeated. To practice this concept, try this example below.
 
 ```python3
 # 12b
@@ -148,7 +155,7 @@ if temp > 90:
     print("That's hot.")
 ```
 
-There may be cases in which you want to count how many items in a list end with a certain string. Before we do that, here's how `endswith` works:
+There may be cases in which you want to count how many items in a list end with a certain string. Before we do that, here's an example to show how `endswith` works:
 
 ```python3
 # 13
@@ -184,11 +191,8 @@ print(f"There were {berryCount} that ended with berry.")
 # Using `startswith` (which works quite similarly to endswith),
 # count how many of the fruits start with 'm'.
 # Then display the count.
-```
 
-Use a count with your for loop to find how many of a certain item meet your criteria.
 
-```python3
 # 17
 # Given this list, count how many temperatures are above freezing.
 # Display the count.
@@ -200,94 +204,19 @@ temps_in_F = [90, 30, 47, 82, 68, 100, 25, 40]
 # temperatures are above freezing and how many are below freezing.
 ```
 
-#### Using lists of objects
+### For loops and files
 
-Often, you may work with related sets of data. For example, imagine a list of instructors that includes their names, ages, and years of experience. One way to express this data is a list of objects. In the example below, you'll see that we create a dataclass called `Instructor`, and we create a list of five `Instructor` objects. Each object is an "instance" of the class `Instructor`.
+Automating processes is one of the many useful applications of computers. In the examples below, we will read the lines of a text file and iterate over the lines using a `for` loop.
 
 ```python3
 # 19
-from dataclasses import dataclass
-
-@dataclass
-class Instructor:
-    name: str
-    age: int
-    yearsExp: int
-
-instructors = [
-    Instructor("Maria", 38, 7),
-    Instructor("Walton", 47, 22),
-    Instructor("Martin", 52, 18),
-    Instructor("Joel", 28, 3),
-    Instructor("Tate", 67, 5)
-]
+# Try this.
+TODO
 ```
 
-You could use this in a `for` loop like so:
 
-```python3
-print("Here is my instructor data:")
-for person in instructors:
-    print(f"The instructor {person.name} is {person.age} years old and has {person.yearsExp} years of experience.")
-```
-
-Let's do some math inside of the loop.
-
-```python3
-# 20
-# Given the instructors list defined above,
-# display how old each person was when he/she started this job.
-# For example, Maria started this job 7 years ago, so you would print this:
-#    The instructor Maria is 38 years old, and started working at age 31.
-#
-# Note: for this exercise, you cannot add any attributes to the dataclass.
-# In other words, this portion must remain unchanged:
-@dataclass
-class Instructor:
-    name: str
-    age: int
-    yearsExp: int
-# Why? The goal is to have Python compute the
-# started-working-age within the `for` loop.
-# Ask an instructor if this is unclear.  
-
-
-# 21
-# Copy and modify the previous example. In this version, for each instructor,
-# display the following:
-#     The instructor Maria has been working for 7 years, and will receive a $70 bonus this year.
-# 
-# The bonus must be $10 times the number of years of experience (5 years would be $50, etc).
-# As in the previous exercise, the dataclass must remain unchanged.
-
-
-# 22
-# Copy and modify the previous example.
-# Ask the user for the extra bonus per year of experience. Compute appropriately.
-# Example run:
-#     What is the bonus per year of experience? 20
-#     The instructor Maria has been working for 7 years, 
-#     and will receive a $140 bonus this year.
-#     The instructor Walton has been working for 22 years,
-#     and will receive a $440 bonus this year.
-#     ...etc...
-
-
-# 23
-# Copy and modify the previous example.
-# After the for loop, display
-#    "The total amount of work experience for this team is ___". 
-# Must compute the total inside the for loop.
-# Hint: the structure will resemble this:
-#   totalYearsExp = 0
-#   for ??? in ???:
-#       totalYearsExp += person.yearsExp
-#   print(f"The total amount of work experience for this team is {totalYearsExp}")
-```
-
-### Optional exercises
-
-_If you have time, we recommend doing the exercises below._
+<details>
+<summary>Optional exercises (click to expand...)</summary>
 
 #### Lists of lists:
 
@@ -744,3 +673,4 @@ print(f"{result}", end=' ')
 # The "end = ' ' " string causes the automatic carriage return to be overted
 # Add an empty print() statement to add a carriage return to move down to the next line.
 ```
+</details>
