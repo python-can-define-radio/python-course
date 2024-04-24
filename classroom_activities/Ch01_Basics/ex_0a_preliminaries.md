@@ -3,21 +3,69 @@
 ## Day One Breakdown
 These instructions assume you are working on a Linux operating system (OS).
 
-- Create student login accounts if necessary.
+<details><summary>Create student login accounts. (Expand for details)</summary>
+    
+  1. Insert ID card.
 
-- Introductions.
-  - Name?
-  - Where you're from?
-  - Any IT experience?
-  - Anything interesting about yourself you would like to share?
-  - What you expect from this course?
-  - Is your account working?
+  2. In the browser, go to the registration page that the instructors will provide.
 
-- [Daily Schedule of Events](https://github.com/python-can-define-radio/python-course/blob/main/resources/toc-python.md)
+  3. If requested, type your PIN.
 
-- Open VSCode, then close it. (Right-click and add to favorites if you want it on your bar.)
+  4. Click "Create account" at the bottom of the screen. Note that it takes about 10 seconds to create (and gives no indication of loading), so press ONLY ONCE.
 
-- <details><summary>Link your computer to the student samba. (Expand for details)</summary>
+  5. Let the instructor know if you have any error messages. If it sucessfully created the account, then move on to the next step.
+
+  6. It should show you a username and password. Remember or write down the username; copy the password to the clipboard.
+
+  7. Click on the first link available, which will take you to a login page.
+
+  8. In the new tab that opens, enter your username and password from the first tab.
+
+  9. Set a new password. The password must be at least 20 characters.
+
+  10. It should show a screen that has many details about your newly-created account. Click the menu in the top right that shows your name, and click log out.
+
+  11. Close the browser.
+
+  12. Log out of the computer. Log in with your account that you just created.
+
+  Instructors will submit tickets as necessary using Slack.
+  </details>
+  
+<details><summary>Introductions. (Expand for details)</summary>
+  
+      - Name?
+      
+      - Where you're from?
+        
+      - Any IT experience?
+        
+      - Anything interesting about yourself you would like to share?
+        
+      - What you expect from this course?
+        
+      - Is your account working?
+        
+</details>
+
+[Daily Schedule of Events](https://github.com/python-can-define-radio/python-course/blob/main/resources/toc-python.md)
+
+<details><summary>Initial VS Code setup. (Expand for details)</summary>
+
+  1. Create a folder for yourself with your name (and no spaces) on the Desktop.
+     
+  2. Open VS Code. (Right-click and `add to favorites` if you want it on your sidebar.)
+     
+  3. Create a Python file to trigger the installation of the Python extension.
+     
+  4. Connect VS Code to that folder.  
+    - file>open folder  
+    - navigate to the folder you just created on the Desktop  
+    - open
+  5. Close VS Code.
+</details>
+
+<details><summary>Link your computer to the student samba. (Expand for details)</summary>
   
   1) Open the file browser.  
   
@@ -40,7 +88,7 @@ These instructions assume you are working on a Linux operating system (OS).
   10) Repeat as necessary if the `studentsamba` loses connection. 
 </details>
 
-- <details><summary>Follow these directions to run the student setup script. (Expand for details)</summary>
+<details><summary>Follow these directions to run the student setup script. (Expand for details)</summary>
   
   1) Right-click on this [student_config_script.sh](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/student_config_script.sh)  and select `Save Link As`.
   
@@ -85,13 +133,7 @@ These instructions assume you are working on a Linux operating system (OS).
       </details>
 </details>  
 
-- Create a folder for yourself with your name (and no spaces) on the Desktop.
-  
-- Reopen VSCode to the folder that you created.
-  
-- Create a Python file to trigger the installation of the Python extension.
-
-- Demonstrate the keyboard commands below.
+Demonstrate the keyboard commands below.
   
 ### Common VS Code keyboard shortcuts:
 
@@ -131,7 +173,7 @@ These instructions assume you are working on a Linux operating system (OS).
 
 ### Misc
 
-- <details><summary>We will be using Github for many of our Python and SDR lessons. (Expand for details)</summary>
+<details><summary>We will be using Github for many of our Python and SDR lessons. (Expand for details)</summary>
 
   1) If you want, you may [create a free GitHub account](https://github.com).
   
