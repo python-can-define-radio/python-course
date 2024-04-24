@@ -210,8 +210,45 @@ Automating processes is one of the many useful applications of computers. In the
 
 ```python3
 # 19
+# Before running this exercise, create a text file called "words.txt" with three lines of text in it.
+# Then, try this.
+f = open("words.txt", "r", encoding="utf-8")
+lines = f.read().splitlines()
+f.close()
+print(f"Loaded {len(lines)} lines:")
+print(lines)
+
+
+# 20
 # Try this.
-TODO
+f = open("words.txt", "r", encoding="utf-8")
+lines = f.read().splitlines()
+f.close()
+for line in lines:
+    print(f"From the file: {line}")
+```
+
+Simply displaying the lines of the file isn't very exiting, so let's do something with the data.
+
+Copy/paste this into a text file called "names_and_colors.txt":
+
+```
+bob,red
+lacy,blue
+sue,green
+```
+
+Then, we'll read it using this:
+
+```python3
+# 21
+# Try this.
+f = open("names_and_colors.txt", "r", encoding="utf-8")
+lines = f.read().splitlines()
+f.close()
+for line in lines:
+    firstpiece, secondpiece = line.split(",")
+    print(f"First: {firstpiece}. Second: {secondpiece}")
 ```
 
 
