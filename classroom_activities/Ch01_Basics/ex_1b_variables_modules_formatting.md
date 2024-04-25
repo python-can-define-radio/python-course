@@ -38,24 +38,24 @@ x3 = "stuff"
 _myStuff = 7
 result = mynumber * _myStuff
 
-# This definition of a variable is valid, but please don't, because "input" will no longer be a function.
+## This definition of a variable is valid, but please don't, because "input" will no longer be a function.
 input = 7
 
 #############
 # invalid:
 #############
 
-# Can't use keywords, as an example: 
+## Can't use keywords, as an example: 
 if = 6
-# (After trying the previous line, delete it, or convert it to a comment by proceeding it with a number/pound symbol (#).)
+## (After trying the previous line, delete it, or convert it to a comment by proceeding it with a number/pound symbol (#).)
 
-# Can't start with number
+## Can't start with number
 3rdthing = "hi"
 
-# Can't have spaces inside of the name
+## Can't have spaces inside of the name
 my var = 3
 
-# Can't have special characters (only "_" is allowed inside a variable name)
+## Can't have special characters (only "_" is allowed inside a variable name)
 $d = 6
 
 ## Using variables: 
@@ -171,15 +171,15 @@ print(f"This will give an error, because item_number is a float: {item_number:b}
 ### Exercises
 - Hint: Each of these exercises require at least one `input` "ask the user" statement,  and one `print` "display" statement.
 ```python3
-# 1
-# Ask the user a number.
-# Display the number rounded to 3 decimal places.
+## 1
+## Ask the user a number.
+## Display the number rounded to 3 decimal places.
 
 
-# 2 
-# Ask the user for the current cost-per-gallon of
-# gasoline. Display the cost per pint,
-# rounded to the nearest cent.
+## 2 
+## Ask the user for the current cost-per-gallon of
+## gasoline. Display the cost per pint,
+## rounded to the nearest cent.
 ```
 
 ### For more information:
