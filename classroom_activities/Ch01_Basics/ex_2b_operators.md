@@ -1,20 +1,10 @@
-<details><summary><i>Naming history (click to expand)</i></summary>
-<pre>
-2022 Aug 05: classroom_activities/ex_2b_operators.md
-2023 Jun 06: classroom_activities/ex_2e_operators.md
-2023 Mar 10: classroom_activities/Ch01_Basics/ex_2e_operators.md
-2024 Feb 14: classroom_activities/Ch01_Basics/ex_2b_operators.md
-</pre>
-</details>
-
-
 # Python arithmetic operators
+
+ℹ️ This material coincides with material from python slideshow B (slides 26-32). 
 
 Most people are familiar with these four operators: +, -, *, /
 
 In this exercise, you'll learn some other useful operators: //, %, **
-
-ℹ️ This material coincides with material from python slideshow B (slides 26-32). 
 
 ### Exercises
 
