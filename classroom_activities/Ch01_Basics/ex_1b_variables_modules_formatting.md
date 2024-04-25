@@ -1,6 +1,8 @@
 
 # Variables
 
+ℹ️ This material coincides with material from python slideshow B (slides 24, 54-63). 
+
 In programming languagues, variables are allocations of computer memory assigned to store data 
 for later use in the program. The programer chooses a name for the variable and sets it equal 
 to a fixed value, a calculated value, or the result of a function (such as `input()`). The
@@ -24,8 +26,6 @@ References for naming rules/conventions for variables in Python:
 ~ https://pythonguides.com/python-naming-conventions/  
 ~ https://www.w3schools.com/python/gloss_python_variable_names.asp
  </details>
-
-ℹ️ This material coincides with material from python slideshow B (slides 24, 54-63). 
 
 ### Exercises
 
@@ -117,20 +117,19 @@ print(sqrt(5))
 
 # Printing with Format Specifiers
 
+ℹ️ This material coincides with material from python slideshow B (slides 12-15, 64-68). 
+
 Sometimes, you want to print with some specific format.
 For example:
  - Rounding a number to two decimal places
  - Padding a number with spaces so that it aligns with other numbers in a list
  - Displaying a number in another number system
 
-ℹ️ This material coincides with material from python slideshow B (slides 12-15, 64-68). 
-
-Here are some examples of how to specify the formatting when printing.
-
 ### Note:
 - The "f" that preceeds the string, such as, f"hello", means ***format***.
 - The "f" inside the curly braces, such as, {item_number:.2f}, means ***fixed-point notation***. That is, the number of decimal places is fixed.
 
+Here are some examples of how to specify the formatting when printing.
 ```python3
 ## Example group 1
 ## Try these all at once.
