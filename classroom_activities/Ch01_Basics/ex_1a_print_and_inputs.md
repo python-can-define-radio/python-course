@@ -547,6 +547,8 @@ print(x*y)
 
 ### Optional exercises
 
+<details><summary>Expand here for additional content.</summary>
+     
 You may wonder why you must use the int() function. After all, shouldn't the computer know what a number looks like?
 
 Here's an example of when you WOULDN'T want the number to be an integer. (In other words, you want the number to be a string.)
@@ -609,4 +611,5 @@ print(fullPhoneNum)
 >      this class, but interested readers are encouraged to explore it.
 > - Sections 4.2 and 4.3 are PyCharm-specific. You can skip them.
 > ```
+</details>
 </details>
