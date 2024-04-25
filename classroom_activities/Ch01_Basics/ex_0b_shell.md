@@ -139,7 +139,7 @@ cd ..
 ## What did the cd .. command do?
 pwd
 ## You can also navigate multiple levels at once this way.
-cd animals
+cd term_example_files/animals
 pwd
 cd ../..
 pwd
