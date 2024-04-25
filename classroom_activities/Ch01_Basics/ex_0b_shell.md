@@ -283,10 +283,12 @@ cd ~/Desktop/term_example_files/plants
 cp general_info_plants.txt plant_info.txt
 ```
 
+### If you have reached this point, you can switch to `ex_1a_print_and_inputs`.
 
 ## Misc practice (Optional)
 
-### If you have reached this point, switch to `ex_1a_print_and_inputs`.
+<details><summary>Expand here for additional content.</summary>
+
 
 ```sh
 ## 22
@@ -529,3 +531,5 @@ cd Desktop/cool
 ## touch
 ## pwd
 ```
+</details>
+
