@@ -1,13 +1,6 @@
-<details><summary><i>Naming history (click to expand)</i></summary>
-<pre>
-2023 Jun 06: classroom_activities/Ch01_Basics/ex_2d_number_systems.md
-2023 Dec 18: classroom_activities/Ch01_Basics/eex_2c_number_systems.md
-2024 Feb 14: classroom_activities/Ch01_Basics/ex_2a_number_systems.md
-</pre>
-</details>
-
-
 # Number Systems
+
+ℹ️ This material coincides with material from python slideshow B (slides 10, 39). 
 
 Sometimes, you may wish to display a number using a different number system.
 
@@ -20,9 +13,6 @@ Here's a table of a few examples:
 |3|11|3|3|
 |25|11001|31|19|
 |120|1111000|170|78|
-
-
-ℹ️ This material coincides with material from python slideshow B (slides 10, 39). 
 
 You can ask Python to do this for you:
 
