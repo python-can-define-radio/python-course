@@ -562,7 +562,7 @@ Here's an example of when you WOULDN'T want the number to be an integer. (In oth
 
 ```python3
 ## 31a
-# This is the right way:
+## This is the right way:
 beg = "800"
 mid = "555"
 end = input("Give me a 4 digit number: ")
@@ -572,9 +572,9 @@ fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 
 
-# 31b
-# The following version runs, but the output is wrong.
-# What's wrong with the output?
+## 31b
+## The following version runs, but the output is wrong.
+## What's wrong with the output?
 beg = 800
 mid = 555
 end = int(input("Give me a 4 digit number: "))
@@ -584,10 +584,10 @@ fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 
 
-# 31c
-# Another wrong way:
-# Why does this fail to run? 
-# Changing the input(...) to int(input(...)) is NOT the solution. Why not?
+## 31c
+## Another wrong way:
+## Why does this fail to run? 
+## Changing the input(...) to int(input(...)) is NOT the solution. Why not?
 beg = 800
 mid = 555
 end = input("Give me a 4 digit number: ")
