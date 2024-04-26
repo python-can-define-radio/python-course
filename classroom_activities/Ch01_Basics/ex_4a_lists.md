@@ -26,7 +26,7 @@ print(thelist[1])
 
 
 ## 3
-## Let's try that with a longer list:
+## Let's try a longer list:
 foods = ["Potatoes", "Beef", "Broccoli", "Lemons", "Grapes"]
 ##           0          1         2          3        4
 ##          -5         -4        -3         -2       -1
