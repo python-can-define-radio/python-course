@@ -94,5 +94,5 @@
 [ex_6a_for_loops]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4c_for_loops.md
 [ex_6b_while_loops]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_5b_while_loops.md
 [ex_7a_dictionaries]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6b_dictionaries.md
-[ex_7b_functions]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_7b_functions.md
-[ex_8a_functions_using_turtle]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_8a_functions_using_turtle.md
+[ex_7b_functions]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6c_functions.md
+[ex_8a_functions_using_turtle]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6d_functions_using_turtle.md
