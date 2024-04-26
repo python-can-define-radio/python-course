@@ -9,7 +9,7 @@ Almost any non-trival program will involve working with a collection, such as a 
 ```python3
 ### Lists are zero-indexed. That means...
 thelist = ["water", "chair", "mug", "mouse"]
-#             0        1       2       3 
+##            0        1       2       3 
 ### Example:
 print(thelist[0])    # This will print water
 print(thelist[2])    # What will this print?
@@ -28,28 +28,29 @@ print(thelist[1])
 ## 3
 ## Let's try that with a longer list:
 foods = ["Potatoes", "Beef", "Broccoli", "Lemons", "Grapes"]
-##            0          1         2          3        4
-##           -5         -4        -3         -2       -1
+##           0          1         2          3        4
+##          -5         -4        -3         -2       -1
 print(foods[1])  # This prints "Beef"
 print(foods[-1])  # This prints "Grapes"
 
 
 ## 4
+## Copy and modify the previous example to print the second-to-last element of `foods`.
+
+
+## 5
 ## The items in a list can be referred to using negative indexes.
 thelist = ["water", "chair", "mug", "mouse"]
-##            -4       -3      -2      -1
+##           -4       -3      -2      -1
 ## Try this:
 print(thelist[-1])  # This will print "mouse"
 print(thelist[-2])  # What will this print?
 
 
-## 5
-## Copy and modify the previous example to print the second-to-last element of `foods`.
-
-
 ## 6
 ## Try this. Which items does it display? 
-## Does it include all of the items you expected? 
+## Does it include all of the items you expected?
+thelist = ["water", "chair", "mug", "mouse"]
 print(thelist[0:3])
 ## Counterintuitively, it always omits the last item, so 0:3 actually
 ## means item 0, item 1, item 2 (not including 3).
@@ -58,6 +59,7 @@ print(thelist[0:3])
 ## 7
 ## Try this.
 ## Notice that it includes item 1 and item 2, but not item 3.
+thelist = ["water", "chair", "mug", "mouse"]
 print(thelist[1:3])
 
 
@@ -67,6 +69,7 @@ print(thelist[1:3])
 
 ## 9
 ## Try this.
+thelist = ["water", "chair", "mug", "mouse"]
 print(thelist[1:])
 
 
