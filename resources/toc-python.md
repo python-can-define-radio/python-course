@@ -83,15 +83,14 @@
 [ex_1b_variables_modules_formatting]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_1b_variables_modules_formatting.md
 [ex_2a_number_systems]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2a_number_systems.md
 [ex_2b_operators]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2b_operators.md
-[ex_2c_modules]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_1b_variables_modules_formatting.md#modules
 [ex_3a_if_else]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_3a_if_else.md
 [ex_3b_if_else_common_mistakes]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_3b_if_else_common_mistakes.md
 [ex_4a_lists]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4a_lists.md
-[ex_5a_randomness]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_5a_randomness.md
 [ex_4b_files]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4b_files.md
-[ex_6a_dataclasses]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6a_dataclasses.md
 [ex_4c_for_loops]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4c_for_loops.md
+[ex_5a_randomness]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_5a_randomness.md
 [ex_5b_while_loops]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_5b_while_loops.md
+[ex_6a_dataclasses]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6a_dataclasses.md
 [ex_6b_dictionaries]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6b_dictionaries.md
 [ex_6c_functions]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6c_functions.md
 [ex_6d_functions_using_turtle]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6d_functions_using_turtle.md
