@@ -25,7 +25,6 @@
 - [Operators][ex_2b_operators]
 
 ### Day 3
-🧠 <span style="color: green"><b>PE 1: Print and Inputs (and format specifiers)</b></span>
 
 <div style=float:left>👨‍🏫</div>  
 
@@ -33,7 +32,7 @@
 - [If Else common mistakes][ex_3b_if_else_common_mistakes]
 
 ### Day 4
-🧠 <span style="color: green"><b>PE 2: Bin, oct, hex</b></span>
+🧠 <span style="color: green"><b>PE 1: Print and Inputs (and format specifiers)</b></span>
 
 <div style=float:left>👩‍🏫</div>   
 
@@ -42,7 +41,7 @@
 - [For loops][ex_4c_for_loops]
 
 ### Day 5
-🧠 <span style="color: green"><b>PE 3: If-else</b></span>
+🧠 <span style="color: green"><b>PE 2: Bin, oct, hex</b></span>
 
 <div style=float:left>👨🏽‍🏫</div>   
 
@@ -50,7 +49,7 @@
 - [While loops][ex_5b_while_loops]
 
 ### Day 6
-🧠 <span style="color: green"><b>PE 4: File writing</b></span>
+🧠 <span style="color: green"><b>PE 3: If-else</b></span>
 
 <div style=float:left>👩🏼‍🏫</div>   
 
@@ -58,7 +57,7 @@
 - [Dictionaries][ex_6b_dictionaries]
 
 ### Day 7
-🧠 <span style="color: green"><b>PE 5: For Loops</b></span>
+🧠 <span style="color: green"><b>PE 4: For Loops & File Writing</b></span>
 
 <div style=float:left>👨🏼‍🏫</div>   
 
@@ -66,7 +65,7 @@
 - [Functions using turtle][ex_6d_functions_using_turtle]  
 
 ### Day 8
-🧠 <span style="color: green"><b>PE 6: While-Loop, random, and if </b></span>
+🧠 <span style="color: green"><b>PE 5: While-Loop, random, and if </b></span>
 
 - Self-Paced Study and Review
 
