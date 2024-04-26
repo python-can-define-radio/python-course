@@ -84,7 +84,7 @@
 [ex_1b_variables]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_1b_variables_modules_formatting.md
 [ex_2a_number_systems]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2a_number_systems.md
 [ex_2b_operators]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2b_operators.md
-[ex_2c_modules]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2c_modules.md
+[ex_2c_modules]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_1b_variables_modules_formatting.md#modules
 [ex_3a_if_else]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_3a_if_else.md
 [ex_3b_if_else_common_mistakes]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_3b_if_else_common_mistakes.md
 [ex_4a_lists]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4a_lists.md
