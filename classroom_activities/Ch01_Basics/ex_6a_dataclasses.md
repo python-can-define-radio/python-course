@@ -79,7 +79,7 @@ You'll see more examples of using lists with dataclasses in the next lesson.
 Often, you may work with related sets of data. For example, imagine a list of instructors that includes their names, ages, and years of experience. One way to express this data is a list of objects. In the example below, you'll see that we create a dataclass called `Instructor`, and we create a list of five `Instructor` objects. Each object is an "instance" of the class `Instructor`.
 
 ```python3
-# 19
+## 5
 from dataclasses import dataclass
 
 @dataclass
@@ -108,55 +108,55 @@ for person in instructors:
 Let's do some math inside of the loop.
 
 ```python3
-# 20
-# Given the instructors list defined above,
-# display how old each person was when he/she started this job.
-# For example, Maria started this job 7 years ago, so you would print this:
-#    The instructor Maria is 38 years old, and started working at age 31.
-#
-# Note: for this exercise, you cannot add any attributes to the dataclass.
-# In other words, this portion must remain unchanged:
+## 6
+## Given the instructors list defined above,
+## display how old each person was when he/she started this job.
+## For example, Maria started this job 7 years ago, so you would print this:
+##    The instructor Maria is 38 years old, and started working at age 31.
+##
+## Note: for this exercise, you cannot add any attributes to the dataclass.
+## In other words, this portion must remain unchanged:
 @dataclass
 class Instructor:
     name: str
     age: int
     yearsExp: int
-# Why? The goal is to have Python compute the
-# started-working-age within the `for` loop.
-# Ask an instructor if this is unclear.  
+## Why? The goal is to have Python compute the
+## started-working-age within the `for` loop.
+## Ask an instructor if this is unclear.  
 
 
-# 21
-# Copy and modify the previous example. In this version, for each instructor,
-# display the following:
-#     The instructor Maria has been working for 7 years, and will receive a $70 bonus this year.
-# 
-# The bonus must be $10 times the number of years of experience (5 years would be $50, etc).
-# As in the previous exercise, the dataclass must remain unchanged.
+## 7 
+## Copy and modify the previous example. In this version, for each instructor,
+## display the following:
+##     The instructor Maria has been working for 7 years, and will receive a $70 bonus this year.
+## 
+## The bonus must be $10 times the number of years of experience (5 years would be $50, etc).
+## As in the previous exercise, the dataclass must remain unchanged.
 
 
-# 22
-# Copy and modify the previous example.
-# Ask the user for the extra bonus per year of experience. Compute appropriately.
-# Example run:
-#     What is the bonus per year of experience? 20
-#     The instructor Maria has been working for 7 years, 
-#     and will receive a $140 bonus this year.
-#     The instructor Walton has been working for 22 years,
-#     and will receive a $440 bonus this year.
-#     ...etc...
+## 8
+## Copy and modify the previous example.
+## Ask the user for the extra bonus per year of experience. Compute appropriately.
+## Example run:
+##     What is the bonus per year of experience? 20
+##     The instructor Maria has been working for 7 years, 
+##     and will receive a $140 bonus this year.
+##     The instructor Walton has been working for 22 years,
+##     and will receive a $440 bonus this year.
+##     ...etc...
 
 
-# 23
-# Copy and modify the previous example.
-# After the for loop, display
-#    "The total amount of work experience for this team is ___". 
-# Must compute the total inside the for loop.
-# Hint: the structure will resemble this:
-#   totalYearsExp = 0
-#   for ??? in ???:
-#       totalYearsExp += person.yearsExp
-#   print(f"The total amount of work experience for this team is {totalYearsExp}")
+## 9
+## Copy and modify the previous example.
+## After the for loop, display
+##    "The total amount of work experience for this team is ___". 
+## Must compute the total inside the for loop.
+## Hint: the structure will resemble this:
+##   totalYearsExp = 0
+##   for ??? in ???:
+##       totalYearsExp += person.yearsExp
+##   print(f"The total amount of work experience for this team is {totalYearsExp}")
 ```
 
 
@@ -171,7 +171,7 @@ pip install pydantic
 ```
 
 ```python3
-## 5
+## 10
 ## Try this.
 from pydantic import BaseModel
 
@@ -193,7 +193,7 @@ The line `class Dog(BaseModel)` means that `Dog` will **inherit** the behavior o
 - It enforces correct types.
 
 ```python3
-## 6
+## 11
 ## Copy and modify the previous exercise to confirm that the `types` are being enforced.
 ## Change one of the three defined parameters either `str` to `int` or `int` to `str` and run it.
 ```
@@ -211,7 +211,7 @@ Input should be a valid string [type=string_type, input_value=4, input_type=int]
 One useful feature of pydantic...
 
 ```python3
-## 7
+## 12
 ## Try this. Do you expect this to run?
 d4 = Dog(name="Fred", age="5", breed="Greyhound")
 
@@ -223,7 +223,7 @@ Notice that our string "5" is converted to an integer without ever writing `int(
 This is Pydantic's [default behavior](https://docs.pydantic.dev/latest/concepts/models/#data-conversion) — when the data can be converted to the type specified in the class definition, it will be converted silently.
 
 ```python3
-## 8
+## 13
 ## Using pydantic's `BaseModel`, make any class that has at
 ## least three attributes with various types.
 ## Make a list of at least three objects.
