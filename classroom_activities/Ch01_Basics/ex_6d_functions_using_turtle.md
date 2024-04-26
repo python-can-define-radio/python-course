@@ -9,8 +9,8 @@ Functions are an essential building block in almost any programming language. Th
 ### Exercises
 
 ```python3
-# 1
-# Try this.
+## 1
+## Try this.
 import turtle
 
 turtle.forward(100)
@@ -25,8 +25,8 @@ In this first example, you'll see that the "turtle" (the little triangle on the 
 Now, let's make it turn right. Also, we can set the shape to be an actual turtle (optional, just for fun):
 
 ```python3
-# 2
-# Try this. Don't forget to import turtle.
+## 2
+## Try this. Don't forget to import turtle.
 
 turtle.shape("turtle")
 
@@ -40,17 +40,17 @@ turtle.mainloop()
 To avoid the window closing immediately, always put `turtle.mainloop()` at the end.
 
 ```python3
-# 2b
-# Try this. You'll notice that it closes immediately.
-# The way to fix that is to put the mainloop part at the end.
+## 2b
+## Try this. You'll notice that it closes immediately.
+## The way to fix that is to put the mainloop part at the end.
 turtle.forward(100)
 ```
 
 Let's make it colorful! And let's slow it down too. Also, let's put a small delay at the beginning so that you have time see what is happening.
 
 ```python3
-# 2c
-# Try this.
+## 2c
+## Try this.
 
 import time
 import turtle
@@ -74,8 +74,8 @@ turtle.forward(200)
 You can also pick up the pen, which means "stop drawing". (Conversely, `pendown` means "start drawing".)
 
 ```python3
-# 2d
-# Try this.
+## 2d
+## Try this.
 turtle.forward(50)
 turtle.penup()
 turtle.forward(10)
@@ -85,25 +85,25 @@ turtle.forward(30)
 
 
 ```python3
-# 2e
-# Draw three separate lines.
+## 2e
+## Draw three separate lines.
 
 
-# 3
-# Set the pen size to 20.
-# Set the pen color to orange.
-# Move forward 50 units.
-# Turn left 45 degrees.
-# Set the pen color to purple.
-# Move forward 100 units.
+## 3
+## Set the pen size to 20.
+## Set the pen color to orange.
+## Move forward 50 units.
+## Turn left 45 degrees.
+## Set the pen color to purple.
+## Move forward 100 units.
 
 
-# 3b
-# Make the turtle draw a square with a different color for each side.
+## 3b
+## Make the turtle draw a square with a different color for each side.
 
 
-# 4
-# Make the turtle draw a triangle with a different color for each side.
+## 4
+## Make the turtle draw a triangle with a different color for each side.
 ```
 
 At this point, you may have noticed that the code for fairly simple tasks can be pretty long.
@@ -247,19 +247,19 @@ turtle.forward(300)
 drawTrianglePen()
 
 
-# 7b
-# Using drawTrianglePen, draw three separate triangles.
-# For extra fun, make them different colors.
+## 7b
+## Using drawTrianglePen, draw three separate triangles.
+## For extra fun, make them different colors.
 
 
-# 7c
-# Make a drawSquare function. Using that function, draw five separate squares.
-# (This should only require about 10 to 25 lines of code. If you have more than
-# that, look back at how drawTrianglePen helped to avoid repeated code.)
+## 7c
+## Make a drawSquare function. Using that function, draw five separate squares.
+## (This should only require about 10 to 25 lines of code. If you have more than
+## that, look back at how drawTrianglePen helped to avoid repeated code.)
 
 
-# 8
-# Try this.
+## 8
+## Try this.
 def drawC():
     turtle.setheading(180)
     turtle.forward(70)
@@ -275,9 +275,9 @@ turtle.pendown()
 drawC()
 
 
-# 8b
-# Copy and modify the previous example so that it draws two Z's
-# instead of two C's.
+## 8b
+## Copy and modify the previous example so that it draws two Z's
+## instead of two C's.
 ```
 
 Our drawTriangle function works well, but what if we wanted to be able to draw different size triangles?
@@ -307,20 +307,20 @@ drawTriangleLength(100)
 In that example, `thelength` is a **parameter**.
 
 ```python3
-# 11
-# Copy and modify the previous example.
-# After the red and green triangles, draw a blue triangle with a side length of 150.
-# This should only require adding two lines of code.
+## 9
+## Copy and modify the previous example.
+## After the red and green triangles, draw a blue triangle with a side length of 150.
+## This should only require adding two lines of code.
 
 
-# 11b
-# Copy your earlier drawSquare function.
-# Name the new version drawSquareLength.
-# Change it so that you can specify the length, just like in drawTriangleLength.
-# Then,
-# Once you've defined drawSquareLength, 
-# try this. It should draw three squares of different sizes.
-# NOTE: You'll get an error if you haven't yet defined drawSquareLength.
+## 10
+## Copy your earlier drawSquare function.
+## Name the new version drawSquareLength.
+## Change it so that you can specify the length, just like in drawTriangleLength.
+## Then,
+## Once you've defined drawSquareLength, 
+## try this. It should draw three squares of different sizes.
+## NOTE: You'll get an error if you haven't yet defined drawSquareLength.
 drawSquareLength(50)
 drawSquareLength(100)
 drawSquareLength(150)
@@ -329,38 +329,38 @@ drawSquareLength(150)
 Now, let's incorporate `input` to let the user pick the size of the shape.
 
 ```python3
-# 14
-# Try this.
+## 11
+## Try this.
 linelength = 100
 turtle.forward(linelength)
 
 
-# 14b
-# Modify the previous example to ask the user what length of line to draw.
+## 12
+## Modify the previous example to ask the user what length of line to draw.
 
 
-# 15
-# Try this. You'll need the drawTriangleLength function from earlier.
+## 13
+## Try this. You'll need the drawTriangleLength function from earlier.
 triLength = int(input("How big do you want the triangle to be?"))
 drawTriangleLength(triLength)
 
 
-# 15b
-# Ask the user for three lengths.
-# Draw a red   triangle with the first  user-specified length.
-# Draw a green triangle with the second user-specified length.
-# Draw a blue  triangle with the third  user-specified length.
+## 14
+## Ask the user for three lengths.
+## Draw a red   triangle with the first  user-specified length.
+## Draw a green triangle with the second user-specified length.
+## Draw a blue  triangle with the third  user-specified length.
 
 
-# 16
-# Try this. You'll need your drawSquareLength function from earlier.
+## 15
+## Try this. You'll need your drawSquareLength function from earlier.
 mylength = int(input("How big should the square be?"))
 drawSquareLength(mylength)
 
 
-# 16b
-# Repeat the three-triangles exercise, but with squares.
-# (ask for three lengths; draw red, green, blue)
+## 16
+## Repeat the three-triangles exercise, but with squares.
+## (ask for three lengths; draw red, green, blue)
 ```
 
 Functions can have multiple parameters:
@@ -380,12 +380,12 @@ drawTriangle3(50, "purple")
 drawTriangle3(200, "cyan")
 
 
-# 17
-# Make a drawTriangle4 function.
-# It should be identical to drawTriangle3,
-# but should have the penup and pendown commands that we used earlier
-# so that each triangle is separate.
-# Test it with this code:
+## 17
+## Make a drawTriangle4 function.
+## It should be identical to drawTriangle3,
+## but should have the penup and pendown commands that we used earlier
+## so that each triangle is separate.
+## Test it with this code:
 drawTriangle4(100, "red")
 turtle.forward(200)
 drawTriangle4(50, "purple")
@@ -431,8 +431,8 @@ For more practice with `return` statements, see an article such as [this one](ht
 ### Keypresses
 
 ```python3
-# 18
-# Try this. Press the up and left keys on your keyboard.
+## 18
+## Try this. Press the up and left keys on your keyboard.
 
 def mvfwd():
     turtle.forward(100)
@@ -448,8 +448,8 @@ turtle.listen()
 turtle.mainloop()
 
 
-# 19
-# Make it so if you press "Up" on your keyboard, the turtle will draw a square.
+## 19
+## Make it so if you press "Up" on your keyboard, the turtle will draw a square.
 ```
 
 ### Misc practice
@@ -457,16 +457,16 @@ turtle.mainloop()
 Before continuing to the following exercises, you should have completed the `if`, `for`, and `while` exercises.
 
 ```python3
-# 20
-# Make a square drawing tool.
-# If the user picks a size that is negative, then let the user know that the side length must be positive.
-# If the user picks a size that is too big, then let the user know that the side length is too big.
-#  ("too big" is up to you to decide.)
-# Otherwise, draw a square with the specified length.
+## 20
+## Make a square drawing tool.
+## If the user picks a size that is negative, then let the user know that the side length must be positive.
+## If the user picks a size that is too big, then let the user know that the side length is too big.
+##  ("too big" is up to you to decide.)
+## Otherwise, draw a square with the specified length.
 
 
-# 21
-# Try this:
+## 21
+## Try this:
 
 keepGoing = "yes"
 while keepGoing == "yes":
@@ -476,38 +476,38 @@ while keepGoing == "yes":
 print("We're done. Go take a break to stretch.")
 
 
-# 22
-# Modify the previous example so that every time the user types "yes",
-# the turtle moves forward 10 units and turns left 45 degrees.
+## 22
+## Modify the previous example so that every time the user types "yes",
+## the turtle moves forward 10 units and turns left 45 degrees.
 
 
-# 23
-# Modify the previous example so that every time the user types "yes",
-# it asks the user "How far do you want the turtle to move?".
-# Then move the turtle forward the amount that the user specifies.
+## 23
+## Modify the previous example so that every time the user types "yes",
+## it asks the user "How far do you want the turtle to move?".
+## Then move the turtle forward the amount that the user specifies.
 
 
-# 24
-# Modify the previous example so that every time the user types "yes",
-# it asks the user "What size square would you like to draw?".
-# Then draw a square (using drawSquare) with the length that the user specifies.
+## 24
+## Modify the previous example so that every time the user types "yes",
+## it asks the user "What size square would you like to draw?".
+## Then draw a square (using drawSquare) with the length that the user specifies.
 
 
-# 25
-# Try this.
+## 25
+## Try this.
 lengths = [100, 50, 20, 200]
 for leng in lengths:
     print(leng)
 
-# 26
-# Modify the previous example so that after it prints the length,
-# it moves the turtle forward that far.
-# (In other words, the first time that the loop runs, it should move forward 100 units,
-#  the second time, it should move 50 units, etc)
+## 26
+## Modify the previous example so that after it prints the length,
+## it moves the turtle forward that far.
+## (In other words, the first time that the loop runs, it should move forward 100 units,
+##  the second time, it should move 50 units, etc)
 
 
-# 27
-# Modify the previous example so that it turns 90 degrees after each forward movement.
+## 27
+## Modify the previous example so that it turns 90 degrees after each forward movement.
 
 
 ## 28
