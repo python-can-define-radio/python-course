@@ -88,7 +88,7 @@
 [ex_3a_if_else]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_3a_if_else.md
 [ex_3b_if_else_common_mistakes]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_3b_if_else_common_mistakes.md
 [ex_4a_lists]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4a_lists.md
-[ex_4b_randomness]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4b_randomness.md
+[ex_4b_randomness]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_5a_randomness.md
 [ex_5a_files]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_5a_files.md
 [ex_5b_dataclasses]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_5b_dataclasses.md
 [ex_6a_for_loops]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6a_for_loops.md
