@@ -18,8 +18,8 @@ Functions are an essential building block in almost any programming language. Th
 Let's start with some basic functions. These first examples will feel contrived; the usefulness will become clearer later in this lesson.
 
 ```python3
-# 1
-# Try this.
+## 1
+## Try this.
 def sayWelcome():
     print("Welcome to the Python class")
     print("We hope you enjoy it.")
@@ -34,8 +34,8 @@ The first line, `def sayWelcome()`, means "Define a function named `sayWelcome()
 The last two lines are simply `sayWelcome()`. Those are the lines that _call_ (or _run_) the function. Let's experiment:
 
 ```python3
-# 2
-# Try this. How many times does it display the welcome text?
+## 2
+## Try this. How many times does it display the welcome text?
 def sayWelcome():
     print("Welcome to the Python class")
     print("We hope you enjoy it.")
@@ -46,8 +46,8 @@ sayWelcome()
 sayWelcome()
 
 
-# 3
-# Try this. How many times does it display the welcome text?
+## 3
+## Try this. How many times does it display the welcome text?
 def sayWelcome():
     print("Welcome to the Python class")
     print("We hope you enjoy it.")
@@ -59,8 +59,8 @@ Notice in the previous example that simply defining a function does not run it. 
 Let's explore the impact of this.
 
 ```python3
-# 4
-# Try this. Does it display in the order that you expect?
+## 4
+## Try this. Does it display in the order that you expect?
 def sayWelcome():
     print("Welcome to the Python class")
     print("We hope you enjoy it.")
@@ -73,22 +73,22 @@ sayBye()
 sayWelcome()
 
 
-# 5
-# Copy and modify the previous example to make
-# it call sayWelcome before it calls sayBye.
+## 5
+## Copy and modify the previous example to make
+## it call sayWelcome before it calls sayBye.
 
 
-# 6
-# Try this. Why doesn't it work?
-# How could you define a function so that this will run?
+## 6
+## Try this. Why doesn't it work?
+## How could you define a function so that this will run?
 sayCoolStuff()
 ```
 
 For the sake of keeping code organized, functions should usually be defined at the beginning of your code, just after any `import` statements you may have. For example:
 
 ```python3
-# 7
-# This is an example showing where to position function definitions.
+## 7
+## This is an example showing where to position function definitions.
 def sayWelcome():
     print("Welcome to the Python class")
     print("We hope you enjoy it.")
@@ -107,8 +107,8 @@ print("This line of code is well positioned, because it comes after the function
 There are many cases in which it's helpful to reuse a piece of code with only small changes. **Parameters** help accomplish this.
 
 ```python3
-# 8a
-# Try this.
+## 8a
+## Try this.
 def sayHiTo(name):
     print(f"Hello {name}. Welcome to the Python course.")
 
@@ -124,8 +124,8 @@ When we write `def sayHiTo(name)`, the `name` is a **parameter**. Parameters tel
 You can have multiple parameters:
 
 ```python3
-# 8b
-# Try this.
+## 8b
+## Try this.
 def tellAbout(name, animal):
     print(f"Hello {name}. I've heard you have a pet {animal}.")
 
@@ -134,31 +134,31 @@ tellAbout("Sue", "dog")
 tellAbout("camel", "Tom")
 
 
-# 9
-# Copy and modify the previous example so that
-# Tom has a pet camel, rather than vice versa.
+## 9
+## Copy and modify the previous example so that
+## Tom has a pet camel, rather than vice versa.
 ```
 
 Another important aspect: if you don't give the right number of arguments when you call the function, you'll get an error message:
 
 ```python3
-# 10
-# Try this. It will give an error message.
+## 10
+## Try this. It will give an error message.
 def tellAbout(name, animal):
     print(f"Hello {name}. I've heard you have a pet {animal}.")
 
 tellAbout("Bob")
 
 
-# 11
-# Copy and modify the previous example so that Bob has a pet animal.
+## 11
+## Copy and modify the previous example so that Bob has a pet animal.
 ```
 
 Up to this point, our arguments have been literal strings, such as `"Bob"`, `"dog"`, etc. The argument can also be a variable:
 
 ```python3
-# 12
-# Try this.
+## 12
+## Try this.
 def tellAbout(name, animal):
     print(f"Hello {name}. I've heard you have a pet {animal}.")
 
@@ -170,15 +170,15 @@ tellAbout(na, ani)
 Notice that the variables that are used as arguments do not have to match the function parameters. 
 
 ```python3
-# 13
-# Copy and modify the previous example so that `na` and `ani` are set by user input.
+## 13
+## Copy and modify the previous example so that `na` and `ani` are set by user input.
 ```
 
 Now that we have parameters at our disposal, we can make some more interesting functions:
 
 ```python3
-# 14
-# Try this.
+## 14
+## Try this.
 def sayLengthOfEach(names):
     for name in names:
         print(f"The length of {name} is {len(name)}")
@@ -191,8 +191,8 @@ sayLengthOfEach(["Bob", "Joseph", "Susan"])
 We've shown how to put data into a function using parameters. Here's how to get the data back out of the function:
 
 ```python3
-# 15
-# Try this.
+## 15
+## Try this.
 def convertHoursToMinutes(hours):
     return hours * 60
 
@@ -208,8 +208,8 @@ Another very useful feature of functions is the ability to make testable pieces 
 Using the `convertHoursToMinutes` example:
 
 ```python3
-# 16
-# Try this.
+## 16
+## Try this.
 print(convertHoursToMinutes(2))
 ```
 
@@ -218,8 +218,8 @@ Given that we know that 2 hours is 120 minutes, we expect the above example to p
 We can actually state that in our code using an `assert` statement. Here's an example of an incorrect assertion:
 
 ```python3
-# 17
-# Try this.
+## 17
+## Try this.
 assert convertHoursToMinutes(2) == 119
 ```
 
@@ -230,15 +230,15 @@ To fix that test, we would write `assert convertHoursToMinutes(2) == 120`. If yo
 ### Practice
 
 ```python3
-# 18
-# Define a function that converts from feet to yards.
-# Use this structure:
+## 18
+## Define a function that converts from feet to yards.
+## Use this structure:
 def convertFeetToYards(feet):
     return _____
 
 print(convertFeetToYards(5))
 
 
-# 19
-# Write two `assert` statements to check that convertFeetToYards is working correctly.
+## 19
+## Write two `assert` statements to check that convertFeetToYards is working correctly.
 ```
