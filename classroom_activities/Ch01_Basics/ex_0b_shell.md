@@ -6,17 +6,20 @@ The goal of the current lesson is to familiarize new students with the "Terminal
 
 ### Background Information:
 <details><summary>Expand here</summary>
-  This exercise is developed based on the Ubuntu distribution of the Linux OS, but should be applicable for other distributions as well. Linux includes several pre-installed programs or applications, commonly called "Apps".  One such pre-installed program is the Terminal, which is a text-based user interface for interacting with the OS itself, with storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and with the internet. The Terminal program is also called the "command-prompt", the "shell", and the "console".  (Further details: for older Unix computer systems, the terms "terminal" and "console" referred to a physical piece of equipment.  Within the Linux OS, they refer to software providing similar functionality).
+
+This exercise is developed based on the Ubuntu distribution of the Linux OS, but should be applicable for other distributions as well. Linux includes several pre-installed programs or applications, commonly called "Apps".  One such pre-installed program is the Terminal, which is a text-based user interface for interacting with the OS itself, with storage devices (e.g., a hard drive, CD/DVD drive, or flash drive), and with the internet. The Terminal program is also called the "command-prompt", the "shell", and the "console".  (Further details: for older Unix computer systems, the terms "terminal" and "console" referred to a physical piece of equipment.  Within the Linux OS, they refer to software providing similar functionality).
+
 </details>
 
 ### Some useful resources:
 <details><summary>Expand here</summary>
-`(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new tab" or new window and then go to that tab/window.)`
+
 - Background info about "Why the terminal": 
   - https://ubuntu.com/tutorials/command-line-for-beginners#2-a-brief-history-lesson
   - https://askubuntu.com/questions/106039/so-what-is-the-advantage-of-using-the-terminal
 - A list of several Terminal commands: https://www.digitalocean.com/community/tutorials/linux-commands
 - (See also links to tutorials at bottom of this page.)
+
 </details>
 
 ### Notes: 
@@ -73,6 +76,7 @@ ls
 ```
 
 <details><summary>Expand here and read if you do not understand cd, ls, or pwd.</summary>
+
 You've now used three commands: `cd`, `ls`, and `pwd`. The first command, `cd`, stands for "<b>c</b>hange <b>d</b>irectory". The second command, `ls`, stands for "<b>l</b>i<b>s</b>t". Whenever you type `ls`, the terminal displays a list of files. The files that are displayed by `ls` vary according to your current "working directory".
 
 A "working directory" is the directory (a.k.a. folder) that you are currently interacting with --
@@ -84,6 +88,7 @@ The third command, `pwd`, stands for "<b>p</b>rint <b>w</b>orking <b>d</b>irecto
 - After running `cd term_example_files`, when you ran `pwd`, it displayed `/home/yourusername/Desktop/term_example_files`.
 
 You may wonder why `pwd` does not show `~/Desktop/term_example_files`. The reason: `~` (the tilde character) is a GNU/Linux abbreviation for your home directory, which is normally `/home/yourusername`. So, if your user name is `bob.smith`, then `~` means `/home/bob.smith`.
+
 </details>
 
 Let's get some practice:
@@ -100,6 +105,7 @@ cd vehicles
 ```
 
 <details><summary>Expand here for the answer.</summary>
+
 The command `cd ~` means "change directory (`cd`) to my home directory (`~`)".
 
 When we used the command `cd vehicles` it gave this error: `bash: cd: vehicles: No such file or directory`. Let's break this down:
@@ -107,6 +113,7 @@ When we used the command `cd vehicles` it gave this error: `bash: cd: vehicles: 
 - `bash`: We are using `bash` as our "shell". There are various available shells with different features, but in this class, we'll just use bash.
 - `cd`: The terminal is letting you know that `cd` is the command that failed.
 - `vehicles: No such file or directory`: Before trying to change your directory, `cd` checks if the desired destination exists. In this case, it looked for `vehicles` in your current working directory, which was the Desktop. However, `vehicles` does not exist on the Desktop; it's inside `term_example_files`.
+
 </details>
 
 ```sh 
@@ -275,7 +282,6 @@ cp general_info_plants.txt plant_info.txt
 ## Misc practice (Optional)
 
 <details><summary>Expand here for additional content.</summary>
-
 
 ```sh
 ## 22
@@ -518,5 +524,6 @@ cd Desktop/cool
 ## touch
 ## pwd
 ```
+
 </details>
 
