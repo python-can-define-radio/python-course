@@ -228,11 +228,6 @@ Incidentally, this is the origin of the name `cat`.
 ## - change directory to vehicles.
 ## - change directory to engines.
 ## - Use `cat` to display the contents of the file "combustion_engines.txt".
-########################
-##  INSTRUCTOR-CHECK  ##
-########################
-## (Questions marked as INSTRUCTOR-CHECK are ones for which you should
-##  show your answer to an instructor to verify that it fulfills the intent of the question.)
 ```
 
 Now, let's move some files using the `mv` command.
