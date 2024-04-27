@@ -233,9 +233,9 @@ Simply displaying the lines of the file isn't very exiting, so let's do somethin
 Copy/paste this into a text file called "names_and_colors.txt":
 
 ```
-bob,red
-lacy,blue
-sue,green
+Bob:red
+Lacy:blue
+Sue:green
 ```
 
 Then, we'll read it using this:
@@ -247,9 +247,73 @@ f = open("names_and_colors.txt", "r", encoding="utf-8")
 lines = f.read().splitlines()
 f.close()
 for line in lines:
-    firstpiece, secondpiece = line.split(",")
-    print(f"First: {firstpiece}. Second: {secondpiece}")
+    na, co = line.split(":")
+    print(f"First: {na}. Second: {co}")
 ```
+
+<details><summary>Click here to see an explanation:</summary>
+
+- `lines = f.read().splitlines()` reads the file as a list of strings, and saves that list in `lines`. Each item of the list is a line from the file, so after running this, `lines` will be `["Bob:red", "Lacy:blue", "Sue:green"]`.
+- `na, co = line.split(":")` splits the string `line` into two strings, which are "unpacked" into two variables. After running this line the first time, `na` will be `"Bob"`, and `co` will be `"red"`.
+
+</details>
+
+
+```python3
+## 22
+## Copy and modify the previous example.
+## Make it so it shows the following output:
+##   Bob's favorite color is red.
+##   Lacy's favorite color is blue.
+##   Sue's favorite color is green.
+## Note: Your Python code should mention neither names (Bob, etc) nor colors (red, etc).
+########################
+##  INSTRUCTOR-CHECK  ##
+########################
+
+
+## 23
+## Given a file with these contents:
+##   Bob:red
+##   Lacy:blue
+##   Sue:green
+##   Joe:blue
+##   Frank:red
+## Display which people like blue.
+## Example run:
+##    These people like blue:
+##    Lacy
+##    Joe
+## As before, the names and colors should not appear in your Python code.
+
+
+## 24
+## Copy and modify the previous example to allow 
+## the user to pick the color of interest.
+## Example run 1:
+##   Filter by color:  red
+##   Bob
+##   Frank
+## Example run 2:
+##   Filter by color:  green
+##   Joe
+
+
+## 25
+## Copy and modify the previous example to
+## count how many people matched the specified color.
+## Example run 1:
+##   Filter by color:  red
+##   Bob
+##   Frank
+##   Found 2 match(es).
+## Example run 2:
+##   Filter by color:  green
+##   Joe
+##   Found 1 match(es).
+```
+
+-----------
 
 
 <details>
