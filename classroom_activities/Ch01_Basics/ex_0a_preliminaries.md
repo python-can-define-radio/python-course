@@ -171,6 +171,12 @@ Demonstrate the keyboard commands below.
 - 🐛 The run and debug icon is used for troubleshooting.
 - 🪟 The extensions icon is used to install additional extensions to improve your VS Code experience.
 
+### Icons in the python-can-define-radio lessons
+
+- 🧠 : PE
+- 👨🏽‍🏫👩🏽‍🏫 : Lecture
+- 📝 : User input follows
+
 ### Misc
 
 <details><summary>We will be using Github for many of our Python and SDR lessons. (Expand for details)</summary>
