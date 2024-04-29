@@ -1,9 +1,24 @@
+## Definitions:
+#  print()     Displays to screen
+#  input()     Asks for user input
+#  int()       Convert to an integer
+#                (a positive or negative whole number, such as 3, -2, etc).
+#                Often used with input.
+#  float()     Convert to a float
+#                (a number that has a non-whole part, such as 2.5, -3.7, etc).
+#                Often used with input.
+
+
 # Display "Hello world" to the screen
 print("Hello world")
 
 # Ask the user for input and display it
 thename = input("What is your name? ")
 print(f"Hello {thename}")
+
+# Ask the user for a non-whole number (a `float`):
+num = float(input("What is your name? "))
+print(f"Hello {num}")
 
 # More ways to use a variable in a print statement
 # Reminder: a variable is used to store data.
