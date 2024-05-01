@@ -91,7 +91,7 @@ These instructions assume you are working on a Linux operating system (OS).
 <details><summary>Follow these directions to run the student setup script. (Expand for details)</summary>
   
   1) Right-click on this [student_config_script.sh](https://raw.githubusercontent.com/python-can-define-radio/python-course/main/resources/student_config_script.sh)  and select `Save Link As`.
-  
+    
   2) For the save location, click on `Desktop` on the left, and then click `Save`.
   
   3) Minimize the browser window so that you can see the Desktop.
@@ -101,8 +101,17 @@ These instructions assume you are working on a Linux operating system (OS).
   5) Type `bash student_config_script.sh` and hit Enter.
      
   6) Let the instructor know if you see any error messages.
-     
-  7) <details><summary>Expand here for Manual instructions if the script does not work.</summary>
+   
+  7) <details><summary>This is what the script does. Expand</summary>
+      
+      - adds term_example_files folder to the desktop.  
+      - adds python_slideshows folder to the desktop.  
+      - adds sdr_slideshows folder to the desktop.  
+      - adds rich_presentaions folder to the desktop.  
+      - sets up some basic VSCode and computer configuration settings.
+        
+      </details>
+8) <details><summary>Expand here for Manual instructions if the script does not work.</summary>
 
       ### How to change terminal timeout (TMOUT variable):
       
