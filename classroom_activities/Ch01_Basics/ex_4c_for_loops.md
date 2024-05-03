@@ -296,7 +296,7 @@ for line in lines:
 ##   Frank
 ## Example run 2:
 ##   Filter by color:  green
-##   Joe
+##   Sue
 
 
 ## 25
@@ -309,7 +309,7 @@ for line in lines:
 ##   Found 2 match(es).
 ## Example run 2:
 ##   Filter by color:  green
-##   Joe
+##   Sue
 ##   Found 1 match(es).
 ```
 
