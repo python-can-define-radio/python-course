@@ -70,7 +70,7 @@
 - Self-Paced Study and Review
 
 ### Day 9
-- Test Preperation
+- Test Preparation
 
 🧠 <span style="color: green"><b>Python Exam</b></span>
 
