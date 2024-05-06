@@ -335,7 +335,7 @@ print("Goose!")
 ##   Enter a name: chris
 ##   Enter a name: corey
 ##   Enter a name: q
-##   These names start with the letter c: ['bob', 'chris', 'corey']
+##   These names start with the letter c: ['chris', 'corey']
 
 
 ## 30
