@@ -1,5 +1,14 @@
 # Resources
 
+### For those who lack a Python installation:
+
+You can run Python in online IDEs such as these:
+
+- [trinket.io](https://trinket.io/python3)
+- [online-python.com](https://www.online-python.com/)
+
+### Links to pythons built-ins
+
 [Python built-in functions](https://docs.python.org/3/library/functions.html)  
 [Python keywords](https://realpython.com/python-keywords)  
 [Python data types](https://docs.python.org/3/library/stdtypes.html)  
