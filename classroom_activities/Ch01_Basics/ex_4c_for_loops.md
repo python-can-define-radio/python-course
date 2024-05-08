@@ -316,8 +316,9 @@ for line in lines:
 -----------
 
 
-<details>
-<summary>Optional exercises (click to expand...)</summary>
+### Optional exercises
+
+<details><summary>Expand here for additional content.</summary>
 
 #### Lists of lists:
 
