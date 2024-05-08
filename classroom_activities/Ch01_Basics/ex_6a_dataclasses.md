@@ -71,8 +71,9 @@ You'll see more examples of using lists with dataclasses in the next lesson.
 ########################
 ```
 
-<details>
-<summary>Optional exercises (click to expand...)</summary>
+### Optional exercises
+
+<details><summary>Expand here for additional content.</summary>
 
 #### Using lists of objects
 
@@ -230,4 +231,5 @@ This is Pydantic's [default behavior](https://docs.pydantic.dev/latest/concepts/
 ```
 
 For more information, see the [pydantic docs](https://docs.pydantic.dev/latest/).
+
 </details>
