@@ -351,7 +351,9 @@ print("Goose!")
 ## You got it!
 ```
 
-### Extra questions (If you've reached this point, feel free to move on to the next exercise set).
+### Optional exercises
+
+<details><summary>Expand here for additional content.</summary>
 
 ```python3
 ## 31
@@ -435,3 +437,5 @@ while True:
     print(f"Double your num is {num * 2}.")
     
 ```
+
+</details>
