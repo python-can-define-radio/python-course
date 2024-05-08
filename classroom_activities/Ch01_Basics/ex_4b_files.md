@@ -92,7 +92,9 @@ f.close()
 ```
 
 
-### Advanced (optional) topics below this line.
+### Optional exercises
+
+<details><summary>Expand here for additional content.</summary>.
 
 This is an example of how to work with large files. 
 
@@ -154,3 +156,4 @@ for count in range(0, 500000):
     f = open(filename, "w", encoding="utf-8")
     filehandlelist.append(f)
 ```
+</details>
