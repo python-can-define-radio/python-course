@@ -1,9 +1,3 @@
-<details><summary><i>Naming history (click to expand)</i></summary>
-<pre>
-2023 Oct 11: classroom_activities/Ch01_Basics/ex_8b_functions.md
-2024 Feb 23: classroom_activities/Ch01_Basics/ex_7b_functions.md
-</pre>
-</details>
 
 # Functions
 
