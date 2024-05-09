@@ -1,9 +1,10 @@
 # Python Course
 
 <div style=float:right>
-👨🏽‍🏫 = <span style="color: #2c99ff"><b>Discussion/Lecture</b></span>
-
-🧠 = <span style="color: green"><b>PE/Exam</b></span>
+  
+👨🏽‍🏫 = <span style="color: #2c99ff"><b>Discussion/Lecture</b></span>  
+🧠 = <span style="color: green"><b>PE/Exam</b></span>  
+🔬 = <span style="color: green"><b>Independent Work Time/Experimentation</b></span>
 </div>
 
 ## Table of Contents (TOC)
@@ -15,7 +16,11 @@
 - [Preliminaries][ex_0a_preliminaries] 
 - [Shell][ex_0b_shell]
 - [Print and Inputs][ex_1a_prints_and_inputs]  
-- [Variables][ex_1b_variables_modules_formatting] 
+- [Variables][ex_1b_variables_modules_formatting]
+
+<div style=float:left>🔬</div> 
+
+- Independent Work Time
 
 ### Day 2
 
@@ -24,6 +29,10 @@
 - [Number Systems][ex_2a_number_systems]  
 - [Operators][ex_2b_operators]
 
+<div style=float:left>🔬</div> 
+
+- Independent Work Time
+
 ### Day 3
 
 <div style=float:left>👨‍🏫</div>  
@@ -31,8 +40,15 @@
 - [If Else][ex_3a_if_else]  
 - [If Else common mistakes][ex_3b_if_else_common_mistakes]
 
+<div style=float:left>🔬</div> 
+
+- Independent Work Time
+
 ### Day 4
-🧠 <span style="color: green"><b>PE 1: Print and Inputs (and format specifiers)</b></span>
+
+<div style=float:left>🧠</div> 
+
+- <span style="color: green"><b>PE 1: Print and Inputs (and format specifiers)</b></span>
 
 <div style=float:left>👩‍🏫</div>   
 
@@ -40,39 +56,74 @@
 - [Files][ex_4b_files]
 - [For loops][ex_4c_for_loops]
 
+<div style=float:left>🔬</div> 
+
+- Independent Work Time
+
 ### Day 5
-🧠 <span style="color: green"><b>PE 2: Bin, oct, hex</b></span>
+
+<div style=float:left>🧠</div> 
+
+- <span style="color: green"><b>PE 2: Bin, oct, hex</b></span>
 
 <div style=float:left>👨🏽‍🏫</div>   
 
 - [Randomness][ex_5a_randomness]
 - [While loops][ex_5b_while_loops]
 
+<div style=float:left>🔬</div> 
+
+- Independent Work Time
+
 ### Day 6
-🧠 <span style="color: green"><b>PE 3: If-else</b></span>
+
+<div style=float:left>🧠</div> 
+
+- <span style="color: green"><b>PE 3: If-else</b></span>
 
 <div style=float:left>👩🏼‍🏫</div>   
 
 - [Dataclasses][ex_6a_dataclasses]
 - [Dictionaries][ex_6b_dictionaries]
 
+<div style=float:left>🔬</div> 
+
+- Independent Work Time
+
 ### Day 7
-🧠 <span style="color: green"><b>PE 4: For Loops & File Writing</b></span>
+
+<div style=float:left>🧠</div> 
+
+- <span style="color: green"><b>PE 4: For Loops & File Writing</b></span>
 
 <div style=float:left>👨🏼‍🏫</div>   
 
 - [Functions][ex_6c_functions]
-- [Functions using turtle][ex_6d_functions_using_turtle]  
+- [Functions using turtle][ex_6d_functions_using_turtle]
+
+<div style=float:left>🔬</div> 
+
+- Independent Work Time
 
 ### Day 8
-🧠 <span style="color: green"><b>PE 5: While-Loop, random, and if </b></span>
 
-- Self-Paced Study and Review
+<div style=float:left>🧠</div> 
 
-### Day 9
+- <span style="color: green"><b>PE 5: While-Loop, random, and if </b></span>
+
+<div style=float:left>🔬</div> 
+
+- Independent Work Time
+
+<div style=float:left>👩‍🏫</div> 
+
 - Test Preparation
 
-🧠 <span style="color: green"><b>Python Exam</b></span>
+### Day 9
+
+<div style=float:left>🧠</div>  
+
+- <span style="color: green"><b>Python Exam</b></span>
 
 
 
