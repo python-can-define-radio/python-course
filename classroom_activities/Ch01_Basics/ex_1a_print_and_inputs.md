@@ -225,11 +225,23 @@ Here's some practice:
 ## Copy and modify the previous example so that it asks the user for the name of a car,
 ## and then prints "The car you named is ____. Do you have one?"
 ## In the blank, you should include whatever car the user named.
+## Example run 1:
+##   Type the name of a car: 📝 Honda
+##   The car you named is Honda. Do you have one?
+## Example run 2:
+##   Type the name of a car: 📝 Ford
+##   The car you named is Ford. Do you have one?
+## (The "📝" emoji is optional. It indicates where the user
+##  will enter input.)
 
 
 ## 4e
 ## Copy and modify the previous example so that it asks the user for the name of an animal,
 ## and then prints "The animal you named is ____. I think that it would make a nice pet."
+## Example run:
+##   Type the name of an animal: 📝 dog
+##   The animal you named is dog. I think that it would make a nice pet.
+
 ########################
 ##  INSTRUCTOR-CHECK  ##
 ########################
@@ -245,22 +257,21 @@ print(f"Maybe someone is named: {firstn} {lastn}.")
 
 
 ## 6a
-## Copy and modify the previous example to do the following:
-##  - Ask the user for his/her first name.
-##  - Ask the user for his/her last name.
-##  - Print "Your name is ___  ___."
-
-
-## 6b
-## Ask the user for their first name, middle name, and last name.
-## Print "Your name is __ __ __" (filling in their first name,
-##                                 middle name, and last name).
+## Copy and modify the previous example so that it matches this:
+## Example run:
+##   First name? 📝 Bob
+##   Last name? 📝 Smith
+##   Your name is Bob Smith.
 
 
 ## 7
-## Ask the user for a color, and then say
-## "___ is a pretty color."
-## (Fill in the blank with the color that the user said.)
+## Make a program that produces these results:
+## Example run 1:
+##   Favorite color? 📝 red
+##   red is a pretty color.
+## Example run 2:
+##   Favorite color? 📝 blue
+##   blue is a pretty color.
 
 
 ## 8
