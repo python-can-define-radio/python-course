@@ -142,7 +142,7 @@ These instructions assume you are working on a Linux operating system (OS).
       </details>
 </details>  
 
-Demonstrate the keyboard commands below.
+<details><summary>Demonstrate the keyboard shortcuts. (Expand for details)</summary>
   
 ### Common VS Code keyboard shortcuts:
 
@@ -171,6 +171,9 @@ Demonstrate the keyboard commands below.
     - In the "Terminal" program, the cursor is a box.  The `Delete` key deletes the character inside the cursor box and pulls text from the RIGHT.
     - For many other programs, the cursor is a line that sits between two characters.  In this case, the {Delete} key deletes the character on the RIGHT side of the cursor and pulls text from the right.
   </details>
+</details>
+
+<details><summary>Icons (Expand for details)</summary>
 
 ### VS Code Icons
 
@@ -181,12 +184,13 @@ Demonstrate the keyboard commands below.
 - 🪟 The extensions icon is used to install additional extensions to improve your VS Code experience.
 
 ### Icons in the python-can-define-radio lessons
+    
+👨🏽‍🏫 = <b>Discussion/Lecture  
+🧠 = PE/Exam  
+🔬 = Independent Work Time/Experimentation  
+📝 = User input follows</b>
 
-- 🧠 : PE
-- 👨🏽‍🏫👩🏽‍🏫 : Lecture
-- 📝 : User input follows
-
-### Misc
+</details>
 
 <details><summary>We will be using Github for many of our Python and SDR lessons. (Expand for details)</summary>
 
