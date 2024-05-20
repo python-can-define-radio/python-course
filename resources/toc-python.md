@@ -124,7 +124,15 @@
 <div style=float:left>🧠</div>  
 
 - <span style="color: green"><b>Python Exam</b></span>
-
+  - accessible during the exam:
+    - github lessons
+    - rich presentations
+    - personal notes/work
+  - not accessible during the exam:
+    - samba
+    - search engines
+    - online AI
+    - any other online/offline source not approved by your instructor
 
 
 [ex_0a_preliminaries]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_0a_preliminaries.md  
