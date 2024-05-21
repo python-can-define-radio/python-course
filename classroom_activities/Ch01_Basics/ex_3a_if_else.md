@@ -526,6 +526,7 @@ else:
 ## then display "That's correct!"
 ## otherwise, display "Not quite."
 ## Make it work for any capitalization.
+## INSTRUCTOR CHECK
 
 ```
 
