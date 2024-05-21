@@ -188,7 +188,7 @@ These instructions assume you are working on a Linux operating system (OS).
 👨🏽‍🏫 = <b>Discussion/Lecture  
 🧠 = PE/Exam  
 🔬 = Independent Work Time/Experimentation  
-📝 = User input follows</b>
+✎ = User input follows</b>
 
 </details>
 

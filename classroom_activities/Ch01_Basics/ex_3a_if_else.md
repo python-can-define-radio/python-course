@@ -204,13 +204,15 @@ print(ageNextYear)
 
 
 ## 11
-## Copy and modify the previous example to do the following: 
-## - Ask the user for age 
-## - Say "I see you are __ years old.
-##        You will be 65 years old in __ years."
-##   For example, if the user typed 45, then it would display
-##      "I see you are 45 years old.
-##       You will be 65 years old in 20 years."
+## Write a program that satisfies the following examples. Remember that the "✎" indicates user input.
+## Example 1:
+##   How old are you? ✎ 55
+##   I see you are 55 years old.
+##   You will be 65 years old in 10 years.
+## Example 2:
+##   How old are you? ✎ 45
+##   I see you are 45 years old.
+##   You will be 65 years old in 20 years.
 ########################
 ##  INSTRUCTOR-CHECK  ##
 ########################
@@ -433,8 +435,8 @@ else:
 ## For example, try a cost of 2.30 and quantity of 2.
 ## Hint: You'll use float instead of int.
 ## Example:
-##   What is the cost for an item? 2.30
-##   How many did you buy? 2
+##   What is the cost for an item? ✎ 2.30
+##   How many did you buy? ✎ 2
 ##   The total cost would be $4.60.
 
 

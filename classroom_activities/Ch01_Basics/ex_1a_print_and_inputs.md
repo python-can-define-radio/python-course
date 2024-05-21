@@ -226,12 +226,12 @@ Here's some practice:
 ## and then prints "The car you named is ____. Do you have one?"
 ## In the blank, you should include whatever car the user named.
 ## Example run 1:
-##   Type the name of a car: 📝 Honda
+##   Type the name of a car: ✎ Honda
 ##   The car you named is Honda. Do you have one?
 ## Example run 2:
-##   Type the name of a car: 📝 Ford
+##   Type the name of a car: ✎ Ford
 ##   The car you named is Ford. Do you have one?
-## (The "📝" emoji is optional. It indicates where the user
+## (The "✎" emoji is optional. It indicates where the user
 ##  will enter input.)
 
 
@@ -239,7 +239,7 @@ Here's some practice:
 ## Copy and modify the previous example so that it asks the user for the name of an animal,
 ## and then prints "The animal you named is ____. I think that it would make a nice pet."
 ## Example run:
-##   Type the name of an animal: 📝 dog
+##   Type the name of an animal: ✎ dog
 ##   The animal you named is dog. I think that it would make a nice pet.
 
 ########################
@@ -259,18 +259,18 @@ print(f"Maybe someone is named: {firstn} {lastn}.")
 ## 6a
 ## Copy and modify the previous example so that it matches this:
 ## Example run:
-##   First name? 📝 Bob
-##   Last name? 📝 Smith
+##   First name? ✎ Bob
+##   Last name? ✎ Smith
 ##   Your name is Bob Smith.
 
 
 ## 7
 ## Make a program that produces these results:
 ## Example run 1:
-##   Favorite color? 📝 red
+##   Favorite color? ✎ red
 ##   red is a pretty color.
 ## Example run 2:
-##   Favorite color? 📝 blue
+##   Favorite color? ✎ blue
 ##   blue is a pretty color.
 
 
