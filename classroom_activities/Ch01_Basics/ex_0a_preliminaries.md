@@ -144,17 +144,17 @@ These instructions assume you are working on a Linux operating system (OS).
 
 <details><summary>Demonstrate the keyboard shortcuts. (Expand for details)</summary>
   
-### Common VS Code keyboard shortcuts:
+### Common VS Code and Thonny keyboard shortcuts:
 
-- `Ctrl /`: toggle comment / uncomment  (while lines are selected)
+- `Ctrl /` (VS Code), `Ctrl 3` (Thonny): toggle comment / uncomment  (while lines are selected)
 - `Home`: Cursor to beginning of line
 - `End`: Cursor to end of line
 - `Shift arrowkey`: Highlight forward/backward/up/down
 - `Ctrl arrowkey`: Move cursor by words
-- `Ctrl D`: Select multiple instances (powerful but advanced feature)
+- `Ctrl D` (VS Code only): Select multiple instances (powerful but advanced feature)
 - `Ctrl Y`: Redo
-- `Alt Z`: Toggles wordwrap
-- `Ctrl Shift Space`: Toggles Parameter hints
+- `Alt Z` (VS Code only): Toggles wordwrap
+- `Ctrl Shift Space` (VS Code only): Toggles Parameter hints
   - If shortcut does not work navigate to File>Preferences>Settings
   - Type in parameter hints and uncheck ☑️`Editor › Parameter Hints: Enabled`
 - Common to other text editors
