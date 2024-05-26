@@ -46,9 +46,8 @@ This exercise is developed based on the Ubuntu distribution of the Linux OS, but
 ## First, open an instance of the Terminal by one of several methods:
 ##     (a) In a GUI files browser, in the right window pane, right-click on white space and select "Open in Terminal".
 ##     (b) On the computer's Desktop, right-click and select "Open in Terminal".
-##     (c) Press the "super" button & begin typing "terminal".  When the appropriate icon appears, click on it.
-##     (NOTE:  The "super" button appears as a square formed of small squares, located in the lower left corner of
-##      the Ubuntu Desktop. On your keyboard, it may look like a flying window, or a flapping flag having 4 sections.) 
+##     (c) Press the "super" key & begin typing "terminal".  When the appropriate icon appears, click on it.
+##     (Can't find the "super" key? See https://itsfoss.com/super-key/ )
 ## NOTE: As you type commands or names of folders or files in the CLI (the Terminal),
 ##     you can SAVE TIME by pressing the Tab key to autofill the rest of a command or name.
 ##     For example, you can type cd ~/Des (the first three letters of "Desktop") and then press Tab, and the OS
