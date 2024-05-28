@@ -311,6 +311,36 @@ for line in lines:
 ##   Filter by color:  green
 ##   Sue
 ##   Found 1 match(es).
+
+
+## 26
+## Copy and modify the previous example to
+## count how many people matched the specified color.
+## Example run 1:
+##   Filter by color:  red
+##   Bob
+##   Frank
+##   Found 2 match(es).
+## Example run 2:
+##   Filter by color:  green
+##   Sue
+##   Found 1 match(es).
+
+
+## 26b
+## Given a file with these contents:
+##   Bob:red:70
+##   Lacy:blue:65
+##   Sue:green:72
+##   Joe:blue:68
+##   Frank:red:71
+## Assuming the third column is the heart rate, display the names of people
+## whose heart rate is less than 70.
+## Example run:
+##    These people like have a heart rate that is less than 70:
+##    Lacy
+##    Joe
+## As before, the names and heart rates should not appear in your Python code.
 ```
 
 -----------
