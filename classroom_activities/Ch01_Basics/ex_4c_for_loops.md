@@ -314,20 +314,6 @@ for line in lines:
 
 
 ## 26
-## Copy and modify the previous example to
-## count how many people matched the specified color.
-## Example run 1:
-##   Filter by color:  red
-##   Bob
-##   Frank
-##   Found 2 match(es).
-## Example run 2:
-##   Filter by color:  green
-##   Sue
-##   Found 1 match(es).
-
-
-## 26b
 ## Given a file with these contents:
 ##   Bob:red:70
 ##   Lacy:blue:65
@@ -355,7 +341,7 @@ for line in lines:
 Another way to store related data is using a list of lists: For example, imagine a list of instructors that includes their names, ages, and years of experience. One way to express this data is a list of lists:
 
 ```python3
-## 24
+## 27
 instructors = [
     ["Maria", 38, 7],
     ["Walton", 47, 22],
@@ -368,7 +354,7 @@ instructors = [
 To work with this list, we may use a `for` loop:
 
 ```python3
-## 25
+## 28
 ## Try this.
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
@@ -381,21 +367,21 @@ for instructor in instructors:
 You may be surprised at the line `name, age, yearsExp = instructor`. We're using a special Python feature called **unpacking a list**. We'll unpack that concept (pun intended) in the next few exercises.
 
 ```python3
-## 26a
+## 29
 ## Try this.
 ## Notice that each variable is assigned to the respective element of the list.
 name, color = ["Bob", "Green"]
 print(f"{name} likes the color {color}")
 
 
-## 26b
+## 30
 ## This example shows the same concept using an additional variable.
 personinfo = ["Bob", "Green"]
 name, color = personinfo
 print(f"{name} likes the color {color}")
 
 
-## 26c
+## 31
 ## Here's an example that needs to be fixed.
 ## For the sake of the exercise, only change the labelled line.
 personinfo = ["Bob", "Green", 20]
@@ -408,7 +394,7 @@ In the case of a list of lists, you could use a combination of indexing and unpa
 First, the long (not recommended) way, just for comparison.
 
 ```python3
-## 27a
+## 32
 ## Remember, this is not recommended.
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
@@ -438,7 +424,7 @@ print(f"The instructor {name} is {age} years old and has {yearsExp} years of exp
 Now, the recommended way:
 
 ```python3
-## 27b
+## 33
 ## Try this.
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
@@ -451,7 +437,7 @@ for instructor in instructors:
 If you'd like, you can condense this even more:
 
 ```python3
-## 27c
+## 34
 ## This shows the even-more-condensed approach.
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
@@ -463,7 +449,7 @@ for name, age, yearsExp in instructors:
 Now that we've learned how unpacking works, let's do some math inside of the loop.
 
 ```python3
-## 28
+## 35
 ## Given this data,
 instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
                   ["Joel", 28, 3], ["Tate", 67, 5]]
@@ -480,7 +466,7 @@ instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
 ## Ask an instructor if this is unclear.
 
 
-## 29
+## 36
 ## Copy and modify the previous example. In this version, for each instructor,
 ## display the following:
 ##     The instructor Maria has been working for 7 years, and will receive a $70 bonus this year.
@@ -489,7 +475,7 @@ instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
 ## As in the previous exercise, the list of instructors must remain unchanged.
 
 
-## 30
+## 37
 ## Copy and modify the previous example.
 ## Ask the user for the extra bonus per year of experience. Compute appropriately.
 ## Example run:
@@ -499,7 +485,7 @@ instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
 ##     ...etc...
 
 
-## 31
+## 38
 ## Copy and modify the previous example.
 ## After the for loop, display
 ##    "The total amount of work experience for this team is ___". 
@@ -514,7 +500,7 @@ instructors = [["Maria", 38, 7], ["Walton", 47, 22], ["Martin", 52, 18],
 Here another example to practice the same concepts:
 
 ```python3
-## 32
+## 39
 ## The following data describes four runners.
 ## Each sub-list contains, in this order,
 ##  - the runner's name
@@ -541,18 +527,18 @@ for ??? in runners:
 As you've seen, you can use a `for` loop with lists. You can also use a `for` loop with a string. For example:
 
 ```python3
-## 33a
+## 40
 ## Try this:
 phrase = "Hello world"
 for letter in phrase:
     print(f"The letter is {letter}")
 
 
-## 33b
+## 41
 ## Copy and modify the previous example so it asks the user for a string (rather than only using "Hello world").
 
 
-## 34
+## 42
 ## Copy and modify the previous example so it outputs each letter from the user input followed by "!". For example:
 ## H!
 ## e!
@@ -561,13 +547,13 @@ for letter in phrase:
 ## o!
 
 
-## 35
+## 43
 ## For each of the integers 1 to 5, print that number squared.
 ## Use the range function.
 ## (In other words, the lists [1, 2, 3, 4, 5] and [1, 4, 9, 16, 25] should not appear in your code.)
 
 
-## 36
+## 44
 ## Copy and modify the previous example to allow the user to specify the highest number rather than stopping at 5.
 ## Ex:
 ## Highest number?  (user types 4)
@@ -577,7 +563,7 @@ for letter in phrase:
 ## 16
 
 
-## 37
+## 45
 ## Do you remember the operator that does remainder in Python?
 ## Use a for-loop to display the following:
 ##  1 divided by 4 would have a remainder of ____.
@@ -591,12 +577,12 @@ for a in range(b, c):
     print(f"___ divided by 4 would have a remainder of ___")
 
 
-## 38
+## 46
 ## Try this:
 print("Hello"*3)
 
 
-## 39
+## 47
 ## Modify the previous example to ask the user how many "Hello"s to print.
 ## Hint: There are two ways to do this.
 ##
@@ -612,7 +598,7 @@ print("Hello"*3)
 ##   print("Hello"*howmany)
 
 
-## 40
+## 48
 ## Construct the following pattern using a `for` loop.
 ## Let the user specify how many rows to print.
 ## AAAAA
@@ -626,7 +612,7 @@ print("Hello"*3)
 ##         print("AAAAA")
 
 
-## 41
+## 49
 ## Construct the following using a `for` loop.
 ## Let the user specify how many rows to print.
 ## 1 A
@@ -640,7 +626,7 @@ print("Hello"*3)
 ##         print(f"{you_the_student_will_fill_this} A")
 
 
-## 42
+## 50
 ## Construct the following using a `for` loop.
 ## Let the user specify how many rows to print.
 ## 1 times A is A
@@ -649,7 +635,7 @@ print("Hello"*3)
 ## 4 times A is AAAA
 
 
-## 43
+## 51
 ## Construct the following pattern using a `for` loop.
 ## Let the user specify how many rows to print.
 ## A
@@ -658,7 +644,7 @@ print("Hello"*3)
 ## AAAA
 
 
-## 44
+## 52
 ## Copy and modify the earlier `instructors` example to display each person's name and salary.
 ## Compute the salary using this formula:
 ##   For 0 to 4 years, the pay is $35000.
@@ -676,7 +662,7 @@ print("Hello"*3)
 ##     Maria: 7 years of experience, $36000 per year
 
 
-## 45
+## 53
 ## Copy and modify the previous example.
 ## Ask the user for...
 ##  - the base pay, and
@@ -687,14 +673,14 @@ print("Hello"*3)
 ##     Maria: 7 years of experience, $57000 per year
 
 
-## 46
+## 54
 ## Try this. It shows how to use `enumerate`.
 names = ["Sam", "Lisa", "Micah", "Dave"]
 for indx, elem in enumerate(names):
     print(f"The index is {indx} and the element is {elem}")
 
 
-## 47
+## 55
 ## Now, let's experiment with counting.
 ## Modify the earlier example (the one that printed "Hello" with "!" after each letter) so it outputs the 
 ##  indices of the letters before the letters.
@@ -718,22 +704,22 @@ freqs = [2403.6, 101.3, 90.1, 5.2, 2410.2, 3.7]
 Given that list of frequencies, complete the following:
 
 ```python3
-## 48
+## 56
 ## Using a loop, print each frequency, and then print whether it is
 ## in the Wi-Fi range, the FM Radio range, or Neither Wi-Fi nor FM.
 
 
-## 49
+## 57
 ## Modify the previous example to count how many frequencies were in each category.
 ## At the end of the program, print the count for each category.
 
 
-## 50
+## 58
 ## A report is being produced which only shows detected Wi-Fi frequencies.
 ## Make a copy of the previous program that only prints the Wi-Fi frequencies from the list.
 
 
-## 51
+## 59
 ## After having read the report, someone wants to know where in the list that the Wi-Fi
 ## frequencies occur. Make a program that prints both Wi-Fi frequencies and their indices.
 ## You'll most likely want to use the enumerate function.
@@ -743,14 +729,14 @@ Given that list of frequencies, complete the following:
 ## 2410.2 MHz: index 4
 
 
-## 52
+## 60
 ## Some of the audience of the report is unfamiliar with MHz.
 ## Modify one (any one) of the above spectrum-related questions
 ## to allow the user to choose if they want to see the results in MHz or GHz.
 ## Then print the frequencies using the chosen unit.
 
 
-## 53
+## 61
 ## Someone now wants a program to convert between MHz and GHz.
 ## The person wants to be able to type everything in one prompt, for example,
 
@@ -762,7 +748,7 @@ Given that list of frequencies, complete the following:
 ## Note 2: You can assume the user enters valid data, or, for a challenge, check for data validity.
 
 
-## 54
+## 62
 ## Try this:
 userdata = input("Enter two numbers, separated by a space.")
 a, b = userdata.split()
@@ -774,7 +760,7 @@ print(f"First number: {a} and second number: {b}")
 These exercises can be done using a for loop inside another for loop.
 
 ```python3
-## 55: nested for-loops
+## 63: nested for-loops
 ## (challenge question)
 ## Display multiplication facts from 1 to 5:
 ## 1 * 1 = 1
@@ -788,7 +774,7 @@ These exercises can be done using a for loop inside another for loop.
 ## ...
 ## 5 * 5 = 25
 
-## 56: nested for-loops -- Multiplication table 
+## 64: nested for-loops -- Multiplication table 
 ## (challenge question)
 ## Using the nested for-loops you created to display multiplication facts from 1 to 5 (above),
 ## display the results in a table:
