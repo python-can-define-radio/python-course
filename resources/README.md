@@ -56,6 +56,8 @@ Games practice problems learning websites videos
 - Web server using Flask (another): This one is good; requires either a Raspberry Pi or some modifications. https://towardsdatascience.com/python-webserver-with-flask-and-raspberry-pi-398423cc6f5d
 - Web server using Django: (This one is a bit steeper of a learning curve than the Flask one) https://djangoproject.com/ 
 - Project ideas https://pythongeeks.org/python-projects/
+- Dont know if this one is any good it requires registration.
+  - https://www.sololearn.com/en/learn/courses/python-developer
   
 ### Learning ethical hacking:
   - https://www.hackerone.com/hackers/hacker101
