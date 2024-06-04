@@ -17,7 +17,7 @@
 # Type the corrected version of each line.
 # Indicate whether the original line on the test
 # had an error or not using a comment as shown:
-#   x = input("Hello!")         # line 1: no error 
+#   x = input("Hello!")         # line 1: no error
 #   print("Have a good day.")   # line 2: error
 #   print("Words.")             # line 3: error
 #   print("5 is more than 4.")  # line 3: no error
@@ -88,7 +88,7 @@
 
 ## 17
 # Change all three columns of the table provided to match the calculations listed on the test.
-# Change the content of the 'answer' and 'explanation' columns appropriately so 
+# Change the content of the 'answer' and 'explanation' columns appropriately so
 # they match the provided calculations.
 # print("""
 # calculation    answer  explanation
@@ -104,7 +104,7 @@
 #  ...
 #  ...
 # Type your explanation:
-print("This did ________ because _________")
+# print("This did ________ because _________")
 
 
 ## 19
