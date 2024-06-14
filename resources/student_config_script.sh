@@ -399,3 +399,4 @@ then
 else 
     echo "Please restart the file browser when convenient."
 fi
+xrandr --output HDMI-2 --off
