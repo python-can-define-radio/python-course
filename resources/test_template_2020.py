@@ -44,8 +44,31 @@
 
 
 ## 6
-# Type the corrected version of each line.
-# Use the same format as in question 5.
+# Type the corrected version as shown.
+# For example, if you were given this code:
+#  Part A
+#    g = "9"
+#    h = g - 5
+#    print(h)
+#  Part B
+#    i = 7
+#    k = i + 2
+#    print(w)
+# The answer would be written like so:
+# print("""
+# Part A corrected:
+# g =  9
+#     ^ ^
+# h = g - 5
+# print(h)
+# 
+# Part B corrected:
+# i = 7
+# k = i + 2
+# print(k)
+#       ^
+# """)
+
 
 
 ## 7
