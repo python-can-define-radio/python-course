@@ -15,12 +15,22 @@
 
 ## 5
 # Type the corrected version of each line.
-# Indicate whether the original line on the test
-# had an error or not using a comment as shown:
-#   x = input("Hello!")         # line 1: no error
-#   print("Have a good day.")   # line 2: error
-#   print("Words.")             # line 3: error
-#   print("5 is more than 4.")  # line 3: no error
+# Point to the errors using ^ as shown below.
+# Example: if the code in the test question looked like this...
+#    1st:   x = [11, 22  33]
+#    2nd:   y =  44, 55, 66]
+# ...then you would write...
+
+# print("1st line corrected:")
+# print("x = [11, 22, 33]")
+# print("           ^    ")
+
+# print("2nd line corrected:")
+# print("y = [44, 55, 66]")
+# print("    ^          ")
+
+
+
 
 
 ## 6
