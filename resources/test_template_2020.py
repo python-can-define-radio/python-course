@@ -30,9 +30,6 @@
 # print("    ^          ")
 
 
-
-
-
 ## 6
 # Type the corrected version of each line.
 # Indicate whether the original line on the test
