@@ -25,6 +25,7 @@
 # Example: if the code in the test question looked like this...
 #    1st:   x = [11, 22  33]
 #    2nd:   y =  44, 55, 66]
+#    3rd:   z = "hi  + "everyone"
 # ...then you would write...
 # print("""
 # Line 1 corrected:
@@ -34,6 +35,11 @@
 # Line 2 corrected:
 # y = [44, 55, 66]
 #     ^          
+# 
+# Line 3 corrected:
+# z = "hi" + "everyone"
+#        ^          
+# 
 # """)
 
 
