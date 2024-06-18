@@ -1,3 +1,7 @@
+# # UNFINISHED
+# # The line above prevents accidental submission. It must be removed before the submission will be accepted.
+
+
 ## 1
 
 
@@ -11,6 +15,8 @@
 
 ## 4
 # Remember to abbreviate.
+# If it asks you to describe the directions for something that
+# you don't know how to do, just make it up.
 
 
 ## 5
@@ -20,24 +26,25 @@
 #    1st:   x = [11, 22  33]
 #    2nd:   y =  44, 55, 66]
 # ...then you would write...
-
-# print("1st line corrected:")
-# print("x = [11, 22, 33]")
-# print("           ^    ")
-
-# print("2nd line corrected:")
-# print("y = [44, 55, 66]")
-# print("    ^          ")
+# print("""
+# Line 1 corrected:
+# x = [11, 22, 33]
+#            ^    
+# 
+# Line 2 corrected:
+# y = [44, 55, 66]
+#     ^          
+# """)
 
 
 ## 6
 # Type the corrected version of each line.
-# Indicate whether the original line on the test
-# had an error or not using a comment as in question 5.
+# Use the same format as in question 5.
 
 
 ## 7
-# - Type the answer only, WITHOUT THE LETTER, in a print statement.
+# Type the answer, WITH THE LETTER, in a print statement.
+# Do not type the question.
 #  Example question:
 #      What color is close to red?
 #          A. Blue
@@ -45,7 +52,7 @@
 #          C. Teal
 #          D. Orange
 #  You would type...
-#          print("Orange")
+#          print("D. Orange")
 # print("_____")
 
 
