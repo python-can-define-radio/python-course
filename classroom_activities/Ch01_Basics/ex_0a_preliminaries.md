@@ -4,7 +4,10 @@
 These instructions assume you are working on a Linux operating system (OS).
 
 <details><summary>Create student login accounts. (Expand for details)</summary>
+<br/>
     
+_Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial](https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-string-manipulation-by-building-a-cipher/step-1)._
+
   1. Insert ID card.
 
   2. In the browser, go to the registration page that the instructors will provide.
