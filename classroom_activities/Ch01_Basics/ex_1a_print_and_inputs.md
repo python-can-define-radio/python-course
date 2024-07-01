@@ -556,6 +556,17 @@ y = "5"
 print(x*y)
 ```
 
+The next exercise shows a common mistake.
+
+```python3
+## 30b
+## What is wrong with this code?
+a = int(input("First num?"))
+b = int(input("Second num? "))
+c = {a} + {b}
+print(f"The sum is {c}.")
+```
+
 ### Optional exercises
 
 <details><summary>Expand here for additional content.</summary>
