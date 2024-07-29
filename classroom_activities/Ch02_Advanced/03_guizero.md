@@ -200,7 +200,6 @@ def when_buttongroup_activated():
     propagate()
     
 
-
 def when_slider_moved():
     global state
     state = float(slider.value)
