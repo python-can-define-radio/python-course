@@ -35,11 +35,11 @@ Single line to convert and resize
 #### Examble of blur:  
 The numbers `5x8` are {radius}x{sigma} controlling the amount of blur.  
 You can experiment or look at this link [blurring and sharpening](https://legacy.imagemagick.org/Usage/blur/#blur) for an in-depth explanation.  
-`convert calculate.png -blur 5x8 calculate4.png`  
+`convert calculate.png -blur 5x8 calculate5.png`  
 
 #### Example of all three:  
 Reformats .png to .jpg, resizes by 50% and blurs the image  
-`convert calculate.png -resize 50% -blur 1x2 calculate4.jpg`  
+`convert calculate.png -resize 50% -blur 1x2 calculate.jpg`  
 
 #### Example of crop:  
 The first two numbers `564x83` are the resolution of the new image.  
