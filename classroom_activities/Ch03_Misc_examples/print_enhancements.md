@@ -5,11 +5,11 @@ Goals:
     1. To move the print location within a terminal window while running a Python program. E.g., move the print location upwards to a line previoiusly printed and over-type existing text.
     2. To enhance the text appearance, e.g. change text color.
 
-Key py module: rich
+Key python module: rich
 
 Ref: https://rich.readthedocs.io/en/stable/reference/console.html
 
-# You man need to run "pip3 install rich" in a Terminal window.
+# You may need to run "pip3 install rich" in a Terminal window.
 Note: As usual, pairs of single and pairs of double quotation marks can be used interchangably.
 """
 
