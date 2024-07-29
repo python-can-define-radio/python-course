@@ -138,7 +138,7 @@ app.display()
 <i>Exercise #6:</i>    
 Adding a Slider and ButtonGroup.
   - Use the slider or radio buttons to make your app do something.
-  - These widgets use pre-built functions assigned by the `command` parameter to make something happen. If you are unfamiliar with functions, refer back to exercise ex_8a_turtle_and_functions.md
+  - These widgets use pre-built functions assigned by the `command` parameter to make something happen. If you are unfamiliar with functions, refer back to exercise ex_6c_functions.md or ex_6d_functions_using_turtle.md
 <details><summary>Expand here for code.</summary>  
 
 Simple version:
