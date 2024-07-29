@@ -42,9 +42,10 @@ name = input_dialog(
 
 
 ## 4
-## Use the example below and make changes to add a second dialog box to your previous code to tell the user
-## the purpose of your program.
-## Hint: place it above the `input_dialog` if you want it to run first and don't forget to update your import.
+## Use the example below and make changes to add a second dialog box to your previous code to
+## tell the user the purpose of your program.
+## Hint: place it above the `input_dialog` if you want it to run first and don't forget to
+## update your import.
 
 message_dialog(
     title=f"Calculator!!",
