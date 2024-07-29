@@ -24,7 +24,7 @@ It can even convert to non-image formats, like .pdf. However, this will give you
 Resizes by 50%  
 `convert calculate.png -resize 50% calculate2.png`  
 Or you can specify your size  
-`convert calculate.png -resize 100x100 calculate4.png`  
+`convert calculate.png -resize 100x100 calculate3.png`  
 Stretches the width while shrinking the height  
 `convert calculate.png -resize 200%x50% calculate4.png`  
 
