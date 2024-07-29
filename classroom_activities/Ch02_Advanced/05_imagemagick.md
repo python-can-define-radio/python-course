@@ -46,11 +46,11 @@ The first two numbers `564x83` are the resolution of the new image.
 The second two numbers identify the x,y coordinates where you want to begin the crop.  
 In the example below, the crop starts `+23` pixels from the left, and `+135` pixels from the top.  
 Repaging the cropped image will eliminate unneeded data in the resulting image, allowing for a smaller file size.  
-`convert calculate.png -crop 564x83+23+135 +repage calculate4.png` 
+`convert calculate.png -crop 564x83+23+135 +repage calculate6.png` 
 
 #### Example of all four:
 Reformats, resizes, blurs, and crops all at once.  
-`convert calculate.png -crop 564x83+23+135 -resize 50% -blur 1x2 calculate2.jpeg`  
+`convert calculate.png -crop 564x83+23+135 -resize 50% -blur 1x2 calculate.jpeg`  
 Notice that by putting `-crop` before `-resize`, the cropping coordinates are relative to the original image size. The resolution of the resized image will be different, so cropping after resizing crops a different part of the image.
 
 #### Example of combine:
