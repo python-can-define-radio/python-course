@@ -82,7 +82,7 @@ if name == "joe":
 print("Have a good day.")
 ```
 
-When an else-statement follows an if-statement, the computer can choose between performing a first operation or a second operation.
+When an else-statement follows an if-statement, the computer chooses between performing the first operation or the second operation.
 
 ```python3
 ## 4
@@ -204,7 +204,8 @@ print(ageNextYear)
 
 
 ## 11
-## Write a program that satisfies the following examples. Remember that the "✎" indicates user input.
+## Write a program that satisfies the following examples.
+## Remember that the "✎" indicates user input.
 ## Example 1:
 ##   How old are you? ✎ 55
 ##   I see you are 55 years old.
