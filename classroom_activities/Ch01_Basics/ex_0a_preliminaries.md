@@ -151,7 +151,9 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 
 - `Ctrl /` (VS Code), `Ctrl 3` (Thonny): toggle comment / uncomment  (while lines are selected)
 - `Home`: Cursor to beginning of line
+    - `Ctrl Home`: Cursor to the beginning of the file
 - `End`: Cursor to end of line
+    - `Ctrl End`: Cursor to the end of the file
 - `Shift arrowkey`: Highlight forward/backward/up/down
 - `Ctrl arrowkey`: Move cursor by words
 - `Ctrl D` (VS Code only): Select multiple instances (powerful but advanced feature)
