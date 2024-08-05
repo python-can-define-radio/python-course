@@ -156,7 +156,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 - `Ctrl arrowkey`: Move cursor by words
 - `Ctrl D` (VS Code only): Select multiple instances (powerful but advanced feature)
 - `Ctrl Y`: Redo
-- `Alt 	↑`: Moves the line the cursor is on up one line
+- `Alt ↑`: Moves the line the cursor is on up one line
 - `Alt ↓`: Moves the line the cursor is on down one line
 - `Alt Z` (VS Code only): Toggles wordwrap
 - `Ctrl Shift Space` (VS Code only): Toggles Parameter hints
