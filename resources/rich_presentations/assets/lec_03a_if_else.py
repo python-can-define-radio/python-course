@@ -43,8 +43,8 @@ Operators
 | Type | Common name | used for |
 |--|-----------|--------|
 |=| equal |stores data in a variable |         
-|==| equal | checks if equal |
-|!=| not equal | checks if not equal |
+|==| equal | comparison to check if equal |
+|!=| not equal | comparison to check if not equal |
 
 """))  
 

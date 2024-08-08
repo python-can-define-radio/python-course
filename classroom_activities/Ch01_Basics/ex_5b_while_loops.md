@@ -147,7 +147,7 @@ print("Ok, stopping.")
 ## Copy and modify the previous example like so:
 ## If the user types anything other than "no", then keep going.
 ## (So the user could type "yes", "hi", etc.)
-## Recommendation: you can use the != operator, which means "not equal",
+## Recommendation: you can use the != comparison operator, which means "not equal",
 ##  or you can use `not in` as shown above.
 
 

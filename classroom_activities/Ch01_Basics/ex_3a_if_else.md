@@ -163,7 +163,7 @@ print("Greetings.")
 ## - Ask the user for a name
 ## - If the name is anything other than Bob, then
 ##   display "I don't think I know you. I only know Bob."
-## Hint: the != operator means "not equal".
+## Hint: the != operator means is a comparison operator meaning "not equal".
 
 
 ## 7dd

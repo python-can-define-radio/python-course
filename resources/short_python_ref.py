@@ -64,11 +64,11 @@ print(remainder)
 ## However, here's a better description, from the Mozilla Developer Network (MDN):
 ## "A Boolean is a logical data type that can have only the values True or False."
 
-## The double equals is used to check if two values are equal (that is, to check if they are the same).
+## The double equals is a comparison operator which is used to check if two values are equal (that is, to check if they are the same).
 are_same = x == y
 print(are_same)
 
-## The exclaimation-point-equals is used to check if two values are not equal (that is, to check if they are different).
+## The exclaimation-point-equals is a comparison operator used to check if two values are not equal (that is, to check if they are different).
 are_different = x != y
 print(are_different)
 
