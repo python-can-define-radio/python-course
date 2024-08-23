@@ -327,6 +327,17 @@ for line in lines:
 ##    Lacy
 ##    Joe
 ## As before, the names and heart rates should not appear in your Python code.
+
+
+## 27
+## Given the same file from the previous exercise,
+## write the names of those who have a heart rate less than 70
+## to a new file called "low-heart-rate.txt"
+
+
+## 28
+## Copy and modify the previous example so that instead of
+## always writing to "low-heart-rate.txt", it asks the user what to call the file.
 ```
 
 -----------
