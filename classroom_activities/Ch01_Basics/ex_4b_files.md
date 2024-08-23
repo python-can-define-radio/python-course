@@ -47,6 +47,17 @@ f = open("something_very_unique_file.txt", encoding="utf-8")
 contents = f.read()
 print(contents)
 f.close()
+
+## 5a
+## As with any Python string, you can use a variable instead of
+## typing the string directly.
+## Copy and modify the previous example to do the following:
+## - Ask the user for the name of the desired text file.
+## - Display "Reading the file ____." (fill the blank with the user-defined filename.)
+## - Display the contents of that file.
+#######################
+## INSTRUCTOR CHECK
+#######################
 ```
 
 Note: It's [considered good practice](https://pylint.pycqa.org/en/latest/user_guide/messages/warning/unspecified-encoding.html) to specify the encoding of a file when reading or writing. It's not strictly necessary, but omitting the encoding can cause issues with special characters on the Windows OS, so we are following the recommended practice.
