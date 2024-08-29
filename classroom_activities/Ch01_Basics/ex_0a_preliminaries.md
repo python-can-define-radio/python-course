@@ -164,6 +164,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 - `Ctrl Shift Space` (VS Code only): Toggles Parameter hints
   - If shortcut does not work navigate to File>Preferences>Settings
   - Type in parameter hints and uncheck ☑️`Editor › Parameter Hints: Enabled`
+- `F5`: Runs code. Default in Thonny, needs config in VS Code (see below)
 - Common to other text editors
   - `Ctrl S`: Saves current file
   - `Ctrl A`: Select all
@@ -172,12 +173,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
   - `Ctrl V`: Paste
   - `Ctrl Z`: Undo
   - `Backspace`: Erase to the left
-  - `Delete`:<details><summary>Erase to the right (Expand)</summary>
-  
-    Notes about `Delete`:
-    - In the "Terminal" program, the cursor is a box.  The `Delete` key deletes the character inside the cursor box and pulls text from the RIGHT.
-    - For many other programs, the cursor is a line that sits between two characters.  In this case, the {Delete} key deletes the character on the RIGHT side of the cursor and pulls text from the right.
-  </details>
+  - `Delete`: Erase from the right
 </details>
 
 <details><summary>Icons (Expand for details)</summary>
