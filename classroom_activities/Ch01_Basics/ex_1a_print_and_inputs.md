@@ -7,14 +7,14 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 
 - Open VS Code
 - Open your folder using `File -> Open Folder` (If needed, first create a folder using the Terminal or the file managment program.)
-- Create a file called `ex_2a_print_inputs.py`
+- Create a file called `ex_1a_print_and_inputs.py`
 - Now that you have that file open, type this in that file:
      ```python3
      print("Here we go!")
      ```
 - Save the file to your local drive by press the key combination {Ctrl}{S} or by using the "File/Save" menu command.
 - Open the VS Code terminal by pressing `View -> Terminal`, or using the keyboard shortcut <code>Ctrl `</code>.
-- Type `python3 ex_2a_print_inputs.py` and press enter.
+- Type `python3 ex_1a_print_and_inputs.py` and press enter.
 - It should display "Here we go!" in the terminal.
 - Ask if you have any questions.
 </details>
@@ -25,7 +25,7 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 - Once Thonny opens, click `View > Files` to see the complete file structure.
     - You may also want to select Variables and/or Assistant to open their panes as well.
 - Navigate to your personal folder in the Files pane on the left.
-- Create a file called `ex_2a_print_inputs.py`
+- Create a file called `ex_1a_print_and_inputs.py`
 - Now that you have that file open, type this in that file:
      ```python3
      print("Here we go!")
