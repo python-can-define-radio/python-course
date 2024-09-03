@@ -195,11 +195,14 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 
 </details>
 
-<details><summary>We will be using Github for many of our Python and SDR lessons. (Expand for details)</summary>
+<details><summary>Ways to save your work</summary>
 
-  1) If you want, you may [create a free GitHub account](https://github.com).
-  
-  2) This will give you a repository in which you can save your work.
-  
-  3) For more information on Github Accounts:https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account
+### Mailo
+
+[Mailo](https://www.mailo.com/) is an email and cloud storage provider. You can create an account without a pre-existing email / phone, and then either send your files in an email, or upload them to Mailo's cloud drive. 
+    
+### Github 
+    
+We use Github to host many of our Python and SDR lessons. You can create a [Github account](https://github.com) to store your files if you wish. For more information on Github Accounts, see [here](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
+
 </details>
