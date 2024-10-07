@@ -38,16 +38,18 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 
 ℹ️ This material coincides with material from python slideshow B (slides 1-11, 16, 69). 
 
-### Background info
-
-Before we get to the rest of the exercises, here's a little info about what we're doing. This quoted from https://learn.arcade.academy/en/latest/chapters/04_print_statement/print_statement.html .
-
-> "In this chapter we’ll write our first programs using the most fundamental of all tools in the programmer’s toolbox, the **print** function. This function does exactly what you’d expect––it prints to the screen.  
->   
-> "While a lot of programs are graphics-based, text-only programs are still quite common with people that manage computers, or who do data analytics. Even for the graphics-based games we develop in this book, the **print** function will be a vital aid in understanding and debugging our games."
-
-
 ### Exercises
+
+#### Variables
+
+Let's start by creating some **variables**.
+
+```python3
+number_of_magic_beans = 5
+price_per_bean = 3
+tot_price = number_of_magic_beans * price_per_bean
+print(tot_price)
+```
 
 #### Using Simple Print Statements
 
