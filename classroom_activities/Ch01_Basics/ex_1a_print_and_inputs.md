@@ -96,40 +96,17 @@ Speaking of comments, you'll see that we've numbered our exercises. Number them 
 ```python3
 ## 2a
 ## Try this.
-print("If you want \n separate lines, you \n can also do it \n like this.")
-
-
-## 2b
-## Try this.
-print("This thing inside quotes is called a \"string\". If you want")
-print("to put quotes inside of quotes, you precede the quotes with a backslash.")
-```
-
-The backslash (`\`) is the character that always begins an 'escape sequence' in Python. An escape sequence can have one of two uses:
-- It allows you type special characters, such as newline (`\n`).
-- It allows you to type characters in a string that would normally have special meaning in Python, such as `"`.
-
-```python3
-## 2c
-## Try this.
 print("""If you put three quote marks, 
 you can easily enter a
 multi-line
 string.""")
 
 
-## 2d
-## You can also use triple quotes similarly to how you use comments:
-"""If I wanted to write a long explanation,
-I could write it like this
-instead of using the '#' if I wanted to."""
-
-
 ## 2e
 ## Try this.
 print('In Python, the single quote can be used instead of the double quote.')
-print("You can put 'single quotes' inside of double quotes, or vice versa, without needing an escape sequence.")
-print('However, if you want single quotes inside of single quotes, you\'ll need to escape them using a backslash.')
+print('''You can use three single quotes
+to make a multi-line string.''')
 ```
 
 #### Using Variables
@@ -166,11 +143,7 @@ print(f"My name is {firstn} {lastn}")
 ## 4b
 ## You can also use commas, but only in functions that
 ## support it, such as print.
-## (Later, when we get to file writing, the 
-## comma approach doesn't work, but f-strings do work.)
 print("My name is", firstn, lastn)
-
-## (Remember to define your variables.  Where should the variable definitions be placed to be effective?)
 ```
 
 #### Using the Debugger
