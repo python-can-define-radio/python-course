@@ -52,68 +52,55 @@ For example:
 - The "f" inside the curly braces, such as, {item_number:.2f}, means ***fixed-point notation***. That is, the number of decimal places is fixed.
 
 Here are some examples of how to specify the formatting when printing.
-```python3
-## Example group 1
-## Try these all at once.
-item_number = 27.283
-print()
-print(f"My item num is {item_number}.")
-print()
-print(f"My item num is {item_number:10}. Notice that it is padded with spaces on the left.")
-print()
-print(f"My item num is {item_number:.2f}, rounded to two decimal places.")
-print()
-print(f"My item num is both rounded and has extra space: {item_number:9.2f}. Do you see?")
-print()
-print("You can also center the value within the available space.")
-print("I'll add some letters before and after to make it clear:")
-print(f"letters{item_number:^11.2f}letters")
-print()
-print(f"Here's how to left-align with some letters after for visual context: {item_number:<11.2f}letters")
-```
 
-```python3
-## Example group 2
-## Try these all at once.
-another_num = 17
-print("Here's how to display in binary, octal, hexadecimal:")
-print(f"The number {another_num}, expressed in binary, is {another_num:b}.")
-print(f"The number {another_num}, expressed in octal, is {another_num:o}.")
-print(f"The number {another_num}, expressed in hexadecimal, is {another_num:x}.")
-
-## Incidentally, the format code "d" means decimal, which is the default:
-print(f"The number {another_num}, expressed in decimal, is {another_num:d}.")
-
-## You can also display the number with a prefix that indicates the number system:
-print(f"The number {another_num}, expressed in binary with a prefix, is {another_num:#b}.")
-print(f"The number {another_num}, expressed in octal with a prefix, is {another_num:#o}.")
-print(f"The number {another_num}, expressed in hexadecimal with a prefix, is {another_num:#x}.")
-```
-
-```python3
-## Note that the format specifiers for other number systems don't work for floats:
-item_number = 27.283
-print(f"This will give an error, because item_number is a float: {item_number:b}.")
-```
-
-### Exercises
-- Hint: Each of these exercises require at least one `input` "ask the user" statement,  and one `print` "display" statement.
 ```python3
 ## 1
+## Try this.
+item_number = 27.286
+print("My item num is", item_number, ".")
+print("My item num is", format(item_number, ".2f"), "rounded to two decimal places.")
+```
+
+Here's how to do the same using f-strings.
+
+```python3
+## 2
+## Try this.
+item_number = 27.286
+print(f"My item num is {item_number}.")
+print(f"My item num is {item_number:.2f}, rounded to two decimal places.")
+
+## 3
 ## Ask the user a number.
 ## Display the number rounded to 3 decimal places.
 
-
-## 2 
+## 4
 ## Ask the user for the current cost-per-gallon of
 ## gasoline. Display the cost per pint,
 ## rounded to the nearest cent.
+#######################
+## INSTRUCTOR CHECK
+#######################
 ```
 
-### For more information:
+You can also use format specifiers to add leading spaces. Notice that this allows things like prices to be vertically aligned on the decimal place.
+
+```python3
+## 5
+apple_price = 1.78
+something_expensive = 1062.02
+guitar_price = 162.17
+print("Prices:")
+print(f"{apple_price:8}")
+print(f"{something_expensive:8}")
+print(f"{guitar_price:8}")
+```
+
+<details><summary>For more information:</summary>
 - This website gives some great practical examples. Recommended to start here.  
   https://www.linisnil.com/articles/practical-guide-to-python-string-format-specifiers/  
 - Another good site.  
   https://www.pythonmorsels.com/string-formatting/  
 - This website gives detailed documentation; somewhat more difficult to read.  
   https://docs.python.org/3/library/string.html#format-specification-mini-language
+</details>
