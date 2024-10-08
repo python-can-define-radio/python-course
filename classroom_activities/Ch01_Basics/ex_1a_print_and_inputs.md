@@ -49,7 +49,7 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 
 #### Variables
 
-Let's start by creating some **variables**.
+Let's start by creating some **variables**. Variables are used to store data, and give it a specific name.
 
 ```python3
 ## 1
@@ -144,6 +144,8 @@ capi = full_sentence.capitalize()
 print(capi)
 ```
 
+Now, try it by filling in the blanks:
+
 ```python3
 ## 7
 ## Complete the following:
@@ -195,6 +197,49 @@ apples = 3
 print(f"I have {apples} apples.")
 ```
 
+### Common error messages so far
+
+Here are some troubleshooting techniques for errors you might have encountered.
+
+Example 1:
+
+```python3
+## 11
+## Try this. You will get an error message.
+apples = 3
+print(appls)
+```
+
+This will show the following error message:
+
+```
+Traceback (most recent call last):
+  ...
+NameError: name 'appls' is not defined
+```
+
+Python is trying to say the following: "You asked me to display the contents of a variable called `appls`, but there aren't any variables called `appls`.
+
+In that case, the solution is fairly clear -- fix the spelling.
+
+Example 2:
+
+```python3
+## 11
+## Try this. You will get an error message.
+print(hello)
+```
+
+This will show the following error message:
+
+```
+Traceback (most recent call last):
+  ...
+NameError: name 'hello' is not defined
+```
+
+The error is the same as before, but the reason is different: in this case, we're trying to display the literal text "hello", but Python doesn't know that -- it assumes that hello refers to a variable, and there is no variable called "hello" in this program. The solution: tell Python that we want to display the _string_ "hello": `print("hello")`.
+
 ### Inputs
 
 You can make programs interactive by using the `input()` function. Here's an example:
@@ -207,7 +252,105 @@ greeting = "hello " + customer + "!"
 print(greeting.upper())
 ```
 
-If you run this, you'll see that the program pauses to wait  TODO: THIS IS WHERE I LEFT OFF
+When you run this, you'll see that the `input` function causes the program to pause. The `input()` means "Wait for the user to type something before moving on."
+
+Who is "the user"? Well, imagine that you write the code, run the program, and then hand the keyboard to your neighbor. In this case, your neighbor is the "user". You should act as though the user can't see the Python code -- he/she can only see the output of the program as it is running. 
+
+Practice:
+
+```python3
+## 11
+## Fill in the blanks.
+print("Enter a color: ")
+color = input()
+print("Enter an animal: ")
+___ = input()
+print("Enter a plant: ")
+plant = ___()
+print("The color you chose is", color)
+print("The animal you chose is", ___)
+print("The plant you chose is", plant)
+
+
+## 12
+## Fill in the blanks.
+print("Enter the name of a car.")
+___ = input()
+print("The car you named is", somecar)
+length_carname = len(___)
+print("That car's name contains", length_carname, "characters.")
+
+
+## 13
+## Ask the user to enter the name of a planet.
+## Display "That planet in all capital letters would be ___".
+
+
+## 13
+## Ask the user to enter the name of a planet.
+## Display "That planet's name is ___ characters long".
+#####################
+## INSTRUCTOR CHECK
+#####################
+## (Questions marked as INSTRUCTOR-CHECK are ones for which you should
+##  show your answer to an instructor to verify that it fulfills the intent of the question.)
+
+
+## 14
+## Ask the user for the name of an animal,
+## and then print "The animal you named is ____. I think that it would make a nice pet."
+## Example run:
+##   Type the name of an animal: ✎ dog
+##   The animal you named is dog. I think that it would make a nice pet.
+## (The "✎" emoji is optional. It indicates where the user
+##  will enter input.)
+
+
+## 15
+## Ask the user for the name of an animal and of a plant.
+## Then display "The ___ eats ___ every day",
+## but fill in the blanks with the animal and the plant the user entered.
+```
+
+#### More about data types
+
+We've seen two data types so far: strings and integers. We've also seen that the way `+` works depends on the data type. Here's a brief review:
+
+```python3
+## 16
+apples = 3
+print("I have", apples, "apples.")
+onemore = apples + 1
+print("If I had another, I would have", onemore, "apples.")
+planet = "Mars"
+print("Here's a planet name:", planet)
+followed = planet + "1"
+print("Here's that planet's name, followed by the number 1:", followed)
+```
+
+What happens if we try to mix types?
+```python3
+## 17
+## Try this. You will see an error.
+planet = "Mars"
+apples = 3
+print(planet + apples)
+```
+
+Running this will display...
+
+```
+Traceback (most recent call last):
+  ...
+TypeError: can only concatenate str (not "int") to str
+```
+
+This is Python's way to say that...
+
+TODO
+
+
+
 
 ```python3
 ## 2a
@@ -225,43 +368,6 @@ print('''You can use three single quotes
 to make a multi-line string.''')
 ```
 
-#### Using Variables
-
-At this point, you've displayed some text on the screen. We may also want to store data, and give it a specific name. In programming, this storage is done using a **variable**.
-
-If you'd like to read more about variables, go to section 7.1 on this page: https://learn.arcade.academy/en/latest/chapters/07_expressions/expressions.html
-
-```python3
-## 3a
-## Try this.
-## firstn and lastn are the two variables in this example.
-## When you run this, you won't see Smith. Why not?
-
-firstn = "Bob"
-lastn = "Smith"
-print(firstn)
-
-
-## 3b
-## Copy and modify the previous example so that it
-## prints firstn, and then prints lastn.
-
-
-## 4a
-## Try this.
-## This example uses an f-string. The f stands for "format".
-## f-strings are used to insert variables inside of a string.
-firstn = "Bob"
-lastn = "Smith"
-print(f"My name is {firstn} {lastn}")
-
-
-## 4b
-## You can also use commas, but only in functions that
-## support it, such as print.
-print("My name is", firstn, lastn)
-```
-
 #### Using the Debugger
 
 The debugger is useful for watching your code as it runs. Thonny's debugger is particularly useful, as it evaluates individual steps within a line of code.
@@ -274,100 +380,9 @@ For more information on debugging in Thonny, see the [Thonny homepage](https://t
 
 For a short video on debugging with Thonny go [here](https://www.youtube.com/watch?v=QQAqQp06nXo).
 
-#### Using Input Statements
-
-Now that we've seen some basic examples, let's ask the user to give us some info.
-
-Who is the user? Well, imagine that you write the code, run the program, and then hand the keyboard to your neighbor. Imagine that your neighbor sees this:
-
-```
-Hello!
-Type the name of a car, then press enter: 
-```
-
-Hopefully, your neighbor (the user) will type a car name. Regardless of what he/she types, the computer will reply like so:
-
-```
-The car you named is ____. That was a good choice.
-```
-
-However, instead of a blank, it will show the name of the car that the user typed.
-
-Try it out:
-
-```python3
-## 4c
-## Try this.
-## When you run it, it will ask you to type something.
-## You will need to click inside the terminal on the bottom half of the screen
-##   so that it has "focus" (that is, you want the words you type
-##   to be entered in the terminal).
-print("Hello!")
-cartype = input("Type the name of a car, then press enter: ")
-print(f"The car you named is {cartype}. That was a good choice.")
-```
-
-Here's some practice:
-
-```python3
-## 4d
-## Copy and modify the previous example so that it asks the user for the name of a car,
-## and then prints "The car you named is ____. Do you have one?"
-## In the blank, you should include whatever car the user named.
-## Example run 1:
-##   Type the name of a car: ✎ Honda
-##   The car you named is Honda. Do you have one?
-## Example run 2:
-##   Type the name of a car: ✎ Ford
-##   The car you named is Ford. Do you have one?
-## (The "✎" emoji is optional. It indicates where the user
-##  will enter input.)
 
 
-## 4e
-## Copy and modify the previous example so that it asks the user for the name of an animal,
-## and then prints "The animal you named is ____. I think that it would make a nice pet."
-## Example run:
-##   Type the name of an animal: ✎ dog
-##   The animal you named is dog. I think that it would make a nice pet.
 
-########################
-##  INSTRUCTOR-CHECK  ##
-########################
-## (Questions marked as INSTRUCTOR-CHECK are ones for which you should
-##  show your answer to an instructor to verify that it fulfills the intent of the question.)
-
-
-## 5
-## Try this.
-firstn = input("Please enter a first name? ")
-lastn = "Smith"
-print(f"Maybe someone is named: {firstn} {lastn}.")
-
-
-## 6a
-## Copy and modify the previous example so that it matches this:
-## Example run:
-##   First name? ✎ Bob
-##   Last name? ✎ Smith
-##   Your name is Bob Smith.
-
-
-## 7
-## Make a program that produces these results:
-## Example run 1:
-##   Favorite color? ✎ red
-##   red is a pretty color.
-## Example run 2:
-##   Favorite color? ✎ blue
-##   blue is a pretty color.
-
-
-## 8
-## Ask the user for the name of an animal and of a plant.
-## Then display "The ___ eats ___ every day",
-## but fill in the blanks with the animal and the plant the user entered.
-```
 
 #### Using Strings and Integers
 
