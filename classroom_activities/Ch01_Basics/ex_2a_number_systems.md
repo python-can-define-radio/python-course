@@ -48,7 +48,7 @@ print(f"An arbitrary number in hexadecimal without a prefix: {17:x}")
 
 ---------------
 
-Note that functions work alone, but the format specifiers don't:
+Note that functions work alone, but the format specifiers don't, unless you use the `format` function:
 
 ```python3
 ## This works:
@@ -58,4 +58,15 @@ print(f"The value is {exampleVar}.")
 ## This won't work:
 exampleVar = {6:b}
 print(f"The value is {exampleVar}.")
+
+## This works:
+exampleVar = format(6, "b")
+print(f"The value is {exampleVar}.")
+```
+
+Also note that the format specifiers for other number systems work for integers, but don't work for floats:
+
+```python3
+item_number = 27.283
+print(f"This will give an error, because item_number is a float: {item_number:b}.")
 ```
