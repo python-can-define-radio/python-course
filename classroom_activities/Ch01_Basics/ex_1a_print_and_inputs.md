@@ -35,8 +35,15 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 - It should display "Here we go!" in the terminal.
 - Ask if you have any questions.
 </details>
+<details><summary>Here's how to get set-up for BlockPy:</summary>
+     
+- Go to https://think.cs.vt.edu/blockpy/
+- In the row that says `Blocks | Split | Text`, click "Split".
+- Either drag blocks or write code.
+- Press Run.
+</details>
 
-ℹ️ This material coincides with material from python slideshow B (slides 1-11, 16, 69). 
+ℹ️ This material coincides with material from python slideshow B (slides 1-11, 16, 24, 54-63, 69). 
 
 ### Exercises
 
@@ -45,44 +52,54 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 Let's start by creating some **variables**.
 
 ```python3
+## 1
 number_of_magic_beans = 5
 price_per_bean = 3
 tot_price = number_of_magic_beans * price_per_bean
+print("The total price:")
 print(tot_price)
 ```
 
-#### Using Simple Print Statements
+In this example, we created three variables:
+
+- `number_of_magic_beans`, which contains the integer 5.
+- `price_per_bean`, which contains the integer 3.
+- `tot_price`, which contains the integer 15.
+
+_Understanding check:_ What is an integer?
+
+- We use the `print` function twice:
+  - The line `print("The total price:")` displays the text `The total price:` on the screen.
+  - The line `print(tot_price)` displays the contents of `tot_price`, that is, `15`.
+
+Notice the difference: the first `print`, which uses quotation marks, displays the literal text. The second `print`, which does not use quotation marks, treats `tot_price` as a variable.
 
 ```python3
-## 1 
-## Try this.
-print("Here we go!")
+## 2
+## Complete this code so that it calculates and displays the total number of fruits.
+apples = 3
+bananas = 5
+fruit_total = ___ + ___
+print("Total number of fruits:")
+print(___)
 
-## 1b
-## Try this.
-print("I can print")
-print("more than one line.")
+## 3
+## Complete this code so that it calculates and displays the speed.
+distance = 50
+time = 5
+speed = ___ / ___
+print("The speed is...")
+print(___)
+
+## 4
+## Write an example that uses subtraction. Show an instructor.
 ```
 
-Once you have run both of those exercises, you can "comment out the lines", that is, disable them. Here's how:
+At this point, it's useful to "comment out the lines", that is, disable them. Here's how:
 
 - In the editor, place your cursor on any part of the line (for example, the "n" of `print`).
 - Press `Ctrl` + `/` in VS Code, or `Ctrl` + `3` in Thonny. You'll see that the line is now preceded by a "#", and turns a different color. This indicates that it is "Commented" (disabled), that is, it will no longer run.
-
-Example:
-```python3
-# print("This line won't run because it is 'commented out'. ")
-# print("Any line preceded by a '#' will not run.")
-```
-
-We speak of commenting frequently, so here are some example sentences to show how the phrase is used:
-
-- "Comment out those lines"
-- "Disable those lines"
-- "Those lines are commented out"
-- "Comment them out"
-- "Rem those out" (_The verb "rem" comes from "remark", which is a synonym for comment._)
-- "Rem them out"
+  - Note: If you're using BlockPy, we recommend that you copy the exercises to either Thonny or VS Code.
 
 You can manually add the `#` characters if you want, but we recommend using the aforementioned keyboard shortcuts (`Ctrl` + `/` in VS Code, or `Ctrl` + `3` in Thonny).
 
@@ -90,10 +107,107 @@ Commenting out the exercises as you go is a great idea because it allows you to 
 
 Speaking of comments, you'll see that we've numbered our exercises. Number them accordingly on your computer as you work through them, as it makes them easier to find later. Also, we (the instructors) may refer to a specific exercise by number.
 
-### ***ℹ️ To save yourself from unecessary work do not delete the exercises when you complete them.*** 
+### ***ℹ️ To save yourself from unecessary work, do not delete the exercises when you complete them.*** 
 ### ***Comment them out and keep them for reference.***  
 ### ***These are your notes and can be used on the exam.***
-### ***If you are unsure what the recommended workflow should be, ask the instructor to demonstrate. ℹ️***
+### ***If you are unsure what the recommended workflow should be, ask an instructor to demonstrate. ℹ️***
+
+#### Strings
+
+We've seen that you can store integers in variables, for example, `apples = 3`.
+
+You can also store **strings** (text) in variables:
+
+```python3
+## 5
+greeting = "Hello"
+customer = "Bob"
+combined = greeting + customer
+print(combined)
+```
+
+Notice that the `+` acts differently for strings than it does for integers. Integers are added using math (that is, `5 + 3` becomes `8`), but strings are placed next to each other (`"Hello"` + `"Bob"` becomes `"HelloBob"`). This is called "concatenation", which means "to chain together".
+
+Here are some other examples of what we can do with strings:
+
+```python3
+## 6
+greeting = "hello"
+customer = "bob"
+combined = greeting + " " + customer
+shouted = combined.upper()
+print(shouted)
+no_cap = combined.lower()
+print(no_cap)
+full_sentence = combined + ".... Are you learning python today?"
+capi = full_sentence.capitalize()
+print(capi)
+```
+
+```python3
+## 7
+## Complete the following:
+customer = "caTHy"
+shouted_cust = ___.upper()
+print("The customer name, all uppercase, is...")
+print(shouted_cust)
+print("The customer name, all lowercase, is...")
+print(___.lower())
+print("The customer name, with proper capitalization, is...")
+print(customer.___())
+```
+
+You can also check the length of a string:
+
+```python3
+## 8
+a_long_word = "antidisestablishmentarianism"
+print("The length of the long word is")
+print(len(a_long_word))
+print("The length of the word 'hi' is ")
+print(len('hi'))
+```
+
+### Using variables inline
+
+When we use `print`, the thing that is being printed is called an "argument".
+
+Examples:
+
+- In `print(5)`, the argument is `5`.
+- In `print("hello")`, the argument is `"hello"`.
+
+You can also use `print` with multiple arguments:
+
+```python3
+## 9
+apples = 3
+print("I have", apples, "apples.")
+```
+
+Notice that when `"apples"` is in quotes, it's treated as a string (the literal word "apples"), while `apples` outside of quotes is interpreted as a variable.
+
+You can also use a **formatted string**, a.k.a. **f-string**:
+
+```python3
+## 10
+apples = 3
+print(f"I have {apples} apples.")
+```
+
+### Inputs
+
+You can make programs interactive by using the `input()` function. Here's an example:
+
+```python3
+## 11
+print("Enter the customer name: ")
+customer = input()
+greeting = "hello " + customer + "!"
+print(greeting.upper())
+```
+
+If you run this, you'll see that the program pauses to wait  TODO: THIS IS WHERE I LEFT OFF
 
 ```python3
 ## 2a
@@ -273,11 +387,6 @@ print(c)
 ## 9b
 mysentence = "Hello" + "everyone"
 print(mysentence)
-
-
-## 9c
-## Copy and modify the previous example so that 
-## it displays a space: "Hello everyone" rather than "Helloeveryone".
 ```
 
 As you can see, `a + b` was `"HelloGoodbye"`. The fancy name to say "add strings" is _concatenate_, which simply means putting the two strings next to each other, as shown above.
