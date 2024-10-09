@@ -53,8 +53,7 @@
 <div style=float:left>👩‍🏫</div>   
 
 - [Lists][ex_4a_lists] 
-- [Files][ex_4b_files]
-- [For loops][ex_4c_for_loops]
+- [For loops][ex_4b_for_loops]
 
 <div style=float:left>🔬</div> 
 
@@ -64,7 +63,7 @@
 
 <div style=float:left>🧠</div> 
 
-- <span style="color: green"><b>PE 2: Bin, oct, hex</b></span>
+- <span style="color: green"><b>PE 2: Number systems, ops, if</b></span>
 
 <div style=float:left>👨🏽‍🏫</div>   
 
@@ -79,7 +78,7 @@
 
 <div style=float:left>🧠</div> 
 
-- <span style="color: green"><b>PE 3: If-else</b></span>
+- <span style="color: green"><b>PE 3: For_random_list</b></span>
 
 <div style=float:left>👩🏼‍🏫</div>   
 
@@ -94,22 +93,19 @@
 
 <div style=float:left>🧠</div> 
 
-- <span style="color: green"><b>PE 4: For Loops & File Writing</b></span>
+- <span style="color: green"><b>PE 4: While-Loop, random, and if</b></span>
 
 <div style=float:left>👨🏼‍🏫</div>   
 
 - [Functions][ex_6c_functions]
 - [Functions using turtle][ex_6d_functions_using_turtle]
+- [Files][ex_6e_files]
 
 <div style=float:left>🔬</div> 
 
 - Independent Work Time
 
 ### Day 8
-
-<div style=float:left>🧠</div> 
-
-- <span style="color: green"><b>PE 5: While-Loop, random, and if </b></span>
 
 <div style=float:left>🔬</div> 
 
@@ -144,11 +140,11 @@
 [ex_3a_if_else]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_3a_if_else.md
 [ex_3b_if_else_common_mistakes]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_3b_if_else_common_mistakes.md
 [ex_4a_lists]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4a_lists.md
-[ex_4b_files]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4b_files.md
-[ex_4c_for_loops]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4c_for_loops.md
+[ex_4b_for_loops]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_4b_for_loops.md
 [ex_5a_randomness]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_5a_randomness.md
 [ex_5b_while_loops]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_5b_while_loops.md
 [ex_6a_dataclasses]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6a_dataclasses.md
 [ex_6b_dictionaries]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6b_dictionaries.md
 [ex_6c_functions]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6c_functions.md
 [ex_6d_functions_using_turtle]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6d_functions_using_turtle.md
+[ex_6e_files]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_6e_files.md
