@@ -361,15 +361,18 @@ print("C")
 ## 20c
 ## Try this.
 x = int(input("Type a number: "))
-if x > 3 and x < 10:
-    print("x is more than 3 and less than 10.")
+if x > -10 and x < 0:
+    print("x is more than -10 and less than 0.")
 
 
 ## 20d
 ## Here's a shorter way to write the same example:
+## Note: This cannot be done in BlockPy because
+##  it incorrectly adds parentheses in the `if`;
+##  simply use the long form shown in the previous exercise.
 x = int(input("Type a number: "))
-if 3 < x < 10:
-    print("x is more than 3 and less than 10.")
+if -10 < x < 0:
+    print("x is more than -10 and less than 0.")
     
 
 ## 21
