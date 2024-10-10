@@ -22,7 +22,7 @@ The exercises below will allow you to understand how to use if-statements, and i
 ## Try this. Run it more than once.
 import random
 randomNumber = random.randint(5, 8)
-print(f"Here's a random integer: {randomNumber}")
+print(f"Here is a random integer: {randomNumber}")
 
 
 ## 1b
