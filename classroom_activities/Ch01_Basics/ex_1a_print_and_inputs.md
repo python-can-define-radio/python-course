@@ -481,7 +481,7 @@ print(c)
 ## Try this. You will get an error. How do you fix it?
 favnum = input("What is your favorite number? ")
 onemore = favnum + 1
-print(f"One more would be {onemore}")
+print("One more would be", onemore)
 
 
 ## 17
