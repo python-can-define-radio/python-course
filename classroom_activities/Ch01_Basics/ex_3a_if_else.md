@@ -34,7 +34,7 @@ print(f"Here's a random integer: {randomNumber}")
 ## Try this. Run it a few times.
 import random
 randomNumber = random.randint(5, 8)
-print(f"Here's a random integer: {randomNumber}")
+print(f"Here is a random integer: {randomNumber}")
 if randomNumber == 7:
     print("I think some people say that number is lucky.")
 
