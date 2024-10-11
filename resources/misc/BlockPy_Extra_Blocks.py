@@ -27,3 +27,13 @@ elif ___:
 else:
   pass
 
+## Math
+import math
+from math import sqrt
+import math as m
+from math import *
+print(bin(___))
+print(oct(___))
+hex(___)
+print(sqrt(___))
+
