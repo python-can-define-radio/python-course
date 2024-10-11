@@ -37,3 +37,13 @@ print(oct(___))
 hex(___)
 print(sqrt(___))
 
+## Dataclasses
+from dataclasses import dataclass
+@dataclass
+class ___:
+    ___: ___
+    ___: ___
+    ___: ___
+__ = ___(___, ___, ___)
+__ = ___(___, ___, ___)
+__ = ___(____=___, ___=___, __=___)
