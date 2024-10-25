@@ -66,13 +66,33 @@ In this example, we created three variables:
 - `price_per_bean`, which contains the integer 3.
 - `tot_price`, which contains the integer 15.
 
-_Understanding check:_ What is an integer?
+_Definition:_ **Integer**: A whole number, either positive, negative, or zero.
 
 - We use the `print` function twice:
   - The line `print("The total price:")` displays the text `The total price:` on the screen.
   - The line `print(tot_price)` displays the contents of `tot_price`, that is, `15`.
 
 Notice the difference: the first `print`, which uses quotation marks, displays the literal text. The second `print`, which does not use quotation marks, treats `tot_price` as a variable.
+
+Let's discuss some error messages you may come across at this point.
+
+```python3
+## 2
+## Try this. It will produce an error.
+number of magic beans = 5
+```
+
+What's different? This code attempts to create a variable, `number of magic beans`. However, variable names cannot have spaces, so when you try to run this, Python will produce a SyntaxError because it doesn't know how to read your code:
+
+```
+    number of magic beans = 5
+           ^^
+SyntaxError: invalid syntax
+```
+
+The word "syntax" means the arrangement of characters, words, and symbols. For example, "I food eat" is invalid English syntax because the verb, "eat", comes after the direct object, "food".
+
+To learn more about variable name rules, see [here](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/variable_names.md).
 
 ```python3
 ## 2
