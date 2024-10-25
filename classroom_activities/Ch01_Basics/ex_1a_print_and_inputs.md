@@ -189,12 +189,14 @@ print("The customer name, all lowercase, is...")
 print(___.lower())
 print("The customer name, with proper capitalization, is...")
 print(customer.___())
+
 ########################
 ##  INSTRUCTOR-CHECK  ##
 ########################
-```
 ## (Questions marked as INSTRUCTOR-CHECK are ones for which you should
 ##  show your answer to an instructor to verify that it fulfills the intent of the question.)
+```
+
 
 You can also check the length of a string:
 
@@ -326,6 +328,7 @@ print("That car's name contains", length_carname, "characters.")
 ## 20
 ## Ask the user to enter the name of a planet.
 ## Display "That planet's name is ___ characters long".
+
 ######################
 ## INSTRUCTOR CHECK ##
 ######################
@@ -443,6 +446,7 @@ print("One more would be", onemore)
 ## 30
 ## Ask the user for an integer.
 ## Display "That number plus 2 is ___".
+
 ########################
 ##  INSTRUCTOR-CHECK  ##
 ########################
@@ -506,6 +510,7 @@ print(num*5)
 ## Ask the user for the number of questions on a test,
 ## and ask "how many did you get right?"
 ## Then, display "You got ___% right". (You'll need to calculate the percent.)
+
 ########################
 ##  INSTRUCTOR-CHECK  ##
 ########################
