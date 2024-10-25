@@ -66,7 +66,7 @@ In this example, we created three variables:
 - `price_per_bean`, which contains the integer 3.
 - `tot_price`, which contains the integer 15.
 
-_Definition:_ **Integer**: A whole number, either positive, negative, or zero.
+_Definition:_ **Integer**: A whole number which may be positive, negative, or zero.
 
 - We use the `print` function twice:
   - The line `print("The total price:")` displays the text `The total price:` on the screen.
@@ -74,7 +74,7 @@ _Definition:_ **Integer**: A whole number, either positive, negative, or zero.
 
 Notice the difference: the first `print`, which uses quotation marks, displays the literal text. The second `print`, which does not use quotation marks, treats `tot_price` as a variable.
 
-Let's discuss some error messages you may come across at this point.
+Let's discuss an error message you may come across at this point.
 
 ```python3
 ## 2
@@ -96,7 +96,7 @@ To learn more about variable name rules, see [here](https://github.com/python-ca
 
 ```python3
 ## 2
-## Complete this code so that it calculates and displays the total number of fruits.
+## Complete this so that it calculates and displays the total number of fruits.
 apples = 3
 bananas = 5
 fruit_total = ___ + ___
@@ -136,7 +136,9 @@ Speaking of comments, you'll see that we've numbered our exercises. Number them 
 
 We've seen that you can store integers in variables, for example, `apples = 3`.
 
-You can also store **strings** (text) in variables:
+You can also store **strings** in variables.
+
+_Definition:_ **String**: Text. More precisely, a sequence of zero or more characters (letters, numbers, symbols, etc). Examples: `"Hi"`, `"bob is 3 years old"`, `":-)"`
 
 ```python3
 ## 5
@@ -152,22 +154,32 @@ Here are some other examples of what we can do with strings:
 
 ```python3
 ## 6
-greeting = "hello"
+## Try this. What is it doing?
 customer = "bob"
-combined = greeting + " " + customer
-shouted = combined.upper()
+shouted = customer.upper()
 print(shouted)
-no_cap = combined.lower()
+```
+
+```python3
+## 7
+## Try this. What is it doing?
+greeted_customer = "HelLO BOb"
+no_cap = customer.lower()
 print(no_cap)
-full_sentence = combined + ".... Are you learning python today?"
-capi = full_sentence.capitalize()
+```
+
+```python3
+## 8
+## Try this. What is it doing?
+greet = "HelLOoOooOO"
+capi = greet.capitalize()
 print(capi)
 ```
 
 Now, try it by filling in the blanks:
 
 ```python3
-## 7
+## 9
 ## Complete the following:
 customer = "caTHy"
 shouted_cust = ___.upper()
@@ -268,7 +280,7 @@ You can make programs interactive by using the `input()` function. Here's an exa
 ## 11
 print("Enter the customer name: ")
 customer = input()
-greeting = "hello " + customer + "!"
+greeting = "hello" + customer + "!"
 print(greeting.upper())
 ```
 
@@ -287,9 +299,9 @@ print("Enter an animal: ")
 ___ = input()
 print("Enter a plant: ")
 plant = ___()
-print("The color you chose is", color)
-print("The animal you chose is", ___)
-print("The plant you chose is", plant)
+print("The color you chose is", ___)
+print("The animal you chose is", animal)
+print(___, plant)
 
 
 ## 12
@@ -332,6 +344,17 @@ print("That car's name contains", length_carname, "characters.")
 ## but fill in the blanks with the animal and the plant the user entered.
 ```
 
+You can also combine the `print` and the `input` like so, if you prefer:
+
+```python3
+## 16
+## Try this.
+color = input("Enter a color: ")
+print("The color you chose is", color)
+```
+
+Most of our examples use the combined approach, but either is valid.
+
 #### More about data types
 
 We've seen two data types so far: strings and integers. We've also seen that the way `+` works depends on the data type. Here's a brief review:
@@ -365,100 +388,10 @@ Traceback (most recent call last):
 TypeError: can only concatenate str (not "int") to str
 ```
 
-This is Python's way to say that...
-
-TODO
-
-
-
-
-```python3
-## 2a
-## Try this.
-print("""If you put three quote marks, 
-you can easily enter a
-multi-line
-string.""")
-
-
-## 2e
-## Try this.
-print('In Python, the single quote can be used instead of the double quote.')
-print('''You can use three single quotes
-to make a multi-line string.''')
-```
-
-#### Using the Debugger
-
-The debugger is useful for watching your code as it runs. Thonny's debugger is particularly useful, as it evaluates individual steps within a line of code.
-
-To debug in Thonny, press `Ctrl` + `F5`.
-
-To debug in VS Code, place a breakpoint (a red dot; ask an instructor to demonstrate) on a the line of code on which you'd like to begin debugging (the first line if you aren't sure), and then press `F5`.
-
-For more information on debugging in Thonny, see the [Thonny homepage](https://thonny.org/), or ask an instructor.
-
-For a short video on debugging with Thonny go [here](https://www.youtube.com/watch?v=QQAqQp06nXo).
-
-
-
-
-
-#### Using Strings and Integers
-
-The word "string" simply means a sequence of characters. "Bob" is a string; "I am at the store" is a string.
-
-Programming languages treat numbers differently from strings. For example, we all know that `2 + 3` is `5`. But what is `"Hello" + "Goodbye"`? 
-
-```python3
-## 9a
-## Try this.
-a = "Hello"
-b = "Goodbye"
-c = a + b
-print(c)
-
-
-## 9b
-mysentence = "Hello" + "everyone"
-print(mysentence)
-```
-
-As you can see, `a + b` was `"HelloGoodbye"`. The fancy name to say "add strings" is _concatenate_, which simply means putting the two strings next to each other, as shown above.
-
-You can also let the user enter the words to be concatenated.
-
-```python3
-## 10
-## Try this.
-a = input("First word? ")
-b = input("Second word? ")
-c = a + b
-print(c)
-```
-
-Now, how does the computer know whether you want to do math addition or string concatenation?
-
-Try these:
-
-```python3
-## 11
-a = 5
-b = 3
-c = a + b
-print(c)
-
-
-## 12
-a = "5"
-b = "3"
-c = a + b
-print(c)
-```
-
-As you can see, if you add two strings (the things insides quotation marks), it will concatenate: `"5" + "3"` is `"53"`.
-
-On the other hand, if you add two integers, it will do math addition: `5 + 3` is `8`.
+Here's what Python is saying:
+- There's a `+`, so that means you're trying to add.
+- The first one was a string, so that means the `+` is going to mean "concatenation" (not math adding).
+- Concatenation only makes sense between strings, and `apples` is not a string. It's the integer 3.
 
 Let's look at why that matters when working with inputs.
 
