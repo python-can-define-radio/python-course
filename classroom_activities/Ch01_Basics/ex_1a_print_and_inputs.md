@@ -49,7 +49,7 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 
 #### Variables
 
-Let's start by creating some **variables**. Variables are used to store data, and give it a specific name.
+Let's start by creating some **variables**. Variables are used to store data.
 
 ```python3
 ## 1
