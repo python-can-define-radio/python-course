@@ -95,7 +95,7 @@ The word "syntax" means the arrangement of characters, words, and symbols. For e
 To learn more about variable name rules, see [here](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/variable_names.md).
 
 ```python3
-## 2
+## 3
 ## Complete this so that it calculates and displays the total number of fruits.
 apples = 3
 bananas = 5
@@ -103,7 +103,7 @@ fruit_total = ___ + ___
 print("Total number of fruits:")
 print(___)
 
-## 3
+## 4
 ## Complete this code so that it calculates and displays the speed.
 distance = 50
 time = 5
@@ -111,8 +111,11 @@ speed = ___ / ___
 print("The speed is...")
 print(___)
 
-## 4
-## Write an example that uses subtraction. Show an instructor.
+## 5
+## Write an example that uses subtraction.
+########################
+##  INSTRUCTOR-CHECK  ##
+########################
 ```
 
 At this point, it's useful to "comment out the lines", that is, disable them. Here's how:
@@ -141,7 +144,7 @@ You can also store **strings** in variables.
 _Definition:_ **String**: Text. More precisely, a sequence of zero or more characters (letters, numbers, symbols, etc). Examples: `"Hi"`, `"bob is 3 years old"`, `":-)"`
 
 ```python3
-## 5
+## 6
 greeting = "Hello"
 customer = "Bob"
 combined = greeting + customer
@@ -153,7 +156,7 @@ Notice that the `+` acts differently for strings than it does for integers. Inte
 Here are some other examples of what we can do with strings:
 
 ```python3
-## 6
+## 7
 ## Try this. What is it doing?
 customer = "bob"
 shouted = customer.upper()
@@ -161,7 +164,7 @@ print(shouted)
 ```
 
 ```python3
-## 7
+## 8
 ## Try this. What is it doing?
 greeted_customer = "HelLO BOb"
 no_cap = customer.lower()
@@ -169,7 +172,7 @@ print(no_cap)
 ```
 
 ```python3
-## 8
+## 9
 ## Try this. What is it doing?
 greet = "HelLOoOooOO"
 capi = greet.capitalize()
@@ -179,7 +182,7 @@ print(capi)
 Now, try it by filling in the blanks:
 
 ```python3
-## 9
+## 10
 ## Complete the following:
 customer = "caTHy"
 shouted_cust = ___.upper()
@@ -194,7 +197,7 @@ print(customer.___())
 You can also check the length of a string:
 
 ```python3
-## 8
+## 11
 a_long_word = "antidisestablishmentarianism"
 print("The length of the long word is")
 print(len(a_long_word))
@@ -214,7 +217,7 @@ Examples:
 You can also use `print` with multiple arguments:
 
 ```python3
-## 9
+## 12
 apples = 3
 print("I have", apples, "apples.")
 ```
@@ -224,7 +227,7 @@ Notice that when `"apples"` is in quotes, it's treated as a string (the literal 
 You can also use a **formatted string**, a.k.a. **f-string**:
 
 ```python3
-## 10
+## 13
 apples = 3
 print(f"I have {apples} apples.")
 ```
@@ -236,7 +239,7 @@ Here are some troubleshooting techniques for errors you might have encountered.
 Example 1:
 
 ```python3
-## 11
+## 14
 ## Try this. You will get an error message.
 apples = 3
 print(appls)
@@ -257,7 +260,7 @@ In that case, the solution is fairly clear -- fix the spelling.
 Example 2:
 
 ```python3
-## 11
+## 15
 ## Try this. You will get an error message.
 print(hello)
 ```
@@ -277,7 +280,7 @@ The error is the same as before, but the reason is different: in this case, we'r
 You can make programs interactive by using the `input()` function. Here's an example:
 
 ```python3
-## 11
+## 16
 print("Enter the customer name: ")
 customer = input()
 greeting = "hello" + customer + "!"
@@ -291,7 +294,7 @@ Who is "the user"? Well, imagine that you write the code, run the program, and t
 Practice:
 
 ```python3
-## 11
+## 17
 ## Fill in the blanks.
 print("Enter a color: ")
 color = input()
@@ -304,7 +307,7 @@ print("The animal you chose is", animal)
 print(___, plant)
 
 
-## 12
+## 18
 ## Fill in the blanks.
 print("Enter the name of a car.")
 ___ = input()
@@ -313,12 +316,12 @@ length_carname = len(___)
 print("That car's name contains", length_carname, "characters.")
 
 
-## 13
+## 19
 ## Ask the user to enter the name of a planet.
 ## Display "That planet in all capital letters would be ___".
 
 
-## 13
+## 20
 ## Ask the user to enter the name of a planet.
 ## Display "That planet's name is ___ characters long".
 #####################
@@ -328,7 +331,7 @@ print("That car's name contains", length_carname, "characters.")
 ##  show your answer to an instructor to verify that it fulfills the intent of the question.)
 
 
-## 14
+## 21
 ## Ask the user for the name of an animal,
 ## and then print "The animal you named is ____. I think that it would make a nice pet."
 ## Example run:
@@ -338,7 +341,7 @@ print("That car's name contains", length_carname, "characters.")
 ##  will enter input.)
 
 
-## 15
+## 22
 ## Ask the user for the name of an animal and of a plant.
 ## Then display "The ___ eats ___ every day",
 ## but fill in the blanks with the animal and the plant the user entered.
@@ -347,7 +350,7 @@ print("That car's name contains", length_carname, "characters.")
 You can also combine the `print` and the `input` like so, if you prefer:
 
 ```python3
-## 16
+## 23
 ## Try this.
 color = input("Enter a color: ")
 print("The color you chose is", color)
@@ -360,7 +363,7 @@ Most of our examples use the combined approach, but either is valid.
 We've seen two data types so far: strings and integers. We've also seen that the way `+` works depends on the data type. Here's a brief review:
 
 ```python3
-## 16
+## 24
 apples = 3
 print("I have", apples, "apples.")
 onemore = apples + 1
@@ -373,7 +376,7 @@ print("Here's that planet's name, followed by the number 1:", followed)
 
 What happens if we try to mix types?
 ```python3
-## 17
+## 25
 ## Try this. You will see an error.
 planet = "Mars"
 apples = 3
@@ -396,7 +399,7 @@ Here's what Python is saying:
 Let's look at why that matters when working with inputs.
 
 ```python3
-## 13 
+## 26 
 print("Welcome to the number adder that doesn't work right!")
 a = input("What's a number you like? ")
 b = input("Can you give me another number you like? ")
@@ -410,7 +413,7 @@ Try some easy numbers to check it. Does it do the right thing?
 Now, compare to this one:
 
 ```python3
-## 14
+## 27
 ## Try this.  It will perform proper arithmetic.
 print("Welcome to the number adder that works well!")
 a = int(input("What's a number you like? "))
@@ -422,7 +425,7 @@ print(c)
 Notice that the `int` function tells Python to convert the numbers to integers. If you use `input` without `int`, then the variables are strings (not integers), so the `+` symbol does concatenation instead of math addition.
 
 ```python3
-## 15
+## 28
 ## Try this. You will get an error. How do you fix it?
 a = input("What is a number you like? ")
 b = int(input("Can you give me another number you like? "))
@@ -430,14 +433,14 @@ c = a + b
 print(c)
 
 
-## 16
+## 29
 ## Try this. You will get an error. How do you fix it?
 favnum = input("What is your favorite number? ")
 onemore = favnum + 1
 print("One more would be", onemore)
 
 
-## 17
+## 30
 ## Ask the user for an integer.
 ## Display "That number plus 2 is ___".
 ########################
@@ -445,44 +448,44 @@ print("One more would be", onemore)
 ########################
 
 
-## 18
+## 31
 ## Ask the user for two integers.
 ## Display "The sum of your two numbers is ___".
 
 
-## 19
+## 32
 ## Ask the user for two integers.
 ## Display "The first number minus the second number is ___".
 
 
-## 20
+## 33
 ## Ask the user for a number.
 ## Display "Half of that number is ___".
 
 
-## 21a
+## 34
 ## Try this.
 print("Hello"*3)
 
 
-## 21b
+## 35
 ## Copy and modify the previous example to ask the user for a string.
 ## Display whatever string the user enters three times 
 ##  (using *3, as in the previous example).
 
 
-## 22a
+## 36
 ## Try this. It will give an error.
 print("Hello" * "3")
 
 
-## 22b
+## 37
 ## Copy and modify the previous example to ask the user for both the
 ## string to be multiplied and the number of repetitions.
 ## Hint: If you get an error, is it the same error as in the `print("Hello" * "3")` example? If so, why?
 
 
-## 23
+## 38
 ## Does this example do what you expect?
 ## Why does it repeat the number five times rather than doing "real" math multiplication?
 ## How do you make it do math?
@@ -492,21 +495,22 @@ print("but something strange is going to happen:")
 print(num*5)
 
 
-## 24
+## 39
+## Ask the user for name and age.
+## Display "Guess what, ___, in two years you'll be ___."
+## (The user-provided name goes in the first blank, and the
+##   age two years from now in the second blank.)
+
+
+## 40
 ## Ask the user for the number of questions on a test,
 ## and ask "how many did you get right?"
 ## Then, display "You got ___% right". (You'll need to calculate the percent.)
 ########################
 ##  INSTRUCTOR-CHECK  ##
 ########################
-
-
-## 25
-## Ask the user for name and age.
-## Display "Guess what, ___, in two years you'll be ___."
-## (The user-provided name goes in the first blank, and the
-##   age two years from now in the second blank.)
 ```
+
 
 ### Notice:  Data "types"
 Variables can hold any of several types of data,
@@ -516,7 +520,7 @@ determine what kind of data is held in a variable or a value.
 *For more information, See [../../resources/data_types.md](https://github.com/python-can-define-radio/python-course/blob/main/resources/data_types.md)*
 
 ```python3
-## 26 Duplicating/repeating a string
+## 41 Duplicating/repeating a string
 ## Try this.
 ## In the current example, the data type of `x` is integer, and the type of `y` is string.
 ## The type of 3 is integer.
@@ -528,7 +532,7 @@ print(x*3)
 print(y*3)
 
 
-## 27
+## 42
 ## Try this. It shows how to use the type() function.
 ## `x` and `y` are both variables, are they integers or strings?
 x = input("Enter a word.")
