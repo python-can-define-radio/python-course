@@ -103,6 +103,7 @@ fruit_total = ___ + ___
 print("Total number of fruits:")
 print(___)
 
+
 ## 4
 ## Complete this code so that it calculates and displays the speed.
 distance = 50
@@ -111,11 +112,9 @@ speed = ___ / ___
 print("The speed is...")
 print(___)
 
+
 ## 5
 ## Write an example that uses subtraction.
-########################
-##  INSTRUCTOR-CHECK  ##
-########################
 ```
 
 At this point, it's useful to "comment out the lines", that is, disable them. Here's how:
@@ -161,17 +160,15 @@ Here are some other examples of what we can do with strings:
 customer = "bob"
 shouted = customer.upper()
 print(shouted)
-```
 
-```python3
+
 ## 8
 ## Try this. What is it doing?
 greeted_customer = "HelLO BOb"
 no_cap = customer.lower()
 print(no_cap)
-```
 
-```python3
+
 ## 9
 ## Try this. What is it doing?
 greet = "HelLOoOooOO"
@@ -192,7 +189,12 @@ print("The customer name, all lowercase, is...")
 print(___.lower())
 print("The customer name, with proper capitalization, is...")
 print(customer.___())
+########################
+##  INSTRUCTOR-CHECK  ##
+########################
 ```
+## (Questions marked as INSTRUCTOR-CHECK are ones for which you should
+##  show your answer to an instructor to verify that it fulfills the intent of the question.)
 
 You can also check the length of a string:
 
@@ -324,11 +326,9 @@ print("That car's name contains", length_carname, "characters.")
 ## 20
 ## Ask the user to enter the name of a planet.
 ## Display "That planet's name is ___ characters long".
-#####################
-## INSTRUCTOR CHECK
-#####################
-## (Questions marked as INSTRUCTOR-CHECK are ones for which you should
-##  show your answer to an instructor to verify that it fulfills the intent of the question.)
+######################
+## INSTRUCTOR CHECK ##
+######################
 
 
 ## 21
@@ -542,8 +542,7 @@ print(f"The type of y is {type(y)}, which is another way to say 'integer'.")
 print(x*y)
 
 
-
-## 28a
+## 43
 ## Determine the type of each of these variables (integer, string, or something else).
 ## Hint: Python can tell you the types using the type() function.
 mystery = 6
@@ -559,24 +558,24 @@ The "float" type (which means floating point, referring to the decimal point) is
 
 ```python3
 ## Try this. It will give an error. If it doesn't, please ask an instructor.
-## 28b
+## 44
 somenum = int(input("Try typing a non-whole number, such as an approximate value for pi. You'll see that it doesn't work: "))
 print(f"You typed {somenum}")
 
 
-## 28c
+## 45
 ## Try this. You'll see that it allows for non-whole numbers.
 somenum = float(input("Try typing another non-whole number: "))
 print(f"You typed {somenum}")
 
 
-## 28d
+## 46
 ## Ask the user for two numbers.
 ## Use float() in the places where you would use int().
 ## Display "The sum of your two numbers is ___".
 
 
-## 28e
+## 47
 ## Ask the user for a number, making sure that you allow for non-whole numbers.
 ## Display "Twice that number is ___".
 ## Example run:
@@ -591,31 +590,15 @@ You may wonder -- why not always use `float()`? There are at least two reasons:
 3. There are certain cases in which you must use an int; for example, `print("Hello"*3.5)` will give an error.
 
 ```python3
-## 28f
+## 48
 ## For extra practice with floats, copy and modify some of your previous exercises
 ##   so they use float instead of int.
-
-
-## 29
-## Try this. You will get an error. Why?
-## (Note: This isn't fixable. It's a purely educational question.)
-x = "hello"
-y = "goodbye"
-print(x*y)
-
-
-## 30
-## Try this. You will get an error. Why?
-## (Note: no need to try to fix this. It's a purely educational question.)
-x = "3"
-y = "5"
-print(x*y)
 ```
 
 The next exercise shows a common mistake.
 
 ```python3
-## 30b
+## 49
 ## What is wrong with this code?
 a = int(input("First num?"))
 b = int(input("Second num? "))
@@ -632,7 +615,7 @@ You may wonder why you must use the int() function. After all, shouldn't the com
 Here's an example of when you WOULDN'T want the number to be an integer. (In other words, you want the number to be a string.)
 
 ```python3
-## 31a
+## 50
 ## This is the right way:
 beg = "800"
 mid = "555"
@@ -643,7 +626,7 @@ fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 
 
-## 31b
+## 51
 ## The following version runs, but the output is wrong.
 ## What's wrong with the output?
 beg = 800
@@ -655,7 +638,7 @@ fullPhoneNum = beg + mid + end
 print(fullPhoneNum)
 
 
-## 31c
+## 52
 ## Another wrong way:
 ## Why does this fail to run? 
 ## Changing the input(...) to int(input(...)) is NOT the solution. Why not?
