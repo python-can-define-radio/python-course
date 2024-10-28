@@ -165,7 +165,7 @@ print(shouted)
 ## 8
 ## Try this. What is it doing?
 greeted_customer = "HelLO BOb"
-no_cap = customer.lower()
+no_cap = greeted_customer.lower()
 print(no_cap)
 
 
