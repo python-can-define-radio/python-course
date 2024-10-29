@@ -24,3 +24,5 @@ fi
 for todel in ${filestodelete[@]}; do
     rm -r --interactive=never "$todel"
 done
+
+echo "Done"
