@@ -5,10 +5,10 @@ filestodelete=(
   "$HOME/Desktop/blah/b"
 )
 
-echo "The following files and folders will be deleted. Type 'Y' to confirm, or 'Ctrl-C' to exit if you need to save any files before deleting."
+echo "The following files and folders will be deleted. Type 'y' to confirm, or 'Ctrl-C' to exit if you need to save any files before deleting."
 echo ""
 
-for todel in ${myarr[@]}; do
+for todel in ${filestodelete[@]}; do
     echo "$todel"
 done
 
@@ -16,13 +16,11 @@ echo ""
 echo "Delete? (yN)"
 read wantdelete
 
-if [ "$wantdelete" != Y ]; then
+if [ "$wantdelete" != y ]; then
+  echo "Aborting."
   exit
 fi
 
-for todel in ${myarr[@]}; do
-    rm -rfv "$todel"
+for todel in ${filestodelete[@]}; do
+    rm -r --interactive=never "$todel"
 done
-
-
-
