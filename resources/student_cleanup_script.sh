@@ -1,8 +1,8 @@
 #!/bin/bash
 
 filestodelete=(
-  "$HOME/Desktop/blah/a"
-  "$HOME/Desktop/blah/b"
+  "$HOME/Desktop/term_example_files"
+  "put_others_here"
 )
 
 echo "The following files and folders will be deleted. Type 'y' to confirm, or 'Ctrl-C' to exit if you need to save any files before deleting."
