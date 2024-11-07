@@ -25,7 +25,7 @@ app.display()
 ---
 
 <i>Exercise #2:</i>  
-Adding text.
+Adding Text widget.
   - To add things to your app you will need to use widgets.
   - Use the Text widget to add a message to your app. 
 <details><summary>Expand here for code.</summary>
@@ -49,7 +49,7 @@ app.display()
 ---
 
 <i>Exercise #3:</i>  
-Adding user input.
+Adding user input (Textbox widget).
   - Use the Textbox widget to add user input to your app.
   - Sometimes you will make a widget as a variable if you want to use that information later as you see here with the "name" Textbox. 
 <details><summary>Expand here for code.</summary>
@@ -155,7 +155,6 @@ Adding a Slider widget.
 
 ## 6
 
-
 from guizero import App, Text, TextBox, PushButton, Slider
 
 def change_bg():
@@ -191,8 +190,8 @@ app.display()
 
 ---
 <i>Exercise #7:</i>    
-Adding a Slider and ButtonGroup.
-  - Use the slider or radio buttons to make your app do something.
+Adding a  ButtonGroup.
+  - Use radio buttons to make your app do something.
   - These widgets use pre-built functions assigned by the `command` parameter to make something happen.
     
 <details><summary>Expand here for code.</summary>  
