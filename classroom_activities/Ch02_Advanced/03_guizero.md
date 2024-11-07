@@ -75,7 +75,7 @@ app.display()
 ---
 
 <i>Exercise #4:</i>    
-Adding parameters.
+Adding parameters to your widgets.
   - You can add parameters to your app globally or individually to a variable like this.
 <details><summary>Expand here for code.</summary>  
   
