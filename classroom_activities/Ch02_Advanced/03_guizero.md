@@ -108,7 +108,7 @@ app.display()
 ---
 
 <i>Exercise #5:</i>    
-Adding a Pushbutton.
+Adding a Pushbutton widget.
   - Use the Pushbutton widget to make your app do something.
   - The Pushbutton widget uses pre-built functions assigned by the `command` parameter to make something happen.
 <details><summary>Expand here for code.</summary>  
@@ -190,7 +190,7 @@ app.display()
 
 ---
 <i>Exercise #7:</i>    
-Adding a  ButtonGroup.
+Adding a  ButtonGroup widget.
   - Use radio buttons to make your app do something.
   - These widgets use pre-built functions assigned by the `command` parameter to make something happen.
     
