@@ -8,7 +8,7 @@ The goal of the current lesson is to familiarize new students with the "guizero"
 - guizero builds from top to bottom and spacing or padding is not built in you may have to get creative.
   - Specific placement is possible using (x,y) grid coordinates but is beyond the scope of this lesson.
 
-### Exercises
+### Exercises:
 
 <i>Exercise #1:</i>  
 First, run this.
@@ -314,7 +314,7 @@ app.display()
 
 ---
 
-### Examples  
+### Examples: 
 
 <details><summary>For more widget examples you can expand here and look at the following code which uses guizero and the IP address module to create an IP Subnet Calculator app.</summary>
 
