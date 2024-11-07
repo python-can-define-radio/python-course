@@ -22,6 +22,8 @@ app = App(title="My first GUIZERO app")
 app.display()
 ```
 
+---
+
 <i>Exercise #2:</i>  
 Adding text.
   - To add things to your app you will need to use widgets.
@@ -43,6 +45,8 @@ app.display()
   
 ```
 </details>
+
+---
 
 <i>Exercise #3:</i>  
 Adding user input.
@@ -67,6 +71,8 @@ app.display()
   
 ```
 </details>
+
+---
 
 <i>Exercise #4:</i>    
 Adding parameters.
@@ -98,6 +104,8 @@ app.display()
 
 ```
 </details>  
+
+---
 
 <i>Exercise #5:</i>    
 Adding a Pushbutton.
@@ -135,16 +143,19 @@ app.display()
 ```
 </details>  
 
-<i>Exercise #6:</i>    
+---
+
+<i>Exercise #7:</i>    
 Adding a Slider and ButtonGroup.
   - Use the slider or radio buttons to make your app do something.
   - These widgets use pre-built functions assigned by the `command` parameter to make something happen. If you are unfamiliar with functions, refer back to exercise ex_6c_functions.md or ex_6d_functions_using_turtle.md.
+    
 <details><summary>Expand here for code.</summary>  
 
 Simple version:
 
 ```python3
-## 6a
+## 7a
 
 from guizero import App, Slider, ButtonGroup, Box, Text
 
@@ -179,7 +190,7 @@ Advanced version: updates text dynamically when value is changed
 
 ```python3
 
-## 6b
+## 7b
 
 from guizero import App, Slider, ButtonGroup, Box, Text
 
@@ -228,9 +239,14 @@ app.display()
 ```
 </details>
 
-------------
+---
 
-Randomly resize and redraw a red box using `Drawing`:
+<i>Exercise #8:</i>  
+Using Drawing widget.
+  - Randomly resize and redraw a red box using `Drawing`:
+
+<details><summary>Expand here for code.</summary>  
+  
 ```python3
 from guizero import App, Drawing
 import time
@@ -250,6 +266,9 @@ app.after(20, updateDrawing)
 app.display()
 ```
 
+</details>
+
+---
 
 ### Examples  
 
