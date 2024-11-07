@@ -156,6 +156,35 @@ Adding a Slider widget.
 ## 6
 
 
+from guizero import App, Text, TextBox, PushButton, Slider
+
+def change_bg():
+    app.bg = "aquamarine"
+    app.text_color = "blue"
+    Text(app, text=f"Congratulations {name.value} you changed the background color and text color when you pushed me.")
+
+def change_text_size():
+    name.text_size = slider.value
+# allows the slider data to change to whatever the latest data is
+
+app = App(title="My first GUIZERO app")
+app.text_size = 18
+app.text_color = "red"
+app.height = 800
+app.width = 1000
+app.bg = "teal"
+
+# create widgets here
+Text(app, text="Welcome to my GUIZERO app")
+Text(app, text="Enter your name")
+name = TextBox(app)
+name.text_color = "black"
+button = PushButton(app, text="Press me", command=change_bg)
+slider = Slider(app, start=10, end=25, height=25, width=400, command=change_text_size)
+slider.bg = "black"
+slider.text_color = "white"
+slider.text_size = 15
+app.display()
 
 ```
 </details>  
