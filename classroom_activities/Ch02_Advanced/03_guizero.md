@@ -529,7 +529,7 @@ app.display()
 At this point, if you finish before the rest of the class, or if you'd like more practice with guizero you can look at the following tutorial:
 
 ### Some useful resources:
-`(Suggestion: When using a web-link, Right-Click with your mouse and select "open in new tab" or new window and then go to that tab/window.)`
+
 - https://lawsie.github.io/guizero/start/
 
 ### How to handle keypresses properly:
