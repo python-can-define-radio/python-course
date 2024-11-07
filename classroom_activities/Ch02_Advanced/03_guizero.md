@@ -110,7 +110,7 @@ app.display()
 <i>Exercise #5:</i>    
 Adding a Pushbutton.
   - Use the Pushbutton widget to make your app do something.
-  - The Pushbutton widget uses pre-built functions assigned by the `command` parameter to make something happen. If you are unfamiliar with functions, refer back to exercise ex_6c_functions.md or ex_6d_functions_using_turtle.md.
+  - The Pushbutton widget uses pre-built functions assigned by the `command` parameter to make something happen.
 <details><summary>Expand here for code.</summary>  
 
 ```python3
@@ -145,10 +145,26 @@ app.display()
 
 ---
 
+<i>Exercise #6:</i>    
+Adding a Slider widget.
+  - Use the Slider widget to make your app do something.
+  - The Slider widget uses pre-built functions assigned by the `command` parameter to make something happen.
+<details><summary>Expand here for code.</summary>  
+
+```python3
+
+## 6
+
+
+
+```
+</details>  
+
+---
 <i>Exercise #7:</i>    
 Adding a Slider and ButtonGroup.
   - Use the slider or radio buttons to make your app do something.
-  - These widgets use pre-built functions assigned by the `command` parameter to make something happen. If you are unfamiliar with functions, refer back to exercise ex_6c_functions.md or ex_6d_functions_using_turtle.md.
+  - These widgets use pre-built functions assigned by the `command` parameter to make something happen.
     
 <details><summary>Expand here for code.</summary>  
 
