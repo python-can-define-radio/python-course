@@ -372,7 +372,7 @@ fi
 source_file_sdr_angel_zip="$samba_root/sdr_resources/sdr_angel_zip"
 destination_dir_sdr_angel_zip="/home/$username/Desktop/sdr_angel_zip"  
   
-cp -r "$source_sdr_angel_zip" "$destination_dir_sdr_angel_zip"
+cp -r "$source_file_sdr_angel_zip" "$destination_dir_sdr_angel_zip"
 
 if [ $? -eq 0 ]; then
     echo -e "\e[32m- Successfully moved sdr slideshows folder to the Desktop.\e[35m"
