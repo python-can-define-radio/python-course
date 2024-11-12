@@ -373,7 +373,7 @@ source_file_sdr_angel_zip="$samba_root/sdr_resources/sdr_angel_zip"
 destination_dir_sdr_angel_zip="/home/$username/Desktop/sdr_angel_zip"  
 
 echo "Copying the SDR Angel zip folder"
-echo "It is not locked up or stuck be patient the sdr_angel_zip folder is a large and may take a minute to download."
+echo "It is not locked up or stuck be patient the sdr_angel_zip folder is large and may take a minute to download."
 cp -r "$source_file_sdr_angel_zip" "$destination_dir_sdr_angel_zip"
 
 if [ $? -eq 0 ]; then
