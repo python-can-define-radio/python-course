@@ -369,7 +369,6 @@ else
     echo "Move failed."
 fi 
 
-
 source_file_sdr_angel_zip="$samba_root/sdr_resources/sdr_angel_zip"
 destination_dir_sdr_angel_zip="/home/$username/Desktop/sdr_angel_zip"  
 
