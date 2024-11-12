@@ -375,7 +375,7 @@ destination_dir_sdr_angel_zip="/home/$username/Desktop/sdr_proot_env.tar"
 cp -r "$source_sdr_angel_zip" "$destination_dir_sdr_angel_zip"
 
 if [ $? -eq 0 ]; then
-    echo -e "\e[32m- Successfully moved SDR Angle zip to the Desktop.\e[35m"
+    echo -e "\e[32m- Successfully moved SDR Angel zip to the Desktop.\e[35m"
 else
     echo "Move failed."
 fi 
