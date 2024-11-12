@@ -369,6 +369,27 @@ else
     echo "Move failed."
 fi 
 
+source_file_sdr_angel_zip="$samba_root/sdr_resources/sdr_proot_env.tar"
+destination_dir_sdr_angel_zip="/home/$username/Desktop/sdr_proot_env.tar"  
+  
+cp -r "$source_sdr_angel_zip" "$destination_dir_sdr_angel_zip"
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Successfully moved SDR Angle zip to the Desktop.\e[35m"
+else
+    echo "Move failed."
+fi 
+
+source_file_sdr_slideshows="$samba_root/sdr_resources/sdr_slideshows/"
+destination_dir_sdr_slideshows="/home/$username/Desktop/"  
+
+cp -r "$source_file_sdr_slideshows" "$destination_dir_sdr_slideshows"
+
+if [ $? -eq 0 ]; then
+    echo -e "\e[32m- Successfully moved sdr slideshows folder to the Desktop.\e[35m"
+else
+    echo "Move failed."
+fi 
 # Cleanup
 
 cd ~/Desktop/
