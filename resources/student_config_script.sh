@@ -369,8 +369,8 @@ else
     echo "Move failed."
 fi 
 
-source_file_sdr_angel_zip="$samba_root/sdr_resources/sdr_proot_env.tar"
-destination_dir_sdr_angel_zip="/home/$username/Desktop/sdr_proot_env.tar"  
+source_file_sdr_angel_zip="$samba_root/sdr_resources/sdr_angel_zip"
+destination_dir_sdr_angel_zip="/home/$username/Desktop/sdr_angel_zip"  
   
 cp -r "$source_sdr_angel_zip" "$destination_dir_sdr_angel_zip"
 
