@@ -377,7 +377,7 @@ echo "It is not locked up or stuck be patient the sdr_angel_zip folder is a larg
 cp -r "$source_file_sdr_angel_zip" "$destination_dir_sdr_angel_zip"
 
 if [ $? -eq 0 ]; then
-    echo -e "\e[32m- Successfully moved sdr slideshows folder to the Desktop.\e[35m"
+    echo -e "\e[32m- Successfully moved sdr angel zip folder to the Desktop.\e[35m"
 else
     echo "Move failed."
 fi 
