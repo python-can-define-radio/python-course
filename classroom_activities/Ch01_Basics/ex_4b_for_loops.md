@@ -139,7 +139,8 @@ for temp in temps_in_F:
 
 
 ## 12
-## Copy and modify the previous question to display the temperature and display whether it is above or below freezing.
+## Copy and modify the previous question to display the
+## temperature and display whether it is above or below freezing.
 ```
 
 As you've now seen, indentation controls whether or not a part of the code is inside the for-loop.  If indented, it will be repeated. To practice this concept, try this example below.
