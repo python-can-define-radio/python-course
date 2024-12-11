@@ -60,6 +60,8 @@ Games practice problems learning websites videos
   - https://www.sololearn.com/en/learn/courses/python-developer
   
 ### Learning ethical hacking:
-  - https://www.hackerone.com/hackers/hacker101
+  - https://www.hackerone.com/hackers/hacker101/
   - https://tryhackme.com/
+  - https://overthewire.org/wargames/
   - https://picoctf.org/
+  
