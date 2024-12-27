@@ -1,6 +1,9 @@
 # Marimo
 
 # To start Marimo first go to the website linked below.
+
+NOTE: Change this to use `pip install marimo` and `marimo edit whatever.py`
+
  https://marimo.io/
  -> This will take you to the website where you will start using Marimo.
 
