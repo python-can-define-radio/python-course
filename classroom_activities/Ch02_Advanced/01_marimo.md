@@ -2,6 +2,11 @@
 
 # To start Marimo first go to the website linked below.
 
+make foldr
+terminal
+`marimo edit`
+new nb
+
 NOTE: Change this to use `pip install marimo` and `marimo edit whatever.py`
 
  https://marimo.io/  
