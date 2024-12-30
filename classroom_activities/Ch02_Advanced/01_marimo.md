@@ -33,6 +33,32 @@ NOTE: Change this to use `pip install marimo` and `marimo edit whatever.py`
  - use this code `slider = mo.ui.slider(1, 22)`
  - This will add a slider that counts from 1 to 22 and as you move the slider there will be little images that add one each time you move the slider up, or removes one each time you move the slider down.
 
+# Slider.value
+- Now we are going to modify how the slider appears to the user using **slider.value**
+   
+`{">" * slider.value}`
+
+ - You'll notice that this has called the slider which now has the '>' symbol.
+ - As we slide the bar between 1 and 22 that many '>' symbols will appear onscreen.
+
+# Radio Buttons
+- Let's move from the slider to buttons instead. Using radio buttons, we can give different preset values to the user to
+switch between.
+
+`radiobuttons = mo.ui.radio(
+    options=["93.9 Bob FM", "99.5 WKXC FM", "88.3 WAFJ FM"], label="Radio Stations"`
+
+- This creates three different buttons that all have predefined labels that correspond to local Augusta Radio stations
+- The user can now freely toggle between these stations
+
+# Radio.value
+
+- Let's see what button was selected by the user by using radio.value
+
+`mo.md(f"You chose {radiobuttons.value}")`
+
+- This will tell you the value of the button the user selected.
+
 ### Setup
 
 ```
