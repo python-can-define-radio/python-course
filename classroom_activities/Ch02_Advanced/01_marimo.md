@@ -25,7 +25,7 @@ NOTE: Change this to use `pip install marimo` and `marimo edit whatever.py`
 # Creating a Slider
 - Now we want to make a slider  
  - (this will add a slider to the notebook using whatever parameters you have set)
- - use this code 'slider = mo.ui.slider(1, 22)'
+ - use this code `slider = mo.ui.slider(1, 22)`
  - This will add a slider that counts from 1 to 22 and as you move the slider there will be little images that add one each time you move the slider up, or removes one each time you move the slider down.
 
 ### Setup
