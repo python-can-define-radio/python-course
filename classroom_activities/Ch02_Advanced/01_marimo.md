@@ -9,9 +9,10 @@ new nb
 
 NOTE: Change this to use `pip install marimo` and `marimo edit whatever.py`
 
- https://marimo.io/  
- -> This will take you to the website where you will start using Marimo.
-
+- First thing you will do is make a folder on your desktop 'name it whatever you want.'
+ - then you need to open the terminal  
+ - type `pip install marimo`
+ - 
 # To create your own Notebook
 - Marimo will automatically open with a notebook but for you to start your own.
   - First you will click on the 'try our online playground' link below where it tells you 'View on GitHub'  
