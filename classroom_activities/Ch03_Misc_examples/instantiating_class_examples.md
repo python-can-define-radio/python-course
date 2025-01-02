@@ -26,7 +26,7 @@ p = print
 p(c(["bob", "joe"]))
 
 ##############################################
-from paragradio.v2024_12 import SpecAnSim
+from paragradio.v2025_02 import SpecAnSim
 
 # name of a class followed by parentheses:
 # instantiating the class (creating an instance)
