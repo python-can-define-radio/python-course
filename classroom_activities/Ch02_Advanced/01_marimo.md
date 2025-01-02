@@ -1,99 +1,96 @@
 # Marimo
 
-# To start Marimo first go to the website linked below.
+### Setup 
 
-make foldr
-terminal
-`marimo edit`
-new nb
+- Make a folder on your desktop. 
+- Name it whatever you want without spaces or special characters.
+- Open the folder.
+- Right click the background of the folder, and click "Open in terminal".
+- Type `pip install marimo`.  
+- Once it has finished installing you will type `python3 -m marimo edit`. This will open a web browser to the marimo workspace.
+- Click "Create a new notebook".
+- To save your notebook select the save icon on the bottom right or use ctrl + s.
+- Marimo notebooks use the same .py file extension as a regular python file.
 
-NOTE: Change this to use `pip install marimo` and `marimo edit whatever.py`
+### How to run a cell
 
-- First thing you will do is make a folder on your desktop 'name it whatever you want.'
- - Go into the folder and then you need to open the terminal  
- - type `pip install marimo`  
- - once it has finished installing you will type `python -m marimo edit` (This will open the web browser to the marimo website.)  
- - After just do create your own notebook.
- - 
-# To create your own Notebook
-- Marimo will automatically open with a notebook but for you to start your own.
-  - First you will click on the 'try our online playground' link below where it tells you 'View on GitHub'  
-(it will then open a new tab)  
-  - After you will then click new at the top of the screen, then click New Notebook
-(This will once more, open a new tab with your own notebook to begin on.)
+- Click in the cell {{ TODO screenshot }}.  
+- Type `2 + 3`.
+- Run the cell by pressing ctrl + enter or by clicking the triangle play button in the top-right corner of the cell.
+- Any time you change a cell, you have to re-run that cell for marimo to be aware of the changes. 
 
-# How to create and run a cell
--  To begin creating your own work in a cell you will start on line 1.  
- - (this is the first box within your notebook.)  
-- You will then type (import marimo as mo)  This will import marimo into your code.  
- -(Hitting enter will go down to line number 2. Marimo is a live update system which means as you type you can get instant gratification when it shows you right then what you fixed.)  
-- To run a cell you can try this code.  `print("Hello World!")`  
-(When you hit the little play button at the top right hand corner of the cell the output below your code should say Hello world
+### How to create a new cell
 
-# Creating a Slider
-- Now we want to make a slider  
- - (this will add a slider to the notebook using whatever parameters you have set)
- - use this code `slider = mo.ui.slider(1, 22)`
- - This will add a slider that counts from 1 to 22 and as you move the slider there will be little images that add one each time you move the slider up, or removes one each time you move the slider down.
+To create a new cell, you can do either of these:
+- Click one of the two `+` buttons on the left of the cell. (Explore: what's the difference?)
+- Alternatively, use shift + enter, which runs your cell and creates a new one.
 
-# Slider.value
-- Now we are going to modify how the slider appears to the user using **slider.value**
-   
-`{">" * slider.value}`
+### Creating a Slider
 
- - You'll notice that this has called the slider which now has the '>' symbol.
- - As we slide the bar between 1 and 22 that many '>' symbols will appear onscreen.
+- Type `import marimo as mo`  This will import marimo into your code.
+- Now we want to make a slider with specific parameters 
+- use this code `slider = mo.ui.slider(1, 22)` then continue to the next line and type `slider`.  Hit ctrl + enter or click the triangle play button to re-run the cell.
+- This will add a slider that shows the range from 1 to 22 and as you move the slider there will be a tooltip that shows you the numbers as you move the slider.
 
-# Radio Buttons
-- Let's move from the slider to buttons instead. Using radio buttons, we can give different preset values to the user to
-switch between.
+### Using the slider's value
 
-`radiobuttons = mo.ui.radio(
-    options=["93.9 Bob FM", "99.5 WKXC FM", "88.3 WAFJ FM"], label="Radio Stations"`
+- Now we are going to use `slider.value` to display a character as many times as the slider value.
+- In a new cell type: `">" * slider.value`
+- You'll notice that this has used the slider value with the '>' symbol.
+- As we slide the bar between 1 and 22 that many '>' symbols will appear onscreen.
 
-- This creates three different buttons that all have predefined labels that correspond to local Augusta Radio stations
-- The user can now freely toggle between these stations
+```
+## Exercise 1
+## Create an area-of-a-circle calculator.
+## Provide a slider for the radius of the circle.
+## Display "The area of a circle with a radius of __ is __".
 
-# Radio.value
+## Exercise 2
+## Create an area-of-a-rectangle calculator.
+## Provide two sliders for the user, one each for length and width.
+## Display "The area of a rectangle with length __ and width __ is __".
+```
 
-- Let's see what button was selected by the user by using radio.value
+### Creating Radio Buttons
+
+- We can use a radio button element to give different preset values for the user to switch between.
+
+`radiobuttons = mo.ui.radio(options=["Apple", "Pear", "Banana"], label="Fruits")`
+
+- This creates three different buttons that all have defined labels.
+- The user can now freely toggle between these values.
+
+### Using the button's value
+
+- Let's see what button was selected by the user by using the `.value` attribute:
 
 `mo.md(f"You chose {radiobuttons.value}")`
 
 - This will tell you the value of the button the user selected.
 
-### Setup
+Next, we will try a few examples in marimo that can be useful in future projects.
 
 ```
-pip install marimo
-marimo edit myfirstnotebook.py
+## Exercise 2
+## Create an radio button element that allows switching between three defined FM channels.
+## The three stations should be 96.7, 99.5, and 101.7.
+## use the .value attribute to show what the current selection by the user.
 ```
 
-<!--
-PapaB (lead)   TS   CM
-Rough draft by 9 am Mon & discuss together?
-Topics...
-- How to create a notebook
-- How to create & run a cell
-- Demo of slider
-- Demo of using slider.value
-- Demo of radio buttons
-- Demo of using radio.value
-- Maybe 5 or so exercises to reinforce understanding
-  - Examples:
-    - two sliders: one for length of rectangle, one for width. Display area.
-    - radio button to choose "small", "med", "large". Display "That would be ____ t-shirts" (25, 50, 100)
-    - 
-**NEW THINGS** -- by Jan 2, 9 am:
-- demonstrate that order of execution is different from normal python
-- demonstrate that code runs reactively, perhaps using this example:
-```
-import turtle
-import marimo as mo
-x = mo.ui.slider(0, 500, label="X position")
-y = mo.ui.slider(0, 500, label="Y position")
-x, y
-turtle.goto(x.value, y.value)
-```
--->
+# Other useful UI elements
 
+### Creating a number input
+
+- Type `num = mo.ui.number(start=0, stop=10, step=2)` to create a number input textbox.
+- Type `num` to render the marimo ui element(dropdown box). Run the cell.
+
+### Creating a dropdown box
+
+- Use `dd = mo.ui.dropdown(["A", "B", "C", "D"])` to create a dropdown box.
+- Type `dd` to render the new dropdown. Run the cell.
+
+### Creating a calendar
+
+- To create a calender in marimo and select a date use the following:
+- Type `mo.ui.date()`. The calendar will render by running the cell with that command only.
+- You can interact with it by clicking on the date, and the calendar will open to allow a change.
