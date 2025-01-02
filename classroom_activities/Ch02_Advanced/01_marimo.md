@@ -10,8 +10,10 @@ new nb
 NOTE: Change this to use `pip install marimo` and `marimo edit whatever.py`
 
 - First thing you will do is make a folder on your desktop 'name it whatever you want.'
- - then you need to open the terminal  
- - type `pip install marimo`
+ - Go into the folder and then you need to open the terminal  
+ - type `pip install marimo`  
+ - once it has finished installing you will type `python -m marimo edit` (This will open the web browser to the marimo website.)  
+ - After just do create your own notebook.
  - 
 # To create your own Notebook
 - Marimo will automatically open with a notebook but for you to start your own.
