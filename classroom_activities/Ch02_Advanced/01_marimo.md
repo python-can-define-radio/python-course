@@ -25,6 +25,17 @@ To create a new cell, you can do either of these:
 - Click one of the two `+` buttons on the left of the cell. (Explore: what's the difference?)
 - Alternatively, use shift + enter, which runs your cell and creates a new one.
 
+### How to create a markdown cell
+
+Once a cell is created you can click on the `⋮⋮` to the right of that cell to open a menu.  
+Select "view as markdown".  
+Now you can write markdown to add flavor to your app.  
+Example:  
+`# My App`  
+The hashtag makes the following text a header which is large. Add more hashtags to decrease the size.
+
+For more Markdown formatting examples, see [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+
 ### Creating a Slider
 
 - Type `import marimo as mo`  This will import marimo into your code.
