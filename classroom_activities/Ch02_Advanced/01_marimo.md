@@ -68,26 +68,43 @@ To create a new cell, you can do either of these:
 
 - This will tell you the value of the button the user selected.
 
-Next, we will try a few examples in marimo that can be useful in future projects.
-
 ```
-## Exercise 2
+## Exercise 3
 ## Create an radio button element that allows switching between three defined FM channels.
 ## The three stations should be 96.7, 99.5, and 101.7.
 ## use the .value attribute to show what the current selection by the user.
 ```
 
-# Other useful UI elements
-
 ### Creating a number input
 
+- We can use a number input element to give us a textbox scrollbar which only allows numeric input .
 - Type `num = mo.ui.number(start=0, stop=10, step=2)` to create a number input textbox.
 - Type `num` to render the marimo ui element(dropdown box). Run the cell.
 
+### Using the number input's value
+
+- Here we are using the value indicated in the scrollbar.
+
+`f"Your chosen value to the power of 2 is {num.value **2}"`
+
+```
+## Exercise 4
+## Create an number input element that tells us how many cars you want to buy.
+## Assume that each cars value is $25,000.
+## use the .value attribute to show what the current total would be for purchasing that many cars.
+```
+
 ### Creating a dropdown box
 
-- Use `dd = mo.ui.dropdown(["A", "B", "C", "D"])` to create a dropdown box.
+- Use `dd = mo.ui.dropdown({"A":10, "B":20, "C":30, "D":40})` to create a dropdown box.
 - Type `dd` to render the new dropdown. Run the cell.
+- In a new cell type `dd.value` then run the cell and make a selection from the dropdown.
+```
+## Exercise 3
+## Create an dropdown element that selects which type of car you want to buy and its $ value.
+## Create a number input element to select how many of that car you would like to purchase.
+## use the .value attribute of each to show what the current total would be for purchasing that many cars.
+```
 
 ### Creating a calendar
 
