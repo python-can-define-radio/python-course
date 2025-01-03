@@ -14,7 +14,7 @@
 
 ### How to run a cell
 
-- Click in the cell {{ TODO screenshot }}.  
+- Click in the cell.
 - Type `2 + 3`.
 - Run the cell by pressing ctrl + enter or by clicking the triangle play button in the top-right corner of the cell.
 - Any time you change a cell, you have to re-run that cell for marimo to be aware of the changes. 
@@ -35,9 +35,8 @@ To create a new cell, you can do either of these:
 ### Using the slider's value
 
 - Now we are going to use `slider.value` to display a character as many times as the slider value.
-- In a new cell type: `">" * slider.value`
-- You'll notice that this has used the slider value with the '>' symbol.
-- As we slide the bar between 1 and 22 that many '>' symbols will appear onscreen.
+- In a new cell type: `"A" * slider.value`
+- You'll notice that as we slide the bar between 1 and 22, the chosen number of `A`s will appear onscreen.
 
 ```
 ## Exercise 1
@@ -72,7 +71,7 @@ To create a new cell, you can do either of these:
 ## Exercise 3
 ## Create an radio button element that allows switching between three defined FM channels.
 ## The three stations should be 96.7, 99.5, and 101.7.
-## use the .value attribute to show what the current selection by the user.
+## In another cell, display "The station you chose is ___".
 ```
 
 ### Creating a number input
@@ -83,31 +82,36 @@ To create a new cell, you can do either of these:
 
 ### Using the number input's value
 
-- Here we are using the value indicated in the scrollbar.
+- Here we are using the value indicated in the `number` textbox.
 
-`f"Your chosen value to the power of 2 is {num.value **2}"`
+`f"Your chosen value to the power of 2 is {num.value ** 2}"`
 
 ```
 ## Exercise 4
-## Create an number input element that tells us how many cars you want to buy.
-## Assume that each cars value is $25,000.
-## use the .value attribute to show what the current total would be for purchasing that many cars.
+## Create a number input element for picking a number of cars.
+## Display "If you bought ___ cars for $25,000 each, the total would be ___."
 ```
 
 ### Creating a dropdown box
 
-- Use `dd = mo.ui.dropdown({"A":10, "B":20, "C":30, "D":40})` to create a dropdown box.
+- Use `dd = mo.ui.dropdown({"A": 10, "B": 20, "C": 30, "D": 40})` to create a dropdown box.
 - Type `dd` to render the new dropdown. Run the cell.
-- In a new cell type `dd.value` then run the cell and make a selection from the dropdown.
+- In a new cell, type `dd.value` then run the cell.
+- Make a selection from the dropdown.
+
 ```
-## Exercise 3
-## Create an dropdown element that selects which type of car you want to buy and its $ value.
+## Exercise 5
+## Create an dropdown element that selects which type of car you want to buy and its price.
 ## Create a number input element to select how many of that car you would like to purchase.
-## use the .value attribute of each to show what the current total would be for purchasing that many cars.
+## Display "If you bought __ cars for __ each, the total cost would be __".
 ```
 
 ### Creating a calendar
 
-- To create a calender in marimo and select a date use the following:
-- Type `mo.ui.date()`. The calendar will render by running the cell with that command only.
+- To create a calendar in marimo and select a date, use the following: `mo.ui.date()`
 - You can interact with it by clicking on the date, and the calendar will open to allow a change.
+
+```
+## Exercise 6  (optional)
+## Display the chosen date from the calendar UI element.
+```
