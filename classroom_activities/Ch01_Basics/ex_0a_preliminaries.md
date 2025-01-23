@@ -206,3 +206,19 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 We use Github to host many of our Python and SDR lessons. You can create a [Github account](https://github.com) to store your files if you wish. For more information on Github Accounts, see [here](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
 
 </details>
+
+<details><summary>Using the Debugger</summary>  
+
+### Instructions    
+    
+The debugger is useful for watching your code as it runs. Thonny's debugger is particularly useful, as it evaluates individual steps within a line of code.
+
+To debug in Thonny, press `Ctrl` + `F5`.
+
+To debug in VS Code, place a breakpoint (a red dot; ask an instructor to demonstrate) on a the line of code on which you'd like to begin debugging (the first line if you aren't sure), and then press `F5`.
+
+For more information on debugging in Thonny, see the [Thonny homepage](https://thonny.org/), or ask an instructor.
+
+For a short video on debugging with Thonny go [here](https://www.youtube.com/watch?v=QQAqQp06nXo).
+
+</details>
