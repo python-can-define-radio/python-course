@@ -165,15 +165,30 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
   - If shortcut does not work navigate to File>Preferences>Settings
   - Type in parameter hints and uncheck ☑️`Editor › Parameter Hints: Enabled`
 - `F5`: Runs code. Default in Thonny, needs config in VS Code (see below)
-- Common to other text editors
-  - `Ctrl S`: Saves current file
-  - `Ctrl A`: Select all
-  - `Ctrl X`: Cut
-  - `Ctrl C`: Copy
-  - `Ctrl V`: Paste
-  - `Ctrl Z`: Undo
-  - `Backspace`: Erase to the left
-  - `Delete`: Erase from the right
+
+- <details><summary>Common to other text editors (Expand for details)</summary>
+    
+    - `Ctrl S`: Saves current file  
+    - `Ctrl A`: Select all  
+    - `Ctrl X`: Cut  
+    - `Ctrl C`: Copy  
+    - `Ctrl V`: Paste  
+    - `Ctrl Z`: Undo  
+    - `Backspace`: Erase to the left  
+    - `Delete`: Erase from the right  
+    
+- <details><summary>Creating your own VSCode keyboard shortcut to run Python (Expand for details)</summary>
+  
+    - There are two methods for opening the keyboard shortcut menu
+      - Ctrl + K + S
+      - Ctrl + Shift + P then after the > type `Open Keyboard Shortcuts`
+    - Type `Python: Run Python File` in the search field
+    - Click the + next to Python: run python file
+    - Enter the desired keyboard shortcut
+      - ⚠️ Caution: you should verify that the keyboard shortcut you want to use is not already in use
+
+</details>
+</details>
 </details>
 
 <details><summary>Icons (Expand for details)</summary>
@@ -195,7 +210,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 
 </details>
 
-<details><summary>Ways to save your work</summary>
+<details><summary>Ways to save your work (Expand for details)</summary>
 
 ### Mailo
 
@@ -207,7 +222,7 @@ We use Github to host many of our Python and SDR lessons. You can create a [Gith
 
 </details>
 
-<details><summary>Using the Debugger</summary>  
+<details><summary>Using the Debugger (Expand for details)</summary>  
 
 ### Instructions    
     
