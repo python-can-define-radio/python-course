@@ -167,6 +167,8 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 - `F5`: Runs code. Default in Thonny, needs config in VS Code (see below)
 
 - <details><summary>Common to other text editors (Expand for details)</summary>
+
+  ### Common
     
     - `Ctrl S`: Saves current file  
     - `Ctrl A`: Select all  
@@ -178,6 +180,8 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
     - `Delete`: Erase from the right  
     
 - <details><summary>Creating your own VSCode keyboard shortcut to run Python (Expand for details)</summary>
+
+  ### Instructions
   
     - There are two methods for opening the keyboard shortcut menu
       - Ctrl + K + S
