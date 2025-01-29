@@ -36,6 +36,13 @@ The hashtag makes the following text a header which is large. Add more hashtags 
 
 For more Markdown formatting examples, see [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
+### Naming a cell
+
+To name a cell:
+*Note: Due to a bug in marimo, your cursor jumps when certain characters are typed, so it is best to copy/paste the name into the name location.*
+- Type the name you want in any cell then Ctrl + c (Copy) or Ctrl + x (Cut) to copy it to the clipboard.
+- Right click on the `⋮⋮` icon to the right of the cell, then click in the name box and Ctrl + v or right click and select paste to paste the name.
+  
 ### Creating a Slider
 
 - Type `import marimo as mo`  This will import marimo into your code.
