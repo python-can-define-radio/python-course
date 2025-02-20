@@ -121,10 +121,9 @@
 
 - <span style="color: green"><b>Python Exam</b></span>
   - accessible during the exam:
-    - github lessons
-    - rich presentations
     - personal notes/work
   - not accessible during the exam:
+    - github lessons
     - samba
     - search engines
     - online AI
