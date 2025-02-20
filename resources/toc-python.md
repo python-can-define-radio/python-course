@@ -16,7 +16,6 @@
 - [Preliminaries][ex_0a_preliminaries] 
 - [Shell][ex_0b_shell]
 - [Print and Inputs][ex_1a_prints_and_inputs]  
-- [Variables][ex_1b_variables_modules_formatting]
 
 <div style=float:left>🔬</div> 
 
