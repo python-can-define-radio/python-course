@@ -76,3 +76,4 @@ print(f"{y:0.5f}")
 ## For example, how could you generate numbers between 0 and 5, or 0 and 100?
 ## Prove your theory in Python.
 ```
+Make sure you mention random.sample
