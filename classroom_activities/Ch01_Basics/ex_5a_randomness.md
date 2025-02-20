@@ -77,3 +77,5 @@ print(f"{y:0.5f}")
 ## Prove your theory in Python.
 ```
 Make sure you mention random.sample
+
+# Students if you see the above line ask an instructor.
