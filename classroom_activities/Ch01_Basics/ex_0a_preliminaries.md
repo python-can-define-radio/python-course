@@ -156,6 +156,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
     - `Ctrl End`: Cursor to the end of the file
 - `Shift arrowkey`: Highlight forward/backward/up/down
 - `Ctrl arrowkey`: Move cursor by words
+- `Ctrl + Shift + arrowkey`: Hightlight a word at a time
 - `Ctrl D` (VS Code only): Select multiple instances (powerful but advanced feature)
 - `Ctrl Y`: Redo
 - `Alt ↑`: Moves the line the cursor is on up one line
