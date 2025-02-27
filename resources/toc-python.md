@@ -47,7 +47,7 @@
 
 <div style=float:left>🧠</div> 
 
-- <span style="color: green"><b>PE 1: Print and Inputs (and format specifiers)</b></span>
+- <span style="color: green"><b>PE 1: Print and Inputs and format specifiers (need to complete lessons ex1a and ex1b at a minimum)</b></span>
 
 <div style=float:left>👩‍🏫</div>   
 
@@ -62,7 +62,7 @@
 
 <div style=float:left>🧠</div> 
 
-- <span style="color: green"><b>PE 2: Number systems, ops, if</b></span>
+- <span style="color: green"><b>PE 2: Number systems, ops, if (need to complete through lesson ex3b at a minimum)</b></span>
 
 <div style=float:left>👨🏽‍🏫</div>   
 
@@ -77,7 +77,7 @@
 
 <div style=float:left>🧠</div> 
 
-- <span style="color: green"><b>PE 3: For_random_list</b></span>
+- <span style="color: green"><b>PE 3: For_random_list (need to complete through lesson ex5a at a minimum)</b></span>
 
 <div style=float:left>👩🏼‍🏫</div>   
 
@@ -92,7 +92,7 @@
 
 <div style=float:left>🧠</div> 
 
-- <span style="color: green"><b>PE 4: While-Loop, random, and if</b></span>
+- <span style="color: green"><b>PE 4: While-Loop, random, and if (need to complete through lesson ex5b at a minimum)</b></span>
 
 <div style=float:left>👨🏼‍🏫</div>   
 
