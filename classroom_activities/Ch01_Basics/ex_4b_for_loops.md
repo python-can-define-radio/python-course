@@ -276,12 +276,12 @@ for line in lines:
 
 ## 23
 ## Given a file with these contents:
-##   Bob:red
-##   Lacy:blue
-##   Sue:green
-##   Joe:blue
-##   Frank:red
-## Display which people like blue.
+##   bob:red
+##   lacy:blue
+##   sue:green
+##   joe:blue
+##   frank:red
+## Display which people like blue. Without changing the file capitalize the names when printed.
 ## Example run:
 ##    These people like blue:
 ##    Lacy
