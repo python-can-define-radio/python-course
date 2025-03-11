@@ -32,18 +32,26 @@ oneNum = random.choice(nums)
 print(oneNum)
 
 
-## 5
-## Make a list of five numbers.  Print "I randomly picked a number, and I got ____".
+## 5 Try this.
+## This gives us a list of 50 integers.
+x = [x for x in range(50)]
+print(x)
+## What does this give us? Try running it multiple times with different values for `k`.
+print(random.sample(x, k=5))
 
 
 ## 6
+## Make a list of five numbers.  Print "I randomly picked a number, and I got ____".
+
+
+## 7
 ## Copy and modify the previous example.
 ## After displaying the number you picked,
 ## if the randomly picked number was more than 40, print "It was a big number."
 ## Otherwise, print "It was not a very big number."
 
 
-## 7
+## 8
 ## Try this.
 ## Does the randomly chosen number include the endpoint?
 ## (In other words, is it similar to range?)
@@ -51,24 +59,26 @@ num = random.randint(3, 6)
 print(num)
 
 
-## 8
+## 9
 ## Make a random score generator using randint.
 ## Give the user a randomly chosen score: display "You got a ___ on the test".
 ## (It's up to you how high or low you want your random grades to be.)
 
 
-## 9 Random Floating Point Number
+## 10 Random Floating Point Number
 ## Try this.
 x = random.random()  #Generates a random floating point number from 0.0 to 1.0
 print(x)
 
-## 10 Random Floating Point Number, modified
+
+## 11 Random Floating Point Number, modified
 ## What does this do?  (I.e., What are the possible values of y?)
 x = random.random()
 y = x + 3
 print(f"{y:0.5f}")
 
-## 11 Random Floating Point Number of an Arbitrary Size.
+
+## 12 Random Floating Point Number of an Arbitrary Size.
 ## (optional challenge question)
 ## Using the previous example (i.e., x = random.random() ), instead of addition,
 ## what operation could you perform so y is a random number between zero and 
@@ -76,6 +86,3 @@ print(f"{y:0.5f}")
 ## For example, how could you generate numbers between 0 and 5, or 0 and 100?
 ## Prove your theory in Python.
 ```
-Make sure you mention random.sample
-
-# Students if you see the above line ask an instructor.
