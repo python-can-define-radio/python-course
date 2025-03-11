@@ -53,7 +53,8 @@ For example, we could greet each name in a list of names:
 ```python3
 ## 3
 ## Try this:
-names = ["Sam", "Lisa", "Micah", "Dave"]
+## Change it so the name is capitalized when printed without modifying the list.
+names = ["sam", "lisa", "micah", "dave"]
 for name in names:
     print(f"Hello {name}.")
 print("Welcome to the Python course.")
