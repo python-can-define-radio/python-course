@@ -34,7 +34,7 @@ print(oneNum)
 
 ## 5 Try this.
 ## This gives us a list of 50 integers.
-x = [x for x in range(50)]
+x = list(range(50))    ## Note: on 2025 March 20 we changed this to `list(range(50))`.
 print(x)
 ## What does this give us? Try running it multiple times with different values for `k`.
 print(random.sample(x, k=5))
