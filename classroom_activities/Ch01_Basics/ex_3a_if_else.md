@@ -11,7 +11,7 @@ First, let's consider: How do we make a decision?  Wait, take one step back.  WH
 
 To reminisce for just a moment, I recall coming to a fork in the road several years back.  Initially unsure which way to go, I ultimately chose the path less-traveled, and it has made all the difference <sup>[ footnote 2](https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_3a_if_else.md#references--footnotes)</sup>.
 
-Back to computers.  One way to make decisions in a programming language such as Python is by using if-statments. We can use if-statements to compare a recently obtained value against a known value or range of values.  Based on the result of comparison, the if-statment chooses whether to perform another operation or to skip it.  
+Back to computers.  One way to make decisions in a programming language such as Python is by using if-statements. We can use if-statements to compare a recently obtained value against a known value or range of values.  Based on the result of this comparison, the if-statement chooses whether to perform another operation or to skip it.  
 
 The exercises below will allow you to understand how to use if-statements, and ideally, how to appreciate them.
 
