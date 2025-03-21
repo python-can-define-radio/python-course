@@ -86,3 +86,85 @@ print(f"{y:0.5f}")
 ## For example, how could you generate numbers between 0 and 5, or 0 and 100?
 ## Prove your theory in Python.
 ```
+
+```python3
+## 13
+## Try this. Run it more than once.
+import random
+randomNumber = random.randint(5, 8)
+print(f"Here is a random integer: {randomNumber}")
+
+
+## 14
+## Copy and modify the above example so that the computer will 
+## pick numbers between 1 and 4 instead.
+
+
+## 15
+## Try this. Run it a few times.
+import random
+randomNumber = random.randint(5, 8)
+print(f"Here is a random integer: {randomNumber}")
+if randomNumber == 7:
+    print("I think some people say that number is lucky.")
+
+
+## 16
+## Copy and modify the previous example so that the computer
+## will pick numbers between 7 and 10 instead.
+
+
+## 17
+## Copy and modify the previous example so that if the randomly
+## chosen number is 10, it will say "Wow, a two digit number!"
+```
+
+```python3
+## 18
+## Try this.
+import random
+name = random.choice(["bob", "susan", "joe", "anna"])
+print(f"Hey {name}.") 
+if name == "joe":
+    print("Your name rhymes with low.") 
+     
+
+## 19
+## Copy and modify the above example so that "dell" is one of the names
+## that can be randomly chosen.
+
+
+## 20
+## Copy and modify the above example so that 
+## if the name is "dell", it will print "That’s a computer brand."
+
+
+## 21
+## Try this.
+## Notice that the "Have a good day" line prints regardless of
+## the chosen name.  This is because it is
+## not indented (it has no spaces before the line).
+import random
+name = random.choice(["bob", "susan", "joe", "anna"])
+print(f"Hey {name}.") 
+if name == "joe":
+    print("Hello Joe!")
+    print("Your name rhymes with low.")
+print("Have a good day.")
+
+
+## 22
+## Try this.
+import random
+age = random.randint(18, 24)
+print(f"Pretend that you are {age} years old.")
+if age < 21: 
+    print("You can't drink alcohol in the US yet.") 
+else: 
+    print("You are legally allowed to drink. Drink responsibly 😊 ") 
+     
+
+## 23
+## Copy and modify the above example so that the
+## legal drinking age is 40. (Just to be funny.) 
+```
