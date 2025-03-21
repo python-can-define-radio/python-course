@@ -330,7 +330,18 @@ for line in lines:
 ##    Joe
 ## As before, the names and heart rates should not appear in your Python code.
 
+```
 
+-----------
+
+
+### Optional exercises
+
+<details><summary>Expand here for additional content.</summary>
+
+#### More File reading and writing:
+
+```python3
 ## 27
 ## Given the same file from the previous exercise,
 ## write the names of those who have a heart rate less than 70
@@ -342,12 +353,6 @@ for line in lines:
 ## always writing to "low-heart-rate.txt", it asks the user what to call the file.
 ```
 
------------
-
-
-### Optional exercises
-
-<details><summary>Expand here for additional content.</summary>
 
 #### Lists of lists:
 
