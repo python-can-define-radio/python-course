@@ -47,8 +47,9 @@ if randomNumber == 7:
 ## 5
 ## Copy and modify the previous example so that if the randomly
 ## chosen number is 10, it will say "Wow, a two digit number!"
+```
 
-
+```python3
 ## 6
 ## Try this.
 import random
@@ -81,6 +82,8 @@ if name == "joe":
     print("Your name rhymes with low.")
 print("Have a good day.")
 ```
+
+### Using Else
 
 When an else-statement follows an if-statement, the computer chooses between performing the first operation or the second operation.
 
@@ -127,12 +130,14 @@ else:
 ## 15
 ## Modify the above example so that if the name is
 ## "Pluto", it will say "Is it a planet or not?" 
+```
 
+You'll notice that in the "joe" example above , the user must type "joe" lowercase.  
+Here's how to make it so any capitalization works ("Joe", "JOE", etc):
 
+```python3
 ## 16
-## You'll notice that in the "joe" example, the user must
-## type "joe" lowercase. Here's how to make it so
-## any capitalization works ("Joe", "JOE", etc):
+## Try this.
 name = input("What is your name? ")
 print(f"The lowercase version of that is {name.lower()}.")
 if name.lower() == "joe": 
@@ -149,10 +154,13 @@ else:
 ########################
 ##  INSTRUCTOR-CHECK  ##
 ########################
+```
 
+What do you think the != operator means in the following example?
 
+```python3
 ## 18
-## Try this. What do you think the != operator means?
+## Try this. 
 name = input("What is your name? ")
 if name.lower() != "jay": 
     print("Your name is not Jay.") 
@@ -180,8 +188,9 @@ print("Greetings.")
 ##     you might use something similar to this piece of code:
 ##     if whatTheUserTyped == "":
 ##           print("Something would go here.")
+```
 
-
+```python3
 ## 22
 ## Try this. 
 age = 10 
@@ -217,8 +226,9 @@ print(ageNextYear)
 ########################
 ##  INSTRUCTOR-CHECK  ##
 ########################
+```
 
-
+```python3
 ## 26
 ## Try this. Note: you will get an error. 
 age = input("How old are you?") 
@@ -229,7 +239,7 @@ else:
      
 
 ## 27
-## Modify the above example so it works.
+## Copy and modify the above example so it works.
 ## You’ll use the `int` function. 
 
  
@@ -246,6 +256,8 @@ else:
 ## "Your name is just the letter A? That’s kinda cool".
 ## Otherwise, say "Ok, your name is ___". 
 ```  
+
+### Using elif
 
 One or more elif-statements can be positioned between an if-statement and an else-statement to choose between more than two options or operations.
 
@@ -276,11 +288,14 @@ elif name == "lacy":
 else:
     print("I don't know you.")
 print("Done.")
+```
 
-          
+How is it this next example different from the previous example?  
+Note: The difference is subtle, so ask if you are unsure.
+
+```python3
 ## 32
-## Try this. How is it different from the previous example?
-## (The difference is subtle, so ask if you are unsure.)
+## Try this. 
 name = input("What is your name? (type it lowercase please.)")
 print("Ok, let me look up that name...")
 if name == "bob":
@@ -327,8 +342,9 @@ else:
 ## 35
 ## Copy and modify the previous example so that each `elif` is
 ## simply `if`. How does it act differently? 
+```
 
- 
+```python3
 ## 36
 ## Ask the user how many French fries they want.
 ## Display different responses depending on how many they
@@ -356,8 +372,9 @@ print("C")
 ## Otherwise, print C.
 ## After all of that is done, print Goodbye
 ## (regardless of what x was.)
+```
 
-
+```python3
 ## 40
 ## Try this.
 x = int(input("Type a number: "))
@@ -403,8 +420,9 @@ discounted = total * 0.9
 print(f"""The total cost would be {total}.
 However, we're doing a special sale today, so you get a 10% discount.
 That means you actually pay {discounted}""")
+```
 
-
+```python3
 ## 45
 ## Ask the user for the cost of a single item
 ## and the quantity purchased. Print the total cost. 
@@ -503,7 +521,6 @@ else:
 ## then display "That's correct!"
 ## otherwise, display "Not quite."
 ## Make it work for any capitalization.
-## INSTRUCTOR CHECK
 
 ```
 
@@ -511,34 +528,39 @@ else:
 
 <details><summary>Expand here for additional content.</summary>
 
+
 As you have seen, you can use `float` instead of `int` when dealing with non-whole numbers.
 
 ```python3
-## 23
+## 57
 ## Try this.
 x = float(input("Type a non-whole number. "))
 print(f"One more would be {x + 1}.")
+```
 
-## Sidenote: 
-##   (this sidenote is outside the scope of the class, but good to know)
-##   Using floats can cause weird rounding errors. For example:
+Using floats can cause weird rounding errors. 
+
+```python3
+## 58
+## For example:
 print(1.03 - 0.42)
-##   This will print 0.6100000000000001.
-##   That's quite important when doing comparisons:
+```
+
+This example will print 0.6100000000000001.  
+
+```python3
+## 59
+## That's quite important when doing comparisons like this:
 if 0.1 + 0.1 + 0.1 == 0.3:
     print("This will not print.")
 else:
     print("This will print... what is math??")
-##   The reason is because the numbers are converted to
-##   binary behind the scenes,
-##   and just as you can't express "one third" exactly in decimal
-##   (0.33333 is not EXACTLY one third)
-##   you can't express "one tenth" exactly in binary.
-##   For more info, see https://docs.python.org/3/tutorial/floatingpoint.html
-##   If you plan to eventually do any "real-life" programming,
-##   then it's definitely worth reading.
-## (end of sidenote)
 ```
+
+The reason is because the numbers are converted to binary behind the scenes, and just as you can't express "one third" exactly in decimal (0.33333 is not EXACTLY one third) you also can't express "one tenth" exactly in binary.  
+For more info, see https://docs.python.org/3/tutorial/floatingpoint.html  
+If you plan to eventually do any "real-life" programming, then it's definitely worth reading.
+
 </details>
 
 ### References & Footnotes:  
