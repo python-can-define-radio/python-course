@@ -3,7 +3,7 @@
 ℹ️ This material coincides with material from python slideshow C (slides 39-46). 
 
 ### Introduction
-So far we have been instructing a computer through Python programing to execute a series of commands without any decisions being made as the program runs.  But, computers and the Python language can do so much more.
+So far we have been instructing a computer through Python programming to execute a series of commands without any decisions being made as the program runs.  But, computers and the Python language can do so much more.
 
 In a basic definition, a computer is a machine that can make decisions.  In contrast, a pure calculator evaluates mathematical functions but cannot make decisions <sup>[ footnote 1](https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_3a_if_else.md#references--footnotes)</sup>.  So, if a computer is useful for making decisions, how do we progam it to do so?  ...I'm glad you asked.
 
