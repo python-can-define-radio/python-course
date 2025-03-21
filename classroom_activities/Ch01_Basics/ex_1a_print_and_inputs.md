@@ -452,11 +452,6 @@ print("One more would be", onemore)
 ########################
 
 
-## 31
-## Ask the user for two integers.
-## Display "The sum of your two numbers is ___".
-
-
 ## 32
 ## Ask the user for two integers.
 ## Display "The first number minus the second number is ___".
@@ -476,17 +471,6 @@ print("Hello"*3)
 ## Copy and modify the previous example to ask the user for a string.
 ## Display whatever string the user enters three times 
 ##  (using *3, as in the previous example).
-
-
-## 36
-## Try this. It will give an error.
-print("Hello" * "3")
-
-
-## 37
-## Copy and modify the previous example to ask the user for both the
-## string to be multiplied and the number of repetitions.
-## Hint: If you get an error, is it the same error as in the `print("Hello" * "3")` example? If so, why?
 
 
 ## 38
@@ -535,29 +519,9 @@ x = 123
 y = "123"
 print(x*3)
 print(y*3)
-
-
-## 42
-## Try this. It shows how to use the type() function.
-## `x` and `y` are both variables, are they integers or strings?
-x = input("Enter a word.")
-y = int(input("Enter a number."))
-print(f"The type of x is {type(x)}, which is another way to say 'string'.")
-print(f"The type of y is {type(y)}, which is another way to say 'integer'.")
-print(x*y)
-
-
-## 43
-## Determine the type of each of these variables (integer, string, or something else).
-## Hint: Python can tell you the types using the type() function.
-mystery = 6
-another = "Hello"
-something = input("Enter a number.")
-whatIsThis = int(input("Enter a number."))
-thisIsSomething = 3.1
 ```
 
-In the previous question, you discovered that the type of `thisIsSomething` was "float", not "integer".
+## TODO discussion on types with screenshot of mouseover on a variable
 
 The "float" type (which means floating point, referring to the decimal point) is able to hold numbers that are not whole numbers.
 
@@ -594,11 +558,7 @@ You may wonder -- why not always use `float()`? There are at least two reasons:
 2. Math with integers is faster than math with floats. This is significant, for example, when you're processing millions of data points every second (such as when doing real-time signal processing).
 3. There are certain cases in which you must use an int; for example, `print("Hello"*3.5)` will give an error.
 
-```python3
-## 48
-## For extra practice with floats, copy and modify some of your previous exercises
-##   so they use float instead of int.
-```
+For extra practice with floats, copy and modify some of your previous exercises so they use float instead of int.
 
 The next exercise shows a common mistake.
 
