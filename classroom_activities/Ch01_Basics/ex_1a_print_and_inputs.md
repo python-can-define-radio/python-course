@@ -502,10 +502,9 @@ print(num*5)
 
 
 ### Notice:  Data "types"
-Variables can hold any of several types of data,
-e.g., integer, floating-point number, string, list, etc.
-As we shall see later, Python includes a "type()" command to
-determine what kind of data is held in a variable or a value.  
+Variables can hold any of several types of data,  
+e.g., integer, floating-point number, string, list, etc.  
+Python includes a "type()" command to determine what kind of data is held in a variable or a value.    
 *For more information, See [../../resources/data_types.md](https://github.com/python-can-define-radio/python-course/blob/main/resources/data_types.md)*
 
 ```python3
@@ -521,9 +520,15 @@ print(x*3)
 print(y*3)
 ```
 
-## TODO discussion on types with screenshot of mouseover on a variable
-
 The "float" type (which means floating point, referring to the decimal point) is able to hold numbers that are not whole numbers.
+
+In VSCode it is relatively easy to find out the type of any variable or object just by using the mouseover hint,  
+if you move your cursor over a variable you should see a smaller popup window which includes the type of that variable.
+
+![varmouseover.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/varmouseover.png?raw=true)  
+
+In the above image we see when I moved the mouse over the `ans` variable the popup is saying `(variable) ans: str` which means that this variable is of the type string.  
+Try mousing over a few variables in the next few examples to find out their type.
 
 ```python3
 ## Try this. It will give an error. If it doesn't, please ask an instructor.
