@@ -340,8 +340,9 @@ That means you actually pay {discounted}""")
 
 ```python3
 ## 34
-## Ask the user for the cost of a single item
-## and the quantity purchased. Print the total cost. 
+## Ask the user for the cost of a single item.
+## Ask the user for the quantity purchased.
+## Print the total cost. 
 ## Make sure this works for non-integer costs.
 ## For example, try a cost of 2.30 and quantity of 2.
 ## Hint: You'll use float instead of int.
@@ -359,8 +360,8 @@ That means you actually pay {discounted}""")
      
 
 ## 36
-## Ask the user for a number
-## (make sure to allow for non-whole numbers).
+## Ask the user for a number.
+## Make sure to allow for non-whole numbers.
 ## Print the absolute value of the
 ## number without using the abs function. 
 
