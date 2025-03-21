@@ -528,7 +528,7 @@ if you move your cursor over a variable you should see a smaller popup window wh
 ![varmouseover.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/varmouseover.png?raw=true)  
 
 In the above image we see when I moved the mouse over the `ans` variable the popup is saying `(variable) ans: str` which means that this variable is of the type string.  
-Try mousing over a few variables in the next few examples to find out their type.
+Try mousing over variables in the next few examples to find out their type.
 
 ```python3
 ## Try this. It will give an error. If it doesn't, please ask an instructor.
