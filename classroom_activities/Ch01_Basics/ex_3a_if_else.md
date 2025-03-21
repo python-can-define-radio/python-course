@@ -15,96 +15,12 @@ Back to computers.  One way to make decisions in a programming language such as 
 
 The exercises below will allow you to understand how to use if-statements, and ideally, how to appreciate them.
 
-### Exercises
-
-```python3
-## 1
-## Try this. Run it more than once.
-import random
-randomNumber = random.randint(5, 8)
-print(f"Here is a random integer: {randomNumber}")
-
-
-## 2
-## Copy and modify the above example so that the computer will 
-## pick numbers between 1 and 4 instead.
-
-
-## 3
-## Try this. Run it a few times.
-import random
-randomNumber = random.randint(5, 8)
-print(f"Here is a random integer: {randomNumber}")
-if randomNumber == 7:
-    print("I think some people say that number is lucky.")
-
-
-## 4
-## Copy and modify the previous example so that the computer
-## will pick numbers between 7 and 10 instead.
-
-
-## 5
-## Copy and modify the previous example so that if the randomly
-## chosen number is 10, it will say "Wow, a two digit number!"
-```
-
-```python3
-## 6
-## Try this.
-import random
-name = random.choice(["bob", "susan", "joe", "anna"])
-print(f"Hey {name}.") 
-if name == "joe":
-    print("Your name rhymes with low.") 
-     
-
-## 7
-## Copy and modify the above example so that "dell" is one of the names
-## that can be randomly chosen.
-
-
-## 8
-## Copy and modify the above example so that 
-## if the name is "dell", it will print "That’s a computer brand."
-
-
-## 9
-## Try this.
-## Notice that the "Have a good day" line prints regardless of
-## the chosen name.  This is because it is
-## not indented (it has no spaces before the line).
-import random
-name = random.choice(["bob", "susan", "joe", "anna"])
-print(f"Hey {name}.") 
-if name == "joe":
-    print("Hello Joe!")
-    print("Your name rhymes with low.")
-print("Have a good day.")
-```
-
-### Using Else
+### Exercises using If/Else
 
 When an else-statement follows an if-statement, the computer chooses between performing the first operation or the second operation.
 
 ```python3
-## 10
-## Try this.
-import random
-age = random.randint(18, 24)
-print(f"Pretend that you are {age} years old.")
-if age < 21: 
-    print("You can't drink alcohol in the US yet.") 
-else: 
-    print("You are legally allowed to drink. Drink responsibly 😊 ") 
-     
-
-## 11
-## Copy and modify the above example so that the
-## legal drinking age is 40. (Just to be funny.) 
-
-
-## 12
+## 1
 ## Try this. Notice that it will ask for input. 
 thename = input("What is your name? ")
 if thename == "george":
@@ -113,12 +29,12 @@ else:
     print("Hello.")
 
 
-## 13
+## 2
 ## Change the previous example so that if the
 ## user types "bob", it will reply "Are you the painter?"
 
 
-## 14
+## 3
 ## Try this.
 name = input("What is your name? ") 
 if name == "joe": 
@@ -127,7 +43,7 @@ else:
     print(f"Hey {name}.") 
     
  
-## 15
+## 4
 ## Modify the above example so that if the name is
 ## "Pluto", it will say "Is it a planet or not?" 
 ```
@@ -136,7 +52,7 @@ You'll notice that in the "joe" example above , the user must type "joe" lowerca
 Here's how to make it so any capitalization works ("Joe", "JOE", etc):
 
 ```python3
-## 16
+## 5
 ## Try this.
 name = input("What is your name? ")
 print(f"The lowercase version of that is {name.lower()}.")
@@ -146,7 +62,7 @@ else:
     print(f"Hey {name}.")
 
 
-## 17
+## 6
 ## Copy and modify the previous example so that
 ## if the name is "Ruby", it displays
 ## "That name is also the name of a gem."
@@ -159,7 +75,7 @@ else:
 What do you think the != operator means in the following example?
 
 ```python3
-## 18
+## 7
 ## Try this. 
 name = input("What is your name? ")
 if name.lower() != "jay": 
@@ -167,20 +83,20 @@ if name.lower() != "jay":
 print("Greetings.")
 
 
-## 19
+## 8
 ## - Ask the user for a name
 ## - If the name is anything other than Bob, then
 ##   display "I don't think I know you. I only know Bob."
 ## Hint: the != operator means is a comparison operator meaning "not equal".
 
 
-## 20
+## 9
 ## - Ask the user for a number
 ## - If the number is not equal to 5, say "You should have picked 5." 
 ## (Use the != operator)
     
 
-## 21
+## 10
 ## - Ask the user for a name
 ## - If the name is empty, say "You didn't type anything!"
 ## - Otherwise, say "Hi ___."
@@ -191,28 +107,28 @@ print("Greetings.")
 ```
 
 ```python3
-## 22
+## 11
 ## Try this. 
 age = 10 
 ageNextYear = age + 1 
 print(ageNextYear) 
      
 
-## 23
+## 12
 ## Try this. Note: you will get an error. 
 age = input("How old are you?") 
 ageNextYear = age + 1 
 print(ageNextYear) 
      
 
-## 24 
+## 13
 ## Try this. 
 age = int(input("How old are you?")) 
 ageNextYear = age + 1 
 print(ageNextYear) 
 
 
-## 25
+## 14
 ## Write a program that satisfies the following examples.
 ## Remember that the "✎" indicates user input.
 ## Example 1:
@@ -229,7 +145,7 @@ print(ageNextYear)
 ```
 
 ```python3
-## 26
+## 15
 ## Try this. Note: you will get an error. 
 age = input("How old are you?") 
 if age < 21: 
@@ -238,19 +154,19 @@ else:
     print("You are legally allowed to drink. Drink responsibly 😊 ") 
      
 
-## 27
+## 16
 ## Copy and modify the above example so it works.
 ## You’ll use the `int` function. 
 
  
-## 28
+## 17
 ## Copy and modify the above example so that
 ## it shows how many years remain until you can
 ## drink (but only display that if you’re
 ## under the drinking age). 
 
 
-## 29
+## 18
 ## Write a program that takes a name from the user.
 ## If the name is the letter "A", say
 ## "Your name is just the letter A? That’s kinda cool".
@@ -262,7 +178,7 @@ else:
 One or more elif-statements can be positioned between an if-statement and an else-statement to choose between more than two options or operations.
 
 ```python3
-## 30
+## 19
 ## Try this: 
 birthyear = int(input("Type a year: ")) 
 if birthyear < 2000: 
@@ -273,7 +189,7 @@ else:
     print("You were born after 2000.") 
 
     
-## 31
+## 20
 ## Try this:
 name = input("What is your name? (type it lowercase please.)")
 print("Ok, let me look up that name...")
@@ -294,7 +210,7 @@ How is it this next example different from the previous example?
 Note: The difference is subtle, so ask if you are unsure.
 
 ```python3
-## 32
+## 21
 ## Try this. 
 name = input("What is your name? (type it lowercase please.)")
 print("Ok, let me look up that name...")
@@ -311,7 +227,7 @@ else:
 print("Done.")
 
 
-## 33
+## 22
 ## Here's an example of using separate if statements,
 ## that is, a case where you would NOT want to use elif:
 name = input("What is your name? (type it lowercase please.)")
@@ -326,7 +242,7 @@ if name == "":
     print("Your name is empty!")
 
 
-## 34
+## 23
 ## Here's another example of the usefulness of elif.
 heightInInches = int(input("Give me a number: "))
 if heightInInches < 0:
@@ -339,19 +255,19 @@ else:
     print("That's pretty tall.")
 
 
-## 35
+## 24
 ## Copy and modify the previous example so that each `elif` is
 ## simply `if`. How does it act differently? 
 ```
 
 ```python3
-## 36
+## 25
 ## Ask the user how many French fries they want.
 ## Display different responses depending on how many they
 ## request. (Examples: "That’s way too many!", etc.) 
 
  
-## 37
+## 26
 ## Try this. Did it print what you expected?
 x = int(input("Enter a number: ")) 
 if x < 20: 
@@ -360,13 +276,13 @@ if x < 20:
 print("C") 
 
 
-## 38
+## 27
 ## Copy and modify the previous example so
 ## that C is only printed if the number is not less than 20.
 ## Use the `else` keyword.
 
 
-## 39
+## 28
 ## Copy and modify the previous example so that it acts like this:
 ## if x is less than 20, then print A.
 ## Otherwise, print C.
@@ -375,14 +291,14 @@ print("C")
 ```
 
 ```python3
-## 40
+## 29
 ## Try this.
 x = int(input("Type a number: "))
 if x > -10 and x < 0:
     print("x is more than -10 and less than 0.")
 
 
-## 41
+## 30
 ## Here's a shorter way to write the same example:
 ## Note: This cannot be done in BlockPy because
 ##  it incorrectly adds parentheses in the `if`;
@@ -392,7 +308,7 @@ if -10 < x < 0:
     print("x is more than -10 and less than 0.")
     
 
-## 42
+## 31
 ## Ask the user for a number.
 ## If the user gives a number more than 50, 
 ##    then ask "What is your name?"
@@ -403,7 +319,7 @@ if -10 < x < 0:
 ## After all of that, say "Have a good day."
 
 
-## 43
+## 32
 ## Write a program that takes a number from the user.
 ## Display the number doubled.
 ## Then do a sequence of creative if statements of your choice.
@@ -411,7 +327,7 @@ if -10 < x < 0:
 ##   display "Really? Negative? Interesting".
 
 
-## 44
+## 33
 ## Try this. Why do we use float instead of int here?
 firstcost = float(input("How much is the first thing you bought? "))
 secondcost = float(input("How much is the second thing you bought? "))
@@ -423,7 +339,7 @@ That means you actually pay {discounted}""")
 ```
 
 ```python3
-## 45
+## 34
 ## Ask the user for the cost of a single item
 ## and the quantity purchased. Print the total cost. 
 ## Make sure this works for non-integer costs.
@@ -435,31 +351,31 @@ That means you actually pay {discounted}""")
 ##   The total cost would be $4.60.
 
 
-## 46
+## 35
 ## Modify the previous example so that the shop gives
 ## a discount of 10% if you buy at least 20 of an item.  
 ## For example, if one item costs $5, and you’re buying 20,
 ## the total cost would be $90. 
      
 
-## 47
+## 36
 ## Ask the user for a number
 ## (make sure to allow for non-whole numbers).
 ## Print the absolute value of the
 ## number without using the abs function. 
 
 
-## 48
+## 37
 ## Ask the user for a temperature in Celsius,
 ## and display the temperature in Fahrenheit. 
 ## Make sure to allow for non-whole numbers.
 
 
-## 49
+## 38
 ## Same as previous example, but backwards. 
 
 
-## 50
+## 39
 ## Combine the two previous examples: ask the user for
 ## a number and which way to convert. 
 ########################
@@ -467,7 +383,7 @@ That means you actually pay {discounted}""")
 ########################
 
 
-## 51
+## 40
 ## Ask the user for a number.
 ## Using the % operator, display "The remainder of
 ## your number divided by 5 is ___."
@@ -479,7 +395,7 @@ That means you actually pay {discounted}""")
 What if there's more than one choice that leads to the same outcome? Here are four ways to handle that.
 
 ```python3
-## 52
+## 41
 ## Try this.
 color = input("What color is water? ")
 if color == "blue" or color == "transparent":
@@ -488,7 +404,7 @@ else:
     print("I'm not sure about that.")
 
 
-## 53
+## 42
 ## Try this.
 color = input("What color is water? ")
 if color in ["blue", "transparent"]:
@@ -497,7 +413,7 @@ else:
     print("I'm not sure about that.")
 
 
-## 54
+## 43
 ## Try this.
 color = input("What color is water? ")
 if color != "blue" and color != "transparent":
@@ -506,7 +422,7 @@ else:
     print("Yes, I agree.")
 
 
-## 55
+## 44
 ## Try this.
 color = input("What color is water? ")
 if color not in ["blue", "transparent"]:
@@ -515,7 +431,7 @@ else:
     print("Yes, I agree.")
 
 
-## 56
+## 45
 ## Ask the user what sound a dog makes.
 ## If the user says any of "woof", "bark", or "ruff",
 ## then display "That's correct!"
@@ -532,7 +448,7 @@ else:
 As you have seen, you can use `float` instead of `int` when dealing with non-whole numbers.
 
 ```python3
-## 57
+## 46
 ## Try this.
 x = float(input("Type a non-whole number. "))
 print(f"One more would be {x + 1}.")
@@ -541,7 +457,7 @@ print(f"One more would be {x + 1}.")
 Using floats can cause weird rounding errors. 
 
 ```python3
-## 58
+## 47
 ## For example:
 print(1.03 - 0.42)
 ```
@@ -549,7 +465,7 @@ print(1.03 - 0.42)
 This example will print 0.6100000000000001.  
 
 ```python3
-## 59
+## 48
 ## That's quite important when doing comparisons like this:
 if 0.1 + 0.1 + 0.1 == 0.3:
     print("This will not print.")
