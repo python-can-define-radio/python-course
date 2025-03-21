@@ -206,7 +206,7 @@ else:
 print("Done.")
 ```
 
-How is it this next example different from the previous example?  
+How is this next example different from the previous example?  
 Note: The difference is subtle, so ask if you are unsure.
 
 ```python3
