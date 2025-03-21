@@ -17,7 +17,7 @@ The exercises below will allow you to understand how to use if-statements, and i
 
 ### Exercises using If/Else
 
-When an else-statement follows an if-statement, the computer chooses between performing the `if` (first) operation or the `else` (second) operation.
+When an else-statement follows an if-statement, the computer chooses between performing the `if` (first) operation or the `else` (second) operation based on whether the comparison comes back True or False.
 
 ```python3
 ## 1
