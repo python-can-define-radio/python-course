@@ -665,9 +665,8 @@ print(fullPhoneNum)
 
 <details><summary> :information_source: For more information on Prints and Inputs <i>(Click here to expand)</i></summary>
 
-> ```
-> A great supplemental resource is https://learn.arcade.academy .
-> They start talking about `print` on Chapter 4.
+> A great supplemental resource is https://learn.arcade.academy  
+> They start talking about `print` on Chapter 4.  
 > Some notes before you head over to that site:
 >  
 > - It mentions "Installing the Python programming language". That's already done in our classroom.
@@ -676,6 +675,6 @@ print(fullPhoneNum)
 > - It mentions a "Version control system" called git. Git is not required for
 >      this class, but interested readers are encouraged to explore it.
 > - Sections 4.2 and 4.3 are PyCharm-specific. You can skip them.
-> ```
+
 </details>
 </details>
