@@ -97,10 +97,12 @@ print(f"{guitar_price:8}")
 ```
 
 <details><summary>For more information:</summary>
+ 
 - This website gives some great practical examples. Recommended to start here.  
   https://www.linisnil.com/articles/practical-guide-to-python-string-format-specifiers/  
 - Another good site.  
   https://www.pythonmorsels.com/string-formatting/  
 - This website gives detailed documentation; somewhat more difficult to read.  
   https://docs.python.org/3/library/string.html#format-specification-mini-language
+  
 </details>
