@@ -525,9 +525,9 @@ The "float" type (which means floating point, referring to the decimal point) is
 In VSCode it is relatively easy to find out the type of any variable or object just by using the mouseover hint,  
 if you move your cursor over a variable you should see a smaller popup window which includes the type of that variable.
 
-![varmouseover.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/varmouseover.png?raw=true)  
+![mouseovervariable.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/mouseovervariable.png?raw=true)  
 
-In the above image we see when I moved the mouse over the `ans` variable the popup is saying `(variable) ans: str` which means that this variable is of the type string.  
+In the above image we see when I moved the mouse over the `name` variable the popup is saying `(variable) name: str` which means that the variable `name` is of the type string.  
 Try mousing over variables in the next few examples to find out their type.
 
 ```python3
