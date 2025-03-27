@@ -45,9 +45,9 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 
 ℹ️ This material coincides with material from python slideshow B (slides 1-11, 16, 24, 54-63, 69). 
 
-### Exercises
+## Exercises
 
-#### Variables
+### Variables
 
 Let's start by creating some **variables**. Variables are used to store data.
 
@@ -66,7 +66,8 @@ In this example, we created three variables:
 - `price_per_bean`, which contains the integer 3.
 - `tot_price`, which contains the integer 15.
 
-_Definition:_ **Integer**: A whole number which may be positive, negative, or zero.
+_Definition:_ **Integer**:  
+A whole number which may be positive, negative, or zero.
 
 - We use the `print` function twice:
   - The line `print("The total price:")` displays the text `The total price:` on the screen.
@@ -129,18 +130,18 @@ Commenting out the exercises as you go is a great idea because it allows you to 
 
 Speaking of comments, you'll see that we've numbered our exercises. Number them accordingly on your computer as you work through them, as it makes them easier to find later. Also, we (the instructors) may refer to a specific exercise by number.
 
-### ***ℹ️ To save yourself from unecessary work, do not delete the exercises when you complete them.*** 
-### ***Comment them out and keep them for reference.***  
-### ***These are your notes and can be used on the exam.***
-### ***If you are unsure what the recommended workflow should be, ask an instructor to demonstrate. ℹ️***
+***ℹ️ To save yourself from unecessary work, do not delete the exercises when you complete them.***  
+***Comment them out and keep them for reference. These are your notes and can be used on the exam.***  
+***If you are unsure what the recommended workflow should be, ask an instructor to demonstrate. ℹ️***
 
-#### Strings
+### Strings
 
 We've seen that you can store integers in variables, for example, `apples = 3`.
 
 You can also store **strings** in variables.
 
-_Definition:_ **String**: Text. More precisely, a sequence of zero or more characters (letters, numbers, symbols, etc). Examples: `"Hi"`, `"bob is 3 years old"`, `":-)"`
+_Definition:_ **String**:  
+Text. More precisely, a sequence of zero or more characters (letters, numbers, symbols, etc). Examples: `"Hi"`, `"bob is 3 years old"`, `":-)"`
 
 ```python3
 ## 6
@@ -361,7 +362,7 @@ print("The color you chose is", color)
 
 Most of our examples use the combined approach, but either is valid.
 
-#### More about data types
+### Data types
 
 We've seen two data types so far: strings and integers. We've also seen that the way `+` works depends on the data type. Here's a brief review:
 
@@ -502,6 +503,7 @@ print(num*5)
 
 
 ### Notice:  Data "types"
+
 Variables can hold any of several types of data,  
 e.g., integer, floating-point number, string, list, etc.     
 *For more information, See [../../resources/data_types.md](https://github.com/python-can-define-radio/python-course/blob/main/resources/data_types.md)*
