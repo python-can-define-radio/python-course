@@ -503,8 +503,7 @@ print(num*5)
 
 ### Notice:  Data "types"
 Variables can hold any of several types of data,  
-e.g., integer, floating-point number, string, list, etc.  
-Python includes a "type()" command to determine what kind of data is held in a variable or a value.    
+e.g., integer, floating-point number, string, list, etc.     
 *For more information, See [../../resources/data_types.md](https://github.com/python-can-define-radio/python-course/blob/main/resources/data_types.md)*
 
 ```python3
