@@ -45,9 +45,9 @@ We'll be primarily using Visual Studio Code (VS Code) as our editor for the Pyth
 
 ℹ️ This material coincides with material from python slideshow B (slides 1-11, 16, 24, 54-63, 69). 
 
-### Exercises
+## Exercises
 
-#### Variables
+### Variables
 
 Let's start by creating some **variables**. Variables are used to store data.
 
@@ -66,7 +66,8 @@ In this example, we created three variables:
 - `price_per_bean`, which contains the integer 3.
 - `tot_price`, which contains the integer 15.
 
-_Definition:_ **Integer**: A whole number which may be positive, negative, or zero.
+_Definition:_ **Integer**:  
+A whole number which may be positive, negative, or zero.
 
 - We use the `print` function twice:
   - The line `print("The total price:")` displays the text `The total price:` on the screen.
@@ -129,18 +130,18 @@ Commenting out the exercises as you go is a great idea because it allows you to 
 
 Speaking of comments, you'll see that we've numbered our exercises. Number them accordingly on your computer as you work through them, as it makes them easier to find later. Also, we (the instructors) may refer to a specific exercise by number.
 
-### ***ℹ️ To save yourself from unecessary work, do not delete the exercises when you complete them.*** 
-### ***Comment them out and keep them for reference.***  
-### ***These are your notes and can be used on the exam.***
-### ***If you are unsure what the recommended workflow should be, ask an instructor to demonstrate. ℹ️***
+***ℹ️ To save yourself from unecessary work, do not delete the exercises when you complete them.***  
+***Comment them out and keep them for reference. These are your notes and can be used on the exam.***  
+***If you are unsure what the recommended workflow should be, ask an instructor to demonstrate. ℹ️***
 
-#### Strings
+### Strings
 
 We've seen that you can store integers in variables, for example, `apples = 3`.
 
 You can also store **strings** in variables.
 
-_Definition:_ **String**: Text. More precisely, a sequence of zero or more characters (letters, numbers, symbols, etc). Examples: `"Hi"`, `"bob is 3 years old"`, `":-)"`
+_Definition:_ **String**:  
+Text. More precisely, a sequence of zero or more characters (letters, numbers, symbols, etc). Examples: `"Hi"`, `"bob is 3 years old"`, `":-)"`
 
 ```python3
 ## 6
@@ -361,7 +362,7 @@ print("The color you chose is", color)
 
 Most of our examples use the combined approach, but either is valid.
 
-#### More about data types
+### Data types
 
 We've seen two data types so far: strings and integers. We've also seen that the way `+` works depends on the data type. Here's a brief review:
 
@@ -452,11 +453,6 @@ print("One more would be", onemore)
 ########################
 
 
-## 31
-## Ask the user for two integers.
-## Display "The sum of your two numbers is ___".
-
-
 ## 32
 ## Ask the user for two integers.
 ## Display "The first number minus the second number is ___".
@@ -476,17 +472,6 @@ print("Hello"*3)
 ## Copy and modify the previous example to ask the user for a string.
 ## Display whatever string the user enters three times 
 ##  (using *3, as in the previous example).
-
-
-## 36
-## Try this. It will give an error.
-print("Hello" * "3")
-
-
-## 37
-## Copy and modify the previous example to ask the user for both the
-## string to be multiplied and the number of repetitions.
-## Hint: If you get an error, is it the same error as in the `print("Hello" * "3")` example? If so, why?
 
 
 ## 38
@@ -518,10 +503,9 @@ print(num*5)
 
 
 ### Notice:  Data "types"
-Variables can hold any of several types of data,
-e.g., integer, floating-point number, string, list, etc.
-As we shall see later, Python includes a "type()" command to
-determine what kind of data is held in a variable or a value.  
+
+Variables can hold any of several types of data,  
+e.g., integer, floating-point number, string, list, etc.     
 *For more information, See [../../resources/data_types.md](https://github.com/python-can-define-radio/python-course/blob/main/resources/data_types.md)*
 
 ```python3
@@ -535,31 +519,17 @@ x = 123
 y = "123"
 print(x*3)
 print(y*3)
-
-
-## 42
-## Try this. It shows how to use the type() function.
-## `x` and `y` are both variables, are they integers or strings?
-x = input("Enter a word.")
-y = int(input("Enter a number."))
-print(f"The type of x is {type(x)}, which is another way to say 'string'.")
-print(f"The type of y is {type(y)}, which is another way to say 'integer'.")
-print(x*y)
-
-
-## 43
-## Determine the type of each of these variables (integer, string, or something else).
-## Hint: Python can tell you the types using the type() function.
-mystery = 6
-another = "Hello"
-something = input("Enter a number.")
-whatIsThis = int(input("Enter a number."))
-thisIsSomething = 3.1
 ```
 
-In the previous question, you discovered that the type of `thisIsSomething` was "float", not "integer".
-
 The "float" type (which means floating point, referring to the decimal point) is able to hold numbers that are not whole numbers.
+
+In VSCode it is relatively easy to find out the type of any variable or object just by using the mouseover hint,  
+if you move your cursor over a variable you should see a smaller popup window which includes the type of that variable.
+
+![mouseovervariable.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/mouseovervariable.png?raw=true)  
+
+In the above image we see when I moved the mouse over the `name` variable the popup is saying `(variable) name: str` which means that the variable `name` is of the type string.  
+Try mousing over variables in the next few examples to find out their type.
 
 ```python3
 ## Try this. It will give an error. If it doesn't, please ask an instructor.
@@ -594,11 +564,7 @@ You may wonder -- why not always use `float()`? There are at least two reasons:
 2. Math with integers is faster than math with floats. This is significant, for example, when you're processing millions of data points every second (such as when doing real-time signal processing).
 3. There are certain cases in which you must use an int; for example, `print("Hello"*3.5)` will give an error.
 
-```python3
-## 48
-## For extra practice with floats, copy and modify some of your previous exercises
-##   so they use float instead of int.
-```
+For extra practice with floats, copy and modify some of your previous exercises so they use float instead of int.
 
 The next exercise shows a common mistake.
 
