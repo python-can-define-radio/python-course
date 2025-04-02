@@ -3,6 +3,14 @@
 ## Day One Breakdown
     
 _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial](https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-string-manipulation-by-building-a-cipher/step-1) or go and explore these [resources](https://github.com/python-can-define-radio/python-course/tree/main/resources).
+
+### Prerequisites
+
+- Cloud storage to save your work. (see Ways to save your work below for links)
+- Login to Horizon VMWare
+- Launch VS Code
+- Install python extension
+- Install python
   
 <details><summary>Introductions. (Expand for details)</summary>
   
@@ -189,7 +197,10 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 ### Mailo
 
 [Mailo](https://www.mailo.com/) is an email and cloud storage provider. You can create an account without a pre-existing email / phone, and then either send your files in an email, or upload them to Mailo's cloud drive. 
-    
+
+### Proton mail
+
+[Proton](https://proton.me/mail/) is an email provider. You can create an account without a pre-existing email / phone, and then send your files in an email.
 ### Github 
     
 We use Github to host many of our Python and SDR lessons. You can create a [Github account](https://github.com) to store your files if you wish. For more information on Github Accounts, see [here](https://docs.github.com/en/get-started/signing-up-for-github/signing-up-for-a-new-github-account).
