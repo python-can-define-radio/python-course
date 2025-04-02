@@ -1,39 +1,8 @@
 # Preliminaries
 
 ## Day One Breakdown
-These instructions assume you are working on a Linux operating system (OS).
-
-<details><summary>Create student login accounts. (Expand for details)</summary>
-<br/>
     
 _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial](https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-string-manipulation-by-building-a-cipher/step-1)._
-
-  1. Insert ID card.
-
-  2. In the browser, go to the registration page that the instructors will provide.
-
-  3. If requested, type your PIN.
-
-  4. Click "Create account" at the bottom of the screen. Note that it takes about 10 seconds to create (and gives no indication of loading), so press ONLY ONCE.
-
-  5. Let the instructor know if you have any error messages. If it sucessfully created the account, then move on to the next step.
-
-  6. It should show you a username and password. Remember or write down the username; copy the password to the clipboard.
-
-  7. Click on the first link available, which will take you to a login page.
-
-  8. In the new tab that opens, enter your username and password from the first tab.
-
-  9. Set a new password. The password must be at least 20 characters.
-
-  10. It should show a screen that has many details about your newly-created account. Click the menu in the top right that shows your name, and click log out.
-
-  11. Close the browser.
-
-  12. Log out of the computer. Log in with your account that you just created.
-
-  Instructors will submit tickets as necessary using Slack.
-  </details>
   
 <details><summary>Introductions. (Expand for details)</summary>
   
