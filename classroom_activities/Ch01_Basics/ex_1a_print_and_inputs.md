@@ -158,15 +158,15 @@ Here are some other examples of what we can do with strings:
 ```python3
 ## 7
 ## Try this. What is it doing?
-customer = "bob"
-shouted = customer.upper()
+shopper = "bob"
+shouted = shopper.upper()
 print(shouted)
 
 
 ## 8
 ## Try this. What is it doing?
-greeted_customer = "HelLO BOb"
-no_cap = greeted_customer.lower()
+greeted_shop = "HelLO BOb"
+no_cap = greeted_shop.lower()
 print(no_cap)
 
 
@@ -182,14 +182,14 @@ Now, try it by filling in the blanks:
 ```python3
 ## 10
 ## Complete the following:
-customer = "caTHy"
+merchant = "caTHy"
 shouted_cust = ___.upper()
-print("The customer name, all uppercase, is...")
+print("The merchant name, all uppercase, is...")
 print(shouted_cust)
-print("The customer name, all lowercase, is...")
+print("The merchant name, all lowercase, is...")
 print(___.lower())
-print("The customer name, with proper capitalization, is...")
-print(customer.___())
+print("The merchant name, with proper capitalization, is...")
+print(merchant.___())
 
 ########################
 ##  INSTRUCTOR-CHECK  ##
@@ -223,18 +223,18 @@ You can also use `print` with multiple arguments:
 
 ```python3
 ## 12
-apples = 3
-print("I have", apples, "apples.")
+grapes = 3
+print("I have", grapes, "grapes.")
 ```
 
-Notice that when `"apples"` is in quotes, it's treated as a string (the literal word "apples"), while `apples` outside of quotes is interpreted as a variable.
+Notice that when `"grapes"` is in quotes, it's treated as a string (the literal word "grapes"), while `grapes` outside of quotes is interpreted as a variable.
 
 You can also use a **formatted string**, a.k.a. **f-string**:
 
 ```python3
 ## 13
-apples = 3
-print(f"I have {apples} apples.")
+kiwis = 3
+print(f"I have {kiwis} kiwis.")
 ```
 
 ### Common error messages so far
@@ -246,8 +246,8 @@ Example 1:
 ```python3
 ## 14
 ## Try this. You will get an error message.
-apples = 3
-print(appls)
+melons = 3
+print(melns)
 ```
 
 This will show the following error message:
@@ -287,9 +287,9 @@ You can make programs interactive by using the `input()` function. Here's an exa
 ```python3
 ## 16
 print("Enter the customer name: ")
-customer = input()
-greeting = "hello" + customer + "!"
-print(greeting.upper())
+buyer = input()
+salutation = "hello" + buyer + "!"
+print(salutation.upper())
 ```
 
 When you run this, you'll see that the `input` function causes the program to pause. The `input()` means "Wait for the user to type something before moving on."
@@ -356,8 +356,8 @@ You can also combine the `print` and the `input` like so, if you prefer:
 ```python3
 ## 23
 ## Try this.
-color = input("Enter a color: ")
-print("The color you chose is", color)
+shade = input("Enter a color: ")
+print("The color you chose is", shade)
 ```
 
 Most of our examples use the combined approach, but either is valid.
@@ -368,10 +368,10 @@ We've seen two data types so far: strings and integers. We've also seen that the
 
 ```python3
 ## 24
-apples = 3
-print("I have", apples, "apples.")
-onemore = apples + 1
-print("If I had another, I would have", onemore, "apples.")
+pears = 3
+print("I have", pears, "pears.")
+onemore = pears + 1
+print("If I had another, I would have", onemore, "pears.")
 planet = "Mars"
 print("Here's a planet name:", planet)
 followed = planet + "1"
@@ -382,9 +382,9 @@ What happens if we try to mix types?
 ```python3
 ## 25
 ## Try this. You will see an error.
-planet = "Mars"
-apples = 3
-print(planet + apples)
+space = "Mars"
+plums = 3
+print(space + plums)
 ```
 
 Running this will display...
@@ -398,7 +398,7 @@ TypeError: can only concatenate str (not "int") to str
 Here's what Python is saying:
 - There's a `+`, so that means you're trying to add.
 - The first one was a string, so that means the `+` is going to mean "concatenation" (not math adding).
-- Concatenation only makes sense between strings, and `apples` is not a string. It's the integer 3.
+- Concatenation only makes sense between strings, and `plums` is not a string. It's the integer 3.
 
 Let's look at why that matters when working with inputs.
 
