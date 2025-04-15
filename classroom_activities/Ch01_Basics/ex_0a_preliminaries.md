@@ -45,7 +45,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
   5. Close VS Code.
 </details>
 
-<details><summary>Link your computer to the student samba. (Expand for details)</summary>
+<!--- <details><summary>Link your computer to the student samba. (Expand for details)</summary>
   
   1) Open the file browser.  
   
@@ -66,7 +66,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
   9) Close file browser. you are now linked to the studentsamba.
 
   10) Repeat as necessary if the `studentsamba` loses connection. 
-</details>
+</details> --->
 
 <details><summary>Follow these directions to run the student setup script. (Expand for details)</summary>
   
