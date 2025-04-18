@@ -34,6 +34,8 @@ Example:
 `# My App`  
 The hashtag makes the following text a header which is large. Add more hashtags to decrease the size.
 
+Alternatively, you can use `mo.md(f"# My App")` in a python cell to display markdown.
+
 For more Markdown formatting examples, see [here](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
 
 ### Naming a cell
