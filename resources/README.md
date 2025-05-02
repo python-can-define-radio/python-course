@@ -15,6 +15,7 @@ You can run Python in online IDEs such as these:
 [Python terminology](https://docs.python.org/3/glossary.html)  
 
 ### Full curriculums
+- https://roadmap.sh/ : A wide variety of options, not limited to Python.
 - https://www.freecodecamp.org/ : Free lessons and certificates.
   - **Top recommendation**: https://www.freecodecamp.org/learn/scientific-computing-with-python/
 - https://edube.org/ : Lessons and certificates. Some parts are free.
