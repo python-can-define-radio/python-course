@@ -8,7 +8,7 @@
 #       format_version: '1.3'
 #       jupytext_version: 1.17.1
 #   kernelspec:
-#     display_name: Python 3
+#     display_name: Python 3 (ipykernel)
 #     language: python
 #     name: python3
 # ---
@@ -99,6 +99,11 @@ print(tot_price)
 number of magic beans = 5
 
 # %% [markdown]
+# The word "syntax" means the arrangement of characters, words, and symbols. For example, "I food eat" is invalid English syntax because the verb, "eat", comes after the direct object, "food".
+#
+# To learn more about variable name rules, see [here](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/variable_names.md).
+
+# %% [markdown]
 # What's different? This code attempts to create a variable, `number of magic beans`. However, variable names cannot have spaces, so when you try to run this, Python will produce a SyntaxError because it doesn't know how to read your code:
 #
 # ```
@@ -106,11 +111,6 @@ number of magic beans = 5
 #            ^^
 # SyntaxError: invalid syntax
 # ```
-
-# %% [markdown]
-# The word "syntax" means the arrangement of characters, words, and symbols. For example, "I food eat" is invalid English syntax because the verb, "eat", comes after the direct object, "food".
-#
-# To learn more about variable name rules, see [here](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/variable_names.md).
 
 # %%
 ## 3
