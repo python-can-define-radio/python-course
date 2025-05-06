@@ -43,7 +43,9 @@ print(random.sample(x, 5))
 
 
 ## 6
-## Make a list of five numbers.  Print "I randomly picked a number, and I got ____".
+## Make a list of at least five numbers.  
+## using random.sample(), select at least two numbers from the list.
+## Display "I randomly picked these numbers, and I got ____".
 
 
 ## 7
