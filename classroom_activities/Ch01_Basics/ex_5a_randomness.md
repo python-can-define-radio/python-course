@@ -33,8 +33,10 @@ print(oneNum)
 
 
 ## 5 Try this.
-## This gives us a list of 50 integers.
-x = list(range(50))    ## Note: on 2025 March 20 we changed this to `list(range(50))`.
+## This gives us a list of 10 integers.
+x = list(range(10))
+## which is the same as this (you can use either one)
+x = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]   
 print(x)
 ## What does this give us? Try running it multiple times with different values for `k`.
 print(random.sample(x, 5))
