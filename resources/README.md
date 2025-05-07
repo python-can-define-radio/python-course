@@ -29,6 +29,7 @@ You can run Python in online IDEs such as these:
 - https://codingbat.com/python : This one requires knowledge of functions and return statements. Also, it is running an older version of Python, so you can't use f-strings. 
 
 ### Text Tutorials
+- [Official python.org tutorial](https://docs.python.org/3/tutorial/index.html)
 - [Solitaire using Arcade library](https://api.arcade.academy/en/latest/tutorials/card_game/)
 - [Hide data in images (steganography)](https://www.thepythoncode.com/article/hide-secret-data-in-images-using-steganography-python)
 - [Basics of Python turtle](https://realpython.com/beginners-guide-python-turtle/)
@@ -58,8 +59,7 @@ Games practice problems learning websites videos
 - Web server using Django: (This one is a bit steeper of a learning curve than the Flask one) https://djangoproject.com/ 
 - Project ideas https://pythongeeks.org/python-projects/
 - File upload & download in less than 100 lines: https://github.com/Bit-Loop/IP_Base_Fileshare/
-- Don't know whether this one is any good. It requires registration.
-  - https://www.sololearn.com/en/learn/courses/python-developer
+
   
 ### Learning ethical hacking:
   - https://www.hackerone.com/hackers/hacker101/
