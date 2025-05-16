@@ -26,14 +26,14 @@ example run:
 
 
 1. Convert any of your practical exercises to use the prompt_toolkit module.
-   - Lesson on prompt_toolkit available [here](https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch02_Advanced/02_prompt_toolkit.md)
+   - Lesson on prompt_toolkit available [here](https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch02_Advanced/02_prompt_toolkit.md).
    - For more information and tutorials go to the [prompt_toolkit docs](https://python-prompt-toolkit.readthedocs.io/en/master/pages/getting_started.html#getting-started).
 
 ## Fourth ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Challenge turtle s challenge
 
 
 1. Draw the following image (or select your own image) using the turtle module.
-   - More turtle examples available [here](https://github.com/python-can-define-radio/python-course/tree/main/classroom_activities/Ch03_Misc_examples/turtle_ex)
+   - More turtle examples available [here](https://github.com/python-can-define-radio/python-course/tree/main/classroom_activities/Ch03_Misc_examples/turtle_ex).
    - For more information and tutorials go to the [turtle docs](https://docs.python.org/3/library/turtle.html).
 
 ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/s_challenge.png?raw=true)
