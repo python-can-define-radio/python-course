@@ -34,7 +34,7 @@ print(avg_high_low([50, 61, 100]))   # the average of 100 and 50 should display 
 ## Fourth ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Challenge turtle s challenge
 
 
-1. Draw the following image using the turtle module.
+1. Draw the following image (or select your own image) using the turtle module.
    - More turtle examples available [here](https://github.com/python-can-define-radio/python-course/tree/main/classroom_activities/Ch03_Misc_examples/turtle_ex)
    - For more information and tutorials go to the [turtle docs](https://docs.python.org/3/library/turtle.html).
 
