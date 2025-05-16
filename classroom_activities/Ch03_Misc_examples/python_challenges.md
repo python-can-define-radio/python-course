@@ -44,7 +44,7 @@ example run:
 
 
 1. Create a python function/s that:
-   - Takes 3 parameters year, month, day.
+   - Takes 3 parameters year, month, day as integers.
    - Returns a boolean if it is a leap year.
    - Converts to the Julian date.
    - Write 3-5 assert statements to confirm functionality.
