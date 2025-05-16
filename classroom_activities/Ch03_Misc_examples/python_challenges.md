@@ -6,7 +6,6 @@
    - Do not use the `.contains()` method.
    - It should return a boolean value.
    - Write 3-5 assert statements to confirm functionality.
-   - You can use the function name from below or create your own.
 
 example run:  
 `print(does_it_contain("my dog creates his own textbooks", "creates"))`  # Should display True  
@@ -19,7 +18,6 @@ example run:
    - Do not use the `min()` or `max()` functions unless you create your own.
    - It should return the average of the highest and lowest number of the list.
    - Write 3-5 assert statements to confirm functionality.
-   - You can use the function name from below or create your own.
 
 example run:  
 `print(avg_high_low([50, 61, 100]))`   # the average of 100 and 50 should display 75
@@ -48,7 +46,6 @@ example run:
    - Returns a boolean if it is a leap year.
    - Converts to the Julian date.
    - Write 3-5 assert statements to confirm functionality.
-   - You can use the function name from below or create your own.
 
 example run:  
 `print(julian(2000, 6, 16))`  # Should display Leap Year: True and Julian Date: 137  
