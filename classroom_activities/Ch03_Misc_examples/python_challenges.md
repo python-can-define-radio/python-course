@@ -50,3 +50,17 @@ Create a python function that:
 example run:  
 `print(julian(2000, 6, 16))`  # Should display (True, 137)
 `print(julian(2001, 6, 16))`  # Should display (False, 136)
+
+
+## Write a function called strip_each_line that takes a single string argument.
+## The function should return the argument with leading and trailing whitespace
+## removed from each line.
+## Example:
+##   assert strip_each_line("  abc    \n   def   ") == "abc\ndef"
+## Possible additional challenges:
+##   - keep the line endings the same as the original string (not all operating systems use "\n" for newline)
+##   - mirror the behavior of the function inspect.cleandoc(), which keeps certain indentation.
+def strip_each_line(z: str) -> str:
+    lines = z.splitlines()
+    stp = list(map(lambda x: x.strip(), lines))
+    return "\n".join(stp)
