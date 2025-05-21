@@ -51,7 +51,7 @@ Example run:
 `print(julian(2000, 6, 16))`  # Should display (True, 137)
 `print(julian(2001, 6, 16))`  # Should display (False, 136)
 
-## Sixth ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Remove only unecessary whitespace
+## Sixth ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Challenge Remove only unecessary whitespace
 
 
 Write a function that:
