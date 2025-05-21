@@ -6,7 +6,7 @@ Create a python function that checks a string to see whether a specific pattern 
    - It should return a boolean value.
    - Write 3-5 assert statements to confirm functionality.
 
-example run:  
+Example run:  
 `print(does_it_contain("my dog creates his own textbooks", "creates"))`  # Should display True  
 `print(does_it_contain("my dog creates his own textbooks", "eats"))`  # Should display False
 
@@ -18,7 +18,7 @@ Create a python function that:
    - It should return the average of the highest and lowest number of the list.
    - Write 3-5 assert statements to confirm functionality.
 
-example run:  
+Example run:  
 `print(avg_high_low([50, 61, 100]))`   # the average of 100 and 50 should display 75
 
 ## Third ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Challenge use prompt_toolkit
@@ -47,20 +47,18 @@ Create a python function that:
      - `b` is the Julian date as an integer
    - Write 3-5 assert statements to confirm functionality.
 
-example run:  
+Example run:  
 `print(julian(2000, 6, 16))`  # Should display (True, 137)
 `print(julian(2001, 6, 16))`  # Should display (False, 136)
 
+## Sixth ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Remove only unecessary whitespace
 
-## Write a function called strip_each_line that takes a single string argument.
-## The function should return the argument with leading and trailing whitespace
-## removed from each line.
-## Example:
-##   assert strip_each_line("  abc    \n   def   ") == "abc\ndef"
-## Possible additional challenges:
-##   - keep the line endings the same as the original string (not all operating systems use "\n" for newline)
-##   - mirror the behavior of the function inspect.cleandoc(), which keeps certain indentation.
-def strip_each_line(z: str) -> str:
-    lines = z.splitlines()
-    stp = list(map(lambda x: x.strip(), lines))
-    return "\n".join(stp)
+
+Write a function that:
+   - Is called strip_each_line and takes a single string argument.
+   - Returns the argument without leading and trailing whitespace
+   - Keeps the line endings the same as the original string (not all operating systems use "\n" for newline)
+   - Mirrors the behavior of the function inspect.cleandoc(), which keeps certain indentation.
+ 
+Example run:
+`print(strip_each_line("  abc    \n   def   "))`  # Should display "abc\ndef"
