@@ -62,3 +62,78 @@ Write a function that:
  
 Example run:  
 `print(strip_each_line("  abc    \n   def   "))`  # Should display "abc\ndef"
+
+## Seventh ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Challenge 
+
+## Make a function that says the age of a given person.
+
+def ageof(name):
+     if name == "Jaime":
+         return 32
+     elif name == "Taelor":
+         return 34
+     else:
+         raise NotImplementedError()
+
+# print(ageof("Jaime"))   ## should print 32
+# print(ageof("Taelor"))  ## should print 34
+
+
+# 2a  Make a function named `whichlower` that returns "first arg was lower" or "second arg was lower"
+
+@typechecked
+def whichlower(fir: float, snd: float) -> str:
+    if fir > snd:
+        return "Second lower"
+    elif fir < snd:
+        return "First lower"
+    elif fir == snd:
+        return "Is Equal"   
+    else:
+        return "is Not a regular number"
+    
+
+assert whichlower(3, 7) == "First lower"
+assert whichlower(8, 5) == "Second lower"
+assert whichlower(7, 3) == "Second lower"
+assert whichlower(1, 9) == "First lower"
+assert whichlower(1, -9) == "Second lower"
+assert whichlower(1.3, -9) == "Second lower"
+assert whichlower(1, 1) == "Is Equal"
+assert whichlower(3, 0b011) == "Is Equal"
+if "do not run this" == "please":
+    # Cannot run this because `bin(3)` is a string.
+    assert whichlower(3, bin(3)) == "Is Equal"
+
+
+# # 2b Make a function that, given two numbers, returns "lowest was ___"
+
+
+def lowerwas(fir, snd):
+    if fir > snd:
+        return f"the lowest of two was {snd}"
+    elif fir < snd:
+        return f"the lowest of the two is {fir}"
+    
+
+print(lowerwas(3, 7))
+print(lowerwas(40, 23))
+# assert lowerwas(3, 7) == "lowest was 3"
+# assert lowerwas(8, 5) == "lowest was 5"
+
+
+
+# 2c Make a function that returns the lower of two numbers.
+# Tests:
+
+# def smaller(fir, snd):
+#     print("fir is", fir, "and snd is", snd)
+#     if fir < snd:
+#         return 3 
+#     if snd < fir:
+#         return 4
+
+
+# print(smaller(3, 7))  # should display 3
+# print(smaller(9, 4))  ## should display 4
+# print(smaller(12, 15))  ## should display 12
