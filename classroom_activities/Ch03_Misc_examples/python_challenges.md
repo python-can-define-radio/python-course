@@ -60,5 +60,5 @@ Write a function that:
    - Keeps the line endings the same as the original string (not all operating systems use "\n" for newline)
    - Mirrors the behavior of the function inspect.cleandoc(), which keeps certain indentation.
  
-Example run:
+Example run:  
 `print(strip_each_line("  abc    \n   def   "))`  # Should display "abc\ndef"
