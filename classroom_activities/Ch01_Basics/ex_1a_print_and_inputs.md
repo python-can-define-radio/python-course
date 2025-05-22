@@ -210,6 +210,20 @@ print("The length of the word 'hi' is ")
 print(len('hi'))
 ```
 
+### Printing on multiple lines
+
+There are numerous methods of printing on multiple lines available. These are some of the simplest:
+
+- Use multiple print functions (print has a newline built-in by default).
+     - `print("Hello World")`
+     - `print("Welcome to the Python Course")` 
+- Use a Multi-line string (triple quotes).
+     - <pre>print("""Hello World
+        Welcome to 
+        the Python Course""")</pre>
+- Use the "\n" escape sequence inside your print function.
+     - `print("Hello World\nWelcome to the Python Course")`
+     
 ### Using variables inline
 
 When we use `print`, the thing that is being printed is called an "argument".
