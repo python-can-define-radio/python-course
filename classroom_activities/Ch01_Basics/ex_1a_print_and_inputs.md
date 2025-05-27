@@ -447,6 +447,7 @@ print("Welcome to the number adder that works well!")
 a = int(input("What's a number you like? "))
 b = int(input("Can you give me another number you like? "))
 c = a + b
+print("I added them. Here's what I got...")
 print(c)
 ```
 
