@@ -216,18 +216,21 @@ Try these, they should all print the exact same thing:
 
 - Use multiple print functions (print has a newline built-in by default).
   ```
+  ## 11a
   print("Hello World")
   print("Welcome to")
   print("the Python Course")
   ```
 - Use a Multi-line string (triple quotes).
   ```
+  ## 11b
   print("""Hello World
   Welcome to 
   the Python Course""")
   ```
 - Use the "\n" escape sequence inside your print function.
   ```
+  ## 11c
   print("Hello World\nWelcome to\nthe Python Course")
   ```
      
