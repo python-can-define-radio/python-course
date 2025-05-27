@@ -219,8 +219,8 @@ There are numerous methods of printing on multiple lines available. These are so
      - `print("the Python Course")`
 - Use a Multi-line string (triple quotes).
      - <pre>print("""Hello World
-        Welcome to 
-        the Python Course""")</pre>
+       Welcome to 
+       the Python Course""")</pre>
 - Use the "\n" escape sequence inside your print function.
      - `print("Hello World\nWelcome to\nthe Python Course")`
      
