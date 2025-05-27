@@ -183,13 +183,12 @@ Now, try it by filling in the blanks:
 ## 10
 ## Complete the following:
 merchant = "caTHy"
-shouted_cust = ___.upper()
 print("The merchant name, all uppercase, is...")
-print(shouted_cust)
+print(merchant.___())
 print("The merchant name, all lowercase, is...")
 print(___.lower())
 print("The merchant name, with proper capitalization, is...")
-print(merchant.___())
+print(___.___())
 
 ########################
 ##  INSTRUCTOR-CHECK  ##
