@@ -211,18 +211,25 @@ print(len('hi'))
 
 ### Printing on multiple lines
 
-There are numerous methods of printing on multiple lines available. These are some of the simplest:
+There are numerous methods of printing on multiple lines available.  
+Try these, they should all print the exact same thing:
 
 - Use multiple print functions (print has a newline built-in by default).
-     - `print("Hello World")`
-     - `print("Welcome to")`
-     - `print("the Python Course")`
+  ```
+  print("Hello World")
+  print("Welcome to")
+  print("the Python Course")
+  ```
 - Use a Multi-line string (triple quotes).
-     - <pre>print("""Hello World
-       Welcome to 
-       the Python Course""")</pre>
+  ```
+  print("""Hello World
+  Welcome to 
+  the Python Course""")
+  ```
 - Use the "\n" escape sequence inside your print function.
-     - `print("Hello World\nWelcome to\nthe Python Course")`
+  ```
+  print("Hello World\nWelcome to\nthe Python Course")
+  ```
      
 ### Using variables inline
 
