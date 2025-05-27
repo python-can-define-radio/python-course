@@ -24,7 +24,6 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
         
       - What you expect from this course?
         
-      - Is your account working?
         
 </details>
 
