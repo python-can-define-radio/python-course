@@ -215,13 +215,14 @@ There are numerous methods of printing on multiple lines available. These are so
 
 - Use multiple print functions (print has a newline built-in by default).
      - `print("Hello World")`
-     - `print("Welcome to the Python Course")` 
+     - `print("Welcome to")`
+     - `print("the Python Course")`
 - Use a Multi-line string (triple quotes).
      - <pre>print("""Hello World
         Welcome to 
         the Python Course""")</pre>
 - Use the "\n" escape sequence inside your print function.
-     - `print("Hello World\nWelcome to the Python Course")`
+     - `print("Hello World\nWelcome to\nthe Python Course")`
      
 ### Using variables inline
 
