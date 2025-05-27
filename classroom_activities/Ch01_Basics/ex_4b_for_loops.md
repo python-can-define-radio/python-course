@@ -206,6 +206,32 @@ temps_in_F = [90, 30, 47, 82, 68, 100, 25, 40]
 ## temperatures are above freezing and how many are below freezing.
 ```
 
+Here's some more practice with for-loops.
+
+```python3
+## 19
+## Make a list of five names.
+## Use a for-loop to display each name capitalized, all-lowercase, and all-uppercase.
+
+
+## 20
+## Copy and modify the previous exercise so that it uses
+## `random.sample` to pick only 3 names of the five available names.
+## As before, display each name capitalized, all-lowercase, and all-uppercase.
+##########################
+## INSTRUCTOR CHECK
+##########################
+
+```
+
+-----------
+
+
+### Optional exercises
+
+<details><summary>Expand here for additional content.</summary>
+
+
 ### For loops and files
 
 Automating processes is one of the many useful applications of computers. In the examples below, we will read the lines of a text file and iterate over the lines using a `for` loop.
@@ -331,13 +357,6 @@ for line in lines:
 ## As before, the names and heart rates should not appear in your Python code.
 
 ```
-
------------
-
-
-### Optional exercises
-
-<details><summary>Expand here for additional content.</summary>
 
 #### More File reading and writing:
 
