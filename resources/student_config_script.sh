@@ -391,8 +391,6 @@ else
     echo "Ok we won't delete it even though it is of no further use."
 fi
 
-# You might need to restart Nautilus for changes to take effect
-
 echo "You need to exit the file browser (Nautilus) for changes to fully take effect."
 echo "Would you like to exit Nautilus now? (y|N)"
 read exitnautilusnow
