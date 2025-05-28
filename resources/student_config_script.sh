@@ -313,61 +313,61 @@ fi
 
 mv richzip rich_presentations
 
-cd /run/user
-username=$(whoami)
-directories=($(ls -d */))
-if [ -z "$directories" ]; then
-    echo "Samba does not appear to be mounted. Specifically, didn't find any directories in $(pwd).";
-fi
+# cd /run/user
+# username=$(whoami)
+# directories=($(ls -d */))
+# if [ -z "$directories" ]; then
+#     echo "Samba does not appear to be mounted. Specifically, didn't find any directories in $(pwd).";
+# fi
 
-for dir in "${directories[@]}"; do
-    # Remove the trailing slash from the directory name
-    dir=${dir%/}
-    # Check if the directory name contains more than 5 digits
-    if [[ "$dir" =~ [0-9]{6,} ]]; then
-        usernumber=$dir
-        break
-    fi
-done 
+# for dir in "${directories[@]}"; do
+#     # Remove the trailing slash from the directory name
+#     dir=${dir%/}
+#     # Check if the directory name contains more than 5 digits
+#     if [[ "$dir" =~ [0-9]{6,} ]]; then
+#         usernumber=$dir
+#         break
+#     fi
+# done 
 
-cd $usernumber
-cd gvfs
+# cd $usernumber
+# cd gvfs
 
-if [ -z "$(ls)" ]; then
-    echo "No samba shares appear to be mounted. Specifically, didn't find anything in $(pwd)";
-    exit
-fi
+# if [ -z "$(ls)" ]; then
+#     echo "No samba shares appear to be mounted. Specifically, didn't find anything in $(pwd)";
+#     exit
+# fi
 
-studentdir="$(ls | grep student || true)"
+# studentdir="$(ls | grep student || true)"
 
-if [ -z "$studentdir" ]; then
-    echo "Student samba share does not appear to be mounted. Specifically, didn't find anything containing the word student in $(pwd)";
-    exit    
-fi
-# studentdir=$(ls -lt | grep "^d" | grep "student" | head -n 1 | awk '{print $NF}')
-cd $studentdir # chooses just the student samba dir in the event the instructor is linked to both inst samba and student samba
-samba_root=$(pwd)
-source_file_python_slideshows="$samba_root/python_resources/python_slideshows/"
-destination_dir_python_slideshows="/home/$username/Desktop/"  
+# if [ -z "$studentdir" ]; then
+#     echo "Student samba share does not appear to be mounted. Specifically, didn't find anything containing the word student in $(pwd)";
+#     exit    
+# fi
+# # studentdir=$(ls -lt | grep "^d" | grep "student" | head -n 1 | awk '{print $NF}')
+# cd $studentdir # chooses just the student samba dir in the event the instructor is linked to both inst samba and student samba
+# samba_root=$(pwd)
+# source_file_python_slideshows="$samba_root/python_resources/python_slideshows/"
+# destination_dir_python_slideshows="/home/$username/Desktop/"  
   
-cp -r "$source_file_python_slideshows" "$destination_dir_python_slideshows"
+# cp -r "$source_file_python_slideshows" "$destination_dir_python_slideshows"
 
-if [ $? -eq 0 ]; then
-    echo -e "\e[32m- Successfully moved python slideshows folder to the Desktop.\e[35m"
-else
-    echo "Move failed."
-fi 
+# if [ $? -eq 0 ]; then
+#     echo -e "\e[32m- Successfully moved python slideshows folder to the Desktop.\e[35m"
+# else
+#     echo "Move failed."
+# fi 
 
-source_file_sdr_slideshows="$samba_root/sdr_resources/sdr_slideshows/"
-destination_dir_sdr_slideshows="/home/$username/Desktop/"  
+# source_file_sdr_slideshows="$samba_root/sdr_resources/sdr_slideshows/"
+# destination_dir_sdr_slideshows="/home/$username/Desktop/"  
 
-cp -r "$source_file_sdr_slideshows" "$destination_dir_sdr_slideshows"
+# cp -r "$source_file_sdr_slideshows" "$destination_dir_sdr_slideshows"
 
-if [ $? -eq 0 ]; then
-    echo -e "\e[32m- Successfully moved sdr slideshows folder to the Desktop.\e[35m"
-else
-    echo "Move failed."
-fi 
+# if [ $? -eq 0 ]; then
+#     echo -e "\e[32m- Successfully moved sdr slideshows folder to the Desktop.\e[35m"
+# else
+#     echo "Move failed."
+# fi 
 
 
 # repo_url="https://raw.githubusercontent.com/python-can-define-radio/sdr-course/refs/heads/main/resources/sdrsetup.sh"
