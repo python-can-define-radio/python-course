@@ -218,10 +218,22 @@ Here's some more practice with for-loops.
 ## Copy and modify the previous exercise so that it uses
 ## `random.sample` to pick only 3 names of the five available names.
 ## As before, display each name capitalized, all-lowercase, and all-uppercase.
+## Do not forget `import random` as the first line of your code.
 ##########################
 ## INSTRUCTOR CHECK
 ##########################
 
+```
+
+```python3
+## 21
+## Using the given list.
+## Ask the user for a letter.
+## Ask the user for a number.
+## Create a for loop that finds names that start with the given letter.
+## and are longer than the provided number of characters.
+## Display any name that meets both criteria (pay attention to capitalization).
+actors = ["Timothy", "Arnold", "Jennifer", "Jason", "Sylvester", "Danny", "Bob", "Catherine"]
 ```
 
 -----------
