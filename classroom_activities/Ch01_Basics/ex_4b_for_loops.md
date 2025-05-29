@@ -218,7 +218,7 @@ Here's some more practice with for-loops.
 ## Copy and modify the previous exercise so that it uses
 ## `random.sample` to pick only 3 names of the five available names.
 ## As before, display each name capitalized, all-lowercase, and all-uppercase.
-## Do not forget `import random` as the first line of your code.
+## Do not forget import random as the first line of your code.
 ##########################
 ## INSTRUCTOR CHECK
 ##########################
