@@ -136,6 +136,8 @@ print("closed.")
 
 This is far from complete because "`send` and `recv` ... do not necessarily handle all the bytes you hand them (or expect from them).... It is your responsibility to call them again until your message has been completely dealt with." ([python.org Socket Programming HOWTO](https://docs.python.org/3/howto/sockets.html))
 
+A somewhat more complete version (which quite different in structure) is in progress [here](https://github.com/python-can-define-radio/side-projects/tree/main/2025_05_30__file_submitting_sockets).
+
 client_filesender.py:
 ```python3
 import socket
@@ -188,3 +190,4 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
         time.sleep(0.1)
         conn.close()
 ```
+
