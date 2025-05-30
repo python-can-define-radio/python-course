@@ -134,6 +134,8 @@ print("closed.")
 
 ## A basic file submission client & server:
 
+This is far from complete because "`send` and `recv` ... do not necessarily handle all the bytes you hand them (or expect from them).... It is your responsibility to call them again until your message has been completely dealt with." ([python.org Socket Programming HOWTO](https://docs.python.org/3/howto/sockets.html))
+
 client_filesender.py:
 ```python3
 import socket
@@ -154,4 +156,35 @@ print(s.recv(1024))
 s.close()
 ```
 
-server.py: TODO
+server.py:
+
+```python3
+import socket
+import time
+
+print("Ready to receive a client connection.")
+HOST = ''
+PORT = 50007              # Arbitrary non-privileged port
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    s.bind((HOST, PORT))
+    s.listen(1)
+    while True:
+        conn, addr = s.accept()
+        print('Connected by', addr)
+        codetogether = conn.recv(4096).decode()
+        cstrp = codetogether.strip()
+        if not cstrp.lower().startswith("# name: "):
+            conn.send(b"Must put name")
+            print(f"Rejected because the beginning was {codetogether[:30]}")
+        else:
+            conn.send(b"Received " + str(len(codetogether)).encode("utf") + b" bytes")
+            firstline = cstrp.splitlines()[0]
+            name = firstline[8:]
+            outfile = open("student_data/" + name + ".py", "w")
+            print(codetogether)
+            outfile.write(codetogether)
+            outfile.close()
+        print("=========================")
+        time.sleep(0.1)
+        conn.close()
+```
