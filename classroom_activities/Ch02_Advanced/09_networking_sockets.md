@@ -131,3 +131,27 @@ print("connected.")
 sock.close()
 print("closed.")
 ```
+
+## A basic file submission client & server:
+
+client.py:
+```python3
+import socket
+
+HOST = '10.50.129.202'
+PORT = 50007
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((HOST, PORT))
+s.send(b"""
+# Name: Smith
+# Code:
+put
+your
+code
+here
+""")
+print(s.recv(1024))
+s.close()
+```
+
+server.py: TODO
