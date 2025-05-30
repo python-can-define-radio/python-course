@@ -134,7 +134,7 @@ print("closed.")
 
 ## A basic file submission client & server:
 
-client.py:
+client_filesender.py:
 ```python3
 import socket
 
