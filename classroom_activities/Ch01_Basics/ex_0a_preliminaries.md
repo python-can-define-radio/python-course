@@ -2,7 +2,9 @@
 
 ## Day One Breakdown
     
-_Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial](https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-string-manipulation-by-building-a-cipher/step-1) or go and explore these [resources](https://github.com/python-can-define-radio/python-course/tree/main/resources).
+_Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial](https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-string-manipulation-by-building-a-cipher/step-1) or go and explore these [resources](https://github.com/python-can-define-radio/python-course/tree/main/resources)_.
+
+Launch a [network tunnel](https://github.com/python-can-define-radio/side-projects/blob/main/masking_socket_tunnel/student_tunnel.py) if your instructor asks you to.
 
 ### Prerequisites
 
