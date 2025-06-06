@@ -218,7 +218,7 @@ def when_slider_moved():
 
 
 app = App(title="Guizero updating slider", height=170)
-slider = Slider(app, start=88, end=108, width=400, height=25, command=when_slider_moved)
+slider = Slider(app, start=88.1, end=107.9, width=400, height=25, command=when_slider_moved)
 slider.bg = "green"
 slider.text_color = "yellow"
 slider.text_size = 16
@@ -264,7 +264,7 @@ def when_slider_moved():
 state = 104.0
 app = App(title="Guizero updating slider")
 spacer = Box(app, height=140, width="fill")
-slider = Slider(app, start=88, end=108, width=400, height=25, command=when_slider_moved)
+slider = Slider(app, start=88.1, end=107.9, width=400, height=25, command=when_slider_moved)
 slider.bg = "green"
 slider.text_color = "yellow"
 slider.text_size = 16
