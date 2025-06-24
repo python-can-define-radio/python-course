@@ -6,8 +6,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 
 ### Prerequisites
 
-- Cloud storage to save your work. (see Ways to save your work below for links)
-- Login to Horizon VMware
+- Login to CVTE thin client
 - Launch VS Code
 - Install python extension
 - Install python
