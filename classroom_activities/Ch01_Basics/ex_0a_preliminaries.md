@@ -7,6 +7,9 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 ### Prerequisites
 
 - Login to CVTE thin client
+- Distribute IP addresses
+- Login to Ubuntu VM
+- Change student passwords
 - Launch VS Code
 - Install python extension
 - Install python
