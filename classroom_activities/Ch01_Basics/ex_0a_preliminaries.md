@@ -11,8 +11,6 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 - Login to Ubuntu VM
 - Change student passwords
 - Launch VS Code
-- Install python extension
-- Install python
   
 <details><summary>Introductions. (Expand for details)</summary>
   
