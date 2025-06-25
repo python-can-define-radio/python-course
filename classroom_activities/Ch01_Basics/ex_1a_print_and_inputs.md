@@ -327,12 +327,14 @@ Practice:
 ## Fill in the blanks.
 print("Enter a color: ")
 color = input()
+print("The color you chose is", ___)
+
 print("Enter an animal: ")
 ___ = input()
+print("The animal you chose is", animal)
+
 print("Enter a plant: ")
 plant = ___()
-print("The color you chose is", ___)
-print("The animal you chose is", animal)
 print(___, plant)
 
 
