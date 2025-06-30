@@ -70,3 +70,19 @@ Also note that the format specifiers for other number systems work for integers,
 item_number = 27.283
 print(f"This will give an error, because item_number is a float: {item_number:b}.")
 ```
+# IP addresses
+ipv4 addresses use 32 total bits (4 "octets", 8 bits for each "octet") typically written in dotted decimal notation.  
+example: 10.50.151.180  
+which is the same as saying...  
+00001010.00110010.10010111.10110100   
+...to a computer  
+each octet ranges from 0-255 which is 2⁸ available numbers
+|     Host Bits    | Values | Total|
+|:---------:|:------:|----------|
+|  1   |  0 or 1	   | 2 or 2¹ |
+|  2   |  00, 01, 10, 11	| 4 or 2² |
+|  3   |  000, 001, 010, 011, 100, 101, 110, 111  | 8 or 2³ |
+|  4   |  0000, 0001, 0010, 0011, 0100, 0101, 0110, 0111,<br>1000, 1001, 1010, 1011, 1100, 1101, 1110, 1111 | 16 or 2⁴ |
+|  5   |  00000, 00001, 00010, 00011, 00100, 00101, 00110, 00111,<br>01000, 01001, 01010, 01011, 01100, 01101, 01110, 01111,<br>10000, 10001, 10010, 10011, 10100, 10101, 10110, 10111,<br>11000, 11001, 11010, 11011, 11100, 11101, 11110, 11111  | 32 or 2⁵ |
+  
+
