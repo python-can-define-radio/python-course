@@ -126,14 +126,14 @@ print(lowerwas(40, 23))
 # 2c Make a function that returns the lower of two numbers.
 # Tests:
 
-# def smaller(fir, snd):
-#     print("fir is", fir, "and snd is", snd)
-#     if fir < snd:
-#         return 3 
-#     if snd < fir:
-#         return 4
+def smaller(fir, snd):
+     print("fir is", fir, "and snd is", snd)
+     if fir < snd:
+         return 3 
+     if snd < fir:
+         return 4
 
 
-# print(smaller(3, 7))  # should display 3
-# print(smaller(9, 4))  ## should display 4
-# print(smaller(12, 15))  ## should display 12
+print(smaller(3, 7))  # should display 3
+print(smaller(9, 4))  ## should display 4
+print(smaller(12, 15))  ## should display 12
