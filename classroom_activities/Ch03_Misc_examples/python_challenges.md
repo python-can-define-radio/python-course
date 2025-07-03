@@ -63,24 +63,24 @@ Write a function that:
 Example run:  
 `print(strip_each_line("  abc    \n   def   "))`  # Should display "abc\ndef"
 
-## Seventh ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Challenge 
+## Seventh ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Challenge make a function that says the age of a given person.
 
-## Make a function that says the age of a given person.
+```python3
+def ageof(name):  
+     if name == "Jaime":  
+         return 32  
+     elif name == "Taelor":   
+         return 34  
+     else:  
+         raise NotImplementedError()  
 
-def ageof(name):
-     if name == "Jaime":
-         return 32
-     elif name == "Taelor":
-         return 34
-     else:
-         raise NotImplementedError()
+print(ageof("Jaime"))   ## should print 32
+print(ageof("Taelor"))  ## should print 34
+```
 
-# print(ageof("Jaime"))   ## should print 32
-# print(ageof("Taelor"))  ## should print 34
+## Eighth ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Challenge make a function named `whichlower` that returns "first arg was lower" or "second arg was lower"
 
-
-# 2a  Make a function named `whichlower` that returns "first arg was lower" or "second arg was lower"
-
+```python3
 @typechecked
 def whichlower(fir: float, snd: float) -> str:
     if fir > snd:
@@ -104,10 +104,11 @@ assert whichlower(3, 0b011) == "Is Equal"
 if "do not run this" == "please":
     # Cannot run this because `bin(3)` is a string.
     assert whichlower(3, bin(3)) == "Is Equal"
+```
 
+## Ninth ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Challenge make a function that, given two numbers, returns "lowest was ___"
 
-# # 2b Make a function that, given two numbers, returns "lowest was ___"
-
+```python3
 
 def lowerwas(fir, snd):
     if fir > snd:
@@ -118,14 +119,16 @@ def lowerwas(fir, snd):
 
 print(lowerwas(3, 7))
 print(lowerwas(40, 23))
-# assert lowerwas(3, 7) == "lowest was 3"
-# assert lowerwas(8, 5) == "lowest was 5"
+assert lowerwas(3, 7) == "lowest was 3"
+assert lowerwas(8, 5) == "lowest was 5"
 
+```
 
+## Ninth ![python.png](https://github.com/python-can-define-radio/python-course/blob/main/resources/misc/python.png?raw=true) Challenge  make a function that returns the lower of two numbers.
 
-# 2c Make a function that returns the lower of two numbers.
-# Tests:
+Tests:
 
+```python3
 def smaller(fir, snd):
      print("fir is", fir, "and snd is", snd)
      if fir < snd:
@@ -137,3 +140,5 @@ def smaller(fir, snd):
 print(smaller(3, 7))  # should display 3
 print(smaller(9, 4))  ## should display 4
 print(smaller(12, 15))  ## should display 12
+
+```
