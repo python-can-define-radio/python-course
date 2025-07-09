@@ -1,6 +1,1 @@
-#!/bin/bash
-
-rm ~/*.py
-rm ~/Desktop/*.py
-rm ~/Desktop/*/*.py
-rm ~/Desktop/*/*/*.py
+rm ~/*.py; rm ~/Desktop/*.py; rm ~/Desktop/*/*.py; rm ~/Desktop/*/*/*.py; rm ~/*.pyc; rm ~/Desktop/*.pyc; rm ~/Desktop/*/*.pyc; rm ~/Desktop/*/*/*.pyc; rmdir ~/__pycache__; rmdir ~/Desktop/__pycache__; rmdir ~/Desktop/*/__pycache__; rmdir ~/Desktop/*/*/__pycache__
