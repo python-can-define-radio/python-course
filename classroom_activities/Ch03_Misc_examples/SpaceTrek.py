@@ -64,7 +64,7 @@ def ahead_half(lightyears, carbon_dioxide, fuel, gorn):
     return lightyears, carbon_dioxide, fuel, gorn
 
 
-def drink(air_scrubbers, carbon_dioxide):
+def scrub(air_scrubbers, carbon_dioxide):
     if air_scrubbers > 0:
         air_scrubbers -= 1
         carbon_dioxide = 0
@@ -111,7 +111,7 @@ Q. Quit.[/]""")
         elif choice.lower() == "b":
             lightyears, carbon_dioxide, fuel, gorn = ahead_half(lightyears, carbon_dioxide, fuel, gorn)
         elif choice.lower() == "a":
-            air_scrubbers, carbon_dioxide = drink(air_scrubbers, carbon_dioxide)
+            air_scrubbers, carbon_dioxide = scrub(air_scrubbers, carbon_dioxide)
         if 4 <= carbon_dioxide <= 6:
             print("You are running out of oxygen.")
         if carbon_dioxide > 6:
