@@ -13,6 +13,7 @@ You can run Python in online IDEs such as these:
 [Python keywords](https://realpython.com/python-keywords)  
 [Python data types](https://docs.python.org/3/library/stdtypes.html)  
 [Python terminology](https://docs.python.org/3/glossary.html)  
+[Python Naming Conventions](https://peps.python.org/pep-0008/#naming-conventions)
 
 ### Full curriculums
 - https://roadmap.sh/ : A wide variety of options, not limited to Python.
