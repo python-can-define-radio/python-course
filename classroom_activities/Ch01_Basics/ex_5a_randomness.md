@@ -32,6 +32,14 @@ oneNum = random.choice(nums)
 print(oneNum)
 
 
+## 4b  (Note: Renumbered on 2025 July 21)
+## Copy and modify the previous example.
+## After displaying the number you picked,
+## if the randomly picked number was more than 40, print "It was a big number."
+## Otherwise, print "It was not a very big number."
+
+
+
 ## 5 Try this.
 ## This gives us a list of 10 integers.
 x = list(range(10))
@@ -49,10 +57,9 @@ print(random.sample(x, 5))
 
 
 ## 7
-## Copy and modify the previous example.
-## After displaying the number you picked,
-## if the randomly picked number was more than 40, print "It was a big number."
-## Otherwise, print "It was not a very big number."
+## (Note: this was edited on 2025 July 21)
+## Make a list of at least five strings.
+## Using random.sample, do the same as you did in the previous exercise.
 
 
 ## 8
