@@ -232,7 +232,8 @@ Here's some more practice with for-loops.
 ## Ask the user for a number.
 ## Create a for loop that finds names that start with the given letter.
 ## and are longer than the provided number of characters.
-## Display any name that meets both criteria (pay attention to capitalization).
+## Display any name that meets both criteria.
+## Match the names regardless of whether the user types capital or lowercase letters.
 ## At the end display "Those are the names that meet your criteria."
 actors = ["Timothy", "Arnold", "Jennifer", "Jason", "Sylvester", "Danny", "Bob", "Catherine"]
 ```
