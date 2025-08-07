@@ -120,7 +120,7 @@
 - <span style="color: green"><b>Python Exam</b></span>
   - accessible during the exam:
     - personal notes/work
-    - github lessons
+    - [these github lessons](https://github.com/python-can-define-radio/python-course/tree/main/classroom_activities/Ch01_Basics)
   - not accessible during the exam:
     - search engines
     - online AI
@@ -128,7 +128,6 @@
 
 
 [ex_0a_preliminaries]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_0a_preliminaries.md  
-[ex_0b_shell]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_0b_shell.md
 [ex_1a_prints_and_inputs]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_1a_print_and_inputs.md
 [ex_1b_variables_modules_formatting]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_1b_variables_modules_formatting.md
 [ex_2a_number_systems]: https://github.com/python-can-define-radio/python-course/blob/main/classroom_activities/Ch01_Basics/ex_2a_number_systems.md
