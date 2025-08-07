@@ -1,10 +1,6 @@
 # Preliminaries
 
 ## Day One Breakdown
-    
-_Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial](https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-string-manipulation-by-building-a-cipher/step-1) or go and explore these [resources](https://github.com/python-can-define-radio/python-course/tree/main/resources)_.
-
-[Daily Schedule of Events](https://github.com/python-can-define-radio/python-course/blob/main/resources/toc-python.md)
 
 ### Prerequisites
 
@@ -12,6 +8,10 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 - Create Ubuntu VM
 - Login to Ubuntu VM
 - Change student passwords
+
+_Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial](https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-string-manipulation-by-building-a-cipher/step-1) or go and explore these [resources](https://github.com/python-can-define-radio/python-course/tree/main/resources)_.
+
+[Daily Schedule of Events](https://github.com/python-can-define-radio/python-course/blob/main/resources/toc-python.md)
   
 <details><summary>Introductions. (Expand for details)</summary>
   
