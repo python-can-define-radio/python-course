@@ -14,7 +14,6 @@
 <div style=float:left>👨🏽‍🏫</div> 
 
 - [Preliminaries][ex_0a_preliminaries] 
-- [Shell][ex_0b_shell]
 - [Print and Inputs][ex_1a_prints_and_inputs]  
 
 <div style=float:left>🔬</div> 
@@ -121,9 +120,8 @@
 - <span style="color: green"><b>Python Exam</b></span>
   - accessible during the exam:
     - personal notes/work
-  - not accessible during the exam:
     - github lessons
-    - samba
+  - not accessible during the exam:
     - search engines
     - online AI
     - any other online/offline source not approved by your instructor
