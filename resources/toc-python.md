@@ -120,7 +120,7 @@
 - <span style="color: green"><b>Python Exam</b></span>
   - accessible during the exam:
     - personal notes/work
-    - [these github lessons](https://github.com/python-can-define-radio/python-course/tree/main/classroom_activities/Ch01_Basics)
+    - [these github lessons](https://github.com/python-can-define-radio/python-course/tree/main/classroom_activities/Ch01_Basics) on github.com/python-can-define-radio/python-course
   - not accessible during the exam:
     - search engines
     - online AI
