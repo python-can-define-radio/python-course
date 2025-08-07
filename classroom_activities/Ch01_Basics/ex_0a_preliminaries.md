@@ -7,7 +7,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 ### Prerequisites
 
 - Login to CVTE thin client
-- Distribute IP addresses
+- Create Ubuntu VM
 - Login to Ubuntu VM
 - Change student passwords
 - Launch VS Code
