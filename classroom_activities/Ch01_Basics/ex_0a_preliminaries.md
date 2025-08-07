@@ -65,7 +65,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
   9) Close file browser. you are now linked to the studentsamba.
 
   10) Repeat as necessary if the `studentsamba` loses connection. 
-</details> --->
+</details> 
 
 <details><summary>Follow these directions to run the student setup script. (Expand for details)</summary>
   
@@ -119,7 +119,7 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
       ### For instructions on how to disable middle click go to:
       https://github.com/python-can-define-radio/python-course/blob/main/resources/disable-middle-click-how-to.md
       </details>
-</details>  
+</details>  --->
 
 <details><summary>Demonstrate the keyboard shortcuts. (Expand for details)</summary>
   
