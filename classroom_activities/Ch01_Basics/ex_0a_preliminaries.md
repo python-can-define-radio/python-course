@@ -4,6 +4,8 @@
     
 _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial](https://www.freecodecamp.org/learn/scientific-computing-with-python/learn-string-manipulation-by-building-a-cipher/step-1) or go and explore these [resources](https://github.com/python-can-define-radio/python-course/tree/main/resources)_.
 
+[Daily Schedule of Events](https://github.com/python-can-define-radio/python-course/blob/main/resources/toc-python.md)
+
 ### Prerequisites
 
 - Login to CVTE thin client
@@ -26,8 +28,6 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
         
         
 </details>
-
-[Daily Schedule of Events](https://github.com/python-can-define-radio/python-course/blob/main/resources/toc-python.md)
 
 <details><summary>Initial VS Code setup. (Expand for details)</summary>
 
