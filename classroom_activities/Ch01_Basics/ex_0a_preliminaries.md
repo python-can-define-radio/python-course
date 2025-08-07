@@ -12,7 +12,6 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
 - Create Ubuntu VM
 - Login to Ubuntu VM
 - Change student passwords
-- Launch VS Code
   
 <details><summary>Introductions. (Expand for details)</summary>
   
