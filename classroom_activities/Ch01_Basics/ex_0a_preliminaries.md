@@ -34,13 +34,11 @@ _Note: At any point, if you have extra time, work on this [FreeCodeCamp tutorial
      
   2. Open VS Code. (Right-click and `add to favorites` if you want it on your sidebar.)
      
-  3. Create a Python file to trigger the installation of the Python extension.
-     
-  4. Connect VS Code to that folder.  
+  3. Connect VS Code to that folder.  
     - file>open folder  
     - navigate to the folder you just created on the Desktop  
     - open
-  5. Close VS Code.
+  4. Close VS Code.
 </details>
 
 <!--- <details><summary>Link your computer to the student samba. (Expand for details)</summary>
