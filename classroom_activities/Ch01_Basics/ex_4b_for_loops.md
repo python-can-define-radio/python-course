@@ -215,6 +215,7 @@ Here's some more practice with for-loops.
 
 
 ## 20
+## (After doing the first few exercises in the randomness lesson, do this exercise.)
 ## Copy and modify the previous exercise so that it uses
 ## `random.sample` to pick only 3 names of the five available names.
 ## As before, display each name capitalized, all-lowercase, and all-uppercase.
