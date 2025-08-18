@@ -226,7 +226,8 @@ Try these, they should all print the exact same thing:
   ## 11b
   print("""Hello World
   Welcome to 
-  the Python Course""")
+  the Python
+  Course""")
   ```
 - Use the "\n" escape sequence inside your print function.
   ```
