@@ -10,7 +10,7 @@ You can run Python in online IDEs such as these:
 ### Links to Python built-ins
 
 [Python built-in functions](https://docs.python.org/3/library/functions.html)  
-[Python keywords](https://realpython.com/python-keywords)  
+[Python keywords](https://docs.python.org/3/reference/lexical_analysis.html#keywords)  
 [Python string methods](https://docs.python.org/3/library/stdtypes.html#string-methods)  
 [Python data types](https://docs.python.org/3/library/stdtypes.html)  
 [Python terminology](https://docs.python.org/3/glossary.html)  
