@@ -228,16 +228,30 @@ Here's some more practice with for-loops.
 
 ```python3
 ## 21
-## Using the given list.
 ## Ask the user for a letter.
 ## Ask the user for a number.
-## Create a for loop that finds names that start with the given letter.
+## Create a for loop that finds names from the list below that start with the given letter.
 ## and are longer than the provided number of characters.
 ## Display any name that meets both criteria.
 ## Match the names regardless of capitalization.
 ## At the end display "Those are the names that meet your criteria."
 actors = ["Timothy", "Arnold", "Jennifer", "Jason", "Sylvester", "Danny", "Bob", "Catherine"]
 ```
+
+```python3
+## 22
+## Given the same list as the previous exercise,
+## use a for-loop to display the first five characters of each name.
+## Display the information as follows:
+##   "The name is less than five characters long. Here is the name: ___"
+##   "The name is exactly five characters long. Here it is: ___"
+##   "Here are the first five characters of the name: ___"
+## Example of the first four lines of the expected output:
+## Here are the first five characters of the name: Timot
+## Here are the first five characters of the name: Arnol
+## Here are the first five characters of the name: Jenni
+## The name is exactly five characters long. Here it is: Jason
+## etc
 
 -----------
 
