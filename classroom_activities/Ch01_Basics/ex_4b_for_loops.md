@@ -228,6 +228,7 @@ Here's some more practice with for-loops.
 
 ```python3
 ## 21
+## Display the list of names shown below.
 ## Ask the user for a letter.
 ## Ask the user for a number.
 ## Create a for loop that finds names from the list below that start with the given letter.
@@ -236,6 +237,9 @@ Here's some more practice with for-loops.
 ## Match the names regardless of capitalization.
 ## At the end display "Those are the names that meet your criteria."
 actors = ["Timothy", "Arnold", "Jennifer", "Jason", "Sylvester", "Danny", "Bob", "Catherine"]
+##########################
+## INSTRUCTOR CHECK
+##########################
 ```
 
 ```python3
@@ -247,11 +251,30 @@ actors = ["Timothy", "Arnold", "Jennifer", "Jason", "Sylvester", "Danny", "Bob",
 ##   "The name is exactly five characters long. Here it is: ___"
 ##   "Here are the first five characters of the name: ___"
 ## Example of the first four lines of the expected output:
-## Here are the first five characters of the name: Timot
-## Here are the first five characters of the name: Arnol
-## Here are the first five characters of the name: Jenni
-## The name is exactly five characters long. Here it is: Jason
+## Here are the first 5 characters of the name: Timot
+## Here are the first 5 characters of the name: Arnol
+## Here are the first 5 characters of the name: Jenni
+## The name is exactly 5 characters long. Here it is: Jason
 ## etc
+##########################
+## INSTRUCTOR CHECK
+##########################
+```
+
+```python3
+## 23
+## Copy and modify the previous example to allow the
+## user to specify the number of characters
+## rather than using a fixed length of 5.
+```
+
+```python3
+## 24
+## Copy and modify the previous example.
+## Allow the user to filter the names based on the starting letter,
+## while keeping  the "Here are the first ... characters of the name" portion.
+## This should work regardless of whether the user
+## enters the letter capitalized or lowercase.
 ```
 
 -----------
