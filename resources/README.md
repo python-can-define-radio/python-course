@@ -17,9 +17,9 @@ You can run Python in online IDEs such as these:
 [Python Naming Conventions](https://peps.python.org/pep-0008/#naming-conventions)
 
 ### Full curriculums
+- [Python Bakery](https://blockpy.cis.udel.edu/assignments/textbook/bakery_textbook?embed=false): A great, friendly introduction. Includes the ability to try examples without leaving the page.
 - https://roadmap.sh/ : A wide variety of options, not limited to Python.
 - https://www.freecodecamp.org/ : Free lessons and certificates.
-  - **Top recommendation**: https://www.freecodecamp.org/learn/scientific-computing-with-python/
 - https://edube.org/ : Lessons and certificates. Some parts are free.
 - https://learn.arcade.academy/ : A great, organized set of resources that explains the basics of python and how to use the `arcade` library to make games. They have explanations of all of the foundational topics, such as [functions](https://learn.arcade.academy/en/latest/chapters/08_functions/functions.html), [if statements](https://learn.arcade.academy/en/latest/chapters/10_if_statements/if_statements.html), and [for loops](https://learn.arcade.academy/en/latest/chapters/11_for_loops/for_loops.html).
 - [Python for Everybody (PY4E)](https://www.py4e.com/lessons): Another set of lessons covering all of the basics, and some more advanced topics (fetching data over a network, etc)
