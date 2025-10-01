@@ -8,7 +8,7 @@ if (-not (Test-Path $persistenceRoot)) {
 }
 
 # Create sub directories
-$appFolders = @("VSCode", "chrome", "firefox", "msedge", "VSCode/User", "pyinterp")
+$appFolders = @("VSCode", "chrome", "firefox", "msedge", "VSCode/User", "pyinterp", "pyinstall")
 
 foreach ($folder in $appFolders) {
     $fullPath = Join-Path $persistenceRoot $folder
@@ -18,7 +18,9 @@ foreach ($folder in $appFolders) {
     }
 }
 
-Write-Host "Need to download and install python interpreter."
+# The following is based on https://github.com/ethanmartin223/PythonInstaller/blob/main/main.bat
+$pyinst = Join-Path $persistenceRoot "pyinstall"
+curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe -OutFile "$pyinst\python-3.8.10.exe"
 
 # Function to simplify shortcut creation
 function New-AppShortcut {
