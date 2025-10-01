@@ -2,11 +2,15 @@
 
 
 _realprint = print  # In case print accidentally gets overwritten later
-def _showvars(lcls: dict):
+def _showvars(lcls: dict, showjupvars: bool = True):
     def desirable(x):
-        und = x[0].startswith("_")
-        jupyterblacklist = x[0] in ["In", "Out", "get_ipython", "exit", "quit", "open"]
-        return (not und) and (not jupyterblacklist)
+        uscore = x[0].startswith("_")
+        jupyterblacklist = ["In", "Out", "get_ipython", "exit", "quit", "open"]
+        blisted = x[0] in jupyterblacklist
+        if showjupvars:
+            return not uscore
+        else:
+            return (not uscore) and (not blisted)
     yellow = "\x1b[33m"
     endcol = "\x1b[0m"
     without_undesirable = filter(desirable, lcls.items())
