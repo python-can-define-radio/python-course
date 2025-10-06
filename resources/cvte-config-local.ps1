@@ -76,18 +76,18 @@ New-AppShortcut -targetExe $codeExe -arguments $codeArgs -shortcutPath (Join-Pat
 # Create shortcut for Chrome that uses persistence folder for user data
 $chromeExe = Join-Path $pf64 "Google\Chrome\Application\chrome.exe"
 $chromeArgs = "--user-data-dir=""$persistenceRoot\chrome"""
-New-AppShortcut -targetExe $chromeExe -arguments $chromeArgs -shortcutPath (Join-Path $documentsPath "Launch Chrome.lnk")
+New-AppShortcut -targetExe $chromeExe -arguments $chromeArgs -shortcutPath (Join-Path $documentsPath "Persistent Chrome.lnk")
 
 # Create shortcut for Edge that uses persistence folder for user data
 # Note: There are two methods shown to locate Edge - environment variable and direct path
 $edgeExe = Join-Path $pf86 "Microsoft\Edge\Application\msedge.exe"
 $edgeArgs = "--user-data-dir=$persistenceRoot\msedge"
-New-AppShortcut -targetExe $edgeExe -arguments $edgeArgs -shortcutPath (Join-Path $documentsPath "Launch Edge.lnk")
+New-AppShortcut -targetExe $edgeExe -arguments $edgeArgs -shortcutPath (Join-Path $documentsPath "Persistent Edge.lnk")
 
 # Create shortcut for Firefox that uses persistence folder for user profile
 $firefoxExe = Join-Path $pf64 "Mozilla Firefox\firefox.exe"
 $firefoxArgs = "-profile ""$persistenceRoot\firefox"""
-New-AppShortcut -targetExe $firefoxExe -arguments $firefoxArgs -shortcutPath (Join-Path $documentsPath "Launch Firefox.lnk")
+New-AppShortcut -targetExe $firefoxExe -arguments $firefoxArgs -shortcutPath (Join-Path $documentsPath "Persistent Firefox.lnk")
 
 
 # # create VSCode/User/settings.json
