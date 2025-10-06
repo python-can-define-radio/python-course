@@ -18,9 +18,9 @@ foreach ($folder in $appFolders) {
     }
 }
 
-# The following is based on https://github.com/ethanmartin223/PythonInstaller/blob/main/main.bat
-$pyinst = Join-Path $persistenceRoot "pyinstall"
-curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe -OutFile "$pyinst\python-3.8.10.exe"
+# # The following is based on https://github.com/ethanmartin223/PythonInstaller/blob/main/main.bat
+# $pyinst = Join-Path $persistenceRoot "pyinstall"
+# curl https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe -OutFile "$pyinst\python-3.8.10.exe"
 
 # Function to simplify shortcut creation
 function New-AppShortcut {
@@ -51,27 +51,27 @@ $codeArgs = "--user-data-dir $persistenceRoot\VSCode --extensions-dir $persisten
 # Create shortcut for VSCode that uses persistence folder for user data
 New-AppShortcut -targetExe $codeExe -arguments $codeArgs -shortcutPath (Join-Path $documentsPath "Persistent VSCode.lnk")
 
-# Install extensions
-$WantAutoInstall = Read-Host "Install python extension automatically ('a'), or skip (press enter)?"
-if ($WantAutoInstall -eq "a") {
-	$extensions = @("ms-python.python",)
-	foreach ($extension in $extensions) {
-		Write-Host "Installing extension: $extension"
+# # Install extensions
+# $WantAutoInstall = Read-Host "Install python extension automatically ('a'), or skip (press enter)?"
+# if ($WantAutoInstall -eq "a") {
+# 	$extensions = @("ms-python.python",)
+# 	foreach ($extension in $extensions) {
+# 		Write-Host "Installing extension: $extension"
 		
-		# Split arguments into array for Start-Process
-		$arguments = @(
-			"--user-data-dir", "$persistenceRoot\VSCode",
-			"--extensions-dir", "$persistenceRoot\VSCode\extensions", 
-			"--install-extension", $extension,
-			"--force",
-			"--no-sandbox"
-		)
+# 		# Split arguments into array for Start-Process
+# 		$arguments = @(
+# 			"--user-data-dir", "$persistenceRoot\VSCode",
+# 			"--extensions-dir", "$persistenceRoot\VSCode\extensions", 
+# 			"--install-extension", $extension,
+# 			"--force",
+# 			"--no-sandbox"
+# 		)
 		
-		Start-Process -FilePath $codeExe -ArgumentList $arguments -Wait -PassThru -NoNewWindow
-	}
-} else {
-	Write-Host "Skipping extension installation; you'll need to do it manually in VS Code."
-}
+# 		Start-Process -FilePath $codeExe -ArgumentList $arguments -Wait -PassThru -NoNewWindow
+# 	}
+# } else {
+# 	Write-Host "Skipping extension installation; you'll need to do it manually in VS Code."
+# }
 
 # Create shortcut for Chrome that uses persistence folder for user data
 $chromeExe = Join-Path $pf64 "Google\Chrome\Application\chrome.exe"
