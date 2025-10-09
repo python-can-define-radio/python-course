@@ -235,4 +235,20 @@ if opinion == ["yes", "Yes", "YES"]:
 else:
     print("You don't like it? You should try it again some time.")
 
+
+## 17
+## Fix this example:
+print("Choose an example:")
+print("  print")
+print("  input")
+choice = input("? ")
+if print:
+    print("Print looks like this:")
+    print("print(something)")
+elif input:
+    print("Input looks like this:")
+    print("somevar = input(something)")
+else:
+    print("unrecognized.")
+
 ```
