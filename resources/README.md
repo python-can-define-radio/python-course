@@ -4,7 +4,7 @@
 
 You can run Python in online IDEs such as these:
 
-- [trinket.io](https://trinket.io/python3)
+- [Coddy](https://coddy.tech/playground/python)
 - [online-python.com](https://www.online-python.com/)
 
 ### Links to Python built-ins
